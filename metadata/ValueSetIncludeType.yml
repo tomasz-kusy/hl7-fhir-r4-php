@@ -1,0 +1,64 @@
+TKusy\Hl7FhirR4\ValueSetIncludeType:
+    properties:
+        system:
+            expose: true
+            access_type: public_method
+            serialized_name: system
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSystem
+                setter: setSystem
+            type: TKusy\Hl7FhirR4\UriType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7FhirR4\StringType
+        concept:
+            expose: true
+            access_type: public_method
+            serialized_name: concept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcept
+                setter: setConcept
+            xml_list:
+                inline: true
+                entry_name: concept
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ValueSetConceptType>
+        filter:
+            expose: true
+            access_type: public_method
+            serialized_name: filter
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFilter
+                setter: setFilter
+            xml_list:
+                inline: true
+                entry_name: filter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ValueSetFilterType>
+        valueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSet
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSet
+                setter: setValueSet
+            xml_list:
+                inline: true
+                entry_name: valueSet
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CanonicalType>

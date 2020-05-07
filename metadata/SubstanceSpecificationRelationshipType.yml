@@ -1,0 +1,116 @@
+TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
+    properties:
+        substanceReference:
+            expose: true
+            access_type: public_method
+            serialized_name: substanceReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstanceReference
+                setter: setSubstanceReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        substanceCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: substanceCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstanceCodeableConcept
+                setter: setSubstanceCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        isDefining:
+            expose: true
+            access_type: public_method
+            serialized_name: isDefining
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsDefining
+                setter: setIsDefining
+            type: TKusy\Hl7FhirR4\BooleanType
+        amountQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: amountQuantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountQuantity
+                setter: setAmountQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        amountRange:
+            expose: true
+            access_type: public_method
+            serialized_name: amountRange
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountRange
+                setter: setAmountRange
+            type: TKusy\Hl7FhirR4\RangeType
+        amountRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: amountRatio
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountRatio
+                setter: setAmountRatio
+            type: TKusy\Hl7FhirR4\RatioType
+        amountString:
+            expose: true
+            access_type: public_method
+            serialized_name: amountString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountString
+                setter: setAmountString
+            type: TKusy\Hl7FhirR4\StringType
+        amountRatioLowLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: amountRatioLowLimit
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountRatioLowLimit
+                setter: setAmountRatioLowLimit
+            type: TKusy\Hl7FhirR4\RatioType
+        amountType:
+            expose: true
+            access_type: public_method
+            serialized_name: amountType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountType
+                setter: setAmountType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>

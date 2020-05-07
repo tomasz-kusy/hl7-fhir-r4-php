@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\MedicationIngredientType:
+    properties:
+        itemCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: itemCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemCodeableConcept
+                setter: setItemCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        itemReference:
+            expose: true
+            access_type: public_method
+            serialized_name: itemReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemReference
+                setter: setItemReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: isActive
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: TKusy\Hl7FhirR4\BooleanType
+        strength:
+            expose: true
+            access_type: public_method
+            serialized_name: strength
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrength
+                setter: setStrength
+            type: TKusy\Hl7FhirR4\RatioType

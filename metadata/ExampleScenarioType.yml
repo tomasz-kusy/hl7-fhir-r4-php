@@ -1,0 +1,204 @@
+TKusy\Hl7FhirR4\ExampleScenarioType:
+    properties:
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7FhirR4\UriType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7FhirR4\StringType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\PublicationStatusType
+        experimental:
+            expose: true
+            access_type: public_method
+            serialized_name: experimental
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExperimental
+                setter: setExperimental
+            type: TKusy\Hl7FhirR4\BooleanType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7FhirR4\DateTimeType
+        publisher:
+            expose: true
+            access_type: public_method
+            serialized_name: publisher
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublisher
+                setter: setPublisher
+            type: TKusy\Hl7FhirR4\StringType
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: contact
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContact
+                setter: setContact
+            xml_list:
+                inline: true
+                entry_name: contact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContactDetailType>
+        useContext:
+            expose: true
+            access_type: public_method
+            serialized_name: useContext
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUseContext
+                setter: setUseContext
+            xml_list:
+                inline: true
+                entry_name: useContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\UsageContextType>
+        jurisdiction:
+            expose: true
+            access_type: public_method
+            serialized_name: jurisdiction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJurisdiction
+                setter: setJurisdiction
+            xml_list:
+                inline: true
+                entry_name: jurisdiction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        copyright:
+            expose: true
+            access_type: public_method
+            serialized_name: copyright
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopyright
+                setter: setCopyright
+            type: TKusy\Hl7FhirR4\MarkdownType
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            type: TKusy\Hl7FhirR4\MarkdownType
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: actor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActor
+                setter: setActor
+            xml_list:
+                inline: true
+                entry_name: actor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioActorType>
+        instance:
+            expose: true
+            access_type: public_method
+            serialized_name: instance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstance
+                setter: setInstance
+            xml_list:
+                inline: true
+                entry_name: instance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioInstanceType>
+        process:
+            expose: true
+            access_type: public_method
+            serialized_name: process
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcess
+                setter: setProcess
+            xml_list:
+                inline: true
+                entry_name: process
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioProcessType>
+        workflow:
+            expose: true
+            access_type: public_method
+            serialized_name: workflow
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWorkflow
+                setter: setWorkflow
+            xml_list:
+                inline: true
+                entry_name: workflow
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CanonicalType>

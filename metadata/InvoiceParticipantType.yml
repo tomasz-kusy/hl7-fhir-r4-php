@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\InvoiceParticipantType:
+    properties:
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: actor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActor
+                setter: setActor
+            type: TKusy\Hl7FhirR4\ReferenceType

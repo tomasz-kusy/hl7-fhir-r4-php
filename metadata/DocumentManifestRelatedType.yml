@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\DocumentManifestRelatedType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7FhirR4\IdentifierType
+        ref:
+            expose: true
+            access_type: public_method
+            serialized_name: ref
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRef
+                setter: setRef
+            type: TKusy\Hl7FhirR4\ReferenceType

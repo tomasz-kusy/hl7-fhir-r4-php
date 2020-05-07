@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\MeasurePopulationType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        criteria:
+            expose: true
+            access_type: public_method
+            serialized_name: criteria
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCriteria
+                setter: setCriteria
+            type: TKusy\Hl7FhirR4\ExpressionType

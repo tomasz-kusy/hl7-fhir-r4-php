@@ -1,0 +1,602 @@
+TKusy\Hl7FhirR4\StructureMapSourceType:
+    properties:
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: context
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContext
+                setter: setContext
+            type: TKusy\Hl7FhirR4\IdType
+        min:
+            expose: true
+            access_type: public_method
+            serialized_name: min
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMin
+                setter: setMin
+            type: TKusy\Hl7FhirR4\IntegerType
+        max:
+            expose: true
+            access_type: public_method
+            serialized_name: max
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMax
+                setter: setMax
+            type: TKusy\Hl7FhirR4\StringType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\StringType
+        defaultValueBase64Binary:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueBase64Binary
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueBase64Binary
+                setter: setDefaultValueBase64Binary
+            type: TKusy\Hl7FhirR4\Base64BinaryType
+        defaultValueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueBoolean
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueBoolean
+                setter: setDefaultValueBoolean
+            type: TKusy\Hl7FhirR4\BooleanType
+        defaultValueCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueCanonical
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueCanonical
+                setter: setDefaultValueCanonical
+            type: TKusy\Hl7FhirR4\CanonicalType
+        defaultValueCode:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueCode
+                setter: setDefaultValueCode
+            type: TKusy\Hl7FhirR4\CodeType
+        defaultValueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDate
+                setter: setDefaultValueDate
+            type: TKusy\Hl7FhirR4\DateType
+        defaultValueDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDateTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDateTime
+                setter: setDefaultValueDateTime
+            type: TKusy\Hl7FhirR4\DateTimeType
+        defaultValueDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDecimal
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDecimal
+                setter: setDefaultValueDecimal
+            type: TKusy\Hl7FhirR4\DecimalType
+        defaultValueId:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueId
+                setter: setDefaultValueId
+            type: TKusy\Hl7FhirR4\IdType
+        defaultValueInstant:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueInstant
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueInstant
+                setter: setDefaultValueInstant
+            type: TKusy\Hl7FhirR4\InstantType
+        defaultValueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueInteger
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueInteger
+                setter: setDefaultValueInteger
+            type: TKusy\Hl7FhirR4\IntegerType
+        defaultValueMarkdown:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueMarkdown
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueMarkdown
+                setter: setDefaultValueMarkdown
+            type: TKusy\Hl7FhirR4\MarkdownType
+        defaultValueOid:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueOid
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueOid
+                setter: setDefaultValueOid
+            type: TKusy\Hl7FhirR4\OidType
+        defaultValuePositiveInt:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValuePositiveInt
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValuePositiveInt
+                setter: setDefaultValuePositiveInt
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        defaultValueString:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueString
+                setter: setDefaultValueString
+            type: TKusy\Hl7FhirR4\StringType
+        defaultValueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueTime
+                setter: setDefaultValueTime
+            type: TKusy\Hl7FhirR4\TimeType
+        defaultValueUnsignedInt:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueUnsignedInt
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueUnsignedInt
+                setter: setDefaultValueUnsignedInt
+            type: TKusy\Hl7FhirR4\UnsignedIntType
+        defaultValueUri:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueUri
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueUri
+                setter: setDefaultValueUri
+            type: TKusy\Hl7FhirR4\UriType
+        defaultValueUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueUrl
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueUrl
+                setter: setDefaultValueUrl
+            type: TKusy\Hl7FhirR4\UrlType
+        defaultValueUuid:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueUuid
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueUuid
+                setter: setDefaultValueUuid
+            type: TKusy\Hl7FhirR4\UuidType
+        defaultValueAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueAddress
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueAddress
+                setter: setDefaultValueAddress
+            type: TKusy\Hl7FhirR4\AddressType
+        defaultValueAge:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueAge
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueAge
+                setter: setDefaultValueAge
+            type: TKusy\Hl7FhirR4\AgeType
+        defaultValueAnnotation:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueAnnotation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueAnnotation
+                setter: setDefaultValueAnnotation
+            type: TKusy\Hl7FhirR4\AnnotationType
+        defaultValueAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueAttachment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueAttachment
+                setter: setDefaultValueAttachment
+            type: TKusy\Hl7FhirR4\AttachmentType
+        defaultValueCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueCodeableConcept
+                setter: setDefaultValueCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        defaultValueCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueCoding
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueCoding
+                setter: setDefaultValueCoding
+            type: TKusy\Hl7FhirR4\CodingType
+        defaultValueContactPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueContactPoint
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueContactPoint
+                setter: setDefaultValueContactPoint
+            type: TKusy\Hl7FhirR4\ContactPointType
+        defaultValueCount:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueCount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueCount
+                setter: setDefaultValueCount
+            type: TKusy\Hl7FhirR4\CountType
+        defaultValueDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDistance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDistance
+                setter: setDefaultValueDistance
+            type: TKusy\Hl7FhirR4\DistanceType
+        defaultValueDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDuration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDuration
+                setter: setDefaultValueDuration
+            type: TKusy\Hl7FhirR4\DurationType
+        defaultValueHumanName:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueHumanName
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueHumanName
+                setter: setDefaultValueHumanName
+            type: TKusy\Hl7FhirR4\HumanNameType
+        defaultValueIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueIdentifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueIdentifier
+                setter: setDefaultValueIdentifier
+            type: TKusy\Hl7FhirR4\IdentifierType
+        defaultValueMoney:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueMoney
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueMoney
+                setter: setDefaultValueMoney
+            type: TKusy\Hl7FhirR4\MoneyType
+        defaultValuePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValuePeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValuePeriod
+                setter: setDefaultValuePeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        defaultValueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueQuantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueQuantity
+                setter: setDefaultValueQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        defaultValueRange:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueRange
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueRange
+                setter: setDefaultValueRange
+            type: TKusy\Hl7FhirR4\RangeType
+        defaultValueRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueRatio
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueRatio
+                setter: setDefaultValueRatio
+            type: TKusy\Hl7FhirR4\RatioType
+        defaultValueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueReference
+                setter: setDefaultValueReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        defaultValueSampledData:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueSampledData
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueSampledData
+                setter: setDefaultValueSampledData
+            type: TKusy\Hl7FhirR4\SampledDataType
+        defaultValueSignature:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueSignature
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueSignature
+                setter: setDefaultValueSignature
+            type: TKusy\Hl7FhirR4\SignatureType
+        defaultValueTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueTiming
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueTiming
+                setter: setDefaultValueTiming
+            type: TKusy\Hl7FhirR4\TimingType
+        defaultValueContactDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueContactDetail
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueContactDetail
+                setter: setDefaultValueContactDetail
+            type: TKusy\Hl7FhirR4\ContactDetailType
+        defaultValueContributor:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueContributor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueContributor
+                setter: setDefaultValueContributor
+            type: TKusy\Hl7FhirR4\ContributorType
+        defaultValueDataRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDataRequirement
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDataRequirement
+                setter: setDefaultValueDataRequirement
+            type: TKusy\Hl7FhirR4\DataRequirementType
+        defaultValueExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueExpression
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueExpression
+                setter: setDefaultValueExpression
+            type: TKusy\Hl7FhirR4\ExpressionType
+        defaultValueParameterDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueParameterDefinition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueParameterDefinition
+                setter: setDefaultValueParameterDefinition
+            type: TKusy\Hl7FhirR4\ParameterDefinitionType
+        defaultValueRelatedArtifact:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueRelatedArtifact
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueRelatedArtifact
+                setter: setDefaultValueRelatedArtifact
+            type: TKusy\Hl7FhirR4\RelatedArtifactType
+        defaultValueTriggerDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueTriggerDefinition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueTriggerDefinition
+                setter: setDefaultValueTriggerDefinition
+            type: TKusy\Hl7FhirR4\TriggerDefinitionType
+        defaultValueUsageContext:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueUsageContext
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueUsageContext
+                setter: setDefaultValueUsageContext
+            type: TKusy\Hl7FhirR4\UsageContextType
+        defaultValueDosage:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueDosage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueDosage
+                setter: setDefaultValueDosage
+            type: TKusy\Hl7FhirR4\DosageType
+        defaultValueMeta:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValueMeta
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValueMeta
+                setter: setDefaultValueMeta
+            type: TKusy\Hl7FhirR4\MetaType
+        element:
+            expose: true
+            access_type: public_method
+            serialized_name: element
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getElement
+                setter: setElement
+            type: TKusy\Hl7FhirR4\StringType
+        listMode:
+            expose: true
+            access_type: public_method
+            serialized_name: listMode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getListMode
+                setter: setListMode
+            type: TKusy\Hl7FhirR4\StructureMapSourceListModeType
+        variable:
+            expose: true
+            access_type: public_method
+            serialized_name: variable
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVariable
+                setter: setVariable
+            type: TKusy\Hl7FhirR4\IdType
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: TKusy\Hl7FhirR4\StringType
+        check:
+            expose: true
+            access_type: public_method
+            serialized_name: check
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCheck
+                setter: setCheck
+            type: TKusy\Hl7FhirR4\StringType
+        logMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: logMessage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLogMessage
+                setter: setLogMessage
+            type: TKusy\Hl7FhirR4\StringType

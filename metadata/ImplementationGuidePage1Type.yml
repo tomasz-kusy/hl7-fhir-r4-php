@@ -1,0 +1,36 @@
+TKusy\Hl7FhirR4\ImplementationGuidePage1Type:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7FhirR4\StringType
+        anchor:
+            expose: true
+            access_type: public_method
+            serialized_name: anchor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnchor
+                setter: setAnchor
+            xml_list:
+                inline: true
+                entry_name: anchor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>

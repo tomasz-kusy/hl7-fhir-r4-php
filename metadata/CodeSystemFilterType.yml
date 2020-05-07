@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\CodeSystemFilterType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        operator:
+            expose: true
+            access_type: public_method
+            serialized_name: operator
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperator
+                setter: setOperator
+            xml_list:
+                inline: true
+                entry_name: operator
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\FilterOperatorType>
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7FhirR4\StringType

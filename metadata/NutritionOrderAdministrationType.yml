@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\NutritionOrderAdministrationType:
+    properties:
+        schedule:
+            expose: true
+            access_type: public_method
+            serialized_name: schedule
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSchedule
+                setter: setSchedule
+            type: TKusy\Hl7FhirR4\TimingType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        rateQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: rateQuantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRateQuantity
+                setter: setRateQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        rateRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: rateRatio
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRateRatio
+                setter: setRateRatio
+            type: TKusy\Hl7FhirR4\RatioType

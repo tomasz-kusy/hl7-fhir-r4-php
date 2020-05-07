@@ -1,0 +1,50 @@
+TKusy\Hl7FhirR4\ExampleScenarioStepType:
+    properties:
+        process:
+            expose: true
+            access_type: public_method
+            serialized_name: process
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcess
+                setter: setProcess
+            xml_list:
+                inline: true
+                entry_name: process
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioProcessType>
+        pause:
+            expose: true
+            access_type: public_method
+            serialized_name: pause
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPause
+                setter: setPause
+            type: TKusy\Hl7FhirR4\BooleanType
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: operation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            type: TKusy\Hl7FhirR4\ExampleScenarioOperationType
+        alternative:
+            expose: true
+            access_type: public_method
+            serialized_name: alternative
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAlternative
+                setter: setAlternative
+            xml_list:
+                inline: true
+                entry_name: alternative
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioAlternativeType>

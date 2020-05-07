@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\DeviceVersionType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        component:
+            expose: true
+            access_type: public_method
+            serialized_name: component
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComponent
+                setter: setComponent
+            type: TKusy\Hl7FhirR4\IdentifierType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7FhirR4\StringType

@@ -1,0 +1,156 @@
+TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
+    properties:
+        sourceMaterialClass:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceMaterialClass
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceMaterialClass
+                setter: setSourceMaterialClass
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        sourceMaterialType:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceMaterialType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceMaterialType
+                setter: setSourceMaterialType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        sourceMaterialState:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceMaterialState
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceMaterialState
+                setter: setSourceMaterialState
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        organismId:
+            expose: true
+            access_type: public_method
+            serialized_name: organismId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganismId
+                setter: setOrganismId
+            type: TKusy\Hl7FhirR4\IdentifierType
+        organismName:
+            expose: true
+            access_type: public_method
+            serialized_name: organismName
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganismName
+                setter: setOrganismName
+            type: TKusy\Hl7FhirR4\StringType
+        parentSubstanceId:
+            expose: true
+            access_type: public_method
+            serialized_name: parentSubstanceId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParentSubstanceId
+                setter: setParentSubstanceId
+            xml_list:
+                inline: true
+                entry_name: parentSubstanceId
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        parentSubstanceName:
+            expose: true
+            access_type: public_method
+            serialized_name: parentSubstanceName
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParentSubstanceName
+                setter: setParentSubstanceName
+            xml_list:
+                inline: true
+                entry_name: parentSubstanceName
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        countryOfOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: countryOfOrigin
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountryOfOrigin
+                setter: setCountryOfOrigin
+            xml_list:
+                inline: true
+                entry_name: countryOfOrigin
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        geographicalLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: geographicalLocation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeographicalLocation
+                setter: setGeographicalLocation
+            xml_list:
+                inline: true
+                entry_name: geographicalLocation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        developmentStage:
+            expose: true
+            access_type: public_method
+            serialized_name: developmentStage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevelopmentStage
+                setter: setDevelopmentStage
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        fractionDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: fractionDescription
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFractionDescription
+                setter: setFractionDescription
+            xml_list:
+                inline: true
+                entry_name: fractionDescription
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceSourceMaterialFractionDescriptionType>
+        organism:
+            expose: true
+            access_type: public_method
+            serialized_name: organism
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganism
+                setter: setOrganism
+            type: TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType
+        partDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: partDescription
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPartDescription
+                setter: setPartDescription
+            xml_list:
+                inline: true
+                entry_name: partDescription
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceSourceMaterialPartDescriptionType>

@@ -1,0 +1,66 @@
+TKusy\Hl7FhirR4\BundleEntryType:
+    properties:
+        link:
+            expose: true
+            access_type: public_method
+            serialized_name: link
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLink
+                setter: setLink
+            xml_list:
+                inline: true
+                entry_name: link
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\BundleLinkType>
+        fullUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: fullUrl
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFullUrl
+                setter: setFullUrl
+            type: TKusy\Hl7FhirR4\UriType
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            type: TKusy\Hl7FhirR4\ResourceContainerType
+        search:
+            expose: true
+            access_type: public_method
+            serialized_name: search
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearch
+                setter: setSearch
+            type: TKusy\Hl7FhirR4\BundleSearchType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7FhirR4\BundleRequestType
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: response
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: TKusy\Hl7FhirR4\BundleResponseType

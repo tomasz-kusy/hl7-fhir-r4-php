@@ -1,0 +1,118 @@
+TKusy\Hl7FhirR4\CoverageEligibilityRequestItemType:
+    properties:
+        supportingInfoSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: supportingInfoSequence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportingInfoSequence
+                setter: setSupportingInfoSequence
+            xml_list:
+                inline: true
+                entry_name: supportingInfoSequence
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\PositiveIntType>
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        productOrService:
+            expose: true
+            access_type: public_method
+            serialized_name: productOrService
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductOrService
+                setter: setProductOrService
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        modifier:
+            expose: true
+            access_type: public_method
+            serialized_name: modifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModifier
+                setter: setModifier
+            xml_list:
+                inline: true
+                entry_name: modifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        provider:
+            expose: true
+            access_type: public_method
+            serialized_name: provider
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProvider
+                setter: setProvider
+            type: TKusy\Hl7FhirR4\ReferenceType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        unitPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: unitPrice
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitPrice
+                setter: setUnitPrice
+            type: TKusy\Hl7FhirR4\MoneyType
+        facility:
+            expose: true
+            access_type: public_method
+            serialized_name: facility
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFacility
+                setter: setFacility
+            type: TKusy\Hl7FhirR4\ReferenceType
+        diagnosis:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosis
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnosis
+                setter: setDiagnosis
+            xml_list:
+                inline: true
+                entry_name: diagnosis
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CoverageEligibilityRequestDiagnosisType>
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: detail
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            xml_list:
+                inline: true
+                entry_name: detail
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>

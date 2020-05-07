@@ -1,0 +1,68 @@
+TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
+    properties:
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7FhirR4\StringType
+        gene:
+            expose: true
+            access_type: public_method
+            serialized_name: gene
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGene
+                setter: setGene
+            xml_list:
+                inline: true
+                entry_name: gene
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceReferenceInformationGeneType>
+        geneElement:
+            expose: true
+            access_type: public_method
+            serialized_name: geneElement
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeneElement
+                setter: setGeneElement
+            xml_list:
+                inline: true
+                entry_name: geneElement
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceReferenceInformationGeneElementType>
+        classification:
+            expose: true
+            access_type: public_method
+            serialized_name: classification
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassification
+                setter: setClassification
+            xml_list:
+                inline: true
+                entry_name: classification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType>
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_list:
+                inline: true
+                entry_name: target
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceReferenceInformationTargetType>

@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\StructureDefinition:
+    xml_root_name: StructureDefinition
+    xml_root_namespace: 'http://hl7.org/fhir'

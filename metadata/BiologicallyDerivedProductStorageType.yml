@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        temperature:
+            expose: true
+            access_type: public_method
+            serialized_name: temperature
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTemperature
+                setter: setTemperature
+            type: TKusy\Hl7FhirR4\DecimalType
+        scale:
+            expose: true
+            access_type: public_method
+            serialized_name: scale
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScale
+                setter: setScale
+            type: TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageScaleType
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            type: TKusy\Hl7FhirR4\PeriodType

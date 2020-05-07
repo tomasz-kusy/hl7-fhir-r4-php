@@ -1,0 +1,36 @@
+TKusy\Hl7FhirR4\SubstanceReferenceInformationGeneElementType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        element:
+            expose: true
+            access_type: public_method
+            serialized_name: element
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getElement
+                setter: setElement
+            type: TKusy\Hl7FhirR4\IdentifierType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>

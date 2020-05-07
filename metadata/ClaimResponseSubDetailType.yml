@@ -1,0 +1,40 @@
+TKusy\Hl7FhirR4\ClaimResponseSubDetailType:
+    properties:
+        subDetailSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: subDetailSequence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubDetailSequence
+                setter: setSubDetailSequence
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        noteNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: noteNumber
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNoteNumber
+                setter: setNoteNumber
+            xml_list:
+                inline: true
+                entry_name: noteNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\PositiveIntType>
+        adjudication:
+            expose: true
+            access_type: public_method
+            serialized_name: adjudication
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdjudication
+                setter: setAdjudication
+            xml_list:
+                inline: true
+                entry_name: adjudication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ClaimResponseAdjudicationType>

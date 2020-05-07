@@ -1,0 +1,132 @@
+TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        productCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: productCategory
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductCategory
+                setter: setProductCategory
+            type: TKusy\Hl7FhirR4\BiologicallyDerivedProductCategoryType
+        productCode:
+            expose: true
+            access_type: public_method
+            serialized_name: productCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductCode
+                setter: setProductCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\BiologicallyDerivedProductStatusType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            xml_list:
+                inline: true
+                entry_name: request
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\IntegerType
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: parent
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParent
+                setter: setParent
+            xml_list:
+                inline: true
+                entry_name: parent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        collection:
+            expose: true
+            access_type: public_method
+            serialized_name: collection
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCollection
+                setter: setCollection
+            type: TKusy\Hl7FhirR4\BiologicallyDerivedProductCollectionType
+        processing:
+            expose: true
+            access_type: public_method
+            serialized_name: processing
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcessing
+                setter: setProcessing
+            xml_list:
+                inline: true
+                entry_name: processing
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\BiologicallyDerivedProductProcessingType>
+        manipulation:
+            expose: true
+            access_type: public_method
+            serialized_name: manipulation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManipulation
+                setter: setManipulation
+            type: TKusy\Hl7FhirR4\BiologicallyDerivedProductManipulationType
+        storage:
+            expose: true
+            access_type: public_method
+            serialized_name: storage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStorage
+                setter: setStorage
+            xml_list:
+                inline: true
+                entry_name: storage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType>

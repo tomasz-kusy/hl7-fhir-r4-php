@@ -1,0 +1,86 @@
+TKusy\Hl7FhirR4\EnrollmentResponseType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\FinancialResourceStatusCodesType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7FhirR4\ReferenceType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7FhirR4\RemittanceOutcomeType
+        disposition:
+            expose: true
+            access_type: public_method
+            serialized_name: disposition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisposition
+                setter: setDisposition
+            type: TKusy\Hl7FhirR4\StringType
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: TKusy\Hl7FhirR4\DateTimeType
+        organization:
+            expose: true
+            access_type: public_method
+            serialized_name: organization
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganization
+                setter: setOrganization
+            type: TKusy\Hl7FhirR4\ReferenceType
+        requestProvider:
+            expose: true
+            access_type: public_method
+            serialized_name: requestProvider
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequestProvider
+                setter: setRequestProvider
+            type: TKusy\Hl7FhirR4\ReferenceType

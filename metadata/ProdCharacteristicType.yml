@@ -1,0 +1,124 @@
+TKusy\Hl7FhirR4\ProdCharacteristicType:
+    properties:
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: TKusy\Hl7FhirR4\QuantityType
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: TKusy\Hl7FhirR4\QuantityType
+        depth:
+            expose: true
+            access_type: public_method
+            serialized_name: depth
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDepth
+                setter: setDepth
+            type: TKusy\Hl7FhirR4\QuantityType
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: weight
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: TKusy\Hl7FhirR4\QuantityType
+        nominalVolume:
+            expose: true
+            access_type: public_method
+            serialized_name: nominalVolume
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNominalVolume
+                setter: setNominalVolume
+            type: TKusy\Hl7FhirR4\QuantityType
+        externalDiameter:
+            expose: true
+            access_type: public_method
+            serialized_name: externalDiameter
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExternalDiameter
+                setter: setExternalDiameter
+            type: TKusy\Hl7FhirR4\QuantityType
+        shape:
+            expose: true
+            access_type: public_method
+            serialized_name: shape
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getShape
+                setter: setShape
+            type: TKusy\Hl7FhirR4\StringType
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: color
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getColor
+                setter: setColor
+            xml_list:
+                inline: true
+                entry_name: color
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        imprint:
+            expose: true
+            access_type: public_method
+            serialized_name: imprint
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImprint
+                setter: setImprint
+            xml_list:
+                inline: true
+                entry_name: imprint
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        image:
+            expose: true
+            access_type: public_method
+            serialized_name: image
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImage
+                setter: setImage
+            xml_list:
+                inline: true
+                entry_name: image
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\AttachmentType>
+        scoring:
+            expose: true
+            access_type: public_method
+            serialized_name: scoring
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScoring
+                setter: setScoring
+            type: TKusy\Hl7FhirR4\CodeableConceptType

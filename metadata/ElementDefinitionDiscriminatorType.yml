@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\ElementDefinitionDiscriminatorType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\DiscriminatorType
+        path:
+            expose: true
+            access_type: public_method
+            serialized_name: path
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPath
+                setter: setPath
+            type: TKusy\Hl7FhirR4\StringType

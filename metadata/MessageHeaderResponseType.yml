@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\MessageHeaderResponseType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7FhirR4\IdType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\ResponseType
+        details:
+            expose: true
+            access_type: public_method
+            serialized_name: details
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetails
+                setter: setDetails
+            type: TKusy\Hl7FhirR4\ReferenceType

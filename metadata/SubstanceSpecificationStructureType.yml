@@ -1,0 +1,94 @@
+TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
+    properties:
+        stereochemistry:
+            expose: true
+            access_type: public_method
+            serialized_name: stereochemistry
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStereochemistry
+                setter: setStereochemistry
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        opticalActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: opticalActivity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOpticalActivity
+                setter: setOpticalActivity
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        molecularFormula:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularFormula
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularFormula
+                setter: setMolecularFormula
+            type: TKusy\Hl7FhirR4\StringType
+        molecularFormulaByMoiety:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularFormulaByMoiety
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularFormulaByMoiety
+                setter: setMolecularFormulaByMoiety
+            type: TKusy\Hl7FhirR4\StringType
+        isotope:
+            expose: true
+            access_type: public_method
+            serialized_name: isotope
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsotope
+                setter: setIsotope
+            xml_list:
+                inline: true
+                entry_name: isotope
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceSpecificationIsotopeType>
+        molecularWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularWeight
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularWeight
+                setter: setMolecularWeight
+            type: TKusy\Hl7FhirR4\SubstanceSpecificationMolecularWeightType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        representation:
+            expose: true
+            access_type: public_method
+            serialized_name: representation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepresentation
+                setter: setRepresentation
+            xml_list:
+                inline: true
+                entry_name: representation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceSpecificationRepresentationType>

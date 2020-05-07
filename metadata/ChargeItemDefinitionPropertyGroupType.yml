@@ -1,0 +1,30 @@
+TKusy\Hl7FhirR4\ChargeItemDefinitionPropertyGroupType:
+    properties:
+        applicability:
+            expose: true
+            access_type: public_method
+            serialized_name: applicability
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApplicability
+                setter: setApplicability
+            xml_list:
+                inline: true
+                entry_name: applicability
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ChargeItemDefinitionApplicabilityType>
+        priceComponent:
+            expose: true
+            access_type: public_method
+            serialized_name: priceComponent
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPriceComponent
+                setter: setPriceComponent
+            xml_list:
+                inline: true
+                entry_name: priceComponent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ChargeItemDefinitionPriceComponentType>

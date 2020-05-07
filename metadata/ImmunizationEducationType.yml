@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\ImmunizationEducationType:
+    properties:
+        documentType:
+            expose: true
+            access_type: public_method
+            serialized_name: documentType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentType
+                setter: setDocumentType
+            type: TKusy\Hl7FhirR4\StringType
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: TKusy\Hl7FhirR4\UriType
+        publicationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublicationDate
+                setter: setPublicationDate
+            type: TKusy\Hl7FhirR4\DateTimeType
+        presentationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: presentationDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentationDate
+                setter: setPresentationDate
+            type: TKusy\Hl7FhirR4\DateTimeType

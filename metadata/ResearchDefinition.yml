@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\ResearchDefinition:
+    xml_root_name: ResearchDefinition
+    xml_root_namespace: 'http://hl7.org/fhir'

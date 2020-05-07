@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\ImagingStudyInstanceType:
+    properties:
+        uid:
+            expose: true
+            access_type: public_method
+            serialized_name: uid
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUid
+                setter: setUid
+            type: TKusy\Hl7FhirR4\IdType
+        sopClass:
+            expose: true
+            access_type: public_method
+            serialized_name: sopClass
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSopClass
+                setter: setSopClass
+            type: TKusy\Hl7FhirR4\CodingType
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: TKusy\Hl7FhirR4\UnsignedIntType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7FhirR4\StringType

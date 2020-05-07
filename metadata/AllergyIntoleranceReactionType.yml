@@ -1,0 +1,80 @@
+TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
+    properties:
+        substance:
+            expose: true
+            access_type: public_method
+            serialized_name: substance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstance
+                setter: setSubstance
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        manifestation:
+            expose: true
+            access_type: public_method
+            serialized_name: manifestation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManifestation
+                setter: setManifestation
+            xml_list:
+                inline: true
+                entry_name: manifestation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        onset:
+            expose: true
+            access_type: public_method
+            serialized_name: onset
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOnset
+                setter: setOnset
+            type: TKusy\Hl7FhirR4\DateTimeType
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: severity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: TKusy\Hl7FhirR4\AllergyIntoleranceSeverityType
+        exposureRoute:
+            expose: true
+            access_type: public_method
+            serialized_name: exposureRoute
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExposureRoute
+                setter: setExposureRoute
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\AnnotationType>

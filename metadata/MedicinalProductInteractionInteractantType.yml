@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\MedicinalProductInteractionInteractantType:
+    properties:
+        itemReference:
+            expose: true
+            access_type: public_method
+            serialized_name: itemReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemReference
+                setter: setItemReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        itemCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: itemCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemCodeableConcept
+                setter: setItemCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType

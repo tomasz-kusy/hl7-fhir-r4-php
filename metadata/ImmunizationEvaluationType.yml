@@ -1,0 +1,160 @@
+TKusy\Hl7FhirR4\ImmunizationEvaluationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\ImmunizationEvaluationStatusCodesType
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7FhirR4\ReferenceType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7FhirR4\DateTimeType
+        authority:
+            expose: true
+            access_type: public_method
+            serialized_name: authority
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthority
+                setter: setAuthority
+            type: TKusy\Hl7FhirR4\ReferenceType
+        targetDisease:
+            expose: true
+            access_type: public_method
+            serialized_name: targetDisease
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetDisease
+                setter: setTargetDisease
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        immunizationEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: immunizationEvent
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImmunizationEvent
+                setter: setImmunizationEvent
+            type: TKusy\Hl7FhirR4\ReferenceType
+        doseStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: doseStatus
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseStatus
+                setter: setDoseStatus
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        doseStatusReason:
+            expose: true
+            access_type: public_method
+            serialized_name: doseStatusReason
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseStatusReason
+                setter: setDoseStatusReason
+            xml_list:
+                inline: true
+                entry_name: doseStatusReason
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        series:
+            expose: true
+            access_type: public_method
+            serialized_name: series
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeries
+                setter: setSeries
+            type: TKusy\Hl7FhirR4\StringType
+        doseNumberPositiveInt:
+            expose: true
+            access_type: public_method
+            serialized_name: doseNumberPositiveInt
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseNumberPositiveInt
+                setter: setDoseNumberPositiveInt
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        doseNumberString:
+            expose: true
+            access_type: public_method
+            serialized_name: doseNumberString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseNumberString
+                setter: setDoseNumberString
+            type: TKusy\Hl7FhirR4\StringType
+        seriesDosesPositiveInt:
+            expose: true
+            access_type: public_method
+            serialized_name: seriesDosesPositiveInt
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeriesDosesPositiveInt
+                setter: setSeriesDosesPositiveInt
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        seriesDosesString:
+            expose: true
+            access_type: public_method
+            serialized_name: seriesDosesString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeriesDosesString
+                setter: setSeriesDosesString
+            type: TKusy\Hl7FhirR4\StringType

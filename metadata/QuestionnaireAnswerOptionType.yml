@@ -1,0 +1,72 @@
+TKusy\Hl7FhirR4\QuestionnaireAnswerOptionType:
+    properties:
+        valueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInteger
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInteger
+                setter: setValueInteger
+            type: TKusy\Hl7FhirR4\IntegerType
+        valueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDate
+                setter: setValueDate
+            type: TKusy\Hl7FhirR4\DateType
+        valueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueTime
+                setter: setValueTime
+            type: TKusy\Hl7FhirR4\TimeType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7FhirR4\StringType
+        valueCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCoding
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCoding
+                setter: setValueCoding
+            type: TKusy\Hl7FhirR4\CodingType
+        valueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: valueReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueReference
+                setter: setValueReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        initialSelected:
+            expose: true
+            access_type: public_method
+            serialized_name: initialSelected
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInitialSelected
+                setter: setInitialSelected
+            type: TKusy\Hl7FhirR4\BooleanType

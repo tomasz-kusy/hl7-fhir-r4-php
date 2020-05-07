@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\SupplyDeliverySuppliedItemType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        itemCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: itemCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemCodeableConcept
+                setter: setItemCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        itemReference:
+            expose: true
+            access_type: public_method
+            serialized_name: itemReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemReference
+                setter: setItemReference
+            type: TKusy\Hl7FhirR4\ReferenceType

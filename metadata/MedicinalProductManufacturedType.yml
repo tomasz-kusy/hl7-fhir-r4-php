@@ -1,0 +1,84 @@
+TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
+    properties:
+        manufacturedDoseForm:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturedDoseForm
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturedDoseForm
+                setter: setManufacturedDoseForm
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        unitOfPresentation:
+            expose: true
+            access_type: public_method
+            serialized_name: unitOfPresentation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitOfPresentation
+                setter: setUnitOfPresentation
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        manufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturer
+                setter: setManufacturer
+            xml_list:
+                inline: true
+                entry_name: manufacturer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        ingredient:
+            expose: true
+            access_type: public_method
+            serialized_name: ingredient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIngredient
+                setter: setIngredient
+            xml_list:
+                inline: true
+                entry_name: ingredient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        physicalCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: physicalCharacteristics
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPhysicalCharacteristics
+                setter: setPhysicalCharacteristics
+            type: TKusy\Hl7FhirR4\ProdCharacteristicType
+        otherCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: otherCharacteristics
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOtherCharacteristics
+                setter: setOtherCharacteristics
+            xml_list:
+                inline: true
+                entry_name: otherCharacteristics
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>

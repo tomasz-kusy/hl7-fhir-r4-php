@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\Consent:
+    xml_root_name: Consent
+    xml_root_namespace: 'http://hl7.org/fhir'

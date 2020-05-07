@@ -1,0 +1,62 @@
+TKusy\Hl7FhirR4\ContractContentDefinitionType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        subType:
+            expose: true
+            access_type: public_method
+            serialized_name: subType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubType
+                setter: setSubType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        publisher:
+            expose: true
+            access_type: public_method
+            serialized_name: publisher
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublisher
+                setter: setPublisher
+            type: TKusy\Hl7FhirR4\ReferenceType
+        publicationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublicationDate
+                setter: setPublicationDate
+            type: TKusy\Hl7FhirR4\DateTimeType
+        publicationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationStatus
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublicationStatus
+                setter: setPublicationStatus
+            type: TKusy\Hl7FhirR4\ContractResourcePublicationStatusCodesType
+        copyright:
+            expose: true
+            access_type: public_method
+            serialized_name: copyright
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopyright
+                setter: setCopyright
+            type: TKusy\Hl7FhirR4\MarkdownType

@@ -1,0 +1,102 @@
+TKusy\Hl7FhirR4\GoalTargetType:
+    properties:
+        measure:
+            expose: true
+            access_type: public_method
+            serialized_name: measure
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasure
+                setter: setMeasure
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        detailQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: detailQuantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailQuantity
+                setter: setDetailQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        detailRange:
+            expose: true
+            access_type: public_method
+            serialized_name: detailRange
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailRange
+                setter: setDetailRange
+            type: TKusy\Hl7FhirR4\RangeType
+        detailCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: detailCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailCodeableConcept
+                setter: setDetailCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        detailString:
+            expose: true
+            access_type: public_method
+            serialized_name: detailString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailString
+                setter: setDetailString
+            type: TKusy\Hl7FhirR4\StringType
+        detailBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: detailBoolean
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailBoolean
+                setter: setDetailBoolean
+            type: TKusy\Hl7FhirR4\BooleanType
+        detailInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: detailInteger
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailInteger
+                setter: setDetailInteger
+            type: TKusy\Hl7FhirR4\IntegerType
+        detailRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: detailRatio
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailRatio
+                setter: setDetailRatio
+            type: TKusy\Hl7FhirR4\RatioType
+        dueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: dueDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDueDate
+                setter: setDueDate
+            type: TKusy\Hl7FhirR4\DateType
+        dueDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: dueDuration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDueDuration
+                setter: setDueDuration
+            type: TKusy\Hl7FhirR4\DurationType

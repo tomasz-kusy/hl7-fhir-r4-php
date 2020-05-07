@@ -1,0 +1,40 @@
+TKusy\Hl7FhirR4\InsurancePlanCoverageType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        network:
+            expose: true
+            access_type: public_method
+            serialized_name: network
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNetwork
+                setter: setNetwork
+            xml_list:
+                inline: true
+                entry_name: network
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        benefit:
+            expose: true
+            access_type: public_method
+            serialized_name: benefit
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBenefit
+                setter: setBenefit
+            xml_list:
+                inline: true
+                entry_name: benefit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\InsurancePlanBenefitType>

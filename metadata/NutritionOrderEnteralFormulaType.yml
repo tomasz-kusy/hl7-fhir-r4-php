@@ -1,0 +1,96 @@
+TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
+    properties:
+        baseFormulaType:
+            expose: true
+            access_type: public_method
+            serialized_name: baseFormulaType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBaseFormulaType
+                setter: setBaseFormulaType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        baseFormulaProductName:
+            expose: true
+            access_type: public_method
+            serialized_name: baseFormulaProductName
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBaseFormulaProductName
+                setter: setBaseFormulaProductName
+            type: TKusy\Hl7FhirR4\StringType
+        additiveType:
+            expose: true
+            access_type: public_method
+            serialized_name: additiveType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditiveType
+                setter: setAdditiveType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        additiveProductName:
+            expose: true
+            access_type: public_method
+            serialized_name: additiveProductName
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditiveProductName
+                setter: setAdditiveProductName
+            type: TKusy\Hl7FhirR4\StringType
+        caloricDensity:
+            expose: true
+            access_type: public_method
+            serialized_name: caloricDensity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCaloricDensity
+                setter: setCaloricDensity
+            type: TKusy\Hl7FhirR4\QuantityType
+        routeofAdministration:
+            expose: true
+            access_type: public_method
+            serialized_name: routeofAdministration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRouteofAdministration
+                setter: setRouteofAdministration
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        administration:
+            expose: true
+            access_type: public_method
+            serialized_name: administration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdministration
+                setter: setAdministration
+            xml_list:
+                inline: true
+                entry_name: administration
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\NutritionOrderAdministrationType>
+        maxVolumeToDeliver:
+            expose: true
+            access_type: public_method
+            serialized_name: maxVolumeToDeliver
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxVolumeToDeliver
+                setter: setMaxVolumeToDeliver
+            type: TKusy\Hl7FhirR4\QuantityType
+        administrationInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: administrationInstruction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdministrationInstruction
+                setter: setAdministrationInstruction
+            type: TKusy\Hl7FhirR4\StringType

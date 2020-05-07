@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\CareTeamParticipantType:
+    properties:
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            xml_list:
+                inline: true
+                entry_name: role
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        member:
+            expose: true
+            access_type: public_method
+            serialized_name: member
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMember
+                setter: setMember
+            type: TKusy\Hl7FhirR4\ReferenceType
+        onBehalfOf:
+            expose: true
+            access_type: public_method
+            serialized_name: onBehalfOf
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOnBehalfOf
+                setter: setOnBehalfOf
+            type: TKusy\Hl7FhirR4\ReferenceType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7FhirR4\PeriodType

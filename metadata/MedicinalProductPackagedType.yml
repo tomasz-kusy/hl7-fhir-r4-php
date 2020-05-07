@@ -1,0 +1,116 @@
+TKusy\Hl7FhirR4\MedicinalProductPackagedType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            xml_list:
+                inline: true
+                entry_name: subject
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        legalStatusOfSupply:
+            expose: true
+            access_type: public_method
+            serialized_name: legalStatusOfSupply
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLegalStatusOfSupply
+                setter: setLegalStatusOfSupply
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        marketingStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: marketingStatus
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMarketingStatus
+                setter: setMarketingStatus
+            xml_list:
+                inline: true
+                entry_name: marketingStatus
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MarketingStatusType>
+        marketingAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: marketingAuthorization
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMarketingAuthorization
+                setter: setMarketingAuthorization
+            type: TKusy\Hl7FhirR4\ReferenceType
+        manufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturer
+                setter: setManufacturer
+            xml_list:
+                inline: true
+                entry_name: manufacturer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        batchIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: batchIdentifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBatchIdentifier
+                setter: setBatchIdentifier
+            xml_list:
+                inline: true
+                entry_name: batchIdentifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicinalProductPackagedBatchIdentifierType>
+        packageItem:
+            expose: true
+            access_type: public_method
+            serialized_name: packageItem
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackageItem
+                setter: setPackageItem
+            xml_list:
+                inline: true
+                entry_name: packageItem
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType>

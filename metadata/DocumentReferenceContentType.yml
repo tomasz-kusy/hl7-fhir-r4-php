@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\DocumentReferenceContentType:
+    properties:
+        attachment:
+            expose: true
+            access_type: public_method
+            serialized_name: attachment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttachment
+                setter: setAttachment
+            type: TKusy\Hl7FhirR4\AttachmentType
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: TKusy\Hl7FhirR4\CodingType

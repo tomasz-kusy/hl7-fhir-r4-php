@@ -1,0 +1,66 @@
+TKusy\Hl7FhirR4\ConceptMapGroupType:
+    properties:
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: TKusy\Hl7FhirR4\UriType
+        sourceVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceVersion
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceVersion
+                setter: setSourceVersion
+            type: TKusy\Hl7FhirR4\StringType
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            type: TKusy\Hl7FhirR4\UriType
+        targetVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: targetVersion
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetVersion
+                setter: setTargetVersion
+            type: TKusy\Hl7FhirR4\StringType
+        element:
+            expose: true
+            access_type: public_method
+            serialized_name: element
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getElement
+                setter: setElement
+            xml_list:
+                inline: true
+                entry_name: element
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ConceptMapElementType>
+        unmapped:
+            expose: true
+            access_type: public_method
+            serialized_name: unmapped
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnmapped
+                setter: setUnmapped
+            type: TKusy\Hl7FhirR4\ConceptMapUnmappedType

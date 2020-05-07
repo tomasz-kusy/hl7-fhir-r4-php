@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\DataRequirementCodeFilterType:
+    properties:
+        path:
+            expose: true
+            access_type: public_method
+            serialized_name: path
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPath
+                setter: setPath
+            type: TKusy\Hl7FhirR4\StringType
+        searchParam:
+            expose: true
+            access_type: public_method
+            serialized_name: searchParam
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearchParam
+                setter: setSearchParam
+            type: TKusy\Hl7FhirR4\StringType
+        valueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSet
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSet
+                setter: setValueSet
+            type: TKusy\Hl7FhirR4\CanonicalType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_list:
+                inline: true
+                entry_name: code
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodingType>

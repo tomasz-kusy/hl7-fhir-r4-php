@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\OperationDefinition:
+    xml_root_name: OperationDefinition
+    xml_root_namespace: 'http://hl7.org/fhir'

@@ -1,0 +1,52 @@
+TKusy\Hl7FhirR4\PopulationType:
+    properties:
+        ageRange:
+            expose: true
+            access_type: public_method
+            serialized_name: ageRange
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgeRange
+                setter: setAgeRange
+            type: TKusy\Hl7FhirR4\RangeType
+        ageCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: ageCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgeCodeableConcept
+                setter: setAgeCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        gender:
+            expose: true
+            access_type: public_method
+            serialized_name: gender
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGender
+                setter: setGender
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        race:
+            expose: true
+            access_type: public_method
+            serialized_name: race
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRace
+                setter: setRace
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        physiologicalCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: physiologicalCondition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPhysiologicalCondition
+                setter: setPhysiologicalCondition
+            type: TKusy\Hl7FhirR4\CodeableConceptType

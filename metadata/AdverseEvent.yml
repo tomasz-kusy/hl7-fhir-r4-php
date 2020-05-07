@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\AdverseEvent:
+    xml_root_name: AdverseEvent
+    xml_root_namespace: 'http://hl7.org/fhir'

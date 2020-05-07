@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\DeviceDefinitionUdiDeviceIdentifierType:
+    properties:
+        deviceIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: deviceIdentifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeviceIdentifier
+                setter: setDeviceIdentifier
+            type: TKusy\Hl7FhirR4\StringType
+        issuer:
+            expose: true
+            access_type: public_method
+            serialized_name: issuer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIssuer
+                setter: setIssuer
+            type: TKusy\Hl7FhirR4\UriType
+        jurisdiction:
+            expose: true
+            access_type: public_method
+            serialized_name: jurisdiction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJurisdiction
+                setter: setJurisdiction
+            type: TKusy\Hl7FhirR4\UriType

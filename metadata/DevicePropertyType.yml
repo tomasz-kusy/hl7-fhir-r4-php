@@ -1,0 +1,40 @@
+TKusy\Hl7FhirR4\DevicePropertyType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            xml_list:
+                inline: true
+                entry_name: valueQuantity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\QuantityType>
+        valueCode:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCode
+                setter: setValueCode
+            xml_list:
+                inline: true
+                entry_name: valueCode
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>

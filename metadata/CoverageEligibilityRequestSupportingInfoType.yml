@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        information:
+            expose: true
+            access_type: public_method
+            serialized_name: information
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInformation
+                setter: setInformation
+            type: TKusy\Hl7FhirR4\ReferenceType
+        appliesToAll:
+            expose: true
+            access_type: public_method
+            serialized_name: appliesToAll
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAppliesToAll
+                setter: setAppliesToAll
+            type: TKusy\Hl7FhirR4\BooleanType

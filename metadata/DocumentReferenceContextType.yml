@@ -1,0 +1,84 @@
+TKusy\Hl7FhirR4\DocumentReferenceContextType:
+    properties:
+        encounter:
+            expose: true
+            access_type: public_method
+            serialized_name: encounter
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEncounter
+                setter: setEncounter
+            xml_list:
+                inline: true
+                entry_name: encounter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        event:
+            expose: true
+            access_type: public_method
+            serialized_name: event
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEvent
+                setter: setEvent
+            xml_list:
+                inline: true
+                entry_name: event
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        facilityType:
+            expose: true
+            access_type: public_method
+            serialized_name: facilityType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFacilityType
+                setter: setFacilityType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        practiceSetting:
+            expose: true
+            access_type: public_method
+            serialized_name: practiceSetting
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPracticeSetting
+                setter: setPracticeSetting
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        sourcePatientInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: sourcePatientInfo
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourcePatientInfo
+                setter: setSourcePatientInfo
+            type: TKusy\Hl7FhirR4\ReferenceType
+        related:
+            expose: true
+            access_type: public_method
+            serialized_name: related
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelated
+                setter: setRelated
+            xml_list:
+                inline: true
+                entry_name: related
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>

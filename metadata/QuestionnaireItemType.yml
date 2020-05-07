@@ -1,0 +1,182 @@
+TKusy\Hl7FhirR4\QuestionnaireItemType:
+    properties:
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            type: TKusy\Hl7FhirR4\StringType
+        definition:
+            expose: true
+            access_type: public_method
+            serialized_name: definition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinition
+                setter: setDefinition
+            type: TKusy\Hl7FhirR4\UriType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_list:
+                inline: true
+                entry_name: code
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodingType>
+        prefix:
+            expose: true
+            access_type: public_method
+            serialized_name: prefix
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrefix
+                setter: setPrefix
+            type: TKusy\Hl7FhirR4\StringType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7FhirR4\StringType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\QuestionnaireItemType
+        enableWhen:
+            expose: true
+            access_type: public_method
+            serialized_name: enableWhen
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnableWhen
+                setter: setEnableWhen
+            xml_list:
+                inline: true
+                entry_name: enableWhen
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\QuestionnaireEnableWhenType>
+        enableBehavior:
+            expose: true
+            access_type: public_method
+            serialized_name: enableBehavior
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnableBehavior
+                setter: setEnableBehavior
+            type: TKusy\Hl7FhirR4\EnableWhenBehaviorType
+        required:
+            expose: true
+            access_type: public_method
+            serialized_name: required
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequired
+                setter: setRequired
+            type: TKusy\Hl7FhirR4\BooleanType
+        repeats:
+            expose: true
+            access_type: public_method
+            serialized_name: repeats
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepeats
+                setter: setRepeats
+            type: TKusy\Hl7FhirR4\BooleanType
+        readOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: readOnly
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReadOnly
+                setter: setReadOnly
+            type: TKusy\Hl7FhirR4\BooleanType
+        maxLength:
+            expose: true
+            access_type: public_method
+            serialized_name: maxLength
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxLength
+                setter: setMaxLength
+            type: TKusy\Hl7FhirR4\IntegerType
+        answerValueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: answerValueSet
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerValueSet
+                setter: setAnswerValueSet
+            type: TKusy\Hl7FhirR4\CanonicalType
+        answerOption:
+            expose: true
+            access_type: public_method
+            serialized_name: answerOption
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerOption
+                setter: setAnswerOption
+            xml_list:
+                inline: true
+                entry_name: answerOption
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\QuestionnaireAnswerOptionType>
+        initial:
+            expose: true
+            access_type: public_method
+            serialized_name: initial
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInitial
+                setter: setInitial
+            xml_list:
+                inline: true
+                entry_name: initial
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\QuestionnaireInitialType>
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: item
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItem
+                setter: setItem
+            xml_list:
+                inline: true
+                entry_name: item
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\QuestionnaireItemType>

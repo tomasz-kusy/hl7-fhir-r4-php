@@ -1,0 +1,302 @@
+TKusy\Hl7FhirR4\ResearchStudyType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7FhirR4\StringType
+        protocol:
+            expose: true
+            access_type: public_method
+            serialized_name: protocol
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProtocol
+                setter: setProtocol
+            xml_list:
+                inline: true
+                entry_name: protocol
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        partOf:
+            expose: true
+            access_type: public_method
+            serialized_name: partOf
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPartOf
+                setter: setPartOf
+            xml_list:
+                inline: true
+                entry_name: partOf
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\ResearchStudyStatusType
+        primaryPurposeType:
+            expose: true
+            access_type: public_method
+            serialized_name: primaryPurposeType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrimaryPurposeType
+                setter: setPrimaryPurposeType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        phase:
+            expose: true
+            access_type: public_method
+            serialized_name: phase
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPhase
+                setter: setPhase
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        focus:
+            expose: true
+            access_type: public_method
+            serialized_name: focus
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFocus
+                setter: setFocus
+            xml_list:
+                inline: true
+                entry_name: focus
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            xml_list:
+                inline: true
+                entry_name: condition
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: contact
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContact
+                setter: setContact
+            xml_list:
+                inline: true
+                entry_name: contact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContactDetailType>
+        relatedArtifact:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedArtifact
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedArtifact
+                setter: setRelatedArtifact
+            xml_list:
+                inline: true
+                entry_name: relatedArtifact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\RelatedArtifactType>
+        keyword:
+            expose: true
+            access_type: public_method
+            serialized_name: keyword
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKeyword
+                setter: setKeyword
+            xml_list:
+                inline: true
+                entry_name: keyword
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_list:
+                inline: true
+                entry_name: location
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\MarkdownType
+        enrollment:
+            expose: true
+            access_type: public_method
+            serialized_name: enrollment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnrollment
+                setter: setEnrollment
+            xml_list:
+                inline: true
+                entry_name: enrollment
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        sponsor:
+            expose: true
+            access_type: public_method
+            serialized_name: sponsor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSponsor
+                setter: setSponsor
+            type: TKusy\Hl7FhirR4\ReferenceType
+        principalInvestigator:
+            expose: true
+            access_type: public_method
+            serialized_name: principalInvestigator
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrincipalInvestigator
+                setter: setPrincipalInvestigator
+            type: TKusy\Hl7FhirR4\ReferenceType
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: site
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSite
+                setter: setSite
+            xml_list:
+                inline: true
+                entry_name: site
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        reasonStopped:
+            expose: true
+            access_type: public_method
+            serialized_name: reasonStopped
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReasonStopped
+                setter: setReasonStopped
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\AnnotationType>
+        arm:
+            expose: true
+            access_type: public_method
+            serialized_name: arm
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getArm
+                setter: setArm
+            xml_list:
+                inline: true
+                entry_name: arm
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ResearchStudyArmType>
+        objective:
+            expose: true
+            access_type: public_method
+            serialized_name: objective
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getObjective
+                setter: setObjective
+            xml_list:
+                inline: true
+                entry_name: objective
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ResearchStudyObjectiveType>

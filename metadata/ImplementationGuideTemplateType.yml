@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\ImplementationGuideTemplateType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: TKusy\Hl7FhirR4\StringType
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: scope
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScope
+                setter: setScope
+            type: TKusy\Hl7FhirR4\StringType

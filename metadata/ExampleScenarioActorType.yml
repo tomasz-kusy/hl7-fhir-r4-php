@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\ExampleScenarioActorType:
+    properties:
+        actorId:
+            expose: true
+            access_type: public_method
+            serialized_name: actorId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActorId
+                setter: setActorId
+            type: TKusy\Hl7FhirR4\StringType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\ExampleScenarioActorType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\MarkdownType

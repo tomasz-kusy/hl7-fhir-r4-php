@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\SubstancePolymerStartingMaterialType:
+    properties:
+        material:
+            expose: true
+            access_type: public_method
+            serialized_name: material
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaterial
+                setter: setMaterial
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        isDefining:
+            expose: true
+            access_type: public_method
+            serialized_name: isDefining
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsDefining
+                setter: setIsDefining
+            type: TKusy\Hl7FhirR4\BooleanType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7FhirR4\SubstanceAmountType

@@ -1,0 +1,70 @@
+TKusy\Hl7FhirR4\ConceptMapTargetType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7FhirR4\StringType
+        equivalence:
+            expose: true
+            access_type: public_method
+            serialized_name: equivalence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEquivalence
+                setter: setEquivalence
+            type: TKusy\Hl7FhirR4\ConceptMapEquivalenceType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7FhirR4\StringType
+        dependsOn:
+            expose: true
+            access_type: public_method
+            serialized_name: dependsOn
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDependsOn
+                setter: setDependsOn
+            xml_list:
+                inline: true
+                entry_name: dependsOn
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ConceptMapDependsOnType>
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: product
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            xml_list:
+                inline: true
+                entry_name: product
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ConceptMapDependsOnType>

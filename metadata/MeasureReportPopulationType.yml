@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\MeasureReportPopulationType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: count
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCount
+                setter: setCount
+            type: TKusy\Hl7FhirR4\IntegerType
+        subjectResults:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectResults
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectResults
+                setter: setSubjectResults
+            type: TKusy\Hl7FhirR4\ReferenceType

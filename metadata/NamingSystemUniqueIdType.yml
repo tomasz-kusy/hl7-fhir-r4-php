@@ -1,0 +1,52 @@
+TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\NamingSystemIdentifierType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7FhirR4\StringType
+        preferred:
+            expose: true
+            access_type: public_method
+            serialized_name: preferred
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreferred
+                setter: setPreferred
+            type: TKusy\Hl7FhirR4\BooleanType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7FhirR4\StringType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7FhirR4\PeriodType

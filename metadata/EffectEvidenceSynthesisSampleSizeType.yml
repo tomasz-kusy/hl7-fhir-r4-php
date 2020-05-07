@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\EffectEvidenceSynthesisSampleSizeType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        numberOfStudies:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfStudies
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfStudies
+                setter: setNumberOfStudies
+            type: TKusy\Hl7FhirR4\IntegerType
+        numberOfParticipants:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfParticipants
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfParticipants
+                setter: setNumberOfParticipants
+            type: TKusy\Hl7FhirR4\IntegerType

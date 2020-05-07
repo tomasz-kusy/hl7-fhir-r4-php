@@ -1,0 +1,82 @@
+<?php
+
+namespace TKusy\Hl7FhirR4;
+
+/**
+ * Class representing MedicationAdministrationPerformerType
+ *
+ * Describes the event of a patient consuming or otherwise being administered a medication. This may be as simple as swallowing a tablet or it may be a long running infusion. Related resources tie this event to the authorizing prescription, and the specific encounter between patient and health care practitioner.
+ * XSD Type: MedicationAdministration.Performer
+ */
+class MedicationAdministrationPerformerType extends BackboneElementType
+{
+
+    /**
+     * Distinguishes the type of involvement of the performer in the medication administration.
+     *
+     * @var \TKusy\Hl7FhirR4\CodeableConceptType $function
+     */
+    private $function = null;
+
+    /**
+     * Indicates who or what performed the medication administration.
+     *
+     * @var \TKusy\Hl7FhirR4\ReferenceType $actor
+     */
+    private $actor = null;
+
+    /**
+     * Gets as function
+     *
+     * Distinguishes the type of involvement of the performer in the medication administration.
+     *
+     * @return \TKusy\Hl7FhirR4\CodeableConceptType
+     */
+    public function getFunction()
+    {
+        return $this->function;
+    }
+
+    /**
+     * Sets a new function
+     *
+     * Distinguishes the type of involvement of the performer in the medication administration.
+     *
+     * @param \TKusy\Hl7FhirR4\CodeableConceptType $function
+     * @return self
+     */
+    public function setFunction(\TKusy\Hl7FhirR4\CodeableConceptType $function)
+    {
+        $this->function = $function;
+        return $this;
+    }
+
+    /**
+     * Gets as actor
+     *
+     * Indicates who or what performed the medication administration.
+     *
+     * @return \TKusy\Hl7FhirR4\ReferenceType
+     */
+    public function getActor()
+    {
+        return $this->actor;
+    }
+
+    /**
+     * Sets a new actor
+     *
+     * Indicates who or what performed the medication administration.
+     *
+     * @param \TKusy\Hl7FhirR4\ReferenceType $actor
+     * @return self
+     */
+    public function setActor(\TKusy\Hl7FhirR4\ReferenceType $actor)
+    {
+        $this->actor = $actor;
+        return $this;
+    }
+
+
+}
+

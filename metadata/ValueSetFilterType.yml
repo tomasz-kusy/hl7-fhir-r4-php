@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\ValueSetFilterType:
+    properties:
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            type: TKusy\Hl7FhirR4\CodeType
+        op:
+            expose: true
+            access_type: public_method
+            serialized_name: op
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOp
+                setter: setOp
+            type: TKusy\Hl7FhirR4\FilterOperatorType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7FhirR4\StringType

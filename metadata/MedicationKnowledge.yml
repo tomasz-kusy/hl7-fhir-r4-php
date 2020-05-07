@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\MedicationKnowledge:
+    xml_root_name: MedicationKnowledge
+    xml_root_namespace: 'http://hl7.org/fhir'

@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\NutritionOrderTextureType:
+    properties:
+        modifier:
+            expose: true
+            access_type: public_method
+            serialized_name: modifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModifier
+                setter: setModifier
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        foodType:
+            expose: true
+            access_type: public_method
+            serialized_name: foodType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFoodType
+                setter: setFoodType
+            type: TKusy\Hl7FhirR4\CodeableConceptType

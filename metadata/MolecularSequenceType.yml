@@ -1,0 +1,186 @@
+TKusy\Hl7FhirR4\MolecularSequenceType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\SequenceType
+        coordinateSystem:
+            expose: true
+            access_type: public_method
+            serialized_name: coordinateSystem
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoordinateSystem
+                setter: setCoordinateSystem
+            type: TKusy\Hl7FhirR4\IntegerType
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7FhirR4\ReferenceType
+        specimen:
+            expose: true
+            access_type: public_method
+            serialized_name: specimen
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecimen
+                setter: setSpecimen
+            type: TKusy\Hl7FhirR4\ReferenceType
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            type: TKusy\Hl7FhirR4\ReferenceType
+        performer:
+            expose: true
+            access_type: public_method
+            serialized_name: performer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPerformer
+                setter: setPerformer
+            type: TKusy\Hl7FhirR4\ReferenceType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        referenceSeq:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceSeq
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceSeq
+                setter: setReferenceSeq
+            type: TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType
+        variant:
+            expose: true
+            access_type: public_method
+            serialized_name: variant
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVariant
+                setter: setVariant
+            xml_list:
+                inline: true
+                entry_name: variant
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MolecularSequenceVariantType>
+        observedSeq:
+            expose: true
+            access_type: public_method
+            serialized_name: observedSeq
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getObservedSeq
+                setter: setObservedSeq
+            type: TKusy\Hl7FhirR4\StringType
+        quality:
+            expose: true
+            access_type: public_method
+            serialized_name: quality
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuality
+                setter: setQuality
+            xml_list:
+                inline: true
+                entry_name: quality
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MolecularSequenceQualityType>
+        readCoverage:
+            expose: true
+            access_type: public_method
+            serialized_name: readCoverage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReadCoverage
+                setter: setReadCoverage
+            type: TKusy\Hl7FhirR4\IntegerType
+        repository:
+            expose: true
+            access_type: public_method
+            serialized_name: repository
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepository
+                setter: setRepository
+            xml_list:
+                inline: true
+                entry_name: repository
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MolecularSequenceRepositoryType>
+        pointer:
+            expose: true
+            access_type: public_method
+            serialized_name: pointer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPointer
+                setter: setPointer
+            xml_list:
+                inline: true
+                entry_name: pointer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        structureVariant:
+            expose: true
+            access_type: public_method
+            serialized_name: structureVariant
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStructureVariant
+                setter: setStructureVariant
+            xml_list:
+                inline: true
+                entry_name: structureVariant
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType>

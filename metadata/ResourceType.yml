@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\ResourceType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getId
+                setter: setId
+            type: TKusy\Hl7FhirR4\IdType
+        meta:
+            expose: true
+            access_type: public_method
+            serialized_name: meta
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeta
+                setter: setMeta
+            type: TKusy\Hl7FhirR4\MetaType
+        implicitRules:
+            expose: true
+            access_type: public_method
+            serialized_name: implicitRules
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImplicitRules
+                setter: setImplicitRules
+            type: TKusy\Hl7FhirR4\UriType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7FhirR4\CodeType

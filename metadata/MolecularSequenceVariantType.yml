@@ -1,0 +1,62 @@
+TKusy\Hl7FhirR4\MolecularSequenceVariantType:
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: TKusy\Hl7FhirR4\IntegerType
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: TKusy\Hl7FhirR4\IntegerType
+        observedAllele:
+            expose: true
+            access_type: public_method
+            serialized_name: observedAllele
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getObservedAllele
+                setter: setObservedAllele
+            type: TKusy\Hl7FhirR4\StringType
+        referenceAllele:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceAllele
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceAllele
+                setter: setReferenceAllele
+            type: TKusy\Hl7FhirR4\StringType
+        cigar:
+            expose: true
+            access_type: public_method
+            serialized_name: cigar
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCigar
+                setter: setCigar
+            type: TKusy\Hl7FhirR4\StringType
+        variantPointer:
+            expose: true
+            access_type: public_method
+            serialized_name: variantPointer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVariantPointer
+                setter: setVariantPointer
+            type: TKusy\Hl7FhirR4\ReferenceType

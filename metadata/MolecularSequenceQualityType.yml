@@ -1,0 +1,152 @@
+TKusy\Hl7FhirR4\MolecularSequenceQualityType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\QualityType
+        standardSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: standardSequence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStandardSequence
+                setter: setStandardSequence
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: TKusy\Hl7FhirR4\IntegerType
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: TKusy\Hl7FhirR4\IntegerType
+        score:
+            expose: true
+            access_type: public_method
+            serialized_name: score
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScore
+                setter: setScore
+            type: TKusy\Hl7FhirR4\QuantityType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        truthTP:
+            expose: true
+            access_type: public_method
+            serialized_name: truthTP
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTruthTP
+                setter: setTruthTP
+            type: TKusy\Hl7FhirR4\DecimalType
+        queryTP:
+            expose: true
+            access_type: public_method
+            serialized_name: queryTP
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQueryTP
+                setter: setQueryTP
+            type: TKusy\Hl7FhirR4\DecimalType
+        truthFN:
+            expose: true
+            access_type: public_method
+            serialized_name: truthFN
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTruthFN
+                setter: setTruthFN
+            type: TKusy\Hl7FhirR4\DecimalType
+        queryFP:
+            expose: true
+            access_type: public_method
+            serialized_name: queryFP
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQueryFP
+                setter: setQueryFP
+            type: TKusy\Hl7FhirR4\DecimalType
+        gtFP:
+            expose: true
+            access_type: public_method
+            serialized_name: gtFP
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGtFP
+                setter: setGtFP
+            type: TKusy\Hl7FhirR4\DecimalType
+        precision:
+            expose: true
+            access_type: public_method
+            serialized_name: precision
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrecision
+                setter: setPrecision
+            type: TKusy\Hl7FhirR4\DecimalType
+        recall:
+            expose: true
+            access_type: public_method
+            serialized_name: recall
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecall
+                setter: setRecall
+            type: TKusy\Hl7FhirR4\DecimalType
+        fScore:
+            expose: true
+            access_type: public_method
+            serialized_name: fScore
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFScore
+                setter: setFScore
+            type: TKusy\Hl7FhirR4\DecimalType
+        roc:
+            expose: true
+            access_type: public_method
+            serialized_name: roc
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRoc
+                setter: setRoc
+            type: TKusy\Hl7FhirR4\MolecularSequenceRocType

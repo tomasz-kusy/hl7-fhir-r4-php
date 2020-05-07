@@ -1,0 +1,82 @@
+TKusy\Hl7FhirR4\NutritionOrderOralDietType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        schedule:
+            expose: true
+            access_type: public_method
+            serialized_name: schedule
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSchedule
+                setter: setSchedule
+            xml_list:
+                inline: true
+                entry_name: schedule
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\TimingType>
+        nutrient:
+            expose: true
+            access_type: public_method
+            serialized_name: nutrient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNutrient
+                setter: setNutrient
+            xml_list:
+                inline: true
+                entry_name: nutrient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\NutritionOrderNutrientType>
+        texture:
+            expose: true
+            access_type: public_method
+            serialized_name: texture
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTexture
+                setter: setTexture
+            xml_list:
+                inline: true
+                entry_name: texture
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\NutritionOrderTextureType>
+        fluidConsistencyType:
+            expose: true
+            access_type: public_method
+            serialized_name: fluidConsistencyType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFluidConsistencyType
+                setter: setFluidConsistencyType
+            xml_list:
+                inline: true
+                entry_name: fluidConsistencyType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        instruction:
+            expose: true
+            access_type: public_method
+            serialized_name: instruction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstruction
+                setter: setInstruction
+            type: TKusy\Hl7FhirR4\StringType

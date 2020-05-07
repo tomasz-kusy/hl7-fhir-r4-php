@@ -1,0 +1,258 @@
+TKusy\Hl7FhirR4\TerminologyCapabilitiesType:
+    properties:
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7FhirR4\UriType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7FhirR4\StringType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7FhirR4\StringType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\PublicationStatusType
+        experimental:
+            expose: true
+            access_type: public_method
+            serialized_name: experimental
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExperimental
+                setter: setExperimental
+            type: TKusy\Hl7FhirR4\BooleanType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7FhirR4\DateTimeType
+        publisher:
+            expose: true
+            access_type: public_method
+            serialized_name: publisher
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublisher
+                setter: setPublisher
+            type: TKusy\Hl7FhirR4\StringType
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: contact
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContact
+                setter: setContact
+            xml_list:
+                inline: true
+                entry_name: contact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContactDetailType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\MarkdownType
+        useContext:
+            expose: true
+            access_type: public_method
+            serialized_name: useContext
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUseContext
+                setter: setUseContext
+            xml_list:
+                inline: true
+                entry_name: useContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\UsageContextType>
+        jurisdiction:
+            expose: true
+            access_type: public_method
+            serialized_name: jurisdiction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJurisdiction
+                setter: setJurisdiction
+            xml_list:
+                inline: true
+                entry_name: jurisdiction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            type: TKusy\Hl7FhirR4\MarkdownType
+        copyright:
+            expose: true
+            access_type: public_method
+            serialized_name: copyright
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopyright
+                setter: setCopyright
+            type: TKusy\Hl7FhirR4\MarkdownType
+        kind:
+            expose: true
+            access_type: public_method
+            serialized_name: kind
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKind
+                setter: setKind
+            type: TKusy\Hl7FhirR4\CapabilityStatementKindType
+        software:
+            expose: true
+            access_type: public_method
+            serialized_name: software
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSoftware
+                setter: setSoftware
+            type: TKusy\Hl7FhirR4\TerminologyCapabilitiesSoftwareType
+        implementation:
+            expose: true
+            access_type: public_method
+            serialized_name: implementation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImplementation
+                setter: setImplementation
+            type: TKusy\Hl7FhirR4\TerminologyCapabilitiesImplementationType
+        lockedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: lockedDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLockedDate
+                setter: setLockedDate
+            type: TKusy\Hl7FhirR4\BooleanType
+        codeSystem:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSystem
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCodeSystem
+                setter: setCodeSystem
+            xml_list:
+                inline: true
+                entry_name: codeSystem
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\TerminologyCapabilitiesCodeSystemType>
+        expansion:
+            expose: true
+            access_type: public_method
+            serialized_name: expansion
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpansion
+                setter: setExpansion
+            type: TKusy\Hl7FhirR4\TerminologyCapabilitiesExpansionType
+        codeSearch:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSearch
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCodeSearch
+                setter: setCodeSearch
+            type: TKusy\Hl7FhirR4\CodeSearchSupportType
+        validateCode:
+            expose: true
+            access_type: public_method
+            serialized_name: validateCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidateCode
+                setter: setValidateCode
+            type: TKusy\Hl7FhirR4\TerminologyCapabilitiesValidateCodeType
+        translation:
+            expose: true
+            access_type: public_method
+            serialized_name: translation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTranslation
+                setter: setTranslation
+            type: TKusy\Hl7FhirR4\TerminologyCapabilitiesTranslationType
+        closure:
+            expose: true
+            access_type: public_method
+            serialized_name: closure
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClosure
+                setter: setClosure
+            type: TKusy\Hl7FhirR4\TerminologyCapabilitiesClosureType

@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\ChargeItemDefinitionPriceComponentType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\InvoicePriceComponentType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        factor:
+            expose: true
+            access_type: public_method
+            serialized_name: factor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFactor
+                setter: setFactor
+            type: TKusy\Hl7FhirR4\DecimalType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7FhirR4\MoneyType

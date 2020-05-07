@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\CompositionAttesterType:
+    properties:
+        mode:
+            expose: true
+            access_type: public_method
+            serialized_name: mode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMode
+                setter: setMode
+            type: TKusy\Hl7FhirR4\CompositionAttestationModeType
+        time:
+            expose: true
+            access_type: public_method
+            serialized_name: time
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTime
+                setter: setTime
+            type: TKusy\Hl7FhirR4\DateTimeType
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: party
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: TKusy\Hl7FhirR4\ReferenceType

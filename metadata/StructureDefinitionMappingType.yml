@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\StructureDefinitionMappingType:
+    properties:
+        identity:
+            expose: true
+            access_type: public_method
+            serialized_name: identity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentity
+                setter: setIdentity
+            type: TKusy\Hl7FhirR4\IdType
+        uri:
+            expose: true
+            access_type: public_method
+            serialized_name: uri
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUri
+                setter: setUri
+            type: TKusy\Hl7FhirR4\UriType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7FhirR4\StringType

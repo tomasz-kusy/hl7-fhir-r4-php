@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\BundleLinkType:
+    properties:
+        relation:
+            expose: true
+            access_type: public_method
+            serialized_name: relation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelation
+                setter: setRelation
+            type: TKusy\Hl7FhirR4\StringType
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7FhirR4\UriType

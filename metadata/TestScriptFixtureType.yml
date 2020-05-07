@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\TestScriptFixtureType:
+    properties:
+        autocreate:
+            expose: true
+            access_type: public_method
+            serialized_name: autocreate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAutocreate
+                setter: setAutocreate
+            type: TKusy\Hl7FhirR4\BooleanType
+        autodelete:
+            expose: true
+            access_type: public_method
+            serialized_name: autodelete
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAutodelete
+                setter: setAutodelete
+            type: TKusy\Hl7FhirR4\BooleanType
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            type: TKusy\Hl7FhirR4\ReferenceType

@@ -1,0 +1,66 @@
+TKusy\Hl7FhirR4\ObservationReferenceRangeType:
+    properties:
+        low:
+            expose: true
+            access_type: public_method
+            serialized_name: low
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLow
+                setter: setLow
+            type: TKusy\Hl7FhirR4\QuantityType
+        high:
+            expose: true
+            access_type: public_method
+            serialized_name: high
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHigh
+                setter: setHigh
+            type: TKusy\Hl7FhirR4\QuantityType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        appliesTo:
+            expose: true
+            access_type: public_method
+            serialized_name: appliesTo
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAppliesTo
+                setter: setAppliesTo
+            xml_list:
+                inline: true
+                entry_name: appliesTo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        age:
+            expose: true
+            access_type: public_method
+            serialized_name: age
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAge
+                setter: setAge
+            type: TKusy\Hl7FhirR4\RangeType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7FhirR4\StringType

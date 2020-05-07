@@ -1,0 +1,76 @@
+TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalRouteOfAdministrationType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        firstDose:
+            expose: true
+            access_type: public_method
+            serialized_name: firstDose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFirstDose
+                setter: setFirstDose
+            type: TKusy\Hl7FhirR4\QuantityType
+        maxSingleDose:
+            expose: true
+            access_type: public_method
+            serialized_name: maxSingleDose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxSingleDose
+                setter: setMaxSingleDose
+            type: TKusy\Hl7FhirR4\QuantityType
+        maxDosePerDay:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDosePerDay
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDosePerDay
+                setter: setMaxDosePerDay
+            type: TKusy\Hl7FhirR4\QuantityType
+        maxDosePerTreatmentPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDosePerTreatmentPeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDosePerTreatmentPeriod
+                setter: setMaxDosePerTreatmentPeriod
+            type: TKusy\Hl7FhirR4\RatioType
+        maxTreatmentPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: maxTreatmentPeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxTreatmentPeriod
+                setter: setMaxTreatmentPeriod
+            type: TKusy\Hl7FhirR4\DurationType
+        targetSpecies:
+            expose: true
+            access_type: public_method
+            serialized_name: targetSpecies
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetSpecies
+                setter: setTargetSpecies
+            xml_list:
+                inline: true
+                entry_name: targetSpecies
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalTargetSpeciesType>

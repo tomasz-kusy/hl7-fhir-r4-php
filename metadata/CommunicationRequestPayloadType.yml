@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\CommunicationRequestPayloadType:
+    properties:
+        contentString:
+            expose: true
+            access_type: public_method
+            serialized_name: contentString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentString
+                setter: setContentString
+            type: TKusy\Hl7FhirR4\StringType
+        contentAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: contentAttachment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentAttachment
+                setter: setContentAttachment
+            type: TKusy\Hl7FhirR4\AttachmentType
+        contentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: contentReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentReference
+                setter: setContentReference
+            type: TKusy\Hl7FhirR4\ReferenceType

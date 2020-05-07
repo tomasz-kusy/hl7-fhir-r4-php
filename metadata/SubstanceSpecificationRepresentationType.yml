@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\SubstanceSpecificationRepresentationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        representation:
+            expose: true
+            access_type: public_method
+            serialized_name: representation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepresentation
+                setter: setRepresentation
+            type: TKusy\Hl7FhirR4\StringType
+        attachment:
+            expose: true
+            access_type: public_method
+            serialized_name: attachment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttachment
+                setter: setAttachment
+            type: TKusy\Hl7FhirR4\AttachmentType

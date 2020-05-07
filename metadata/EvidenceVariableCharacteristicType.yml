@@ -1,0 +1,156 @@
+TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        definitionReference:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionReference
+                setter: setDefinitionReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        definitionCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionCanonical
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionCanonical
+                setter: setDefinitionCanonical
+            type: TKusy\Hl7FhirR4\CanonicalType
+        definitionCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionCodeableConcept
+                setter: setDefinitionCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        definitionExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionExpression
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionExpression
+                setter: setDefinitionExpression
+            type: TKusy\Hl7FhirR4\ExpressionType
+        definitionDataRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionDataRequirement
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionDataRequirement
+                setter: setDefinitionDataRequirement
+            type: TKusy\Hl7FhirR4\DataRequirementType
+        definitionTriggerDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionTriggerDefinition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionTriggerDefinition
+                setter: setDefinitionTriggerDefinition
+            type: TKusy\Hl7FhirR4\TriggerDefinitionType
+        usageContext:
+            expose: true
+            access_type: public_method
+            serialized_name: usageContext
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsageContext
+                setter: setUsageContext
+            xml_list:
+                inline: true
+                entry_name: usageContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\UsageContextType>
+        exclude:
+            expose: true
+            access_type: public_method
+            serialized_name: exclude
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExclude
+                setter: setExclude
+            type: TKusy\Hl7FhirR4\BooleanType
+        participantEffectiveDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveDateTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveDateTime
+                setter: setParticipantEffectiveDateTime
+            type: TKusy\Hl7FhirR4\DateTimeType
+        participantEffectivePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectivePeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectivePeriod
+                setter: setParticipantEffectivePeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        participantEffectiveDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveDuration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveDuration
+                setter: setParticipantEffectiveDuration
+            type: TKusy\Hl7FhirR4\DurationType
+        participantEffectiveTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveTiming
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveTiming
+                setter: setParticipantEffectiveTiming
+            type: TKusy\Hl7FhirR4\TimingType
+        timeFromStart:
+            expose: true
+            access_type: public_method
+            serialized_name: timeFromStart
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimeFromStart
+                setter: setTimeFromStart
+            type: TKusy\Hl7FhirR4\DurationType
+        groupMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: groupMeasure
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGroupMeasure
+                setter: setGroupMeasure
+            type: TKusy\Hl7FhirR4\GroupMeasureType

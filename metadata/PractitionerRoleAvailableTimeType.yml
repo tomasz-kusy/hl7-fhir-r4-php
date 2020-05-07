@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType:
+    properties:
+        daysOfWeek:
+            expose: true
+            access_type: public_method
+            serialized_name: daysOfWeek
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDaysOfWeek
+                setter: setDaysOfWeek
+            xml_list:
+                inline: true
+                entry_name: daysOfWeek
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\DaysOfWeekType>
+        allDay:
+            expose: true
+            access_type: public_method
+            serialized_name: allDay
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllDay
+                setter: setAllDay
+            type: TKusy\Hl7FhirR4\BooleanType
+        availableStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: availableStartTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAvailableStartTime
+                setter: setAvailableStartTime
+            type: TKusy\Hl7FhirR4\TimeType
+        availableEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: availableEndTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAvailableEndTime
+                setter: setAvailableEndTime
+            type: TKusy\Hl7FhirR4\TimeType

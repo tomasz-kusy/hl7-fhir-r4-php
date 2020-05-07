@@ -1,0 +1,152 @@
+TKusy\Hl7FhirR4\ExplanationOfBenefitSubDetailType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        revenue:
+            expose: true
+            access_type: public_method
+            serialized_name: revenue
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRevenue
+                setter: setRevenue
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        productOrService:
+            expose: true
+            access_type: public_method
+            serialized_name: productOrService
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductOrService
+                setter: setProductOrService
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        modifier:
+            expose: true
+            access_type: public_method
+            serialized_name: modifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModifier
+                setter: setModifier
+            xml_list:
+                inline: true
+                entry_name: modifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        programCode:
+            expose: true
+            access_type: public_method
+            serialized_name: programCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProgramCode
+                setter: setProgramCode
+            xml_list:
+                inline: true
+                entry_name: programCode
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        unitPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: unitPrice
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitPrice
+                setter: setUnitPrice
+            type: TKusy\Hl7FhirR4\MoneyType
+        factor:
+            expose: true
+            access_type: public_method
+            serialized_name: factor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFactor
+                setter: setFactor
+            type: TKusy\Hl7FhirR4\DecimalType
+        net:
+            expose: true
+            access_type: public_method
+            serialized_name: net
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNet
+                setter: setNet
+            type: TKusy\Hl7FhirR4\MoneyType
+        udi:
+            expose: true
+            access_type: public_method
+            serialized_name: udi
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUdi
+                setter: setUdi
+            xml_list:
+                inline: true
+                entry_name: udi
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        noteNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: noteNumber
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNoteNumber
+                setter: setNoteNumber
+            xml_list:
+                inline: true
+                entry_name: noteNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\PositiveIntType>
+        adjudication:
+            expose: true
+            access_type: public_method
+            serialized_name: adjudication
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdjudication
+                setter: setAdjudication
+            xml_list:
+                inline: true
+                entry_name: adjudication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExplanationOfBenefitAdjudicationType>

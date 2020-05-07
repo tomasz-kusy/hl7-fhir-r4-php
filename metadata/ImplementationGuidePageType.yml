@@ -1,0 +1,56 @@
+TKusy\Hl7FhirR4\ImplementationGuidePageType:
+    properties:
+        nameUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: nameUrl
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNameUrl
+                setter: setNameUrl
+            type: TKusy\Hl7FhirR4\UrlType
+        nameReference:
+            expose: true
+            access_type: public_method
+            serialized_name: nameReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNameReference
+                setter: setNameReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7FhirR4\StringType
+        generation:
+            expose: true
+            access_type: public_method
+            serialized_name: generation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeneration
+                setter: setGeneration
+            type: TKusy\Hl7FhirR4\GuidePageGenerationType
+        page:
+            expose: true
+            access_type: public_method
+            serialized_name: page
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPage
+                setter: setPage
+            xml_list:
+                inline: true
+                entry_name: page
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ImplementationGuidePageType>

@@ -1,0 +1,50 @@
+TKusy\Hl7FhirR4\CapabilityStatementMessagingType:
+    properties:
+        endpoint:
+            expose: true
+            access_type: public_method
+            serialized_name: endpoint
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpoint
+                setter: setEndpoint
+            xml_list:
+                inline: true
+                entry_name: endpoint
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CapabilityStatementEndpointType>
+        reliableCache:
+            expose: true
+            access_type: public_method
+            serialized_name: reliableCache
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReliableCache
+                setter: setReliableCache
+            type: TKusy\Hl7FhirR4\UnsignedIntType
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7FhirR4\MarkdownType
+        supportedMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: supportedMessage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportedMessage
+                setter: setSupportedMessage
+            xml_list:
+                inline: true
+                entry_name: supportedMessage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CapabilityStatementSupportedMessageType>

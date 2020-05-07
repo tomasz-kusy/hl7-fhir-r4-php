@@ -1,0 +1,52 @@
+TKusy\Hl7FhirR4\GraphDefinitionCompartmentType:
+    properties:
+        use:
+            expose: true
+            access_type: public_method
+            serialized_name: use
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUse
+                setter: setUse
+            type: TKusy\Hl7FhirR4\GraphCompartmentUseType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CompartmentType
+        rule:
+            expose: true
+            access_type: public_method
+            serialized_name: rule
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRule
+                setter: setRule
+            type: TKusy\Hl7FhirR4\GraphCompartmentRuleType
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: expression
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            type: TKusy\Hl7FhirR4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType

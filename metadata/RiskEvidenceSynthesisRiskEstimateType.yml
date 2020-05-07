@@ -1,0 +1,76 @@
+TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7FhirR4\DecimalType
+        unitOfMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: unitOfMeasure
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitOfMeasure
+                setter: setUnitOfMeasure
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        denominatorCount:
+            expose: true
+            access_type: public_method
+            serialized_name: denominatorCount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDenominatorCount
+                setter: setDenominatorCount
+            type: TKusy\Hl7FhirR4\IntegerType
+        numeratorCount:
+            expose: true
+            access_type: public_method
+            serialized_name: numeratorCount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumeratorCount
+                setter: setNumeratorCount
+            type: TKusy\Hl7FhirR4\IntegerType
+        precisionEstimate:
+            expose: true
+            access_type: public_method
+            serialized_name: precisionEstimate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrecisionEstimate
+                setter: setPrecisionEstimate
+            xml_list:
+                inline: true
+                entry_name: precisionEstimate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\RiskEvidenceSynthesisPrecisionEstimateType>

@@ -1,0 +1,50 @@
+TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType:
+    properties:
+        dosage:
+            expose: true
+            access_type: public_method
+            serialized_name: dosage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDosage
+                setter: setDosage
+            xml_list:
+                inline: true
+                entry_name: dosage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeDosageType>
+        indicationCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: indicationCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIndicationCodeableConcept
+                setter: setIndicationCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        indicationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: indicationReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIndicationReference
+                setter: setIndicationReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        patientCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: patientCharacteristics
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatientCharacteristics
+                setter: setPatientCharacteristics
+            xml_list:
+                inline: true
+                entry_name: patientCharacteristics
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgePatientCharacteristicsType>

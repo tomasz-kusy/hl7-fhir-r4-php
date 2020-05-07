@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\OrganizationContactType:
+    properties:
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\HumanNameType
+        telecom:
+            expose: true
+            access_type: public_method
+            serialized_name: telecom
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTelecom
+                setter: setTelecom
+            xml_list:
+                inline: true
+                entry_name: telecom
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContactPointType>
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: address
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: TKusy\Hl7FhirR4\AddressType

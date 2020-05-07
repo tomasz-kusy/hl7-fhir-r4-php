@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\GroupMemberType:
+    properties:
+        entity:
+            expose: true
+            access_type: public_method
+            serialized_name: entity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntity
+                setter: setEntity
+            type: TKusy\Hl7FhirR4\ReferenceType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        inactive:
+            expose: true
+            access_type: public_method
+            serialized_name: inactive
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInactive
+                setter: setInactive
+            type: TKusy\Hl7FhirR4\BooleanType

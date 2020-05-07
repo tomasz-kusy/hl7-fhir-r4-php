@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\Location:
+    xml_root_name: Location
+    xml_root_namespace: 'http://hl7.org/fhir'

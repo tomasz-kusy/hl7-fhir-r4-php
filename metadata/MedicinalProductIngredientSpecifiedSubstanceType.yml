@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\MedicinalProductIngredientSpecifiedSubstanceType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        group:
+            expose: true
+            access_type: public_method
+            serialized_name: group
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGroup
+                setter: setGroup
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        confidentiality:
+            expose: true
+            access_type: public_method
+            serialized_name: confidentiality
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConfidentiality
+                setter: setConfidentiality
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        strength:
+            expose: true
+            access_type: public_method
+            serialized_name: strength
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrength
+                setter: setStrength
+            xml_list:
+                inline: true
+                entry_name: strength
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType>

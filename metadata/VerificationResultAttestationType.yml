@@ -1,0 +1,82 @@
+TKusy\Hl7FhirR4\VerificationResultAttestationType:
+    properties:
+        who:
+            expose: true
+            access_type: public_method
+            serialized_name: who
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWho
+                setter: setWho
+            type: TKusy\Hl7FhirR4\ReferenceType
+        onBehalfOf:
+            expose: true
+            access_type: public_method
+            serialized_name: onBehalfOf
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOnBehalfOf
+                setter: setOnBehalfOf
+            type: TKusy\Hl7FhirR4\ReferenceType
+        communicationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: communicationMethod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCommunicationMethod
+                setter: setCommunicationMethod
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7FhirR4\DateType
+        sourceIdentityCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceIdentityCertificate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceIdentityCertificate
+                setter: setSourceIdentityCertificate
+            type: TKusy\Hl7FhirR4\StringType
+        proxyIdentityCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: proxyIdentityCertificate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProxyIdentityCertificate
+                setter: setProxyIdentityCertificate
+            type: TKusy\Hl7FhirR4\StringType
+        proxySignature:
+            expose: true
+            access_type: public_method
+            serialized_name: proxySignature
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProxySignature
+                setter: setProxySignature
+            type: TKusy\Hl7FhirR4\SignatureType
+        sourceSignature:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceSignature
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceSignature
+                setter: setSourceSignature
+            type: TKusy\Hl7FhirR4\SignatureType

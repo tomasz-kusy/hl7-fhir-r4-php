@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\RequestGroupRelatedActionType:
+    properties:
+        actionId:
+            expose: true
+            access_type: public_method
+            serialized_name: actionId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActionId
+                setter: setActionId
+            type: TKusy\Hl7FhirR4\IdType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7FhirR4\ActionRelationshipType
+        offsetDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetDuration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffsetDuration
+                setter: setOffsetDuration
+            type: TKusy\Hl7FhirR4\DurationType
+        offsetRange:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetRange
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffsetRange
+                setter: setOffsetRange
+            type: TKusy\Hl7FhirR4\RangeType

@@ -1,0 +1,511 @@
+TKusy\Hl7FhirR4\ExtensionType:
+    properties:
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            xml_attribute: true
+            type: string
+        valueBase64Binary:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBase64Binary
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBase64Binary
+                setter: setValueBase64Binary
+            type: TKusy\Hl7FhirR4\Base64BinaryType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7FhirR4\BooleanType
+        valueCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCanonical
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCanonical
+                setter: setValueCanonical
+            type: TKusy\Hl7FhirR4\CanonicalType
+        valueCode:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCode
+                setter: setValueCode
+            type: TKusy\Hl7FhirR4\CodeType
+        valueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDate
+                setter: setValueDate
+            type: TKusy\Hl7FhirR4\DateType
+        valueDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDateTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDateTime
+                setter: setValueDateTime
+            type: TKusy\Hl7FhirR4\DateTimeType
+        valueDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDecimal
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDecimal
+                setter: setValueDecimal
+            type: TKusy\Hl7FhirR4\DecimalType
+        valueId:
+            expose: true
+            access_type: public_method
+            serialized_name: valueId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueId
+                setter: setValueId
+            type: TKusy\Hl7FhirR4\IdType
+        valueInstant:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInstant
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInstant
+                setter: setValueInstant
+            type: TKusy\Hl7FhirR4\InstantType
+        valueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInteger
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInteger
+                setter: setValueInteger
+            type: TKusy\Hl7FhirR4\IntegerType
+        valueMarkdown:
+            expose: true
+            access_type: public_method
+            serialized_name: valueMarkdown
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueMarkdown
+                setter: setValueMarkdown
+            type: TKusy\Hl7FhirR4\MarkdownType
+        valueOid:
+            expose: true
+            access_type: public_method
+            serialized_name: valueOid
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueOid
+                setter: setValueOid
+            type: TKusy\Hl7FhirR4\OidType
+        valuePositiveInt:
+            expose: true
+            access_type: public_method
+            serialized_name: valuePositiveInt
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValuePositiveInt
+                setter: setValuePositiveInt
+            type: TKusy\Hl7FhirR4\PositiveIntType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7FhirR4\StringType
+        valueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueTime
+                setter: setValueTime
+            type: TKusy\Hl7FhirR4\TimeType
+        valueUnsignedInt:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUnsignedInt
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUnsignedInt
+                setter: setValueUnsignedInt
+            type: TKusy\Hl7FhirR4\UnsignedIntType
+        valueUri:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUri
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUri
+                setter: setValueUri
+            type: TKusy\Hl7FhirR4\UriType
+        valueUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUrl
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUrl
+                setter: setValueUrl
+            type: TKusy\Hl7FhirR4\UrlType
+        valueUuid:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUuid
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUuid
+                setter: setValueUuid
+            type: TKusy\Hl7FhirR4\UuidType
+        valueAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAddress
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAddress
+                setter: setValueAddress
+            type: TKusy\Hl7FhirR4\AddressType
+        valueAge:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAge
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAge
+                setter: setValueAge
+            type: TKusy\Hl7FhirR4\AgeType
+        valueAnnotation:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAnnotation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAnnotation
+                setter: setValueAnnotation
+            type: TKusy\Hl7FhirR4\AnnotationType
+        valueAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAttachment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAttachment
+                setter: setValueAttachment
+            type: TKusy\Hl7FhirR4\AttachmentType
+        valueCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCodeableConcept
+                setter: setValueCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        valueCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCoding
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCoding
+                setter: setValueCoding
+            type: TKusy\Hl7FhirR4\CodingType
+        valueContactPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: valueContactPoint
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueContactPoint
+                setter: setValueContactPoint
+            type: TKusy\Hl7FhirR4\ContactPointType
+        valueCount:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCount
+                setter: setValueCount
+            type: TKusy\Hl7FhirR4\CountType
+        valueDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDistance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDistance
+                setter: setValueDistance
+            type: TKusy\Hl7FhirR4\DistanceType
+        valueDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDuration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDuration
+                setter: setValueDuration
+            type: TKusy\Hl7FhirR4\DurationType
+        valueHumanName:
+            expose: true
+            access_type: public_method
+            serialized_name: valueHumanName
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueHumanName
+                setter: setValueHumanName
+            type: TKusy\Hl7FhirR4\HumanNameType
+        valueIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: valueIdentifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueIdentifier
+                setter: setValueIdentifier
+            type: TKusy\Hl7FhirR4\IdentifierType
+        valueMoney:
+            expose: true
+            access_type: public_method
+            serialized_name: valueMoney
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueMoney
+                setter: setValueMoney
+            type: TKusy\Hl7FhirR4\MoneyType
+        valuePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: valuePeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValuePeriod
+                setter: setValuePeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7FhirR4\QuantityType
+        valueRange:
+            expose: true
+            access_type: public_method
+            serialized_name: valueRange
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueRange
+                setter: setValueRange
+            type: TKusy\Hl7FhirR4\RangeType
+        valueRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: valueRatio
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueRatio
+                setter: setValueRatio
+            type: TKusy\Hl7FhirR4\RatioType
+        valueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: valueReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueReference
+                setter: setValueReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        valueSampledData:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSampledData
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSampledData
+                setter: setValueSampledData
+            type: TKusy\Hl7FhirR4\SampledDataType
+        valueSignature:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSignature
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSignature
+                setter: setValueSignature
+            type: TKusy\Hl7FhirR4\SignatureType
+        valueTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: valueTiming
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueTiming
+                setter: setValueTiming
+            type: TKusy\Hl7FhirR4\TimingType
+        valueContactDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: valueContactDetail
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueContactDetail
+                setter: setValueContactDetail
+            type: TKusy\Hl7FhirR4\ContactDetailType
+        valueContributor:
+            expose: true
+            access_type: public_method
+            serialized_name: valueContributor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueContributor
+                setter: setValueContributor
+            type: TKusy\Hl7FhirR4\ContributorType
+        valueDataRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDataRequirement
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDataRequirement
+                setter: setValueDataRequirement
+            type: TKusy\Hl7FhirR4\DataRequirementType
+        valueExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: valueExpression
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueExpression
+                setter: setValueExpression
+            type: TKusy\Hl7FhirR4\ExpressionType
+        valueParameterDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: valueParameterDefinition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueParameterDefinition
+                setter: setValueParameterDefinition
+            type: TKusy\Hl7FhirR4\ParameterDefinitionType
+        valueRelatedArtifact:
+            expose: true
+            access_type: public_method
+            serialized_name: valueRelatedArtifact
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueRelatedArtifact
+                setter: setValueRelatedArtifact
+            type: TKusy\Hl7FhirR4\RelatedArtifactType
+        valueTriggerDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: valueTriggerDefinition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueTriggerDefinition
+                setter: setValueTriggerDefinition
+            type: TKusy\Hl7FhirR4\TriggerDefinitionType
+        valueUsageContext:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUsageContext
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUsageContext
+                setter: setValueUsageContext
+            type: TKusy\Hl7FhirR4\UsageContextType
+        valueDosage:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDosage
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDosage
+                setter: setValueDosage
+            type: TKusy\Hl7FhirR4\DosageType
+        valueMeta:
+            expose: true
+            access_type: public_method
+            serialized_name: valueMeta
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueMeta
+                setter: setValueMeta
+            type: TKusy\Hl7FhirR4\MetaType

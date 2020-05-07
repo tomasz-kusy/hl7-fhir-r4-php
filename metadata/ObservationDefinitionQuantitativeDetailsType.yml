@@ -1,0 +1,42 @@
+TKusy\Hl7FhirR4\ObservationDefinitionQuantitativeDetailsType:
+    properties:
+        customaryUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: customaryUnit
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCustomaryUnit
+                setter: setCustomaryUnit
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: unit
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        conversionFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: conversionFactor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConversionFactor
+                setter: setConversionFactor
+            type: TKusy\Hl7FhirR4\DecimalType
+        decimalPrecision:
+            expose: true
+            access_type: public_method
+            serialized_name: decimalPrecision
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDecimalPrecision
+                setter: setDecimalPrecision
+            type: TKusy\Hl7FhirR4\IntegerType

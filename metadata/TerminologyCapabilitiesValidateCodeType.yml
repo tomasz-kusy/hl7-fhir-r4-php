@@ -1,0 +1,12 @@
+TKusy\Hl7FhirR4\TerminologyCapabilitiesValidateCodeType:
+    properties:
+        translations:
+            expose: true
+            access_type: public_method
+            serialized_name: translations
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTranslations
+                setter: setTranslations
+            type: TKusy\Hl7FhirR4\BooleanType

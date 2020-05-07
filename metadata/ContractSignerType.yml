@@ -1,0 +1,36 @@
+TKusy\Hl7FhirR4\ContractSignerType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodingType
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: party
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: TKusy\Hl7FhirR4\ReferenceType
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: signature
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: signature
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SignatureType>

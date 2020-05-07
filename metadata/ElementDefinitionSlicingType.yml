@@ -1,0 +1,46 @@
+TKusy\Hl7FhirR4\ElementDefinitionSlicingType:
+    properties:
+        discriminator:
+            expose: true
+            access_type: public_method
+            serialized_name: discriminator
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiscriminator
+                setter: setDiscriminator
+            xml_list:
+                inline: true
+                entry_name: discriminator
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ElementDefinitionDiscriminatorType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        ordered:
+            expose: true
+            access_type: public_method
+            serialized_name: ordered
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrdered
+                setter: setOrdered
+            type: TKusy\Hl7FhirR4\BooleanType
+        rules:
+            expose: true
+            access_type: public_method
+            serialized_name: rules
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRules
+                setter: setRules
+            type: TKusy\Hl7FhirR4\SlicingRulesType

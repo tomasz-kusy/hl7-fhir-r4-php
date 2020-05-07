@@ -1,0 +1,172 @@
+TKusy\Hl7FhirR4\CoverageEligibilityRequestType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\FinancialResourceStatusCodesType
+        priority:
+            expose: true
+            access_type: public_method
+            serialized_name: priority
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPriority
+                setter: setPriority
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            xml_list:
+                inline: true
+                entry_name: purpose
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\EligibilityRequestPurposeType>
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7FhirR4\ReferenceType
+        servicedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: servicedDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicedDate
+                setter: setServicedDate
+            type: TKusy\Hl7FhirR4\DateType
+        servicedPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: servicedPeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicedPeriod
+                setter: setServicedPeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: TKusy\Hl7FhirR4\DateTimeType
+        enterer:
+            expose: true
+            access_type: public_method
+            serialized_name: enterer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnterer
+                setter: setEnterer
+            type: TKusy\Hl7FhirR4\ReferenceType
+        provider:
+            expose: true
+            access_type: public_method
+            serialized_name: provider
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProvider
+                setter: setProvider
+            type: TKusy\Hl7FhirR4\ReferenceType
+        insurer:
+            expose: true
+            access_type: public_method
+            serialized_name: insurer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurer
+                setter: setInsurer
+            type: TKusy\Hl7FhirR4\ReferenceType
+        facility:
+            expose: true
+            access_type: public_method
+            serialized_name: facility
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFacility
+                setter: setFacility
+            type: TKusy\Hl7FhirR4\ReferenceType
+        supportingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: supportingInfo
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportingInfo
+                setter: setSupportingInfo
+            xml_list:
+                inline: true
+                entry_name: supportingInfo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType>
+        insurance:
+            expose: true
+            access_type: public_method
+            serialized_name: insurance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurance
+                setter: setInsurance
+            xml_list:
+                inline: true
+                entry_name: insurance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CoverageEligibilityRequestInsuranceType>
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: item
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItem
+                setter: setItem
+            xml_list:
+                inline: true
+                entry_name: item
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CoverageEligibilityRequestItemType>

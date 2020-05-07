@@ -1,0 +1,3 @@
+TKusy\Hl7FhirR4\TerminologyCapabilities:
+    xml_root_name: TerminologyCapabilities
+    xml_root_namespace: 'http://hl7.org/fhir'

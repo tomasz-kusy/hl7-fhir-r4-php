@@ -1,0 +1,50 @@
+TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType:
+    properties:
+        domain:
+            expose: true
+            access_type: public_method
+            serialized_name: domain
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDomain
+                setter: setDomain
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        classification:
+            expose: true
+            access_type: public_method
+            serialized_name: classification
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassification
+                setter: setClassification
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        subtype:
+            expose: true
+            access_type: public_method
+            serialized_name: subtype
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubtype
+                setter: setSubtype
+            xml_list:
+                inline: true
+                entry_name: subtype
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>

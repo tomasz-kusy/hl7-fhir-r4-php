@@ -1,0 +1,70 @@
+TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
+    properties:
+        resourceId:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResourceId
+                setter: setResourceId
+            type: TKusy\Hl7FhirR4\StringType
+        resourceType:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResourceType
+                setter: setResourceType
+            type: TKusy\Hl7FhirR4\ResourceType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\MarkdownType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_list:
+                inline: true
+                entry_name: version
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioVersionType>
+        containedInstance:
+            expose: true
+            access_type: public_method
+            serialized_name: containedInstance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContainedInstance
+                setter: setContainedInstance
+            xml_list:
+                inline: true
+                entry_name: containedInstance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ExampleScenarioContainedInstanceType>

@@ -1,0 +1,30 @@
+TKusy\Hl7FhirR4\TestScriptMetadataType:
+    properties:
+        link:
+            expose: true
+            access_type: public_method
+            serialized_name: link
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLink
+                setter: setLink
+            xml_list:
+                inline: true
+                entry_name: link
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\TestScriptLinkType>
+        capability:
+            expose: true
+            access_type: public_method
+            serialized_name: capability
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCapability
+                setter: setCapability
+            xml_list:
+                inline: true
+                entry_name: capability
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\TestScriptCapabilityType>

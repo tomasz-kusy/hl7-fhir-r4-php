@@ -1,0 +1,84 @@
+TKusy\Hl7FhirR4\PlanDefinitionGoalType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        priority:
+            expose: true
+            access_type: public_method
+            serialized_name: priority
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPriority
+                setter: setPriority
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        addresses:
+            expose: true
+            access_type: public_method
+            serialized_name: addresses
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddresses
+                setter: setAddresses
+            xml_list:
+                inline: true
+                entry_name: addresses
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            xml_list:
+                inline: true
+                entry_name: documentation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\RelatedArtifactType>
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_list:
+                inline: true
+                entry_name: target
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\PlanDefinitionTargetType>

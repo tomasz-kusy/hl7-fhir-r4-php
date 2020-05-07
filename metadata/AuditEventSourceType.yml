@@ -1,0 +1,36 @@
+TKusy\Hl7FhirR4\AuditEventSourceType:
+    properties:
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: site
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSite
+                setter: setSite
+            type: TKusy\Hl7FhirR4\StringType
+        observer:
+            expose: true
+            access_type: public_method
+            serialized_name: observer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getObserver
+                setter: setObserver
+            type: TKusy\Hl7FhirR4\ReferenceType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodingType>

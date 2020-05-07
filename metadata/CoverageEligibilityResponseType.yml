@@ -1,0 +1,178 @@
+TKusy\Hl7FhirR4\CoverageEligibilityResponseType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\FinancialResourceStatusCodesType
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            xml_list:
+                inline: true
+                entry_name: purpose
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\EligibilityResponsePurposeType>
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7FhirR4\ReferenceType
+        servicedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: servicedDate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicedDate
+                setter: setServicedDate
+            type: TKusy\Hl7FhirR4\DateType
+        servicedPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: servicedPeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicedPeriod
+                setter: setServicedPeriod
+            type: TKusy\Hl7FhirR4\PeriodType
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: TKusy\Hl7FhirR4\DateTimeType
+        requestor:
+            expose: true
+            access_type: public_method
+            serialized_name: requestor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequestor
+                setter: setRequestor
+            type: TKusy\Hl7FhirR4\ReferenceType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7FhirR4\ReferenceType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7FhirR4\RemittanceOutcomeType
+        disposition:
+            expose: true
+            access_type: public_method
+            serialized_name: disposition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisposition
+                setter: setDisposition
+            type: TKusy\Hl7FhirR4\StringType
+        insurer:
+            expose: true
+            access_type: public_method
+            serialized_name: insurer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurer
+                setter: setInsurer
+            type: TKusy\Hl7FhirR4\ReferenceType
+        insurance:
+            expose: true
+            access_type: public_method
+            serialized_name: insurance
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurance
+                setter: setInsurance
+            xml_list:
+                inline: true
+                entry_name: insurance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType>
+        preAuthRef:
+            expose: true
+            access_type: public_method
+            serialized_name: preAuthRef
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreAuthRef
+                setter: setPreAuthRef
+            type: TKusy\Hl7FhirR4\StringType
+        form:
+            expose: true
+            access_type: public_method
+            serialized_name: form
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getForm
+                setter: setForm
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getError
+                setter: setError
+            xml_list:
+                inline: true
+                entry_name: error
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CoverageEligibilityResponseErrorType>

@@ -1,0 +1,36 @@
+TKusy\Hl7FhirR4\ConditionStageType:
+    properties:
+        summary:
+            expose: true
+            access_type: public_method
+            serialized_name: summary
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSummary
+                setter: setSummary
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        assessment:
+            expose: true
+            access_type: public_method
+            serialized_name: assessment
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssessment
+                setter: setAssessment
+            xml_list:
+                inline: true
+                entry_name: assessment
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType

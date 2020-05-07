@@ -1,0 +1,150 @@
+TKusy\Hl7FhirR4\DosageType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7FhirR4\IntegerType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7FhirR4\StringType
+        additionalInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalInstruction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditionalInstruction
+                setter: setAdditionalInstruction
+            xml_list:
+                inline: true
+                entry_name: additionalInstruction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        patientInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: patientInstruction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatientInstruction
+                setter: setPatientInstruction
+            type: TKusy\Hl7FhirR4\StringType
+        timing:
+            expose: true
+            access_type: public_method
+            serialized_name: timing
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTiming
+                setter: setTiming
+            type: TKusy\Hl7FhirR4\TimingType
+        asNeededBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: asNeededBoolean
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAsNeededBoolean
+                setter: setAsNeededBoolean
+            type: TKusy\Hl7FhirR4\BooleanType
+        asNeededCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: asNeededCodeableConcept
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAsNeededCodeableConcept
+                setter: setAsNeededCodeableConcept
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: site
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSite
+                setter: setSite
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        route:
+            expose: true
+            access_type: public_method
+            serialized_name: route
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRoute
+                setter: setRoute
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        doseAndRate:
+            expose: true
+            access_type: public_method
+            serialized_name: doseAndRate
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseAndRate
+                setter: setDoseAndRate
+            xml_list:
+                inline: true
+                entry_name: doseAndRate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\DosageDoseAndRateType>
+        maxDosePerPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDosePerPeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDosePerPeriod
+                setter: setMaxDosePerPeriod
+            type: TKusy\Hl7FhirR4\RatioType
+        maxDosePerAdministration:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDosePerAdministration
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDosePerAdministration
+                setter: setMaxDosePerAdministration
+            type: TKusy\Hl7FhirR4\QuantityType
+        maxDosePerLifetime:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDosePerLifetime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDosePerLifetime
+                setter: setMaxDosePerLifetime
+            type: TKusy\Hl7FhirR4\QuantityType

@@ -1,0 +1,196 @@
+TKusy\Hl7FhirR4\ContractAssetType:
+    properties:
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: scope
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScope
+                setter: setScope
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        typeReference:
+            expose: true
+            access_type: public_method
+            serialized_name: typeReference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTypeReference
+                setter: setTypeReference
+            xml_list:
+                inline: true
+                entry_name: typeReference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        subtype:
+            expose: true
+            access_type: public_method
+            serialized_name: subtype
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubtype
+                setter: setSubtype
+            xml_list:
+                inline: true
+                entry_name: subtype
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7FhirR4\CodingType
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: context
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContext
+                setter: setContext
+            xml_list:
+                inline: true
+                entry_name: context
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContractContextType>
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: TKusy\Hl7FhirR4\StringType
+        periodType:
+            expose: true
+            access_type: public_method
+            serialized_name: periodType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriodType
+                setter: setPeriodType
+            xml_list:
+                inline: true
+                entry_name: periodType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            xml_list:
+                inline: true
+                entry_name: period
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\PeriodType>
+        usePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: usePeriod
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsePeriod
+                setter: setUsePeriod
+            xml_list:
+                inline: true
+                entry_name: usePeriod
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\PeriodType>
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7FhirR4\StringType
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            xml_list:
+                inline: true
+                entry_name: linkId
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        answer:
+            expose: true
+            access_type: public_method
+            serialized_name: answer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswer
+                setter: setAnswer
+            xml_list:
+                inline: true
+                entry_name: answer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContractAnswerType>
+        securityLabelNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: securityLabelNumber
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSecurityLabelNumber
+                setter: setSecurityLabelNumber
+            xml_list:
+                inline: true
+                entry_name: securityLabelNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\UnsignedIntType>
+        valuedItem:
+            expose: true
+            access_type: public_method
+            serialized_name: valuedItem
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValuedItem
+                setter: setValuedItem
+            xml_list:
+                inline: true
+                entry_name: valuedItem
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ContractValuedItemType>

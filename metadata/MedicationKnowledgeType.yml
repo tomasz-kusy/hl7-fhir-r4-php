@@ -1,0 +1,282 @@
+TKusy\Hl7FhirR4\MedicationKnowledgeType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7FhirR4\CodeType
+        manufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturer
+                setter: setManufacturer
+            type: TKusy\Hl7FhirR4\ReferenceType
+        doseForm:
+            expose: true
+            access_type: public_method
+            serialized_name: doseForm
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseForm
+                setter: setDoseForm
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7FhirR4\QuantityType
+        synonym:
+            expose: true
+            access_type: public_method
+            serialized_name: synonym
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSynonym
+                setter: setSynonym
+            xml_list:
+                inline: true
+                entry_name: synonym
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        relatedMedicationKnowledge:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedMedicationKnowledge
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedMedicationKnowledge
+                setter: setRelatedMedicationKnowledge
+            xml_list:
+                inline: true
+                entry_name: relatedMedicationKnowledge
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeRelatedMedicationKnowledgeType>
+        associatedMedication:
+            expose: true
+            access_type: public_method
+            serialized_name: associatedMedication
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssociatedMedication
+                setter: setAssociatedMedication
+            xml_list:
+                inline: true
+                entry_name: associatedMedication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        productType:
+            expose: true
+            access_type: public_method
+            serialized_name: productType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductType
+                setter: setProductType
+            xml_list:
+                inline: true
+                entry_name: productType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        monograph:
+            expose: true
+            access_type: public_method
+            serialized_name: monograph
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMonograph
+                setter: setMonograph
+            xml_list:
+                inline: true
+                entry_name: monograph
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeMonographType>
+        ingredient:
+            expose: true
+            access_type: public_method
+            serialized_name: ingredient
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIngredient
+                setter: setIngredient
+            xml_list:
+                inline: true
+                entry_name: ingredient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeIngredientType>
+        preparationInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: preparationInstruction
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreparationInstruction
+                setter: setPreparationInstruction
+            type: TKusy\Hl7FhirR4\MarkdownType
+        intendedRoute:
+            expose: true
+            access_type: public_method
+            serialized_name: intendedRoute
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntendedRoute
+                setter: setIntendedRoute
+            xml_list:
+                inline: true
+                entry_name: intendedRoute
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        cost:
+            expose: true
+            access_type: public_method
+            serialized_name: cost
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCost
+                setter: setCost
+            xml_list:
+                inline: true
+                entry_name: cost
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeCostType>
+        monitoringProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: monitoringProgram
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMonitoringProgram
+                setter: setMonitoringProgram
+            xml_list:
+                inline: true
+                entry_name: monitoringProgram
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeMonitoringProgramType>
+        administrationGuidelines:
+            expose: true
+            access_type: public_method
+            serialized_name: administrationGuidelines
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdministrationGuidelines
+                setter: setAdministrationGuidelines
+            xml_list:
+                inline: true
+                entry_name: administrationGuidelines
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType>
+        medicineClassification:
+            expose: true
+            access_type: public_method
+            serialized_name: medicineClassification
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMedicineClassification
+                setter: setMedicineClassification
+            xml_list:
+                inline: true
+                entry_name: medicineClassification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeMedicineClassificationType>
+        packaging:
+            expose: true
+            access_type: public_method
+            serialized_name: packaging
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackaging
+                setter: setPackaging
+            type: TKusy\Hl7FhirR4\MedicationKnowledgePackagingType
+        drugCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: drugCharacteristic
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDrugCharacteristic
+                setter: setDrugCharacteristic
+            xml_list:
+                inline: true
+                entry_name: drugCharacteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType>
+        contraindication:
+            expose: true
+            access_type: public_method
+            serialized_name: contraindication
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContraindication
+                setter: setContraindication
+            xml_list:
+                inline: true
+                entry_name: contraindication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\ReferenceType>
+        regulatory:
+            expose: true
+            access_type: public_method
+            serialized_name: regulatory
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegulatory
+                setter: setRegulatory
+            xml_list:
+                inline: true
+                entry_name: regulatory
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeRegulatoryType>
+        kinetics:
+            expose: true
+            access_type: public_method
+            serialized_name: kinetics
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKinetics
+                setter: setKinetics
+            xml_list:
+                inline: true
+                entry_name: kinetics
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\MedicationKnowledgeKineticsType>

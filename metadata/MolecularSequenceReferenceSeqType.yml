@@ -1,0 +1,92 @@
+TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
+    properties:
+        chromosome:
+            expose: true
+            access_type: public_method
+            serialized_name: chromosome
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getChromosome
+                setter: setChromosome
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        genomeBuild:
+            expose: true
+            access_type: public_method
+            serialized_name: genomeBuild
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGenomeBuild
+                setter: setGenomeBuild
+            type: TKusy\Hl7FhirR4\StringType
+        orientation:
+            expose: true
+            access_type: public_method
+            serialized_name: orientation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrientation
+                setter: setOrientation
+            type: TKusy\Hl7FhirR4\OrientationType
+        referenceSeqId:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceSeqId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceSeqId
+                setter: setReferenceSeqId
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        referenceSeqPointer:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceSeqPointer
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceSeqPointer
+                setter: setReferenceSeqPointer
+            type: TKusy\Hl7FhirR4\ReferenceType
+        referenceSeqString:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceSeqString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceSeqString
+                setter: setReferenceSeqString
+            type: TKusy\Hl7FhirR4\StringType
+        strand:
+            expose: true
+            access_type: public_method
+            serialized_name: strand
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrand
+                setter: setStrand
+            type: TKusy\Hl7FhirR4\StrandType
+        windowStart:
+            expose: true
+            access_type: public_method
+            serialized_name: windowStart
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWindowStart
+                setter: setWindowStart
+            type: TKusy\Hl7FhirR4\IntegerType
+        windowEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: windowEnd
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWindowEnd
+                setter: setWindowEnd
+            type: TKusy\Hl7FhirR4\IntegerType

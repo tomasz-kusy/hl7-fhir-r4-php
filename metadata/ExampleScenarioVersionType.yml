@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\ExampleScenarioVersionType:
+    properties:
+        versionId:
+            expose: true
+            access_type: public_method
+            serialized_name: versionId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersionId
+                setter: setVersionId
+            type: TKusy\Hl7FhirR4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\MarkdownType

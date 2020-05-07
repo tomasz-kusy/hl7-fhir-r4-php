@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\MessageDefinitionAllowedResponseType:
+    properties:
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: message
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            type: TKusy\Hl7FhirR4\CanonicalType
+        situation:
+            expose: true
+            access_type: public_method
+            serialized_name: situation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSituation
+                setter: setSituation
+            type: TKusy\Hl7FhirR4\MarkdownType

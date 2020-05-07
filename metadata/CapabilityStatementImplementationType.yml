@@ -1,0 +1,32 @@
+TKusy\Hl7FhirR4\CapabilityStatementImplementationType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7FhirR4\UrlType
+        custodian:
+            expose: true
+            access_type: public_method
+            serialized_name: custodian
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCustodian
+                setter: setCustodian
+            type: TKusy\Hl7FhirR4\ReferenceType

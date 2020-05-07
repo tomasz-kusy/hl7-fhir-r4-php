@@ -1,0 +1,82 @@
+TKusy\Hl7FhirR4\ValueSetParameterType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7FhirR4\StringType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7FhirR4\BooleanType
+        valueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInteger
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInteger
+                setter: setValueInteger
+            type: TKusy\Hl7FhirR4\IntegerType
+        valueDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDecimal
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDecimal
+                setter: setValueDecimal
+            type: TKusy\Hl7FhirR4\DecimalType
+        valueUri:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUri
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUri
+                setter: setValueUri
+            type: TKusy\Hl7FhirR4\UriType
+        valueCode:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCode
+                setter: setValueCode
+            type: TKusy\Hl7FhirR4\CodeType
+        valueDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDateTime
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDateTime
+                setter: setValueDateTime
+            type: TKusy\Hl7FhirR4\DateTimeType

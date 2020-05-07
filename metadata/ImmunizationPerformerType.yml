@@ -1,0 +1,22 @@
+TKusy\Hl7FhirR4\ImmunizationPerformerType:
+    properties:
+        function:
+            expose: true
+            access_type: public_method
+            serialized_name: function
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFunction
+                setter: setFunction
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: actor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActor
+                setter: setActor
+            type: TKusy\Hl7FhirR4\ReferenceType

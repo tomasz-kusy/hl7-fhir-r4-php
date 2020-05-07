@@ -1,0 +1,86 @@
+TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
+    properties:
+        family:
+            expose: true
+            access_type: public_method
+            serialized_name: family
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFamily
+                setter: setFamily
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        genus:
+            expose: true
+            access_type: public_method
+            serialized_name: genus
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGenus
+                setter: setGenus
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        species:
+            expose: true
+            access_type: public_method
+            serialized_name: species
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecies
+                setter: setSpecies
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        intraspecificType:
+            expose: true
+            access_type: public_method
+            serialized_name: intraspecificType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntraspecificType
+                setter: setIntraspecificType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        intraspecificDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: intraspecificDescription
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntraspecificDescription
+                setter: setIntraspecificDescription
+            type: TKusy\Hl7FhirR4\StringType
+        author:
+            expose: true
+            access_type: public_method
+            serialized_name: author
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthor
+                setter: setAuthor
+            xml_list:
+                inline: true
+                entry_name: author
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceSourceMaterialAuthorType>
+        hybrid:
+            expose: true
+            access_type: public_method
+            serialized_name: hybrid
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHybrid
+                setter: setHybrid
+            type: TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType
+        organismGeneral:
+            expose: true
+            access_type: public_method
+            serialized_name: organismGeneral
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganismGeneral
+                setter: setOrganismGeneral
+            type: TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismGeneralType

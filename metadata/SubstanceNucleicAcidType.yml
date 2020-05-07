@@ -1,0 +1,56 @@
+TKusy\Hl7FhirR4\SubstanceNucleicAcidType:
+    properties:
+        sequenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: sequenceType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequenceType
+                setter: setSequenceType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        numberOfSubunits:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfSubunits
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfSubunits
+                setter: setNumberOfSubunits
+            type: TKusy\Hl7FhirR4\IntegerType
+        areaOfHybridisation:
+            expose: true
+            access_type: public_method
+            serialized_name: areaOfHybridisation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAreaOfHybridisation
+                setter: setAreaOfHybridisation
+            type: TKusy\Hl7FhirR4\StringType
+        oligoNucleotideType:
+            expose: true
+            access_type: public_method
+            serialized_name: oligoNucleotideType
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOligoNucleotideType
+                setter: setOligoNucleotideType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        subunit:
+            expose: true
+            access_type: public_method
+            serialized_name: subunit
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubunit
+                setter: setSubunit
+            xml_list:
+                inline: true
+                entry_name: subunit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\SubstanceNucleicAcidSubunitType>

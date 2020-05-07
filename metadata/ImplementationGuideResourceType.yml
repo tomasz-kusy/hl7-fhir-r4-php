@@ -1,0 +1,76 @@
+TKusy\Hl7FhirR4\ImplementationGuideResourceType:
+    properties:
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: TKusy\Hl7FhirR4\ReferenceType
+        fhirVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: fhirVersion
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFhirVersion
+                setter: setFhirVersion
+            xml_list:
+                inline: true
+                entry_name: fhirVersion
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\FHIRVersionType>
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7FhirR4\StringType
+        exampleBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: exampleBoolean
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExampleBoolean
+                setter: setExampleBoolean
+            type: TKusy\Hl7FhirR4\BooleanType
+        exampleCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: exampleCanonical
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExampleCanonical
+                setter: setExampleCanonical
+            type: TKusy\Hl7FhirR4\CanonicalType
+        groupingId:
+            expose: true
+            access_type: public_method
+            serialized_name: groupingId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGroupingId
+                setter: setGroupingId
+            type: TKusy\Hl7FhirR4\IdType

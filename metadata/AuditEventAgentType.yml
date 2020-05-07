@@ -1,0 +1,124 @@
+TKusy\Hl7FhirR4\AuditEventAgentType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\CodeableConceptType
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            xml_list:
+                inline: true
+                entry_name: role
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
+        who:
+            expose: true
+            access_type: public_method
+            serialized_name: who
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWho
+                setter: setWho
+            type: TKusy\Hl7FhirR4\ReferenceType
+        altId:
+            expose: true
+            access_type: public_method
+            serialized_name: altId
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAltId
+                setter: setAltId
+            type: TKusy\Hl7FhirR4\StringType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7FhirR4\StringType
+        requestor:
+            expose: true
+            access_type: public_method
+            serialized_name: requestor
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequestor
+                setter: setRequestor
+            type: TKusy\Hl7FhirR4\BooleanType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7FhirR4\ReferenceType
+        policy:
+            expose: true
+            access_type: public_method
+            serialized_name: policy
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPolicy
+                setter: setPolicy
+            xml_list:
+                inline: true
+                entry_name: policy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\UriType>
+        media:
+            expose: true
+            access_type: public_method
+            serialized_name: media
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMedia
+                setter: setMedia
+            type: TKusy\Hl7FhirR4\CodingType
+        network:
+            expose: true
+            access_type: public_method
+            serialized_name: network
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNetwork
+                setter: setNetwork
+            type: TKusy\Hl7FhirR4\AuditEventNetworkType
+        purposeOfUse:
+            expose: true
+            access_type: public_method
+            serialized_name: purposeOfUse
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurposeOfUse
+                setter: setPurposeOfUse
+            xml_list:
+                inline: true
+                entry_name: purposeOfUse
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\CodeableConceptType>
