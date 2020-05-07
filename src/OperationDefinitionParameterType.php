@@ -65,7 +65,7 @@ class OperationDefinitionParameterType extends BackboneElementType
     /**
      * How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'.
      *
-     * @var \TKusy\Hl7FhirR4\SearchParamType $searchType
+     * @var \TKusy\Hl7FhirR4\SearchParamTypeType $searchType
      */
     private $searchType = null;
 
@@ -321,7 +321,7 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'.
      *
-     * @return \TKusy\Hl7FhirR4\SearchParamType
+     * @return \TKusy\Hl7FhirR4\SearchParamTypeType
      */
     public function getSearchType()
     {
@@ -333,10 +333,10 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'.
      *
-     * @param \TKusy\Hl7FhirR4\SearchParamType $searchType
+     * @param \TKusy\Hl7FhirR4\SearchParamTypeType $searchType
      * @return self
      */
-    public function setSearchType(\TKusy\Hl7FhirR4\SearchParamType $searchType)
+    public function setSearchType(\TKusy\Hl7FhirR4\SearchParamTypeType $searchType)
     {
         $this->searchType = $searchType;
         return $this;

@@ -343,7 +343,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             accessor:
                 getter: getKind
                 setter: setKind
-            type: TKusy\Hl7FhirR4\RequestResourceType
+            type: TKusy\Hl7FhirR4\RequestResourceTypeType
         profile:
             expose: true
             access_type: public_method

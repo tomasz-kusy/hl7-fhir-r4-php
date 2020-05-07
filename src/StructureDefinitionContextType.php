@@ -14,7 +14,7 @@ class StructureDefinitionContextType extends BackboneElementType
     /**
      * Defines how to interpret the expression that defines what the context of the extension is.
      *
-     * @var \TKusy\Hl7FhirR4\ExtensionContextType $type
+     * @var \TKusy\Hl7FhirR4\ExtensionContextTypeType $type
      */
     private $type = null;
 
@@ -30,7 +30,7 @@ class StructureDefinitionContextType extends BackboneElementType
      *
      * Defines how to interpret the expression that defines what the context of the extension is.
      *
-     * @return \TKusy\Hl7FhirR4\ExtensionContextType
+     * @return \TKusy\Hl7FhirR4\ExtensionContextTypeType
      */
     public function getType()
     {
@@ -42,10 +42,10 @@ class StructureDefinitionContextType extends BackboneElementType
      *
      * Defines how to interpret the expression that defines what the context of the extension is.
      *
-     * @param \TKusy\Hl7FhirR4\ExtensionContextType $type
+     * @param \TKusy\Hl7FhirR4\ExtensionContextTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\ExtensionContextType $type)
+    public function setType(\TKusy\Hl7FhirR4\ExtensionContextTypeType $type)
     {
         $this->type = $type;
         return $this;

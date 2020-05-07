@@ -1,11 +1,106 @@
 TKusy\Hl7FhirR4\AddressType:
     properties:
-        value:
+        use:
             expose: true
             access_type: public_method
-            serialized_name: value
+            serialized_name: use
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
             accessor:
-                getter: getValue
-                setter: setValue
-            xml_attribute: true
-            type: string
+                getter: getUse
+                setter: setUse
+            type: TKusy\Hl7FhirR4\AddressUseType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\AddressTypeType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7FhirR4\StringType
+        line:
+            expose: true
+            access_type: public_method
+            serialized_name: line
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLine
+                setter: setLine
+            xml_list:
+                inline: true
+                entry_name: line
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: city
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: TKusy\Hl7FhirR4\StringType
+        district:
+            expose: true
+            access_type: public_method
+            serialized_name: district
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDistrict
+                setter: setDistrict
+            type: TKusy\Hl7FhirR4\StringType
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: state
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getState
+                setter: setState
+            type: TKusy\Hl7FhirR4\StringType
+        postalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: postalCode
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPostalCode
+                setter: setPostalCode
+            type: TKusy\Hl7FhirR4\StringType
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: TKusy\Hl7FhirR4\StringType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7FhirR4\PeriodType

@@ -29,7 +29,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSearchParamType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\SearchParamType
+            type: TKusy\Hl7FhirR4\SearchParamTypeType
         documentation:
             expose: true
             access_type: public_method

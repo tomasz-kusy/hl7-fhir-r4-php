@@ -303,7 +303,7 @@ TKusy\Hl7FhirR4\EvidenceVariableType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\EvidenceVariableType
+            type: TKusy\Hl7FhirR4\EvidenceVariableTypeType
         characteristic:
             expose: true
             access_type: public_method

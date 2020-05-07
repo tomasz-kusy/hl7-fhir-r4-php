@@ -59,4 +59,4 @@ TKusy\Hl7FhirR4\DeviceUdiCarrierType:
             accessor:
                 getter: getEntryType
                 setter: setEntryType
-            type: TKusy\Hl7FhirR4\UDIEntryType
+            type: TKusy\Hl7FhirR4\UDIEntryTypeType

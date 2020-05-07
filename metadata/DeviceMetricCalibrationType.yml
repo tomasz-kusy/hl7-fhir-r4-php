@@ -1,11 +1,32 @@
 TKusy\Hl7FhirR4\DeviceMetricCalibrationType:
     properties:
-        value:
+        type:
             expose: true
             access_type: public_method
-            serialized_name: value
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
             accessor:
-                getter: getValue
-                setter: setValue
-            xml_attribute: true
-            type: string
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\DeviceMetricCalibrationTypeType
+        state:
+            expose: true
+            access_type: public_method
+            serialized_name: state
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getState
+                setter: setState
+            type: TKusy\Hl7FhirR4\DeviceMetricCalibrationStateType
+        time:
+            expose: true
+            access_type: public_method
+            serialized_name: time
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTime
+                setter: setTime
+            type: TKusy\Hl7FhirR4\InstantType

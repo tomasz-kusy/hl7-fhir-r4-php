@@ -21,7 +21,7 @@ class MessageHeaderResponseType extends BackboneElementType
     /**
      * Code that identifies the type of response to the message - whether it was successful or not, and whether it should be resent or not.
      *
-     * @var \TKusy\Hl7FhirR4\ResponseType $code
+     * @var \TKusy\Hl7FhirR4\ResponseTypeType $code
      */
     private $code = null;
 
@@ -63,7 +63,7 @@ class MessageHeaderResponseType extends BackboneElementType
      *
      * Code that identifies the type of response to the message - whether it was successful or not, and whether it should be resent or not.
      *
-     * @return \TKusy\Hl7FhirR4\ResponseType
+     * @return \TKusy\Hl7FhirR4\ResponseTypeType
      */
     public function getCode()
     {
@@ -75,10 +75,10 @@ class MessageHeaderResponseType extends BackboneElementType
      *
      * Code that identifies the type of response to the message - whether it was successful or not, and whether it should be resent or not.
      *
-     * @param \TKusy\Hl7FhirR4\ResponseType $code
+     * @param \TKusy\Hl7FhirR4\ResponseTypeType $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\ResponseType $code)
+    public function setCode(\TKusy\Hl7FhirR4\ResponseTypeType $code)
     {
         $this->code = $code;
         return $this;

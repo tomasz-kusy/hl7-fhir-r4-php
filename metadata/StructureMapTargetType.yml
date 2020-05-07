@@ -19,7 +19,7 @@ TKusy\Hl7FhirR4\StructureMapTargetType:
             accessor:
                 getter: getContextType
                 setter: setContextType
-            type: TKusy\Hl7FhirR4\StructureMapContextType
+            type: TKusy\Hl7FhirR4\StructureMapContextTypeType
         element:
             expose: true
             access_type: public_method

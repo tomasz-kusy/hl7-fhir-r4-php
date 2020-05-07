@@ -19,4 +19,4 @@ TKusy\Hl7FhirR4\NarrativeType:
             accessor:
                 getter: getDiv
                 setter: setDiv
-            type: TKusy\W3cXhtml\Div
+            type: TKusy\FhirXhtml\Div

@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\QualityType
+            type: TKusy\Hl7FhirR4\QualityTypeType
         standardSequence:
             expose: true
             access_type: public_method

@@ -175,7 +175,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\SearchParamType
+            type: TKusy\Hl7FhirR4\SearchParamTypeType
         expression:
             expose: true
             access_type: public_method
@@ -205,7 +205,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getXpathUsage
                 setter: setXpathUsage
-            type: TKusy\Hl7FhirR4\XPathUsageType
+            type: TKusy\Hl7FhirR4\XPathUsageTypeType
         target:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ class AuditEventNetworkType extends BackboneElementType
     /**
      * An identifier for the type of network access point that originated the audit event.
      *
-     * @var \TKusy\Hl7FhirR4\AuditEventAgentNetworkType $type
+     * @var \TKusy\Hl7FhirR4\AuditEventAgentNetworkTypeType $type
      */
     private $type = null;
 
@@ -56,7 +56,7 @@ class AuditEventNetworkType extends BackboneElementType
      *
      * An identifier for the type of network access point that originated the audit event.
      *
-     * @return \TKusy\Hl7FhirR4\AuditEventAgentNetworkType
+     * @return \TKusy\Hl7FhirR4\AuditEventAgentNetworkTypeType
      */
     public function getType()
     {
@@ -68,10 +68,10 @@ class AuditEventNetworkType extends BackboneElementType
      *
      * An identifier for the type of network access point that originated the audit event.
      *
-     * @param \TKusy\Hl7FhirR4\AuditEventAgentNetworkType $type
+     * @param \TKusy\Hl7FhirR4\AuditEventAgentNetworkTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\AuditEventAgentNetworkType $type)
+    public function setType(\TKusy\Hl7FhirR4\AuditEventAgentNetworkTypeType $type)
     {
         $this->type = $type;
         return $this;

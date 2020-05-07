@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\ElementDefinitionDiscriminatorType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\DiscriminatorType
+            type: TKusy\Hl7FhirR4\DiscriminatorTypeType
         path:
             expose: true
             access_type: public_method

@@ -51,7 +51,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
                 inline: true
                 entry_name: permittedDataType
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\ObservationDataType>
+            type: array<TKusy\Hl7FhirR4\ObservationDataTypeType>
         multipleResultsAllowed:
             expose: true
             access_type: public_method

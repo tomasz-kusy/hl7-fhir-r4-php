@@ -127,7 +127,7 @@ class SearchParameterType extends DomainResourceType
     /**
      * The type of value that a search parameter may contain, and how the content is interpreted.
      *
-     * @var \TKusy\Hl7FhirR4\SearchParamType $type
+     * @var \TKusy\Hl7FhirR4\SearchParamTypeType $type
      */
     private $type = null;
 
@@ -148,7 +148,7 @@ class SearchParameterType extends DomainResourceType
     /**
      * How the search parameter relates to the set of elements returned by evaluating the xpath query.
      *
-     * @var \TKusy\Hl7FhirR4\XPathUsageType $xpathUsage
+     * @var \TKusy\Hl7FhirR4\XPathUsageTypeType $xpathUsage
      */
     private $xpathUsage = null;
 
@@ -766,7 +766,7 @@ class SearchParameterType extends DomainResourceType
      *
      * The type of value that a search parameter may contain, and how the content is interpreted.
      *
-     * @return \TKusy\Hl7FhirR4\SearchParamType
+     * @return \TKusy\Hl7FhirR4\SearchParamTypeType
      */
     public function getType()
     {
@@ -778,10 +778,10 @@ class SearchParameterType extends DomainResourceType
      *
      * The type of value that a search parameter may contain, and how the content is interpreted.
      *
-     * @param \TKusy\Hl7FhirR4\SearchParamType $type
+     * @param \TKusy\Hl7FhirR4\SearchParamTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\SearchParamType $type)
+    public function setType(\TKusy\Hl7FhirR4\SearchParamTypeType $type)
     {
         $this->type = $type;
         return $this;
@@ -844,7 +844,7 @@ class SearchParameterType extends DomainResourceType
      *
      * How the search parameter relates to the set of elements returned by evaluating the xpath query.
      *
-     * @return \TKusy\Hl7FhirR4\XPathUsageType
+     * @return \TKusy\Hl7FhirR4\XPathUsageTypeType
      */
     public function getXpathUsage()
     {
@@ -856,10 +856,10 @@ class SearchParameterType extends DomainResourceType
      *
      * How the search parameter relates to the set of elements returned by evaluating the xpath query.
      *
-     * @param \TKusy\Hl7FhirR4\XPathUsageType $xpathUsage
+     * @param \TKusy\Hl7FhirR4\XPathUsageTypeType $xpathUsage
      * @return self
      */
-    public function setXpathUsage(\TKusy\Hl7FhirR4\XPathUsageType $xpathUsage)
+    public function setXpathUsage(\TKusy\Hl7FhirR4\XPathUsageTypeType $xpathUsage)
     {
         $this->xpathUsage = $xpathUsage;
         return $this;

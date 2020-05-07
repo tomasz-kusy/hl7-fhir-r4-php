@@ -1,11 +1,72 @@
 TKusy\Hl7FhirR4\RelatedArtifactType:
     properties:
-        value:
+        type:
             expose: true
             access_type: public_method
-            serialized_name: value
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
             accessor:
-                getter: getValue
-                setter: setValue
-            xml_attribute: true
-            type: string
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\RelatedArtifactTypeType
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: TKusy\Hl7FhirR4\StringType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7FhirR4\StringType
+        citation:
+            expose: true
+            access_type: public_method
+            serialized_name: citation
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCitation
+                setter: setCitation
+            type: TKusy\Hl7FhirR4\MarkdownType
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7FhirR4\UrlType
+        document:
+            expose: true
+            access_type: public_method
+            serialized_name: document
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocument
+                setter: setDocument
+            type: TKusy\Hl7FhirR4\AttachmentType
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            type: TKusy\Hl7FhirR4\CanonicalType

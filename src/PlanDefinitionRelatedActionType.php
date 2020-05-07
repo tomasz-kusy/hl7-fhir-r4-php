@@ -21,7 +21,7 @@ class PlanDefinitionRelatedActionType extends BackboneElementType
     /**
      * The relationship of this action to the related action.
      *
-     * @var \TKusy\Hl7FhirR4\ActionRelationshipType $relationship
+     * @var \TKusy\Hl7FhirR4\ActionRelationshipTypeType $relationship
      */
     private $relationship = null;
 
@@ -70,7 +70,7 @@ class PlanDefinitionRelatedActionType extends BackboneElementType
      *
      * The relationship of this action to the related action.
      *
-     * @return \TKusy\Hl7FhirR4\ActionRelationshipType
+     * @return \TKusy\Hl7FhirR4\ActionRelationshipTypeType
      */
     public function getRelationship()
     {
@@ -82,10 +82,10 @@ class PlanDefinitionRelatedActionType extends BackboneElementType
      *
      * The relationship of this action to the related action.
      *
-     * @param \TKusy\Hl7FhirR4\ActionRelationshipType $relationship
+     * @param \TKusy\Hl7FhirR4\ActionRelationshipTypeType $relationship
      * @return self
      */
-    public function setRelationship(\TKusy\Hl7FhirR4\ActionRelationshipType $relationship)
+    public function setRelationship(\TKusy\Hl7FhirR4\ActionRelationshipTypeType $relationship)
     {
         $this->relationship = $relationship;
         return $this;

@@ -35,7 +35,7 @@ class CodeSystemPropertyType extends BackboneElementType
     /**
      * The type of the property value. Properties of type "code" contain a code defined by the code system (e.g. a reference to another defined concept).
      *
-     * @var \TKusy\Hl7FhirR4\PropertyType $type
+     * @var \TKusy\Hl7FhirR4\PropertyTypeType $type
      */
     private $type = null;
 
@@ -122,7 +122,7 @@ class CodeSystemPropertyType extends BackboneElementType
      *
      * The type of the property value. Properties of type "code" contain a code defined by the code system (e.g. a reference to another defined concept).
      *
-     * @return \TKusy\Hl7FhirR4\PropertyType
+     * @return \TKusy\Hl7FhirR4\PropertyTypeType
      */
     public function getType()
     {
@@ -134,10 +134,10 @@ class CodeSystemPropertyType extends BackboneElementType
      *
      * The type of the property value. Properties of type "code" contain a code defined by the code system (e.g. a reference to another defined concept).
      *
-     * @param \TKusy\Hl7FhirR4\PropertyType $type
+     * @param \TKusy\Hl7FhirR4\PropertyTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\PropertyType $type)
+    public function setType(\TKusy\Hl7FhirR4\PropertyTypeType $type)
     {
         $this->type = $type;
         return $this;

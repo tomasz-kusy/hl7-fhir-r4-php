@@ -19,7 +19,7 @@ TKusy\Hl7FhirR4\MessageHeaderResponseType:
             accessor:
                 getter: getCode
                 setter: setCode
-            type: TKusy\Hl7FhirR4\ResponseType
+            type: TKusy\Hl7FhirR4\ResponseTypeType
         details:
             expose: true
             access_type: public_method

@@ -22,7 +22,7 @@ class DeviceDeviceNameType extends BackboneElementType
      * The type of deviceName.
      * UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName.
      *
-     * @var \TKusy\Hl7FhirR4\DeviceNameType $type
+     * @var \TKusy\Hl7FhirR4\DeviceNameTypeType $type
      */
     private $type = null;
 
@@ -58,7 +58,7 @@ class DeviceDeviceNameType extends BackboneElementType
      * The type of deviceName.
      * UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName.
      *
-     * @return \TKusy\Hl7FhirR4\DeviceNameType
+     * @return \TKusy\Hl7FhirR4\DeviceNameTypeType
      */
     public function getType()
     {
@@ -71,10 +71,10 @@ class DeviceDeviceNameType extends BackboneElementType
      * The type of deviceName.
      * UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName.
      *
-     * @param \TKusy\Hl7FhirR4\DeviceNameType $type
+     * @param \TKusy\Hl7FhirR4\DeviceNameTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\DeviceNameType $type)
+    public function setType(\TKusy\Hl7FhirR4\DeviceNameTypeType $type)
     {
         $this->type = $type;
         return $this;

@@ -14,7 +14,7 @@ class TriggerDefinitionType extends ElementType
     /**
      * The type of triggering event.
      *
-     * @var \TKusy\Hl7FhirR4\TriggerType $type
+     * @var \TKusy\Hl7FhirR4\TriggerTypeType $type
      */
     private $type = null;
 
@@ -74,7 +74,7 @@ class TriggerDefinitionType extends ElementType
      *
      * The type of triggering event.
      *
-     * @return \TKusy\Hl7FhirR4\TriggerType
+     * @return \TKusy\Hl7FhirR4\TriggerTypeType
      */
     public function getType()
     {
@@ -86,10 +86,10 @@ class TriggerDefinitionType extends ElementType
      *
      * The type of triggering event.
      *
-     * @param \TKusy\Hl7FhirR4\TriggerType $type
+     * @param \TKusy\Hl7FhirR4\TriggerTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\TriggerType $type)
+    public function setType(\TKusy\Hl7FhirR4\TriggerTypeType $type)
     {
         $this->type = $type;
         return $this;

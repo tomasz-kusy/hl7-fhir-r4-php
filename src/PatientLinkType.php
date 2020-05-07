@@ -21,7 +21,7 @@ class PatientLinkType extends BackboneElementType
     /**
      * The type of link between this patient resource and another patient resource.
      *
-     * @var \TKusy\Hl7FhirR4\LinkType $type
+     * @var \TKusy\Hl7FhirR4\LinkTypeType $type
      */
     private $type = null;
 
@@ -56,7 +56,7 @@ class PatientLinkType extends BackboneElementType
      *
      * The type of link between this patient resource and another patient resource.
      *
-     * @return \TKusy\Hl7FhirR4\LinkType
+     * @return \TKusy\Hl7FhirR4\LinkTypeType
      */
     public function getType()
     {
@@ -68,10 +68,10 @@ class PatientLinkType extends BackboneElementType
      *
      * The type of link between this patient resource and another patient resource.
      *
-     * @param \TKusy\Hl7FhirR4\LinkType $type
+     * @param \TKusy\Hl7FhirR4\LinkTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\LinkType $type)
+    public function setType(\TKusy\Hl7FhirR4\LinkTypeType $type)
     {
         $this->type = $type;
         return $this;

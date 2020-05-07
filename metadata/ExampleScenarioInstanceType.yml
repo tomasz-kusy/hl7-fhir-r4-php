@@ -19,7 +19,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             accessor:
                 getter: getResourceType
                 setter: setResourceType
-            type: TKusy\Hl7FhirR4\ResourceType
+            type: TKusy\Hl7FhirR4\ResourceTypeType
         name:
             expose: true
             access_type: public_method

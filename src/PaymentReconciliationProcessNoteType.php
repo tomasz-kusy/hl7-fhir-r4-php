@@ -14,7 +14,7 @@ class PaymentReconciliationProcessNoteType extends BackboneElementType
     /**
      * The business purpose of the note text.
      *
-     * @var \TKusy\Hl7FhirR4\NoteType $type
+     * @var \TKusy\Hl7FhirR4\NoteTypeType $type
      */
     private $type = null;
 
@@ -30,7 +30,7 @@ class PaymentReconciliationProcessNoteType extends BackboneElementType
      *
      * The business purpose of the note text.
      *
-     * @return \TKusy\Hl7FhirR4\NoteType
+     * @return \TKusy\Hl7FhirR4\NoteTypeType
      */
     public function getType()
     {
@@ -42,10 +42,10 @@ class PaymentReconciliationProcessNoteType extends BackboneElementType
      *
      * The business purpose of the note text.
      *
-     * @param \TKusy\Hl7FhirR4\NoteType $type
+     * @param \TKusy\Hl7FhirR4\NoteTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\NoteType $type)
+    public function setType(\TKusy\Hl7FhirR4\NoteTypeType $type)
     {
         $this->type = $type;
         return $this;

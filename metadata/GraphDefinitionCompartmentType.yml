@@ -19,7 +19,7 @@ TKusy\Hl7FhirR4\GraphDefinitionCompartmentType:
             accessor:
                 getter: getCode
                 setter: setCode
-            type: TKusy\Hl7FhirR4\CompartmentType
+            type: TKusy\Hl7FhirR4\CompartmentTypeType
         rule:
             expose: true
             access_type: public_method

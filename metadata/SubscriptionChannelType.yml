@@ -1,11 +1,46 @@
 TKusy\Hl7FhirR4\SubscriptionChannelType:
     properties:
-        value:
+        type:
             expose: true
             access_type: public_method
-            serialized_name: value
+            serialized_name: type
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
             accessor:
-                getter: getValue
-                setter: setValue
-            xml_attribute: true
-            type: string
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7FhirR4\SubscriptionChannelTypeType
+        endpoint:
+            expose: true
+            access_type: public_method
+            serialized_name: endpoint
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpoint
+                setter: setEndpoint
+            type: TKusy\Hl7FhirR4\UrlType
+        payload:
+            expose: true
+            access_type: public_method
+            serialized_name: payload
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPayload
+                setter: setPayload
+            type: TKusy\Hl7FhirR4\CodeType
+        header:
+            expose: true
+            access_type: public_method
+            serialized_name: header
+            xml_element:
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHeader
+                setter: setHeader
+            xml_list:
+                inline: true
+                entry_name: header
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7FhirR4\StringType>

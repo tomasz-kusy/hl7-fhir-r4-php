@@ -14,7 +14,7 @@ class CompositionRelatesToType extends BackboneElementType
     /**
      * The type of relationship that this composition has with anther composition or document.
      *
-     * @var \TKusy\Hl7FhirR4\DocumentRelationshipType $code
+     * @var \TKusy\Hl7FhirR4\DocumentRelationshipTypeType $code
      */
     private $code = null;
 
@@ -37,7 +37,7 @@ class CompositionRelatesToType extends BackboneElementType
      *
      * The type of relationship that this composition has with anther composition or document.
      *
-     * @return \TKusy\Hl7FhirR4\DocumentRelationshipType
+     * @return \TKusy\Hl7FhirR4\DocumentRelationshipTypeType
      */
     public function getCode()
     {
@@ -49,10 +49,10 @@ class CompositionRelatesToType extends BackboneElementType
      *
      * The type of relationship that this composition has with anther composition or document.
      *
-     * @param \TKusy\Hl7FhirR4\DocumentRelationshipType $code
+     * @param \TKusy\Hl7FhirR4\DocumentRelationshipTypeType $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\DocumentRelationshipType $code)
+    public function setCode(\TKusy\Hl7FhirR4\DocumentRelationshipTypeType $code)
     {
         $this->code = $code;
         return $this;

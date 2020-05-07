@@ -23,7 +23,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\SequenceType
+            type: TKusy\Hl7FhirR4\SequenceTypeType
         coordinateSystem:
             expose: true
             access_type: public_method

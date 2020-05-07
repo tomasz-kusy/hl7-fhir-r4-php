@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\PlanDefinitionParticipantType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\ActionParticipantType
+            type: TKusy\Hl7FhirR4\ActionParticipantTypeType
         role:
             expose: true
             access_type: public_method

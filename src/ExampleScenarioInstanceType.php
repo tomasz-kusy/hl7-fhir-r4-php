@@ -21,7 +21,7 @@ class ExampleScenarioInstanceType extends BackboneElementType
     /**
      * The type of the resource.
      *
-     * @var \TKusy\Hl7FhirR4\ResourceType $resourceType
+     * @var \TKusy\Hl7FhirR4\ResourceTypeType $resourceType
      */
     private $resourceType = null;
 
@@ -88,7 +88,7 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * The type of the resource.
      *
-     * @return \TKusy\Hl7FhirR4\ResourceType
+     * @return \TKusy\Hl7FhirR4\ResourceTypeType
      */
     public function getResourceType()
     {
@@ -100,10 +100,10 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * The type of the resource.
      *
-     * @param \TKusy\Hl7FhirR4\ResourceType $resourceType
+     * @param \TKusy\Hl7FhirR4\ResourceTypeType $resourceType
      * @return self
      */
-    public function setResourceType(\TKusy\Hl7FhirR4\ResourceType $resourceType)
+    public function setResourceType(\TKusy\Hl7FhirR4\ResourceTypeType $resourceType)
     {
         $this->resourceType = $resourceType;
         return $this;

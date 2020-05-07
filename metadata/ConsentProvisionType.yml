@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\ConsentProvisionType
+            type: TKusy\Hl7FhirR4\ConsentProvisionTypeType
         period:
             expose: true
             access_type: public_method

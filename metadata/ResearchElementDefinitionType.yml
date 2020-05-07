@@ -367,7 +367,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\ResearchElementType
+            type: TKusy\Hl7FhirR4\ResearchElementTypeType
         variableType:
             expose: true
             access_type: public_method
@@ -377,7 +377,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getVariableType
                 setter: setVariableType
-            type: TKusy\Hl7FhirR4\VariableType
+            type: TKusy\Hl7FhirR4\VariableTypeType
         characteristic:
             expose: true
             access_type: public_method

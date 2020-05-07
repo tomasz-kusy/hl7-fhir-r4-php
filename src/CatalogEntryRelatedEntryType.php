@@ -14,7 +14,7 @@ class CatalogEntryRelatedEntryType extends BackboneElementType
     /**
      * The type of relation to the related item: child, parent, packageContent, containerPackage, usedIn, uses, requires, etc.
      *
-     * @var \TKusy\Hl7FhirR4\CatalogEntryRelationType $relationtype
+     * @var \TKusy\Hl7FhirR4\CatalogEntryRelationTypeType $relationtype
      */
     private $relationtype = null;
 
@@ -30,7 +30,7 @@ class CatalogEntryRelatedEntryType extends BackboneElementType
      *
      * The type of relation to the related item: child, parent, packageContent, containerPackage, usedIn, uses, requires, etc.
      *
-     * @return \TKusy\Hl7FhirR4\CatalogEntryRelationType
+     * @return \TKusy\Hl7FhirR4\CatalogEntryRelationTypeType
      */
     public function getRelationtype()
     {
@@ -42,10 +42,10 @@ class CatalogEntryRelatedEntryType extends BackboneElementType
      *
      * The type of relation to the related item: child, parent, packageContent, containerPackage, usedIn, uses, requires, etc.
      *
-     * @param \TKusy\Hl7FhirR4\CatalogEntryRelationType $relationtype
+     * @param \TKusy\Hl7FhirR4\CatalogEntryRelationTypeType $relationtype
      * @return self
      */
-    public function setRelationtype(\TKusy\Hl7FhirR4\CatalogEntryRelationType $relationtype)
+    public function setRelationtype(\TKusy\Hl7FhirR4\CatalogEntryRelationTypeType $relationtype)
     {
         $this->relationtype = $relationtype;
         return $this;

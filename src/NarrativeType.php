@@ -21,7 +21,7 @@ class NarrativeType extends ElementType
     /**
      * The actual narrative content, a stripped down version of XHTML.
      *
-     * @var \TKusy\W3cXhtml\Div $div
+     * @var \TKusy\FhirXhtml\Div $div
      */
     private $div = null;
 
@@ -56,7 +56,7 @@ class NarrativeType extends ElementType
      *
      * The actual narrative content, a stripped down version of XHTML.
      *
-     * @return \TKusy\W3cXhtml\Div
+     * @return \TKusy\FhirXhtml\Div
      */
     public function getDiv()
     {
@@ -68,10 +68,10 @@ class NarrativeType extends ElementType
      *
      * The actual narrative content, a stripped down version of XHTML.
      *
-     * @param \TKusy\W3cXhtml\Div $div
+     * @param \TKusy\FhirXhtml\Div $div
      * @return self
      */
-    public function setDiv(\TKusy\W3cXhtml\Div $div)
+    public function setDiv(\TKusy\FhirXhtml\Div $div)
     {
         $this->div = $div;
         return $this;

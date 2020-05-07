@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\NamingSystemIdentifierType
+            type: TKusy\Hl7FhirR4\NamingSystemIdentifierTypeType
         value:
             expose: true
             access_type: public_method

@@ -56,7 +56,7 @@ class SampledDataType extends ElementType
     /**
      * A series of data points which are decimal values separated by a single space (character u20). The special values "E" (error), "L" (below detection limit) and "U" (above detection limit) can also be used in place of a decimal value.
      *
-     * @var \TKusy\Hl7FhirR4\SampledDataDataType $data
+     * @var \TKusy\Hl7FhirR4\SampledDataDataTypeType $data
      */
     private $data = null;
 
@@ -221,7 +221,7 @@ class SampledDataType extends ElementType
      *
      * A series of data points which are decimal values separated by a single space (character u20). The special values "E" (error), "L" (below detection limit) and "U" (above detection limit) can also be used in place of a decimal value.
      *
-     * @return \TKusy\Hl7FhirR4\SampledDataDataType
+     * @return \TKusy\Hl7FhirR4\SampledDataDataTypeType
      */
     public function getData()
     {
@@ -233,10 +233,10 @@ class SampledDataType extends ElementType
      *
      * A series of data points which are decimal values separated by a single space (character u20). The special values "E" (error), "L" (below detection limit) and "U" (above detection limit) can also be used in place of a decimal value.
      *
-     * @param \TKusy\Hl7FhirR4\SampledDataDataType $data
+     * @param \TKusy\Hl7FhirR4\SampledDataDataTypeType $data
      * @return self
      */
-    public function setData(\TKusy\Hl7FhirR4\SampledDataDataType $data)
+    public function setData(\TKusy\Hl7FhirR4\SampledDataDataTypeType $data)
     {
         $this->data = $data;
         return $this;

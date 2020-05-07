@@ -23,7 +23,7 @@ class MolecularSequenceType extends DomainResourceType
     /**
      * Amino Acid Sequence/ DNA Sequence / RNA Sequence.
      *
-     * @var \TKusy\Hl7FhirR4\SequenceType $type
+     * @var \TKusy\Hl7FhirR4\SequenceTypeType $type
      */
     private $type = null;
 
@@ -206,7 +206,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Amino Acid Sequence/ DNA Sequence / RNA Sequence.
      *
-     * @return \TKusy\Hl7FhirR4\SequenceType
+     * @return \TKusy\Hl7FhirR4\SequenceTypeType
      */
     public function getType()
     {
@@ -218,10 +218,10 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Amino Acid Sequence/ DNA Sequence / RNA Sequence.
      *
-     * @param \TKusy\Hl7FhirR4\SequenceType $type
+     * @param \TKusy\Hl7FhirR4\SequenceTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\SequenceType $type)
+    public function setType(\TKusy\Hl7FhirR4\SequenceTypeType $type)
     {
         $this->type = $type;
         return $this;

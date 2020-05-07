@@ -14,7 +14,7 @@ class PlanDefinitionParticipantType extends BackboneElementType
     /**
      * The type of participant in the action.
      *
-     * @var \TKusy\Hl7FhirR4\ActionParticipantType $type
+     * @var \TKusy\Hl7FhirR4\ActionParticipantTypeType $type
      */
     private $type = null;
 
@@ -30,7 +30,7 @@ class PlanDefinitionParticipantType extends BackboneElementType
      *
      * The type of participant in the action.
      *
-     * @return \TKusy\Hl7FhirR4\ActionParticipantType
+     * @return \TKusy\Hl7FhirR4\ActionParticipantTypeType
      */
     public function getType()
     {
@@ -42,10 +42,10 @@ class PlanDefinitionParticipantType extends BackboneElementType
      *
      * The type of participant in the action.
      *
-     * @param \TKusy\Hl7FhirR4\ActionParticipantType $type
+     * @param \TKusy\Hl7FhirR4\ActionParticipantTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\ActionParticipantType $type)
+    public function setType(\TKusy\Hl7FhirR4\ActionParticipantTypeType $type)
     {
         $this->type = $type;
         return $this;

@@ -95,7 +95,7 @@ class CompartmentDefinitionType extends DomainResourceType
     /**
      * Which compartment this definition describes.
      *
-     * @var \TKusy\Hl7FhirR4\CompartmentType $code
+     * @var \TKusy\Hl7FhirR4\CompartmentTypeType $code
      */
     private $code = null;
 
@@ -486,7 +486,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * Which compartment this definition describes.
      *
-     * @return \TKusy\Hl7FhirR4\CompartmentType
+     * @return \TKusy\Hl7FhirR4\CompartmentTypeType
      */
     public function getCode()
     {
@@ -498,10 +498,10 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * Which compartment this definition describes.
      *
-     * @param \TKusy\Hl7FhirR4\CompartmentType $code
+     * @param \TKusy\Hl7FhirR4\CompartmentTypeType $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\CompartmentType $code)
+    public function setCode(\TKusy\Hl7FhirR4\CompartmentTypeType $code)
     {
         $this->code = $code;
         return $this;

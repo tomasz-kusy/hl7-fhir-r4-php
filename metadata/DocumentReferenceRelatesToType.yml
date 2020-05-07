@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\DocumentReferenceRelatesToType:
             accessor:
                 getter: getCode
                 setter: setCode
-            type: TKusy\Hl7FhirR4\DocumentRelationshipType
+            type: TKusy\Hl7FhirR4\DocumentRelationshipTypeType
         target:
             expose: true
             access_type: public_method

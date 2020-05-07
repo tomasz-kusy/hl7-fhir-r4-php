@@ -63,7 +63,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\QuestionnaireItemType
+            type: TKusy\Hl7FhirR4\QuestionnaireItemTypeType
         enableWhen:
             expose: true
             access_type: public_method

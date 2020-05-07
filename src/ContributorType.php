@@ -14,7 +14,7 @@ class ContributorType extends ElementType
     /**
      * The type of contributor.
      *
-     * @var \TKusy\Hl7FhirR4\ContributorType $type
+     * @var \TKusy\Hl7FhirR4\ContributorTypeType $type
      */
     private $type = null;
 
@@ -39,7 +39,7 @@ class ContributorType extends ElementType
      *
      * The type of contributor.
      *
-     * @return \TKusy\Hl7FhirR4\ContributorType
+     * @return \TKusy\Hl7FhirR4\ContributorTypeType
      */
     public function getType()
     {
@@ -51,10 +51,10 @@ class ContributorType extends ElementType
      *
      * The type of contributor.
      *
-     * @param \TKusy\Hl7FhirR4\ContributorType $type
+     * @param \TKusy\Hl7FhirR4\ContributorTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\ContributorType $type)
+    public function setType(\TKusy\Hl7FhirR4\ContributorTypeType $type)
     {
         $this->type = $type;
         return $this;

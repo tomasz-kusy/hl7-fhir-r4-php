@@ -28,7 +28,7 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The direction to use for the assertion.
      *
-     * @var \TKusy\Hl7FhirR4\AssertionDirectionType $direction
+     * @var \TKusy\Hl7FhirR4\AssertionDirectionTypeType $direction
      */
     private $direction = null;
 
@@ -91,7 +91,7 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The operator type defines the conditional behavior of the assert. If not defined, the default is equals.
      *
-     * @var \TKusy\Hl7FhirR4\AssertionOperatorType $operator
+     * @var \TKusy\Hl7FhirR4\AssertionOperatorTypeType $operator
      */
     private $operator = null;
 
@@ -222,7 +222,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The direction to use for the assertion.
      *
-     * @return \TKusy\Hl7FhirR4\AssertionDirectionType
+     * @return \TKusy\Hl7FhirR4\AssertionDirectionTypeType
      */
     public function getDirection()
     {
@@ -234,10 +234,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The direction to use for the assertion.
      *
-     * @param \TKusy\Hl7FhirR4\AssertionDirectionType $direction
+     * @param \TKusy\Hl7FhirR4\AssertionDirectionTypeType $direction
      * @return self
      */
-    public function setDirection(\TKusy\Hl7FhirR4\AssertionDirectionType $direction)
+    public function setDirection(\TKusy\Hl7FhirR4\AssertionDirectionTypeType $direction)
     {
         $this->direction = $direction;
         return $this;
@@ -456,7 +456,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The operator type defines the conditional behavior of the assert. If not defined, the default is equals.
      *
-     * @return \TKusy\Hl7FhirR4\AssertionOperatorType
+     * @return \TKusy\Hl7FhirR4\AssertionOperatorTypeType
      */
     public function getOperator()
     {
@@ -468,10 +468,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The operator type defines the conditional behavior of the assert. If not defined, the default is equals.
      *
-     * @param \TKusy\Hl7FhirR4\AssertionOperatorType $operator
+     * @param \TKusy\Hl7FhirR4\AssertionOperatorTypeType $operator
      * @return self
      */
-    public function setOperator(\TKusy\Hl7FhirR4\AssertionOperatorType $operator)
+    public function setOperator(\TKusy\Hl7FhirR4\AssertionOperatorTypeType $operator)
     {
         $this->operator = $operator;
         return $this;

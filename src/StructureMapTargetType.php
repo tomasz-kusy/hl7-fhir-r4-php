@@ -21,7 +21,7 @@ class StructureMapTargetType extends BackboneElementType
     /**
      * How to interpret the context.
      *
-     * @var \TKusy\Hl7FhirR4\StructureMapContextType $contextType
+     * @var \TKusy\Hl7FhirR4\StructureMapContextTypeType $contextType
      */
     private $contextType = null;
 
@@ -102,7 +102,7 @@ class StructureMapTargetType extends BackboneElementType
      *
      * How to interpret the context.
      *
-     * @return \TKusy\Hl7FhirR4\StructureMapContextType
+     * @return \TKusy\Hl7FhirR4\StructureMapContextTypeType
      */
     public function getContextType()
     {
@@ -114,10 +114,10 @@ class StructureMapTargetType extends BackboneElementType
      *
      * How to interpret the context.
      *
-     * @param \TKusy\Hl7FhirR4\StructureMapContextType $contextType
+     * @param \TKusy\Hl7FhirR4\StructureMapContextTypeType $contextType
      * @return self
      */
-    public function setContextType(\TKusy\Hl7FhirR4\StructureMapContextType $contextType)
+    public function setContextType(\TKusy\Hl7FhirR4\StructureMapContextTypeType $contextType)
     {
         $this->contextType = $contextType;
         return $this;

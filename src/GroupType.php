@@ -30,7 +30,7 @@ class GroupType extends DomainResourceType
     /**
      * Identifies the broad classification of the kind of resources the group includes.
      *
-     * @var \TKusy\Hl7FhirR4\GroupType $type
+     * @var \TKusy\Hl7FhirR4\GroupTypeType $type
      */
     private $type = null;
 
@@ -184,7 +184,7 @@ class GroupType extends DomainResourceType
      *
      * Identifies the broad classification of the kind of resources the group includes.
      *
-     * @return \TKusy\Hl7FhirR4\GroupType
+     * @return \TKusy\Hl7FhirR4\GroupTypeType
      */
     public function getType()
     {
@@ -196,10 +196,10 @@ class GroupType extends DomainResourceType
      *
      * Identifies the broad classification of the kind of resources the group includes.
      *
-     * @param \TKusy\Hl7FhirR4\GroupType $type
+     * @param \TKusy\Hl7FhirR4\GroupTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\GroupType $type)
+    public function setType(\TKusy\Hl7FhirR4\GroupTypeType $type)
     {
         $this->type = $type;
         return $this;

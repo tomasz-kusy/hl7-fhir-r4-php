@@ -14,7 +14,7 @@ class MolecularSequenceRepositoryType extends BackboneElementType
     /**
      * Click and see / RESTful API / Need login to see / RESTful API with authentication / Other ways to see resource.
      *
-     * @var \TKusy\Hl7FhirR4\RepositoryType $type
+     * @var \TKusy\Hl7FhirR4\RepositoryTypeType $type
      */
     private $type = null;
 
@@ -58,7 +58,7 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Click and see / RESTful API / Need login to see / RESTful API with authentication / Other ways to see resource.
      *
-     * @return \TKusy\Hl7FhirR4\RepositoryType
+     * @return \TKusy\Hl7FhirR4\RepositoryTypeType
      */
     public function getType()
     {
@@ -70,10 +70,10 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Click and see / RESTful API / Need login to see / RESTful API with authentication / Other ways to see resource.
      *
-     * @param \TKusy\Hl7FhirR4\RepositoryType $type
+     * @param \TKusy\Hl7FhirR4\RepositoryTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\RepositoryType $type)
+    public function setType(\TKusy\Hl7FhirR4\RepositoryTypeType $type)
     {
         $this->type = $type;
         return $this;

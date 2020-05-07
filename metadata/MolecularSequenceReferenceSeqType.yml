@@ -29,7 +29,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             accessor:
                 getter: getOrientation
                 setter: setOrientation
-            type: TKusy\Hl7FhirR4\OrientationType
+            type: TKusy\Hl7FhirR4\OrientationTypeType
         referenceSeqId:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             accessor:
                 getter: getStrand
                 setter: setStrand
-            type: TKusy\Hl7FhirR4\StrandType
+            type: TKusy\Hl7FhirR4\StrandTypeType
         windowStart:
             expose: true
             access_type: public_method

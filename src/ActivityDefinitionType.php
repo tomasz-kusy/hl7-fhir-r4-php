@@ -239,7 +239,7 @@ class ActivityDefinitionType extends DomainResourceType
     /**
      * A description of the kind of resource the activity definition is representing. For example, a MedicationRequest, a ServiceRequest, or a CommunicationRequest. Typically, but not always, this is a Request resource.
      *
-     * @var \TKusy\Hl7FhirR4\RequestResourceType $kind
+     * @var \TKusy\Hl7FhirR4\RequestResourceTypeType $kind
      */
     private $kind = null;
 
@@ -1617,7 +1617,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A description of the kind of resource the activity definition is representing. For example, a MedicationRequest, a ServiceRequest, or a CommunicationRequest. Typically, but not always, this is a Request resource.
      *
-     * @return \TKusy\Hl7FhirR4\RequestResourceType
+     * @return \TKusy\Hl7FhirR4\RequestResourceTypeType
      */
     public function getKind()
     {
@@ -1629,10 +1629,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A description of the kind of resource the activity definition is representing. For example, a MedicationRequest, a ServiceRequest, or a CommunicationRequest. Typically, but not always, this is a Request resource.
      *
-     * @param \TKusy\Hl7FhirR4\RequestResourceType $kind
+     * @param \TKusy\Hl7FhirR4\RequestResourceTypeType $kind
      * @return self
      */
-    public function setKind(\TKusy\Hl7FhirR4\RequestResourceType $kind)
+    public function setKind(\TKusy\Hl7FhirR4\RequestResourceTypeType $kind)
     {
         $this->kind = $kind;
         return $this;

@@ -19,7 +19,7 @@ TKusy\Hl7FhirR4\RequestGroupRelatedActionType:
             accessor:
                 getter: getRelationship
                 setter: setRelationship
-            type: TKusy\Hl7FhirR4\ActionRelationshipType
+            type: TKusy\Hl7FhirR4\ActionRelationshipTypeType
         offsetDuration:
             expose: true
             access_type: public_method

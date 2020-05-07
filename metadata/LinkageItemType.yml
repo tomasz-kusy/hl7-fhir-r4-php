@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\LinkageItemType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\LinkageType
+            type: TKusy\Hl7FhirR4\LinkageTypeType
         resource:
             expose: true
             access_type: public_method

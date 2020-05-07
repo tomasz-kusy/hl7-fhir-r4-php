@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\RepositoryType
+            type: TKusy\Hl7FhirR4\RepositoryTypeType
         url:
             expose: true
             access_type: public_method

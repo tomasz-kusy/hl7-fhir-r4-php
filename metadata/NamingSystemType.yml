@@ -29,7 +29,7 @@ TKusy\Hl7FhirR4\NamingSystemType:
             accessor:
                 getter: getKind
                 setter: setKind
-            type: TKusy\Hl7FhirR4\NamingSystemType
+            type: TKusy\Hl7FhirR4\NamingSystemTypeType
         date:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class NamingSystemUniqueIdType extends BackboneElementType
     /**
      * Identifies the unique identifier scheme used for this particular identifier.
      *
-     * @var \TKusy\Hl7FhirR4\NamingSystemIdentifierType $type
+     * @var \TKusy\Hl7FhirR4\NamingSystemIdentifierTypeType $type
      */
     private $type = null;
 
@@ -51,7 +51,7 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * Identifies the unique identifier scheme used for this particular identifier.
      *
-     * @return \TKusy\Hl7FhirR4\NamingSystemIdentifierType
+     * @return \TKusy\Hl7FhirR4\NamingSystemIdentifierTypeType
      */
     public function getType()
     {
@@ -63,10 +63,10 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * Identifies the unique identifier scheme used for this particular identifier.
      *
-     * @param \TKusy\Hl7FhirR4\NamingSystemIdentifierType $type
+     * @param \TKusy\Hl7FhirR4\NamingSystemIdentifierTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\NamingSystemIdentifierType $type)
+    public function setType(\TKusy\Hl7FhirR4\NamingSystemIdentifierTypeType $type)
     {
         $this->type = $type;
         return $this;

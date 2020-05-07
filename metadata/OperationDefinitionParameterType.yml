@@ -83,7 +83,7 @@ TKusy\Hl7FhirR4\OperationDefinitionParameterType:
             accessor:
                 getter: getSearchType
                 setter: setSearchType
-            type: TKusy\Hl7FhirR4\SearchParamType
+            type: TKusy\Hl7FhirR4\SearchParamTypeType
         binding:
             expose: true
             access_type: public_method

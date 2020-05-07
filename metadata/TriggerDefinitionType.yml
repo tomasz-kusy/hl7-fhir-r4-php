@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\TriggerType
+            type: TKusy\Hl7FhirR4\TriggerTypeType
         name:
             expose: true
             access_type: public_method

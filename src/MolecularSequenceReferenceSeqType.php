@@ -28,7 +28,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
     /**
      * A relative reference to a DNA strand based on gene orientation. The strand that contains the open reading frame of the gene is the "sense" strand, and the opposite complementary strand is the "antisense" strand.
      *
-     * @var \TKusy\Hl7FhirR4\OrientationType $orientation
+     * @var \TKusy\Hl7FhirR4\OrientationTypeType $orientation
      */
     private $orientation = null;
 
@@ -56,7 +56,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
     /**
      * An absolute reference to a strand. The Watson strand is the strand whose 5'-end is on the short arm of the chromosome, and the Crick strand as the one whose 5'-end is on the long arm.
      *
-     * @var \TKusy\Hl7FhirR4\StrandType $strand
+     * @var \TKusy\Hl7FhirR4\StrandTypeType $strand
      */
     private $strand = null;
 
@@ -131,7 +131,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * A relative reference to a DNA strand based on gene orientation. The strand that contains the open reading frame of the gene is the "sense" strand, and the opposite complementary strand is the "antisense" strand.
      *
-     * @return \TKusy\Hl7FhirR4\OrientationType
+     * @return \TKusy\Hl7FhirR4\OrientationTypeType
      */
     public function getOrientation()
     {
@@ -143,10 +143,10 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * A relative reference to a DNA strand based on gene orientation. The strand that contains the open reading frame of the gene is the "sense" strand, and the opposite complementary strand is the "antisense" strand.
      *
-     * @param \TKusy\Hl7FhirR4\OrientationType $orientation
+     * @param \TKusy\Hl7FhirR4\OrientationTypeType $orientation
      * @return self
      */
-    public function setOrientation(\TKusy\Hl7FhirR4\OrientationType $orientation)
+    public function setOrientation(\TKusy\Hl7FhirR4\OrientationTypeType $orientation)
     {
         $this->orientation = $orientation;
         return $this;
@@ -235,7 +235,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * An absolute reference to a strand. The Watson strand is the strand whose 5'-end is on the short arm of the chromosome, and the Crick strand as the one whose 5'-end is on the long arm.
      *
-     * @return \TKusy\Hl7FhirR4\StrandType
+     * @return \TKusy\Hl7FhirR4\StrandTypeType
      */
     public function getStrand()
     {
@@ -247,10 +247,10 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * An absolute reference to a strand. The Watson strand is the strand whose 5'-end is on the short arm of the chromosome, and the Crick strand as the one whose 5'-end is on the long arm.
      *
-     * @param \TKusy\Hl7FhirR4\StrandType $strand
+     * @param \TKusy\Hl7FhirR4\StrandTypeType $strand
      * @return self
      */
-    public function setStrand(\TKusy\Hl7FhirR4\StrandType $strand)
+    public function setStrand(\TKusy\Hl7FhirR4\StrandTypeType $strand)
     {
         $this->strand = $strand;
         return $this;

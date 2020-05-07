@@ -14,7 +14,7 @@ class LinkageItemType extends BackboneElementType
     /**
      * Distinguishes which item is "source of truth" (if any) and which items are no longer considered to be current representations.
      *
-     * @var \TKusy\Hl7FhirR4\LinkageType $type
+     * @var \TKusy\Hl7FhirR4\LinkageTypeType $type
      */
     private $type = null;
 
@@ -30,7 +30,7 @@ class LinkageItemType extends BackboneElementType
      *
      * Distinguishes which item is "source of truth" (if any) and which items are no longer considered to be current representations.
      *
-     * @return \TKusy\Hl7FhirR4\LinkageType
+     * @return \TKusy\Hl7FhirR4\LinkageTypeType
      */
     public function getType()
     {
@@ -42,10 +42,10 @@ class LinkageItemType extends BackboneElementType
      *
      * Distinguishes which item is "source of truth" (if any) and which items are no longer considered to be current representations.
      *
-     * @param \TKusy\Hl7FhirR4\LinkageType $type
+     * @param \TKusy\Hl7FhirR4\LinkageTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\LinkageType $type)
+    public function setType(\TKusy\Hl7FhirR4\LinkageTypeType $type)
     {
         $this->type = $type;
         return $this;

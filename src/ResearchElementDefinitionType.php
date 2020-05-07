@@ -255,14 +255,14 @@ class ResearchElementDefinitionType extends DomainResourceType
     /**
      * The type of research element, a population, an exposure, or an outcome.
      *
-     * @var \TKusy\Hl7FhirR4\ResearchElementType $type
+     * @var \TKusy\Hl7FhirR4\ResearchElementTypeType $type
      */
     private $type = null;
 
     /**
      * The type of the outcome (e.g. Dichotomous, Continuous, or Descriptive).
      *
-     * @var \TKusy\Hl7FhirR4\VariableType $variableType
+     * @var \TKusy\Hl7FhirR4\VariableTypeType $variableType
      */
     private $variableType = null;
 
@@ -1566,7 +1566,7 @@ class ResearchElementDefinitionType extends DomainResourceType
      *
      * The type of research element, a population, an exposure, or an outcome.
      *
-     * @return \TKusy\Hl7FhirR4\ResearchElementType
+     * @return \TKusy\Hl7FhirR4\ResearchElementTypeType
      */
     public function getType()
     {
@@ -1578,10 +1578,10 @@ class ResearchElementDefinitionType extends DomainResourceType
      *
      * The type of research element, a population, an exposure, or an outcome.
      *
-     * @param \TKusy\Hl7FhirR4\ResearchElementType $type
+     * @param \TKusy\Hl7FhirR4\ResearchElementTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\ResearchElementType $type)
+    public function setType(\TKusy\Hl7FhirR4\ResearchElementTypeType $type)
     {
         $this->type = $type;
         return $this;
@@ -1592,7 +1592,7 @@ class ResearchElementDefinitionType extends DomainResourceType
      *
      * The type of the outcome (e.g. Dichotomous, Continuous, or Descriptive).
      *
-     * @return \TKusy\Hl7FhirR4\VariableType
+     * @return \TKusy\Hl7FhirR4\VariableTypeType
      */
     public function getVariableType()
     {
@@ -1604,10 +1604,10 @@ class ResearchElementDefinitionType extends DomainResourceType
      *
      * The type of the outcome (e.g. Dichotomous, Continuous, or Descriptive).
      *
-     * @param \TKusy\Hl7FhirR4\VariableType $variableType
+     * @param \TKusy\Hl7FhirR4\VariableTypeType $variableType
      * @return self
      */
-    public function setVariableType(\TKusy\Hl7FhirR4\VariableType $variableType)
+    public function setVariableType(\TKusy\Hl7FhirR4\VariableTypeType $variableType)
     {
         $this->variableType = $variableType;
         return $this;

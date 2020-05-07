@@ -19,7 +19,7 @@ TKusy\Hl7FhirR4\ClaimResponseProcessNoteType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\NoteType
+            type: TKusy\Hl7FhirR4\NoteTypeType
         text:
             expose: true
             access_type: public_method

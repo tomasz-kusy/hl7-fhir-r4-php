@@ -21,7 +21,7 @@ class AddressType extends ElementType
     /**
      * Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.
      *
-     * @var \TKusy\Hl7FhirR4\AddressType $type
+     * @var \TKusy\Hl7FhirR4\AddressTypeType $type
      */
     private $type = null;
 
@@ -114,7 +114,7 @@ class AddressType extends ElementType
      *
      * Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.
      *
-     * @return \TKusy\Hl7FhirR4\AddressType
+     * @return \TKusy\Hl7FhirR4\AddressTypeType
      */
     public function getType()
     {
@@ -126,10 +126,10 @@ class AddressType extends ElementType
      *
      * Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.
      *
-     * @param \TKusy\Hl7FhirR4\AddressType $type
+     * @param \TKusy\Hl7FhirR4\AddressTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\AddressType $type)
+    public function setType(\TKusy\Hl7FhirR4\AddressTypeType $type)
     {
         $this->type = $type;
         return $this;

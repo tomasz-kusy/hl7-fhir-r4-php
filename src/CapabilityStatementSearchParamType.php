@@ -28,7 +28,7 @@ class CapabilityStatementSearchParamType extends BackboneElementType
     /**
      * The type of value a search parameter refers to, and how the content is interpreted.
      *
-     * @var \TKusy\Hl7FhirR4\SearchParamType $type
+     * @var \TKusy\Hl7FhirR4\SearchParamTypeType $type
      */
     private $type = null;
 
@@ -96,7 +96,7 @@ class CapabilityStatementSearchParamType extends BackboneElementType
      *
      * The type of value a search parameter refers to, and how the content is interpreted.
      *
-     * @return \TKusy\Hl7FhirR4\SearchParamType
+     * @return \TKusy\Hl7FhirR4\SearchParamTypeType
      */
     public function getType()
     {
@@ -108,10 +108,10 @@ class CapabilityStatementSearchParamType extends BackboneElementType
      *
      * The type of value a search parameter refers to, and how the content is interpreted.
      *
-     * @param \TKusy\Hl7FhirR4\SearchParamType $type
+     * @param \TKusy\Hl7FhirR4\SearchParamTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\SearchParamType $type)
+    public function setType(\TKusy\Hl7FhirR4\SearchParamTypeType $type)
     {
         $this->type = $type;
         return $this;

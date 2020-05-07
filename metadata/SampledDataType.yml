@@ -69,4 +69,4 @@ TKusy\Hl7FhirR4\SampledDataType:
             accessor:
                 getter: getData
                 setter: setData
-            type: TKusy\Hl7FhirR4\SampledDataDataType
+            type: TKusy\Hl7FhirR4\SampledDataDataTypeType

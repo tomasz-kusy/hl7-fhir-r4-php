@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\StructureDefinitionContextType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\ExtensionContextType
+            type: TKusy\Hl7FhirR4\ExtensionContextTypeType
         expression:
             expose: true
             access_type: public_method

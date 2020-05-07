@@ -29,7 +29,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getDirection
                 setter: setDirection
-            type: TKusy\Hl7FhirR4\AssertionDirectionType
+            type: TKusy\Hl7FhirR4\AssertionDirectionTypeType
         compareToSourceId:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getOperator
                 setter: setOperator
-            type: TKusy\Hl7FhirR4\AssertionOperatorType
+            type: TKusy\Hl7FhirR4\AssertionOperatorTypeType
         path:
             expose: true
             access_type: public_method

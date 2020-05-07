@@ -5,36 +5,108 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceMetricCalibrationType
  *
- * Describes the type of a metric calibration.If the element is present, it must have either a @value, an @id, or extensions
- * XSD Type: DeviceMetricCalibrationType
+ * Describes a measurement, calculation or setting capability of a medical device.
+ * XSD Type: DeviceMetric.Calibration
  */
-class DeviceMetricCalibrationType extends ElementType
+class DeviceMetricCalibrationType extends BackboneElementType
 {
 
     /**
-     * @var string $value
+     * Describes the type of the calibration method.
+     *
+     * @var \TKusy\Hl7FhirR4\DeviceMetricCalibrationTypeType $type
      */
-    private $value = null;
+    private $type = null;
 
     /**
-     * Gets as value
+     * Describes the state of the calibration.
      *
-     * @return string
+     * @var \TKusy\Hl7FhirR4\DeviceMetricCalibrationStateType $state
      */
-    public function getValue()
+    private $state = null;
+
+    /**
+     * Describes the time last calibration has been performed.
+     *
+     * @var \TKusy\Hl7FhirR4\InstantType $time
+     */
+    private $time = null;
+
+    /**
+     * Gets as type
+     *
+     * Describes the type of the calibration method.
+     *
+     * @return \TKusy\Hl7FhirR4\DeviceMetricCalibrationTypeType
+     */
+    public function getType()
     {
-        return $this->value;
+        return $this->type;
     }
 
     /**
-     * Sets a new value
+     * Sets a new type
      *
-     * @param string $value
+     * Describes the type of the calibration method.
+     *
+     * @param \TKusy\Hl7FhirR4\DeviceMetricCalibrationTypeType $type
      * @return self
      */
-    public function setValue($value)
+    public function setType(\TKusy\Hl7FhirR4\DeviceMetricCalibrationTypeType $type)
     {
-        $this->value = $value;
+        $this->type = $type;
+        return $this;
+    }
+
+    /**
+     * Gets as state
+     *
+     * Describes the state of the calibration.
+     *
+     * @return \TKusy\Hl7FhirR4\DeviceMetricCalibrationStateType
+     */
+    public function getState()
+    {
+        return $this->state;
+    }
+
+    /**
+     * Sets a new state
+     *
+     * Describes the state of the calibration.
+     *
+     * @param \TKusy\Hl7FhirR4\DeviceMetricCalibrationStateType $state
+     * @return self
+     */
+    public function setState(\TKusy\Hl7FhirR4\DeviceMetricCalibrationStateType $state)
+    {
+        $this->state = $state;
+        return $this;
+    }
+
+    /**
+     * Gets as time
+     *
+     * Describes the time last calibration has been performed.
+     *
+     * @return \TKusy\Hl7FhirR4\InstantType
+     */
+    public function getTime()
+    {
+        return $this->time;
+    }
+
+    /**
+     * Sets a new time
+     *
+     * Describes the time last calibration has been performed.
+     *
+     * @param \TKusy\Hl7FhirR4\InstantType $time
+     * @return self
+     */
+    public function setTime(\TKusy\Hl7FhirR4\InstantType $time)
+    {
+        $this->time = $time;
         return $this;
     }
 

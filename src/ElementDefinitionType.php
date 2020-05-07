@@ -132,7 +132,7 @@ class ElementDefinitionType extends BackboneElementType
     /**
      * The data type or resource that the value of this element is permitted to be.
      *
-     * @var \TKusy\Hl7FhirR4\ElementDefinitionType[] $type
+     * @var \TKusy\Hl7FhirR4\ElementDefinitionTypeType[] $type
      */
     private $type = [
         
@@ -2448,9 +2448,9 @@ class ElementDefinitionType extends BackboneElementType
      * The data type or resource that the value of this element is permitted to be.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\ElementDefinitionType $type
+     * @param \TKusy\Hl7FhirR4\ElementDefinitionTypeType $type
      */
-    public function addToType(\TKusy\Hl7FhirR4\ElementDefinitionType $type)
+    public function addToType(\TKusy\Hl7FhirR4\ElementDefinitionTypeType $type)
     {
         $this->type[] = $type;
         return $this;
@@ -2487,7 +2487,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * The data type or resource that the value of this element is permitted to be.
      *
-     * @return \TKusy\Hl7FhirR4\ElementDefinitionType[]
+     * @return \TKusy\Hl7FhirR4\ElementDefinitionTypeType[]
      */
     public function getType()
     {
@@ -2499,7 +2499,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * The data type or resource that the value of this element is permitted to be.
      *
-     * @param \TKusy\Hl7FhirR4\ElementDefinitionType[] $type
+     * @param \TKusy\Hl7FhirR4\ElementDefinitionTypeType[] $type
      * @return self
      */
     public function setType(array $type)

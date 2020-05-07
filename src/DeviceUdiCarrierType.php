@@ -57,7 +57,7 @@ class DeviceUdiCarrierType extends BackboneElementType
     /**
      * A coded entry to indicate how the data was entered.
      *
-     * @var \TKusy\Hl7FhirR4\UDIEntryType $entryType
+     * @var \TKusy\Hl7FhirR4\UDIEntryTypeType $entryType
      */
     private $entryType = null;
 
@@ -212,7 +212,7 @@ class DeviceUdiCarrierType extends BackboneElementType
      *
      * A coded entry to indicate how the data was entered.
      *
-     * @return \TKusy\Hl7FhirR4\UDIEntryType
+     * @return \TKusy\Hl7FhirR4\UDIEntryTypeType
      */
     public function getEntryType()
     {
@@ -224,10 +224,10 @@ class DeviceUdiCarrierType extends BackboneElementType
      *
      * A coded entry to indicate how the data was entered.
      *
-     * @param \TKusy\Hl7FhirR4\UDIEntryType $entryType
+     * @param \TKusy\Hl7FhirR4\UDIEntryTypeType $entryType
      * @return self
      */
-    public function setEntryType(\TKusy\Hl7FhirR4\UDIEntryType $entryType)
+    public function setEntryType(\TKusy\Hl7FhirR4\UDIEntryTypeType $entryType)
     {
         $this->entryType = $entryType;
         return $this;

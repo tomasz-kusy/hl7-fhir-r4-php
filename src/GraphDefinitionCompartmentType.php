@@ -21,7 +21,7 @@ class GraphDefinitionCompartmentType extends BackboneElementType
     /**
      * Identifies the compartment.
      *
-     * @var \TKusy\Hl7FhirR4\CompartmentType $code
+     * @var \TKusy\Hl7FhirR4\CompartmentTypeType $code
      */
     private $code = null;
 
@@ -77,7 +77,7 @@ class GraphDefinitionCompartmentType extends BackboneElementType
      *
      * Identifies the compartment.
      *
-     * @return \TKusy\Hl7FhirR4\CompartmentType
+     * @return \TKusy\Hl7FhirR4\CompartmentTypeType
      */
     public function getCode()
     {
@@ -89,10 +89,10 @@ class GraphDefinitionCompartmentType extends BackboneElementType
      *
      * Identifies the compartment.
      *
-     * @param \TKusy\Hl7FhirR4\CompartmentType $code
+     * @param \TKusy\Hl7FhirR4\CompartmentTypeType $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\CompartmentType $code)
+    public function setCode(\TKusy\Hl7FhirR4\CompartmentTypeType $code)
     {
         $this->code = $code;
         return $this;

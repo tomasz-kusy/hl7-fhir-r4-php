@@ -14,7 +14,7 @@ class MolecularSequenceQualityType extends BackboneElementType
     /**
      * INDEL / SNP / Undefined variant.
      *
-     * @var \TKusy\Hl7FhirR4\QualityType $type
+     * @var \TKusy\Hl7FhirR4\QualityTypeType $type
      */
     private $type = null;
 
@@ -121,7 +121,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * INDEL / SNP / Undefined variant.
      *
-     * @return \TKusy\Hl7FhirR4\QualityType
+     * @return \TKusy\Hl7FhirR4\QualityTypeType
      */
     public function getType()
     {
@@ -133,10 +133,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * INDEL / SNP / Undefined variant.
      *
-     * @param \TKusy\Hl7FhirR4\QualityType $type
+     * @param \TKusy\Hl7FhirR4\QualityTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\QualityType $type)
+    public function setType(\TKusy\Hl7FhirR4\QualityTypeType $type)
     {
         $this->type = $type;
         return $this;

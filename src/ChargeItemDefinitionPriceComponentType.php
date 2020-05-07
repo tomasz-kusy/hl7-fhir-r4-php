@@ -14,7 +14,7 @@ class ChargeItemDefinitionPriceComponentType extends BackboneElementType
     /**
      * This code identifies the type of the component.
      *
-     * @var \TKusy\Hl7FhirR4\InvoicePriceComponentType $type
+     * @var \TKusy\Hl7FhirR4\InvoicePriceComponentTypeType $type
      */
     private $type = null;
 
@@ -44,7 +44,7 @@ class ChargeItemDefinitionPriceComponentType extends BackboneElementType
      *
      * This code identifies the type of the component.
      *
-     * @return \TKusy\Hl7FhirR4\InvoicePriceComponentType
+     * @return \TKusy\Hl7FhirR4\InvoicePriceComponentTypeType
      */
     public function getType()
     {
@@ -56,10 +56,10 @@ class ChargeItemDefinitionPriceComponentType extends BackboneElementType
      *
      * This code identifies the type of the component.
      *
-     * @param \TKusy\Hl7FhirR4\InvoicePriceComponentType $type
+     * @param \TKusy\Hl7FhirR4\InvoicePriceComponentTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\InvoicePriceComponentType $type)
+    public function setType(\TKusy\Hl7FhirR4\InvoicePriceComponentTypeType $type)
     {
         $this->type = $type;
         return $this;

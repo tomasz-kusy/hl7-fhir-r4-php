@@ -39,7 +39,7 @@ class ObservationDefinitionType extends DomainResourceType
     /**
      * The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.
      *
-     * @var \TKusy\Hl7FhirR4\ObservationDataType[] $permittedDataType
+     * @var \TKusy\Hl7FhirR4\ObservationDataTypeType[] $permittedDataType
      */
     private $permittedDataType = [
         
@@ -274,9 +274,9 @@ class ObservationDefinitionType extends DomainResourceType
      * The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\ObservationDataType $permittedDataType
+     * @param \TKusy\Hl7FhirR4\ObservationDataTypeType $permittedDataType
      */
-    public function addToPermittedDataType(\TKusy\Hl7FhirR4\ObservationDataType $permittedDataType)
+    public function addToPermittedDataType(\TKusy\Hl7FhirR4\ObservationDataTypeType $permittedDataType)
     {
         $this->permittedDataType[] = $permittedDataType;
         return $this;
@@ -313,7 +313,7 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.
      *
-     * @return \TKusy\Hl7FhirR4\ObservationDataType[]
+     * @return \TKusy\Hl7FhirR4\ObservationDataTypeType[]
      */
     public function getPermittedDataType()
     {
@@ -325,7 +325,7 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.
      *
-     * @param \TKusy\Hl7FhirR4\ObservationDataType[] $permittedDataType
+     * @param \TKusy\Hl7FhirR4\ObservationDataTypeType[] $permittedDataType
      * @return self
      */
     public function setPermittedDataType(array $permittedDataType)

@@ -14,7 +14,7 @@ class ElementDefinitionDiscriminatorType extends BackboneElementType
     /**
      * How the element value is interpreted when discrimination is evaluated.
      *
-     * @var \TKusy\Hl7FhirR4\DiscriminatorType $type
+     * @var \TKusy\Hl7FhirR4\DiscriminatorTypeType $type
      */
     private $type = null;
 
@@ -30,7 +30,7 @@ class ElementDefinitionDiscriminatorType extends BackboneElementType
      *
      * How the element value is interpreted when discrimination is evaluated.
      *
-     * @return \TKusy\Hl7FhirR4\DiscriminatorType
+     * @return \TKusy\Hl7FhirR4\DiscriminatorTypeType
      */
     public function getType()
     {
@@ -42,10 +42,10 @@ class ElementDefinitionDiscriminatorType extends BackboneElementType
      *
      * How the element value is interpreted when discrimination is evaluated.
      *
-     * @param \TKusy\Hl7FhirR4\DiscriminatorType $type
+     * @param \TKusy\Hl7FhirR4\DiscriminatorTypeType $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\DiscriminatorType $type)
+    public function setType(\TKusy\Hl7FhirR4\DiscriminatorTypeType $type)
     {
         $this->type = $type;
         return $this;

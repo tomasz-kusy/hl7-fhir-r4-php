@@ -19,4 +19,4 @@ TKusy\Hl7FhirR4\AuditEventNetworkType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\AuditEventAgentNetworkType
+            type: TKusy\Hl7FhirR4\AuditEventAgentNetworkTypeType

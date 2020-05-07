@@ -21,7 +21,7 @@ class OperationOutcomeIssueType extends BackboneElementType
     /**
      * Describes the type of the issue. The system that creates an OperationOutcome SHALL choose the most applicable code from the IssueType value set, and may additional provide its own code for the error in the details element.
      *
-     * @var \TKusy\Hl7FhirR4\IssueType $code
+     * @var \TKusy\Hl7FhirR4\IssueTypeType $code
      */
     private $code = null;
 
@@ -90,7 +90,7 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * Describes the type of the issue. The system that creates an OperationOutcome SHALL choose the most applicable code from the IssueType value set, and may additional provide its own code for the error in the details element.
      *
-     * @return \TKusy\Hl7FhirR4\IssueType
+     * @return \TKusy\Hl7FhirR4\IssueTypeType
      */
     public function getCode()
     {
@@ -102,10 +102,10 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * Describes the type of the issue. The system that creates an OperationOutcome SHALL choose the most applicable code from the IssueType value set, and may additional provide its own code for the error in the details element.
      *
-     * @param \TKusy\Hl7FhirR4\IssueType $code
+     * @param \TKusy\Hl7FhirR4\IssueTypeType $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\IssueType $code)
+    public function setCode(\TKusy\Hl7FhirR4\IssueTypeType $code)
     {
         $this->code = $code;
         return $this;

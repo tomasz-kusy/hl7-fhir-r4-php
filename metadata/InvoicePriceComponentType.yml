@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\InvoicePriceComponentType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\InvoicePriceComponentType
+            type: TKusy\Hl7FhirR4\InvoicePriceComponentTypeType
         code:
             expose: true
             access_type: public_method

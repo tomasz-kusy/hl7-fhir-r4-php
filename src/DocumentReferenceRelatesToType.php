@@ -14,7 +14,7 @@ class DocumentReferenceRelatesToType extends BackboneElementType
     /**
      * The type of relationship that this document has with anther document.
      *
-     * @var \TKusy\Hl7FhirR4\DocumentRelationshipType $code
+     * @var \TKusy\Hl7FhirR4\DocumentRelationshipTypeType $code
      */
     private $code = null;
 
@@ -30,7 +30,7 @@ class DocumentReferenceRelatesToType extends BackboneElementType
      *
      * The type of relationship that this document has with anther document.
      *
-     * @return \TKusy\Hl7FhirR4\DocumentRelationshipType
+     * @return \TKusy\Hl7FhirR4\DocumentRelationshipTypeType
      */
     public function getCode()
     {
@@ -42,10 +42,10 @@ class DocumentReferenceRelatesToType extends BackboneElementType
      *
      * The type of relationship that this document has with anther document.
      *
-     * @param \TKusy\Hl7FhirR4\DocumentRelationshipType $code
+     * @param \TKusy\Hl7FhirR4\DocumentRelationshipTypeType $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\DocumentRelationshipType $code)
+    public function setCode(\TKusy\Hl7FhirR4\DocumentRelationshipTypeType $code)
     {
         $this->code = $code;
         return $this;

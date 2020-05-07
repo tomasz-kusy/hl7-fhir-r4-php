@@ -33,7 +33,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\MeasureReportType
+            type: TKusy\Hl7FhirR4\MeasureReportTypeType
         measure:
             expose: true
             access_type: public_method

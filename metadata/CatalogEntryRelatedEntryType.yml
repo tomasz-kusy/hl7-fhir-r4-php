@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\CatalogEntryRelatedEntryType:
             accessor:
                 getter: getRelationtype
                 setter: setRelationtype
-            type: TKusy\Hl7FhirR4\CatalogEntryRelationType
+            type: TKusy\Hl7FhirR4\CatalogEntryRelationTypeType
         item:
             expose: true
             access_type: public_method

@@ -9,7 +9,7 @@ TKusy\Hl7FhirR4\TestReportParticipantType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\TestReportParticipantType
+            type: TKusy\Hl7FhirR4\TestReportParticipantTypeType
         uri:
             expose: true
             access_type: public_method
