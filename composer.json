@@ -1,6 +1,6 @@
 {
   "name": "tomasz-kusy/hl7-fhir-r4",
-  "description": "PHP representation of HL7 FHIR R4",
+  "description": "PHP representation of HL7 FHIR R4 (v4.0.1)",
   "type": "library",
   "minimum-stability": "dev",
   "license": "MIT",
@@ -10,12 +10,17 @@
       "email": "tomasz@rac.pl"
     }
   ],
+  "keywords": [
+    "php",
+    "hl7",
+    "fhir r4"
+  ],
   "autoload": {
     "psr-4": {
       "TKusy\\Hl7FhirR4\\": "src/"
     }
   },
   "require": {
-    "tomasz-kusy/php-xhtml": "dev-master"
+    "tomasz-kusy/fhir-xhtml-php": "dev-master"
   }
 }
