@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: eventCoding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEventCoding
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: eventUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEventUri
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: destination
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDestination
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: sender
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSender
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: enterer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnterer
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: responsible
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponsible
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: reason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReason
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: response
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponse
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: focus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFocus
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\MessageHeaderType:
             access_type: public_method
             serialized_name: definition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinition

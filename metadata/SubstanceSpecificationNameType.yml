@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: preferred
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreferred
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: language
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLanguage
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: domain
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDomain
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: jurisdiction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getJurisdiction
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: synonym
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSynonym
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: translation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTranslation
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: official
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOfficial
@@ -129,6 +139,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationNameType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource

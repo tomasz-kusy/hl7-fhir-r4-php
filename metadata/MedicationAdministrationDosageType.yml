@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: site
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSite
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: route
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRoute
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: method
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMethod
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: dose
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDose
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: rateRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateRatio
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\MedicationAdministrationDosageType:
             access_type: public_method
             serialized_name: rateQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateQuantity

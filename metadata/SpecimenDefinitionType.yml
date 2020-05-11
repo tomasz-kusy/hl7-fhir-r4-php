@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionType:
             access_type: public_method
             serialized_name: typeCollected
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTypeCollected
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionType:
             access_type: public_method
             serialized_name: patientPreparation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatientPreparation
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionType:
             access_type: public_method
             serialized_name: timeAspect
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimeAspect
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionType:
             access_type: public_method
             serialized_name: collection
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCollection
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionType:
             access_type: public_method
             serialized_name: typeTested
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTypeTested

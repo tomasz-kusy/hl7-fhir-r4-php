@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: productCategory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductCategory
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: productCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductCode
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: request
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequest
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: parent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParent
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: collection
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCollection
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: processing
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcessing
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: manipulation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManipulation
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             access_type: public_method
             serialized_name: storage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStorage

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType:
             access_type: public_method
             serialized_name: coverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverage
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType:
             access_type: public_method
             serialized_name: inforce
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInforce
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType:
             access_type: public_method
             serialized_name: benefitPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBenefitPeriod
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem

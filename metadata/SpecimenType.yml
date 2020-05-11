@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: accessionIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAccessionIdentifier
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: receivedTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReceivedTime
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: parent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParent
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: request
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequest
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: collection
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCollection
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: processing
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcessing
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: container
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContainer
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -149,6 +161,7 @@ TKusy\Hl7FhirR4\SpecimenType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

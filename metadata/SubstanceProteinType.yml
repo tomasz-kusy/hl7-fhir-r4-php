@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceProteinType:
             access_type: public_method
             serialized_name: sequenceType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequenceType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceProteinType:
             access_type: public_method
             serialized_name: numberOfSubunits
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumberOfSubunits
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceProteinType:
             access_type: public_method
             serialized_name: disulfideLinkage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisulfideLinkage
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SubstanceProteinType:
             access_type: public_method
             serialized_name: subunit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubunit

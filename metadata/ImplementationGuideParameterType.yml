@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImplementationGuideParameterType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImplementationGuideParameterType:
             access_type: public_method
             serialized_name: value
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValue

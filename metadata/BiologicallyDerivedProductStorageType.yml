@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
             access_type: public_method
             serialized_name: temperature
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTemperature
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
             access_type: public_method
             serialized_name: scale
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScale
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
             access_type: public_method
             serialized_name: duration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDuration

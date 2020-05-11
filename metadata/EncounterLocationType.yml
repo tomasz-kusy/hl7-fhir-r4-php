@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EncounterLocationType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\EncounterLocationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\EncounterLocationType:
             access_type: public_method
             serialized_name: physicalType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhysicalType
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\EncounterLocationType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

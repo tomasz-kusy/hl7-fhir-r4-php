@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: organization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrganization
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: participatingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipatingOrganization
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: network
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNetwork
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: specialty
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialty
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: healthcareService
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHealthcareService
@@ -129,6 +139,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: telecom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTelecom
@@ -143,6 +154,7 @@ TKusy\Hl7FhirR4\OrganizationAffiliationType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint

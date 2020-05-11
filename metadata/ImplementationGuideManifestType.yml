@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
             access_type: public_method
             serialized_name: rendering
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRendering
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
             access_type: public_method
             serialized_name: page
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPage
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
             access_type: public_method
             serialized_name: image
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImage
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
             access_type: public_method
             serialized_name: other
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOther

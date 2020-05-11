@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: alias
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlias
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: telecom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTelecom
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: address
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddress
@@ -95,6 +102,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -105,6 +113,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -119,6 +128,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint

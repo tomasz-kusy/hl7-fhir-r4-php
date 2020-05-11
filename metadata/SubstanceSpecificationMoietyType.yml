@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: stereochemistry
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStereochemistry
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: opticalActivity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOpticalActivity
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: molecularFormula
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMolecularFormula
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: amountQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountQuantity
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             access_type: public_method
             serialized_name: amountString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountString

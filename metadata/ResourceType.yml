@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ResourceType:
             access_type: public_method
             serialized_name: id
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getId
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ResourceType:
             access_type: public_method
             serialized_name: meta
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeta
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ResourceType:
             access_type: public_method
             serialized_name: implicitRules
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImplicitRules
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ResourceType:
             access_type: public_method
             serialized_name: language
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLanguage

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType:
             access_type: public_method
             serialized_name: information
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInformation
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType:
             access_type: public_method
             serialized_name: appliesToAll
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAppliesToAll

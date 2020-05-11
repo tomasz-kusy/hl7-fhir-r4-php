@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: productOrService
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductOrService
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: modifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModifier
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: provider
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvider
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: excluded
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExcluded
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: network
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNetwork
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: unit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnit
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: term
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTerm
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: benefit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBenefit
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: authorizationRequired
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthorizationRequired
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: authorizationSupporting
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthorizationSupporting
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             access_type: public_method
             serialized_name: authorizationUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthorizationUrl

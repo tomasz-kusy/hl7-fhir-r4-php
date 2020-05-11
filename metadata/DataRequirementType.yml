@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: subjectCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectCodeableConcept
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: subjectReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectReference
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: mustSupport
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMustSupport
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: codeFilter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCodeFilter
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: dateFilter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDateFilter
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: limit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLimit
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
             access_type: public_method
             serialized_name: sort
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSort

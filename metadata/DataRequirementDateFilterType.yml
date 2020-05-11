@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DataRequirementDateFilterType:
             access_type: public_method
             serialized_name: path
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPath
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DataRequirementDateFilterType:
             access_type: public_method
             serialized_name: searchParam
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearchParam
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\DataRequirementDateFilterType:
             access_type: public_method
             serialized_name: valueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueDateTime
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\DataRequirementDateFilterType:
             access_type: public_method
             serialized_name: valuePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValuePeriod
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\DataRequirementDateFilterType:
             access_type: public_method
             serialized_name: valueDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueDuration

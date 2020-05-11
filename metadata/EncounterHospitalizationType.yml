@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: preAdmissionIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreAdmissionIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: origin
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrigin
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: admitSource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdmitSource
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: reAdmission
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReAdmission
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: dietPreference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDietPreference
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: specialCourtesy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialCourtesy
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: specialArrangement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialArrangement
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: destination
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDestination
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\EncounterHospitalizationType:
             access_type: public_method
             serialized_name: dischargeDisposition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDischargeDisposition

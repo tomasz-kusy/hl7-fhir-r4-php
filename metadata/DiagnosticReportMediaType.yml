@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DiagnosticReportMediaType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DiagnosticReportMediaType:
             access_type: public_method
             serialized_name: link
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLink

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: substanceReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubstanceReference
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: substanceCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubstanceCodeableConcept
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: relationship
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelationship
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: isDefining
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsDefining
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: amountQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountQuantity
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: amountRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountRange
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: amountRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountRatio
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: amountString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountString
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: amountRatioLowLimit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountRatioLowLimit
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: amountType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountType
@@ -105,6 +115,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource

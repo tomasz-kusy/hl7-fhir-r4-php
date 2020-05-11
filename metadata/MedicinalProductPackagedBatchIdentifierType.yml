@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedBatchIdentifierType:
             access_type: public_method
             serialized_name: outerPackaging
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOuterPackaging
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedBatchIdentifierType:
             access_type: public_method
             serialized_name: immediatePackaging
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImmediatePackaging

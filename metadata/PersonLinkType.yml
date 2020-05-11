@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PersonLinkType:
             access_type: public_method
             serialized_name: target
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTarget
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\PersonLinkType:
             access_type: public_method
             serialized_name: assurance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAssurance

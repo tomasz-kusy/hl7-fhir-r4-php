@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ValueSetComposeType:
             access_type: public_method
             serialized_name: lockedDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLockedDate
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ValueSetComposeType:
             access_type: public_method
             serialized_name: inactive
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInactive
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ValueSetComposeType:
             access_type: public_method
             serialized_name: include
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInclude
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ValueSetComposeType:
             access_type: public_method
             serialized_name: exclude
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExclude

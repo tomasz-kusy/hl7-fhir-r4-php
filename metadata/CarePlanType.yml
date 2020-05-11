@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: instantiatesCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiatesCanonical
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: instantiatesUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiatesUri
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -61,6 +65,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: replaces
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReplaces
@@ -75,6 +80,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -89,6 +95,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -99,6 +106,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: intent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntent
@@ -109,6 +117,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -123,6 +132,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -133,6 +143,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -143,6 +154,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -153,6 +165,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -163,6 +176,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -173,6 +187,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -183,6 +198,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -193,6 +209,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: contributor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContributor
@@ -207,6 +224,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: careTeam
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCareTeam
@@ -221,6 +239,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: addresses
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddresses
@@ -235,6 +254,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: supportingInfo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingInfo
@@ -249,6 +269,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: goal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGoal
@@ -263,6 +284,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: activity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActivity
@@ -277,6 +299,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\OperationOutcomeIssueType:
             access_type: public_method
             serialized_name: severity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeverity
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\OperationOutcomeIssueType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\OperationOutcomeIssueType:
             access_type: public_method
             serialized_name: details
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetails
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\OperationOutcomeIssueType:
             access_type: public_method
             serialized_name: diagnostics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnostics
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\OperationOutcomeIssueType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\OperationOutcomeIssueType:
             access_type: public_method
             serialized_name: expression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpression

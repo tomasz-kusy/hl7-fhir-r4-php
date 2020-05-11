@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSearchParamType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSearchParamType:
             access_type: public_method
             serialized_name: definition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinition
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSearchParamType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSearchParamType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation

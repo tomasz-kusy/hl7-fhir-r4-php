@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: series
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeries
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: authority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthority
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: targetDisease
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTargetDisease
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: doseNumberPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseNumberPositiveInt
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: doseNumberString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseNumberString
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: seriesDosesPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriesDosesPositiveInt
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType:
             access_type: public_method
             serialized_name: seriesDosesString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriesDosesString

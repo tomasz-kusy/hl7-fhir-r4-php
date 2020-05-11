@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductAuthorizationJurisdictionalAuthorizationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductAuthorizationJurisdictionalAuthorizationType:
             access_type: public_method
             serialized_name: country
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountry
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductAuthorizationJurisdictionalAuthorizationType:
             access_type: public_method
             serialized_name: jurisdiction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getJurisdiction
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\MedicinalProductAuthorizationJurisdictionalAuthorizationType:
             access_type: public_method
             serialized_name: legalStatusOfSupply
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegalStatusOfSupply
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductAuthorizationJurisdictionalAuthorizationType:
             access_type: public_method
             serialized_name: validityPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValidityPeriod

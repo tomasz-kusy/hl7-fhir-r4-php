@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CodeableConceptType:
             access_type: public_method
             serialized_name: coding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoding
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\CodeableConceptType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText

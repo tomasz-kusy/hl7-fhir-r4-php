@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: questionnaire
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuestionnaire
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: authored
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthored
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem

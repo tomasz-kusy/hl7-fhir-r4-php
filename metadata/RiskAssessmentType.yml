@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: parent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParent
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: method
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMethod
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: occurrenceDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceDateTime
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: occurrencePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrencePeriod
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -157,6 +171,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: basis
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasis
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: prediction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrediction
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: mitigation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMitigation
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

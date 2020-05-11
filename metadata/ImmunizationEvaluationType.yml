@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: authority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthority
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: targetDisease
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTargetDisease
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: immunizationEvent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImmunizationEvent
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: doseStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseStatus
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: doseStatusReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseStatusReason
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: series
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeries
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: doseNumberPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseNumberPositiveInt
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: doseNumberString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseNumberString
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: seriesDosesPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriesDosesPositiveInt
@@ -153,6 +167,7 @@ TKusy\Hl7FhirR4\ImmunizationEvaluationType:
             access_type: public_method
             serialized_name: seriesDosesString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriesDosesString

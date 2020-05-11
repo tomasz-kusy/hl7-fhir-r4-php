@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ElementDefinitionBindingType:
             access_type: public_method
             serialized_name: strength
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStrength
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ElementDefinitionBindingType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ElementDefinitionBindingType:
             access_type: public_method
             serialized_name: valueSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueSet

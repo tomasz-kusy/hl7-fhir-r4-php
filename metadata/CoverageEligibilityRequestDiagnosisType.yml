@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityRequestDiagnosisType:
             access_type: public_method
             serialized_name: diagnosisCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosisCodeableConcept
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityRequestDiagnosisType:
             access_type: public_method
             serialized_name: diagnosisReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosisReference

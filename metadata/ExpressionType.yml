@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             access_type: public_method
             serialized_name: language
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLanguage
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             access_type: public_method
             serialized_name: expression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpression
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference

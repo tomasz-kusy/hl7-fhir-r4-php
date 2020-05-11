@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DosageDoseAndRateType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DosageDoseAndRateType:
             access_type: public_method
             serialized_name: doseRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseRange
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\DosageDoseAndRateType:
             access_type: public_method
             serialized_name: doseQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseQuantity
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\DosageDoseAndRateType:
             access_type: public_method
             serialized_name: rateRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateRatio
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\DosageDoseAndRateType:
             access_type: public_method
             serialized_name: rateRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateRange
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\DosageDoseAndRateType:
             access_type: public_method
             serialized_name: rateQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateQuantity

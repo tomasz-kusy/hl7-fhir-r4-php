@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: statusHistory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusHistory
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: diagnosis
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosis
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: managingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManagingOrganization
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: referralRequest
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferralRequest
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: careManager
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCareManager
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: team
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTeam
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\EpisodeOfCareType:
             access_type: public_method
             serialized_name: account
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAccount

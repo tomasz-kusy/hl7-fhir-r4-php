@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: statusReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusReason
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: vaccineCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVaccineCode
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: occurrenceDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceDateTime
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: occurrenceString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceString
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: recorded
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecorded
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: primarySource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrimarySource
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: reportOrigin
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReportOrigin
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -139,6 +152,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: lotNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLotNumber
@@ -149,6 +163,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: expirationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpirationDate
@@ -159,6 +174,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: site
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSite
@@ -169,6 +185,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: route
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRoute
@@ -179,6 +196,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: doseQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseQuantity
@@ -189,6 +207,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -203,6 +222,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -217,6 +237,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -231,6 +252,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -245,6 +267,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: isSubpotent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsSubpotent
@@ -255,6 +278,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: subpotentReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubpotentReason
@@ -269,6 +293,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: education
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEducation
@@ -283,6 +308,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: programEligibility
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProgramEligibility
@@ -297,6 +323,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: fundingSource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFundingSource
@@ -307,6 +334,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: reaction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReaction
@@ -321,6 +349,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             access_type: public_method
             serialized_name: protocolApplied
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProtocolApplied

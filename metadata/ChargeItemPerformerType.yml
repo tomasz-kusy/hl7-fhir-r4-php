@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ChargeItemPerformerType:
             access_type: public_method
             serialized_name: function
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFunction
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ChargeItemPerformerType:
             access_type: public_method
             serialized_name: actor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActor

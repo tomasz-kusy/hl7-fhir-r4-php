@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: disease
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisease
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: diseaseStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiseaseStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: comorbidity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComorbidity
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: therapeuticIndication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTherapeuticIndication
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: otherTherapy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOtherTherapy
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationType:
             access_type: public_method
             serialized_name: population
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPopulation

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: vaccineCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVaccineCode
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: targetDisease
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTargetDisease
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: contraindicatedVaccineCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContraindicatedVaccineCode
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: forecastStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getForecastStatus
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: forecastReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getForecastReason
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: dateCriterion
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDateCriterion
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: series
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeries
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: doseNumberPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseNumberPositiveInt
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: doseNumberString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseNumberString
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: seriesDosesPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriesDosesPositiveInt
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: seriesDosesString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriesDosesString
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: supportingImmunization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingImmunization
@@ -155,6 +168,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             access_type: public_method
             serialized_name: supportingPatientInformation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingPatientInformation

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionInteractantType:
             access_type: public_method
             serialized_name: itemReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItemReference
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionInteractantType:
             access_type: public_method
             serialized_name: itemCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItemCodeableConcept

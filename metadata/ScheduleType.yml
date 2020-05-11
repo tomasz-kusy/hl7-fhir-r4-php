@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: serviceCategory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServiceCategory
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: serviceType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServiceType
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: specialty
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialty
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: actor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActor
@@ -85,6 +91,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: planningHorizon
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPlanningHorizon
@@ -95,6 +102,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType:
             access_type: public_method
             serialized_name: valueCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueCodeableConcept
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType:
             access_type: public_method
             serialized_name: valueString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueString
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType:
             access_type: public_method
             serialized_name: valueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueQuantity
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType:
             access_type: public_method
             serialized_name: valueBase64Binary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueBase64Binary

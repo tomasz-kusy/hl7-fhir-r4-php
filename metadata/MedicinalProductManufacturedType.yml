@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: manufacturedDoseForm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturedDoseForm
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: unitOfPresentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnitOfPresentation
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: ingredient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIngredient
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: physicalCharacteristics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhysicalCharacteristics
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturedType:
             access_type: public_method
             serialized_name: otherCharacteristics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOtherCharacteristics

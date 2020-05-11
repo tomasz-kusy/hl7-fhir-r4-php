@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: clinicalStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClinicalStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: verificationStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVerificationStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: severity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeverity
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: bodySite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodySite
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: onsetDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetDateTime
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: onsetAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetAge
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: onsetPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetPeriod
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: onsetRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetRange
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: onsetString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetString
@@ -157,6 +171,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: abatementDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAbatementDateTime
@@ -167,6 +182,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: abatementAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAbatementAge
@@ -177,6 +193,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: abatementPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAbatementPeriod
@@ -187,6 +204,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: abatementRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAbatementRange
@@ -197,6 +215,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: abatementString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAbatementString
@@ -207,6 +226,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: recordedDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecordedDate
@@ -217,6 +237,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: recorder
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecorder
@@ -227,6 +248,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: asserter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAsserter
@@ -237,6 +259,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: stage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStage
@@ -251,6 +274,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: evidence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEvidence
@@ -265,6 +289,7 @@ TKusy\Hl7FhirR4\ConditionType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

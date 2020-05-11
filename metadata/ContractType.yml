@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: legalState
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegalState
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: instantiatesCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiatesCanonical
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: instantiatesUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiatesUri
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: contentDerivative
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContentDerivative
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: issued
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIssued
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: applies
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getApplies
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: expirationType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpirationType
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: authority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthority
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: domain
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDomain
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: site
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSite
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: subtitle
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubtitle
@@ -205,6 +223,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: alias
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlias
@@ -219,6 +238,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -229,6 +249,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: scope
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScope
@@ -239,6 +260,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: topicCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTopicCodeableConcept
@@ -249,6 +271,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: topicReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTopicReference
@@ -259,6 +282,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -269,6 +293,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: subType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubType
@@ -283,6 +308,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: contentDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContentDefinition
@@ -293,6 +319,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: term
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTerm
@@ -307,6 +334,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: supportingInfo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingInfo
@@ -321,6 +349,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: relevantHistory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelevantHistory
@@ -335,6 +364,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: signer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSigner
@@ -349,6 +379,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: friendly
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFriendly
@@ -363,6 +394,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: legal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegal
@@ -377,6 +409,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: rule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRule
@@ -391,6 +424,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: legallyBindingAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegallyBindingAttachment
@@ -401,6 +435,7 @@ TKusy\Hl7FhirR4\ContractType:
             access_type: public_method
             serialized_name: legallyBindingReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegallyBindingReference

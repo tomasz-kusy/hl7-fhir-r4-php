@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: lifecycleStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLifecycleStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: achievementStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAchievementStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: startDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStartDate
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: startCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStartCodeableConcept
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: target
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTarget
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: statusDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusDate
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: statusReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusReason
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: expressedBy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpressedBy
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: addresses
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddresses
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: outcomeCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcomeCode
@@ -189,6 +205,7 @@ TKusy\Hl7FhirR4\GoalType:
             access_type: public_method
             serialized_name: outcomeReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcomeReference

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: alias
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlias
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: ownedBy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOwnedBy
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: administeredBy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdministeredBy
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: coverageArea
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverageArea
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: network
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNetwork
@@ -153,6 +165,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: coverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverage
@@ -167,6 +180,7 @@ TKusy\Hl7FhirR4\InsurancePlanType:
             access_type: public_method
             serialized_name: plan
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPlan

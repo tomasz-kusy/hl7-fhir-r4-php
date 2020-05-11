@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: statusReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusReason
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: medicationCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMedicationCodeableConcept
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: medicationReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMedicationReference
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: context
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContext
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: effectiveDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectiveDateTime
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: effectivePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectivePeriod
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: dateAsserted
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDateAsserted
@@ -151,6 +164,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: informationSource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInformationSource
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: derivedFrom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDerivedFrom
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -189,6 +205,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -203,6 +220,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -217,6 +235,7 @@ TKusy\Hl7FhirR4\MedicationStatementType:
             access_type: public_method
             serialized_name: dosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDosage

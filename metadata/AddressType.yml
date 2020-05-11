@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: use
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUse
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: line
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLine
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: city
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCity
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: district
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDistrict
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: state
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getState
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: postalCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPostalCode
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: country
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountry
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\AddressType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

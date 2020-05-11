@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: study
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStudy
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: individual
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIndividual
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: assignedArm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAssignedArm
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: actualArm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActualArm
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             access_type: public_method
             serialized_name: consent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConsent

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationOtherTherapyType:
             access_type: public_method
             serialized_name: therapyRelationshipType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTherapyRelationshipType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationOtherTherapyType:
             access_type: public_method
             serialized_name: medicationCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMedicationCodeableConcept
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicinalProductContraindicationOtherTherapyType:
             access_type: public_method
             serialized_name: medicationReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMedicationReference

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: substance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubstance
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: manifestation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManifestation
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: onset
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnset
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: severity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeverity
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: exposureRoute
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExposureRoute
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceReactionType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

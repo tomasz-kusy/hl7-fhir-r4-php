@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: key
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getKey
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: requirements
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequirements
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: severity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeverity
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: human
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHuman
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: expression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpression
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: xpath
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getXpath
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource

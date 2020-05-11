@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ContractPartyType:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ContractPartyType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole

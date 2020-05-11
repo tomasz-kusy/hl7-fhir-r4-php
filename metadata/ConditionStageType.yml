@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ConditionStageType:
             access_type: public_method
             serialized_name: summary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSummary
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ConditionStageType:
             access_type: public_method
             serialized_name: assessment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAssessment
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ConditionStageType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType

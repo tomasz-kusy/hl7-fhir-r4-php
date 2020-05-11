@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: modality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModality
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: view
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getView
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: createdDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreatedDateTime
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: createdPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreatedPeriod
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: issued
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIssued
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: operator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperator
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: bodySite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodySite
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: deviceName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDeviceName
@@ -181,6 +197,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: device
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDevice
@@ -191,6 +208,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: height
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHeight
@@ -201,6 +219,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: width
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWidth
@@ -211,6 +230,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: frames
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFrames
@@ -221,6 +241,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: duration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDuration
@@ -231,6 +252,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: content
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContent
@@ -241,6 +263,7 @@ TKusy\Hl7FhirR4\MediaType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

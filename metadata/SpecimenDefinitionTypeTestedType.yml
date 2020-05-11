@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: isDerived
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsDerived
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: preference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreference
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: container
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContainer
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: requirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequirement
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: retentionTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRetentionTime
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: rejectionCriterion
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRejectionCriterion
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             access_type: public_method
             serialized_name: handling
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHandling

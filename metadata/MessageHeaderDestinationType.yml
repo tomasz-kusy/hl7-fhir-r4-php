@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MessageHeaderDestinationType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MessageHeaderDestinationType:
             access_type: public_method
             serialized_name: target
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTarget
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MessageHeaderDestinationType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MessageHeaderDestinationType:
             access_type: public_method
             serialized_name: receiver
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReceiver

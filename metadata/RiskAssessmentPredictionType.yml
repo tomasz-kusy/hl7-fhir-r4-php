@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: probabilityDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProbabilityDecimal
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: probabilityRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProbabilityRange
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: qualitativeRisk
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQualitativeRisk
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: relativeRisk
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelativeRisk
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: whenPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWhenPeriod
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: whenRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWhenRange
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             access_type: public_method
             serialized_name: rationale
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRationale

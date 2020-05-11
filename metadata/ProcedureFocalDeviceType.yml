@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ProcedureFocalDeviceType:
             access_type: public_method
             serialized_name: action
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAction
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ProcedureFocalDeviceType:
             access_type: public_method
             serialized_name: manipulated
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManipulated

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClaimResponseDetailType:
             access_type: public_method
             serialized_name: detailSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetailSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ClaimResponseDetailType:
             access_type: public_method
             serialized_name: noteNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNoteNumber
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ClaimResponseDetailType:
             access_type: public_method
             serialized_name: adjudication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdjudication
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ClaimResponseDetailType:
             access_type: public_method
             serialized_name: subDetail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubDetail

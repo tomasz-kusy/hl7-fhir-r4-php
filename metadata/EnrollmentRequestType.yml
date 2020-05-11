@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: insurer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInsurer
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: provider
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvider
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: candidate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCandidate
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\EnrollmentRequestType:
             access_type: public_method
             serialized_name: coverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverage

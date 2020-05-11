@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: standardSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStandardSequence
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: start
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStart
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: end
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnd
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: score
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScore
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: method
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMethod
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: truthTP
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTruthTP
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: queryTP
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQueryTP
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: truthFN
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTruthFN
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: queryFP
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQueryFP
@@ -105,6 +115,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: gtFP
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGtFP
@@ -115,6 +126,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: precision
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrecision
@@ -125,6 +137,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: recall
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecall
@@ -135,6 +148,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: fScore
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFScore
@@ -145,6 +159,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             access_type: public_method
             serialized_name: roc
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRoc

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: operationalStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperationalStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: alias
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlias
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: mode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMode
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: telecom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTelecom
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: address
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddress
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: physicalType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhysicalType
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: position
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPosition
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: managingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManagingOrganization
@@ -151,6 +164,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: hoursOfOperation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHoursOfOperation
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: availabilityExceptions
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAvailabilityExceptions
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\LocationType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint

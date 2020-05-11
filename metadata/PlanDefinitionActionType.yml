@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: prefix
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrefix
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: textEquivalent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTextEquivalent
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: reason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReason
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: goalId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGoalId
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: subjectCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectCodeableConcept
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: subjectReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectReference
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: trigger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTrigger
@@ -145,6 +157,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -159,6 +172,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: input
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInput
@@ -173,6 +187,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: output
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutput
@@ -187,6 +202,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: relatedAction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatedAction
@@ -201,6 +217,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: timingDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDateTime
@@ -211,6 +228,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: timingAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingAge
@@ -221,6 +239,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: timingPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingPeriod
@@ -231,6 +250,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: timingDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDuration
@@ -241,6 +261,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: timingRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingRange
@@ -251,6 +272,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: timingTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingTiming
@@ -261,6 +283,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: participant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipant
@@ -275,6 +298,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -285,6 +309,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: groupingBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGroupingBehavior
@@ -295,6 +320,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: selectionBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSelectionBehavior
@@ -305,6 +331,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: requiredBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequiredBehavior
@@ -315,6 +342,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: precheckBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrecheckBehavior
@@ -325,6 +353,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: cardinalityBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCardinalityBehavior
@@ -335,6 +364,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: definitionCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionCanonical
@@ -345,6 +375,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: definitionUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionUri
@@ -355,6 +386,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: transform
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTransform
@@ -365,6 +397,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: dynamicValue
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDynamicValue
@@ -379,6 +412,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             access_type: public_method
             serialized_name: action
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAction

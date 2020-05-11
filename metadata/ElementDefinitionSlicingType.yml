@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ElementDefinitionSlicingType:
             access_type: public_method
             serialized_name: discriminator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiscriminator
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ElementDefinitionSlicingType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ElementDefinitionSlicingType:
             access_type: public_method
             serialized_name: ordered
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrdered
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ElementDefinitionSlicingType:
             access_type: public_method
             serialized_name: rules
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRules

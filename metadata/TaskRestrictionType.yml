@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TaskRestrictionType:
             access_type: public_method
             serialized_name: repetitions
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepetitions
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TaskRestrictionType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TaskRestrictionType:
             access_type: public_method
             serialized_name: recipient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecipient

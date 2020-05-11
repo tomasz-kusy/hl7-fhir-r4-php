@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CoverageCostToBeneficiaryType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CoverageCostToBeneficiaryType:
             access_type: public_method
             serialized_name: valueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueQuantity
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CoverageCostToBeneficiaryType:
             access_type: public_method
             serialized_name: valueMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueMoney
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\CoverageCostToBeneficiaryType:
             access_type: public_method
             serialized_name: exception
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getException

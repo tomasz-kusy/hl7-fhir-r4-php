@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             access_type: public_method
             serialized_name: amountQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountQuantity
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             access_type: public_method
             serialized_name: amountRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountRange
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             access_type: public_method
             serialized_name: amountString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountString
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             access_type: public_method
             serialized_name: amountType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountType
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             access_type: public_method
             serialized_name: amountText
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmountText
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             access_type: public_method
             serialized_name: referenceRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceRange

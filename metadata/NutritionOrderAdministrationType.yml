@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\NutritionOrderAdministrationType:
             access_type: public_method
             serialized_name: schedule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSchedule
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\NutritionOrderAdministrationType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\NutritionOrderAdministrationType:
             access_type: public_method
             serialized_name: rateQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateQuantity
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\NutritionOrderAdministrationType:
             access_type: public_method
             serialized_name: rateRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRateRatio

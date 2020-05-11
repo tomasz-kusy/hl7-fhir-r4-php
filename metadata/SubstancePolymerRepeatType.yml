@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatType:
             access_type: public_method
             serialized_name: numberOfUnits
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumberOfUnits
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatType:
             access_type: public_method
             serialized_name: averageMolecularFormula
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAverageMolecularFormula
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatType:
             access_type: public_method
             serialized_name: repeatUnitAmountType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepeatUnitAmountType
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatType:
             access_type: public_method
             serialized_name: repeatUnit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepeatUnit

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: measure
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeasure
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: reporter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReporter
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: improvementNotation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImprovementNotation
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: group
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGroup
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\MeasureReportType:
             access_type: public_method
             serialized_name: evaluatedResource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEvaluatedResource

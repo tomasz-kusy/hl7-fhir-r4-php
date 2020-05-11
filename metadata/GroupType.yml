@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: actual
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActual
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: managingEntity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManagingEntity
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: characteristic
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCharacteristic
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\GroupType:
             access_type: public_method
             serialized_name: member
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMember

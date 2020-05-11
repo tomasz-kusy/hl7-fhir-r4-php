@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: domain
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDomain
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: moiety
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMoiety
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: property
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProperty
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: referenceInformation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceInformation
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: structure
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStructure
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -155,6 +168,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: molecularWeight
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMolecularWeight
@@ -169,6 +183,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: relationship
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelationship
@@ -183,6 +198,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: nucleicAcid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNucleicAcid
@@ -193,6 +209,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: polymer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPolymer
@@ -203,6 +220,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: protein
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProtein
@@ -213,6 +231,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             access_type: public_method
             serialized_name: sourceMaterial
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceMaterial

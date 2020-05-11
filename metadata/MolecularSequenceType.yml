@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: coordinateSystem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoordinateSystem
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: specimen
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecimen
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: device
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDevice
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: referenceSeq
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceSeq
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: variant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVariant
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: observedSeq
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getObservedSeq
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: quality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuality
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: readCoverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReadCoverage
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: repository
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepository
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: pointer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPointer
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             access_type: public_method
             serialized_name: structureVariant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStructureVariant

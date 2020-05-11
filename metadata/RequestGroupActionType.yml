@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: prefix
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrefix
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: textEquivalent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTextEquivalent
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: relatedAction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatedAction
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: timingDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDateTime
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: timingAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingAge
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: timingPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingPeriod
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: timingDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDuration
@@ -151,6 +164,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: timingRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingRange
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: timingTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingTiming
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: participant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipant
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: groupingBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGroupingBehavior
@@ -205,6 +223,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: selectionBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSelectionBehavior
@@ -215,6 +234,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: requiredBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequiredBehavior
@@ -225,6 +245,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: precheckBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrecheckBehavior
@@ -235,6 +256,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: cardinalityBehavior
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCardinalityBehavior
@@ -245,6 +267,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource
@@ -255,6 +278,7 @@ TKusy\Hl7FhirR4\RequestGroupActionType:
             access_type: public_method
             serialized_name: action
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAction

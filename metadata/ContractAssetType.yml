@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: scope
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScope
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: typeReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTypeReference
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: subtype
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubtype
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: relationship
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelationship
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: context
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContext
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: periodType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriodType
@@ -105,6 +113,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -119,6 +128,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: usePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUsePeriod
@@ -133,6 +143,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -143,6 +154,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: linkId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLinkId
@@ -157,6 +169,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: answer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAnswer
@@ -171,6 +184,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: securityLabelNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSecurityLabelNumber
@@ -185,6 +199,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             access_type: public_method
             serialized_name: valuedItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValuedItem

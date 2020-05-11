@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CapabilityStatementImplementationType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CapabilityStatementImplementationType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CapabilityStatementImplementationType:
             access_type: public_method
             serialized_name: custodian
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCustodian

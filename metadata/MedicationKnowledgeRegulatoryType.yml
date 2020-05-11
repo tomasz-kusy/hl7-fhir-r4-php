@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeRegulatoryType:
             access_type: public_method
             serialized_name: regulatoryAuthority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRegulatoryAuthority
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeRegulatoryType:
             access_type: public_method
             serialized_name: substitution
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubstitution
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeRegulatoryType:
             access_type: public_method
             serialized_name: schedule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSchedule
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeRegulatoryType:
             access_type: public_method
             serialized_name: maxDispense
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxDispense

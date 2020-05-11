@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: careTeamSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCareTeamSequence
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: diagnosisSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosisSequence
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: procedureSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcedureSequence
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: informationSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInformationSequence
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: revenue
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRevenue
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: productOrService
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductOrService
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: modifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModifier
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: programCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProgramCode
@@ -129,6 +139,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: servicedDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServicedDate
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: servicedPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServicedPeriod
@@ -149,6 +161,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: locationCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocationCodeableConcept
@@ -159,6 +172,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: locationAddress
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocationAddress
@@ -169,6 +183,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: locationReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocationReference
@@ -179,6 +194,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -189,6 +205,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: unitPrice
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnitPrice
@@ -199,6 +216,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: factor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFactor
@@ -209,6 +227,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: net
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNet
@@ -219,6 +238,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: udi
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUdi
@@ -233,6 +253,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: bodySite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodySite
@@ -243,6 +264,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: subSite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubSite
@@ -257,6 +279,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -271,6 +294,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: noteNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNoteNumber
@@ -285,6 +309,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: adjudication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdjudication
@@ -299,6 +324,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitItemType:
             access_type: public_method
             serialized_name: detail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetail

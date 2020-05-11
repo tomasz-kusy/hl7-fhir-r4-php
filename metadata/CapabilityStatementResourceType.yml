@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: supportedProfile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportedProfile
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: interaction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInteraction
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: versioning
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersioning
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: readHistory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReadHistory
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: updateCreate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUpdateCreate
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: conditionalCreate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConditionalCreate
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: conditionalRead
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConditionalRead
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: conditionalUpdate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConditionalUpdate
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: conditionalDelete
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConditionalDelete
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: referencePolicy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferencePolicy
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: searchInclude
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearchInclude
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: searchRevInclude
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearchRevInclude
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: searchParam
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearchParam
@@ -189,6 +205,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             access_type: public_method
             serialized_name: operation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperation

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationReactionType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImmunizationReactionType:
             access_type: public_method
             serialized_name: detail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetail
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ImmunizationReactionType:
             access_type: public_method
             serialized_name: reported
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReported

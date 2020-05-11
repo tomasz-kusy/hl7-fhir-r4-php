@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CarePlanActivityType:
             access_type: public_method
             serialized_name: outcomeCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcomeCodeableConcept
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\CarePlanActivityType:
             access_type: public_method
             serialized_name: outcomeReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcomeReference
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\CarePlanActivityType:
             access_type: public_method
             serialized_name: progress
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProgress
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\CarePlanActivityType:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\CarePlanActivityType:
             access_type: public_method
             serialized_name: detail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetail

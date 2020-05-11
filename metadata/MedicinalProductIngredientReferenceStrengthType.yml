@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientReferenceStrengthType:
             access_type: public_method
             serialized_name: substance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubstance
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientReferenceStrengthType:
             access_type: public_method
             serialized_name: strength
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStrength
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientReferenceStrengthType:
             access_type: public_method
             serialized_name: strengthLowLimit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStrengthLowLimit
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientReferenceStrengthType:
             access_type: public_method
             serialized_name: measurementPoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeasurementPoint
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientReferenceStrengthType:
             access_type: public_method
             serialized_name: country
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountry

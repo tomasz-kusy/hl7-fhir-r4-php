@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: definitionReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionReference
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: definitionCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionCanonical
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: definitionCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionCodeableConcept
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: definitionExpression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionExpression
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: definitionDataRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionDataRequirement
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: definitionTriggerDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionTriggerDefinition
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: usageContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUsageContext
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: exclude
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExclude
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: participantEffectiveDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipantEffectiveDateTime
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: participantEffectivePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipantEffectivePeriod
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: participantEffectiveDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipantEffectiveDuration
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: participantEffectiveTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipantEffectiveTiming
@@ -139,6 +152,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: timeFromStart
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimeFromStart
@@ -149,6 +163,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             access_type: public_method
             serialized_name: groupMeasure
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGroupMeasure

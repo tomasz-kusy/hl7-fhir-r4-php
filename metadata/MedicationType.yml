@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: form
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getForm
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: amount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmount
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: ingredient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIngredient
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\MedicationType:
             access_type: public_method
             serialized_name: batch
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBatch

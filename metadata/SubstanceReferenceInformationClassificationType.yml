@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType:
             access_type: public_method
             serialized_name: domain
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDomain
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType:
             access_type: public_method
             serialized_name: classification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClassification
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType:
             access_type: public_method
             serialized_name: subtype
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubtype
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource

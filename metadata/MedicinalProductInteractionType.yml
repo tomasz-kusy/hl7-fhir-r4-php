@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: interactant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInteractant
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: effect
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffect
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: incidence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIncidence
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             access_type: public_method
             serialized_name: management
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManagement

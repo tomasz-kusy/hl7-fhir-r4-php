@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationEducationType:
             access_type: public_method
             serialized_name: documentType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImmunizationEducationType:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ImmunizationEducationType:
             access_type: public_method
             serialized_name: publicationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublicationDate
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ImmunizationEducationType:
             access_type: public_method
             serialized_name: presentationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPresentationDate

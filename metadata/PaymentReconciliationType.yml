@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: paymentIssuer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentIssuer
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: request
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequest
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: requestor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestor
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: disposition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisposition
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: paymentDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentDate
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: paymentAmount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentAmount
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: paymentIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentIdentifier
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: detail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetail
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: formCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFormCode
@@ -153,6 +167,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             access_type: public_method
             serialized_name: processNote
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcessNote

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ContractContentDefinitionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ContractContentDefinitionType:
             access_type: public_method
             serialized_name: subType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ContractContentDefinitionType:
             access_type: public_method
             serialized_name: publisher
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublisher
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ContractContentDefinitionType:
             access_type: public_method
             serialized_name: publicationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublicationDate
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ContractContentDefinitionType:
             access_type: public_method
             serialized_name: publicationStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublicationStatus
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ContractContentDefinitionType:
             access_type: public_method
             serialized_name: copyright
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCopyright

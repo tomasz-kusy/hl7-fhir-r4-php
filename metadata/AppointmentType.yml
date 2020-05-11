@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: cancelationReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCancelationReason
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: serviceCategory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServiceCategory
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: serviceType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServiceType
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: specialty
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialty
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: appointmentType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAppointmentType
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -105,6 +113,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -119,6 +128,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -129,6 +139,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: supportingInformation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingInformation
@@ -153,6 +165,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: start
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStart
@@ -163,6 +176,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: end
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnd
@@ -173,6 +187,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: minutesDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinutesDuration
@@ -183,6 +198,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: slot
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSlot
@@ -197,6 +213,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -207,6 +224,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -217,6 +235,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: patientInstruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatientInstruction
@@ -227,6 +246,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -241,6 +261,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: participant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipant
@@ -255,6 +276,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             access_type: public_method
             serialized_name: requestedPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestedPeriod

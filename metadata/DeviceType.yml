@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: definition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinition
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: udiCarrier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUdiCarrier
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: statusReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusReason
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: distinctIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDistinctIdentifier
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: manufactureDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufactureDate
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: expirationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpirationDate
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: lotNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLotNumber
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: serialNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSerialNumber
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: deviceName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDeviceName
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: modelNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModelNumber
@@ -151,6 +164,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: partNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartNumber
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: specialization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialization
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -199,6 +216,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: property
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProperty
@@ -213,6 +231,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -223,6 +242,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: owner
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOwner
@@ -233,6 +253,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -247,6 +268,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -257,6 +279,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -267,6 +290,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -281,6 +305,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: safety
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSafety
@@ -295,6 +320,7 @@ TKusy\Hl7FhirR4\DeviceType:
             access_type: public_method
             serialized_name: parent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParent

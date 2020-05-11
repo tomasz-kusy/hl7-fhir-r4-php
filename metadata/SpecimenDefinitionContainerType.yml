@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: material
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaterial
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: cap
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCap
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: capacity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCapacity
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: minimumVolumeQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinimumVolumeQuantity
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: minimumVolumeString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinimumVolumeString
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: additive
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditive
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             access_type: public_method
             serialized_name: preparation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreparation

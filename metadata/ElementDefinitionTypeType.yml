@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ElementDefinitionTypeType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ElementDefinitionTypeType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ElementDefinitionTypeType:
             access_type: public_method
             serialized_name: targetProfile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTargetProfile
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ElementDefinitionTypeType:
             access_type: public_method
             serialized_name: aggregation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAggregation
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ElementDefinitionTypeType:
             access_type: public_method
             serialized_name: versioning
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersioning

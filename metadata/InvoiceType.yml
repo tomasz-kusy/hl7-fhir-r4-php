@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: cancelledReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCancelledReason
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: recipient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecipient
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: participant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipant
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: issuer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIssuer
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: account
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAccount
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: lineItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLineItem
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: totalPriceComponent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTotalPriceComponent
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: totalNet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTotalNet
@@ -151,6 +164,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: totalGross
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTotalGross
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: paymentTerms
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentTerms
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

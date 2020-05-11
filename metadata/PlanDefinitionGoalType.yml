@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: start
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStart
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: addresses
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddresses
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\PlanDefinitionGoalType:
             access_type: public_method
             serialized_name: target
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTarget

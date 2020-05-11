@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationBatchType:
             access_type: public_method
             serialized_name: lotNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLotNumber
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationBatchType:
             access_type: public_method
             serialized_name: expirationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpirationDate

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstancePolymerMonomerSetType:
             access_type: public_method
             serialized_name: ratioType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRatioType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstancePolymerMonomerSetType:
             access_type: public_method
             serialized_name: startingMaterial
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStartingMaterial

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: subType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: use
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUse
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: insurer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInsurer
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: requestor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestor
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: request
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequest
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: disposition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisposition
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: preAuthRef
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreAuthRef
@@ -139,6 +152,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: preAuthPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreAuthPeriod
@@ -149,6 +163,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: payeeType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayeeType
@@ -159,6 +174,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem
@@ -173,6 +189,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: addItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddItem
@@ -187,6 +204,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: adjudication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdjudication
@@ -201,6 +219,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: total
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTotal
@@ -215,6 +234,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: payment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayment
@@ -225,6 +245,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: fundsReserve
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFundsReserve
@@ -235,6 +256,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: formCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFormCode
@@ -245,6 +267,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: form
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getForm
@@ -255,6 +278,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: processNote
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcessNote
@@ -269,6 +293,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: communicationRequest
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCommunicationRequest
@@ -283,6 +308,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: insurance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInsurance
@@ -297,6 +323,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             access_type: public_method
             serialized_name: error
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getError

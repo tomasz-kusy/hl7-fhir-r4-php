@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionPrismType:
             access_type: public_method
             serialized_name: amount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmount
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionPrismType:
             access_type: public_method
             serialized_name: base
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBase

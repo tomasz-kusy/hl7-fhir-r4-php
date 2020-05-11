@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: unit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnit
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: parent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParent
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: operationalStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperationalStatus
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: color
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getColor
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: measurementPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeasurementPeriod
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\DeviceMetricType:
             access_type: public_method
             serialized_name: calibration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCalibration

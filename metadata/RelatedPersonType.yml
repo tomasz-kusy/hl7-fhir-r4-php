@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: relationship
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelationship
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: telecom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTelecom
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: gender
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGender
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: birthDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBirthDate
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: address
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddress
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: photo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhoto
@@ -129,6 +139,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             access_type: public_method
             serialized_name: communication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCommunication

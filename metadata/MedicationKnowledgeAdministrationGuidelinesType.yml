@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType:
             access_type: public_method
             serialized_name: dosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDosage
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType:
             access_type: public_method
             serialized_name: indicationCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIndicationCodeableConcept
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType:
             access_type: public_method
             serialized_name: indicationReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIndicationReference
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType:
             access_type: public_method
             serialized_name: patientCharacteristics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatientCharacteristics

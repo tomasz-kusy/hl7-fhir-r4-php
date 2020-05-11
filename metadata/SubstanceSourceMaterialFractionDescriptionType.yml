@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialFractionDescriptionType:
             access_type: public_method
             serialized_name: fraction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFraction
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialFractionDescriptionType:
             access_type: public_method
             serialized_name: materialType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaterialType

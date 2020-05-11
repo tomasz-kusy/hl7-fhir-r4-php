@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             access_type: public_method
             serialized_name: schedule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSchedule
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             access_type: public_method
             serialized_name: nutrient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNutrient
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             access_type: public_method
             serialized_name: texture
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTexture
@@ -61,6 +65,7 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             access_type: public_method
             serialized_name: fluidConsistencyType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFluidConsistencyType
@@ -75,6 +80,7 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             access_type: public_method
             serialized_name: instruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstruction

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DomainResourceType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DomainResourceType:
             access_type: public_method
             serialized_name: contained
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContained
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\DomainResourceType:
             access_type: public_method
             serialized_name: extension
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExtension
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\DomainResourceType:
             access_type: public_method
             serialized_name: modifierExtension
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModifierExtension

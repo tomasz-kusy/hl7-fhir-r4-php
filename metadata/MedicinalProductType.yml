@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: domain
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDomain
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: combinedPharmaceuticalDoseForm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCombinedPharmaceuticalDoseForm
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: legalStatusOfSupply
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegalStatusOfSupply
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: additionalMonitoringIndicator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditionalMonitoringIndicator
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: specialMeasures
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialMeasures
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: paediatricUseIndicator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaediatricUseIndicator
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: productClassification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductClassification
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: marketingStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMarketingStatus
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: pharmaceuticalProduct
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPharmaceuticalProduct
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: packagedMedicinalProduct
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPackagedMedicinalProduct
@@ -149,6 +161,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: attachedDocument
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAttachedDocument
@@ -163,6 +176,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: masterFile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMasterFile
@@ -177,6 +191,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -191,6 +206,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: clinicalTrial
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClinicalTrial
@@ -205,6 +221,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -219,6 +236,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: crossReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCrossReference
@@ -233,6 +251,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: manufacturingBusinessOperation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturingBusinessOperation
@@ -247,6 +266,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
             access_type: public_method
             serialized_name: specialDesignation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialDesignation

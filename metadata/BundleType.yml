@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: timestamp
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimestamp
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: total
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTotal
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: link
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLink
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: entry
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEntry
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\BundleType:
             access_type: public_method
             serialized_name: signature
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSignature

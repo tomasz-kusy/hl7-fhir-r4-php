@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: clinicalStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClinicalStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: verificationStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVerificationStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: criticality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCriticality
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: onsetDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetDateTime
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: onsetAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetAge
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: onsetPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetPeriod
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: onsetRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetRange
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: onsetString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnsetString
@@ -153,6 +167,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: recordedDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecordedDate
@@ -163,6 +178,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: recorder
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecorder
@@ -173,6 +189,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: asserter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAsserter
@@ -183,6 +200,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: lastOccurrence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLastOccurrence
@@ -193,6 +211,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -207,6 +226,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             access_type: public_method
             serialized_name: reaction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReaction

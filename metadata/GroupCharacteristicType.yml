@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: valueCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueCodeableConcept
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: valueBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueBoolean
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: valueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueQuantity
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: valueRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueRange
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: valueReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueReference
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: exclude
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExclude
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

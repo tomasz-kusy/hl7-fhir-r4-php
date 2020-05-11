@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: mode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: security
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSecurity
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: interaction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInteraction
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: searchParam
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearchParam
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: operation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperation
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\CapabilityStatementRestType:
             access_type: public_method
             serialized_name: compartment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCompartment

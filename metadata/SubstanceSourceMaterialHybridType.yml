@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             access_type: public_method
             serialized_name: maternalOrganismId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaternalOrganismId
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             access_type: public_method
             serialized_name: maternalOrganismName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaternalOrganismName
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             access_type: public_method
             serialized_name: paternalOrganismId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaternalOrganismId
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             access_type: public_method
             serialized_name: paternalOrganismName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaternalOrganismName
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             access_type: public_method
             serialized_name: hybridType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHybridType

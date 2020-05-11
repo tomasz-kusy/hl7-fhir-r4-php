@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AccountCoverageType:
             access_type: public_method
             serialized_name: coverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverage
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AccountCoverageType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority

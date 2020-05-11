@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClaimResponseErrorType:
             access_type: public_method
             serialized_name: itemSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItemSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ClaimResponseErrorType:
             access_type: public_method
             serialized_name: detailSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetailSequence
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ClaimResponseErrorType:
             access_type: public_method
             serialized_name: subDetailSequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubDetailSequence
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ClaimResponseErrorType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode

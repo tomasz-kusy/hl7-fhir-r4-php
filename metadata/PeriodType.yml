@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PeriodType:
             access_type: public_method
             serialized_name: start
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStart
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\PeriodType:
             access_type: public_method
             serialized_name: end
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnd

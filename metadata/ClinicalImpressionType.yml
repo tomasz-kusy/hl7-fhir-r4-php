@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: statusReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatusReason
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: effectiveDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectiveDateTime
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: effectivePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectivePeriod
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: assessor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAssessor
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: previous
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrevious
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: problem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProblem
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: investigation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInvestigation
@@ -157,6 +171,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: protocol
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProtocol
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: summary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSummary
@@ -181,6 +197,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: finding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFinding
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: prognosisCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrognosisCodeableConcept
@@ -209,6 +227,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: prognosisReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrognosisReference
@@ -223,6 +242,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: supportingInfo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingInfo
@@ -237,6 +257,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

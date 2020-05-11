@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: actuality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActuality
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: event
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEvent
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: detected
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetected
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: recordedDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecordedDate
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: resultingCondition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResultingCondition
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: seriousness
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeriousness
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: severity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeverity
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome
@@ -153,6 +167,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: recorder
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecorder
@@ -163,6 +178,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: contributor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContributor
@@ -177,6 +193,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: suspectEntity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSuspectEntity
@@ -191,6 +208,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: subjectMedicalHistory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectMedicalHistory
@@ -205,6 +223,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: referenceDocument
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceDocument
@@ -219,6 +238,7 @@ TKusy\Hl7FhirR4\AdverseEventType:
             access_type: public_method
             serialized_name: study
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStudy

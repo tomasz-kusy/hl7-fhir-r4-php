@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: who
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWho
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: altId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAltId
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: requestor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestor
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: policy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPolicy
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: media
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMedia
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: network
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNetwork
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\AuditEventAgentType:
             access_type: public_method
             serialized_name: purposeOfUse
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPurposeOfUse

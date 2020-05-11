@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: participant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipant
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: managingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManagingOrganization
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: telecom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTelecom
@@ -153,6 +165,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

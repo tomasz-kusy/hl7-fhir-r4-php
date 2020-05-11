@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: definitionUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionUri
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: definitionCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinitionCanonical
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: context
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContext
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: occurrenceDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceDateTime
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: occurrencePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrencePeriod
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: occurrenceTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceTiming
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -145,6 +157,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: performingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformingOrganization
@@ -155,6 +168,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: requestingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestingOrganization
@@ -165,6 +179,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: costCenter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCostCenter
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: bodysite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodysite
@@ -199,6 +216,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: factorOverride
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFactorOverride
@@ -209,6 +227,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: priceOverride
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriceOverride
@@ -219,6 +238,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: overrideReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOverrideReason
@@ -229,6 +249,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: enterer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnterer
@@ -239,6 +260,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: enteredDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnteredDate
@@ -249,6 +271,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: reason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReason
@@ -263,6 +286,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: service
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getService
@@ -277,6 +301,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: productReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductReference
@@ -287,6 +312,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: productCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductCodeableConcept
@@ -297,6 +323,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: account
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAccount
@@ -311,6 +338,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -325,6 +353,7 @@ TKusy\Hl7FhirR4\ChargeItemType:
             access_type: public_method
             serialized_name: supportingInformation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingInformation

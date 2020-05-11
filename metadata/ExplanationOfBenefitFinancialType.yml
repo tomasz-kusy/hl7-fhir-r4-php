@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             access_type: public_method
             serialized_name: allowedUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllowedUnsignedInt
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             access_type: public_method
             serialized_name: allowedString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllowedString
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             access_type: public_method
             serialized_name: allowedMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllowedMoney
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             access_type: public_method
             serialized_name: usedUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUsedUnsignedInt
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             access_type: public_method
             serialized_name: usedMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUsedMoney

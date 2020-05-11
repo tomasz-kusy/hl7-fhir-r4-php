@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: uid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUid
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: number
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumber
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: modality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModality
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: numberOfInstances
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumberOfInstances
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: bodySite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodySite
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: laterality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLaterality
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: specimen
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecimen
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: started
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStarted
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\ImagingStudySeriesType:
             access_type: public_method
             serialized_name: instance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstance

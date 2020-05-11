@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: fhirVersion
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFhirVersion
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: exampleBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExampleBoolean
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: exampleCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExampleCanonical
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             access_type: public_method
             serialized_name: groupingId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGroupingId

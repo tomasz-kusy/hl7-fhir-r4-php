@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: family
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFamily
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: genus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGenus
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: species
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecies
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: intraspecificType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntraspecificType
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: intraspecificDescription
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntraspecificDescription
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: hybrid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHybrid
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             access_type: public_method
             serialized_name: organismGeneral
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrganismGeneral

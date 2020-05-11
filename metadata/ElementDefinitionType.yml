@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: path
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPath
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: representation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepresentation
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: sliceName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSliceName
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: sliceIsConstraining
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSliceIsConstraining
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: label
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLabel
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: slicing
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSlicing
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: short
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getShort
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: definition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefinition
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: requirements
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequirements
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: alias
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlias
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: min
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMin
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: max
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMax
@@ -157,6 +171,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: base
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBase
@@ -167,6 +182,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: contentReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContentReference
@@ -177,6 +193,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -191,6 +208,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueBase64Binary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueBase64Binary
@@ -201,6 +219,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueBoolean
@@ -211,6 +230,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCanonical
@@ -221,6 +241,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCode
@@ -231,6 +252,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDate
@@ -241,6 +263,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDateTime
@@ -251,6 +274,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDecimal
@@ -261,6 +285,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueId
@@ -271,6 +296,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueInstant
@@ -281,6 +307,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueInteger
@@ -291,6 +318,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueMarkdown
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueMarkdown
@@ -301,6 +329,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueOid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueOid
@@ -311,6 +340,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValuePositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValuePositiveInt
@@ -321,6 +351,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueString
@@ -331,6 +362,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueTime
@@ -341,6 +373,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUnsignedInt
@@ -351,6 +384,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUri
@@ -361,6 +395,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUrl
@@ -371,6 +406,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueUuid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUuid
@@ -381,6 +417,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueAddress
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAddress
@@ -391,6 +428,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAge
@@ -401,6 +439,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueAnnotation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAnnotation
@@ -411,6 +450,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAttachment
@@ -421,6 +461,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCodeableConcept
@@ -431,6 +472,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueCoding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCoding
@@ -441,6 +483,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueContactPoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueContactPoint
@@ -451,6 +494,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueCount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCount
@@ -461,6 +505,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDistance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDistance
@@ -471,6 +516,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDuration
@@ -481,6 +527,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueHumanName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueHumanName
@@ -491,6 +538,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueIdentifier
@@ -501,6 +549,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueMoney
@@ -511,6 +560,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValuePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValuePeriod
@@ -521,6 +571,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueQuantity
@@ -531,6 +582,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueRange
@@ -541,6 +593,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueRatio
@@ -551,6 +604,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueReference
@@ -561,6 +615,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueSampledData
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueSampledData
@@ -571,6 +626,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueSignature
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueSignature
@@ -581,6 +637,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueTiming
@@ -591,6 +648,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueContactDetail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueContactDetail
@@ -601,6 +659,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueContributor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueContributor
@@ -611,6 +670,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDataRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDataRequirement
@@ -621,6 +681,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueExpression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueExpression
@@ -631,6 +692,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueParameterDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueParameterDefinition
@@ -641,6 +703,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueRelatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueRelatedArtifact
@@ -651,6 +714,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueTriggerDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueTriggerDefinition
@@ -661,6 +725,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueUsageContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUsageContext
@@ -671,6 +736,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueDosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDosage
@@ -681,6 +747,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: defaultValueMeta
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueMeta
@@ -691,6 +758,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: meaningWhenMissing
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeaningWhenMissing
@@ -701,6 +769,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: orderMeaning
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrderMeaning
@@ -711,6 +780,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedBase64Binary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedBase64Binary
@@ -721,6 +791,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedBoolean
@@ -731,6 +802,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedCanonical
@@ -741,6 +813,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedCode
@@ -751,6 +824,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDate
@@ -761,6 +835,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDateTime
@@ -771,6 +846,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDecimal
@@ -781,6 +857,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedId
@@ -791,6 +868,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedInstant
@@ -801,6 +879,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedInteger
@@ -811,6 +890,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedMarkdown
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedMarkdown
@@ -821,6 +901,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedOid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedOid
@@ -831,6 +912,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedPositiveInt
@@ -841,6 +923,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedString
@@ -851,6 +934,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedTime
@@ -861,6 +945,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedUnsignedInt
@@ -871,6 +956,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedUri
@@ -881,6 +967,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedUrl
@@ -891,6 +978,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedUuid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedUuid
@@ -901,6 +989,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedAddress
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedAddress
@@ -911,6 +1000,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedAge
@@ -921,6 +1011,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedAnnotation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedAnnotation
@@ -931,6 +1022,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedAttachment
@@ -941,6 +1033,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedCodeableConcept
@@ -951,6 +1044,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedCoding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedCoding
@@ -961,6 +1055,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedContactPoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedContactPoint
@@ -971,6 +1066,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedCount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedCount
@@ -981,6 +1077,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDistance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDistance
@@ -991,6 +1088,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDuration
@@ -1001,6 +1099,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedHumanName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedHumanName
@@ -1011,6 +1110,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedIdentifier
@@ -1021,6 +1121,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedMoney
@@ -1031,6 +1132,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedPeriod
@@ -1041,6 +1143,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedQuantity
@@ -1051,6 +1154,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedRange
@@ -1061,6 +1165,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedRatio
@@ -1071,6 +1176,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedReference
@@ -1081,6 +1187,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedSampledData
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedSampledData
@@ -1091,6 +1198,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedSignature
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedSignature
@@ -1101,6 +1209,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedTiming
@@ -1111,6 +1220,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedContactDetail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedContactDetail
@@ -1121,6 +1231,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedContributor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedContributor
@@ -1131,6 +1242,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDataRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDataRequirement
@@ -1141,6 +1253,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedExpression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedExpression
@@ -1151,6 +1264,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedParameterDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedParameterDefinition
@@ -1161,6 +1275,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedRelatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedRelatedArtifact
@@ -1171,6 +1286,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedTriggerDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedTriggerDefinition
@@ -1181,6 +1297,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedUsageContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedUsageContext
@@ -1191,6 +1308,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedDosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedDosage
@@ -1201,6 +1319,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: fixedMeta
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixedMeta
@@ -1211,6 +1330,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternBase64Binary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternBase64Binary
@@ -1221,6 +1341,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternBoolean
@@ -1231,6 +1352,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternCanonical
@@ -1241,6 +1363,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternCode
@@ -1251,6 +1374,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDate
@@ -1261,6 +1385,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDateTime
@@ -1271,6 +1396,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDecimal
@@ -1281,6 +1407,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternId
@@ -1291,6 +1418,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternInstant
@@ -1301,6 +1429,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternInteger
@@ -1311,6 +1440,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternMarkdown
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternMarkdown
@@ -1321,6 +1451,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternOid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternOid
@@ -1331,6 +1462,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternPositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternPositiveInt
@@ -1341,6 +1473,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternString
@@ -1351,6 +1484,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternTime
@@ -1361,6 +1495,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternUnsignedInt
@@ -1371,6 +1506,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternUri
@@ -1381,6 +1517,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternUrl
@@ -1391,6 +1528,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternUuid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternUuid
@@ -1401,6 +1539,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternAddress
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternAddress
@@ -1411,6 +1550,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternAge
@@ -1421,6 +1561,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternAnnotation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternAnnotation
@@ -1431,6 +1572,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternAttachment
@@ -1441,6 +1583,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternCodeableConcept
@@ -1451,6 +1594,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternCoding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternCoding
@@ -1461,6 +1605,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternContactPoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternContactPoint
@@ -1471,6 +1616,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternCount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternCount
@@ -1481,6 +1627,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDistance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDistance
@@ -1491,6 +1638,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDuration
@@ -1501,6 +1649,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternHumanName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternHumanName
@@ -1511,6 +1660,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternIdentifier
@@ -1521,6 +1671,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternMoney
@@ -1531,6 +1682,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternPeriod
@@ -1541,6 +1693,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternQuantity
@@ -1551,6 +1704,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternRange
@@ -1561,6 +1715,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternRatio
@@ -1571,6 +1726,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternReference
@@ -1581,6 +1737,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternSampledData
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternSampledData
@@ -1591,6 +1748,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternSignature
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternSignature
@@ -1601,6 +1759,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternTiming
@@ -1611,6 +1770,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternContactDetail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternContactDetail
@@ -1621,6 +1781,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternContributor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternContributor
@@ -1631,6 +1792,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDataRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDataRequirement
@@ -1641,6 +1803,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternExpression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternExpression
@@ -1651,6 +1814,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternParameterDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternParameterDefinition
@@ -1661,6 +1825,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternRelatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternRelatedArtifact
@@ -1671,6 +1836,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternTriggerDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternTriggerDefinition
@@ -1681,6 +1847,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternUsageContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternUsageContext
@@ -1691,6 +1858,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternDosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternDosage
@@ -1701,6 +1869,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: patternMeta
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatternMeta
@@ -1711,6 +1880,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: example
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExample
@@ -1725,6 +1895,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueDate
@@ -1735,6 +1906,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueDateTime
@@ -1745,6 +1917,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueInstant
@@ -1755,6 +1928,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueTime
@@ -1765,6 +1939,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueDecimal
@@ -1775,6 +1950,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueInteger
@@ -1785,6 +1961,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValuePositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValuePositiveInt
@@ -1795,6 +1972,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueUnsignedInt
@@ -1805,6 +1983,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: minValueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinValueQuantity
@@ -1815,6 +1994,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueDate
@@ -1825,6 +2005,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueDateTime
@@ -1835,6 +2016,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueInstant
@@ -1845,6 +2027,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueTime
@@ -1855,6 +2038,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueDecimal
@@ -1865,6 +2049,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueInteger
@@ -1875,6 +2060,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValuePositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValuePositiveInt
@@ -1885,6 +2071,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueUnsignedInt
@@ -1895,6 +2082,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxValueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxValueQuantity
@@ -1905,6 +2093,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: maxLength
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxLength
@@ -1915,6 +2104,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -1929,6 +2119,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: constraint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConstraint
@@ -1943,6 +2134,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: mustSupport
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMustSupport
@@ -1953,6 +2145,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: isModifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsModifier
@@ -1963,6 +2156,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: isModifierReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsModifierReason
@@ -1973,6 +2167,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: isSummary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsSummary
@@ -1983,6 +2178,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: binding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBinding
@@ -1993,6 +2189,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             access_type: public_method
             serialized_name: mapping
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMapping

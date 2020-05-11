@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MessageDefinitionAllowedResponseType:
             access_type: public_method
             serialized_name: message
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMessage
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MessageDefinitionAllowedResponseType:
             access_type: public_method
             serialized_name: situation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSituation

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductNameType:
             access_type: public_method
             serialized_name: productName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductName
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductNameType:
             access_type: public_method
             serialized_name: namePart
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNamePart
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductNameType:
             access_type: public_method
             serialized_name: countryLanguage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountryLanguage

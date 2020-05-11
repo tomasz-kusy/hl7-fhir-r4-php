@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: height
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHeight
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: width
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWidth
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: depth
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDepth
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: weight
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWeight
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: nominalVolume
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNominalVolume
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: externalDiameter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExternalDiameter
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: shape
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getShape
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: color
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getColor
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: imprint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImprint
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: image
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImage
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             access_type: public_method
             serialized_name: scoring
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScoring

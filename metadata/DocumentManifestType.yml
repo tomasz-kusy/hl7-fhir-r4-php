@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: masterIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMasterIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: recipient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecipient
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: content
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContent
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             access_type: public_method
             serialized_name: related
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelated

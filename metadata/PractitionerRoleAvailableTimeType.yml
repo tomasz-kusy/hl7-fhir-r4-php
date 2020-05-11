@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType:
             access_type: public_method
             serialized_name: daysOfWeek
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDaysOfWeek
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType:
             access_type: public_method
             serialized_name: allDay
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllDay
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType:
             access_type: public_method
             serialized_name: availableStartTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAvailableStartTime
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType:
             access_type: public_method
             serialized_name: availableEndTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAvailableEndTime

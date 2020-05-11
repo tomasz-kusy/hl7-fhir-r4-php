@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: value
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValue
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: unitOfMeasure
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnitOfMeasure
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: denominatorCount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDenominatorCount
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: numeratorCount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumeratorCount
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             access_type: public_method
             serialized_name: precisionEstimate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrecisionEstimate

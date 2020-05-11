@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType:
             access_type: public_method
             serialized_name: operationType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperationType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType:
             access_type: public_method
             serialized_name: authorisationReferenceNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthorisationReferenceNumber
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType:
             access_type: public_method
             serialized_name: effectiveDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectiveDate
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType:
             access_type: public_method
             serialized_name: confidentialityIndicator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConfidentialityIndicator
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType:
             access_type: public_method
             serialized_name: regulator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRegulator

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExampleScenarioContainedInstanceType:
             access_type: public_method
             serialized_name: resourceId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResourceId
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExampleScenarioContainedInstanceType:
             access_type: public_method
             serialized_name: versionId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersionId

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ValueSetIncludeType:
             access_type: public_method
             serialized_name: system
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSystem
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ValueSetIncludeType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ValueSetIncludeType:
             access_type: public_method
             serialized_name: concept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConcept
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ValueSetIncludeType:
             access_type: public_method
             serialized_name: filter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFilter
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\ValueSetIncludeType:
             access_type: public_method
             serialized_name: valueSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueSet

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TestScriptDestinationType:
             access_type: public_method
             serialized_name: index
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIndex
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TestScriptDestinationType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile

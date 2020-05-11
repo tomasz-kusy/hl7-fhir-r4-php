@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: who
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWho
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: communicationMethod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCommunicationMethod
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: validationStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValidationStatus
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: validationDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValidationDate
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: canPushUpdates
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCanPushUpdates
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\VerificationResultPrimarySourceType:
             access_type: public_method
             serialized_name: pushTypeAvailable
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPushTypeAvailable

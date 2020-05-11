@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeScheduleType:
             access_type: public_method
             serialized_name: schedule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSchedule

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MessageHeaderResponseType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MessageHeaderResponseType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MessageHeaderResponseType:
             access_type: public_method
             serialized_name: details
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetails

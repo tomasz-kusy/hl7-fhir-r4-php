@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: label
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLabel
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: direction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDirection
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: compareToSourceId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCompareToSourceId
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: compareToSourceExpression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCompareToSourceExpression
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: compareToSourcePath
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCompareToSourcePath
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: contentType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContentType
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: expression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpression
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: headerField
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHeaderField
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: minimumId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMinimumId
@@ -105,6 +115,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: navigationLinks
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNavigationLinks
@@ -115,6 +126,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: operator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperator
@@ -125,6 +137,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: path
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPath
@@ -135,6 +148,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: requestMethod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestMethod
@@ -145,6 +159,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: requestURL
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequestURL
@@ -155,6 +170,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource
@@ -165,6 +181,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: response
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponse
@@ -175,6 +192,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: responseCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponseCode
@@ -185,6 +203,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: sourceId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceId
@@ -195,6 +214,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: validateProfileId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValidateProfileId
@@ -205,6 +225,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: value
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValue
@@ -215,6 +236,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             access_type: public_method
             serialized_name: warningOnly
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWarningOnly

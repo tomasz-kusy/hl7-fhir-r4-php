@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RequestGroupRelatedActionType:
             access_type: public_method
             serialized_name: actionId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActionId
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\RequestGroupRelatedActionType:
             access_type: public_method
             serialized_name: relationship
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelationship
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\RequestGroupRelatedActionType:
             access_type: public_method
             serialized_name: offsetDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOffsetDuration
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\RequestGroupRelatedActionType:
             access_type: public_method
             serialized_name: offsetRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOffsetRange

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: subtitle
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubtitle
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: experimental
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExperimental
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: subjectCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectCodeableConcept
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: subjectReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubjectReference
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: publisher
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublisher
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -153,6 +167,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: useContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUseContext
@@ -167,6 +182,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: jurisdiction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getJurisdiction
@@ -181,6 +197,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: purpose
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPurpose
@@ -191,6 +208,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: usage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUsage
@@ -201,6 +219,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: copyright
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCopyright
@@ -211,6 +230,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: approvalDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getApprovalDate
@@ -221,6 +241,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: lastReviewDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLastReviewDate
@@ -231,6 +252,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: effectivePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectivePeriod
@@ -241,6 +263,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: topic
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTopic
@@ -255,6 +278,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -269,6 +293,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: editor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEditor
@@ -283,6 +308,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: reviewer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReviewer
@@ -297,6 +323,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: endorser
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndorser
@@ -311,6 +338,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: relatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatedArtifact
@@ -325,6 +353,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: library
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLibrary
@@ -339,6 +368,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: kind
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getKind
@@ -349,6 +379,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile
@@ -359,6 +390,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -369,6 +401,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: intent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntent
@@ -379,6 +412,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -389,6 +423,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: doNotPerform
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoNotPerform
@@ -399,6 +434,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: timingTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingTiming
@@ -409,6 +445,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: timingDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDateTime
@@ -419,6 +456,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: timingAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingAge
@@ -429,6 +467,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: timingPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingPeriod
@@ -439,6 +478,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: timingRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingRange
@@ -449,6 +489,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: timingDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDuration
@@ -459,6 +500,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -469,6 +511,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: participant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipant
@@ -483,6 +526,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: productReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductReference
@@ -493,6 +537,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: productCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductCodeableConcept
@@ -503,6 +548,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -513,6 +559,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: dosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDosage
@@ -527,6 +574,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: bodySite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodySite
@@ -541,6 +589,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: specimenRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecimenRequirement
@@ -555,6 +604,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: observationRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getObservationRequirement
@@ -569,6 +619,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: observationResultRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getObservationResultRequirement
@@ -583,6 +634,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: transform
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTransform
@@ -593,6 +645,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionType:
             access_type: public_method
             serialized_name: dynamicValue
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDynamicValue

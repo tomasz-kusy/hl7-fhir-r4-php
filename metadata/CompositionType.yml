@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: confidentiality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConfidentiality
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: attester
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAttester
@@ -127,6 +138,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: custodian
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCustodian
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: relatesTo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatesTo
@@ -151,6 +164,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: event
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEvent
@@ -165,6 +179,7 @@ TKusy\Hl7FhirR4\CompositionType:
             access_type: public_method
             serialized_name: section
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSection

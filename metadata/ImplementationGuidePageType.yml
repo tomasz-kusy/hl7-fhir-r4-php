@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePageType:
             access_type: public_method
             serialized_name: nameUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNameUrl
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePageType:
             access_type: public_method
             serialized_name: nameReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNameReference
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePageType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePageType:
             access_type: public_method
             serialized_name: generation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGeneration
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePageType:
             access_type: public_method
             serialized_name: page
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPage

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             access_type: public_method
             serialized_name: value
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValue
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             access_type: public_method
             serialized_name: preferred
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreferred
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

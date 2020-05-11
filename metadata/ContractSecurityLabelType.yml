@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ContractSecurityLabelType:
             access_type: public_method
             serialized_name: number
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumber
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ContractSecurityLabelType:
             access_type: public_method
             serialized_name: classification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClassification
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ContractSecurityLabelType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ContractSecurityLabelType:
             access_type: public_method
             serialized_name: control
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getControl

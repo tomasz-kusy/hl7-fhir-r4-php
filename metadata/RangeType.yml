@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RangeType:
             access_type: public_method
             serialized_name: low
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLow
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\RangeType:
             access_type: public_method
             serialized_name: high
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHigh

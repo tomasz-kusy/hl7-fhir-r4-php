@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EncounterParticipantType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\EncounterParticipantType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\EncounterParticipantType:
             access_type: public_method
             serialized_name: individual
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIndividual

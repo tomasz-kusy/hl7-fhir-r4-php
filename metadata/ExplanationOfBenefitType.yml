@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: subType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: use
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUse
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: billablePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBillablePeriod
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: enterer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnterer
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: insurer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInsurer
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: provider
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvider
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: fundsReserveRequested
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFundsReserveRequested
@@ -139,6 +152,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: fundsReserve
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFundsReserve
@@ -149,6 +163,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: related
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelated
@@ -163,6 +178,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: prescription
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrescription
@@ -173,6 +189,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: originalPrescription
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOriginalPrescription
@@ -183,6 +200,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: payee
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayee
@@ -193,6 +211,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: referral
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferral
@@ -203,6 +222,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: facility
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFacility
@@ -213,6 +233,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: claim
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClaim
@@ -223,6 +244,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: claimResponse
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClaimResponse
@@ -233,6 +255,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome
@@ -243,6 +266,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: disposition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisposition
@@ -253,6 +277,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: preAuthRef
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreAuthRef
@@ -267,6 +292,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: preAuthRefPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreAuthRefPeriod
@@ -281,6 +307,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: careTeam
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCareTeam
@@ -295,6 +322,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: supportingInfo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportingInfo
@@ -309,6 +337,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: diagnosis
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosis
@@ -323,6 +352,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: procedure
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcedure
@@ -337,6 +367,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: precedence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrecedence
@@ -347,6 +378,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: insurance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInsurance
@@ -361,6 +393,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: accident
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAccident
@@ -371,6 +404,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem
@@ -385,6 +419,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: addItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddItem
@@ -399,6 +434,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: adjudication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdjudication
@@ -413,6 +449,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: total
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTotal
@@ -427,6 +464,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: payment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayment
@@ -437,6 +475,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: formCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFormCode
@@ -447,6 +486,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: form
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getForm
@@ -457,6 +497,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: processNote
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcessNote
@@ -471,6 +512,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: benefitPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBenefitPeriod
@@ -481,6 +523,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             access_type: public_method
             serialized_name: benefitBalance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBenefitBalance

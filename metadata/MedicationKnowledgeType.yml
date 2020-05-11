@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: doseForm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseForm
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: amount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmount
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: synonym
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSynonym
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: relatedMedicationKnowledge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatedMedicationKnowledge
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: associatedMedication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAssociatedMedication
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: productType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductType
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: monograph
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMonograph
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: ingredient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIngredient
@@ -139,6 +150,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: preparationInstruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreparationInstruction
@@ -149,6 +161,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: intendedRoute
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntendedRoute
@@ -163,6 +176,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: cost
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCost
@@ -177,6 +191,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: monitoringProgram
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMonitoringProgram
@@ -191,6 +206,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: administrationGuidelines
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdministrationGuidelines
@@ -205,6 +221,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: medicineClassification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMedicineClassification
@@ -219,6 +236,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: packaging
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPackaging
@@ -229,6 +247,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: drugCharacteristic
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDrugCharacteristic
@@ -243,6 +262,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: contraindication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContraindication
@@ -257,6 +277,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: regulatory
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRegulatory
@@ -271,6 +292,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
             access_type: public_method
             serialized_name: kinetics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getKinetics

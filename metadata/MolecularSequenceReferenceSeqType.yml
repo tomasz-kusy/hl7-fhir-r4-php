@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: chromosome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getChromosome
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: genomeBuild
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGenomeBuild
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: orientation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrientation
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: referenceSeqId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceSeqId
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: referenceSeqPointer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceSeqPointer
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: referenceSeqString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceSeqString
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: strand
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStrand
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: windowStart
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWindowStart
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             access_type: public_method
             serialized_name: windowEnd
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWindowEnd

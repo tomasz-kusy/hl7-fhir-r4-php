@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             access_type: public_method
             serialized_name: variantType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVariantType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             access_type: public_method
             serialized_name: exact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExact
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             access_type: public_method
             serialized_name: length
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLength
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             access_type: public_method
             serialized_name: outer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOuter
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             access_type: public_method
             serialized_name: inner
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInner

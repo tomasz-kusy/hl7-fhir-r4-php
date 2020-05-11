@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: shortTitle
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getShortTitle
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: subtitle
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubtitle
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: publisher
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublisher
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: useContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUseContext
@@ -161,6 +175,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: jurisdiction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getJurisdiction
@@ -175,6 +190,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: copyright
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCopyright
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: approvalDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getApprovalDate
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: lastReviewDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLastReviewDate
@@ -205,6 +223,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: effectivePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectivePeriod
@@ -215,6 +234,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: topic
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTopic
@@ -229,6 +249,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -243,6 +264,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: editor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEditor
@@ -257,6 +279,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: reviewer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReviewer
@@ -271,6 +294,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: endorser
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndorser
@@ -285,6 +309,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: relatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatedArtifact
@@ -299,6 +324,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: exposureBackground
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExposureBackground
@@ -309,6 +335,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: exposureVariant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExposureVariant
@@ -323,6 +350,7 @@ TKusy\Hl7FhirR4\EvidenceType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome

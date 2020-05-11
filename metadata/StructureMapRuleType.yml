@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\StructureMapRuleType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\StructureMapRuleType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\StructureMapRuleType:
             access_type: public_method
             serialized_name: target
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTarget
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\StructureMapRuleType:
             access_type: public_method
             serialized_name: rule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRule
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\StructureMapRuleType:
             access_type: public_method
             serialized_name: dependent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDependent
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\StructureMapRuleType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation

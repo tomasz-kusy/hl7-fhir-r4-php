@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AccountGuarantorType:
             access_type: public_method
             serialized_name: party
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParty
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AccountGuarantorType:
             access_type: public_method
             serialized_name: onHold
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnHold
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\AccountGuarantorType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

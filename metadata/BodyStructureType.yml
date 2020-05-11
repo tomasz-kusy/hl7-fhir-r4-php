@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: morphology
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMorphology
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: locationQualifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocationQualifier
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: image
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getImage
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient

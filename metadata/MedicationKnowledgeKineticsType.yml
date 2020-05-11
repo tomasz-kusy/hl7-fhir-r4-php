@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeKineticsType:
             access_type: public_method
             serialized_name: areaUnderCurve
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAreaUnderCurve
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeKineticsType:
             access_type: public_method
             serialized_name: lethalDose50
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLethalDose50
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeKineticsType:
             access_type: public_method
             serialized_name: halfLifePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHalfLifePeriod

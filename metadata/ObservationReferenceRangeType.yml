@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ObservationReferenceRangeType:
             access_type: public_method
             serialized_name: low
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLow
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ObservationReferenceRangeType:
             access_type: public_method
             serialized_name: high
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHigh
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ObservationReferenceRangeType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ObservationReferenceRangeType:
             access_type: public_method
             serialized_name: appliesTo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAppliesTo
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ObservationReferenceRangeType:
             access_type: public_method
             serialized_name: age
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAge
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ObservationReferenceRangeType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             access_type: public_method
             serialized_name: datasetId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDatasetId
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             access_type: public_method
             serialized_name: variantsetId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVariantsetId
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             access_type: public_method
             serialized_name: readsetId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReadsetId

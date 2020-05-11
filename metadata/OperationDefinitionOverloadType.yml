@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\OperationDefinitionOverloadType:
             access_type: public_method
             serialized_name: parameterName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParameterName
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\OperationDefinitionOverloadType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment

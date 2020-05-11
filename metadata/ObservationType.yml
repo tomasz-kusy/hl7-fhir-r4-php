@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: focus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFocus
@@ -105,6 +113,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: effectiveDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectiveDateTime
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: effectivePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectivePeriod
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: effectiveTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectiveTiming
@@ -145,6 +157,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: effectiveInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEffectiveInstant
@@ -155,6 +168,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: issued
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIssued
@@ -165,6 +179,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -179,6 +194,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueQuantity
@@ -189,6 +205,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueCodeableConcept
@@ -199,6 +216,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueString
@@ -209,6 +227,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueBoolean
@@ -219,6 +238,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueInteger
@@ -229,6 +249,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueRange
@@ -239,6 +260,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueRatio
@@ -249,6 +271,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueSampledData
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueSampledData
@@ -259,6 +282,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueTime
@@ -269,6 +293,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueDateTime
@@ -279,6 +304,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: valuePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValuePeriod
@@ -289,6 +315,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: dataAbsentReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDataAbsentReason
@@ -299,6 +326,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: interpretation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInterpretation
@@ -313,6 +341,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -327,6 +356,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: bodySite
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBodySite
@@ -337,6 +367,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: method
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMethod
@@ -347,6 +378,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: specimen
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecimen
@@ -357,6 +389,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: device
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDevice
@@ -367,6 +400,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: referenceRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceRange
@@ -381,6 +415,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: hasMember
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHasMember
@@ -395,6 +430,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: derivedFrom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDerivedFrom
@@ -409,6 +445,7 @@ TKusy\Hl7FhirR4\ObservationType:
             access_type: public_method
             serialized_name: component
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComponent

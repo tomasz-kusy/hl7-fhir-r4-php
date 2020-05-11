@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\StructureDefinitionSnapshotType:
             access_type: public_method
             serialized_name: element
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getElement

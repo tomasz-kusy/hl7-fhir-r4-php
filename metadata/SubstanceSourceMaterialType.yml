@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: sourceMaterialClass
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceMaterialClass
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: sourceMaterialType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceMaterialType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: sourceMaterialState
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceMaterialState
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: organismId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrganismId
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: organismName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrganismName
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: parentSubstanceId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParentSubstanceId
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: parentSubstanceName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParentSubstanceName
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: countryOfOrigin
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountryOfOrigin
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: geographicalLocation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGeographicalLocation
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: developmentStage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDevelopmentStage
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: fractionDescription
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFractionDescription
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: organism
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrganism
@@ -145,6 +157,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             access_type: public_method
             serialized_name: partDescription
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartDescription

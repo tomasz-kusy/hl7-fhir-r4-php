@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\StructureMapStructureType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\StructureMapStructureType:
             access_type: public_method
             serialized_name: mode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMode
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\StructureMapStructureType:
             access_type: public_method
             serialized_name: alias
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlias
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\StructureMapStructureType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation

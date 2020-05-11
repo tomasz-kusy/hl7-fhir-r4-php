@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: mode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMode
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: orderedBy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrderedBy
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: entry
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEntry
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\ListType:
             access_type: public_method
             serialized_name: emptyReason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEmptyReason

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: label
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLabel
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: display
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisplay
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: citation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCitation
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: document
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocument
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource

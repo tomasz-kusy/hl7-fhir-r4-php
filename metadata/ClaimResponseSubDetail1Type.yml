@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: productOrService
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProductOrService
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: modifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModifier
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: unitPrice
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnitPrice
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: factor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFactor
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: net
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNet
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: noteNumber
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNoteNumber
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\ClaimResponseSubDetail1Type:
             access_type: public_method
             serialized_name: adjudication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdjudication

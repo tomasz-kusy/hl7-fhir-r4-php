@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionParticipantType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ActivityDefinitionParticipantType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole

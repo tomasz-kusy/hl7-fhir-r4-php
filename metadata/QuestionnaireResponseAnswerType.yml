@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueBoolean
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueDecimal
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueInteger
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueDate
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueDateTime
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueTime
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueString
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueUri
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueAttachment
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueCoding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueCoding
@@ -105,6 +115,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueQuantity
@@ -115,6 +126,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: valueReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValueReference
@@ -125,6 +137,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem

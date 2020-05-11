@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: issued
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIssued
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: applies
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getApplies
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: topicCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTopicCodeableConcept
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: topicReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTopicReference
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: subType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubType
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: securityLabel
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSecurityLabel
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: offer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOffer
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: asset
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAsset
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: action
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAction
@@ -137,6 +149,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             access_type: public_method
             serialized_name: group
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGroup

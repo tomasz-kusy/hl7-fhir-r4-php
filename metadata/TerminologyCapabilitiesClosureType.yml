@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesClosureType:
             access_type: public_method
             serialized_name: translation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTranslation

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AdverseEventSuspectEntityType:
             access_type: public_method
             serialized_name: instance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstance
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AdverseEventSuspectEntityType:
             access_type: public_method
             serialized_name: causality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCausality

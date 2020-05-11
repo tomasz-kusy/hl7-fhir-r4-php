@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisCertaintyType:
             access_type: public_method
             serialized_name: rating
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRating
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisCertaintyType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisCertaintyType:
             access_type: public_method
             serialized_name: certaintySubcomponent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCertaintySubcomponent

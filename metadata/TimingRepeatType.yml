@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: boundsDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBoundsDuration
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: boundsRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBoundsRange
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: boundsPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBoundsPeriod
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: count
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCount
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: countMax
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountMax
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: duration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDuration
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: durationMax
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDurationMax
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: durationUnit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDurationUnit
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: frequency
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFrequency
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: frequencyMax
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFrequencyMax
@@ -105,6 +115,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -115,6 +126,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: periodMax
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriodMax
@@ -125,6 +137,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: periodUnit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriodUnit
@@ -135,6 +148,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: dayOfWeek
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDayOfWeek
@@ -149,6 +163,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: timeOfDay
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimeOfDay
@@ -163,6 +178,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: when
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWhen
@@ -177,6 +193,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             access_type: public_method
             serialized_name: offset
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOffset

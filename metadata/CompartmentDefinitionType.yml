@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: experimental
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExperimental
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: publisher
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublisher
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: useContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUseContext
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: purpose
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPurpose
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: search
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearch
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource

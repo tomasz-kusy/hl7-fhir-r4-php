@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClaimDiagnosisType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ClaimDiagnosisType:
             access_type: public_method
             serialized_name: diagnosisCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosisCodeableConcept
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ClaimDiagnosisType:
             access_type: public_method
             serialized_name: diagnosisReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiagnosisReference
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ClaimDiagnosisType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ClaimDiagnosisType:
             access_type: public_method
             serialized_name: onAdmission
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnAdmission
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ClaimDiagnosisType:
             access_type: public_method
             serialized_name: packageCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPackageCode

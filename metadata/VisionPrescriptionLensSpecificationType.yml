@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: product
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProduct
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: eye
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEye
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: sphere
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSphere
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: cylinder
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCylinder
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: axis
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAxis
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: prism
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrism
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: add
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdd
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: power
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPower
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: backCurve
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBackCurve
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: diameter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiameter
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: duration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDuration
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: color
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getColor
@@ -129,6 +141,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: brand
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBrand
@@ -139,6 +152,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

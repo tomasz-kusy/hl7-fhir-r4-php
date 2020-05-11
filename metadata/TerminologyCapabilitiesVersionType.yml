@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             access_type: public_method
             serialized_name: isDefault
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsDefault
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             access_type: public_method
             serialized_name: compositional
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCompositional
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             access_type: public_method
             serialized_name: language
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLanguage
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             access_type: public_method
             serialized_name: filter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFilter
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             access_type: public_method
             serialized_name: property
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProperty

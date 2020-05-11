@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: appointment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAppointment
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: start
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStart
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: end
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnd
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: participantType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipantType
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: actor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActor
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: participantStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParticipantStatus
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment

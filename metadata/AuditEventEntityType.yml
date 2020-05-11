@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: what
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWhat
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: lifecycle
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLifecycle
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: securityLabel
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSecurityLabel
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: query
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuery
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             access_type: public_method
             serialized_name: detail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetail

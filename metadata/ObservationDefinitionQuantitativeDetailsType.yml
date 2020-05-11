@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQuantitativeDetailsType:
             access_type: public_method
             serialized_name: customaryUnit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCustomaryUnit
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQuantitativeDetailsType:
             access_type: public_method
             serialized_name: unit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnit
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQuantitativeDetailsType:
             access_type: public_method
             serialized_name: conversionFactor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConversionFactor
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQuantitativeDetailsType:
             access_type: public_method
             serialized_name: decimalPrecision
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDecimalPrecision

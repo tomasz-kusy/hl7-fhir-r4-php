@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeMaxDispenseType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeMaxDispenseType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

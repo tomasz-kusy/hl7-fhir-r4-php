@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TestReportOperationType:
             access_type: public_method
             serialized_name: result
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResult
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TestReportOperationType:
             access_type: public_method
             serialized_name: message
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMessage
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TestReportOperationType:
             access_type: public_method
             serialized_name: detail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDetail

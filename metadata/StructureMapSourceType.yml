@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: context
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContext
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: min
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMin
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: max
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMax
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueBase64Binary
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueBase64Binary
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueBoolean
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCanonical
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCode
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDate
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDateTime
@@ -105,6 +115,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDecimal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDecimal
@@ -115,6 +126,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueId
@@ -125,6 +137,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueInstant
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueInstant
@@ -135,6 +148,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueInteger
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueInteger
@@ -145,6 +159,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueMarkdown
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueMarkdown
@@ -155,6 +170,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueOid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueOid
@@ -165,6 +181,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValuePositiveInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValuePositiveInt
@@ -175,6 +192,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueString
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueString
@@ -185,6 +203,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueTime
@@ -195,6 +214,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueUnsignedInt
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUnsignedInt
@@ -205,6 +225,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUri
@@ -215,6 +236,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUrl
@@ -225,6 +247,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueUuid
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUuid
@@ -235,6 +258,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueAddress
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAddress
@@ -245,6 +269,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAge
@@ -255,6 +280,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueAnnotation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAnnotation
@@ -265,6 +291,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueAttachment
@@ -275,6 +302,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCodeableConcept
@@ -285,6 +313,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueCoding
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCoding
@@ -295,6 +324,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueContactPoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueContactPoint
@@ -305,6 +335,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueCount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueCount
@@ -315,6 +346,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDistance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDistance
@@ -325,6 +357,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDuration
@@ -335,6 +368,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueHumanName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueHumanName
@@ -345,6 +379,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueIdentifier
@@ -355,6 +390,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueMoney
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueMoney
@@ -365,6 +401,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValuePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValuePeriod
@@ -375,6 +412,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueQuantity
@@ -385,6 +423,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueRange
@@ -395,6 +434,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueRatio
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueRatio
@@ -405,6 +445,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueReference
@@ -415,6 +456,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueSampledData
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueSampledData
@@ -425,6 +467,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueSignature
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueSignature
@@ -435,6 +478,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueTiming
@@ -445,6 +489,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueContactDetail
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueContactDetail
@@ -455,6 +500,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueContributor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueContributor
@@ -465,6 +511,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDataRequirement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDataRequirement
@@ -475,6 +522,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueExpression
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueExpression
@@ -485,6 +533,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueParameterDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueParameterDefinition
@@ -495,6 +544,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueRelatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueRelatedArtifact
@@ -505,6 +555,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueTriggerDefinition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueTriggerDefinition
@@ -515,6 +566,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueUsageContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueUsageContext
@@ -525,6 +577,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueDosage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueDosage
@@ -535,6 +588,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: defaultValueMeta
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDefaultValueMeta
@@ -545,6 +599,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: element
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getElement
@@ -555,6 +610,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: listMode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getListMode
@@ -565,6 +621,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: variable
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVariable
@@ -575,6 +632,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -585,6 +643,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: check
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCheck
@@ -595,6 +654,7 @@ TKusy\Hl7FhirR4\StructureMapSourceType:
             access_type: public_method
             serialized_name: logMessage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLogMessage

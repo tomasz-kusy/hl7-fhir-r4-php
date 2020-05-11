@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResource1Type:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResource1Type:
             access_type: public_method
             serialized_name: exampleBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExampleBoolean
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResource1Type:
             access_type: public_method
             serialized_name: exampleCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExampleCanonical
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResource1Type:
             access_type: public_method
             serialized_name: relativePath
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelativePath

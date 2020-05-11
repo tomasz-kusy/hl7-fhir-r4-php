@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType:
             access_type: public_method
             serialized_name: provider
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvider
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType:
             access_type: public_method
             serialized_name: responsible
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponsible
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType:
             access_type: public_method
             serialized_name: qualification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQualification

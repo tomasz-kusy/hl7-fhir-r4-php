@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitRelatedType:
             access_type: public_method
             serialized_name: claim
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClaim
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitRelatedType:
             access_type: public_method
             serialized_name: relationship
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelationship
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitRelatedType:
             access_type: public_method
             serialized_name: reference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReference

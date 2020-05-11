@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: legalStatusOfSupply
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLegalStatusOfSupply
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: marketingStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMarketingStatus
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: marketingAuthorization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMarketingAuthorization
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: batchIdentifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBatchIdentifier
@@ -105,6 +113,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedType:
             access_type: public_method
             serialized_name: packageItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPackageItem

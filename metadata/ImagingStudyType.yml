@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: modality
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModality
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: started
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStarted
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: basedOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBasedOn
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: referrer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferrer
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: interpreter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInterpreter
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: numberOfSeries
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumberOfSeries
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: numberOfInstances
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumberOfInstances
@@ -145,6 +157,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: procedureReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcedureReference
@@ -155,6 +168,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: procedureCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcedureCode
@@ -169,6 +183,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -179,6 +194,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -193,6 +209,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -207,6 +224,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -221,6 +239,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -231,6 +250,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             access_type: public_method
             serialized_name: series
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSeries

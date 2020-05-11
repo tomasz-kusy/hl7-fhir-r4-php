@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MetaType:
             access_type: public_method
             serialized_name: versionId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersionId
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MetaType:
             access_type: public_method
             serialized_name: lastUpdated
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLastUpdated
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MetaType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MetaType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MetaType:
             access_type: public_method
             serialized_name: security
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSecurity
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\MetaType:
             access_type: public_method
             serialized_name: tag
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTag

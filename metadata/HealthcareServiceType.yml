@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: providedBy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvidedBy
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: specialty
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecialty
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -95,6 +102,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -105,6 +113,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: extraDetails
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExtraDetails
@@ -125,6 +135,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: photo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhoto
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: telecom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTelecom
@@ -149,6 +161,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: coverageArea
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverageArea
@@ -163,6 +176,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: serviceProvisionCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServiceProvisionCode
@@ -177,6 +191,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: eligibility
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEligibility
@@ -191,6 +206,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: program
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProgram
@@ -205,6 +221,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: characteristic
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCharacteristic
@@ -219,6 +236,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: communication
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCommunication
@@ -233,6 +251,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: referralMethod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferralMethod
@@ -247,6 +266,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: appointmentRequired
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAppointmentRequired
@@ -257,6 +277,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: availableTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAvailableTime
@@ -271,6 +292,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: notAvailable
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNotAvailable
@@ -285,6 +307,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: availabilityExceptions
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAvailabilityExceptions
@@ -295,6 +318,7 @@ TKusy\Hl7FhirR4\HealthcareServiceType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint

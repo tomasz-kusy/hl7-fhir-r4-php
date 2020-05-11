@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: range
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRange
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: context
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContext
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: appliesTo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAppliesTo
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: gender
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGender
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: age
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAge
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: gestationalAge
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGestationalAge
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: request
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequest
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: response
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponse
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: created
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCreated
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: provider
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvider
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: payment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayment
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: paymentDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentDate
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: payee
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayee
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: recipient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecipient
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: amount
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAmount
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\PaymentNoticeType:
             access_type: public_method
             serialized_name: paymentStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPaymentStatus

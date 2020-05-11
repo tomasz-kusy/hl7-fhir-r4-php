@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductUndesirableEffectType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductUndesirableEffectType:
             access_type: public_method
             serialized_name: symptomConditionEffect
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSymptomConditionEffect
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductUndesirableEffectType:
             access_type: public_method
             serialized_name: classification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClassification
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicinalProductUndesirableEffectType:
             access_type: public_method
             serialized_name: frequencyOfOccurrence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFrequencyOfOccurrence
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\MedicinalProductUndesirableEffectType:
             access_type: public_method
             serialized_name: population
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPopulation

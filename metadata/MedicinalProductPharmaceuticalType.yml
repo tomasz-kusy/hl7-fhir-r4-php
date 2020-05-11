@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: administrableDoseForm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdministrableDoseForm
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: unitOfPresentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnitOfPresentation
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: ingredient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIngredient
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: device
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDevice
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: characteristics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCharacteristics
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalType:
             access_type: public_method
             serialized_name: routeOfAdministration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRouteOfAdministration

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: origin
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrigin
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: factor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFactor
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: lowerLimit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLowerLimit
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: upperLimit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUpperLimit
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: dimensions
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDimensions
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             access_type: public_method
             serialized_name: data
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getData

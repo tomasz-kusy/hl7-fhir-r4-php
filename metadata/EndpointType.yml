@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: connectionType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConnectionType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: managingOrganization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManagingOrganization
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: payloadType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayloadType
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: payloadMimeType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPayloadMimeType
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: address
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAddress
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\EndpointType:
             access_type: public_method
             serialized_name: header
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getHeader

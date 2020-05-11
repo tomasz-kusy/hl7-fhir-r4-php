@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\OperationDefinitionReferencedFromType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\OperationDefinitionReferencedFromType:
             access_type: public_method
             serialized_name: sourceId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceId

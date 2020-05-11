@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: initialFill
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInitialFill
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: dispenseInterval
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDispenseInterval
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: validityPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValidityPeriod
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: numberOfRepeatsAllowed
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNumberOfRepeatsAllowed
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: expectedSupplyDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExpectedSupplyDuration
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\MedicationRequestDispenseRequestType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer

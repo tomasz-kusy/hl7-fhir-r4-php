@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: when
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWhen
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: who
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWho
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: onBehalfOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOnBehalfOf
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: targetFormat
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTargetFormat
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: sigFormat
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSigFormat
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SignatureType:
             access_type: public_method
             serialized_name: data
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getData

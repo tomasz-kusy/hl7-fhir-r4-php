@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: stereochemistry
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStereochemistry
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: opticalActivity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOpticalActivity
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: molecularFormula
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMolecularFormula
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: molecularFormulaByMoiety
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMolecularFormulaByMoiety
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: isotope
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIsotope
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: molecularWeight
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMolecularWeight
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -83,6 +90,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             access_type: public_method
             serialized_name: representation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepresentation

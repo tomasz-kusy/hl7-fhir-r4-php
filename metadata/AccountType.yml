@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: servicePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getServicePeriod
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: coverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverage
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: owner
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOwner
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: guarantor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGuarantor
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\AccountType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: actor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActor
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: action
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAction
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: securityLabel
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSecurityLabel
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: purpose
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPurpose
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: class
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClass
@@ -95,6 +102,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -109,6 +117,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: dataPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDataPeriod
@@ -119,6 +128,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: data
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getData
@@ -133,6 +143,7 @@ TKusy\Hl7FhirR4\ConsentProvisionType:
             access_type: public_method
             serialized_name: provision
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvision

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ValueSetConceptType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ValueSetConceptType:
             access_type: public_method
             serialized_name: display
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisplay
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ValueSetConceptType:
             access_type: public_method
             serialized_name: designation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDesignation

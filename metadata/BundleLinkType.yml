@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BundleLinkType:
             access_type: public_method
             serialized_name: relation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelation
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\BundleLinkType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl

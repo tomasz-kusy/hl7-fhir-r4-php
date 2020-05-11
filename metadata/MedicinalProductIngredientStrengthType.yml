@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: presentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPresentation
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: presentationLowLimit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPresentationLowLimit
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: concentration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConcentration
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: concentrationLowLimit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getConcentrationLowLimit
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: measurementPoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeasurementPoint
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: country
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCountry
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             access_type: public_method
             serialized_name: referenceStrength
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReferenceStrength

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: event
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEvent
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: facilityType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFacilityType
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: practiceSetting
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPracticeSetting
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: sourcePatientInfo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourcePatientInfo
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\DocumentReferenceContextType:
             access_type: public_method
             serialized_name: related
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelated

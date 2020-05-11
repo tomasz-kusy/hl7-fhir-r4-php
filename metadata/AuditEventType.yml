@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: subtype
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubtype
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: action
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAction
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: recorded
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecorded
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: outcome
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcome
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: outcomeDesc
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOutcomeDesc
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: purposeOfEvent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPurposeOfEvent
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: agent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAgent
@@ -107,6 +116,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: source
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSource
@@ -117,6 +127,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             access_type: public_method
             serialized_name: entity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEntity

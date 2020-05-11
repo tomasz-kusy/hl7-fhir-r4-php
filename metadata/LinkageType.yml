@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\LinkageType:
             access_type: public_method
             serialized_name: active
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getActive
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\LinkageType:
             access_type: public_method
             serialized_name: author
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthor
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\LinkageType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem

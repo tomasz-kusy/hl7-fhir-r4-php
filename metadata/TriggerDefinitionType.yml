@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: timingTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingTiming
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: timingReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingReference
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: timingDate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDate
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: timingDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTimingDateTime
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: data
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getData
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\TriggerDefinitionType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition

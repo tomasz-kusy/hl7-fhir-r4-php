@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionPropertyGroupType:
             access_type: public_method
             serialized_name: applicability
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getApplicability
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionPropertyGroupType:
             access_type: public_method
             serialized_name: priceComponent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriceComponent

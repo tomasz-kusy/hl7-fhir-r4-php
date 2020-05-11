@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MeasureReportStratumType:
             access_type: public_method
             serialized_name: value
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValue
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MeasureReportStratumType:
             access_type: public_method
             serialized_name: component
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComponent
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MeasureReportStratumType:
             access_type: public_method
             serialized_name: population
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPopulation
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\MeasureReportStratumType:
             access_type: public_method
             serialized_name: measureScore
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMeasureScore

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ConceptMapDependsOnType:
             access_type: public_method
             serialized_name: property
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProperty
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ConceptMapDependsOnType:
             access_type: public_method
             serialized_name: system
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSystem
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ConceptMapDependsOnType:
             access_type: public_method
             serialized_name: value
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValue
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ConceptMapDependsOnType:
             access_type: public_method
             serialized_name: display
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDisplay

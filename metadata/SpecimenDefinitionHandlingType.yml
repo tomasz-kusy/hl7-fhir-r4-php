@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionHandlingType:
             access_type: public_method
             serialized_name: temperatureQualifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTemperatureQualifier
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionHandlingType:
             access_type: public_method
             serialized_name: temperatureRange
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTemperatureRange
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionHandlingType:
             access_type: public_method
             serialized_name: maxDuration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxDuration
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionHandlingType:
             access_type: public_method
             serialized_name: instruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstruction

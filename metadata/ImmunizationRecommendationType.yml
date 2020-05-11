@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationType:
             access_type: public_method
             serialized_name: authority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthority
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationType:
             access_type: public_method
             serialized_name: recommendation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRecommendation

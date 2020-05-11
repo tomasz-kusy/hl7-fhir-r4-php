@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: material
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaterial
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: alternateMaterial
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlternateMaterial
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: device
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDevice
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: manufacturedItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturedItem
@@ -95,6 +102,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: packageItem
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPackageItem
@@ -109,6 +117,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: physicalCharacteristics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhysicalCharacteristics
@@ -119,6 +128,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: otherCharacteristics
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOtherCharacteristics
@@ -133,6 +143,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: shelfLifeStorage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getShelfLifeStorage
@@ -147,6 +158,7 @@ TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType:
             access_type: public_method
             serialized_name: manufacturer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getManufacturer

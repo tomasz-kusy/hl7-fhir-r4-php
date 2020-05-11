@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\EffectEvidenceSynthesisPrecisionEstimateType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\EffectEvidenceSynthesisPrecisionEstimateType:
             access_type: public_method
             serialized_name: level
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLevel
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\EffectEvidenceSynthesisPrecisionEstimateType:
             access_type: public_method
             serialized_name: from
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFrom
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\EffectEvidenceSynthesisPrecisionEstimateType:
             access_type: public_method
             serialized_name: to
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTo

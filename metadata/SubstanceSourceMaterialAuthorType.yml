@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialAuthorType:
             access_type: public_method
             serialized_name: authorType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthorType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialAuthorType:
             access_type: public_method
             serialized_name: authorDescription
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthorDescription

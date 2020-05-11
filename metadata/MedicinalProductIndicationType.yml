@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: subject
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubject
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: diseaseSymptomProcedure
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiseaseSymptomProcedure
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: diseaseStatus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDiseaseStatus
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: comorbidity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComorbidity
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: intendedEffect
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntendedEffect
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: duration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDuration
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: otherTherapy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOtherTherapy
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: undesirableEffect
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUndesirableEffect
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\MedicinalProductIndicationType:
             access_type: public_method
             serialized_name: population
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPopulation

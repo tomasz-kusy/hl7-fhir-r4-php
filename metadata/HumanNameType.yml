@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: use
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUse
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: family
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFamily
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: given
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGiven
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: prefix
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrefix
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: suffix
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSuffix
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod

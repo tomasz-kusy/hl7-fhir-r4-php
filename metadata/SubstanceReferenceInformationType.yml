@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
             access_type: public_method
             serialized_name: comment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getComment
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
             access_type: public_method
             serialized_name: gene
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGene
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
             access_type: public_method
             serialized_name: geneElement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGeneElement
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
             access_type: public_method
             serialized_name: classification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClassification
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
             access_type: public_method
             serialized_name: target
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTarget

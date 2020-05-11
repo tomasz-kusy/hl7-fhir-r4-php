@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TestScriptMetadataType:
             access_type: public_method
             serialized_name: link
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLink
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\TestScriptMetadataType:
             access_type: public_method
             serialized_name: capability
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCapability

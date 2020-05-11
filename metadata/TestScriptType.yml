@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: url
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUrl
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: experimental
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExperimental
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -85,6 +93,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: publisher
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPublisher
@@ -95,6 +104,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -119,6 +130,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: useContext
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUseContext
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: jurisdiction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getJurisdiction
@@ -147,6 +160,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: purpose
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPurpose
@@ -157,6 +171,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: copyright
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCopyright
@@ -167,6 +182,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: origin
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrigin
@@ -181,6 +197,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: destination
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDestination
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: metadata
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMetadata
@@ -205,6 +223,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: fixture
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFixture
@@ -219,6 +238,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: profile
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProfile
@@ -233,6 +253,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: variable
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVariable
@@ -247,6 +268,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: setup
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSetup
@@ -257,6 +279,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: test
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTest
@@ -271,6 +294,7 @@ TKusy\Hl7FhirR4\TestScriptType:
             access_type: public_method
             serialized_name: teardown
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTeardown

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: capacity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCapacity
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: specimenQuantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSpecimenQuantity
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: additiveCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditiveCodeableConcept
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SpecimenContainerType:
             access_type: public_method
             serialized_name: additiveReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditiveReference

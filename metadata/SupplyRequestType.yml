@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: priority
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPriority
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: itemCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItemCodeableConcept
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: itemReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItemReference
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: quantity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantity
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: parameter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getParameter
@@ -93,6 +101,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: occurrenceDateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceDateTime
@@ -103,6 +112,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: occurrencePeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrencePeriod
@@ -113,6 +123,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: occurrenceTiming
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOccurrenceTiming
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: authoredOn
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAuthoredOn
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: requester
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequester
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: supplier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupplier
@@ -157,6 +171,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: reasonCode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonCode
@@ -171,6 +186,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: reasonReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonReference
@@ -185,6 +201,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: deliverFrom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDeliverFrom
@@ -195,6 +212,7 @@ TKusy\Hl7FhirR4\SupplyRequestType:
             access_type: public_method
             serialized_name: deliverTo
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDeliverTo

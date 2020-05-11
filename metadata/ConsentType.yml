@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: scope
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScope
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -63,6 +68,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: dateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDateTime
@@ -73,6 +79,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: performer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPerformer
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: organization
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrganization
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: sourceAttachment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceAttachment
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: sourceReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSourceReference
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: policy
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPolicy
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: policyRule
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPolicyRule
@@ -145,6 +157,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: verification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVerification
@@ -159,6 +172,7 @@ TKusy\Hl7FhirR4\ConsentType:
             access_type: public_method
             serialized_name: provision
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProvision

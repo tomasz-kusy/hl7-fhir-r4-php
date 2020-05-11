@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             access_type: public_method
             serialized_name: resourceId
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResourceId
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             access_type: public_method
             serialized_name: resourceType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResourceType
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             access_type: public_method
             serialized_name: containedInstance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContainedInstance

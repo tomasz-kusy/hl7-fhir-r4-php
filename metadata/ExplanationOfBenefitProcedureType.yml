@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType:
             access_type: public_method
             serialized_name: type
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getType
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType:
             access_type: public_method
             serialized_name: procedureCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcedureCodeableConcept
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType:
             access_type: public_method
             serialized_name: procedureReference
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcedureReference
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType:
             access_type: public_method
             serialized_name: udi
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUdi

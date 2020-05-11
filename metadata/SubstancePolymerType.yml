@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
             access_type: public_method
             serialized_name: class
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClass
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
             access_type: public_method
             serialized_name: geometry
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getGeometry
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
             access_type: public_method
             serialized_name: copolymerConnectivity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCopolymerConnectivity
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
             access_type: public_method
             serialized_name: modification
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getModification
@@ -53,6 +57,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
             access_type: public_method
             serialized_name: monomerSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMonomerSet
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
             access_type: public_method
             serialized_name: repeat
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRepeat

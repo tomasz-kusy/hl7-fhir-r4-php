@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BundleSearchType:
             access_type: public_method
             serialized_name: mode
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\BundleSearchType:
             access_type: public_method
             serialized_name: score
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getScore

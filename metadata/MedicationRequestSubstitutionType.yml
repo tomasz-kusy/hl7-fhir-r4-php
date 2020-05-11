@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MedicationRequestSubstitutionType:
             access_type: public_method
             serialized_name: allowedBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllowedBoolean
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MedicationRequestSubstitutionType:
             access_type: public_method
             serialized_name: allowedCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllowedCodeableConcept
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\MedicationRequestSubstitutionType:
             access_type: public_method
             serialized_name: reason
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReason

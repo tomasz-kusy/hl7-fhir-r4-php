@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: baseFormulaType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBaseFormulaType
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: baseFormulaProductName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBaseFormulaProductName
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: additiveType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditiveType
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: additiveProductName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditiveProductName
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: caloricDensity
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCaloricDensity
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: routeofAdministration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRouteofAdministration
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: administration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdministration
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: maxVolumeToDeliver
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxVolumeToDeliver
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             access_type: public_method
             serialized_name: administrationInstruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdministrationInstruction

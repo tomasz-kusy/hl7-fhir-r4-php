@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: protocol
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProtocol
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: partOf
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPartOf
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: primaryPurposeType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrimaryPurposeType
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: phase
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhase
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: focus
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFocus
@@ -115,6 +124,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: condition
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCondition
@@ -129,6 +139,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: contact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getContact
@@ -143,6 +154,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: relatedArtifact
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRelatedArtifact
@@ -157,6 +169,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: keyword
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getKeyword
@@ -171,6 +184,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: location
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLocation
@@ -185,6 +199,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -195,6 +210,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: enrollment
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnrollment
@@ -209,6 +225,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: period
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPeriod
@@ -219,6 +236,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: sponsor
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSponsor
@@ -229,6 +247,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: principalInvestigator
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPrincipalInvestigator
@@ -239,6 +258,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: site
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSite
@@ -253,6 +273,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: reasonStopped
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReasonStopped
@@ -263,6 +284,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote
@@ -277,6 +299,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: arm
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getArm
@@ -291,6 +314,7 @@ TKusy\Hl7FhirR4\ResearchStudyType:
             access_type: public_method
             serialized_name: objective
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getObjective

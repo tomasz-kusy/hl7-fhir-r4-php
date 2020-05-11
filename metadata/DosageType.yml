@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: text
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getText
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: additionalInstruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAdditionalInstruction
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: patientInstruction
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatientInstruction
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: timing
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTiming
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: asNeededBoolean
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAsNeededBoolean
@@ -69,6 +75,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: asNeededCodeableConcept
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAsNeededCodeableConcept
@@ -79,6 +86,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: site
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSite
@@ -89,6 +97,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: route
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRoute
@@ -99,6 +108,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: method
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMethod
@@ -109,6 +119,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: doseAndRate
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDoseAndRate
@@ -123,6 +134,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: maxDosePerPeriod
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxDosePerPeriod
@@ -133,6 +145,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: maxDosePerAdministration
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxDosePerAdministration
@@ -143,6 +156,7 @@ TKusy\Hl7FhirR4\DosageType:
             access_type: public_method
             serialized_name: maxDosePerLifetime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMaxDosePerLifetime

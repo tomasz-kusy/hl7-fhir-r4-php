@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\CapabilityStatementMessagingType:
             access_type: public_method
             serialized_name: endpoint
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEndpoint
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\CapabilityStatementMessagingType:
             access_type: public_method
             serialized_name: reliableCache
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getReliableCache
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\CapabilityStatementMessagingType:
             access_type: public_method
             serialized_name: documentation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDocumentation
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\CapabilityStatementMessagingType:
             access_type: public_method
             serialized_name: supportedMessage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupportedMessage

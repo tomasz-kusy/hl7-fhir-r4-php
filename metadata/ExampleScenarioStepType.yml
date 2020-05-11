@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExampleScenarioStepType:
             access_type: public_method
             serialized_name: process
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getProcess
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ExampleScenarioStepType:
             access_type: public_method
             serialized_name: pause
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPause
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ExampleScenarioStepType:
             access_type: public_method
             serialized_name: operation
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOperation
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\ExampleScenarioStepType:
             access_type: public_method
             serialized_name: alternative
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAlternative

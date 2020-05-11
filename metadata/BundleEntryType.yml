@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\BundleEntryType:
             access_type: public_method
             serialized_name: link
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getLink
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\BundleEntryType:
             access_type: public_method
             serialized_name: fullUrl
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFullUrl
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\BundleEntryType:
             access_type: public_method
             serialized_name: resource
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResource
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\BundleEntryType:
             access_type: public_method
             serialized_name: search
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSearch
@@ -49,6 +53,7 @@ TKusy\Hl7FhirR4\BundleEntryType:
             access_type: public_method
             serialized_name: request
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRequest
@@ -59,6 +64,7 @@ TKusy\Hl7FhirR4\BundleEntryType:
             access_type: public_method
             serialized_name: response
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getResponse

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: instantiatesCanonical
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiatesCanonical
@@ -33,6 +35,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: instantiatesUri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiatesUri
@@ -47,6 +50,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: instantiates
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getInstantiates
@@ -61,6 +65,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: status
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStatus
@@ -71,6 +76,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: intent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIntent
@@ -81,6 +87,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: patient
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPatient
@@ -91,6 +98,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: encounter
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEncounter
@@ -101,6 +109,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: dateTime
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDateTime
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: orderer
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrderer
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: allergyIntolerance
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAllergyIntolerance
@@ -135,6 +146,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: foodPreferenceModifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFoodPreferenceModifier
@@ -149,6 +161,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: excludeFoodModifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExcludeFoodModifier
@@ -163,6 +176,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: oralDiet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOralDiet
@@ -173,6 +187,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: supplement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSupplement
@@ -187,6 +202,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: enteralFormula
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getEnteralFormula
@@ -197,6 +213,7 @@ TKusy\Hl7FhirR4\NutritionOrderType:
             access_type: public_method
             serialized_name: note
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNote

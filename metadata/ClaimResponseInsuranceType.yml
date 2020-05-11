@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             access_type: public_method
             serialized_name: sequence
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSequence
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             access_type: public_method
             serialized_name: focal
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFocal
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             access_type: public_method
             serialized_name: coverage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCoverage
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             access_type: public_method
             serialized_name: businessArrangement
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBusinessArrangement
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             access_type: public_method
             serialized_name: claimResponse
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClaimResponse

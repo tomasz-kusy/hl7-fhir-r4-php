@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ProvenanceEntityType:
             access_type: public_method
             serialized_name: role
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getRole
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ProvenanceEntityType:
             access_type: public_method
             serialized_name: what
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getWhat
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ProvenanceEntityType:
             access_type: public_method
             serialized_name: agent
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAgent

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExampleScenarioProcessType:
             access_type: public_method
             serialized_name: title
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTitle
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExampleScenarioProcessType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExampleScenarioProcessType:
             access_type: public_method
             serialized_name: preConditions
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreConditions
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ExampleScenarioProcessType:
             access_type: public_method
             serialized_name: postConditions
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPostConditions
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ExampleScenarioProcessType:
             access_type: public_method
             serialized_name: step
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getStep

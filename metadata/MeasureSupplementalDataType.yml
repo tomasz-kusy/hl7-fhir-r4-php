@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\MeasureSupplementalDataType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\MeasureSupplementalDataType:
             access_type: public_method
             serialized_name: usage
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUsage
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\MeasureSupplementalDataType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -39,6 +42,7 @@ TKusy\Hl7FhirR4\MeasureSupplementalDataType:
             access_type: public_method
             serialized_name: criteria
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCriteria

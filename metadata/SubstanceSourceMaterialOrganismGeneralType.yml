@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismGeneralType:
             access_type: public_method
             serialized_name: kingdom
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getKingdom
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismGeneralType:
             access_type: public_method
             serialized_name: phylum
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPhylum
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismGeneralType:
             access_type: public_method
             serialized_name: class
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getClass
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismGeneralType:
             access_type: public_method
             serialized_name: order
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getOrder

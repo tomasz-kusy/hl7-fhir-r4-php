@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesCodeSystemType:
             access_type: public_method
             serialized_name: uri
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUri
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesCodeSystemType:
             access_type: public_method
             serialized_name: version
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getVersion
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesCodeSystemType:
             access_type: public_method
             serialized_name: subsumption
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getSubsumption

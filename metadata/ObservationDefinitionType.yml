@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -19,6 +20,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: code
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCode
@@ -29,6 +31,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: identifier
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getIdentifier
@@ -43,6 +46,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: permittedDataType
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPermittedDataType
@@ -57,6 +61,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: multipleResultsAllowed
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMultipleResultsAllowed
@@ -67,6 +72,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: method
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getMethod
@@ -77,6 +83,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: preferredReportName
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getPreferredReportName
@@ -87,6 +94,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: quantitativeDetails
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQuantitativeDetails
@@ -97,6 +105,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: qualifiedInterval
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getQualifiedInterval
@@ -111,6 +120,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: validCodedValueSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getValidCodedValueSet
@@ -121,6 +131,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: normalCodedValueSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNormalCodedValueSet
@@ -131,6 +142,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: abnormalCodedValueSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getAbnormalCodedValueSet
@@ -141,6 +153,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             access_type: public_method
             serialized_name: criticalCodedValueSet
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCriticalCodedValueSet

@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ListEntryType:
             access_type: public_method
             serialized_name: flag
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFlag
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ListEntryType:
             access_type: public_method
             serialized_name: deleted
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDeleted
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ListEntryType:
             access_type: public_method
             serialized_name: date
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDate
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ListEntryType:
             access_type: public_method
             serialized_name: item
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getItem

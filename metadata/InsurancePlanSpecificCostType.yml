@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\InsurancePlanSpecificCostType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\InsurancePlanSpecificCostType:
             access_type: public_method
             serialized_name: benefit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getBenefit

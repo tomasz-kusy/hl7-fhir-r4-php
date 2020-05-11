@@ -5,6 +5,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: category
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getCategory
@@ -15,6 +16,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: excluded
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getExcluded
@@ -25,6 +27,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: name
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getName
@@ -35,6 +38,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: description
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getDescription
@@ -45,6 +49,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: network
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getNetwork
@@ -55,6 +60,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: unit
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getUnit
@@ -65,6 +71,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: term
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getTerm
@@ -75,6 +82,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             access_type: public_method
             serialized_name: financial
             xml_element:
+                cdata: false
                 namespace: 'http://hl7.org/fhir'
             accessor:
                 getter: getFinancial
