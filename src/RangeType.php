@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RangeType
  *
- * A set of ordered Quantities defined by a low and high limit.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A set of ordered Quantities defined by a low and high limit.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Range
  */
 class RangeType extends ElementType

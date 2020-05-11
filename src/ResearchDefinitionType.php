@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResearchDefinitionType
  *
- * The ResearchDefinition resource describes the conditional state (population and any exposures being compared within the population) and outcome (if specified) that the knowledge (evidence, assertion, recommendation) is about.If the element is present, it must have either a @value, an @id, or extensions
+ * The ResearchDefinition resource describes the conditional state (population and any exposures being compared within the population) and outcome (if specified) that the knowledge (evidence, assertion, recommendation) is about.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResearchDefinition
  */
 class ResearchDefinitionType extends DomainResourceType

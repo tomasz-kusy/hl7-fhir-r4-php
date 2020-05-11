@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DocumentManifestType
  *
- * A collection of documents compiled for a purpose together with metadata that applies to the collection.If the element is present, it must have either a @value, an @id, or extensions
+ * A collection of documents compiled for a purpose together with metadata that applies to the collection.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DocumentManifest
  */
 class DocumentManifestType extends DomainResourceType

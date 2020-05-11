@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AppointmentResponseType
  *
- * A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.If the element is present, it must have either a @value, an @id, or extensions
+ * A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AppointmentResponse
  */
 class AppointmentResponseType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EndpointStatusType
  *
- * The status of the endpoint.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the endpoint.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EndpointStatus
  */
 class EndpointStatusType extends ElementType

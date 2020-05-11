@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CapabilityStatementKindType
  *
- * How a capability statement is intended to be used.If the element is present, it must have either a @value, an @id, or extensions
+ * How a capability statement is intended to be used.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CapabilityStatementKind
  */
 class CapabilityStatementKindType extends ElementType

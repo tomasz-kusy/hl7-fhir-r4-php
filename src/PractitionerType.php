@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PractitionerType
  *
- * A person who is directly or indirectly involved in the provisioning of healthcare.If the element is present, it must have either a @value, an @id, or extensions
+ * A person who is directly or indirectly involved in the provisioning of healthcare.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Practitioner
  */
 class PractitionerType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CoverageType
  *
- * Financial instrument which may be used to reimburse or pay for health care products and services. Includes both insurance and self-payment.If the element is present, it must have either a @value, an @id, or extensions
+ * Financial instrument which may be used to reimburse or pay for health care products and services. Includes both insurance and self-payment.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Coverage
  */
 class CoverageType extends DomainResourceType

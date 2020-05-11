@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CoverageEligibilityResponseType
  *
- * This resource provides eligibility and plan details from the processing of an CoverageEligibilityRequest resource.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource provides eligibility and plan details from the processing of an CoverageEligibilityRequest resource.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CoverageEligibilityResponse
  */
 class CoverageEligibilityResponseType extends DomainResourceType

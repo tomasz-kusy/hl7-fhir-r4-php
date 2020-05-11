@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CompartmentDefinitionType
  *
- * A compartment definition that defines how resources are accessed on a server.If the element is present, it must have either a @value, an @id, or extensions
+ * A compartment definition that defines how resources are accessed on a server.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CompartmentDefinition
  */
 class CompartmentDefinitionType extends DomainResourceType

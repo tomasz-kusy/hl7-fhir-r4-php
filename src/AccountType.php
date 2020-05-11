@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AccountType
  *
- * A financial tool for tracking value accrued for a particular purpose. In the healthcare field, used to track charges for a patient, cost centers, etc.If the element is present, it must have either a @value, an @id, or extensions
+ * A financial tool for tracking value accrued for a particular purpose. In the healthcare field, used to track charges for a patient, cost centers, etc.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Account
  */
 class AccountType extends DomainResourceType

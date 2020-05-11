@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DetectedIssueSeverityType
  *
- * Indicates the potential degree of impact of the identified issue on the patient.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates the potential degree of impact of the identified issue on the patient.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DetectedIssueSeverity
  */
 class DetectedIssueSeverityType extends ElementType

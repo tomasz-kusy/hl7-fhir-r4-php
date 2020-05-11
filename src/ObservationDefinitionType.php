@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ObservationDefinitionType
  *
- * Set of definitional characteristics for a kind of observation or measurement produced or consumed by an orderable health care service.If the element is present, it must have either a @value, an @id, or extensions
+ * Set of definitional characteristics for a kind of observation or measurement produced or consumed by an orderable health care service.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ObservationDefinition
  */
 class ObservationDefinitionType extends DomainResourceType

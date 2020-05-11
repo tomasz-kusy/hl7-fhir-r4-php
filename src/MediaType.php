@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MediaType
  *
- * A photo, video, or audio recording acquired or used in healthcare. The actual content may be inline or provided by direct reference.If the element is present, it must have either a @value, an @id, or extensions
+ * A photo, video, or audio recording acquired or used in healthcare. The actual content may be inline or provided by direct reference.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Media
  */
 class MediaType extends DomainResourceType

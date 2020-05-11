@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceMetricCategoryType
  *
- * Describes the category of the metric.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the category of the metric.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceMetricCategory
  */
 class DeviceMetricCategoryType extends ElementType

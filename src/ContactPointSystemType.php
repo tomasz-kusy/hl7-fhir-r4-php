@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContactPointSystemType
  *
- * Telecommunications form for contact point.If the element is present, it must have either a @value, an @id, or extensions
+ * Telecommunications form for contact point.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ContactPointSystem
  */
 class ContactPointSystemType extends ElementType

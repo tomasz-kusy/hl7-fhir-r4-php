@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SampledDataType
  *
- * A series of measurements taken by a device, with upper and lower limits. There may be more than one dimension in the data.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A series of measurements taken by a device, with upper and lower limits. There may be more than one dimension in the data.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: SampledData
  */
 class SampledDataType extends ElementType

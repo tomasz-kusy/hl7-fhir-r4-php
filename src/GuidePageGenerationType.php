@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GuidePageGenerationType
  *
- * A code that indicates how the page is generated.If the element is present, it must have either a @value, an @id, or extensions
+ * A code that indicates how the page is generated.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GuidePageGeneration
  */
 class GuidePageGenerationType extends ElementType

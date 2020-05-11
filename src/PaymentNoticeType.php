@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PaymentNoticeType
  *
- * This resource provides the status of the payment for goods and services rendered, and the request and response resource references.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource provides the status of the payment for goods and services rendered, and the request and response resource references.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: PaymentNotice
  */
 class PaymentNoticeType extends DomainResourceType

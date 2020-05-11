@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GuidanceResponseStatusType
  *
- * The status of a guidance response.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of a guidance response.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GuidanceResponseStatus
  */
 class GuidanceResponseStatusType extends ElementType

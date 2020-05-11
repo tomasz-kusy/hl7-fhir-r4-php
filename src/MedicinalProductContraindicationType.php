@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductContraindicationType
  *
- * The clinical particulars - indications, contraindications etc. of a medicinal product, including for regulatory purposes.If the element is present, it must have either a @value, an @id, or extensions
+ * The clinical particulars - indications, contraindications etc. of a medicinal product, including for regulatory purposes.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductContraindication
  */
 class MedicinalProductContraindicationType extends DomainResourceType

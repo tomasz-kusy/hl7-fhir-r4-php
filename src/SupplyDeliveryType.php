@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SupplyDeliveryType
  *
- * Record of delivery of what is supplied.If the element is present, it must have either a @value, an @id, or extensions
+ * Record of delivery of what is supplied.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SupplyDelivery
  */
 class SupplyDeliveryType extends DomainResourceType

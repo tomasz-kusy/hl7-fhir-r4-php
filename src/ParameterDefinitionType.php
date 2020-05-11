@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ParameterDefinitionType
  *
- * The parameters to the module. This collection specifies both the input and output parameters. Input parameters are provided by the caller as part of the $evaluate operation. Output parameters are included in the GuidanceResponse.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * The parameters to the module. This collection specifies both the input and output parameters. Input parameters are provided by the caller as part of the $evaluate operation. Output parameters are included in the GuidanceResponse.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: ParameterDefinition
  */
 class ParameterDefinitionType extends ElementType

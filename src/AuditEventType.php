@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AuditEventType
  *
- * A record of an event made for purposes of maintaining a security log. Typical uses include detection of intrusion attempts and monitoring for inappropriate usage.If the element is present, it must have either a @value, an @id, or extensions
+ * A record of an event made for purposes of maintaining a security log. Typical uses include detection of intrusion attempts and monitoring for inappropriate usage.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AuditEvent
  */
 class AuditEventType extends DomainResourceType

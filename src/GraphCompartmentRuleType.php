@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GraphCompartmentRuleType
  *
- * How a compartment must be linked.If the element is present, it must have either a @value, an @id, or extensions
+ * How a compartment must be linked.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GraphCompartmentRule
  */
 class GraphCompartmentRuleType extends ElementType

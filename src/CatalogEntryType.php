@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CatalogEntryType
  *
- * Catalog entries are wrappers that contextualize items included in a catalog.If the element is present, it must have either a @value, an @id, or extensions
+ * Catalog entries are wrappers that contextualize items included in a catalog.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CatalogEntry
  */
 class CatalogEntryType extends DomainResourceType

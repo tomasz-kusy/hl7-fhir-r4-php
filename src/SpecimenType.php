@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SpecimenType
  *
- * A sample to be used for analysis.If the element is present, it must have either a @value, an @id, or extensions
+ * A sample to be used for analysis.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Specimen
  */
 class SpecimenType extends DomainResourceType

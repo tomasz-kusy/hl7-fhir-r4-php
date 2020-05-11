@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing LocationStatusType
  *
- * Indicates whether the location is still in use.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates whether the location is still in use.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: LocationStatus
  */
 class LocationStatusType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContactPointType
  *
- * Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: ContactPoint
  */
 class ContactPointType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PatientType
  *
- * Demographics and other administrative information about an individual or animal receiving care or other health-related services.If the element is present, it must have either a @value, an @id, or extensions
+ * Demographics and other administrative information about an individual or animal receiving care or other health-related services.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Patient
  */
 class PatientType extends DomainResourceType

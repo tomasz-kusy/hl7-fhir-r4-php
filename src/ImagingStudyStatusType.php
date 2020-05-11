@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ImagingStudyStatusType
  *
- * The status of the ImagingStudy.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the ImagingStudy.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ImagingStudyStatus
  */
 class ImagingStudyStatusType extends ElementType

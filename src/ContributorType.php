@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContributorType
  *
- * A contributor to the content of a knowledge asset, including authors, editors, reviewers, and endorsers.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A contributor to the content of a knowledge asset, including authors, editors, reviewers, and endorsers.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Contributor
  */
 class ContributorType extends ElementType

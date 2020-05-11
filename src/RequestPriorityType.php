@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RequestPriorityType
  *
- * Identifies the level of importance to be assigned to actioning the request.If the element is present, it must have either a @value, an @id, or extensions
+ * Identifies the level of importance to be assigned to actioning the request.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RequestPriority
  */
 class RequestPriorityType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MeasureReportStatusType
  *
- * The status of the measure report.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the measure report.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MeasureReportStatus
  */
 class MeasureReportStatusType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CodeSystemContentModeType
  *
- * The extent of the content of the code system (the concepts and codes it defines) are represented in a code system resource.If the element is present, it must have either a @value, an @id, or extensions
+ * The extent of the content of the code system (the concepts and codes it defines) are represented in a code system resource.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CodeSystemContentMode
  */
 class CodeSystemContentModeType extends ElementType

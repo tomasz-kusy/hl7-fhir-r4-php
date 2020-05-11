@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing OperationDefinitionType
  *
- * A formal computable definition of an operation (on the RESTful interface) or a named query (using the search interaction).If the element is present, it must have either a @value, an @id, or extensions
+ * A formal computable definition of an operation (on the RESTful interface) or a named query (using the search interaction).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: OperationDefinition
  */
 class OperationDefinitionType extends DomainResourceType

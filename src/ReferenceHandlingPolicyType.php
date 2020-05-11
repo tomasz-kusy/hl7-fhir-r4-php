@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ReferenceHandlingPolicyType
  *
- * A set of flags that defines how references are supported.If the element is present, it must have either a @value, an @id, or extensions
+ * A set of flags that defines how references are supported.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ReferenceHandlingPolicy
  */
 class ReferenceHandlingPolicyType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GroupMeasureType
  *
- * Possible group measure aggregates (E.g. Mean, Median).If the element is present, it must have either a @value, an @id, or extensions
+ * Possible group measure aggregates (E.g. Mean, Median).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GroupMeasure
  */
 class GroupMeasureType extends ElementType

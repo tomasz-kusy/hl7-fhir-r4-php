@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContributorTypeType
  *
- * The type of contributor.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of contributor.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ContributorType
  */
 class ContributorTypeType extends ElementType

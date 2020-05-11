@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing VisionPrescriptionType
  *
- * An authorization for the provision of glasses and/or contact lenses to a patient.If the element is present, it must have either a @value, an @id, or extensions
+ * An authorization for the provision of glasses and/or contact lenses to a patient.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: VisionPrescription
  */
 class VisionPrescriptionType extends DomainResourceType

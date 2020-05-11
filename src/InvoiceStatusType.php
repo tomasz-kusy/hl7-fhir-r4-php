@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing InvoiceStatusType
  *
- * Codes identifying the lifecycle stage of an Invoice.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes identifying the lifecycle stage of an Invoice.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: InvoiceStatus
  */
 class InvoiceStatusType extends ElementType

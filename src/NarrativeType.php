@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing NarrativeType
  *
- * A human-readable summary of the resource conveying the essential clinical and business information for the resource.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A human-readable summary of the resource conveying the essential clinical and business information for the resource.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Narrative
  */
 class NarrativeType extends ElementType

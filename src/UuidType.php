@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing UuidType
  *
- * A UUID, represented as a URISee The Open Group, CDE 1.1 Remote Procedure Call specification, Appendix A.If the element is present, it must have either a @value, an @id referenced from the Narrative, or extensions
+ * A UUID, represented as a URISee The Open Group, CDE 1.1 Remote Procedure Call specification, Appendix A.If the element is present, it must have either a \@value, an \@id referenced from the Narrative, or extensions
  * XSD Type: uuid
  */
 class UuidType extends ElementType

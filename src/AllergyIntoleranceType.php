@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AllergyIntoleranceType
  *
- * Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.If the element is present, it must have either a @value, an @id, or extensions
+ * Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AllergyIntolerance
  */
 class AllergyIntoleranceType extends DomainResourceType

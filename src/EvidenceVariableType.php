@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EvidenceVariableType
  *
- * The EvidenceVariable resource describes a "PICO" element that knowledge (evidence, assertion, recommendation) is about.If the element is present, it must have either a @value, an @id, or extensions
+ * The EvidenceVariable resource describes a "PICO" element that knowledge (evidence, assertion, recommendation) is about.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EvidenceVariable
  */
 class EvidenceVariableType extends DomainResourceType

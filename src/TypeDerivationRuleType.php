@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TypeDerivationRuleType
  *
- * How a type relates to its baseDefinition.If the element is present, it must have either a @value, an @id, or extensions
+ * How a type relates to its baseDefinition.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TypeDerivationRule
  */
 class TypeDerivationRuleType extends ElementType

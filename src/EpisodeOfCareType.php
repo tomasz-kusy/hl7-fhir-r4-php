@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EpisodeOfCareType
  *
- * An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time.If the element is present, it must have either a @value, an @id, or extensions
+ * An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EpisodeOfCare
  */
 class EpisodeOfCareType extends DomainResourceType

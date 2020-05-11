@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing IntegerType
  *
- * A whole number32 bit number; for values larger than this, use decimalIf the element is present, it must have either a @value, an @id, or extensions
+ * A whole number32 bit number; for values larger than this, use decimalIf the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: integer
  */
 class IntegerType extends ElementType

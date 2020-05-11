@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing VerificationResultType
  *
- * Describes validation requirements, source(s), status and dates for one or more elements.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes validation requirements, source(s), status and dates for one or more elements.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: VerificationResult
  */
 class VerificationResultType extends DomainResourceType

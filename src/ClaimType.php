@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ClaimType
  *
- * A provider issued list of professional services and products which have been provided, or are to be provided, to a patient which is sent to an insurer for reimbursement.If the element is present, it must have either a @value, an @id, or extensions
+ * A provider issued list of professional services and products which have been provided, or are to be provided, to a patient which is sent to an insurer for reimbursement.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Claim
  */
 class ClaimType extends DomainResourceType

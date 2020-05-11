@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing FlagType
  *
- * Prospective warnings of potential issues when providing care to the patient.If the element is present, it must have either a @value, an @id, or extensions
+ * Prospective warnings of potential issues when providing care to the patient.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Flag
  */
 class FlagType extends DomainResourceType

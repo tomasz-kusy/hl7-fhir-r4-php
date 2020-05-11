@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BundleType
  *
- * A container for a collection of resources.If the element is present, it must have either a @value, an @id, or extensions
+ * A container for a collection of resources.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Bundle
  */
 class BundleType extends ResourceType

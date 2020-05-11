@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TestReportStatusType
  *
- * The current status of the test report.If the element is present, it must have either a @value, an @id, or extensions
+ * The current status of the test report.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TestReportStatus
  */
 class TestReportStatusType extends ElementType

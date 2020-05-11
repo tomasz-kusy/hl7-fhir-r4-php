@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing OperationParameterUseType
  *
- * Whether an operation parameter is an input or an output parameter.If the element is present, it must have either a @value, an @id, or extensions
+ * Whether an operation parameter is an input or an output parameter.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: OperationParameterUse
  */
 class OperationParameterUseType extends ElementType

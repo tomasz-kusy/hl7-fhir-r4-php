@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PaymentReconciliationType
  *
- * This resource provides the details including amount of a payment and allocates the payment items being paid.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource provides the details including amount of a payment and allocates the payment items being paid.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: PaymentReconciliation
  */
 class PaymentReconciliationType extends DomainResourceType

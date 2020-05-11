@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AnnotationType
  *
- * A text note which also contains information about who made the statement and when.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A text note which also contains information about who made the statement and when.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Annotation
  */
 class AnnotationType extends ElementType

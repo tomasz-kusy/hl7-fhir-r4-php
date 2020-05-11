@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SpecimenDefinitionType
  *
- * A kind of specimen with associated set of requirements.If the element is present, it must have either a @value, an @id, or extensions
+ * A kind of specimen with associated set of requirements.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SpecimenDefinition
  */
 class SpecimenDefinitionType extends DomainResourceType

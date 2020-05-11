@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResearchElementDefinitionType
  *
- * The ResearchElementDefinition resource describes a "PICO" element that knowledge (evidence, assertion, recommendation) is about.If the element is present, it must have either a @value, an @id, or extensions
+ * The ResearchElementDefinition resource describes a "PICO" element that knowledge (evidence, assertion, recommendation) is about.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResearchElementDefinition
  */
 class ResearchElementDefinitionType extends DomainResourceType

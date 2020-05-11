@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MessageheaderResponseRequestType
  *
- * HL7-defined table of codes which identify conditions under which acknowledgments are required to be returned in response to a message.If the element is present, it must have either a @value, an @id, or extensions
+ * HL7-defined table of codes which identify conditions under which acknowledgments are required to be returned in response to a message.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: messageheaderResponseRequest
  */
 class MessageheaderResponseRequestType extends ElementType

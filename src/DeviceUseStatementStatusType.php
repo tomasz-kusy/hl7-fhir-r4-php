@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceUseStatementStatusType
  *
- * A coded concept indicating the current status of the Device Usage.If the element is present, it must have either a @value, an @id, or extensions
+ * A coded concept indicating the current status of the Device Usage.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceUseStatementStatus
  */
 class DeviceUseStatementStatusType extends ElementType

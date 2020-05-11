@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SubstanceSpecificationType
  *
- * The detailed description of a substance, typically at a level beyond what is used for prescribing.If the element is present, it must have either a @value, an @id, or extensions
+ * The detailed description of a substance, typically at a level beyond what is used for prescribing.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SubstanceSpecification
  */
 class SubstanceSpecificationType extends DomainResourceType

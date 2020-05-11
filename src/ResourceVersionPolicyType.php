@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResourceVersionPolicyType
  *
- * How the system supports versioning for a resource.If the element is present, it must have either a @value, an @id, or extensions
+ * How the system supports versioning for a resource.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResourceVersionPolicy
  */
 class ResourceVersionPolicyType extends ElementType

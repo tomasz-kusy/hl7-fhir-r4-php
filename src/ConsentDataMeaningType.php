@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConsentDataMeaningType
  *
- * How a resource reference is interpreted when testing consent restrictions.If the element is present, it must have either a @value, an @id, or extensions
+ * How a resource reference is interpreted when testing consent restrictions.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConsentDataMeaning
  */
 class ConsentDataMeaningType extends ElementType

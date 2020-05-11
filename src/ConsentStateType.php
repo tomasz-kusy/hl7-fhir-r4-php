@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConsentStateType
  *
- * Indicates the state of the consent.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates the state of the consent.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConsentState
  */
 class ConsentStateType extends ElementType

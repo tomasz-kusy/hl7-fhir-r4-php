@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ExposureStateType
  *
- * Whether the results by exposure is describing the results for the primary exposure of interest (exposure) or the alternative state (exposureAlternative).If the element is present, it must have either a @value, an @id, or extensions
+ * Whether the results by exposure is describing the results for the primary exposure of interest (exposure) or the alternative state (exposureAlternative).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ExposureState
  */
 class ExposureStateType extends ElementType

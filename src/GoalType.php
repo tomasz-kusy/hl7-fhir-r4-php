@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GoalType
  *
- * Describes the intended objective(s) for a patient, group or organization care, for example, weight loss, restoring an activity of daily living, obtaining herd immunity via immunization, meeting a process improvement objective, etc.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the intended objective(s) for a patient, group or organization care, for example, weight loss, restoring an activity of daily living, obtaining herd immunity via immunization, meeting a process improvement objective, etc.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Goal
  */
 class GoalType extends DomainResourceType

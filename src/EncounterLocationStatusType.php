@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EncounterLocationStatusType
  *
- * The status of the location.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the location.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EncounterLocationStatus
  */
 class EncounterLocationStatusType extends ElementType

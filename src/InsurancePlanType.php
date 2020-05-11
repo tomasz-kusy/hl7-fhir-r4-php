@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing InsurancePlanType
  *
- * Details of a Health Insurance product/plan provided by an organization.If the element is present, it must have either a @value, an @id, or extensions
+ * Details of a Health Insurance product/plan provided by an organization.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: InsurancePlan
  */
 class InsurancePlanType extends DomainResourceType

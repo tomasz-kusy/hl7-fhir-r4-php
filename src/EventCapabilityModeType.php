@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EventCapabilityModeType
  *
- * The mode of a message capability statement.If the element is present, it must have either a @value, an @id, or extensions
+ * The mode of a message capability statement.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EventCapabilityMode
  */
 class EventCapabilityModeType extends ElementType

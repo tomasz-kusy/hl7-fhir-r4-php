@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ScheduleType
  *
- * A container for slots of time that may be available for booking appointments.If the element is present, it must have either a @value, an @id, or extensions
+ * A container for slots of time that may be available for booking appointments.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Schedule
  */
 class ScheduleType extends DomainResourceType

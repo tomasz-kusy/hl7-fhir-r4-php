@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SlicingRulesType
  *
- * How slices are interpreted when evaluating an instance.If the element is present, it must have either a @value, an @id, or extensions
+ * How slices are interpreted when evaluating an instance.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SlicingRules
  */
 class SlicingRulesType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductAuthorizationType
  *
- * The regulatory authorization of a medicinal product.If the element is present, it must have either a @value, an @id, or extensions
+ * The regulatory authorization of a medicinal product.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductAuthorization
  */
 class MedicinalProductAuthorizationType extends DomainResourceType

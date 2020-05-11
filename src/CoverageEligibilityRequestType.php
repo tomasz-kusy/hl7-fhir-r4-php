@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CoverageEligibilityRequestType
  *
- * The CoverageEligibilityRequest provides patient and insurance coverage information to an insurer for them to respond, in the form of an CoverageEligibilityResponse, with information regarding whether the stated coverage is valid and in-force and optionally to provide the insurance details of the policy.If the element is present, it must have either a @value, an @id, or extensions
+ * The CoverageEligibilityRequest provides patient and insurance coverage information to an insurer for them to respond, in the form of an CoverageEligibilityResponse, with information regarding whether the stated coverage is valid and in-force and optionally to provide the insurance details of the policy.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CoverageEligibilityRequest
  */
 class CoverageEligibilityRequestType extends DomainResourceType

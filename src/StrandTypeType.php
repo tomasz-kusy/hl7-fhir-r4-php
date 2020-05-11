@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StrandTypeType
  *
- * Type for strand.If the element is present, it must have either a @value, an @id, or extensions
+ * Type for strand.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: strandType
  */
 class StrandTypeType extends ElementType

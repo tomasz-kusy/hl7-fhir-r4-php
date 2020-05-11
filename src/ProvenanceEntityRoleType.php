@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ProvenanceEntityRoleType
  *
- * How an entity was used in an activity.If the element is present, it must have either a @value, an @id, or extensions
+ * How an entity was used in an activity.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ProvenanceEntityRole
  */
 class ProvenanceEntityRoleType extends ElementType

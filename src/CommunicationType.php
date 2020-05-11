@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CommunicationType
  *
- * An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency that was notified about a reportable condition.If the element is present, it must have either a @value, an @id, or extensions
+ * An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency that was notified about a reportable condition.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Communication
  */
 class CommunicationType extends DomainResourceType

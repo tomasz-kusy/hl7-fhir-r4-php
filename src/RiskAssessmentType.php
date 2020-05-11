@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RiskAssessmentType
  *
- * An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.If the element is present, it must have either a @value, an @id, or extensions
+ * An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RiskAssessment
  */
 class RiskAssessmentType extends DomainResourceType

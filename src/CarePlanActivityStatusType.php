@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CarePlanActivityStatusType
  *
- * Codes that reflect the current state of a care plan activity within its overall life cycle.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes that reflect the current state of a care plan activity within its overall life cycle.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CarePlanActivityStatus
  */
 class CarePlanActivityStatusType extends ElementType

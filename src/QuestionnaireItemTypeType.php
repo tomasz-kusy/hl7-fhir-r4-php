@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing QuestionnaireItemTypeType
  *
- * Distinguishes groups from questions and display text and indicates data type for questions.If the element is present, it must have either a @value, an @id, or extensions
+ * Distinguishes groups from questions and display text and indicates data type for questions.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: QuestionnaireItemType
  */
 class QuestionnaireItemTypeType extends ElementType

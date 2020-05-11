@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EnrollmentRequestType
  *
- * This resource provides the insurance enrollment details to the insurer regarding a specified coverage.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource provides the insurance enrollment details to the insurer regarding a specified coverage.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EnrollmentRequest
  */
 class EnrollmentRequestType extends DomainResourceType

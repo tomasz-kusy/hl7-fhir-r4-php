@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SearchParameterType
  *
- * A search parameter that defines a named search item that can be used to search/filter on a resource.If the element is present, it must have either a @value, an @id, or extensions
+ * A search parameter that defines a named search item that can be used to search/filter on a resource.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SearchParameter
  */
 class SearchParameterType extends DomainResourceType

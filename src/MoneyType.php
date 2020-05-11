@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MoneyType
  *
- * An amount of economic utility in some recognized currency.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * An amount of economic utility in some recognized currency.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Money
  */
 class MoneyType extends ElementType

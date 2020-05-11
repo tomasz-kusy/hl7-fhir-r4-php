@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GoalLifecycleStatusType
  *
- * Codes that reflect the current state of a goal and whether the goal is still being targeted.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes that reflect the current state of a goal and whether the goal is still being targeted.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GoalLifecycleStatus
  */
 class GoalLifecycleStatusType extends ElementType

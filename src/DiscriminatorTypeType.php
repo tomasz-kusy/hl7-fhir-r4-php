@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DiscriminatorTypeType
  *
- * How an element value is interpreted when discrimination is evaluated.If the element is present, it must have either a @value, an @id, or extensions
+ * How an element value is interpreted when discrimination is evaluated.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DiscriminatorType
  */
 class DiscriminatorTypeType extends ElementType

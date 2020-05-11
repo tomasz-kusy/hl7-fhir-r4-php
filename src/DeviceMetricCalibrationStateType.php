@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceMetricCalibrationStateType
  *
- * Describes the state of a metric calibration.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the state of a metric calibration.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceMetricCalibrationState
  */
 class DeviceMetricCalibrationStateType extends ElementType

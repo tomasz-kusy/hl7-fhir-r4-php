@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ExtensionType
  *
- * Optional Extension Element - found in all resources.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * Optional Extension Element - found in all resources.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Extension
  */
 class ExtensionType extends ElementType

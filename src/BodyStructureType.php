@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BodyStructureType
  *
- * Record details about an anatomical structure. This resource may be used when a coded concept does not provide the necessary detail needed for the use case.If the element is present, it must have either a @value, an @id, or extensions
+ * Record details about an anatomical structure. This resource may be used when a coded concept does not provide the necessary detail needed for the use case.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: BodyStructure
  */
 class BodyStructureType extends DomainResourceType

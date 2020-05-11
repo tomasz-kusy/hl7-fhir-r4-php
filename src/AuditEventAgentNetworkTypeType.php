@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AuditEventAgentNetworkTypeType
  *
- * The type of network access point of this agent in the audit event.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of network access point of this agent in the audit event.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AuditEventAgentNetworkType
  */
 class AuditEventAgentNetworkTypeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ExpressionLanguageType
  *
- * The media type of the expression language.If the element is present, it must have either a @value, an @id, or extensions
+ * The media type of the expression language.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ExpressionLanguage
  */
 class ExpressionLanguageType extends ElementType

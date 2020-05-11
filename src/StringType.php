@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StringType
  *
- * A sequence of Unicode charactersNote that FHIR strings SHALL NOT exceed 1MB in sizeIf the element is present, it must have either a @value, an @id, or extensions
+ * A sequence of Unicode charactersNote that FHIR strings SHALL NOT exceed 1MB in sizeIf the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: string
  */
 class StringType extends ElementType

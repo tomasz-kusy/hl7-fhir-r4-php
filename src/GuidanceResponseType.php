@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GuidanceResponseType
  *
- * A guidance response is the formal response to a guidance request, including any output parameters returned by the evaluation, as well as the description of any proposed actions to be taken.If the element is present, it must have either a @value, an @id, or extensions
+ * A guidance response is the formal response to a guidance request, including any output parameters returned by the evaluation, as well as the description of any proposed actions to be taken.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GuidanceResponse
  */
 class GuidanceResponseType extends DomainResourceType

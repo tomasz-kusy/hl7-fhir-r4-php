@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing UDIEntryTypeType
  *
- * Codes to identify how UDI data was entered.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes to identify how UDI data was entered.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: UDIEntryType
  */
 class UDIEntryTypeType extends ElementType

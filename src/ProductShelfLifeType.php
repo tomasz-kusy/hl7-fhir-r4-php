@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ProductShelfLifeType
  *
- * The shelf-life and storage information for a medicinal product item or container can be described using this class.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * The shelf-life and storage information for a medicinal product item or container can be described using this class.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: ProductShelfLife
  */
 class ProductShelfLifeType extends BackboneElementType

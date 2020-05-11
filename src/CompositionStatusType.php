@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CompositionStatusType
  *
- * The workflow/clinical status of the composition.If the element is present, it must have either a @value, an @id, or extensions
+ * The workflow/clinical status of the composition.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CompositionStatus
  */
 class CompositionStatusType extends ElementType

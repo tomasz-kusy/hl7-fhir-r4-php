@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing IssueSeverityType
  *
- * How the issue affects the success of the action.If the element is present, it must have either a @value, an @id, or extensions
+ * How the issue affects the success of the action.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: IssueSeverity
  */
 class IssueSeverityType extends ElementType

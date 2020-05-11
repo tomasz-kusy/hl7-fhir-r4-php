@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing QuestionnaireItemOperatorType
  *
- * The criteria by which a question is enabled.If the element is present, it must have either a @value, an @id, or extensions
+ * The criteria by which a question is enabled.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: QuestionnaireItemOperator
  */
 class QuestionnaireItemOperatorType extends ElementType

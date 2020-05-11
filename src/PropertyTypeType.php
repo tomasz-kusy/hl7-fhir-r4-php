@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PropertyTypeType
  *
- * The type of a property value.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of a property value.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: PropertyType
  */
 class PropertyTypeType extends ElementType

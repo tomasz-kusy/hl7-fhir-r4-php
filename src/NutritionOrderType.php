@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing NutritionOrderType
  *
- * A request to supply a diet, formula feeding (enteral) or oral nutritional supplement to a patient/resident.If the element is present, it must have either a @value, an @id, or extensions
+ * A request to supply a diet, formula feeding (enteral) or oral nutritional supplement to a patient/resident.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: NutritionOrder
  */
 class NutritionOrderType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResearchStudyStatusType
  *
- * Codes that convey the current status of the research study.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes that convey the current status of the research study.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResearchStudyStatus
  */
 class ResearchStudyStatusType extends ElementType

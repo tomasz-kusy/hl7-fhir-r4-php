@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResponseTypeType
  *
- * The kind of response to a message.If the element is present, it must have either a @value, an @id, or extensions
+ * The kind of response to a message.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResponseType
  */
 class ResponseTypeType extends ElementType

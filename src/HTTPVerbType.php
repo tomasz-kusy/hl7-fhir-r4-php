@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing HTTPVerbType
  *
- * HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.If the element is present, it must have either a @value, an @id, or extensions
+ * HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: HTTPVerb
  */
 class HTTPVerbType extends ElementType

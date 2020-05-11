@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EncounterType
  *
- * An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.If the element is present, it must have either a @value, an @id, or extensions
+ * An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Encounter
  */
 class EncounterType extends DomainResourceType

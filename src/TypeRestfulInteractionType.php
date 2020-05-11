@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TypeRestfulInteractionType
  *
- * Operations supported by REST at the type or instance level.If the element is present, it must have either a @value, an @id, or extensions
+ * Operations supported by REST at the type or instance level.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TypeRestfulInteraction
  */
 class TypeRestfulInteractionType extends ElementType

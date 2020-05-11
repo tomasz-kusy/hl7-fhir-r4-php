@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RiskEvidenceSynthesisType
  *
- * The RiskEvidenceSynthesis resource describes the likelihood of an outcome in a population plus exposure state where the risk estimate is derived from a combination of research studies.If the element is present, it must have either a @value, an @id, or extensions
+ * The RiskEvidenceSynthesis resource describes the likelihood of an outcome in a population plus exposure state where the risk estimate is derived from a combination of research studies.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RiskEvidenceSynthesis
  */
 class RiskEvidenceSynthesisType extends DomainResourceType

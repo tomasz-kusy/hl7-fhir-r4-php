@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing OperationOutcomeType
  *
- * A collection of error, warning, or information messages that result from a system action.If the element is present, it must have either a @value, an @id, or extensions
+ * A collection of error, warning, or information messages that result from a system action.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: OperationOutcome
  */
 class OperationOutcomeType extends DomainResourceType

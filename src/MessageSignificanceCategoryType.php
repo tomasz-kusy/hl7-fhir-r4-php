@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MessageSignificanceCategoryType
  *
- * The impact of the content of a message.If the element is present, it must have either a @value, an @id, or extensions
+ * The impact of the content of a message.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MessageSignificanceCategory
  */
 class MessageSignificanceCategoryType extends ElementType

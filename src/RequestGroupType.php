@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RequestGroupType
  *
- * A group of related requests that can be used to capture intended activities that have inter-dependencies such as "give this medication after that one".If the element is present, it must have either a @value, an @id, or extensions
+ * A group of related requests that can be used to capture intended activities that have inter-dependencies such as "give this medication after that one".If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RequestGroup
  */
 class RequestGroupType extends DomainResourceType

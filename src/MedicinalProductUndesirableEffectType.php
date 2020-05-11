@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductUndesirableEffectType
  *
- * Describe the undesirable effects of the medicinal product.If the element is present, it must have either a @value, an @id, or extensions
+ * Describe the undesirable effects of the medicinal product.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductUndesirableEffect
  */
 class MedicinalProductUndesirableEffectType extends DomainResourceType

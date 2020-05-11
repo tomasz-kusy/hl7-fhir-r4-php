@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing FilterOperatorType
  *
- * The kind of operation to perform as a part of a property based filter.If the element is present, it must have either a @value, an @id, or extensions
+ * The kind of operation to perform as a part of a property based filter.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: FilterOperator
  */
 class FilterOperatorType extends ElementType

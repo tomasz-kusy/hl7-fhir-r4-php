@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing LocationModeType
  *
- * Indicates whether a resource instance represents a specific location or a class of locations.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates whether a resource instance represents a specific location or a class of locations.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: LocationMode
  */
 class LocationModeType extends ElementType

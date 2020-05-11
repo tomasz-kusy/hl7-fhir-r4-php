@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductIndicationType
  *
- * Indication for the Medicinal Product.If the element is present, it must have either a @value, an @id, or extensions
+ * Indication for the Medicinal Product.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductIndication
  */
 class MedicinalProductIndicationType extends DomainResourceType

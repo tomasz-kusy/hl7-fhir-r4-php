@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TriggerTypeType
  *
- * The type of trigger.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of trigger.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TriggerType
  */
 class TriggerTypeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EnableWhenBehaviorType
  *
- * Controls how multiple enableWhen values are interpreted - whether all or any must be true.If the element is present, it must have either a @value, an @id, or extensions
+ * Controls how multiple enableWhen values are interpreted - whether all or any must be true.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EnableWhenBehavior
  */
 class EnableWhenBehaviorType extends ElementType

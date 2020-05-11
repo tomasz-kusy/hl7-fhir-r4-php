@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RatioType
  *
- * A relationship of two Quantity values - expressed as a numerator and a denominator.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A relationship of two Quantity values - expressed as a numerator and a denominator.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Ratio
  */
 class RatioType extends ElementType

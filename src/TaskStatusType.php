@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TaskStatusType
  *
- * The current status of the task.If the element is present, it must have either a @value, an @id, or extensions
+ * The current status of the task.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TaskStatus
  */
 class TaskStatusType extends ElementType

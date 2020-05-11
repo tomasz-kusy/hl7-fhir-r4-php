@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TriggerDefinitionType
  *
- * A description of a triggering event. Triggering events can be named events, data events, or periodic, as determined by the type element.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A description of a triggering event. Triggering events can be named events, data events, or periodic, as determined by the type element.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: TriggerDefinition
  */
 class TriggerDefinitionType extends ElementType

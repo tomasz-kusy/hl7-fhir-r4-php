@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SupplyDeliveryStatusType
  *
- * Status of the supply delivery.If the element is present, it must have either a @value, an @id, or extensions
+ * Status of the supply delivery.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SupplyDeliveryStatus
  */
 class SupplyDeliveryStatusType extends ElementType

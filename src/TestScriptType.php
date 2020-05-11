@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TestScriptType
  *
- * A structured set of tests against a FHIR server or client implementation to determine compliance against the FHIR specification.If the element is present, it must have either a @value, an @id, or extensions
+ * A structured set of tests against a FHIR server or client implementation to determine compliance against the FHIR specification.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TestScript
  */
 class TestScriptType extends DomainResourceType

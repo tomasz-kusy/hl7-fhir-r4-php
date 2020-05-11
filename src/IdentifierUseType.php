@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing IdentifierUseType
  *
- * Identifies the purpose for this identifier, if known .If the element is present, it must have either a @value, an @id, or extensions
+ * Identifies the purpose for this identifier, if known .If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: IdentifierUse
  */
 class IdentifierUseType extends ElementType

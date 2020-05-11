@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PersonType
  *
- * Demographics and administrative information about a person independent of a specific health-related context.If the element is present, it must have either a @value, an @id, or extensions
+ * Demographics and administrative information about a person independent of a specific health-related context.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Person
  */
 class PersonType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SPDXLicenseType
  *
- * The license that applies to an Implementation Guide (using an SPDX license Identifiers, or 'not-open-source'). The binding is required but new SPDX license Identifiers are allowed to be used (https://spdx.org/licenses/).If the element is present, it must have either a @value, an @id, or extensions
+ * The license that applies to an Implementation Guide (using an SPDX license Identifiers, or 'not-open-source'). The binding is required but new SPDX license Identifiers are allowed to be used (https://spdx.org/licenses/).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SPDXLicense
  */
 class SPDXLicenseType extends ElementType

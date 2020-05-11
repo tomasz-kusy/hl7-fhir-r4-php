@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CarePlanActivityKindType
  *
- * Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.If the element is present, it must have either a @value, an @id, or extensions
+ * Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CarePlanActivityKind
  */
 class CarePlanActivityKindType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MessageDefinitionType
  *
- * Defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MessageDefinition
  */
 class MessageDefinitionType extends DomainResourceType

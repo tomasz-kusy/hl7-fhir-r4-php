@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BasicType
  *
- * Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.If the element is present, it must have either a @value, an @id, or extensions
+ * Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Basic
  */
 class BasicType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AggregationModeType
  *
- * How resource references can be aggregated.If the element is present, it must have either a @value, an @id, or extensions
+ * How resource references can be aggregated.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AggregationMode
  */
 class AggregationModeType extends ElementType

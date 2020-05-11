@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AuditEventActionType
  *
- * Indicator for type of action performed during the event that generated the event.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicator for type of action performed during the event that generated the event.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AuditEventAction
  */
 class AuditEventActionType extends ElementType

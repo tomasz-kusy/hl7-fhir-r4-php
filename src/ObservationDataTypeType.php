@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ObservationDataTypeType
  *
- * Permitted data type for observation value.If the element is present, it must have either a @value, an @id, or extensions
+ * Permitted data type for observation value.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ObservationDataType
  */
 class ObservationDataTypeType extends ElementType

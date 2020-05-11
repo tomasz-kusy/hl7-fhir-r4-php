@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing FamilyHistoryStatusType
  *
- * A code that identifies the status of the family history record.If the element is present, it must have either a @value, an @id, or extensions
+ * A code that identifies the status of the family history record.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: FamilyHistoryStatus
  */
 class FamilyHistoryStatusType extends ElementType

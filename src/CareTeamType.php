@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CareTeamType
  *
- * The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.If the element is present, it must have either a @value, an @id, or extensions
+ * The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CareTeam
  */
 class CareTeamType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing FHIRSubstanceStatusType
  *
- * A code to indicate if the substance is actively used.If the element is present, it must have either a @value, an @id, or extensions
+ * A code to indicate if the substance is actively used.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: FHIRSubstanceStatus
  */
 class FHIRSubstanceStatusType extends ElementType

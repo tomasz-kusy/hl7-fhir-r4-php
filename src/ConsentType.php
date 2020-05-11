@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConsentType
  *
- * A record of a healthcare consumer’s choices, which permits or denies identified recipient(s) or recipient role(s) to perform one or more actions within a given policy context, for specific purposes and periods of time.If the element is present, it must have either a @value, an @id, or extensions
+ * A record of a healthcare consumer’s choices, which permits or denies identified recipient(s) or recipient role(s) to perform one or more actions within a given policy context, for specific purposes and periods of time.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Consent
  */
 class ConsentType extends DomainResourceType

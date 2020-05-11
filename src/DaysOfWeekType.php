@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DaysOfWeekType
  *
- * The days of the week.If the element is present, it must have either a @value, an @id, or extensions
+ * The days of the week.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DaysOfWeek
  */
 class DaysOfWeekType extends ElementType

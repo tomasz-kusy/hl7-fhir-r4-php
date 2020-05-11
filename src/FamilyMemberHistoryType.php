@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing FamilyMemberHistoryType
  *
- * Significant health conditions for a person related to the patient relevant in the context of care for the patient.If the element is present, it must have either a @value, an @id, or extensions
+ * Significant health conditions for a person related to the patient relevant in the context of care for the patient.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: FamilyMemberHistory
  */
 class FamilyMemberHistoryType extends DomainResourceType

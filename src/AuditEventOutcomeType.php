@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AuditEventOutcomeType
  *
- * Indicates whether the event succeeded or failed.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates whether the event succeeded or failed.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AuditEventOutcome
  */
 class AuditEventOutcomeType extends ElementType

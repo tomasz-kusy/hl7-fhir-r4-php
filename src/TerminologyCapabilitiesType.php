@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TerminologyCapabilitiesType
  *
- * A TerminologyCapabilities resource documents a set of capabilities (behaviors) of a FHIR Terminology Server that may be used as a statement of actual server functionality or a statement of required or desired server implementation.If the element is present, it must have either a @value, an @id, or extensions
+ * A TerminologyCapabilities resource documents a set of capabilities (behaviors) of a FHIR Terminology Server that may be used as a statement of actual server functionality or a statement of required or desired server implementation.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TerminologyCapabilities
  */
 class TerminologyCapabilitiesType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SystemRestfulInteractionType
  *
- * Operations supported by REST at the system level.If the element is present, it must have either a @value, an @id, or extensions
+ * Operations supported by REST at the system level.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SystemRestfulInteraction
  */
 class SystemRestfulInteractionType extends ElementType

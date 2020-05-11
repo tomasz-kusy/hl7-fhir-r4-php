@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BiologicallyDerivedProductStatusType
  *
- * Biologically Derived Product Status.If the element is present, it must have either a @value, an @id, or extensions
+ * Biologically Derived Product Status.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: BiologicallyDerivedProductStatus
  */
 class BiologicallyDerivedProductStatusType extends ElementType

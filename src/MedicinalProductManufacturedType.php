@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductManufacturedType
  *
- * The manufactured item as contained in the packaged medicinal product.If the element is present, it must have either a @value, an @id, or extensions
+ * The manufactured item as contained in the packaged medicinal product.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductManufactured
  */
 class MedicinalProductManufacturedType extends DomainResourceType

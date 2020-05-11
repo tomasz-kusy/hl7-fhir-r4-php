@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicationAdministrationType
  *
- * Describes the event of a patient consuming or otherwise being administered a medication. This may be as simple as swallowing a tablet or it may be a long running infusion. Related resources tie this event to the authorizing prescription, and the specific encounter between patient and health care practitioner.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the event of a patient consuming or otherwise being administered a medication. This may be as simple as swallowing a tablet or it may be a long running infusion. Related resources tie this event to the authorizing prescription, and the specific encounter between patient and health care practitioner.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicationAdministration
  */
 class MedicationAdministrationType extends DomainResourceType

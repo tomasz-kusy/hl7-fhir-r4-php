@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CompartmentTypeType
  *
- * Which type a compartment definition describes.If the element is present, it must have either a @value, an @id, or extensions
+ * Which type a compartment definition describes.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CompartmentType
  */
 class CompartmentTypeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ImmunizationEvaluationType
  *
- * Describes a comparison of an immunization event against published recommendations to determine if the administration is "valid" in relation to those recommendations.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes a comparison of an immunization event against published recommendations to determine if the administration is "valid" in relation to those recommendations.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ImmunizationEvaluation
  */
 class ImmunizationEvaluationType extends DomainResourceType

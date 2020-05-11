@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductType
  *
- * Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use).If the element is present, it must have either a @value, an @id, or extensions
+ * Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProduct
  */
 class MedicinalProductType extends DomainResourceType

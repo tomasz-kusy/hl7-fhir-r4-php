@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapSourceListModeType
  *
- * If field is a list, how to manage the source.If the element is present, it must have either a @value, an @id, or extensions
+ * If field is a list, how to manage the source.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMapSourceListMode
  */
 class StructureMapSourceListModeType extends ElementType

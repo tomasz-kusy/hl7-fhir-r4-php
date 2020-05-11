@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GraphCompartmentUseType
  *
- * Defines how a compartment rule is used.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines how a compartment rule is used.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GraphCompartmentUse
  */
 class GraphCompartmentUseType extends ElementType

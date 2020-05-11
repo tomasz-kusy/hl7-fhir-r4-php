@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing UnitsOfTimeType
  *
- * A unit of time (units from UCUM).If the element is present, it must have either a @value, an @id, or extensions
+ * A unit of time (units from UCUM).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: UnitsOfTime
  */
 class UnitsOfTimeType extends ElementType

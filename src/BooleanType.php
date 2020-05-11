@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BooleanType
  *
- * Value of "true" or "false"If the element is present, it must have either a @value, an @id, or extensions
+ * Value of "true" or "false"If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: boolean
  */
 class BooleanType extends ElementType

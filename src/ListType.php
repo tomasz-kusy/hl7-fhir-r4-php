@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ListType
  *
- * A list is a curated collection of resources.If the element is present, it must have either a @value, an @id, or extensions
+ * A list is a curated collection of resources.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: List
  */
 class ListType extends DomainResourceType

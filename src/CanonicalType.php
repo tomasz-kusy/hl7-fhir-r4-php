@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CanonicalType
  *
- * A URI that is a reference to a canonical URL on a FHIR resourcesee [Canonical References](references.html#canonical)If the element is present, it must have either a @value, an @id referenced from the Narrative, or extensions
+ * A URI that is a reference to a canonical URL on a FHIR resourcesee [Canonical References](references.html#canonical)If the element is present, it must have either a \@value, an \@id referenced from the Narrative, or extensions
  * XSD Type: canonical
  */
 class CanonicalType extends ElementType

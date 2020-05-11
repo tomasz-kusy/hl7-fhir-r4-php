@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ActionConditionKindType
  *
- * Defines the kinds of conditions that can appear on actions.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines the kinds of conditions that can appear on actions.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ActionConditionKind
  */
 class ActionConditionKindType extends ElementType

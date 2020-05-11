@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContractType
  *
- * Legally enforceable, formally recorded unilateral or bilateral directive i.e., a policy or agreement.If the element is present, it must have either a @value, an @id, or extensions
+ * Legally enforceable, formally recorded unilateral or bilateral directive i.e., a policy or agreement.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Contract
  */
 class ContractType extends DomainResourceType

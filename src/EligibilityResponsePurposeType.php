@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EligibilityResponsePurposeType
  *
- * A code specifying the types of information being requested.If the element is present, it must have either a @value, an @id, or extensions
+ * A code specifying the types of information being requested.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EligibilityResponsePurpose
  */
 class EligibilityResponsePurposeType extends ElementType

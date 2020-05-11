@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ClinicalImpressionStatusType
  *
- * The workflow state of a clinical impression.If the element is present, it must have either a @value, an @id, or extensions
+ * The workflow state of a clinical impression.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ClinicalImpressionStatus
  */
 class ClinicalImpressionStatusType extends ElementType

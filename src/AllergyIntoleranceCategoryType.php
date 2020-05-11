@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AllergyIntoleranceCategoryType
  *
- * Category of an identified substance associated with allergies or intolerances.If the element is present, it must have either a @value, an @id, or extensions
+ * Category of an identified substance associated with allergies or intolerances.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AllergyIntoleranceCategory
  */
 class AllergyIntoleranceCategoryType extends ElementType

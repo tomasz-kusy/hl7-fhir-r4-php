@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicationType
  *
- * This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering a medication as well as for making statements about medication use.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering a medication as well as for making statements about medication use.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Medication
  */
 class MedicationType extends DomainResourceType

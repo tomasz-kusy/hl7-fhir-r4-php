@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RequestIntentType
  *
- * Codes indicating the degree of authority/intentionality associated with a request.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes indicating the degree of authority/intentionality associated with a request.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RequestIntent
  */
 class RequestIntentType extends ElementType

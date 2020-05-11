@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConditionalDeleteStatusType
  *
- * A code that indicates how the server supports conditional delete.If the element is present, it must have either a @value, an @id, or extensions
+ * A code that indicates how the server supports conditional delete.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConditionalDeleteStatus
  */
 class ConditionalDeleteStatusType extends ElementType

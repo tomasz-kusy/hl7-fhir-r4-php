@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceMetricOperationalStatusType
  *
- * Describes the operational status of the DeviceMetric.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the operational status of the DeviceMetric.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceMetricOperationalStatus
  */
 class DeviceMetricOperationalStatusType extends ElementType

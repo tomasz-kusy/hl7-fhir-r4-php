@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConceptMapGroupUnmappedModeType
  *
- * Defines which action to take if there is no match in the group.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines which action to take if there is no match in the group.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConceptMapGroupUnmappedMode
  */
 class ConceptMapGroupUnmappedModeType extends ElementType

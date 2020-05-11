@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing QuestionnaireType
  *
- * A structured set of questions intended to guide the collection of answers from end-users. Questionnaires provide detailed control over order, presentation, phraseology and grouping to allow coherent, consistent data collection.If the element is present, it must have either a @value, an @id, or extensions
+ * A structured set of questions intended to guide the collection of answers from end-users. Questionnaires provide detailed control over order, presentation, phraseology and grouping to allow coherent, consistent data collection.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Questionnaire
  */
 class QuestionnaireType extends DomainResourceType

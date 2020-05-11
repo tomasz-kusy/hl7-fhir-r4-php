@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ExtensionContextTypeType
  *
- * How an extension context is interpreted.If the element is present, it must have either a @value, an @id, or extensions
+ * How an extension context is interpreted.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ExtensionContextType
  */
 class ExtensionContextTypeType extends ElementType

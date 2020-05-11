@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BindingStrengthType
  *
- * Indication of the degree of conformance expectations associated with a binding.If the element is present, it must have either a @value, an @id, or extensions
+ * Indication of the degree of conformance expectations associated with a binding.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: BindingStrength
  */
 class BindingStrengthType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ProcedureType
  *
- * An action that is or was performed on or for a patient. This can be a physical intervention like an operation, or less invasive like long term services, counseling, or hypnotherapy.If the element is present, it must have either a @value, an @id, or extensions
+ * An action that is or was performed on or for a patient. This can be a physical intervention like an operation, or less invasive like long term services, counseling, or hypnotherapy.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Procedure
  */
 class ProcedureType extends DomainResourceType

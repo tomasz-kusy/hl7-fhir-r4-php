@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing IssueTypeType
  *
- * A code that describes the type of issue.If the element is present, it must have either a @value, an @id, or extensions
+ * A code that describes the type of issue.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: IssueType
  */
 class IssueTypeType extends ElementType

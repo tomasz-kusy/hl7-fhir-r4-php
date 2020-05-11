@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DecimalType
  *
- * A rational number with implicit precisionDo not use an IEEE type floating point type, instead use something that works like a true decimal, with inbuilt precision (e.g. Java BigInteger)If the element is present, it must have either a @value, an @id, or extensions
+ * A rational number with implicit precisionDo not use an IEEE type floating point type, instead use something that works like a true decimal, with inbuilt precision (e.g. Java BigInteger)If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: decimal
  */
 class DecimalType extends ElementType

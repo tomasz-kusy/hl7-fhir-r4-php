@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing OrganizationAffiliationType
  *
- * Defines an affiliation/assotiation/relationship between 2 distinct oganizations, that is not a part-of relationship/sub-division relationship.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines an affiliation/assotiation/relationship between 2 distinct oganizations, that is not a part-of relationship/sub-division relationship.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: OrganizationAffiliation
  */
 class OrganizationAffiliationType extends DomainResourceType

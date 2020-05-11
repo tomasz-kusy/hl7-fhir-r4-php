@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ObservationRangeCategoryType
  *
- * Codes identifying the category of observation range.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes identifying the category of observation range.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ObservationRangeCategory
  */
 class ObservationRangeCategoryType extends ElementType

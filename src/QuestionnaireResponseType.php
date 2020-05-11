@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing QuestionnaireResponseType
  *
- * A structured set of questions and their answers. The questions are ordered and grouped into coherent subsets, corresponding to the structure of the grouping of the questionnaire being responded to.If the element is present, it must have either a @value, an @id, or extensions
+ * A structured set of questions and their answers. The questions are ordered and grouped into coherent subsets, corresponding to the structure of the grouping of the questionnaire being responded to.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: QuestionnaireResponse
  */
 class QuestionnaireResponseType extends DomainResourceType

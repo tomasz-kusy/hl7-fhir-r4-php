@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SearchModifierCodeType
  *
- * A supported modifier for a search parameter.If the element is present, it must have either a @value, an @id, or extensions
+ * A supported modifier for a search parameter.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SearchModifierCode
  */
 class SearchModifierCodeType extends ElementType

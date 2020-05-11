@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceRequestType
  *
- * Represents a request for a patient to employ a medical device. The device may be an implantable device, or an external assistive device, such as a walker.If the element is present, it must have either a @value, an @id, or extensions
+ * Represents a request for a patient to employ a medical device. The device may be an implantable device, or an external assistive device, such as a walker.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceRequest
  */
 class DeviceRequestType extends DomainResourceType

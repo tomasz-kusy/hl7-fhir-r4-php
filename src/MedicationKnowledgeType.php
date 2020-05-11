@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicationKnowledgeType
  *
- * Information about a medication that is used to support knowledge.If the element is present, it must have either a @value, an @id, or extensions
+ * Information about a medication that is used to support knowledge.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicationKnowledge
  */
 class MedicationKnowledgeType extends DomainResourceType

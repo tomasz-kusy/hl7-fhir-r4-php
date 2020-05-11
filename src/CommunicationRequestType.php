@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CommunicationRequestType
  *
- * A request to convey information; e.g. the CDS system proposes that an alert be sent to a responsible provider, the CDS system proposes that the public health agency be notified about a reportable condition.If the element is present, it must have either a @value, an @id, or extensions
+ * A request to convey information; e.g. the CDS system proposes that an alert be sent to a responsible provider, the CDS system proposes that the public health agency be notified about a reportable condition.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CommunicationRequest
  */
 class CommunicationRequestType extends DomainResourceType

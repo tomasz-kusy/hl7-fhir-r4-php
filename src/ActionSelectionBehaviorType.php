@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ActionSelectionBehaviorType
  *
- * Defines selection behavior of a group.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines selection behavior of a group.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ActionSelectionBehavior
  */
 class ActionSelectionBehaviorType extends ElementType

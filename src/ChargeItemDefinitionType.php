@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ChargeItemDefinitionType
  *
- * The ChargeItemDefinition resource provides the properties that apply to the (billing) codes necessary to calculate costs and prices. The properties may differ largely depending on type and realm, therefore this resource gives only a rough structure and requires profiling for each type of billing code system.If the element is present, it must have either a @value, an @id, or extensions
+ * The ChargeItemDefinition resource provides the properties that apply to the (billing) codes necessary to calculate costs and prices. The properties may differ largely depending on type and realm, therefore this resource gives only a rough structure and requires profiling for each type of billing code system.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ChargeItemDefinition
  */
 class ChargeItemDefinitionType extends DomainResourceType

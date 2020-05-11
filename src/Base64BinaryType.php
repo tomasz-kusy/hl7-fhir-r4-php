@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing Base64BinaryType
  *
- * A stream of bytesA stream of bytes, base64 encodedIf the element is present, it must have either a @value, an @id, or extensions
+ * A stream of bytesA stream of bytes, base64 encodedIf the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: base64Binary
  */
 class Base64BinaryType extends ElementType

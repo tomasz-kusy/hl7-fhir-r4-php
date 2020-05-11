@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CarePlanIntentType
  *
- * Codes indicating the degree of authority/intentionality associated with a care plan.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes indicating the degree of authority/intentionality associated with a care plan.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CarePlanIntent
  */
 class CarePlanIntentType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DiagnosticReportStatusType
  *
- * The status of the diagnostic report.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the diagnostic report.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DiagnosticReportStatus
  */
 class DiagnosticReportStatusType extends ElementType

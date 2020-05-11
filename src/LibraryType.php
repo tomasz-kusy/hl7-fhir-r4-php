@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing LibraryType
  *
- * The Library resource is a general-purpose container for knowledge asset definitions. It can be used to describe and expose existing knowledge assets such as logic libraries and information model descriptions, as well as to describe a collection of knowledge assets.If the element is present, it must have either a @value, an @id, or extensions
+ * The Library resource is a general-purpose container for knowledge asset definitions. It can be used to describe and expose existing knowledge assets such as logic libraries and information model descriptions, as well as to describe a collection of knowledge assets.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Library
  */
 class LibraryType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ActionGroupingBehaviorType
  *
- * Defines organization behavior of a group.If the element is present, it must have either a @value, an @id, or extensions
+ * Defines organization behavior of a group.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ActionGroupingBehavior
  */
 class ActionGroupingBehaviorType extends ElementType

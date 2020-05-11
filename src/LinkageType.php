@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing LinkageType
  *
- * Identifies two or more records (resource instances) that refer to the same real-world "occurrence".If the element is present, it must have either a @value, an @id, or extensions
+ * Identifies two or more records (resource instances) that refer to the same real-world "occurrence".If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Linkage
  */
 class LinkageType extends DomainResourceType

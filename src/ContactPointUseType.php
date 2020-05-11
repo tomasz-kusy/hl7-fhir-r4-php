@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContactPointUseType
  *
- * Use of contact point.If the element is present, it must have either a @value, an @id, or extensions
+ * Use of contact point.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ContactPointUse
  */
 class ContactPointUseType extends ElementType

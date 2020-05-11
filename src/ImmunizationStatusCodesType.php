@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ImmunizationStatusCodesType
  *
- * A set of codes indicating the current status of an Immunization.If the element is present, it must have either a @value, an @id, or extensions
+ * A set of codes indicating the current status of an Immunization.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ImmunizationStatusCodes
  */
 class ImmunizationStatusCodesType extends ElementType

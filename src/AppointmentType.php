@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AppointmentType
  *
- * A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).If the element is present, it must have either a @value, an @id, or extensions
+ * A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Appointment
  */
 class AppointmentType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RequestResourceTypeType
  *
- * The kind of activity the definition is describing.If the element is present, it must have either a @value, an @id, or extensions
+ * The kind of activity the definition is describing.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RequestResourceType
  */
 class RequestResourceTypeType extends ElementType

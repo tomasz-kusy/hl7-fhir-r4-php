@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TestReportType
  *
- * A summary of information based on the results of executing a TestScript.If the element is present, it must have either a @value, an @id, or extensions
+ * A summary of information based on the results of executing a TestScript.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TestReport
  */
 class TestReportType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BinaryType
  *
- * A resource that represents the data of a single raw artifact as digital content accessible in its native format. A Binary resource can contain any content, whether text, image, pdf, zip archive, etc.If the element is present, it must have either a @value, an @id, or extensions
+ * A resource that represents the data of a single raw artifact as digital content accessible in its native format. A Binary resource can contain any content, whether text, image, pdf, zip archive, etc.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Binary
  */
 class BinaryType extends ResourceType

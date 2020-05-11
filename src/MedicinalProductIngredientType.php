@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductIngredientType
  *
- * An ingredient of a manufactured item or pharmaceutical product.If the element is present, it must have either a @value, an @id, or extensions
+ * An ingredient of a manufactured item or pharmaceutical product.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductIngredient
  */
 class MedicinalProductIngredientType extends DomainResourceType

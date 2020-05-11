@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GuideParameterCodeType
  *
- * Code of parameter that is input to the guide.If the element is present, it must have either a @value, an @id, or extensions
+ * Code of parameter that is input to the guide.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GuideParameterCode
  */
 class GuideParameterCodeType extends ElementType

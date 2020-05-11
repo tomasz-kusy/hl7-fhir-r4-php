@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SpecimenStatusType
  *
- * Codes providing the status/availability of a specimen.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes providing the status/availability of a specimen.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SpecimenStatus
  */
 class SpecimenStatusType extends ElementType

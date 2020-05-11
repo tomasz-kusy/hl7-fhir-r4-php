@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EventTimingType
  *
- * Real world event relating to the schedule.If the element is present, it must have either a @value, an @id, or extensions
+ * Real world event relating to the schedule.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EventTiming
  */
 class EventTimingType extends ElementType

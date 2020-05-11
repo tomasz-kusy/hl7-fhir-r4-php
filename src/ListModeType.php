@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ListModeType
  *
- * The processing mode that applies to this section.If the element is present, it must have either a @value, an @id, or extensions
+ * The processing mode that applies to this section.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ListMode
  */
 class ListModeType extends ElementType

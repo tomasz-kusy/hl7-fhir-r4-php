@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing QuestionnaireResponseStatusType
  *
- * Lifecycle status of the questionnaire response.If the element is present, it must have either a @value, an @id, or extensions
+ * Lifecycle status of the questionnaire response.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: QuestionnaireResponseStatus
  */
 class QuestionnaireResponseStatusType extends ElementType

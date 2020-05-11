@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DocumentModeType
  *
- * Whether the application produces or consumes documents.If the element is present, it must have either a @value, an @id, or extensions
+ * Whether the application produces or consumes documents.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DocumentMode
  */
 class DocumentModeType extends ElementType

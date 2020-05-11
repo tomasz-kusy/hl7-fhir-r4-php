@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing QualityTypeType
  *
- * Type for quality report.If the element is present, it must have either a @value, an @id, or extensions
+ * Type for quality report.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: qualityType
  */
 class QualityTypeType extends ElementType

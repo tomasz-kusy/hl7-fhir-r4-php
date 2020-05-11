@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AllergyIntoleranceTypeType
  *
- * Identification of the underlying physiological mechanism for a Reaction Risk.If the element is present, it must have either a @value, an @id, or extensions
+ * Identification of the underlying physiological mechanism for a Reaction Risk.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AllergyIntoleranceType
  */
 class AllergyIntoleranceTypeType extends ElementType

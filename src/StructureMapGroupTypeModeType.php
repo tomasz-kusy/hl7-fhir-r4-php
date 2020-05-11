@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapGroupTypeModeType
  *
- * If this is the default rule set to apply for the source type, or this combination of types.If the element is present, it must have either a @value, an @id, or extensions
+ * If this is the default rule set to apply for the source type, or this combination of types.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMapGroupTypeMode
  */
 class StructureMapGroupTypeModeType extends ElementType

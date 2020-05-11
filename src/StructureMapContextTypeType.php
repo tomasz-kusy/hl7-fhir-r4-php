@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapContextTypeType
  *
- * How to interpret the context.If the element is present, it must have either a @value, an @id, or extensions
+ * How to interpret the context.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMapContextType
  */
 class StructureMapContextTypeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CarePlanType
  *
- * Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CarePlan
  */
 class CarePlanType extends DomainResourceType

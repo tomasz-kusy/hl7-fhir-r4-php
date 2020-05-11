@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConditionalReadStatusType
  *
- * A code that indicates how the server supports conditional read.If the element is present, it must have either a @value, an @id, or extensions
+ * A code that indicates how the server supports conditional read.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConditionalReadStatus
  */
 class ConditionalReadStatusType extends ElementType

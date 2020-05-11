@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapType
  *
- * A Map of relationships between 2 structures that can be used to transform data.If the element is present, it must have either a @value, an @id, or extensions
+ * A Map of relationships between 2 structures that can be used to transform data.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMap
  */
 class StructureMapType extends DomainResourceType

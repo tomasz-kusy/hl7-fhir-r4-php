@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ParticipantRequiredType
  *
- * Is the Participant required to attend the appointment.If the element is present, it must have either a @value, an @id, or extensions
+ * Is the Participant required to attend the appointment.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ParticipantRequired
  */
 class ParticipantRequiredType extends ElementType

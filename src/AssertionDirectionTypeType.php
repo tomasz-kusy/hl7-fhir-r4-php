@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AssertionDirectionTypeType
  *
- * The type of direction to use for assertion.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of direction to use for assertion.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AssertionDirectionType
  */
 class AssertionDirectionTypeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ServiceRequestType
  *
- * A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.If the element is present, it must have either a @value, an @id, or extensions
+ * A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ServiceRequest
  */
 class ServiceRequestType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing InvoicePriceComponentTypeType
  *
- * Codes indicating the kind of the price component.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes indicating the kind of the price component.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: InvoicePriceComponentType
  */
 class InvoicePriceComponentTypeType extends ElementType

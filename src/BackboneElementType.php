@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing BackboneElementType
  *
- * Base definition for all elements that are defined inside a resource - but not those in a data type.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * Base definition for all elements that are defined inside a resource - but not those in a data type.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: BackboneElement
  */
 class BackboneElementType extends ElementType

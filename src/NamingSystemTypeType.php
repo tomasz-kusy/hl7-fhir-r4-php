@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing NamingSystemTypeType
  *
- * Identifies the purpose of the naming system.If the element is present, it must have either a @value, an @id, or extensions
+ * Identifies the purpose of the naming system.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: NamingSystemType
  */
 class NamingSystemTypeType extends ElementType

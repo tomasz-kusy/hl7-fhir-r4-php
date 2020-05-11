@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CodeableConceptType
  *
- * A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: CodeableConcept
  */
 class CodeableConceptType extends ElementType

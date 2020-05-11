@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing FHIRDeviceStatusType
  *
- * The availability status of the device.If the element is present, it must have either a @value, an @id, or extensions
+ * The availability status of the device.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: FHIRDeviceStatus
  */
 class FHIRDeviceStatusType extends ElementType

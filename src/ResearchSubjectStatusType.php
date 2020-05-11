@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResearchSubjectStatusType
  *
- * Indicates the progression of a study subject through a study.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates the progression of a study subject through a study.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResearchSubjectStatus
  */
 class ResearchSubjectStatusType extends ElementType

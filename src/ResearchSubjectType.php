@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ResearchSubjectType
  *
- * A physical entity which is the primary unit of operational and/or administrative interest in a study.If the element is present, it must have either a @value, an @id, or extensions
+ * A physical entity which is the primary unit of operational and/or administrative interest in a study.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ResearchSubject
  */
 class ResearchSubjectType extends DomainResourceType

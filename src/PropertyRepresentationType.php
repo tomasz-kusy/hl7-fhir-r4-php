@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing PropertyRepresentationType
  *
- * How a property is represented when serialized.If the element is present, it must have either a @value, an @id, or extensions
+ * How a property is represented when serialized.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: PropertyRepresentation
  */
 class PropertyRepresentationType extends ElementType

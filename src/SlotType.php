@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SlotType
  *
- * A slot of time on a schedule that may be available for booking appointments.If the element is present, it must have either a @value, an @id, or extensions
+ * A slot of time on a schedule that may be available for booking appointments.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Slot
  */
 class SlotType extends DomainResourceType

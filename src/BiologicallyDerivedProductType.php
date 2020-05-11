@@ -6,7 +6,7 @@ namespace TKusy\Hl7FhirR4;
  * Class representing BiologicallyDerivedProductType
  *
  * A material substance originating from a biological entity intended to be transplanted or infused
- * into another (possibly the same) biological entity.If the element is present, it must have either a @value, an @id, or extensions
+ * into another (possibly the same) biological entity.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: BiologicallyDerivedProduct
  */
 class BiologicallyDerivedProductType extends DomainResourceType

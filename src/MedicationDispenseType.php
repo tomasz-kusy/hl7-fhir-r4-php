@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicationDispenseType
  *
- * Indicates that a medication product is to be or has been dispensed for a named person/patient. This includes a description of the medication product (supply) provided and the instructions for administering the medication. The medication dispense is the result of a pharmacy system responding to a medication order.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates that a medication product is to be or has been dispensed for a named person/patient. This includes a description of the medication product (supply) provided and the instructions for administering the medication. The medication dispense is the result of a pharmacy system responding to a medication order.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicationDispense
  */
 class MedicationDispenseType extends DomainResourceType

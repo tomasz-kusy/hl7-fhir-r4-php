@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing NameUseType
  *
- * The use of a human name.If the element is present, it must have either a @value, an @id, or extensions
+ * The use of a human name.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: NameUse
  */
 class NameUseType extends ElementType

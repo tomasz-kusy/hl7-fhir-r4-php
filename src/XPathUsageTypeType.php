@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing XPathUsageTypeType
  *
- * How a search parameter relates to the set of elements returned by evaluating its xpath query.If the element is present, it must have either a @value, an @id, or extensions
+ * How a search parameter relates to the set of elements returned by evaluating its xpath query.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: XPathUsageType
  */
 class XPathUsageTypeType extends ElementType

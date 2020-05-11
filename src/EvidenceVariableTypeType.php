@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EvidenceVariableTypeType
  *
- * The possible types of variables for exposures or outcomes (E.g. Dichotomous, Continuous, Descriptive).If the element is present, it must have either a @value, an @id, or extensions
+ * The possible types of variables for exposures or outcomes (E.g. Dichotomous, Continuous, Descriptive).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EvidenceVariableType
  */
 class EvidenceVariableTypeType extends ElementType

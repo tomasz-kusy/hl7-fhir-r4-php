@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AdverseEventType
  *
- * Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care, a research study or other healthcare setting factors that requires additional monitoring, treatment, or hospitalization, or that results in death.If the element is present, it must have either a @value, an @id, or extensions
+ * Actual or potential/avoided event causing unintended physical injury resulting from or contributed to by medical care, a research study or other healthcare setting factors that requires additional monitoring, treatment, or hospitalization, or that results in death.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AdverseEvent
  */
 class AdverseEventType extends DomainResourceType

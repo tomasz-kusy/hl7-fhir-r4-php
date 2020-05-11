@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicinalProductPackagedType
  *
- * A medicinal product in a container or package.If the element is present, it must have either a @value, an @id, or extensions
+ * A medicinal product in a container or package.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicinalProductPackaged
  */
 class MedicinalProductPackagedType extends DomainResourceType

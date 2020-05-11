@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing OperationKindType
  *
- * Whether an operation is a normal operation or a query.If the element is present, it must have either a @value, an @id, or extensions
+ * Whether an operation is a normal operation or a query.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: OperationKind
  */
 class OperationKindType extends ElementType

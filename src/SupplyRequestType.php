@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SupplyRequestType
  *
- * A record of a request for a medication, substance or device used in the healthcare setting.If the element is present, it must have either a @value, an @id, or extensions
+ * A record of a request for a medication, substance or device used in the healthcare setting.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SupplyRequest
  */
 class SupplyRequestType extends DomainResourceType

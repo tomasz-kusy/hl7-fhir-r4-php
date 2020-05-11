@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SearchComparatorType
  *
- * What Search Comparator Codes are supported in search.If the element is present, it must have either a @value, an @id, or extensions
+ * What Search Comparator Codes are supported in search.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SearchComparator
  */
 class SearchComparatorType extends ElementType

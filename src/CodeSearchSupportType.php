@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CodeSearchSupportType
  *
- * The degree to which the server supports the code search parameter on ValueSet, if it is supported.If the element is present, it must have either a @value, an @id, or extensions
+ * The degree to which the server supports the code search parameter on ValueSet, if it is supported.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CodeSearchSupport
  */
 class CodeSearchSupportType extends ElementType

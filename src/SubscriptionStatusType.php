@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SubscriptionStatusType
  *
- * The status of a subscription.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of a subscription.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SubscriptionStatus
  */
 class SubscriptionStatusType extends ElementType

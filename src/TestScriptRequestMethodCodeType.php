@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TestScriptRequestMethodCodeType
  *
- * The allowable request method or HTTP operation codes.If the element is present, it must have either a @value, an @id, or extensions
+ * The allowable request method or HTTP operation codes.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TestScriptRequestMethodCode
  */
 class TestScriptRequestMethodCodeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing IdType
  *
- * Any combination of letters, numerals, "-" and ".", with a length limit of 64 characters. (This might be an integer, an unprefixed OID, UUID or any other identifier pattern that meets these constraints.) Ids are case-insensitive.RFC 4122If the element is present, it must have either a @value, an @id referenced from the Narrative, or extensions
+ * Any combination of letters, numerals, "-" and ".", with a length limit of 64 characters. (This might be an integer, an unprefixed OID, UUID or any other identifier pattern that meets these constraints.) Ids are case-insensitive.RFC 4122If the element is present, it must have either a \@value, an \@id referenced from the Narrative, or extensions
  * XSD Type: id
  */
 class IdType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SequenceTypeType
  *
- * Type if a sequence -- DNA, RNA, or amino acid sequence.If the element is present, it must have either a @value, an @id, or extensions
+ * Type if a sequence -- DNA, RNA, or amino acid sequence.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: sequenceType
  */
 class SequenceTypeType extends ElementType

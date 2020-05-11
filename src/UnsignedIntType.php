@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing UnsignedIntType
  *
- * An integer with a value that is not negative (e.g. >= 0)If the element is present, it must have either a @value, an @id referenced from the Narrative, or extensions
+ * An integer with a value that is not negative (e.g. >= 0)If the element is present, it must have either a \@value, an \@id referenced from the Narrative, or extensions
  * XSD Type: unsignedInt
  */
 class UnsignedIntType extends ElementType

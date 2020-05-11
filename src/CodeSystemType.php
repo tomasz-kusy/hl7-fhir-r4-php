@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CodeSystemType
  *
- * The CodeSystem resource is used to declare the existence of and describe a code system or code system supplement and its key properties, and optionally define a part or all of its content.If the element is present, it must have either a @value, an @id, or extensions
+ * The CodeSystem resource is used to declare the existence of and describe a code system or code system supplement and its key properties, and optionally define a part or all of its content.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CodeSystem
  */
 class CodeSystemType extends DomainResourceType

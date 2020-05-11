@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AllergyIntoleranceCriticalityType
  *
- * Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.If the element is present, it must have either a @value, an @id, or extensions
+ * Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AllergyIntoleranceCriticality
  */
 class AllergyIntoleranceCriticalityType extends ElementType

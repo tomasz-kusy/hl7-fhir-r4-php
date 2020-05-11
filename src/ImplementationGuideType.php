@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ImplementationGuideType
  *
- * A set of rules of how a particular interoperability or standards problem is solved - typically through the use of FHIR resources. This resource is used to gather all the parts of an implementation guide into a logical whole and to publish a computable definition of all the parts.If the element is present, it must have either a @value, an @id, or extensions
+ * A set of rules of how a particular interoperability or standards problem is solved - typically through the use of FHIR resources. This resource is used to gather all the parts of an implementation guide into a logical whole and to publish a computable definition of all the parts.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ImplementationGuide
  */
 class ImplementationGuideType extends DomainResourceType

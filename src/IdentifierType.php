@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing IdentifierType
  *
- * An identifier - identifies some entity uniquely and unambiguously. Typically this is used for business identifiers.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * An identifier - identifies some entity uniquely and unambiguously. Typically this is used for business identifiers.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Identifier
  */
 class IdentifierType extends ElementType

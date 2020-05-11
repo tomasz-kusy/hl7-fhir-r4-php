@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ContractResourcePublicationStatusCodesType
  *
- * Status of the publication of contract content.If the element is present, it must have either a @value, an @id, or extensions
+ * Status of the publication of contract content.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ContractResourcePublicationStatusCodes
  */
 class ContractResourcePublicationStatusCodesType extends ElementType

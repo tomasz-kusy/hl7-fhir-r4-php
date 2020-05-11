@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SearchEntryModeType
  *
- * Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.If the element is present, it must have either a @value, an @id, or extensions
+ * Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SearchEntryMode
  */
 class SearchEntryModeType extends ElementType

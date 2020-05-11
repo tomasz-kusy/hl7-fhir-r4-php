@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceDefinitionType
  *
- * The characteristics, operational status and capabilities of a medical-related component of a medical device.If the element is present, it must have either a @value, an @id, or extensions
+ * The characteristics, operational status and capabilities of a medical-related component of a medical device.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceDefinition
  */
 class DeviceDefinitionType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ParametersType
  *
- * This resource is a non-persisted resource used to pass information into and back from an [operation](operations.html). It has no other use, and there is no RESTful endpoint associated with it.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource is a non-persisted resource used to pass information into and back from an [operation](operations.html). It has no other use, and there is no RESTful endpoint associated with it.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Parameters
  */
 class ParametersType extends ResourceType

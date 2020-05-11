@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing HealthcareServiceType
  *
- * The details of a healthcare service available at a location.If the element is present, it must have either a @value, an @id, or extensions
+ * The details of a healthcare service available at a location.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: HealthcareService
  */
 class HealthcareServiceType extends DomainResourceType

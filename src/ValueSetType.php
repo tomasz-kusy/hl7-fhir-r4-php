@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ValueSetType
  *
- * A ValueSet resource instance specifies a set of codes drawn from one or more code systems, intended for use in a particular context. Value sets link between [[[CodeSystem]]] definitions and their use in [coded elements](terminologies.html).If the element is present, it must have either a @value, an @id, or extensions
+ * A ValueSet resource instance specifies a set of codes drawn from one or more code systems, intended for use in a particular context. Value sets link between [[[CodeSystem]]] definitions and their use in [coded elements](terminologies.html).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ValueSet
  */
 class ValueSetType extends DomainResourceType

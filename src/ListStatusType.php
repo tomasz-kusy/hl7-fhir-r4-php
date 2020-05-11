@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ListStatusType
  *
- * The current state of the list.If the element is present, it must have either a @value, an @id, or extensions
+ * The current state of the list.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ListStatus
  */
 class ListStatusType extends ElementType

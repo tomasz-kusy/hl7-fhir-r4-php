@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceNameTypeType
  *
- * The type of name the device is referred by.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of name the device is referred by.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceNameType
  */
 class DeviceNameTypeType extends ElementType

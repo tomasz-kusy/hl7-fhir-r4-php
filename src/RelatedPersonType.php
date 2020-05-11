@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RelatedPersonType
  *
- * Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.If the element is present, it must have either a @value, an @id, or extensions
+ * Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RelatedPerson
  */
 class RelatedPersonType extends DomainResourceType

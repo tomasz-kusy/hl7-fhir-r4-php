@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DosageType
  *
- * Indicates how the medication is/was taken or should be taken by the patient.If the element is present, it must have a value for at least one of the defined elements, an @id referenced from the Narrative, or extensions
+ * Indicates how the medication is/was taken or should be taken by the patient.If the element is present, it must have a value for at least one of the defined elements, an \@id referenced from the Narrative, or extensions
  * XSD Type: Dosage
  */
 class DosageType extends BackboneElementType

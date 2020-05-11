@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EventStatusType
  *
- * The status of the communication.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the communication.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EventStatus
  */
 class EventStatusType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing LocationType
  *
- * Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.If the element is present, it must have either a @value, an @id, or extensions
+ * Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Location
  */
 class LocationType extends DomainResourceType

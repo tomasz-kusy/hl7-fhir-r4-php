@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ExampleScenarioActorTypeType
  *
- * The type of actor - system or human.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of actor - system or human.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ExampleScenarioActorType
  */
 class ExampleScenarioActorTypeType extends ElementType

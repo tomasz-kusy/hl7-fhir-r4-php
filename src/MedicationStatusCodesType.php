@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicationStatusCodesType
  *
- * A coded concept defining if the medication is in active use.If the element is present, it must have either a @value, an @id, or extensions
+ * A coded concept defining if the medication is in active use.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MedicationStatusCodes
  */
 class MedicationStatusCodesType extends ElementType

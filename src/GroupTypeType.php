@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing GroupTypeType
  *
- * Types of resources that are part of group.If the element is present, it must have either a @value, an @id, or extensions
+ * Types of resources that are part of group.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: GroupType
  */
 class GroupTypeType extends ElementType

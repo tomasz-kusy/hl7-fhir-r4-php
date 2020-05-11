@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConsentProvisionTypeType
  *
- * How a rule statement is applied, such as adding additional consent or removing consent.If the element is present, it must have either a @value, an @id, or extensions
+ * How a rule statement is applied, such as adding additional consent or removing consent.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConsentProvisionType
  */
 class ConsentProvisionTypeType extends ElementType

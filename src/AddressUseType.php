@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AddressUseType
  *
- * The use of an address.If the element is present, it must have either a @value, an @id, or extensions
+ * The use of an address.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AddressUse
  */
 class AddressUseType extends ElementType

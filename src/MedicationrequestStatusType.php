@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MedicationrequestStatusType
  *
- * A coded concept specifying the state of the prescribing event. Describes the lifecycle of the prescription.If the element is present, it must have either a @value, an @id, or extensions
+ * A coded concept specifying the state of the prescribing event. Describes the lifecycle of the prescription.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: medicationrequestStatus
  */
 class MedicationrequestStatusType extends ElementType

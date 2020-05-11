@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RestfulCapabilityModeType
  *
- * The mode of a RESTful capability statement.If the element is present, it must have either a @value, an @id, or extensions
+ * The mode of a RESTful capability statement.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RestfulCapabilityMode
  */
 class RestfulCapabilityModeType extends ElementType

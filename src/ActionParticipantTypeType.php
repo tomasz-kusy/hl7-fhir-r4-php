@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ActionParticipantTypeType
  *
- * The type of participant in the activity.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of participant in the activity.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ActionParticipantType
  */
 class ActionParticipantTypeType extends ElementType

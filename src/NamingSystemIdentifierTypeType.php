@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing NamingSystemIdentifierTypeType
  *
- * Identifies the style of unique identifier used to identify a namespace.If the element is present, it must have either a @value, an @id, or extensions
+ * Identifies the style of unique identifier used to identify a namespace.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: NamingSystemIdentifierType
  */
 class NamingSystemIdentifierTypeType extends ElementType

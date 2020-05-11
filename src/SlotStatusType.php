@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SlotStatusType
  *
- * The free/busy status of the slot.If the element is present, it must have either a @value, an @id, or extensions
+ * The free/busy status of the slot.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SlotStatus
  */
 class SlotStatusType extends ElementType

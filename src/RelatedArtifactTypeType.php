@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing RelatedArtifactTypeType
  *
- * The type of relationship to the related artifact.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of relationship to the related artifact.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: RelatedArtifactType
  */
 class RelatedArtifactTypeType extends ElementType

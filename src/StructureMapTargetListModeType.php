@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapTargetListModeType
  *
- * If field is a list, how to manage the production.If the element is present, it must have either a @value, an @id, or extensions
+ * If field is a list, how to manage the production.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMapTargetListMode
  */
 class StructureMapTargetListModeType extends ElementType

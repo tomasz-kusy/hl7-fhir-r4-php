@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing OrientationTypeType
  *
- * Type for orientation.If the element is present, it must have either a @value, an @id, or extensions
+ * Type for orientation.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: orientationType
  */
 class OrientationTypeType extends ElementType

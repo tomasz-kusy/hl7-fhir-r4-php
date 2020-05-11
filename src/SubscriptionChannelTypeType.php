@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SubscriptionChannelTypeType
  *
- * The type of method used to execute a subscription.If the element is present, it must have either a @value, an @id, or extensions
+ * The type of method used to execute a subscription.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SubscriptionChannelType
  */
 class SubscriptionChannelTypeType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ImmunizationType
  *
- * Describes the event of a patient being administered a vaccine or a record of an immunization as reported by a patient, a clinician or another party.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes the event of a patient being administered a vaccine or a record of an immunization as reported by a patient, a clinician or another party.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Immunization
  */
 class ImmunizationType extends DomainResourceType

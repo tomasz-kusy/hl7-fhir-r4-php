@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceMetricType
  *
- * Describes a measurement, calculation or setting capability of a medical device.If the element is present, it must have either a @value, an @id, or extensions
+ * Describes a measurement, calculation or setting capability of a medical device.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceMetric
  */
 class DeviceMetricType extends DomainResourceType

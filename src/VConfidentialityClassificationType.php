@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing VConfidentialityClassificationType
  *
- * Codes specifying the level of confidentiality of the composition.If the element is present, it must have either a @value, an @id, or extensions
+ * Codes specifying the level of confidentiality of the composition.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: vConfidentialityClassification
  */
 class VConfidentialityClassificationType extends ElementType

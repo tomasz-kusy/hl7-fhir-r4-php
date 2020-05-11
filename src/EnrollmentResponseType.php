@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EnrollmentResponseType
  *
- * This resource provides enrollment and plan details from the processing of an EnrollmentRequest resource.If the element is present, it must have either a @value, an @id, or extensions
+ * This resource provides enrollment and plan details from the processing of an EnrollmentRequest resource.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EnrollmentResponse
  */
 class EnrollmentResponseType extends DomainResourceType

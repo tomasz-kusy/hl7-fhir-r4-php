@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TimeType
  *
- * A time during the day, with no date specifiedIf the element is present, it must have either a @value, an @id, or extensions
+ * A time during the day, with no date specifiedIf the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: time
  */
 class TimeType extends ElementType

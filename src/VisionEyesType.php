@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing VisionEyesType
  *
- * A coded concept listing the eye codes.If the element is present, it must have either a @value, an @id, or extensions
+ * A coded concept listing the eye codes.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: VisionEyes
  */
 class VisionEyesType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConceptMapType
  *
- * A statement of relationships from one set of concepts to one or more other concepts - either concepts in code systems, or data element/data element concepts, or classes in class models.If the element is present, it must have either a @value, an @id, or extensions
+ * A statement of relationships from one set of concepts to one or more other concepts - either concepts in code systems, or data element/data element concepts, or classes in class models.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConceptMap
  */
 class ConceptMapType extends DomainResourceType

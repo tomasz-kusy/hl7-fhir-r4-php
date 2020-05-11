@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TestReportActionResultType
  *
- * The results of executing an action.If the element is present, it must have either a @value, an @id, or extensions
+ * The results of executing an action.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TestReportActionResult
  */
 class TestReportActionResultType extends ElementType

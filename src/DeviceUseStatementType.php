@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DeviceUseStatementType
  *
- * A record of a device being used by a patient where the record is the result of a report from the patient or another clinician.If the element is present, it must have either a @value, an @id, or extensions
+ * A record of a device being used by a patient where the record is the result of a report from the patient or another clinician.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DeviceUseStatement
  */
 class DeviceUseStatementType extends DomainResourceType

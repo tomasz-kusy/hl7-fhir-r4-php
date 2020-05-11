@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing UrlType
  *
- * A URI that is a literal referenceIf the element is present, it must have either a @value, an @id referenced from the Narrative, or extensions
+ * A URI that is a literal referenceIf the element is present, it must have either a \@value, an \@id referenced from the Narrative, or extensions
  * XSD Type: url
  */
 class UrlType extends ElementType

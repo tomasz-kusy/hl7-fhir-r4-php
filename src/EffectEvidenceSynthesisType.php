@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EffectEvidenceSynthesisType
  *
- * The EffectEvidenceSynthesis resource describes the difference in an outcome between exposures states in a population where the effect estimate is derived from a combination of research studies.If the element is present, it must have either a @value, an @id, or extensions
+ * The EffectEvidenceSynthesis resource describes the difference in an outcome between exposures states in a population where the effect estimate is derived from a combination of research studies.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EffectEvidenceSynthesis
  */
 class EffectEvidenceSynthesisType extends DomainResourceType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ObservationType
  *
- * Measurements and simple assertions made about a patient, device or other subject.If the element is present, it must have either a @value, an @id, or extensions
+ * Measurements and simple assertions made about a patient, device or other subject.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Observation
  */
 class ObservationType extends DomainResourceType

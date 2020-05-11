@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SubstanceNucleicAcidType
  *
- * Nucleic acids are defined by three distinct elements: the base, sugar and linkage. Individual substance/moiety IDs will be created for each of these elements. The nucleotide sequence will be always entered in the 5’-3’ direction.If the element is present, it must have either a @value, an @id, or extensions
+ * Nucleic acids are defined by three distinct elements: the base, sugar and linkage. Individual substance/moiety IDs will be created for each of these elements. The nucleotide sequence will be always entered in the 5’-3’ direction.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SubstanceNucleicAcid
  */
 class SubstanceNucleicAcidType extends DomainResourceType

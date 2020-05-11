@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapTransformType
  *
- * How data is copied/created.If the element is present, it must have either a @value, an @id, or extensions
+ * How data is copied/created.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMapTransform
  */
 class StructureMapTransformType extends ElementType

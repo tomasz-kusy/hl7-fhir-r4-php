@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing InvoiceType
  *
- * Invoice containing collected ChargeItems from an Account with calculated individual and total price for Billing purpose.If the element is present, it must have either a @value, an @id, or extensions
+ * Invoice containing collected ChargeItems from an Account with calculated individual and total price for Billing purpose.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Invoice
  */
 class InvoiceType extends DomainResourceType

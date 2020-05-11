@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AccountStatusType
  *
- * Indicates whether the account is available to be used.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates whether the account is available to be used.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AccountStatus
  */
 class AccountStatusType extends ElementType

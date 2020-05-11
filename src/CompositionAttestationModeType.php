@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CompositionAttestationModeType
  *
- * The way in which a person authenticated a composition.If the element is present, it must have either a @value, an @id, or extensions
+ * The way in which a person authenticated a composition.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CompositionAttestationMode
  */
 class CompositionAttestationModeType extends ElementType

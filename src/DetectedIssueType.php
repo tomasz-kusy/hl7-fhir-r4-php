@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing DetectedIssueType
  *
- * Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, etc.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, etc.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: DetectedIssue
  */
 class DetectedIssueType extends DomainResourceType

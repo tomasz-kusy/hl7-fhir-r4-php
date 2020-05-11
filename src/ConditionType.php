@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConditionType
  *
- * A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.If the element is present, it must have either a @value, an @id, or extensions
+ * A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Condition
  */
 class ConditionType extends DomainResourceType

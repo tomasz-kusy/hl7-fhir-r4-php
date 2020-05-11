@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing MeasureReportType
  *
- * The MeasureReport resource contains the results of the calculation of a measure; and optionally a reference to the resources involved in that calculation.If the element is present, it must have either a @value, an @id, or extensions
+ * The MeasureReport resource contains the results of the calculation of a measure; and optionally a reference to the resources involved in that calculation.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: MeasureReport
  */
 class MeasureReportType extends DomainResourceType

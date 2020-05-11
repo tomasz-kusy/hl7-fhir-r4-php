@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing CareTeamStatusType
  *
- * Indicates the status of the care team.If the element is present, it must have either a @value, an @id, or extensions
+ * Indicates the status of the care team.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: CareTeamStatus
  */
 class CareTeamStatusType extends ElementType

@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EncounterStatusType
  *
- * Current state of the encounter.If the element is present, it must have either a @value, an @id, or extensions
+ * Current state of the encounter.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EncounterStatus
  */
 class EncounterStatusType extends ElementType

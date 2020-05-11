@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing AddressTypeType
  *
- * The type of an address (physical / postal).If the element is present, it must have either a @value, an @id, or extensions
+ * The type of an address (physical / postal).If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: AddressType
  */
 class AddressTypeType extends ElementType

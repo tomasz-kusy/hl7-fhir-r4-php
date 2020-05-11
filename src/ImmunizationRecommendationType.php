@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ImmunizationRecommendationType
  *
- * A patient's point-in-time set of recommendations (i.e. forecasting) according to a published schedule with optional supporting justification.If the element is present, it must have either a @value, an @id, or extensions
+ * A patient's point-in-time set of recommendations (i.e. forecasting) according to a published schedule with optional supporting justification.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ImmunizationRecommendation
  */
 class ImmunizationRecommendationType extends DomainResourceType

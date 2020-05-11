@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing TaskIntentType
  *
- * Distinguishes whether the task is a proposal, plan or full order.If the element is present, it must have either a @value, an @id, or extensions
+ * Distinguishes whether the task is a proposal, plan or full order.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: TaskIntent
  */
 class TaskIntentType extends ElementType

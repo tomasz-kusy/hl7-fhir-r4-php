@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing EpisodeOfCareStatusType
  *
- * The status of the episode of care.If the element is present, it must have either a @value, an @id, or extensions
+ * The status of the episode of care.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: EpisodeOfCareStatus
  */
 class EpisodeOfCareStatusType extends ElementType

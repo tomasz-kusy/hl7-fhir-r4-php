@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ClaimProcessingCodesType
  *
- * The result of the claim processing.If the element is present, it must have either a @value, an @id, or extensions
+ * The result of the claim processing.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ClaimProcessingCodes
  */
 class ClaimProcessingCodesType extends ElementType

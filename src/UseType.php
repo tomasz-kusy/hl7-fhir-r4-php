@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing UseType
  *
- * The purpose of the Claim: predetermination, preauthorization, claim.If the element is present, it must have either a @value, an @id, or extensions
+ * The purpose of the Claim: predetermination, preauthorization, claim.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: Use
  */
 class UseType extends ElementType

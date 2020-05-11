@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing ConstraintSeverityType
  *
- * SHALL applications comply with this constraint?If the element is present, it must have either a @value, an @id, or extensions
+ * SHALL applications comply with this constraint?If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: ConstraintSeverity
  */
 class ConstraintSeverityType extends ElementType

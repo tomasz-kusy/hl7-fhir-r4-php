@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing SubstanceReferenceInformationType
  *
- * Todo.If the element is present, it must have either a @value, an @id, or extensions
+ * Todo.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: SubstanceReferenceInformation
  */
 class SubstanceReferenceInformationType extends DomainResourceType

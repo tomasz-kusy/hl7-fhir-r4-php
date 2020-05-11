@@ -5,7 +5,7 @@ namespace TKusy\Hl7FhirR4;
 /**
  * Class representing StructureMapModelModeType
  *
- * How the referenced structure is used in this mapping.If the element is present, it must have either a @value, an @id, or extensions
+ * How the referenced structure is used in this mapping.If the element is present, it must have either a \@value, an \@id, or extensions
  * XSD Type: StructureMapModelMode
  */
 class StructureMapModelModeType extends ElementType
