@@ -77,14 +77,14 @@ class SlotType extends DomainResourceType
     /**
      * This slot has already been overbooked, appointments are unlikely to be accepted for this time.
      *
-     * @var bool $overbooked
+     * @var \TKusy\Hl7FhirR4\BooleanType $overbooked
      */
     private $overbooked = null;
 
     /**
      * Comments on the slot to describe any extended information. Such as custom constraints on the slot.
      *
-     * @var string $comment
+     * @var \TKusy\Hl7FhirR4\StringType $comment
      */
     private $comment = null;
 
@@ -487,7 +487,7 @@ class SlotType extends DomainResourceType
      *
      * This slot has already been overbooked, appointments are unlikely to be accepted for this time.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getOverbooked()
     {
@@ -499,10 +499,10 @@ class SlotType extends DomainResourceType
      *
      * This slot has already been overbooked, appointments are unlikely to be accepted for this time.
      *
-     * @param bool $overbooked
+     * @param \TKusy\Hl7FhirR4\BooleanType $overbooked
      * @return self
      */
-    public function setOverbooked($overbooked)
+    public function setOverbooked(\TKusy\Hl7FhirR4\BooleanType $overbooked)
     {
         $this->overbooked = $overbooked;
         return $this;
@@ -513,7 +513,7 @@ class SlotType extends DomainResourceType
      *
      * Comments on the slot to describe any extended information. Such as custom constraints on the slot.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getComment()
     {
@@ -525,10 +525,10 @@ class SlotType extends DomainResourceType
      *
      * Comments on the slot to describe any extended information. Such as custom constraints on the slot.
      *
-     * @param string $comment
+     * @param \TKusy\Hl7FhirR4\StringType $comment
      * @return self
      */
-    public function setComment($comment)
+    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
     {
         $this->comment = $comment;
         return $this;

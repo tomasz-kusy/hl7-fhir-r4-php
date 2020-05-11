@@ -42,7 +42,7 @@ class SubstanceType extends DomainResourceType
     /**
      * A description of the substance - its appearance, handling requirements, and other usage notes.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -249,7 +249,7 @@ class SubstanceType extends DomainResourceType
      *
      * A description of the substance - its appearance, handling requirements, and other usage notes.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -261,10 +261,10 @@ class SubstanceType extends DomainResourceType
      *
      * A description of the substance - its appearance, handling requirements, and other usage notes.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

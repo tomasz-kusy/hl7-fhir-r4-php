@@ -119,7 +119,7 @@ class MediaType extends DomainResourceType
     /**
      * The name of the device / manufacturer of the device that was used to make the recording.
      *
-     * @var string $deviceName
+     * @var \TKusy\Hl7FhirR4\StringType $deviceName
      */
     private $deviceName = null;
 
@@ -154,7 +154,7 @@ class MediaType extends DomainResourceType
     /**
      * The duration of the recording in seconds - for audio and video.
      *
-     * @var float $duration
+     * @var \TKusy\Hl7FhirR4\DecimalType $duration
      */
     private $duration = null;
 
@@ -727,7 +727,7 @@ class MediaType extends DomainResourceType
      *
      * The name of the device / manufacturer of the device that was used to make the recording.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDeviceName()
     {
@@ -739,10 +739,10 @@ class MediaType extends DomainResourceType
      *
      * The name of the device / manufacturer of the device that was used to make the recording.
      *
-     * @param string $deviceName
+     * @param \TKusy\Hl7FhirR4\StringType $deviceName
      * @return self
      */
-    public function setDeviceName($deviceName)
+    public function setDeviceName(\TKusy\Hl7FhirR4\StringType $deviceName)
     {
         $this->deviceName = $deviceName;
         return $this;
@@ -857,7 +857,7 @@ class MediaType extends DomainResourceType
      *
      * The duration of the recording in seconds - for audio and video.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getDuration()
     {
@@ -869,10 +869,10 @@ class MediaType extends DomainResourceType
      *
      * The duration of the recording in seconds - for audio and video.
      *
-     * @param float $duration
+     * @param \TKusy\Hl7FhirR4\DecimalType $duration
      * @return self
      */
-    public function setDuration($duration)
+    public function setDuration(\TKusy\Hl7FhirR4\DecimalType $duration)
     {
         $this->duration = $duration;
         return $this;

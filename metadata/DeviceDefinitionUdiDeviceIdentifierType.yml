@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\DeviceDefinitionUdiDeviceIdentifierType:
             accessor:
                 getter: getDeviceIdentifier
                 setter: setDeviceIdentifier
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         issuer:
             expose: true
             access_type: public_method

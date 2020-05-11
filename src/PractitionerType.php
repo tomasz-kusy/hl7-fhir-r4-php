@@ -21,7 +21,7 @@ class PractitionerType extends DomainResourceType
     /**
      * Whether this practitioner's record is in active use.
      *
-     * @var bool $active
+     * @var \TKusy\Hl7FhirR4\BooleanType $active
      */
     private $active = null;
 
@@ -153,7 +153,7 @@ class PractitionerType extends DomainResourceType
      *
      * Whether this practitioner's record is in active use.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getActive()
     {
@@ -165,10 +165,10 @@ class PractitionerType extends DomainResourceType
      *
      * Whether this practitioner's record is in active use.
      *
-     * @param bool $active
+     * @param \TKusy\Hl7FhirR4\BooleanType $active
      * @return self
      */
-    public function setActive($active)
+    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
     {
         $this->active = $active;
         return $this;

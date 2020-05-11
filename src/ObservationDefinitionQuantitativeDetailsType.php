@@ -28,14 +28,14 @@ class ObservationDefinitionQuantitativeDetailsType extends BackboneElementType
     /**
      * Factor for converting value expressed with SI unit to value expressed with customary unit.
      *
-     * @var float $conversionFactor
+     * @var \TKusy\Hl7FhirR4\DecimalType $conversionFactor
      */
     private $conversionFactor = null;
 
     /**
      * Number of digits after decimal separator when the results of such observations are of type Quantity.
      *
-     * @var \integer $decimalPrecision
+     * @var \TKusy\Hl7FhirR4\IntegerType $decimalPrecision
      */
     private $decimalPrecision = null;
 
@@ -96,7 +96,7 @@ class ObservationDefinitionQuantitativeDetailsType extends BackboneElementType
      *
      * Factor for converting value expressed with SI unit to value expressed with customary unit.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getConversionFactor()
     {
@@ -108,10 +108,10 @@ class ObservationDefinitionQuantitativeDetailsType extends BackboneElementType
      *
      * Factor for converting value expressed with SI unit to value expressed with customary unit.
      *
-     * @param float $conversionFactor
+     * @param \TKusy\Hl7FhirR4\DecimalType $conversionFactor
      * @return self
      */
-    public function setConversionFactor($conversionFactor)
+    public function setConversionFactor(\TKusy\Hl7FhirR4\DecimalType $conversionFactor)
     {
         $this->conversionFactor = $conversionFactor;
         return $this;
@@ -122,7 +122,7 @@ class ObservationDefinitionQuantitativeDetailsType extends BackboneElementType
      *
      * Number of digits after decimal separator when the results of such observations are of type Quantity.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getDecimalPrecision()
     {
@@ -134,10 +134,10 @@ class ObservationDefinitionQuantitativeDetailsType extends BackboneElementType
      *
      * Number of digits after decimal separator when the results of such observations are of type Quantity.
      *
-     * @param \integer $decimalPrecision
+     * @param \TKusy\Hl7FhirR4\IntegerType $decimalPrecision
      * @return self
      */
-    public function setDecimalPrecision(\integer $decimalPrecision)
+    public function setDecimalPrecision(\TKusy\Hl7FhirR4\IntegerType $decimalPrecision)
     {
         $this->decimalPrecision = $decimalPrecision;
         return $this;

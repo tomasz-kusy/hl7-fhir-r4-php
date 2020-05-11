@@ -14,7 +14,7 @@ class ElementDefinitionBaseType extends BackboneElementType
     /**
      * The Path that identifies the base element - this matches the ElementDefinition.path for that element. Across FHIR, there is only one base definition of any element - that is, an element definition on a [[[StructureDefinition]]] without a StructureDefinition.base.
      *
-     * @var string $path
+     * @var \TKusy\Hl7FhirR4\StringType $path
      */
     private $path = null;
 
@@ -28,7 +28,7 @@ class ElementDefinitionBaseType extends BackboneElementType
     /**
      * Maximum cardinality of the base element identified by the path.
      *
-     * @var string $max
+     * @var \TKusy\Hl7FhirR4\StringType $max
      */
     private $max = null;
 
@@ -37,7 +37,7 @@ class ElementDefinitionBaseType extends BackboneElementType
      *
      * The Path that identifies the base element - this matches the ElementDefinition.path for that element. Across FHIR, there is only one base definition of any element - that is, an element definition on a [[[StructureDefinition]]] without a StructureDefinition.base.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPath()
     {
@@ -49,10 +49,10 @@ class ElementDefinitionBaseType extends BackboneElementType
      *
      * The Path that identifies the base element - this matches the ElementDefinition.path for that element. Across FHIR, there is only one base definition of any element - that is, an element definition on a [[[StructureDefinition]]] without a StructureDefinition.base.
      *
-     * @param string $path
+     * @param \TKusy\Hl7FhirR4\StringType $path
      * @return self
      */
-    public function setPath($path)
+    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
     {
         $this->path = $path;
         return $this;
@@ -89,7 +89,7 @@ class ElementDefinitionBaseType extends BackboneElementType
      *
      * Maximum cardinality of the base element identified by the path.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMax()
     {
@@ -101,10 +101,10 @@ class ElementDefinitionBaseType extends BackboneElementType
      *
      * Maximum cardinality of the base element identified by the path.
      *
-     * @param string $max
+     * @param \TKusy\Hl7FhirR4\StringType $max
      * @return self
      */
-    public function setMax($max)
+    public function setMax(\TKusy\Hl7FhirR4\StringType $max)
     {
         $this->max = $max;
         return $this;

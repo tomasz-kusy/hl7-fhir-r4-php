@@ -105,7 +105,7 @@ class AllergyIntoleranceType extends DomainResourceType
     /**
      * Estimated or actual date, date-time, or age when allergy or intolerance was identified. (choose any one of onset*, but only one)
      *
-     * @var string $onsetString
+     * @var \TKusy\Hl7FhirR4\StringType $onsetString
      */
     private $onsetString = null;
 
@@ -574,7 +574,7 @@ class AllergyIntoleranceType extends DomainResourceType
      *
      * Estimated or actual date, date-time, or age when allergy or intolerance was identified. (choose any one of onset*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getOnsetString()
     {
@@ -586,10 +586,10 @@ class AllergyIntoleranceType extends DomainResourceType
      *
      * Estimated or actual date, date-time, or age when allergy or intolerance was identified. (choose any one of onset*, but only one)
      *
-     * @param string $onsetString
+     * @param \TKusy\Hl7FhirR4\StringType $onsetString
      * @return self
      */
-    public function setOnsetString($onsetString)
+    public function setOnsetString(\TKusy\Hl7FhirR4\StringType $onsetString)
     {
         $this->onsetString = $onsetString;
         return $this;

@@ -14,14 +14,14 @@ class ImplementationGuideGroupingType extends BackboneElementType
     /**
      * The human-readable title to display for the package of resources when rendering the implementation guide.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * Human readable text describing the package.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -30,7 +30,7 @@ class ImplementationGuideGroupingType extends BackboneElementType
      *
      * The human-readable title to display for the package of resources when rendering the implementation guide.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -42,10 +42,10 @@ class ImplementationGuideGroupingType extends BackboneElementType
      *
      * The human-readable title to display for the package of resources when rendering the implementation guide.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -56,7 +56,7 @@ class ImplementationGuideGroupingType extends BackboneElementType
      *
      * Human readable text describing the package.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -68,10 +68,10 @@ class ImplementationGuideGroupingType extends BackboneElementType
      *
      * Human readable text describing the package.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

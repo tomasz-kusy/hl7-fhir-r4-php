@@ -15,14 +15,14 @@ class BiologicallyDerivedProductStorageType extends BackboneElementType
     /**
      * Description of storage.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
     /**
      * Storage temperature.
      *
-     * @var float $temperature
+     * @var \TKusy\Hl7FhirR4\DecimalType $temperature
      */
     private $temperature = null;
 
@@ -45,7 +45,7 @@ class BiologicallyDerivedProductStorageType extends BackboneElementType
      *
      * Description of storage.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -57,10 +57,10 @@ class BiologicallyDerivedProductStorageType extends BackboneElementType
      *
      * Description of storage.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -71,7 +71,7 @@ class BiologicallyDerivedProductStorageType extends BackboneElementType
      *
      * Storage temperature.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getTemperature()
     {
@@ -83,10 +83,10 @@ class BiologicallyDerivedProductStorageType extends BackboneElementType
      *
      * Storage temperature.
      *
-     * @param float $temperature
+     * @param \TKusy\Hl7FhirR4\DecimalType $temperature
      * @return self
      */
-    public function setTemperature($temperature)
+    public function setTemperature(\TKusy\Hl7FhirR4\DecimalType $temperature)
     {
         $this->temperature = $temperature;
         return $this;

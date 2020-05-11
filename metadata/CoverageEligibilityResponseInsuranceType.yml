@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType:
             accessor:
                 getter: getInforce
                 setter: setInforce
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         benefitPeriod:
             expose: true
             access_type: public_method

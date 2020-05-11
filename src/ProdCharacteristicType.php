@@ -56,21 +56,21 @@ class ProdCharacteristicType extends BackboneElementType
     /**
      * Where applicable, the shape can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
-     * @var string $shape
+     * @var \TKusy\Hl7FhirR4\StringType $shape
      */
     private $shape = null;
 
     /**
      * Where applicable, the color can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
-     * @var string[] $color
+     * @var \TKusy\Hl7FhirR4\StringType[] $color
      */
     private $color = null;
 
     /**
      * Where applicable, the imprint can be specified as text.
      *
-     * @var string[] $imprint
+     * @var \TKusy\Hl7FhirR4\StringType[] $imprint
      */
     private $imprint = null;
 
@@ -249,7 +249,7 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * Where applicable, the shape can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getShape()
     {
@@ -261,10 +261,10 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * Where applicable, the shape can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
-     * @param string $shape
+     * @param \TKusy\Hl7FhirR4\StringType $shape
      * @return self
      */
-    public function setShape($shape)
+    public function setShape(\TKusy\Hl7FhirR4\StringType $shape)
     {
         $this->shape = $shape;
         return $this;
@@ -276,9 +276,9 @@ class ProdCharacteristicType extends BackboneElementType
      * Where applicable, the color can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
      * @return self
-     * @param string $color
+     * @param \TKusy\Hl7FhirR4\StringType $color
      */
-    public function addToColor($color)
+    public function addToColor(\TKusy\Hl7FhirR4\StringType $color)
     {
         $this->color[] = $color;
         return $this;
@@ -315,7 +315,7 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * Where applicable, the color can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getColor()
     {
@@ -327,7 +327,7 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * Where applicable, the color can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.
      *
-     * @param string[] $color
+     * @param \TKusy\Hl7FhirR4\StringType[] $color
      * @return self
      */
     public function setColor(array $color)
@@ -342,9 +342,9 @@ class ProdCharacteristicType extends BackboneElementType
      * Where applicable, the imprint can be specified as text.
      *
      * @return self
-     * @param string $imprint
+     * @param \TKusy\Hl7FhirR4\StringType $imprint
      */
-    public function addToImprint($imprint)
+    public function addToImprint(\TKusy\Hl7FhirR4\StringType $imprint)
     {
         $this->imprint[] = $imprint;
         return $this;
@@ -381,7 +381,7 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * Where applicable, the imprint can be specified as text.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getImprint()
     {
@@ -393,7 +393,7 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * Where applicable, the imprint can be specified as text.
      *
-     * @param string[] $imprint
+     * @param \TKusy\Hl7FhirR4\StringType[] $imprint
      * @return self
      */
     public function setImprint(array $imprint)

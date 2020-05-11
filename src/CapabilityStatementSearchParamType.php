@@ -14,7 +14,7 @@ class CapabilityStatementSearchParamType extends BackboneElementType
     /**
      * The name of the search parameter used in the interface.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -44,7 +44,7 @@ class CapabilityStatementSearchParamType extends BackboneElementType
      *
      * The name of the search parameter used in the interface.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -56,10 +56,10 @@ class CapabilityStatementSearchParamType extends BackboneElementType
      *
      * The name of the search parameter used in the interface.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

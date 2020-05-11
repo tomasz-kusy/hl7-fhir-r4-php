@@ -49,14 +49,14 @@ class DeviceType extends DomainResourceType
     /**
      * The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product.
      *
-     * @var string $distinctIdentifier
+     * @var \TKusy\Hl7FhirR4\StringType $distinctIdentifier
      */
     private $distinctIdentifier = null;
 
     /**
      * A name of the manufacturer.
      *
-     * @var string $manufacturer
+     * @var \TKusy\Hl7FhirR4\StringType $manufacturer
      */
     private $manufacturer = null;
 
@@ -77,14 +77,14 @@ class DeviceType extends DomainResourceType
     /**
      * Lot number assigned by the manufacturer.
      *
-     * @var string $lotNumber
+     * @var \TKusy\Hl7FhirR4\StringType $lotNumber
      */
     private $lotNumber = null;
 
     /**
      * The serial number assigned by the organization when the device was manufactured.
      *
-     * @var string $serialNumber
+     * @var \TKusy\Hl7FhirR4\StringType $serialNumber
      */
     private $serialNumber = null;
 
@@ -98,14 +98,14 @@ class DeviceType extends DomainResourceType
     /**
      * The model number for the device.
      *
-     * @var string $modelNumber
+     * @var \TKusy\Hl7FhirR4\StringType $modelNumber
      */
     private $modelNumber = null;
 
     /**
      * The part number of the device.
      *
-     * @var string $partNumber
+     * @var \TKusy\Hl7FhirR4\StringType $partNumber
      */
     private $partNumber = null;
 
@@ -448,7 +448,7 @@ class DeviceType extends DomainResourceType
      *
      * The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDistinctIdentifier()
     {
@@ -460,10 +460,10 @@ class DeviceType extends DomainResourceType
      *
      * The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product.
      *
-     * @param string $distinctIdentifier
+     * @param \TKusy\Hl7FhirR4\StringType $distinctIdentifier
      * @return self
      */
-    public function setDistinctIdentifier($distinctIdentifier)
+    public function setDistinctIdentifier(\TKusy\Hl7FhirR4\StringType $distinctIdentifier)
     {
         $this->distinctIdentifier = $distinctIdentifier;
         return $this;
@@ -474,7 +474,7 @@ class DeviceType extends DomainResourceType
      *
      * A name of the manufacturer.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getManufacturer()
     {
@@ -486,10 +486,10 @@ class DeviceType extends DomainResourceType
      *
      * A name of the manufacturer.
      *
-     * @param string $manufacturer
+     * @param \TKusy\Hl7FhirR4\StringType $manufacturer
      * @return self
      */
-    public function setManufacturer($manufacturer)
+    public function setManufacturer(\TKusy\Hl7FhirR4\StringType $manufacturer)
     {
         $this->manufacturer = $manufacturer;
         return $this;
@@ -552,7 +552,7 @@ class DeviceType extends DomainResourceType
      *
      * Lot number assigned by the manufacturer.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getLotNumber()
     {
@@ -564,10 +564,10 @@ class DeviceType extends DomainResourceType
      *
      * Lot number assigned by the manufacturer.
      *
-     * @param string $lotNumber
+     * @param \TKusy\Hl7FhirR4\StringType $lotNumber
      * @return self
      */
-    public function setLotNumber($lotNumber)
+    public function setLotNumber(\TKusy\Hl7FhirR4\StringType $lotNumber)
     {
         $this->lotNumber = $lotNumber;
         return $this;
@@ -578,7 +578,7 @@ class DeviceType extends DomainResourceType
      *
      * The serial number assigned by the organization when the device was manufactured.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSerialNumber()
     {
@@ -590,10 +590,10 @@ class DeviceType extends DomainResourceType
      *
      * The serial number assigned by the organization when the device was manufactured.
      *
-     * @param string $serialNumber
+     * @param \TKusy\Hl7FhirR4\StringType $serialNumber
      * @return self
      */
-    public function setSerialNumber($serialNumber)
+    public function setSerialNumber(\TKusy\Hl7FhirR4\StringType $serialNumber)
     {
         $this->serialNumber = $serialNumber;
         return $this;
@@ -670,7 +670,7 @@ class DeviceType extends DomainResourceType
      *
      * The model number for the device.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getModelNumber()
     {
@@ -682,10 +682,10 @@ class DeviceType extends DomainResourceType
      *
      * The model number for the device.
      *
-     * @param string $modelNumber
+     * @param \TKusy\Hl7FhirR4\StringType $modelNumber
      * @return self
      */
-    public function setModelNumber($modelNumber)
+    public function setModelNumber(\TKusy\Hl7FhirR4\StringType $modelNumber)
     {
         $this->modelNumber = $modelNumber;
         return $this;
@@ -696,7 +696,7 @@ class DeviceType extends DomainResourceType
      *
      * The part number of the device.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPartNumber()
     {
@@ -708,10 +708,10 @@ class DeviceType extends DomainResourceType
      *
      * The part number of the device.
      *
-     * @param string $partNumber
+     * @param \TKusy\Hl7FhirR4\StringType $partNumber
      * @return self
      */
-    public function setPartNumber($partNumber)
+    public function setPartNumber(\TKusy\Hl7FhirR4\StringType $partNumber)
     {
         $this->partNumber = $partNumber;
         return $this;

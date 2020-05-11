@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         name:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         derivedFrom:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         date:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -202,7 +202,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         xpath:
             expose: true
             access_type: public_method
@@ -213,7 +213,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getXpath
                 setter: setXpath
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         xpathUsage:
             expose: true
             access_type: public_method
@@ -250,7 +250,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getMultipleOr
                 setter: setMultipleOr
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         multipleAnd:
             expose: true
             access_type: public_method
@@ -261,7 +261,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
             accessor:
                 getter: getMultipleAnd
                 setter: setMultipleAnd
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         comparator:
             expose: true
             access_type: public_method
@@ -306,7 +306,7 @@ TKusy\Hl7FhirR4\SearchParameterType:
                 inline: true
                 entry_name: chain
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         component:
             expose: true
             access_type: public_method

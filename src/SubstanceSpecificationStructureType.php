@@ -28,14 +28,14 @@ class SubstanceSpecificationStructureType extends BackboneElementType
     /**
      * Molecular formula.
      *
-     * @var string $molecularFormula
+     * @var \TKusy\Hl7FhirR4\StringType $molecularFormula
      */
     private $molecularFormula = null;
 
     /**
      * Specified per moiety according to the Hill system, i.e. first C, then H, then alphabetical, each moiety separated by a dot.
      *
-     * @var string $molecularFormulaByMoiety
+     * @var \TKusy\Hl7FhirR4\StringType $molecularFormulaByMoiety
      */
     private $molecularFormulaByMoiety = null;
 
@@ -124,7 +124,7 @@ class SubstanceSpecificationStructureType extends BackboneElementType
      *
      * Molecular formula.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMolecularFormula()
     {
@@ -136,10 +136,10 @@ class SubstanceSpecificationStructureType extends BackboneElementType
      *
      * Molecular formula.
      *
-     * @param string $molecularFormula
+     * @param \TKusy\Hl7FhirR4\StringType $molecularFormula
      * @return self
      */
-    public function setMolecularFormula($molecularFormula)
+    public function setMolecularFormula(\TKusy\Hl7FhirR4\StringType $molecularFormula)
     {
         $this->molecularFormula = $molecularFormula;
         return $this;
@@ -150,7 +150,7 @@ class SubstanceSpecificationStructureType extends BackboneElementType
      *
      * Specified per moiety according to the Hill system, i.e. first C, then H, then alphabetical, each moiety separated by a dot.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMolecularFormulaByMoiety()
     {
@@ -162,10 +162,10 @@ class SubstanceSpecificationStructureType extends BackboneElementType
      *
      * Specified per moiety according to the Hill system, i.e. first C, then H, then alphabetical, each moiety separated by a dot.
      *
-     * @param string $molecularFormulaByMoiety
+     * @param \TKusy\Hl7FhirR4\StringType $molecularFormulaByMoiety
      * @return self
      */
-    public function setMolecularFormulaByMoiety($molecularFormulaByMoiety)
+    public function setMolecularFormulaByMoiety(\TKusy\Hl7FhirR4\StringType $molecularFormulaByMoiety)
     {
         $this->molecularFormulaByMoiety = $molecularFormulaByMoiety;
         return $this;

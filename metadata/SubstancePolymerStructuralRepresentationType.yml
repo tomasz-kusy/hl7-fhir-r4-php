@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstancePolymerStructuralRepresentationType:
             accessor:
                 getter: getRepresentation
                 setter: setRepresentation
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         attachment:
             expose: true
             access_type: public_method

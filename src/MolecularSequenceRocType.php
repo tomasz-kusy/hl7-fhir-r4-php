@@ -14,49 +14,49 @@ class MolecularSequenceRocType extends BackboneElementType
     /**
      * Invidual data point representing the GQ (genotype quality) score threshold.
      *
-     * @var \integer[] $score
+     * @var \TKusy\Hl7FhirR4\IntegerType[] $score
      */
     private $score = null;
 
     /**
      * The number of true positives if the GQ score threshold was set to "score" field value.
      *
-     * @var \integer[] $numTP
+     * @var \TKusy\Hl7FhirR4\IntegerType[] $numTP
      */
     private $numTP = null;
 
     /**
      * The number of false positives if the GQ score threshold was set to "score" field value.
      *
-     * @var \integer[] $numFP
+     * @var \TKusy\Hl7FhirR4\IntegerType[] $numFP
      */
     private $numFP = null;
 
     /**
      * The number of false negatives if the GQ score threshold was set to "score" field value.
      *
-     * @var \integer[] $numFN
+     * @var \TKusy\Hl7FhirR4\IntegerType[] $numFN
      */
     private $numFN = null;
 
     /**
      * Calculated precision if the GQ score threshold was set to "score" field value.
      *
-     * @var float[] $precision
+     * @var \TKusy\Hl7FhirR4\DecimalType[] $precision
      */
     private $precision = null;
 
     /**
      * Calculated sensitivity if the GQ score threshold was set to "score" field value.
      *
-     * @var float[] $sensitivity
+     * @var \TKusy\Hl7FhirR4\DecimalType[] $sensitivity
      */
     private $sensitivity = null;
 
     /**
      * Calculated fScore if the GQ score threshold was set to "score" field value.
      *
-     * @var float[] $fMeasure
+     * @var \TKusy\Hl7FhirR4\DecimalType[] $fMeasure
      */
     private $fMeasure = null;
 
@@ -66,9 +66,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * Invidual data point representing the GQ (genotype quality) score threshold.
      *
      * @return self
-     * @param \integer $score
+     * @param \TKusy\Hl7FhirR4\IntegerType $score
      */
-    public function addToScore(\integer $score)
+    public function addToScore(\TKusy\Hl7FhirR4\IntegerType $score)
     {
         $this->score[] = $score;
         return $this;
@@ -105,7 +105,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Invidual data point representing the GQ (genotype quality) score threshold.
      *
-     * @return \integer[]
+     * @return \TKusy\Hl7FhirR4\IntegerType[]
      */
     public function getScore()
     {
@@ -117,7 +117,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Invidual data point representing the GQ (genotype quality) score threshold.
      *
-     * @param \integer[] $score
+     * @param \TKusy\Hl7FhirR4\IntegerType[] $score
      * @return self
      */
     public function setScore(array $score)
@@ -132,9 +132,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * The number of true positives if the GQ score threshold was set to "score" field value.
      *
      * @return self
-     * @param \integer $numTP
+     * @param \TKusy\Hl7FhirR4\IntegerType $numTP
      */
-    public function addToNumTP(\integer $numTP)
+    public function addToNumTP(\TKusy\Hl7FhirR4\IntegerType $numTP)
     {
         $this->numTP[] = $numTP;
         return $this;
@@ -171,7 +171,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * The number of true positives if the GQ score threshold was set to "score" field value.
      *
-     * @return \integer[]
+     * @return \TKusy\Hl7FhirR4\IntegerType[]
      */
     public function getNumTP()
     {
@@ -183,7 +183,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * The number of true positives if the GQ score threshold was set to "score" field value.
      *
-     * @param \integer[] $numTP
+     * @param \TKusy\Hl7FhirR4\IntegerType[] $numTP
      * @return self
      */
     public function setNumTP(array $numTP)
@@ -198,9 +198,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * The number of false positives if the GQ score threshold was set to "score" field value.
      *
      * @return self
-     * @param \integer $numFP
+     * @param \TKusy\Hl7FhirR4\IntegerType $numFP
      */
-    public function addToNumFP(\integer $numFP)
+    public function addToNumFP(\TKusy\Hl7FhirR4\IntegerType $numFP)
     {
         $this->numFP[] = $numFP;
         return $this;
@@ -237,7 +237,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * The number of false positives if the GQ score threshold was set to "score" field value.
      *
-     * @return \integer[]
+     * @return \TKusy\Hl7FhirR4\IntegerType[]
      */
     public function getNumFP()
     {
@@ -249,7 +249,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * The number of false positives if the GQ score threshold was set to "score" field value.
      *
-     * @param \integer[] $numFP
+     * @param \TKusy\Hl7FhirR4\IntegerType[] $numFP
      * @return self
      */
     public function setNumFP(array $numFP)
@@ -264,9 +264,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * The number of false negatives if the GQ score threshold was set to "score" field value.
      *
      * @return self
-     * @param \integer $numFN
+     * @param \TKusy\Hl7FhirR4\IntegerType $numFN
      */
-    public function addToNumFN(\integer $numFN)
+    public function addToNumFN(\TKusy\Hl7FhirR4\IntegerType $numFN)
     {
         $this->numFN[] = $numFN;
         return $this;
@@ -303,7 +303,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * The number of false negatives if the GQ score threshold was set to "score" field value.
      *
-     * @return \integer[]
+     * @return \TKusy\Hl7FhirR4\IntegerType[]
      */
     public function getNumFN()
     {
@@ -315,7 +315,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * The number of false negatives if the GQ score threshold was set to "score" field value.
      *
-     * @param \integer[] $numFN
+     * @param \TKusy\Hl7FhirR4\IntegerType[] $numFN
      * @return self
      */
     public function setNumFN(array $numFN)
@@ -330,9 +330,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * Calculated precision if the GQ score threshold was set to "score" field value.
      *
      * @return self
-     * @param float $precision
+     * @param \TKusy\Hl7FhirR4\DecimalType $precision
      */
-    public function addToPrecision($precision)
+    public function addToPrecision(\TKusy\Hl7FhirR4\DecimalType $precision)
     {
         $this->precision[] = $precision;
         return $this;
@@ -369,7 +369,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Calculated precision if the GQ score threshold was set to "score" field value.
      *
-     * @return float[]
+     * @return \TKusy\Hl7FhirR4\DecimalType[]
      */
     public function getPrecision()
     {
@@ -381,7 +381,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Calculated precision if the GQ score threshold was set to "score" field value.
      *
-     * @param float[] $precision
+     * @param \TKusy\Hl7FhirR4\DecimalType[] $precision
      * @return self
      */
     public function setPrecision(array $precision)
@@ -396,9 +396,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * Calculated sensitivity if the GQ score threshold was set to "score" field value.
      *
      * @return self
-     * @param float $sensitivity
+     * @param \TKusy\Hl7FhirR4\DecimalType $sensitivity
      */
-    public function addToSensitivity($sensitivity)
+    public function addToSensitivity(\TKusy\Hl7FhirR4\DecimalType $sensitivity)
     {
         $this->sensitivity[] = $sensitivity;
         return $this;
@@ -435,7 +435,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Calculated sensitivity if the GQ score threshold was set to "score" field value.
      *
-     * @return float[]
+     * @return \TKusy\Hl7FhirR4\DecimalType[]
      */
     public function getSensitivity()
     {
@@ -447,7 +447,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Calculated sensitivity if the GQ score threshold was set to "score" field value.
      *
-     * @param float[] $sensitivity
+     * @param \TKusy\Hl7FhirR4\DecimalType[] $sensitivity
      * @return self
      */
     public function setSensitivity(array $sensitivity)
@@ -462,9 +462,9 @@ class MolecularSequenceRocType extends BackboneElementType
      * Calculated fScore if the GQ score threshold was set to "score" field value.
      *
      * @return self
-     * @param float $fMeasure
+     * @param \TKusy\Hl7FhirR4\DecimalType $fMeasure
      */
-    public function addToFMeasure($fMeasure)
+    public function addToFMeasure(\TKusy\Hl7FhirR4\DecimalType $fMeasure)
     {
         $this->fMeasure[] = $fMeasure;
         return $this;
@@ -501,7 +501,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Calculated fScore if the GQ score threshold was set to "score" field value.
      *
-     * @return float[]
+     * @return \TKusy\Hl7FhirR4\DecimalType[]
      */
     public function getFMeasure()
     {
@@ -513,7 +513,7 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * Calculated fScore if the GQ score threshold was set to "score" field value.
      *
-     * @param float[] $fMeasure
+     * @param \TKusy\Hl7FhirR4\DecimalType[] $fMeasure
      * @return self
      */
     public function setFMeasure(array $fMeasure)

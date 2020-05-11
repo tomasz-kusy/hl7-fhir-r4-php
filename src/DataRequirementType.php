@@ -44,7 +44,7 @@ class DataRequirementType extends ElementType
      *
      * The value of mustSupport SHALL be a FHIRPath resolveable on the type of the DataRequirement. The path SHALL consist only of identifiers, constant indexers, and .resolve() (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
-     * @var string[] $mustSupport
+     * @var \TKusy\Hl7FhirR4\StringType[] $mustSupport
      */
     private $mustSupport = null;
 
@@ -228,9 +228,9 @@ class DataRequirementType extends ElementType
      * The value of mustSupport SHALL be a FHIRPath resolveable on the type of the DataRequirement. The path SHALL consist only of identifiers, constant indexers, and .resolve() (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
      * @return self
-     * @param string $mustSupport
+     * @param \TKusy\Hl7FhirR4\StringType $mustSupport
      */
-    public function addToMustSupport($mustSupport)
+    public function addToMustSupport(\TKusy\Hl7FhirR4\StringType $mustSupport)
     {
         $this->mustSupport[] = $mustSupport;
         return $this;
@@ -273,7 +273,7 @@ class DataRequirementType extends ElementType
      *
      * The value of mustSupport SHALL be a FHIRPath resolveable on the type of the DataRequirement. The path SHALL consist only of identifiers, constant indexers, and .resolve() (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getMustSupport()
     {
@@ -287,7 +287,7 @@ class DataRequirementType extends ElementType
      *
      * The value of mustSupport SHALL be a FHIRPath resolveable on the type of the DataRequirement. The path SHALL consist only of identifiers, constant indexers, and .resolve() (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
-     * @param string[] $mustSupport
+     * @param \TKusy\Hl7FhirR4\StringType[] $mustSupport
      * @return self
      */
     public function setMustSupport(array $mustSupport)

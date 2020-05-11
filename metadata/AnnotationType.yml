@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\AnnotationType:
             accessor:
                 getter: getAuthorString
                 setter: setAuthorString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         time:
             expose: true
             access_type: public_method

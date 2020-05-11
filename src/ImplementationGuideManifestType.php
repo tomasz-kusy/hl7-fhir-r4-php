@@ -35,14 +35,14 @@ class ImplementationGuideManifestType extends BackboneElementType
     /**
      * Indicates a relative path to an image that exists within the IG.
      *
-     * @var string[] $image
+     * @var \TKusy\Hl7FhirR4\StringType[] $image
      */
     private $image = null;
 
     /**
      * Indicates the relative path of an additional non-page, non-image file that is part of the IG - e.g. zip, jar and similar files that could be the target of a hyperlink in a derived IG.
      *
-     * @var string[] $other
+     * @var \TKusy\Hl7FhirR4\StringType[] $other
      */
     private $other = null;
 
@@ -210,9 +210,9 @@ class ImplementationGuideManifestType extends BackboneElementType
      * Indicates a relative path to an image that exists within the IG.
      *
      * @return self
-     * @param string $image
+     * @param \TKusy\Hl7FhirR4\StringType $image
      */
-    public function addToImage($image)
+    public function addToImage(\TKusy\Hl7FhirR4\StringType $image)
     {
         $this->image[] = $image;
         return $this;
@@ -249,7 +249,7 @@ class ImplementationGuideManifestType extends BackboneElementType
      *
      * Indicates a relative path to an image that exists within the IG.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getImage()
     {
@@ -261,7 +261,7 @@ class ImplementationGuideManifestType extends BackboneElementType
      *
      * Indicates a relative path to an image that exists within the IG.
      *
-     * @param string[] $image
+     * @param \TKusy\Hl7FhirR4\StringType[] $image
      * @return self
      */
     public function setImage(array $image)
@@ -276,9 +276,9 @@ class ImplementationGuideManifestType extends BackboneElementType
      * Indicates the relative path of an additional non-page, non-image file that is part of the IG - e.g. zip, jar and similar files that could be the target of a hyperlink in a derived IG.
      *
      * @return self
-     * @param string $other
+     * @param \TKusy\Hl7FhirR4\StringType $other
      */
-    public function addToOther($other)
+    public function addToOther(\TKusy\Hl7FhirR4\StringType $other)
     {
         $this->other[] = $other;
         return $this;
@@ -315,7 +315,7 @@ class ImplementationGuideManifestType extends BackboneElementType
      *
      * Indicates the relative path of an additional non-page, non-image file that is part of the IG - e.g. zip, jar and similar files that could be the target of a hyperlink in a derived IG.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getOther()
     {
@@ -327,7 +327,7 @@ class ImplementationGuideManifestType extends BackboneElementType
      *
      * Indicates the relative path of an additional non-page, non-image file that is part of the IG - e.g. zip, jar and similar files that could be the target of a hyperlink in a derived IG.
      *
-     * @param string[] $other
+     * @param \TKusy\Hl7FhirR4\StringType[] $other
      * @return self
      */
     public function setOther(array $other)

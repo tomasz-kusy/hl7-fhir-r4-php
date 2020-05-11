@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesExpansionType:
             accessor:
                 getter: getHierarchical
                 setter: setHierarchical
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         paging:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesExpansionType:
             accessor:
                 getter: getPaging
                 setter: setPaging
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         incomplete:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesExpansionType:
             accessor:
                 getter: getIncomplete
                 setter: setIncomplete
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         parameter:
             expose: true
             access_type: public_method

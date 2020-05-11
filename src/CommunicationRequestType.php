@@ -70,7 +70,7 @@ class CommunicationRequestType extends DomainResourceType
     /**
      * If true indicates that the CommunicationRequest is asking for the specified action to *not* occur.
      *
-     * @var bool $doNotPerform
+     * @var \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      */
     private $doNotPerform = null;
 
@@ -545,7 +545,7 @@ class CommunicationRequestType extends DomainResourceType
      *
      * If true indicates that the CommunicationRequest is asking for the specified action to *not* occur.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getDoNotPerform()
     {
@@ -557,10 +557,10 @@ class CommunicationRequestType extends DomainResourceType
      *
      * If true indicates that the CommunicationRequest is asking for the specified action to *not* occur.
      *
-     * @param bool $doNotPerform
+     * @param \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      * @return self
      */
-    public function setDoNotPerform($doNotPerform)
+    public function setDoNotPerform(\TKusy\Hl7FhirR4\BooleanType $doNotPerform)
     {
         $this->doNotPerform = $doNotPerform;
         return $this;

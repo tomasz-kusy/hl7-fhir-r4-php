@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\AuditEventType:
             accessor:
                 getter: getOutcomeDesc
                 setter: setOutcomeDesc
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         purposeOfEvent:
             expose: true
             access_type: public_method

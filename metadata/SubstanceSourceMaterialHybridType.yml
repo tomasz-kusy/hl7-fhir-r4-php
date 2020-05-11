@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             accessor:
                 getter: getMaternalOrganismId
                 setter: setMaternalOrganismId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         maternalOrganismName:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             accessor:
                 getter: getMaternalOrganismName
                 setter: setMaternalOrganismName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         paternalOrganismId:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             accessor:
                 getter: getPaternalOrganismId
                 setter: setPaternalOrganismId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         paternalOrganismName:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialHybridType:
             accessor:
                 getter: getPaternalOrganismName
                 setter: setPaternalOrganismName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         hybridType:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class BundleLinkType extends BackboneElementType
     /**
      * A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1).
      *
-     * @var string $relation
+     * @var \TKusy\Hl7FhirR4\StringType $relation
      */
     private $relation = null;
 
@@ -30,7 +30,7 @@ class BundleLinkType extends BackboneElementType
      *
      * A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRelation()
     {
@@ -42,10 +42,10 @@ class BundleLinkType extends BackboneElementType
      *
      * A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1).
      *
-     * @param string $relation
+     * @param \TKusy\Hl7FhirR4\StringType $relation
      * @return self
      */
-    public function setRelation($relation)
+    public function setRelation(\TKusy\Hl7FhirR4\StringType $relation)
     {
         $this->relation = $relation;
         return $this;

@@ -42,21 +42,21 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
     /**
      * True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.
      *
-     * @var bool $excluded
+     * @var \TKusy\Hl7FhirR4\BooleanType $excluded
      */
     private $excluded = null;
 
     /**
      * A short name or tag for the benefit.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A richer description of the benefit or services covered.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -91,7 +91,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
     /**
      * A boolean flag indicating whether a preauthorization is required prior to actual service delivery.
      *
-     * @var bool $authorizationRequired
+     * @var \TKusy\Hl7FhirR4\BooleanType $authorizationRequired
      */
     private $authorizationRequired = null;
 
@@ -258,7 +258,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExcluded()
     {
@@ -270,10 +270,10 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.
      *
-     * @param bool $excluded
+     * @param \TKusy\Hl7FhirR4\BooleanType $excluded
      * @return self
      */
-    public function setExcluded($excluded)
+    public function setExcluded(\TKusy\Hl7FhirR4\BooleanType $excluded)
     {
         $this->excluded = $excluded;
         return $this;
@@ -284,7 +284,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * A short name or tag for the benefit.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -296,10 +296,10 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * A short name or tag for the benefit.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -310,7 +310,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * A richer description of the benefit or services covered.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -322,10 +322,10 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * A richer description of the benefit or services covered.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -480,7 +480,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * A boolean flag indicating whether a preauthorization is required prior to actual service delivery.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAuthorizationRequired()
     {
@@ -492,10 +492,10 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * A boolean flag indicating whether a preauthorization is required prior to actual service delivery.
      *
-     * @param bool $authorizationRequired
+     * @param \TKusy\Hl7FhirR4\BooleanType $authorizationRequired
      * @return self
      */
-    public function setAuthorizationRequired($authorizationRequired)
+    public function setAuthorizationRequired(\TKusy\Hl7FhirR4\BooleanType $authorizationRequired)
     {
         $this->authorizationRequired = $authorizationRequired;
         return $this;

@@ -14,35 +14,35 @@ class ValueSetParameterType extends BackboneElementType
     /**
      * Name of the input parameter to the $expand operation; may be a server-assigned name for additional default or other server-supplied parameters used to control the expansion process.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @var string $valueString
+     * @var \TKusy\Hl7FhirR4\StringType $valueString
      */
     private $valueString = null;
 
     /**
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @var bool $valueBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      */
     private $valueBoolean = null;
 
     /**
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @var \integer $valueInteger
+     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
      */
     private $valueInteger = null;
 
     /**
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @var float $valueDecimal
+     * @var \TKusy\Hl7FhirR4\DecimalType $valueDecimal
      */
     private $valueDecimal = null;
 
@@ -72,7 +72,7 @@ class ValueSetParameterType extends BackboneElementType
      *
      * Name of the input parameter to the $expand operation; may be a server-assigned name for additional default or other server-supplied parameters used to control the expansion process.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -84,10 +84,10 @@ class ValueSetParameterType extends BackboneElementType
      *
      * Name of the input parameter to the $expand operation; may be a server-assigned name for additional default or other server-supplied parameters used to control the expansion process.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -98,7 +98,7 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValueString()
     {
@@ -110,10 +110,10 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @param string $valueString
+     * @param \TKusy\Hl7FhirR4\StringType $valueString
      * @return self
      */
-    public function setValueString($valueString)
+    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
     {
         $this->valueString = $valueString;
         return $this;
@@ -124,7 +124,7 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getValueBoolean()
     {
@@ -136,10 +136,10 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @param bool $valueBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      * @return self
      */
-    public function setValueBoolean($valueBoolean)
+    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -150,7 +150,7 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getValueInteger()
     {
@@ -162,10 +162,10 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @param \integer $valueInteger
+     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
      * @return self
      */
-    public function setValueInteger(\integer $valueInteger)
+    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;
@@ -176,7 +176,7 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getValueDecimal()
     {
@@ -188,10 +188,10 @@ class ValueSetParameterType extends BackboneElementType
      *
      * The value of the parameter. (choose any one of value*, but only one)
      *
-     * @param float $valueDecimal
+     * @param \TKusy\Hl7FhirR4\DecimalType $valueDecimal
      * @return self
      */
-    public function setValueDecimal($valueDecimal)
+    public function setValueDecimal(\TKusy\Hl7FhirR4\DecimalType $valueDecimal)
     {
         $this->valueDecimal = $valueDecimal;
         return $this;

@@ -28,7 +28,7 @@ class ChargeItemDefinitionPriceComponentType extends BackboneElementType
     /**
      * The factor that has been applied on the base price for calculating this component.
      *
-     * @var float $factor
+     * @var \TKusy\Hl7FhirR4\DecimalType $factor
      */
     private $factor = null;
 
@@ -96,7 +96,7 @@ class ChargeItemDefinitionPriceComponentType extends BackboneElementType
      *
      * The factor that has been applied on the base price for calculating this component.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getFactor()
     {
@@ -108,10 +108,10 @@ class ChargeItemDefinitionPriceComponentType extends BackboneElementType
      *
      * The factor that has been applied on the base price for calculating this component.
      *
-     * @param float $factor
+     * @param \TKusy\Hl7FhirR4\DecimalType $factor
      * @return self
      */
-    public function setFactor($factor)
+    public function setFactor(\TKusy\Hl7FhirR4\DecimalType $factor)
     {
         $this->factor = $factor;
         return $this;

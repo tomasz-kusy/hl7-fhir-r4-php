@@ -28,14 +28,14 @@ class ValueSetExpansionType extends BackboneElementType
     /**
      * The total number of concepts in the expansion. If the number of concept nodes in this resource is less than the stated number, then the server can return more using the offset parameter.
      *
-     * @var \integer $total
+     * @var \TKusy\Hl7FhirR4\IntegerType $total
      */
     private $total = null;
 
     /**
      * If paging is being used, the offset at which this resource starts. I.e. this resource is a partial view into the expansion. If paging is not being used, this element SHALL NOT be present.
      *
-     * @var \integer $offset
+     * @var \TKusy\Hl7FhirR4\IntegerType $offset
      */
     private $offset = null;
 
@@ -110,7 +110,7 @@ class ValueSetExpansionType extends BackboneElementType
      *
      * The total number of concepts in the expansion. If the number of concept nodes in this resource is less than the stated number, then the server can return more using the offset parameter.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getTotal()
     {
@@ -122,10 +122,10 @@ class ValueSetExpansionType extends BackboneElementType
      *
      * The total number of concepts in the expansion. If the number of concept nodes in this resource is less than the stated number, then the server can return more using the offset parameter.
      *
-     * @param \integer $total
+     * @param \TKusy\Hl7FhirR4\IntegerType $total
      * @return self
      */
-    public function setTotal(\integer $total)
+    public function setTotal(\TKusy\Hl7FhirR4\IntegerType $total)
     {
         $this->total = $total;
         return $this;
@@ -136,7 +136,7 @@ class ValueSetExpansionType extends BackboneElementType
      *
      * If paging is being used, the offset at which this resource starts. I.e. this resource is a partial view into the expansion. If paging is not being used, this element SHALL NOT be present.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getOffset()
     {
@@ -148,10 +148,10 @@ class ValueSetExpansionType extends BackboneElementType
      *
      * If paging is being used, the offset at which this resource starts. I.e. this resource is a partial view into the expansion. If paging is not being used, this element SHALL NOT be present.
      *
-     * @param \integer $offset
+     * @param \TKusy\Hl7FhirR4\IntegerType $offset
      * @return self
      */
-    public function setOffset(\integer $offset)
+    public function setOffset(\TKusy\Hl7FhirR4\IntegerType $offset)
     {
         $this->offset = $offset;
         return $this;

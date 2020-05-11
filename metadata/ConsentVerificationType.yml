@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ConsentVerificationType:
             accessor:
                 getter: getVerified
                 setter: setVerified
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         verifiedWith:
             expose: true
             access_type: public_method

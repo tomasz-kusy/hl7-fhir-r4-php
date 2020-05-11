@@ -35,7 +35,7 @@ class StructureMapGroupType extends BackboneElementType
     /**
      * Additional supporting documentation that explains the purpose of the group and the types of mappings within it.
      *
-     * @var string $documentation
+     * @var \TKusy\Hl7FhirR4\StringType $documentation
      */
     private $documentation = null;
 
@@ -136,7 +136,7 @@ class StructureMapGroupType extends BackboneElementType
      *
      * Additional supporting documentation that explains the purpose of the group and the types of mappings within it.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDocumentation()
     {
@@ -148,10 +148,10 @@ class StructureMapGroupType extends BackboneElementType
      *
      * Additional supporting documentation that explains the purpose of the group and the types of mappings within it.
      *
-     * @param string $documentation
+     * @param \TKusy\Hl7FhirR4\StringType $documentation
      * @return self
      */
-    public function setDocumentation($documentation)
+    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
     {
         $this->documentation = $documentation;
         return $this;

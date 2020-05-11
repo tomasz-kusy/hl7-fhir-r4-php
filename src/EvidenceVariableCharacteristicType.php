@@ -14,7 +14,7 @@ class EvidenceVariableCharacteristicType extends BackboneElementType
     /**
      * A short, natural language description of the characteristic that could be used to communicate the criteria to an end-user.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -70,7 +70,7 @@ class EvidenceVariableCharacteristicType extends BackboneElementType
     /**
      * When true, members with this characteristic are excluded from the element.
      *
-     * @var bool $exclude
+     * @var \TKusy\Hl7FhirR4\BooleanType $exclude
      */
     private $exclude = null;
 
@@ -121,7 +121,7 @@ class EvidenceVariableCharacteristicType extends BackboneElementType
      *
      * A short, natural language description of the characteristic that could be used to communicate the criteria to an end-user.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -133,10 +133,10 @@ class EvidenceVariableCharacteristicType extends BackboneElementType
      *
      * A short, natural language description of the characteristic that could be used to communicate the criteria to an end-user.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -369,7 +369,7 @@ class EvidenceVariableCharacteristicType extends BackboneElementType
      *
      * When true, members with this characteristic are excluded from the element.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExclude()
     {
@@ -381,10 +381,10 @@ class EvidenceVariableCharacteristicType extends BackboneElementType
      *
      * When true, members with this characteristic are excluded from the element.
      *
-     * @param bool $exclude
+     * @param \TKusy\Hl7FhirR4\BooleanType $exclude
      * @return self
      */
-    public function setExclude($exclude)
+    public function setExclude(\TKusy\Hl7FhirR4\BooleanType $exclude)
     {
         $this->exclude = $exclude;
         return $this;

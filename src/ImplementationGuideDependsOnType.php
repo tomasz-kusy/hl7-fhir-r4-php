@@ -28,7 +28,7 @@ class ImplementationGuideDependsOnType extends BackboneElementType
     /**
      * The version of the IG that is depended on, when the correct version is required to understand the IG correctly.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
@@ -89,7 +89,7 @@ class ImplementationGuideDependsOnType extends BackboneElementType
      *
      * The version of the IG that is depended on, when the correct version is required to understand the IG correctly.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -101,10 +101,10 @@ class ImplementationGuideDependsOnType extends BackboneElementType
      *
      * The version of the IG that is depended on, when the correct version is required to understand the IG correctly.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;

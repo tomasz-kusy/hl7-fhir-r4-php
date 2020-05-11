@@ -56,7 +56,7 @@ class MedicinalProductType extends DomainResourceType
     /**
      * Whether the Medicinal Product is subject to special measures for regulatory reasons.
      *
-     * @var string[] $specialMeasures
+     * @var \TKusy\Hl7FhirR4\StringType[] $specialMeasures
      */
     private $specialMeasures = null;
 
@@ -353,9 +353,9 @@ class MedicinalProductType extends DomainResourceType
      * Whether the Medicinal Product is subject to special measures for regulatory reasons.
      *
      * @return self
-     * @param string $specialMeasures
+     * @param \TKusy\Hl7FhirR4\StringType $specialMeasures
      */
-    public function addToSpecialMeasures($specialMeasures)
+    public function addToSpecialMeasures(\TKusy\Hl7FhirR4\StringType $specialMeasures)
     {
         $this->specialMeasures[] = $specialMeasures;
         return $this;
@@ -392,7 +392,7 @@ class MedicinalProductType extends DomainResourceType
      *
      * Whether the Medicinal Product is subject to special measures for regulatory reasons.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getSpecialMeasures()
     {
@@ -404,7 +404,7 @@ class MedicinalProductType extends DomainResourceType
      *
      * Whether the Medicinal Product is subject to special measures for regulatory reasons.
      *
-     * @param string[] $specialMeasures
+     * @param \TKusy\Hl7FhirR4\StringType[] $specialMeasures
      * @return self
      */
     public function setSpecialMeasures(array $specialMeasures)

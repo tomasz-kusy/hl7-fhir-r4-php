@@ -49,7 +49,7 @@ class ObservationReferenceRangeType extends BackboneElementType
     /**
      * Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation. An example would be a reference value of "Negative" or a list or table of "normals".
      *
-     * @var string $text
+     * @var \TKusy\Hl7FhirR4\StringType $text
      */
     private $text = null;
 
@@ -228,7 +228,7 @@ class ObservationReferenceRangeType extends BackboneElementType
      *
      * Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation. An example would be a reference value of "Negative" or a list or table of "normals".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getText()
     {
@@ -240,10 +240,10 @@ class ObservationReferenceRangeType extends BackboneElementType
      *
      * Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation. An example would be a reference value of "Negative" or a list or table of "normals".
      *
-     * @param string $text
+     * @param \TKusy\Hl7FhirR4\StringType $text
      * @return self
      */
-    public function setText($text)
+    public function setText(\TKusy\Hl7FhirR4\StringType $text)
     {
         $this->text = $text;
         return $this;

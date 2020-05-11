@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\StructureMapGroupType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         input:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             accessor:
                 getter: getProbabilityDecimal
                 setter: setProbabilityDecimal
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         probabilityRange:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             accessor:
                 getter: getRelativeRisk
                 setter: setRelativeRisk
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         whenPeriod:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ TKusy\Hl7FhirR4\RiskAssessmentPredictionType:
             accessor:
                 getter: getRationale
                 setter: setRationale
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

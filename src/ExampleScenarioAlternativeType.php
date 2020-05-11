@@ -14,7 +14,7 @@ class ExampleScenarioAlternativeType extends BackboneElementType
     /**
      * The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -37,7 +37,7 @@ class ExampleScenarioAlternativeType extends BackboneElementType
      *
      * The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -49,10 +49,10 @@ class ExampleScenarioAlternativeType extends BackboneElementType
      *
      * The label to display for the alternative that gives a sense of the circumstance in which the alternative should be invoked.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;

@@ -14,21 +14,21 @@ class SubstanceProteinSubunitType extends BackboneElementType
     /**
      * Index of primary sequences of amino acids linked through peptide bonds in order of decreasing length. Sequences of the same length will be ordered by molecular weight. Subunits that have identical sequences will be repeated and have sequential subscripts.
      *
-     * @var \integer $subunit
+     * @var \TKusy\Hl7FhirR4\IntegerType $subunit
      */
     private $subunit = null;
 
     /**
      * The sequence information shall be provided enumerating the amino acids from N- to C-terminal end using standard single-letter amino acid codes. Uppercase shall be used for L-amino acids and lowercase for D-amino acids. Transcribed SubstanceProteins will always be described using the translated sequence; for synthetic peptide containing amino acids that are not represented with a single letter code an X should be used within the sequence. The modified amino acids will be distinguished by their position in the sequence.
      *
-     * @var string $sequence
+     * @var \TKusy\Hl7FhirR4\StringType $sequence
      */
     private $sequence = null;
 
     /**
      * Length of linear sequences of amino acids contained in the subunit.
      *
-     * @var \integer $length
+     * @var \TKusy\Hl7FhirR4\IntegerType $length
      */
     private $length = null;
 
@@ -49,7 +49,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
     /**
      * The name of the fragment modified at the N-terminal of the SubstanceProtein shall be specified.
      *
-     * @var string $nTerminalModification
+     * @var \TKusy\Hl7FhirR4\StringType $nTerminalModification
      */
     private $nTerminalModification = null;
 
@@ -63,7 +63,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
     /**
      * The modification at the C-terminal shall be specified.
      *
-     * @var string $cTerminalModification
+     * @var \TKusy\Hl7FhirR4\StringType $cTerminalModification
      */
     private $cTerminalModification = null;
 
@@ -72,7 +72,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * Index of primary sequences of amino acids linked through peptide bonds in order of decreasing length. Sequences of the same length will be ordered by molecular weight. Subunits that have identical sequences will be repeated and have sequential subscripts.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getSubunit()
     {
@@ -84,10 +84,10 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * Index of primary sequences of amino acids linked through peptide bonds in order of decreasing length. Sequences of the same length will be ordered by molecular weight. Subunits that have identical sequences will be repeated and have sequential subscripts.
      *
-     * @param \integer $subunit
+     * @param \TKusy\Hl7FhirR4\IntegerType $subunit
      * @return self
      */
-    public function setSubunit(\integer $subunit)
+    public function setSubunit(\TKusy\Hl7FhirR4\IntegerType $subunit)
     {
         $this->subunit = $subunit;
         return $this;
@@ -98,7 +98,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * The sequence information shall be provided enumerating the amino acids from N- to C-terminal end using standard single-letter amino acid codes. Uppercase shall be used for L-amino acids and lowercase for D-amino acids. Transcribed SubstanceProteins will always be described using the translated sequence; for synthetic peptide containing amino acids that are not represented with a single letter code an X should be used within the sequence. The modified amino acids will be distinguished by their position in the sequence.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSequence()
     {
@@ -110,10 +110,10 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * The sequence information shall be provided enumerating the amino acids from N- to C-terminal end using standard single-letter amino acid codes. Uppercase shall be used for L-amino acids and lowercase for D-amino acids. Transcribed SubstanceProteins will always be described using the translated sequence; for synthetic peptide containing amino acids that are not represented with a single letter code an X should be used within the sequence. The modified amino acids will be distinguished by their position in the sequence.
      *
-     * @param string $sequence
+     * @param \TKusy\Hl7FhirR4\StringType $sequence
      * @return self
      */
-    public function setSequence($sequence)
+    public function setSequence(\TKusy\Hl7FhirR4\StringType $sequence)
     {
         $this->sequence = $sequence;
         return $this;
@@ -124,7 +124,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * Length of linear sequences of amino acids contained in the subunit.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getLength()
     {
@@ -136,10 +136,10 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * Length of linear sequences of amino acids contained in the subunit.
      *
-     * @param \integer $length
+     * @param \TKusy\Hl7FhirR4\IntegerType $length
      * @return self
      */
-    public function setLength(\integer $length)
+    public function setLength(\TKusy\Hl7FhirR4\IntegerType $length)
     {
         $this->length = $length;
         return $this;
@@ -202,7 +202,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * The name of the fragment modified at the N-terminal of the SubstanceProtein shall be specified.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getNTerminalModification()
     {
@@ -214,10 +214,10 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * The name of the fragment modified at the N-terminal of the SubstanceProtein shall be specified.
      *
-     * @param string $nTerminalModification
+     * @param \TKusy\Hl7FhirR4\StringType $nTerminalModification
      * @return self
      */
-    public function setNTerminalModification($nTerminalModification)
+    public function setNTerminalModification(\TKusy\Hl7FhirR4\StringType $nTerminalModification)
     {
         $this->nTerminalModification = $nTerminalModification;
         return $this;
@@ -254,7 +254,7 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * The modification at the C-terminal shall be specified.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCTerminalModification()
     {
@@ -266,10 +266,10 @@ class SubstanceProteinSubunitType extends BackboneElementType
      *
      * The modification at the C-terminal shall be specified.
      *
-     * @param string $cTerminalModification
+     * @param \TKusy\Hl7FhirR4\StringType $cTerminalModification
      * @return self
      */
-    public function setCTerminalModification($cTerminalModification)
+    public function setCTerminalModification(\TKusy\Hl7FhirR4\StringType $cTerminalModification)
     {
         $this->cTerminalModification = $cTerminalModification;
         return $this;

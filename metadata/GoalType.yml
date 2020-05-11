@@ -143,7 +143,7 @@ TKusy\Hl7FhirR4\GoalType:
             accessor:
                 getter: getStatusReason
                 setter: setStatusReason
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         expressedBy:
             expose: true
             access_type: public_method

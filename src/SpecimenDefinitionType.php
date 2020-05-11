@@ -35,7 +35,7 @@ class SpecimenDefinitionType extends DomainResourceType
     /**
      * Time aspect of specimen collection (duration or offset).
      *
-     * @var string $timeAspect
+     * @var \TKusy\Hl7FhirR4\StringType $timeAspect
      */
     private $timeAspect = null;
 
@@ -176,7 +176,7 @@ class SpecimenDefinitionType extends DomainResourceType
      *
      * Time aspect of specimen collection (duration or offset).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTimeAspect()
     {
@@ -188,10 +188,10 @@ class SpecimenDefinitionType extends DomainResourceType
      *
      * Time aspect of specimen collection (duration or offset).
      *
-     * @param string $timeAspect
+     * @param \TKusy\Hl7FhirR4\StringType $timeAspect
      * @return self
      */
-    public function setTimeAspect($timeAspect)
+    public function setTimeAspect(\TKusy\Hl7FhirR4\StringType $timeAspect)
     {
         $this->timeAspect = $timeAspect;
         return $this;

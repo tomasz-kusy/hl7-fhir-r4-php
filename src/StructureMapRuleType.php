@@ -49,7 +49,7 @@ class StructureMapRuleType extends BackboneElementType
     /**
      * Documentation for this instance of data.
      *
-     * @var string $documentation
+     * @var \TKusy\Hl7FhirR4\StringType $documentation
      */
     private $documentation = null;
 
@@ -348,7 +348,7 @@ class StructureMapRuleType extends BackboneElementType
      *
      * Documentation for this instance of data.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDocumentation()
     {
@@ -360,10 +360,10 @@ class StructureMapRuleType extends BackboneElementType
      *
      * Documentation for this instance of data.
      *
-     * @param string $documentation
+     * @param \TKusy\Hl7FhirR4\StringType $documentation
      * @return self
      */
-    public function setDocumentation($documentation)
+    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
     {
         $this->documentation = $documentation;
         return $this;

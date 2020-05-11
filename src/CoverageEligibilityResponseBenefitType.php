@@ -28,7 +28,7 @@ class CoverageEligibilityResponseBenefitType extends BackboneElementType
     /**
      * The quantity of the benefit which is permitted under the coverage. (choose any one of allowed*, but only one)
      *
-     * @var string $allowedString
+     * @var \TKusy\Hl7FhirR4\StringType $allowedString
      */
     private $allowedString = null;
 
@@ -49,7 +49,7 @@ class CoverageEligibilityResponseBenefitType extends BackboneElementType
     /**
      * The quantity of the benefit which have been consumed to date. (choose any one of used*, but only one)
      *
-     * @var string $usedString
+     * @var \TKusy\Hl7FhirR4\StringType $usedString
      */
     private $usedString = null;
 
@@ -117,7 +117,7 @@ class CoverageEligibilityResponseBenefitType extends BackboneElementType
      *
      * The quantity of the benefit which is permitted under the coverage. (choose any one of allowed*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAllowedString()
     {
@@ -129,10 +129,10 @@ class CoverageEligibilityResponseBenefitType extends BackboneElementType
      *
      * The quantity of the benefit which is permitted under the coverage. (choose any one of allowed*, but only one)
      *
-     * @param string $allowedString
+     * @param \TKusy\Hl7FhirR4\StringType $allowedString
      * @return self
      */
-    public function setAllowedString($allowedString)
+    public function setAllowedString(\TKusy\Hl7FhirR4\StringType $allowedString)
     {
         $this->allowedString = $allowedString;
         return $this;
@@ -195,7 +195,7 @@ class CoverageEligibilityResponseBenefitType extends BackboneElementType
      *
      * The quantity of the benefit which have been consumed to date. (choose any one of used*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getUsedString()
     {
@@ -207,10 +207,10 @@ class CoverageEligibilityResponseBenefitType extends BackboneElementType
      *
      * The quantity of the benefit which have been consumed to date. (choose any one of used*, but only one)
      *
-     * @param string $usedString
+     * @param \TKusy\Hl7FhirR4\StringType $usedString
      * @return self
      */
-    public function setUsedString($usedString)
+    public function setUsedString(\TKusy\Hl7FhirR4\StringType $usedString)
     {
         $this->usedString = $usedString;
         return $this;

@@ -14,7 +14,7 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
     /**
      * A potential answer that's allowed as the answer to this question. (choose any one of value*, but only one)
      *
-     * @var \integer $valueInteger
+     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
      */
     private $valueInteger = null;
 
@@ -35,7 +35,7 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
     /**
      * A potential answer that's allowed as the answer to this question. (choose any one of value*, but only one)
      *
-     * @var string $valueString
+     * @var \TKusy\Hl7FhirR4\StringType $valueString
      */
     private $valueString = null;
 
@@ -56,7 +56,7 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
     /**
      * Indicates whether the answer value is selected when the list of possible answers is initially shown.
      *
-     * @var bool $initialSelected
+     * @var \TKusy\Hl7FhirR4\BooleanType $initialSelected
      */
     private $initialSelected = null;
 
@@ -65,7 +65,7 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
      *
      * A potential answer that's allowed as the answer to this question. (choose any one of value*, but only one)
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getValueInteger()
     {
@@ -77,10 +77,10 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
      *
      * A potential answer that's allowed as the answer to this question. (choose any one of value*, but only one)
      *
-     * @param \integer $valueInteger
+     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
      * @return self
      */
-    public function setValueInteger(\integer $valueInteger)
+    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;
@@ -143,7 +143,7 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
      *
      * A potential answer that's allowed as the answer to this question. (choose any one of value*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValueString()
     {
@@ -155,10 +155,10 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
      *
      * A potential answer that's allowed as the answer to this question. (choose any one of value*, but only one)
      *
-     * @param string $valueString
+     * @param \TKusy\Hl7FhirR4\StringType $valueString
      * @return self
      */
-    public function setValueString($valueString)
+    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
     {
         $this->valueString = $valueString;
         return $this;
@@ -221,7 +221,7 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
      *
      * Indicates whether the answer value is selected when the list of possible answers is initially shown.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getInitialSelected()
     {
@@ -233,10 +233,10 @@ class QuestionnaireAnswerOptionType extends BackboneElementType
      *
      * Indicates whether the answer value is selected when the list of possible answers is initially shown.
      *
-     * @param bool $initialSelected
+     * @param \TKusy\Hl7FhirR4\BooleanType $initialSelected
      * @return self
      */
-    public function setInitialSelected($initialSelected)
+    public function setInitialSelected(\TKusy\Hl7FhirR4\BooleanType $initialSelected)
     {
         $this->initialSelected = $initialSelected;
         return $this;

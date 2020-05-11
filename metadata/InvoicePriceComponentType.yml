@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\InvoicePriceComponentType:
             accessor:
                 getter: getFactor
                 setter: setFactor
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         amount:
             expose: true
             access_type: public_method

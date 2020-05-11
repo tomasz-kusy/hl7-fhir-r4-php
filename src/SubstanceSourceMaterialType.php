@@ -42,7 +42,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
     /**
      * The organism accepted Scientific name shall be provided based on the organism taxonomy.
      *
-     * @var string $organismName
+     * @var \TKusy\Hl7FhirR4\StringType $organismName
      */
     private $organismName = null;
 
@@ -56,7 +56,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
     /**
      * The parent substance of the Herbal Drug, or Herbal preparation.
      *
-     * @var string[] $parentSubstanceName
+     * @var \TKusy\Hl7FhirR4\StringType[] $parentSubstanceName
      */
     private $parentSubstanceName = null;
 
@@ -70,7 +70,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
     /**
      * The place/region where the plant is harvested or the places/regions where the animal source material has its habitat.
      *
-     * @var string[] $geographicalLocation
+     * @var \TKusy\Hl7FhirR4\StringType[] $geographicalLocation
      */
     private $geographicalLocation = null;
 
@@ -211,7 +211,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * The organism accepted Scientific name shall be provided based on the organism taxonomy.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getOrganismName()
     {
@@ -223,10 +223,10 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * The organism accepted Scientific name shall be provided based on the organism taxonomy.
      *
-     * @param string $organismName
+     * @param \TKusy\Hl7FhirR4\StringType $organismName
      * @return self
      */
-    public function setOrganismName($organismName)
+    public function setOrganismName(\TKusy\Hl7FhirR4\StringType $organismName)
     {
         $this->organismName = $organismName;
         return $this;
@@ -304,9 +304,9 @@ class SubstanceSourceMaterialType extends DomainResourceType
      * The parent substance of the Herbal Drug, or Herbal preparation.
      *
      * @return self
-     * @param string $parentSubstanceName
+     * @param \TKusy\Hl7FhirR4\StringType $parentSubstanceName
      */
-    public function addToParentSubstanceName($parentSubstanceName)
+    public function addToParentSubstanceName(\TKusy\Hl7FhirR4\StringType $parentSubstanceName)
     {
         $this->parentSubstanceName[] = $parentSubstanceName;
         return $this;
@@ -343,7 +343,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * The parent substance of the Herbal Drug, or Herbal preparation.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getParentSubstanceName()
     {
@@ -355,7 +355,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * The parent substance of the Herbal Drug, or Herbal preparation.
      *
-     * @param string[] $parentSubstanceName
+     * @param \TKusy\Hl7FhirR4\StringType[] $parentSubstanceName
      * @return self
      */
     public function setParentSubstanceName(array $parentSubstanceName)
@@ -436,9 +436,9 @@ class SubstanceSourceMaterialType extends DomainResourceType
      * The place/region where the plant is harvested or the places/regions where the animal source material has its habitat.
      *
      * @return self
-     * @param string $geographicalLocation
+     * @param \TKusy\Hl7FhirR4\StringType $geographicalLocation
      */
-    public function addToGeographicalLocation($geographicalLocation)
+    public function addToGeographicalLocation(\TKusy\Hl7FhirR4\StringType $geographicalLocation)
     {
         $this->geographicalLocation[] = $geographicalLocation;
         return $this;
@@ -475,7 +475,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * The place/region where the plant is harvested or the places/regions where the animal source material has its habitat.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getGeographicalLocation()
     {
@@ -487,7 +487,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * The place/region where the plant is harvested or the places/regions where the animal source material has its habitat.
      *
-     * @param string[] $geographicalLocation
+     * @param \TKusy\Hl7FhirR4\StringType[] $geographicalLocation
      * @return self
      */
     public function setGeographicalLocation(array $geographicalLocation)

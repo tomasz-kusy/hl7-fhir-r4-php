@@ -92,7 +92,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             accessor:
                 getter: getCondition
                 setter: setCondition
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         periodType:
             expose: true
             access_type: public_method
@@ -148,7 +148,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
             accessor:
                 getter: getText
                 setter: setText
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         linkId:
             expose: true
             access_type: public_method
@@ -163,7 +163,7 @@ TKusy\Hl7FhirR4\ContractAssetType:
                 inline: true
                 entry_name: linkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         answer:
             expose: true
             access_type: public_method

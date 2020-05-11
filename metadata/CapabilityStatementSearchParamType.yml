@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSearchParamType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         definition:
             expose: true
             access_type: public_method

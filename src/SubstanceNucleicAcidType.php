@@ -21,14 +21,14 @@ class SubstanceNucleicAcidType extends DomainResourceType
     /**
      * The number of linear sequences of nucleotides linked through phosphodiester bonds shall be described. Subunits would be strands of nucleic acids that are tightly associated typically through Watson-Crick base pairing. NOTE: If not specified in the reference source, the assumption is that there is 1 subunit.
      *
-     * @var \integer $numberOfSubunits
+     * @var \TKusy\Hl7FhirR4\IntegerType $numberOfSubunits
      */
     private $numberOfSubunits = null;
 
     /**
      * The area of hybridisation shall be described if applicable for double stranded RNA or DNA. The number associated with the subunit followed by the number associated to the residue shall be specified in increasing order. The underscore “” shall be used as separator as follows: “Subunitnumber Residue”.
      *
-     * @var string $areaOfHybridisation
+     * @var \TKusy\Hl7FhirR4\StringType $areaOfHybridisation
      */
     private $areaOfHybridisation = null;
 
@@ -77,7 +77,7 @@ class SubstanceNucleicAcidType extends DomainResourceType
      *
      * The number of linear sequences of nucleotides linked through phosphodiester bonds shall be described. Subunits would be strands of nucleic acids that are tightly associated typically through Watson-Crick base pairing. NOTE: If not specified in the reference source, the assumption is that there is 1 subunit.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getNumberOfSubunits()
     {
@@ -89,10 +89,10 @@ class SubstanceNucleicAcidType extends DomainResourceType
      *
      * The number of linear sequences of nucleotides linked through phosphodiester bonds shall be described. Subunits would be strands of nucleic acids that are tightly associated typically through Watson-Crick base pairing. NOTE: If not specified in the reference source, the assumption is that there is 1 subunit.
      *
-     * @param \integer $numberOfSubunits
+     * @param \TKusy\Hl7FhirR4\IntegerType $numberOfSubunits
      * @return self
      */
-    public function setNumberOfSubunits(\integer $numberOfSubunits)
+    public function setNumberOfSubunits(\TKusy\Hl7FhirR4\IntegerType $numberOfSubunits)
     {
         $this->numberOfSubunits = $numberOfSubunits;
         return $this;
@@ -103,7 +103,7 @@ class SubstanceNucleicAcidType extends DomainResourceType
      *
      * The area of hybridisation shall be described if applicable for double stranded RNA or DNA. The number associated with the subunit followed by the number associated to the residue shall be specified in increasing order. The underscore “” shall be used as separator as follows: “Subunitnumber Residue”.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAreaOfHybridisation()
     {
@@ -115,10 +115,10 @@ class SubstanceNucleicAcidType extends DomainResourceType
      *
      * The area of hybridisation shall be described if applicable for double stranded RNA or DNA. The number associated with the subunit followed by the number associated to the residue shall be specified in increasing order. The underscore “” shall be used as separator as follows: “Subunitnumber Residue”.
      *
-     * @param string $areaOfHybridisation
+     * @param \TKusy\Hl7FhirR4\StringType $areaOfHybridisation
      * @return self
      */
-    public function setAreaOfHybridisation($areaOfHybridisation)
+    public function setAreaOfHybridisation(\TKusy\Hl7FhirR4\StringType $areaOfHybridisation)
     {
         $this->areaOfHybridisation = $areaOfHybridisation;
         return $this;

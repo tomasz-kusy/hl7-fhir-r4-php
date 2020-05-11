@@ -21,7 +21,7 @@ class PatientCommunicationType extends BackboneElementType
     /**
      * Indicates whether or not the patient prefers this language (over other languages he masters up a certain level).
      *
-     * @var bool $preferred
+     * @var \TKusy\Hl7FhirR4\BooleanType $preferred
      */
     private $preferred = null;
 
@@ -56,7 +56,7 @@ class PatientCommunicationType extends BackboneElementType
      *
      * Indicates whether or not the patient prefers this language (over other languages he masters up a certain level).
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getPreferred()
     {
@@ -68,10 +68,10 @@ class PatientCommunicationType extends BackboneElementType
      *
      * Indicates whether or not the patient prefers this language (over other languages he masters up a certain level).
      *
-     * @param bool $preferred
+     * @param \TKusy\Hl7FhirR4\BooleanType $preferred
      * @return self
      */
-    public function setPreferred($preferred)
+    public function setPreferred(\TKusy\Hl7FhirR4\BooleanType $preferred)
     {
         $this->preferred = $preferred;
         return $this;

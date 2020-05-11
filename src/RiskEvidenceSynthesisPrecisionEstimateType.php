@@ -21,21 +21,21 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
     /**
      * Use 95 for a 95% confidence interval.
      *
-     * @var float $level
+     * @var \TKusy\Hl7FhirR4\DecimalType $level
      */
     private $level = null;
 
     /**
      * Lower bound of confidence interval.
      *
-     * @var float $from
+     * @var \TKusy\Hl7FhirR4\DecimalType $from
      */
     private $from = null;
 
     /**
      * Upper bound of confidence interval.
      *
-     * @var float $to
+     * @var \TKusy\Hl7FhirR4\DecimalType $to
      */
     private $to = null;
 
@@ -70,7 +70,7 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
      *
      * Use 95 for a 95% confidence interval.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getLevel()
     {
@@ -82,10 +82,10 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
      *
      * Use 95 for a 95% confidence interval.
      *
-     * @param float $level
+     * @param \TKusy\Hl7FhirR4\DecimalType $level
      * @return self
      */
-    public function setLevel($level)
+    public function setLevel(\TKusy\Hl7FhirR4\DecimalType $level)
     {
         $this->level = $level;
         return $this;
@@ -96,7 +96,7 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
      *
      * Lower bound of confidence interval.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getFrom()
     {
@@ -108,10 +108,10 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
      *
      * Lower bound of confidence interval.
      *
-     * @param float $from
+     * @param \TKusy\Hl7FhirR4\DecimalType $from
      * @return self
      */
-    public function setFrom($from)
+    public function setFrom(\TKusy\Hl7FhirR4\DecimalType $from)
     {
         $this->from = $from;
         return $this;
@@ -122,7 +122,7 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
      *
      * Upper bound of confidence interval.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getTo()
     {
@@ -134,10 +134,10 @@ class RiskEvidenceSynthesisPrecisionEstimateType extends BackboneElementType
      *
      * Upper bound of confidence interval.
      *
-     * @param float $to
+     * @param \TKusy\Hl7FhirR4\DecimalType $to
      * @return self
      */
-    public function setTo($to)
+    public function setTo(\TKusy\Hl7FhirR4\DecimalType $to)
     {
         $this->to = $to;
         return $this;

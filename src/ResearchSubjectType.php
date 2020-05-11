@@ -49,14 +49,14 @@ class ResearchSubjectType extends DomainResourceType
     /**
      * The name of the arm in the study the subject is expected to follow as part of this study.
      *
-     * @var string $assignedArm
+     * @var \TKusy\Hl7FhirR4\StringType $assignedArm
      */
     private $assignedArm = null;
 
     /**
      * The name of the arm in the study the subject actually followed as part of this study.
      *
-     * @var string $actualArm
+     * @var \TKusy\Hl7FhirR4\StringType $actualArm
      */
     private $actualArm = null;
 
@@ -242,7 +242,7 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject is expected to follow as part of this study.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAssignedArm()
     {
@@ -254,10 +254,10 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject is expected to follow as part of this study.
      *
-     * @param string $assignedArm
+     * @param \TKusy\Hl7FhirR4\StringType $assignedArm
      * @return self
      */
-    public function setAssignedArm($assignedArm)
+    public function setAssignedArm(\TKusy\Hl7FhirR4\StringType $assignedArm)
     {
         $this->assignedArm = $assignedArm;
         return $this;
@@ -268,7 +268,7 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject actually followed as part of this study.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getActualArm()
     {
@@ -280,10 +280,10 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject actually followed as part of this study.
      *
-     * @param string $actualArm
+     * @param \TKusy\Hl7FhirR4\StringType $actualArm
      * @return self
      */
-    public function setActualArm($actualArm)
+    public function setActualArm(\TKusy\Hl7FhirR4\StringType $actualArm)
     {
         $this->actualArm = $actualArm;
         return $this;

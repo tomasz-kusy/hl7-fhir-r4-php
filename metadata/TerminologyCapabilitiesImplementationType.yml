@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesImplementationType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         url:
             expose: true
             access_type: public_method

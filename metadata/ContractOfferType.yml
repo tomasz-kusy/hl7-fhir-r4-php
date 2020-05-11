@@ -103,7 +103,7 @@ TKusy\Hl7FhirR4\ContractOfferType:
             accessor:
                 getter: getText
                 setter: setText
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         linkId:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ TKusy\Hl7FhirR4\ContractOfferType:
                 inline: true
                 entry_name: linkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         securityLabelNumber:
             expose: true
             access_type: public_method

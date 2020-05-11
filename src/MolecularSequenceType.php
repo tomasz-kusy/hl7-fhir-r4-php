@@ -28,7 +28,7 @@ class MolecularSequenceType extends DomainResourceType
     /**
      * Whether the sequence is numbered starting at 0 (0-based numbering or coordinates, inclusive start, exclusive end) or starting at 1 (1-based numbering, inclusive start and inclusive end).
      *
-     * @var \integer $coordinateSystem
+     * @var \TKusy\Hl7FhirR4\IntegerType $coordinateSystem
      */
     private $coordinateSystem = null;
 
@@ -84,7 +84,7 @@ class MolecularSequenceType extends DomainResourceType
     /**
      * Sequence that was observed. It is the result marked by referenceSeq along with variant records on referenceSeq. This shall start from referenceSeq.windowStart and end by referenceSeq.windowEnd.
      *
-     * @var string $observedSeq
+     * @var \TKusy\Hl7FhirR4\StringType $observedSeq
      */
     private $observedSeq = null;
 
@@ -98,7 +98,7 @@ class MolecularSequenceType extends DomainResourceType
     /**
      * Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence.
      *
-     * @var \integer $readCoverage
+     * @var \TKusy\Hl7FhirR4\IntegerType $readCoverage
      */
     private $readCoverage = null;
 
@@ -220,7 +220,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Whether the sequence is numbered starting at 0 (0-based numbering or coordinates, inclusive start, exclusive end) or starting at 1 (1-based numbering, inclusive start and inclusive end).
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getCoordinateSystem()
     {
@@ -232,10 +232,10 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Whether the sequence is numbered starting at 0 (0-based numbering or coordinates, inclusive start, exclusive end) or starting at 1 (1-based numbering, inclusive start and inclusive end).
      *
-     * @param \integer $coordinateSystem
+     * @param \TKusy\Hl7FhirR4\IntegerType $coordinateSystem
      * @return self
      */
-    public function setCoordinateSystem(\integer $coordinateSystem)
+    public function setCoordinateSystem(\TKusy\Hl7FhirR4\IntegerType $coordinateSystem)
     {
         $this->coordinateSystem = $coordinateSystem;
         return $this;
@@ -468,7 +468,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Sequence that was observed. It is the result marked by referenceSeq along with variant records on referenceSeq. This shall start from referenceSeq.windowStart and end by referenceSeq.windowEnd.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getObservedSeq()
     {
@@ -480,10 +480,10 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Sequence that was observed. It is the result marked by referenceSeq along with variant records on referenceSeq. This shall start from referenceSeq.windowStart and end by referenceSeq.windowEnd.
      *
-     * @param string $observedSeq
+     * @param \TKusy\Hl7FhirR4\StringType $observedSeq
      * @return self
      */
-    public function setObservedSeq($observedSeq)
+    public function setObservedSeq(\TKusy\Hl7FhirR4\StringType $observedSeq)
     {
         $this->observedSeq = $observedSeq;
         return $this;
@@ -560,7 +560,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getReadCoverage()
     {
@@ -572,10 +572,10 @@ class MolecularSequenceType extends DomainResourceType
      *
      * Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence.
      *
-     * @param \integer $readCoverage
+     * @param \TKusy\Hl7FhirR4\IntegerType $readCoverage
      * @return self
      */
-    public function setReadCoverage(\integer $readCoverage)
+    public function setReadCoverage(\TKusy\Hl7FhirR4\IntegerType $readCoverage)
     {
         $this->readCoverage = $readCoverage;
         return $this;

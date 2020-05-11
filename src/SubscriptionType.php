@@ -35,21 +35,21 @@ class SubscriptionType extends DomainResourceType
     /**
      * A description of why this subscription is defined.
      *
-     * @var string $reason
+     * @var \TKusy\Hl7FhirR4\StringType $reason
      */
     private $reason = null;
 
     /**
      * The rules that the server should use to determine when to generate notifications for this subscription.
      *
-     * @var string $criteria
+     * @var \TKusy\Hl7FhirR4\StringType $criteria
      */
     private $criteria = null;
 
     /**
      * A record of the last error that occurred when the server processed a notification.
      *
-     * @var string $error
+     * @var \TKusy\Hl7FhirR4\StringType $error
      */
     private $error = null;
 
@@ -183,7 +183,7 @@ class SubscriptionType extends DomainResourceType
      *
      * A description of why this subscription is defined.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getReason()
     {
@@ -195,10 +195,10 @@ class SubscriptionType extends DomainResourceType
      *
      * A description of why this subscription is defined.
      *
-     * @param string $reason
+     * @param \TKusy\Hl7FhirR4\StringType $reason
      * @return self
      */
-    public function setReason($reason)
+    public function setReason(\TKusy\Hl7FhirR4\StringType $reason)
     {
         $this->reason = $reason;
         return $this;
@@ -209,7 +209,7 @@ class SubscriptionType extends DomainResourceType
      *
      * The rules that the server should use to determine when to generate notifications for this subscription.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCriteria()
     {
@@ -221,10 +221,10 @@ class SubscriptionType extends DomainResourceType
      *
      * The rules that the server should use to determine when to generate notifications for this subscription.
      *
-     * @param string $criteria
+     * @param \TKusy\Hl7FhirR4\StringType $criteria
      * @return self
      */
-    public function setCriteria($criteria)
+    public function setCriteria(\TKusy\Hl7FhirR4\StringType $criteria)
     {
         $this->criteria = $criteria;
         return $this;
@@ -235,7 +235,7 @@ class SubscriptionType extends DomainResourceType
      *
      * A record of the last error that occurred when the server processed a notification.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getError()
     {
@@ -247,10 +247,10 @@ class SubscriptionType extends DomainResourceType
      *
      * A record of the last error that occurred when the server processed a notification.
      *
-     * @param string $error
+     * @param \TKusy\Hl7FhirR4\StringType $error
      * @return self
      */
-    public function setError($error)
+    public function setError(\TKusy\Hl7FhirR4\StringType $error)
     {
         $this->error = $error;
         return $this;

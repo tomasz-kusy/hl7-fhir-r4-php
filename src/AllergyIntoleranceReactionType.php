@@ -28,7 +28,7 @@ class AllergyIntoleranceReactionType extends BackboneElementType
     /**
      * Text description about the reaction as a whole, including details of the manifestation if required.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -157,7 +157,7 @@ class AllergyIntoleranceReactionType extends BackboneElementType
      *
      * Text description about the reaction as a whole, including details of the manifestation if required.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -169,10 +169,10 @@ class AllergyIntoleranceReactionType extends BackboneElementType
      *
      * Text description about the reaction as a whole, including details of the manifestation if required.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

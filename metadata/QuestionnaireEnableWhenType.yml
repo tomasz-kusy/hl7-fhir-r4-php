@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\QuestionnaireEnableWhenType:
             accessor:
                 getter: getQuestion
                 setter: setQuestion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         operator:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\QuestionnaireEnableWhenType:
             accessor:
                 getter: getAnswerBoolean
                 setter: setAnswerBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         answerDecimal:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\QuestionnaireEnableWhenType:
             accessor:
                 getter: getAnswerDecimal
                 setter: setAnswerDecimal
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         answerInteger:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\QuestionnaireEnableWhenType:
             accessor:
                 getter: getAnswerInteger
                 setter: setAnswerInteger
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         answerDate:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ TKusy\Hl7FhirR4\QuestionnaireEnableWhenType:
             accessor:
                 getter: getAnswerString
                 setter: setAnswerString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         answerCoding:
             expose: true
             access_type: public_method

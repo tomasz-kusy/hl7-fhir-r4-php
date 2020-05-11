@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\InsurancePlanBenefitType:
             accessor:
                 getter: getRequirement
                 setter: setRequirement
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         limit:
             expose: true
             access_type: public_method

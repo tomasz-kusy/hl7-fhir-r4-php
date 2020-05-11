@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MedicationBatchType:
             accessor:
                 getter: getLotNumber
                 setter: setLotNumber
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         expirationDate:
             expose: true
             access_type: public_method

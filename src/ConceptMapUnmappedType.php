@@ -28,7 +28,7 @@ class ConceptMapUnmappedType extends BackboneElementType
     /**
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @var string $display
+     * @var \TKusy\Hl7FhirR4\StringType $display
      */
     private $display = null;
 
@@ -96,7 +96,7 @@ class ConceptMapUnmappedType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisplay()
     {
@@ -108,10 +108,10 @@ class ConceptMapUnmappedType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @param string $display
+     * @param \TKusy\Hl7FhirR4\StringType $display
      * @return self
      */
-    public function setDisplay($display)
+    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
     {
         $this->display = $display;
         return $this;

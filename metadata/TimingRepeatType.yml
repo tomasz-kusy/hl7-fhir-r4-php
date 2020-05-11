@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             accessor:
                 getter: getDuration
                 setter: setDuration
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         durationMax:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             accessor:
                 getter: getDurationMax
                 setter: setDurationMax
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         durationUnit:
             expose: true
             access_type: public_method
@@ -120,7 +120,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         periodMax:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ TKusy\Hl7FhirR4\TimingRepeatType:
             accessor:
                 getter: getPeriodMax
                 setter: setPeriodMax
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         periodUnit:
             expose: true
             access_type: public_method

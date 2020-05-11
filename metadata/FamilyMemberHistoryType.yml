@@ -99,7 +99,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         relationship:
             expose: true
             access_type: public_method
@@ -154,7 +154,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryType:
             accessor:
                 getter: getBornString
                 setter: setBornString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         ageAge:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryType:
             accessor:
                 getter: getAgeString
                 setter: setAgeString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         estimatedAge:
             expose: true
             access_type: public_method
@@ -198,7 +198,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryType:
             accessor:
                 getter: getEstimatedAge
                 setter: setEstimatedAge
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         deceasedBoolean:
             expose: true
             access_type: public_method
@@ -209,7 +209,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryType:
             accessor:
                 getter: getDeceasedBoolean
                 setter: setDeceasedBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         deceasedAge:
             expose: true
             access_type: public_method
@@ -253,7 +253,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryType:
             accessor:
                 getter: getDeceasedString
                 setter: setDeceasedString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         reasonCode:
             expose: true
             access_type: public_method

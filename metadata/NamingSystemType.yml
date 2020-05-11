@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\NamingSystemType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\NamingSystemType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\NamingSystemType:
             accessor:
                 getter: getResponsible
                 setter: setResponsible
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         type:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ TKusy\Hl7FhirR4\NamingSystemType:
             accessor:
                 getter: getUsage
                 setter: setUsage
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         uniqueId:
             expose: true
             access_type: public_method

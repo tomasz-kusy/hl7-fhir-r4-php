@@ -40,7 +40,7 @@ TKusy\Hl7FhirR4\DeviceDefinitionType:
             accessor:
                 getter: getManufacturerString
                 setter: setManufacturerString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         manufacturerReference:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ TKusy\Hl7FhirR4\DeviceDefinitionType:
             accessor:
                 getter: getModelNumber
                 setter: setModelNumber
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         type:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ TKusy\Hl7FhirR4\DeviceDefinitionType:
                 inline: true
                 entry_name: version
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         safety:
             expose: true
             access_type: public_method

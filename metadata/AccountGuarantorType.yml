@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\AccountGuarantorType:
             accessor:
                 getter: getOnHold
                 setter: setOnHold
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         period:
             expose: true
             access_type: public_method

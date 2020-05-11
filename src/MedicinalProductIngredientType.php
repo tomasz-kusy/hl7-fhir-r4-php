@@ -28,7 +28,7 @@ class MedicinalProductIngredientType extends DomainResourceType
     /**
      * If the ingredient is a known or suspected allergen.
      *
-     * @var bool $allergenicIndicator
+     * @var \TKusy\Hl7FhirR4\BooleanType $allergenicIndicator
      */
     private $allergenicIndicator = null;
 
@@ -110,7 +110,7 @@ class MedicinalProductIngredientType extends DomainResourceType
      *
      * If the ingredient is a known or suspected allergen.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAllergenicIndicator()
     {
@@ -122,10 +122,10 @@ class MedicinalProductIngredientType extends DomainResourceType
      *
      * If the ingredient is a known or suspected allergen.
      *
-     * @param bool $allergenicIndicator
+     * @param \TKusy\Hl7FhirR4\BooleanType $allergenicIndicator
      * @return self
      */
-    public function setAllergenicIndicator($allergenicIndicator)
+    public function setAllergenicIndicator(\TKusy\Hl7FhirR4\BooleanType $allergenicIndicator)
     {
         $this->allergenicIndicator = $allergenicIndicator;
         return $this;

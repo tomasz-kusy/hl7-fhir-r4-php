@@ -21,7 +21,7 @@ class StructureDefinitionContextType extends BackboneElementType
     /**
      * An expression that defines where an extension can be used in resources.
      *
-     * @var string $expression
+     * @var \TKusy\Hl7FhirR4\StringType $expression
      */
     private $expression = null;
 
@@ -56,7 +56,7 @@ class StructureDefinitionContextType extends BackboneElementType
      *
      * An expression that defines where an extension can be used in resources.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getExpression()
     {
@@ -68,10 +68,10 @@ class StructureDefinitionContextType extends BackboneElementType
      *
      * An expression that defines where an extension can be used in resources.
      *
-     * @param string $expression
+     * @param \TKusy\Hl7FhirR4\StringType $expression
      * @return self
      */
-    public function setExpression($expression)
+    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
     {
         $this->expression = $expression;
         return $this;

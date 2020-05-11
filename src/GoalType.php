@@ -91,7 +91,7 @@ class GoalType extends DomainResourceType
     /**
      * Captures the reason for the current status.
      *
-     * @var string $statusReason
+     * @var \TKusy\Hl7FhirR4\StringType $statusReason
      */
     private $statusReason = null;
 
@@ -541,7 +541,7 @@ class GoalType extends DomainResourceType
      *
      * Captures the reason for the current status.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getStatusReason()
     {
@@ -553,10 +553,10 @@ class GoalType extends DomainResourceType
      *
      * Captures the reason for the current status.
      *
-     * @param string $statusReason
+     * @param \TKusy\Hl7FhirR4\StringType $statusReason
      * @return self
      */
-    public function setStatusReason($statusReason)
+    public function setStatusReason(\TKusy\Hl7FhirR4\StringType $statusReason)
     {
         $this->statusReason = $statusReason;
         return $this;

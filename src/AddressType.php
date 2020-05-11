@@ -28,49 +28,49 @@ class AddressType extends ElementType
     /**
      * Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts.
      *
-     * @var string $text
+     * @var \TKusy\Hl7FhirR4\StringType $text
      */
     private $text = null;
 
     /**
      * This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information.
      *
-     * @var string[] $line
+     * @var \TKusy\Hl7FhirR4\StringType[] $line
      */
     private $line = null;
 
     /**
      * The name of the city, town, suburb, village or other community or delivery center.
      *
-     * @var string $city
+     * @var \TKusy\Hl7FhirR4\StringType $city
      */
     private $city = null;
 
     /**
      * The name of the administrative area (county).
      *
-     * @var string $district
+     * @var \TKusy\Hl7FhirR4\StringType $district
      */
     private $district = null;
 
     /**
      * Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
      *
-     * @var string $state
+     * @var \TKusy\Hl7FhirR4\StringType $state
      */
     private $state = null;
 
     /**
      * A postal code designating a region defined by the postal service.
      *
-     * @var string $postalCode
+     * @var \TKusy\Hl7FhirR4\StringType $postalCode
      */
     private $postalCode = null;
 
     /**
      * Country - a nation as commonly understood or generally accepted.
      *
-     * @var string $country
+     * @var \TKusy\Hl7FhirR4\StringType $country
      */
     private $country = null;
 
@@ -138,7 +138,7 @@ class AddressType extends ElementType
      *
      * Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getText()
     {
@@ -150,10 +150,10 @@ class AddressType extends ElementType
      *
      * Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts.
      *
-     * @param string $text
+     * @param \TKusy\Hl7FhirR4\StringType $text
      * @return self
      */
-    public function setText($text)
+    public function setText(\TKusy\Hl7FhirR4\StringType $text)
     {
         $this->text = $text;
         return $this;
@@ -165,9 +165,9 @@ class AddressType extends ElementType
      * This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information.
      *
      * @return self
-     * @param string $line
+     * @param \TKusy\Hl7FhirR4\StringType $line
      */
-    public function addToLine($line)
+    public function addToLine(\TKusy\Hl7FhirR4\StringType $line)
     {
         $this->line[] = $line;
         return $this;
@@ -204,7 +204,7 @@ class AddressType extends ElementType
      *
      * This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getLine()
     {
@@ -216,7 +216,7 @@ class AddressType extends ElementType
      *
      * This component contains the house number, apartment number, street name, street direction, P.O. Box number, delivery hints, and similar address information.
      *
-     * @param string[] $line
+     * @param \TKusy\Hl7FhirR4\StringType[] $line
      * @return self
      */
     public function setLine(array $line)
@@ -230,7 +230,7 @@ class AddressType extends ElementType
      *
      * The name of the city, town, suburb, village or other community or delivery center.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCity()
     {
@@ -242,10 +242,10 @@ class AddressType extends ElementType
      *
      * The name of the city, town, suburb, village or other community or delivery center.
      *
-     * @param string $city
+     * @param \TKusy\Hl7FhirR4\StringType $city
      * @return self
      */
-    public function setCity($city)
+    public function setCity(\TKusy\Hl7FhirR4\StringType $city)
     {
         $this->city = $city;
         return $this;
@@ -256,7 +256,7 @@ class AddressType extends ElementType
      *
      * The name of the administrative area (county).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDistrict()
     {
@@ -268,10 +268,10 @@ class AddressType extends ElementType
      *
      * The name of the administrative area (county).
      *
-     * @param string $district
+     * @param \TKusy\Hl7FhirR4\StringType $district
      * @return self
      */
-    public function setDistrict($district)
+    public function setDistrict(\TKusy\Hl7FhirR4\StringType $district)
     {
         $this->district = $district;
         return $this;
@@ -282,7 +282,7 @@ class AddressType extends ElementType
      *
      * Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getState()
     {
@@ -294,10 +294,10 @@ class AddressType extends ElementType
      *
      * Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes).
      *
-     * @param string $state
+     * @param \TKusy\Hl7FhirR4\StringType $state
      * @return self
      */
-    public function setState($state)
+    public function setState(\TKusy\Hl7FhirR4\StringType $state)
     {
         $this->state = $state;
         return $this;
@@ -308,7 +308,7 @@ class AddressType extends ElementType
      *
      * A postal code designating a region defined by the postal service.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPostalCode()
     {
@@ -320,10 +320,10 @@ class AddressType extends ElementType
      *
      * A postal code designating a region defined by the postal service.
      *
-     * @param string $postalCode
+     * @param \TKusy\Hl7FhirR4\StringType $postalCode
      * @return self
      */
-    public function setPostalCode($postalCode)
+    public function setPostalCode(\TKusy\Hl7FhirR4\StringType $postalCode)
     {
         $this->postalCode = $postalCode;
         return $this;
@@ -334,7 +334,7 @@ class AddressType extends ElementType
      *
      * Country - a nation as commonly understood or generally accepted.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCountry()
     {
@@ -346,10 +346,10 @@ class AddressType extends ElementType
      *
      * Country - a nation as commonly understood or generally accepted.
      *
-     * @param string $country
+     * @param \TKusy\Hl7FhirR4\StringType $country
      * @return self
      */
-    public function setCountry($country)
+    public function setCountry(\TKusy\Hl7FhirR4\StringType $country)
     {
         $this->country = $country;
         return $this;

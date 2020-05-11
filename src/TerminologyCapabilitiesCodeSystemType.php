@@ -28,7 +28,7 @@ class TerminologyCapabilitiesCodeSystemType extends BackboneElementType
     /**
      * True if subsumption is supported for this version of the code system.
      *
-     * @var bool $subsumption
+     * @var \TKusy\Hl7FhirR4\BooleanType $subsumption
      */
     private $subsumption = null;
 
@@ -129,7 +129,7 @@ class TerminologyCapabilitiesCodeSystemType extends BackboneElementType
      *
      * True if subsumption is supported for this version of the code system.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getSubsumption()
     {
@@ -141,10 +141,10 @@ class TerminologyCapabilitiesCodeSystemType extends BackboneElementType
      *
      * True if subsumption is supported for this version of the code system.
      *
-     * @param bool $subsumption
+     * @param \TKusy\Hl7FhirR4\BooleanType $subsumption
      * @return self
      */
-    public function setSubsumption($subsumption)
+    public function setSubsumption(\TKusy\Hl7FhirR4\BooleanType $subsumption)
     {
         $this->subsumption = $subsumption;
         return $this;

@@ -21,7 +21,7 @@ class AccountGuarantorType extends BackboneElementType
     /**
      * A guarantor may be placed on credit hold or otherwise have their role temporarily suspended.
      *
-     * @var bool $onHold
+     * @var \TKusy\Hl7FhirR4\BooleanType $onHold
      */
     private $onHold = null;
 
@@ -63,7 +63,7 @@ class AccountGuarantorType extends BackboneElementType
      *
      * A guarantor may be placed on credit hold or otherwise have their role temporarily suspended.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getOnHold()
     {
@@ -75,10 +75,10 @@ class AccountGuarantorType extends BackboneElementType
      *
      * A guarantor may be placed on credit hold or otherwise have their role temporarily suspended.
      *
-     * @param bool $onHold
+     * @param \TKusy\Hl7FhirR4\BooleanType $onHold
      * @return self
      */
-    public function setOnHold($onHold)
+    public function setOnHold(\TKusy\Hl7FhirR4\BooleanType $onHold)
     {
         $this->onHold = $onHold;
         return $this;

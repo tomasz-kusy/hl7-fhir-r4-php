@@ -56,14 +56,14 @@ class ContractValuedItemType extends BackboneElementType
     /**
      * A real number that represents a multiplier used in determining the overall value of the Contract Valued Item delivered. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.
      *
-     * @var float $factor
+     * @var \TKusy\Hl7FhirR4\DecimalType $factor
      */
     private $factor = null;
 
     /**
      * An amount that expresses the weighting (based on difficulty, cost and/or resource intensiveness) associated with the Contract Valued Item delivered. The concept of Points allows for assignment of point values for a Contract Valued Item, such that a monetary amount can be assigned to each point.
      *
-     * @var float $points
+     * @var \TKusy\Hl7FhirR4\DecimalType $points
      */
     private $points = null;
 
@@ -77,7 +77,7 @@ class ContractValuedItemType extends BackboneElementType
     /**
      * Terms of valuation.
      *
-     * @var string $payment
+     * @var \TKusy\Hl7FhirR4\StringType $payment
      */
     private $payment = null;
 
@@ -105,7 +105,7 @@ class ContractValuedItemType extends BackboneElementType
     /**
      * Id of the clause or question text related to the context of this valuedItem in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $linkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
     private $linkId = null;
 
@@ -277,7 +277,7 @@ class ContractValuedItemType extends BackboneElementType
      *
      * A real number that represents a multiplier used in determining the overall value of the Contract Valued Item delivered. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getFactor()
     {
@@ -289,10 +289,10 @@ class ContractValuedItemType extends BackboneElementType
      *
      * A real number that represents a multiplier used in determining the overall value of the Contract Valued Item delivered. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.
      *
-     * @param float $factor
+     * @param \TKusy\Hl7FhirR4\DecimalType $factor
      * @return self
      */
-    public function setFactor($factor)
+    public function setFactor(\TKusy\Hl7FhirR4\DecimalType $factor)
     {
         $this->factor = $factor;
         return $this;
@@ -303,7 +303,7 @@ class ContractValuedItemType extends BackboneElementType
      *
      * An amount that expresses the weighting (based on difficulty, cost and/or resource intensiveness) associated with the Contract Valued Item delivered. The concept of Points allows for assignment of point values for a Contract Valued Item, such that a monetary amount can be assigned to each point.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getPoints()
     {
@@ -315,10 +315,10 @@ class ContractValuedItemType extends BackboneElementType
      *
      * An amount that expresses the weighting (based on difficulty, cost and/or resource intensiveness) associated with the Contract Valued Item delivered. The concept of Points allows for assignment of point values for a Contract Valued Item, such that a monetary amount can be assigned to each point.
      *
-     * @param float $points
+     * @param \TKusy\Hl7FhirR4\DecimalType $points
      * @return self
      */
-    public function setPoints($points)
+    public function setPoints(\TKusy\Hl7FhirR4\DecimalType $points)
     {
         $this->points = $points;
         return $this;
@@ -355,7 +355,7 @@ class ContractValuedItemType extends BackboneElementType
      *
      * Terms of valuation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPayment()
     {
@@ -367,10 +367,10 @@ class ContractValuedItemType extends BackboneElementType
      *
      * Terms of valuation.
      *
-     * @param string $payment
+     * @param \TKusy\Hl7FhirR4\StringType $payment
      * @return self
      */
-    public function setPayment($payment)
+    public function setPayment(\TKusy\Hl7FhirR4\StringType $payment)
     {
         $this->payment = $payment;
         return $this;
@@ -460,9 +460,9 @@ class ContractValuedItemType extends BackboneElementType
      * Id of the clause or question text related to the context of this valuedItem in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $linkId
+     * @param \TKusy\Hl7FhirR4\StringType $linkId
      */
-    public function addToLinkId($linkId)
+    public function addToLinkId(\TKusy\Hl7FhirR4\StringType $linkId)
     {
         $this->linkId[] = $linkId;
         return $this;
@@ -499,7 +499,7 @@ class ContractValuedItemType extends BackboneElementType
      *
      * Id of the clause or question text related to the context of this valuedItem in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getLinkId()
     {
@@ -511,7 +511,7 @@ class ContractValuedItemType extends BackboneElementType
      *
      * Id of the clause or question text related to the context of this valuedItem in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $linkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $linkId
      * @return self
      */
     public function setLinkId(array $linkId)

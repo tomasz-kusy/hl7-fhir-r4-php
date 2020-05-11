@@ -137,7 +137,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         description:
             expose: true
             access_type: public_method
@@ -148,7 +148,7 @@ TKusy\Hl7FhirR4\CarePlanType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         subject:
             expose: true
             access_type: public_method

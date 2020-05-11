@@ -28,7 +28,7 @@ class GroupCharacteristicType extends BackboneElementType
     /**
      * The value of the trait that holds (or does not hold - see 'exclude') for members of the group. (choose any one of value*, but only one)
      *
-     * @var bool $valueBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      */
     private $valueBoolean = null;
 
@@ -56,7 +56,7 @@ class GroupCharacteristicType extends BackboneElementType
     /**
      * If true, indicates the characteristic is one that is NOT held by members of the group.
      *
-     * @var bool $exclude
+     * @var \TKusy\Hl7FhirR4\BooleanType $exclude
      */
     private $exclude = null;
 
@@ -124,7 +124,7 @@ class GroupCharacteristicType extends BackboneElementType
      *
      * The value of the trait that holds (or does not hold - see 'exclude') for members of the group. (choose any one of value*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getValueBoolean()
     {
@@ -136,10 +136,10 @@ class GroupCharacteristicType extends BackboneElementType
      *
      * The value of the trait that holds (or does not hold - see 'exclude') for members of the group. (choose any one of value*, but only one)
      *
-     * @param bool $valueBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      * @return self
      */
-    public function setValueBoolean($valueBoolean)
+    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -228,7 +228,7 @@ class GroupCharacteristicType extends BackboneElementType
      *
      * If true, indicates the characteristic is one that is NOT held by members of the group.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExclude()
     {
@@ -240,10 +240,10 @@ class GroupCharacteristicType extends BackboneElementType
      *
      * If true, indicates the characteristic is one that is NOT held by members of the group.
      *
-     * @param bool $exclude
+     * @param \TKusy\Hl7FhirR4\BooleanType $exclude
      * @return self
      */
-    public function setExclude($exclude)
+    public function setExclude(\TKusy\Hl7FhirR4\BooleanType $exclude)
     {
         $this->exclude = $exclude;
         return $this;

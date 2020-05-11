@@ -161,7 +161,7 @@ TKusy\Hl7FhirR4\AllergyIntoleranceType:
             accessor:
                 getter: getOnsetString
                 setter: setOnsetString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         recordedDate:
             expose: true
             access_type: public_method

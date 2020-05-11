@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePageType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         generation:
             expose: true
             access_type: public_method

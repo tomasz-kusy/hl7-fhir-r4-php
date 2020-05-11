@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\CatalogEntryType:
             accessor:
                 getter: getOrderable
                 setter: setOrderable
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         referencedItem:
             expose: true
             access_type: public_method

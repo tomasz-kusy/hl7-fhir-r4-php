@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\ContractValuedItemType:
             accessor:
                 getter: getFactor
                 setter: setFactor
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         points:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\ContractValuedItemType:
             accessor:
                 getter: getPoints
                 setter: setPoints
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         net:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ TKusy\Hl7FhirR4\ContractValuedItemType:
             accessor:
                 getter: getPayment
                 setter: setPayment
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         paymentDate:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ TKusy\Hl7FhirR4\ContractValuedItemType:
                 inline: true
                 entry_name: linkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         securityLabelNumber:
             expose: true
             access_type: public_method

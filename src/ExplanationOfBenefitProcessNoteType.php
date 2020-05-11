@@ -28,7 +28,7 @@ class ExplanationOfBenefitProcessNoteType extends BackboneElementType
     /**
      * The explanation or description associated with the processing.
      *
-     * @var string $text
+     * @var \TKusy\Hl7FhirR4\StringType $text
      */
     private $text = null;
 
@@ -96,7 +96,7 @@ class ExplanationOfBenefitProcessNoteType extends BackboneElementType
      *
      * The explanation or description associated with the processing.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getText()
     {
@@ -108,10 +108,10 @@ class ExplanationOfBenefitProcessNoteType extends BackboneElementType
      *
      * The explanation or description associated with the processing.
      *
-     * @param string $text
+     * @param \TKusy\Hl7FhirR4\StringType $text
      * @return self
      */
-    public function setText($text)
+    public function setText(\TKusy\Hl7FhirR4\StringType $text)
     {
         $this->text = $text;
         return $this;

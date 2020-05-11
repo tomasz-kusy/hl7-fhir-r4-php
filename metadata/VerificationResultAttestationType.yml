@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\VerificationResultAttestationType:
             accessor:
                 getter: getSourceIdentityCertificate
                 setter: setSourceIdentityCertificate
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         proxyIdentityCertificate:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\VerificationResultAttestationType:
             accessor:
                 getter: getProxyIdentityCertificate
                 setter: setProxyIdentityCertificate
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         proxySignature:
             expose: true
             access_type: public_method

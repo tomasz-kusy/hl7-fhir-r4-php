@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         capacity:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             accessor:
                 getter: getMinimumVolumeString
                 setter: setMinimumVolumeString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         additive:
             expose: true
             access_type: public_method
@@ -102,4 +102,4 @@ TKusy\Hl7FhirR4\SpecimenDefinitionContainerType:
             accessor:
                 getter: getPreparation
                 setter: setPreparation
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

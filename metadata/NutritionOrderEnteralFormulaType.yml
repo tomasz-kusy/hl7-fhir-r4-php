@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             accessor:
                 getter: getBaseFormulaProductName
                 setter: setBaseFormulaProductName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         additiveType:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             accessor:
                 getter: getAdditiveProductName
                 setter: setAdditiveProductName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         caloricDensity:
             expose: true
             access_type: public_method
@@ -102,4 +102,4 @@ TKusy\Hl7FhirR4\NutritionOrderEnteralFormulaType:
             accessor:
                 getter: getAdministrationInstruction
                 setter: setAdministrationInstruction
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

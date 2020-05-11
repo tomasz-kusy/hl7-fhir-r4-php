@@ -35,7 +35,7 @@ class ImagingStudySeriesType extends BackboneElementType
     /**
      * A description of the series.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -178,7 +178,7 @@ class ImagingStudySeriesType extends BackboneElementType
      *
      * A description of the series.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -190,10 +190,10 @@ class ImagingStudySeriesType extends BackboneElementType
      *
      * A description of the series.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

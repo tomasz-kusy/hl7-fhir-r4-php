@@ -175,14 +175,14 @@ class ExplanationOfBenefitType extends DomainResourceType
     /**
      * A human readable description of the status of the adjudication.
      *
-     * @var string $disposition
+     * @var \TKusy\Hl7FhirR4\StringType $disposition
      */
     private $disposition = null;
 
     /**
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
-     * @var string[] $preAuthRef
+     * @var \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      */
     private $preAuthRef = null;
 
@@ -995,7 +995,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * A human readable description of the status of the adjudication.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisposition()
     {
@@ -1007,10 +1007,10 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * A human readable description of the status of the adjudication.
      *
-     * @param string $disposition
+     * @param \TKusy\Hl7FhirR4\StringType $disposition
      * @return self
      */
-    public function setDisposition($disposition)
+    public function setDisposition(\TKusy\Hl7FhirR4\StringType $disposition)
     {
         $this->disposition = $disposition;
         return $this;
@@ -1022,9 +1022,9 @@ class ExplanationOfBenefitType extends DomainResourceType
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
      * @return self
-     * @param string $preAuthRef
+     * @param \TKusy\Hl7FhirR4\StringType $preAuthRef
      */
-    public function addToPreAuthRef($preAuthRef)
+    public function addToPreAuthRef(\TKusy\Hl7FhirR4\StringType $preAuthRef)
     {
         $this->preAuthRef[] = $preAuthRef;
         return $this;
@@ -1061,7 +1061,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getPreAuthRef()
     {
@@ -1073,7 +1073,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
-     * @param string[] $preAuthRef
+     * @param \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      * @return self
      */
     public function setPreAuthRef(array $preAuthRef)

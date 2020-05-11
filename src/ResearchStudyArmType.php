@@ -14,7 +14,7 @@ class ResearchStudyArmType extends BackboneElementType
     /**
      * Unique, human-readable label for this arm of the study.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -28,7 +28,7 @@ class ResearchStudyArmType extends BackboneElementType
     /**
      * A succinct description of the path through the study that would be followed by a subject adhering to this arm.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -37,7 +37,7 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * Unique, human-readable label for this arm of the study.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -49,10 +49,10 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * Unique, human-readable label for this arm of the study.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -89,7 +89,7 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * A succinct description of the path through the study that would be followed by a subject adhering to this arm.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -101,10 +101,10 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * A succinct description of the path through the study that would be followed by a subject adhering to this arm.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

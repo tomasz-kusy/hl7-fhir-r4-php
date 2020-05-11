@@ -21,7 +21,7 @@ class HealthcareServiceAvailableTimeType extends BackboneElementType
     /**
      * Is this always available? (hence times are irrelevant) e.g. 24 hour service.
      *
-     * @var bool $allDay
+     * @var \TKusy\Hl7FhirR4\BooleanType $allDay
      */
     private $allDay = null;
 
@@ -110,7 +110,7 @@ class HealthcareServiceAvailableTimeType extends BackboneElementType
      *
      * Is this always available? (hence times are irrelevant) e.g. 24 hour service.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAllDay()
     {
@@ -122,10 +122,10 @@ class HealthcareServiceAvailableTimeType extends BackboneElementType
      *
      * Is this always available? (hence times are irrelevant) e.g. 24 hour service.
      *
-     * @param bool $allDay
+     * @param \TKusy\Hl7FhirR4\BooleanType $allDay
      * @return self
      */
-    public function setAllDay($allDay)
+    public function setAllDay(\TKusy\Hl7FhirR4\BooleanType $allDay)
     {
         $this->allDay = $allDay;
         return $this;

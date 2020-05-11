@@ -21,7 +21,7 @@ class SubstanceSpecificationRepresentationType extends BackboneElementType
     /**
      * The structural representation as text string in a format e.g. InChI, SMILES, MOLFILE, CDX.
      *
-     * @var string $representation
+     * @var \TKusy\Hl7FhirR4\StringType $representation
      */
     private $representation = null;
 
@@ -63,7 +63,7 @@ class SubstanceSpecificationRepresentationType extends BackboneElementType
      *
      * The structural representation as text string in a format e.g. InChI, SMILES, MOLFILE, CDX.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRepresentation()
     {
@@ -75,10 +75,10 @@ class SubstanceSpecificationRepresentationType extends BackboneElementType
      *
      * The structural representation as text string in a format e.g. InChI, SMILES, MOLFILE, CDX.
      *
-     * @param string $representation
+     * @param \TKusy\Hl7FhirR4\StringType $representation
      * @return self
      */
-    public function setRepresentation($representation)
+    public function setRepresentation(\TKusy\Hl7FhirR4\StringType $representation)
     {
         $this->representation = $representation;
         return $this;

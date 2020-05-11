@@ -14,21 +14,21 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
     /**
      * Human-readable summary of sample size.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
     /**
      * Number of studies included in this evidence synthesis.
      *
-     * @var \integer $numberOfStudies
+     * @var \TKusy\Hl7FhirR4\IntegerType $numberOfStudies
      */
     private $numberOfStudies = null;
 
     /**
      * Number of participants included in this evidence synthesis.
      *
-     * @var \integer $numberOfParticipants
+     * @var \TKusy\Hl7FhirR4\IntegerType $numberOfParticipants
      */
     private $numberOfParticipants = null;
 
@@ -37,7 +37,7 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
      *
      * Human-readable summary of sample size.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -49,10 +49,10 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
      *
      * Human-readable summary of sample size.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -63,7 +63,7 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
      *
      * Number of studies included in this evidence synthesis.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getNumberOfStudies()
     {
@@ -75,10 +75,10 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
      *
      * Number of studies included in this evidence synthesis.
      *
-     * @param \integer $numberOfStudies
+     * @param \TKusy\Hl7FhirR4\IntegerType $numberOfStudies
      * @return self
      */
-    public function setNumberOfStudies(\integer $numberOfStudies)
+    public function setNumberOfStudies(\TKusy\Hl7FhirR4\IntegerType $numberOfStudies)
     {
         $this->numberOfStudies = $numberOfStudies;
         return $this;
@@ -89,7 +89,7 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
      *
      * Number of participants included in this evidence synthesis.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getNumberOfParticipants()
     {
@@ -101,10 +101,10 @@ class RiskEvidenceSynthesisSampleSizeType extends BackboneElementType
      *
      * Number of participants included in this evidence synthesis.
      *
-     * @param \integer $numberOfParticipants
+     * @param \TKusy\Hl7FhirR4\IntegerType $numberOfParticipants
      * @return self
      */
-    public function setNumberOfParticipants(\integer $numberOfParticipants)
+    public function setNumberOfParticipants(\TKusy\Hl7FhirR4\IntegerType $numberOfParticipants)
     {
         $this->numberOfParticipants = $numberOfParticipants;
         return $this;

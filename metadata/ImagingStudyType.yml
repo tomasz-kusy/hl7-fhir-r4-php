@@ -244,7 +244,7 @@ TKusy\Hl7FhirR4\ImagingStudyType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         series:
             expose: true
             access_type: public_method

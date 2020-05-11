@@ -35,7 +35,7 @@ class MessageDefinitionFocusType extends BackboneElementType
     /**
      * Identifies the maximum number of resources of this type that must be pointed to by a message in order for it to be valid against this MessageDefinition.
      *
-     * @var string $max
+     * @var \TKusy\Hl7FhirR4\StringType $max
      */
     private $max = null;
 
@@ -122,7 +122,7 @@ class MessageDefinitionFocusType extends BackboneElementType
      *
      * Identifies the maximum number of resources of this type that must be pointed to by a message in order for it to be valid against this MessageDefinition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMax()
     {
@@ -134,10 +134,10 @@ class MessageDefinitionFocusType extends BackboneElementType
      *
      * Identifies the maximum number of resources of this type that must be pointed to by a message in order for it to be valid against this MessageDefinition.
      *
-     * @param string $max
+     * @param \TKusy\Hl7FhirR4\StringType $max
      * @return self
      */
-    public function setMax($max)
+    public function setMax(\TKusy\Hl7FhirR4\StringType $max)
     {
         $this->max = $max;
         return $this;

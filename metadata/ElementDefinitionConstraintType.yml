@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             accessor:
                 getter: getRequirements
                 setter: setRequirements
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         severity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             accessor:
                 getter: getHuman
                 setter: setHuman
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         expression:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         xpath:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\ElementDefinitionConstraintType:
             accessor:
                 getter: getXpath
                 setter: setXpath
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         source:
             expose: true
             access_type: public_method

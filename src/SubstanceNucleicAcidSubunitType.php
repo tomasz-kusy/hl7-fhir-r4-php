@@ -14,21 +14,21 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
     /**
      * Index of linear sequences of nucleic acids in order of decreasing length. Sequences of the same length will be ordered by molecular weight. Subunits that have identical sequences will be repeated and have sequential subscripts.
      *
-     * @var \integer $subunit
+     * @var \TKusy\Hl7FhirR4\IntegerType $subunit
      */
     private $subunit = null;
 
     /**
      * Actual nucleotide sequence notation from 5' to 3' end using standard single letter codes. In addition to the base sequence, sugar and type of phosphate or non-phosphate linkage should also be captured.
      *
-     * @var string $sequence
+     * @var \TKusy\Hl7FhirR4\StringType $sequence
      */
     private $sequence = null;
 
     /**
      * The length of the sequence shall be captured.
      *
-     * @var \integer $length
+     * @var \TKusy\Hl7FhirR4\IntegerType $length
      */
     private $length = null;
 
@@ -72,7 +72,7 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * Index of linear sequences of nucleic acids in order of decreasing length. Sequences of the same length will be ordered by molecular weight. Subunits that have identical sequences will be repeated and have sequential subscripts.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getSubunit()
     {
@@ -84,10 +84,10 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * Index of linear sequences of nucleic acids in order of decreasing length. Sequences of the same length will be ordered by molecular weight. Subunits that have identical sequences will be repeated and have sequential subscripts.
      *
-     * @param \integer $subunit
+     * @param \TKusy\Hl7FhirR4\IntegerType $subunit
      * @return self
      */
-    public function setSubunit(\integer $subunit)
+    public function setSubunit(\TKusy\Hl7FhirR4\IntegerType $subunit)
     {
         $this->subunit = $subunit;
         return $this;
@@ -98,7 +98,7 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * Actual nucleotide sequence notation from 5' to 3' end using standard single letter codes. In addition to the base sequence, sugar and type of phosphate or non-phosphate linkage should also be captured.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSequence()
     {
@@ -110,10 +110,10 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * Actual nucleotide sequence notation from 5' to 3' end using standard single letter codes. In addition to the base sequence, sugar and type of phosphate or non-phosphate linkage should also be captured.
      *
-     * @param string $sequence
+     * @param \TKusy\Hl7FhirR4\StringType $sequence
      * @return self
      */
-    public function setSequence($sequence)
+    public function setSequence(\TKusy\Hl7FhirR4\StringType $sequence)
     {
         $this->sequence = $sequence;
         return $this;
@@ -124,7 +124,7 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * The length of the sequence shall be captured.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getLength()
     {
@@ -136,10 +136,10 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * The length of the sequence shall be captured.
      *
-     * @param \integer $length
+     * @param \TKusy\Hl7FhirR4\IntegerType $length
      * @return self
      */
-    public function setLength(\integer $length)
+    public function setLength(\TKusy\Hl7FhirR4\IntegerType $length)
     {
         $this->length = $length;
         return $this;

@@ -35,21 +35,21 @@ class CodeSystemProperty1Type extends BackboneElementType
     /**
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @var string $valueString
+     * @var \TKusy\Hl7FhirR4\StringType $valueString
      */
     private $valueString = null;
 
     /**
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @var \integer $valueInteger
+     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
      */
     private $valueInteger = null;
 
     /**
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @var bool $valueBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      */
     private $valueBoolean = null;
 
@@ -63,7 +63,7 @@ class CodeSystemProperty1Type extends BackboneElementType
     /**
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @var float $valueDecimal
+     * @var \TKusy\Hl7FhirR4\DecimalType $valueDecimal
      */
     private $valueDecimal = null;
 
@@ -150,7 +150,7 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValueString()
     {
@@ -162,10 +162,10 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @param string $valueString
+     * @param \TKusy\Hl7FhirR4\StringType $valueString
      * @return self
      */
-    public function setValueString($valueString)
+    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
     {
         $this->valueString = $valueString;
         return $this;
@@ -176,7 +176,7 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getValueInteger()
     {
@@ -188,10 +188,10 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @param \integer $valueInteger
+     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
      * @return self
      */
-    public function setValueInteger(\integer $valueInteger)
+    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;
@@ -202,7 +202,7 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getValueBoolean()
     {
@@ -214,10 +214,10 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @param bool $valueBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      * @return self
      */
-    public function setValueBoolean($valueBoolean)
+    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -254,7 +254,7 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getValueDecimal()
     {
@@ -266,10 +266,10 @@ class CodeSystemProperty1Type extends BackboneElementType
      *
      * The value of this property. (choose any one of value*, but only one)
      *
-     * @param float $valueDecimal
+     * @param \TKusy\Hl7FhirR4\DecimalType $valueDecimal
      * @return self
      */
-    public function setValueDecimal($valueDecimal)
+    public function setValueDecimal(\TKusy\Hl7FhirR4\DecimalType $valueDecimal)
     {
         $this->valueDecimal = $valueDecimal;
         return $this;

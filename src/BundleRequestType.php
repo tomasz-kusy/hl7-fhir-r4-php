@@ -28,7 +28,7 @@ class BundleRequestType extends BackboneElementType
     /**
      * If the ETag values match, return a 304 Not Modified status. See the API documentation for ["Conditional Read"](http.html#cread).
      *
-     * @var string $ifNoneMatch
+     * @var \TKusy\Hl7FhirR4\StringType $ifNoneMatch
      */
     private $ifNoneMatch = null;
 
@@ -42,14 +42,14 @@ class BundleRequestType extends BackboneElementType
     /**
      * Only perform the operation if the Etag value matches. For more information, see the API section ["Managing Resource Contention"](http.html#concurrency).
      *
-     * @var string $ifMatch
+     * @var \TKusy\Hl7FhirR4\StringType $ifMatch
      */
     private $ifMatch = null;
 
     /**
      * Instruct the server not to perform the create if a specified resource already exists. For further information, see the API documentation for ["Conditional Create"](http.html#ccreate). This is just the query portion of the URL - what follows the "?" (not including the "?").
      *
-     * @var string $ifNoneExist
+     * @var \TKusy\Hl7FhirR4\StringType $ifNoneExist
      */
     private $ifNoneExist = null;
 
@@ -110,7 +110,7 @@ class BundleRequestType extends BackboneElementType
      *
      * If the ETag values match, return a 304 Not Modified status. See the API documentation for ["Conditional Read"](http.html#cread).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getIfNoneMatch()
     {
@@ -122,10 +122,10 @@ class BundleRequestType extends BackboneElementType
      *
      * If the ETag values match, return a 304 Not Modified status. See the API documentation for ["Conditional Read"](http.html#cread).
      *
-     * @param string $ifNoneMatch
+     * @param \TKusy\Hl7FhirR4\StringType $ifNoneMatch
      * @return self
      */
-    public function setIfNoneMatch($ifNoneMatch)
+    public function setIfNoneMatch(\TKusy\Hl7FhirR4\StringType $ifNoneMatch)
     {
         $this->ifNoneMatch = $ifNoneMatch;
         return $this;
@@ -162,7 +162,7 @@ class BundleRequestType extends BackboneElementType
      *
      * Only perform the operation if the Etag value matches. For more information, see the API section ["Managing Resource Contention"](http.html#concurrency).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getIfMatch()
     {
@@ -174,10 +174,10 @@ class BundleRequestType extends BackboneElementType
      *
      * Only perform the operation if the Etag value matches. For more information, see the API section ["Managing Resource Contention"](http.html#concurrency).
      *
-     * @param string $ifMatch
+     * @param \TKusy\Hl7FhirR4\StringType $ifMatch
      * @return self
      */
-    public function setIfMatch($ifMatch)
+    public function setIfMatch(\TKusy\Hl7FhirR4\StringType $ifMatch)
     {
         $this->ifMatch = $ifMatch;
         return $this;
@@ -188,7 +188,7 @@ class BundleRequestType extends BackboneElementType
      *
      * Instruct the server not to perform the create if a specified resource already exists. For further information, see the API documentation for ["Conditional Create"](http.html#ccreate). This is just the query portion of the URL - what follows the "?" (not including the "?").
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getIfNoneExist()
     {
@@ -200,10 +200,10 @@ class BundleRequestType extends BackboneElementType
      *
      * Instruct the server not to perform the create if a specified resource already exists. For further information, see the API documentation for ["Conditional Create"](http.html#ccreate). This is just the query portion of the URL - what follows the "?" (not including the "?").
      *
-     * @param string $ifNoneExist
+     * @param \TKusy\Hl7FhirR4\StringType $ifNoneExist
      * @return self
      */
-    public function setIfNoneExist($ifNoneExist)
+    public function setIfNoneExist(\TKusy\Hl7FhirR4\StringType $ifNoneExist)
     {
         $this->ifNoneExist = $ifNoneExist;
         return $this;

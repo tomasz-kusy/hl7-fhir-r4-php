@@ -35,7 +35,7 @@ class ImagingStudyInstanceType extends BackboneElementType
     /**
      * The description of the instance.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -122,7 +122,7 @@ class ImagingStudyInstanceType extends BackboneElementType
      *
      * The description of the instance.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -134,10 +134,10 @@ class ImagingStudyInstanceType extends BackboneElementType
      *
      * The description of the instance.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;

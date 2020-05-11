@@ -14,7 +14,7 @@ class TestScriptOriginType extends BackboneElementType
     /**
      * Abstract name given to an origin server in this test script. The name is provided as a number starting at 1.
      *
-     * @var \integer $index
+     * @var \TKusy\Hl7FhirR4\IntegerType $index
      */
     private $index = null;
 
@@ -30,7 +30,7 @@ class TestScriptOriginType extends BackboneElementType
      *
      * Abstract name given to an origin server in this test script. The name is provided as a number starting at 1.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getIndex()
     {
@@ -42,10 +42,10 @@ class TestScriptOriginType extends BackboneElementType
      *
      * Abstract name given to an origin server in this test script. The name is provided as a number starting at 1.
      *
-     * @param \integer $index
+     * @param \TKusy\Hl7FhirR4\IntegerType $index
      * @return self
      */
-    public function setIndex(\integer $index)
+    public function setIndex(\TKusy\Hl7FhirR4\IntegerType $index)
     {
         $this->index = $index;
         return $this;

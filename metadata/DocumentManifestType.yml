@@ -121,7 +121,7 @@ TKusy\Hl7FhirR4\DocumentManifestType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         content:
             expose: true
             access_type: public_method

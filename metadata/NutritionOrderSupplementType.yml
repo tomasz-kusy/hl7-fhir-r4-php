@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\NutritionOrderSupplementType:
             accessor:
                 getter: getProductName
                 setter: setProductName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         schedule:
             expose: true
             access_type: public_method
@@ -58,4 +58,4 @@ TKusy\Hl7FhirR4\NutritionOrderSupplementType:
             accessor:
                 getter: getInstruction
                 setter: setInstruction
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

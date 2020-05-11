@@ -35,7 +35,7 @@ class SubstancePolymerType extends DomainResourceType
     /**
      * Todo.
      *
-     * @var string[] $modification
+     * @var \TKusy\Hl7FhirR4\StringType[] $modification
      */
     private $modification = null;
 
@@ -177,9 +177,9 @@ class SubstancePolymerType extends DomainResourceType
      * Todo.
      *
      * @return self
-     * @param string $modification
+     * @param \TKusy\Hl7FhirR4\StringType $modification
      */
-    public function addToModification($modification)
+    public function addToModification(\TKusy\Hl7FhirR4\StringType $modification)
     {
         $this->modification[] = $modification;
         return $this;
@@ -216,7 +216,7 @@ class SubstancePolymerType extends DomainResourceType
      *
      * Todo.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getModification()
     {
@@ -228,7 +228,7 @@ class SubstancePolymerType extends DomainResourceType
      *
      * Todo.
      *
-     * @param string[] $modification
+     * @param \TKusy\Hl7FhirR4\StringType[] $modification
      * @return self
      */
     public function setModification(array $modification)

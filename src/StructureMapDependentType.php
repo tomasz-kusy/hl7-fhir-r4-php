@@ -21,7 +21,7 @@ class StructureMapDependentType extends BackboneElementType
     /**
      * Variable to pass to the rule or group.
      *
-     * @var string[] $variable
+     * @var \TKusy\Hl7FhirR4\StringType[] $variable
      */
     private $variable = null;
 
@@ -57,9 +57,9 @@ class StructureMapDependentType extends BackboneElementType
      * Variable to pass to the rule or group.
      *
      * @return self
-     * @param string $variable
+     * @param \TKusy\Hl7FhirR4\StringType $variable
      */
-    public function addToVariable($variable)
+    public function addToVariable(\TKusy\Hl7FhirR4\StringType $variable)
     {
         $this->variable[] = $variable;
         return $this;
@@ -96,7 +96,7 @@ class StructureMapDependentType extends BackboneElementType
      *
      * Variable to pass to the rule or group.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getVariable()
     {
@@ -108,7 +108,7 @@ class StructureMapDependentType extends BackboneElementType
      *
      * Variable to pass to the rule or group.
      *
-     * @param string[] $variable
+     * @param \TKusy\Hl7FhirR4\StringType[] $variable
      * @return self
      */
     public function setVariable(array $variable)

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionApplicabilityType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         language:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionApplicabilityType:
             accessor:
                 getter: getLanguage
                 setter: setLanguage
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         expression:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionApplicabilityType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

@@ -21,7 +21,7 @@ class SearchParameterComponentType extends BackboneElementType
     /**
      * A sub-expression that defines how to extract values for this component from the output of the main SearchParameter.expression.
      *
-     * @var string $expression
+     * @var \TKusy\Hl7FhirR4\StringType $expression
      */
     private $expression = null;
 
@@ -56,7 +56,7 @@ class SearchParameterComponentType extends BackboneElementType
      *
      * A sub-expression that defines how to extract values for this component from the output of the main SearchParameter.expression.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getExpression()
     {
@@ -68,10 +68,10 @@ class SearchParameterComponentType extends BackboneElementType
      *
      * A sub-expression that defines how to extract values for this component from the output of the main SearchParameter.expression.
      *
-     * @param string $expression
+     * @param \TKusy\Hl7FhirR4\StringType $expression
      * @return self
      */
-    public function setExpression($expression)
+    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
     {
         $this->expression = $expression;
         return $this;

@@ -191,7 +191,7 @@ TKusy\Hl7FhirR4\MediaType:
             accessor:
                 getter: getDeviceName
                 setter: setDeviceName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         device:
             expose: true
             access_type: public_method
@@ -246,7 +246,7 @@ TKusy\Hl7FhirR4\MediaType:
             accessor:
                 getter: getDuration
                 setter: setDuration
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         content:
             expose: true
             access_type: public_method

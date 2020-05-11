@@ -14,14 +14,14 @@ class OperationDefinitionOverloadType extends BackboneElementType
     /**
      * Name of parameter to include in overload.
      *
-     * @var string[] $parameterName
+     * @var \TKusy\Hl7FhirR4\StringType[] $parameterName
      */
     private $parameterName = null;
 
     /**
      * Comments to go on overload.
      *
-     * @var string $comment
+     * @var \TKusy\Hl7FhirR4\StringType $comment
      */
     private $comment = null;
 
@@ -31,9 +31,9 @@ class OperationDefinitionOverloadType extends BackboneElementType
      * Name of parameter to include in overload.
      *
      * @return self
-     * @param string $parameterName
+     * @param \TKusy\Hl7FhirR4\StringType $parameterName
      */
-    public function addToParameterName($parameterName)
+    public function addToParameterName(\TKusy\Hl7FhirR4\StringType $parameterName)
     {
         $this->parameterName[] = $parameterName;
         return $this;
@@ -70,7 +70,7 @@ class OperationDefinitionOverloadType extends BackboneElementType
      *
      * Name of parameter to include in overload.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getParameterName()
     {
@@ -82,7 +82,7 @@ class OperationDefinitionOverloadType extends BackboneElementType
      *
      * Name of parameter to include in overload.
      *
-     * @param string[] $parameterName
+     * @param \TKusy\Hl7FhirR4\StringType[] $parameterName
      * @return self
      */
     public function setParameterName(array $parameterName)
@@ -96,7 +96,7 @@ class OperationDefinitionOverloadType extends BackboneElementType
      *
      * Comments to go on overload.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getComment()
     {
@@ -108,10 +108,10 @@ class OperationDefinitionOverloadType extends BackboneElementType
      *
      * Comments to go on overload.
      *
-     * @param string $comment
+     * @param \TKusy\Hl7FhirR4\StringType $comment
      * @return self
      */
-    public function setComment($comment)
+    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
     {
         $this->comment = $comment;
         return $this;

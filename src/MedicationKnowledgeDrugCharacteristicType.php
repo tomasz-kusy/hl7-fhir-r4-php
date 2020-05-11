@@ -28,7 +28,7 @@ class MedicationKnowledgeDrugCharacteristicType extends BackboneElementType
     /**
      * Description of the characteristic. (choose any one of value*, but only one)
      *
-     * @var string $valueString
+     * @var \TKusy\Hl7FhirR4\StringType $valueString
      */
     private $valueString = null;
 
@@ -103,7 +103,7 @@ class MedicationKnowledgeDrugCharacteristicType extends BackboneElementType
      *
      * Description of the characteristic. (choose any one of value*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValueString()
     {
@@ -115,10 +115,10 @@ class MedicationKnowledgeDrugCharacteristicType extends BackboneElementType
      *
      * Description of the characteristic. (choose any one of value*, but only one)
      *
-     * @param string $valueString
+     * @param \TKusy\Hl7FhirR4\StringType $valueString
      * @return self
      */
-    public function setValueString($valueString)
+    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
     {
         $this->valueString = $valueString;
         return $this;

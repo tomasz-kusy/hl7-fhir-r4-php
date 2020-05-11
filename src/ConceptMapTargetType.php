@@ -21,7 +21,7 @@ class ConceptMapTargetType extends BackboneElementType
     /**
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @var string $display
+     * @var \TKusy\Hl7FhirR4\StringType $display
      */
     private $display = null;
 
@@ -35,7 +35,7 @@ class ConceptMapTargetType extends BackboneElementType
     /**
      * A description of status/issues in mapping that conveys additional information not represented in the structured data.
      *
-     * @var string $comment
+     * @var \TKusy\Hl7FhirR4\StringType $comment
      */
     private $comment = null;
 
@@ -84,7 +84,7 @@ class ConceptMapTargetType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisplay()
     {
@@ -96,10 +96,10 @@ class ConceptMapTargetType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @param string $display
+     * @param \TKusy\Hl7FhirR4\StringType $display
      * @return self
      */
-    public function setDisplay($display)
+    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
     {
         $this->display = $display;
         return $this;
@@ -136,7 +136,7 @@ class ConceptMapTargetType extends BackboneElementType
      *
      * A description of status/issues in mapping that conveys additional information not represented in the structured data.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getComment()
     {
@@ -148,10 +148,10 @@ class ConceptMapTargetType extends BackboneElementType
      *
      * A description of status/issues in mapping that conveys additional information not represented in the structured data.
      *
-     * @param string $comment
+     * @param \TKusy\Hl7FhirR4\StringType $comment
      * @return self
      */
-    public function setComment($comment)
+    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
     {
         $this->comment = $comment;
         return $this;

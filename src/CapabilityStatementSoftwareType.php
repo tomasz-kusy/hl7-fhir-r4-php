@@ -14,14 +14,14 @@ class CapabilityStatementSoftwareType extends BackboneElementType
     /**
      * Name the software is known by.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * The version identifier for the software covered by this statement.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
@@ -37,7 +37,7 @@ class CapabilityStatementSoftwareType extends BackboneElementType
      *
      * Name the software is known by.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -49,10 +49,10 @@ class CapabilityStatementSoftwareType extends BackboneElementType
      *
      * Name the software is known by.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -63,7 +63,7 @@ class CapabilityStatementSoftwareType extends BackboneElementType
      *
      * The version identifier for the software covered by this statement.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -75,10 +75,10 @@ class CapabilityStatementSoftwareType extends BackboneElementType
      *
      * The version identifier for the software covered by this statement.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;

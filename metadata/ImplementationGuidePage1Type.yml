@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePage1Type:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ImplementationGuidePage1Type:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         anchor:
             expose: true
             access_type: public_method
@@ -36,4 +36,4 @@ TKusy\Hl7FhirR4\ImplementationGuidePage1Type:
                 inline: true
                 entry_name: anchor
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>

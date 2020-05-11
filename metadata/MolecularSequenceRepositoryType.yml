@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         datasetId:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             accessor:
                 getter: getDatasetId
                 setter: setDatasetId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         variantsetId:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             accessor:
                 getter: getVariantsetId
                 setter: setVariantsetId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         readsetId:
             expose: true
             access_type: public_method
@@ -65,4 +65,4 @@ TKusy\Hl7FhirR4\MolecularSequenceRepositoryType:
             accessor:
                 getter: getReadsetId
                 setter: setReadsetId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

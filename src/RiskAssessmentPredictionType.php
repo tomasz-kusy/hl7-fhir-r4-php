@@ -21,7 +21,7 @@ class RiskAssessmentPredictionType extends BackboneElementType
     /**
      * Indicates how likely the outcome is (in the specified timeframe). (choose any one of probability*, but only one)
      *
-     * @var float $probabilityDecimal
+     * @var \TKusy\Hl7FhirR4\DecimalType $probabilityDecimal
      */
     private $probabilityDecimal = null;
 
@@ -42,7 +42,7 @@ class RiskAssessmentPredictionType extends BackboneElementType
     /**
      * Indicates the risk for this particular subject (with their specific characteristics) divided by the risk of the population in general. (Numbers greater than 1 = higher risk than the population, numbers less than 1 = lower risk.).
      *
-     * @var float $relativeRisk
+     * @var \TKusy\Hl7FhirR4\DecimalType $relativeRisk
      */
     private $relativeRisk = null;
 
@@ -63,7 +63,7 @@ class RiskAssessmentPredictionType extends BackboneElementType
     /**
      * Additional information explaining the basis for the prediction.
      *
-     * @var string $rationale
+     * @var \TKusy\Hl7FhirR4\StringType $rationale
      */
     private $rationale = null;
 
@@ -98,7 +98,7 @@ class RiskAssessmentPredictionType extends BackboneElementType
      *
      * Indicates how likely the outcome is (in the specified timeframe). (choose any one of probability*, but only one)
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getProbabilityDecimal()
     {
@@ -110,10 +110,10 @@ class RiskAssessmentPredictionType extends BackboneElementType
      *
      * Indicates how likely the outcome is (in the specified timeframe). (choose any one of probability*, but only one)
      *
-     * @param float $probabilityDecimal
+     * @param \TKusy\Hl7FhirR4\DecimalType $probabilityDecimal
      * @return self
      */
-    public function setProbabilityDecimal($probabilityDecimal)
+    public function setProbabilityDecimal(\TKusy\Hl7FhirR4\DecimalType $probabilityDecimal)
     {
         $this->probabilityDecimal = $probabilityDecimal;
         return $this;
@@ -176,7 +176,7 @@ class RiskAssessmentPredictionType extends BackboneElementType
      *
      * Indicates the risk for this particular subject (with their specific characteristics) divided by the risk of the population in general. (Numbers greater than 1 = higher risk than the population, numbers less than 1 = lower risk.).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getRelativeRisk()
     {
@@ -188,10 +188,10 @@ class RiskAssessmentPredictionType extends BackboneElementType
      *
      * Indicates the risk for this particular subject (with their specific characteristics) divided by the risk of the population in general. (Numbers greater than 1 = higher risk than the population, numbers less than 1 = lower risk.).
      *
-     * @param float $relativeRisk
+     * @param \TKusy\Hl7FhirR4\DecimalType $relativeRisk
      * @return self
      */
-    public function setRelativeRisk($relativeRisk)
+    public function setRelativeRisk(\TKusy\Hl7FhirR4\DecimalType $relativeRisk)
     {
         $this->relativeRisk = $relativeRisk;
         return $this;
@@ -254,7 +254,7 @@ class RiskAssessmentPredictionType extends BackboneElementType
      *
      * Additional information explaining the basis for the prediction.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRationale()
     {
@@ -266,10 +266,10 @@ class RiskAssessmentPredictionType extends BackboneElementType
      *
      * Additional information explaining the basis for the prediction.
      *
-     * @param string $rationale
+     * @param \TKusy\Hl7FhirR4\StringType $rationale
      * @return self
      */
-    public function setRationale($rationale)
+    public function setRationale(\TKusy\Hl7FhirR4\StringType $rationale)
     {
         $this->rationale = $rationale;
         return $this;

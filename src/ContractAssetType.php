@@ -56,7 +56,7 @@ class ContractAssetType extends BackboneElementType
     /**
      * Description of the quality and completeness of the asset that imay be a factor in its valuation.
      *
-     * @var string $condition
+     * @var \TKusy\Hl7FhirR4\StringType $condition
      */
     private $condition = null;
 
@@ -84,14 +84,14 @@ class ContractAssetType extends BackboneElementType
     /**
      * Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract.
      *
-     * @var string $text
+     * @var \TKusy\Hl7FhirR4\StringType $text
      */
     private $text = null;
 
     /**
      * Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $linkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
     private $linkId = null;
 
@@ -437,7 +437,7 @@ class ContractAssetType extends BackboneElementType
      *
      * Description of the quality and completeness of the asset that imay be a factor in its valuation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCondition()
     {
@@ -449,10 +449,10 @@ class ContractAssetType extends BackboneElementType
      *
      * Description of the quality and completeness of the asset that imay be a factor in its valuation.
      *
-     * @param string $condition
+     * @param \TKusy\Hl7FhirR4\StringType $condition
      * @return self
      */
-    public function setCondition($condition)
+    public function setCondition(\TKusy\Hl7FhirR4\StringType $condition)
     {
         $this->condition = $condition;
         return $this;
@@ -661,7 +661,7 @@ class ContractAssetType extends BackboneElementType
      *
      * Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getText()
     {
@@ -673,10 +673,10 @@ class ContractAssetType extends BackboneElementType
      *
      * Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract.
      *
-     * @param string $text
+     * @param \TKusy\Hl7FhirR4\StringType $text
      * @return self
      */
-    public function setText($text)
+    public function setText(\TKusy\Hl7FhirR4\StringType $text)
     {
         $this->text = $text;
         return $this;
@@ -688,9 +688,9 @@ class ContractAssetType extends BackboneElementType
      * Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $linkId
+     * @param \TKusy\Hl7FhirR4\StringType $linkId
      */
-    public function addToLinkId($linkId)
+    public function addToLinkId(\TKusy\Hl7FhirR4\StringType $linkId)
     {
         $this->linkId[] = $linkId;
         return $this;
@@ -727,7 +727,7 @@ class ContractAssetType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getLinkId()
     {
@@ -739,7 +739,7 @@ class ContractAssetType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $linkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $linkId
      * @return self
      */
     public function setLinkId(array $linkId)

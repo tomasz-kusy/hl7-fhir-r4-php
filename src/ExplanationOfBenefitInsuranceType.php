@@ -14,7 +14,7 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
     /**
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @var bool $focal
+     * @var \TKusy\Hl7FhirR4\BooleanType $focal
      */
     private $focal = null;
 
@@ -28,7 +28,7 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
     /**
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
-     * @var string[] $preAuthRef
+     * @var \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      */
     private $preAuthRef = null;
 
@@ -37,7 +37,7 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
      *
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getFocal()
     {
@@ -49,10 +49,10 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
      *
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @param bool $focal
+     * @param \TKusy\Hl7FhirR4\BooleanType $focal
      * @return self
      */
-    public function setFocal($focal)
+    public function setFocal(\TKusy\Hl7FhirR4\BooleanType $focal)
     {
         $this->focal = $focal;
         return $this;
@@ -90,9 +90,9 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
      * @return self
-     * @param string $preAuthRef
+     * @param \TKusy\Hl7FhirR4\StringType $preAuthRef
      */
-    public function addToPreAuthRef($preAuthRef)
+    public function addToPreAuthRef(\TKusy\Hl7FhirR4\StringType $preAuthRef)
     {
         $this->preAuthRef[] = $preAuthRef;
         return $this;
@@ -129,7 +129,7 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
      *
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getPreAuthRef()
     {
@@ -141,7 +141,7 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
      *
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
-     * @param string[] $preAuthRef
+     * @param \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      * @return self
      */
     public function setPreAuthRef(array $preAuthRef)

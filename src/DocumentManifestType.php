@@ -77,7 +77,7 @@ class DocumentManifestType extends DomainResourceType
     /**
      * Human-readable description of the source document. This is sometimes known as the "title".
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -454,7 +454,7 @@ class DocumentManifestType extends DomainResourceType
      *
      * Human-readable description of the source document. This is sometimes known as the "title".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -466,10 +466,10 @@ class DocumentManifestType extends DomainResourceType
      *
      * Human-readable description of the source document. This is sometimes known as the "title".
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

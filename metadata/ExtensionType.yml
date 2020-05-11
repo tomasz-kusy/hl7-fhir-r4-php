@@ -30,7 +30,7 @@ TKusy\Hl7FhirR4\ExtensionType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         valueCanonical:
             expose: true
             access_type: public_method
@@ -85,7 +85,7 @@ TKusy\Hl7FhirR4\ExtensionType:
             accessor:
                 getter: getValueDecimal
                 setter: setValueDecimal
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         valueId:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ TKusy\Hl7FhirR4\ExtensionType:
             accessor:
                 getter: getValueInteger
                 setter: setValueInteger
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         valueMarkdown:
             expose: true
             access_type: public_method
@@ -162,7 +162,7 @@ TKusy\Hl7FhirR4\ExtensionType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueTime:
             expose: true
             access_type: public_method

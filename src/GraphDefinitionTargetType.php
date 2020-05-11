@@ -21,7 +21,7 @@ class GraphDefinitionTargetType extends BackboneElementType
     /**
      * A set of parameters to look up.
      *
-     * @var string $params
+     * @var \TKusy\Hl7FhirR4\StringType $params
      */
     private $params = null;
 
@@ -77,7 +77,7 @@ class GraphDefinitionTargetType extends BackboneElementType
      *
      * A set of parameters to look up.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getParams()
     {
@@ -89,10 +89,10 @@ class GraphDefinitionTargetType extends BackboneElementType
      *
      * A set of parameters to look up.
      *
-     * @param string $params
+     * @param \TKusy\Hl7FhirR4\StringType $params
      * @return self
      */
-    public function setParams($params)
+    public function setParams(\TKusy\Hl7FhirR4\StringType $params)
     {
         $this->params = $params;
         return $this;

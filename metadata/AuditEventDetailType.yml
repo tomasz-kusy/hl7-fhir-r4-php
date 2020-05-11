@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\AuditEventDetailType:
             accessor:
                 getter: getType
                 setter: setType
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueString:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\AuditEventDetailType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueBase64Binary:
             expose: true
             access_type: public_method

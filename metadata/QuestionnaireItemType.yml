@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getLinkId
                 setter: setLinkId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         definition:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getPrefix
                 setter: setPrefix
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         text:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getText
                 setter: setText
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         type:
             expose: true
             access_type: public_method
@@ -106,7 +106,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getRequired
                 setter: setRequired
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         repeats:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getRepeats
                 setter: setRepeats
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         readOnly:
             expose: true
             access_type: public_method
@@ -128,7 +128,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getReadOnly
                 setter: setReadOnly
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         maxLength:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ TKusy\Hl7FhirR4\QuestionnaireItemType:
             accessor:
                 getter: getMaxLength
                 setter: setMaxLength
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         answerValueSet:
             expose: true
             access_type: public_method

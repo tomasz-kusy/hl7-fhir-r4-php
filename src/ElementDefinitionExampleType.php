@@ -14,7 +14,7 @@ class ElementDefinitionExampleType extends BackboneElementType
     /**
      * Describes the purpose of this example amoung the set of examples.
      *
-     * @var string $label
+     * @var \TKusy\Hl7FhirR4\StringType $label
      */
     private $label = null;
 
@@ -28,7 +28,7 @@ class ElementDefinitionExampleType extends BackboneElementType
     /**
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @var bool $valueBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      */
     private $valueBoolean = null;
 
@@ -63,7 +63,7 @@ class ElementDefinitionExampleType extends BackboneElementType
     /**
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @var float $valueDecimal
+     * @var \TKusy\Hl7FhirR4\DecimalType $valueDecimal
      */
     private $valueDecimal = null;
 
@@ -84,7 +84,7 @@ class ElementDefinitionExampleType extends BackboneElementType
     /**
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @var \integer $valueInteger
+     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
      */
     private $valueInteger = null;
 
@@ -112,7 +112,7 @@ class ElementDefinitionExampleType extends BackboneElementType
     /**
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @var string $valueString
+     * @var \TKusy\Hl7FhirR4\StringType $valueString
      */
     private $valueString = null;
 
@@ -373,7 +373,7 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * Describes the purpose of this example amoung the set of examples.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getLabel()
     {
@@ -385,10 +385,10 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * Describes the purpose of this example amoung the set of examples.
      *
-     * @param string $label
+     * @param \TKusy\Hl7FhirR4\StringType $label
      * @return self
      */
-    public function setLabel($label)
+    public function setLabel(\TKusy\Hl7FhirR4\StringType $label)
     {
         $this->label = $label;
         return $this;
@@ -425,7 +425,7 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getValueBoolean()
     {
@@ -437,10 +437,10 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @param bool $valueBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      * @return self
      */
-    public function setValueBoolean($valueBoolean)
+    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -555,7 +555,7 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getValueDecimal()
     {
@@ -567,10 +567,10 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @param float $valueDecimal
+     * @param \TKusy\Hl7FhirR4\DecimalType $valueDecimal
      * @return self
      */
-    public function setValueDecimal($valueDecimal)
+    public function setValueDecimal(\TKusy\Hl7FhirR4\DecimalType $valueDecimal)
     {
         $this->valueDecimal = $valueDecimal;
         return $this;
@@ -633,7 +633,7 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getValueInteger()
     {
@@ -645,10 +645,10 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @param \integer $valueInteger
+     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
      * @return self
      */
-    public function setValueInteger(\integer $valueInteger)
+    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;
@@ -737,7 +737,7 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValueString()
     {
@@ -749,10 +749,10 @@ class ElementDefinitionExampleType extends BackboneElementType
      *
      * The actual value for the element, which must be one of the types allowed for this element. (choose any one of the elements, but only one)
      *
-     * @param string $valueString
+     * @param \TKusy\Hl7FhirR4\StringType $valueString
      * @return self
      */
-    public function setValueString($valueString)
+    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
     {
         $this->valueString = $valueString;
         return $this;

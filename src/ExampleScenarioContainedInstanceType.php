@@ -14,14 +14,14 @@ class ExampleScenarioContainedInstanceType extends BackboneElementType
     /**
      * Each resource contained in the instance.
      *
-     * @var string $resourceId
+     * @var \TKusy\Hl7FhirR4\StringType $resourceId
      */
     private $resourceId = null;
 
     /**
      * A specific version of a resource contained in the instance.
      *
-     * @var string $versionId
+     * @var \TKusy\Hl7FhirR4\StringType $versionId
      */
     private $versionId = null;
 
@@ -30,7 +30,7 @@ class ExampleScenarioContainedInstanceType extends BackboneElementType
      *
      * Each resource contained in the instance.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getResourceId()
     {
@@ -42,10 +42,10 @@ class ExampleScenarioContainedInstanceType extends BackboneElementType
      *
      * Each resource contained in the instance.
      *
-     * @param string $resourceId
+     * @param \TKusy\Hl7FhirR4\StringType $resourceId
      * @return self
      */
-    public function setResourceId($resourceId)
+    public function setResourceId(\TKusy\Hl7FhirR4\StringType $resourceId)
     {
         $this->resourceId = $resourceId;
         return $this;
@@ -56,7 +56,7 @@ class ExampleScenarioContainedInstanceType extends BackboneElementType
      *
      * A specific version of a resource contained in the instance.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersionId()
     {
@@ -68,10 +68,10 @@ class ExampleScenarioContainedInstanceType extends BackboneElementType
      *
      * A specific version of a resource contained in the instance.
      *
-     * @param string $versionId
+     * @param \TKusy\Hl7FhirR4\StringType $versionId
      * @return self
      */
-    public function setVersionId($versionId)
+    public function setVersionId(\TKusy\Hl7FhirR4\StringType $versionId)
     {
         $this->versionId = $versionId;
         return $this;

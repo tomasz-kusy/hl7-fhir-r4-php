@@ -126,7 +126,7 @@ class RiskAssessmentType extends DomainResourceType
     /**
      * A description of the steps that might be taken to reduce the identified risk(s).
      *
-     * @var string $mitigation
+     * @var \TKusy\Hl7FhirR4\StringType $mitigation
      */
     private $mitigation = null;
 
@@ -758,7 +758,7 @@ class RiskAssessmentType extends DomainResourceType
      *
      * A description of the steps that might be taken to reduce the identified risk(s).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMitigation()
     {
@@ -770,10 +770,10 @@ class RiskAssessmentType extends DomainResourceType
      *
      * A description of the steps that might be taken to reduce the identified risk(s).
      *
-     * @param string $mitigation
+     * @param \TKusy\Hl7FhirR4\StringType $mitigation
      * @return self
      */
-    public function setMitigation($mitigation)
+    public function setMitigation(\TKusy\Hl7FhirR4\StringType $mitigation)
     {
         $this->mitigation = $mitigation;
         return $this;

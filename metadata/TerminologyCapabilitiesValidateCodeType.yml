@@ -10,4 +10,4 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesValidateCodeType:
             accessor:
                 getter: getTranslations
                 setter: setTranslations
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType

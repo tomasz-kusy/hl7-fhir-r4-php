@@ -14,7 +14,7 @@ class SubstanceReferenceInformationType extends DomainResourceType
     /**
      * Todo.
      *
-     * @var string $comment
+     * @var \TKusy\Hl7FhirR4\StringType $comment
      */
     private $comment = null;
 
@@ -51,7 +51,7 @@ class SubstanceReferenceInformationType extends DomainResourceType
      *
      * Todo.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getComment()
     {
@@ -63,10 +63,10 @@ class SubstanceReferenceInformationType extends DomainResourceType
      *
      * Todo.
      *
-     * @param string $comment
+     * @param \TKusy\Hl7FhirR4\StringType $comment
      * @return self
      */
-    public function setComment($comment)
+    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
     {
         $this->comment = $comment;
         return $this;

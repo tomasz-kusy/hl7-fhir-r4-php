@@ -28,7 +28,7 @@ class StructureMapTargetType extends BackboneElementType
     /**
      * Field to create in the context.
      *
-     * @var string $element
+     * @var \TKusy\Hl7FhirR4\StringType $element
      */
     private $element = null;
 
@@ -124,7 +124,7 @@ class StructureMapTargetType extends BackboneElementType
      *
      * Field to create in the context.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getElement()
     {
@@ -136,10 +136,10 @@ class StructureMapTargetType extends BackboneElementType
      *
      * Field to create in the context.
      *
-     * @param string $element
+     * @param \TKusy\Hl7FhirR4\StringType $element
      * @return self
      */
-    public function setElement($element)
+    public function setElement(\TKusy\Hl7FhirR4\StringType $element)
     {
         $this->element = $element;
         return $this;

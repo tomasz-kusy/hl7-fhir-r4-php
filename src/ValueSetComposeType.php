@@ -21,7 +21,7 @@ class ValueSetComposeType extends BackboneElementType
     /**
      * Whether inactive codes - codes that are not approved for current use - are in the value set. If inactive = true, inactive codes are to be included in the expansion, if inactive = false, the inactive codes will not be included in the expansion. If absent, the behavior is determined by the implementation, or by the applicable $expand parameters (but generally, inactive codes would be expected to be included).
      *
-     * @var bool $inactive
+     * @var \TKusy\Hl7FhirR4\BooleanType $inactive
      */
     private $inactive = null;
 
@@ -70,7 +70,7 @@ class ValueSetComposeType extends BackboneElementType
      *
      * Whether inactive codes - codes that are not approved for current use - are in the value set. If inactive = true, inactive codes are to be included in the expansion, if inactive = false, the inactive codes will not be included in the expansion. If absent, the behavior is determined by the implementation, or by the applicable $expand parameters (but generally, inactive codes would be expected to be included).
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getInactive()
     {
@@ -82,10 +82,10 @@ class ValueSetComposeType extends BackboneElementType
      *
      * Whether inactive codes - codes that are not approved for current use - are in the value set. If inactive = true, inactive codes are to be included in the expansion, if inactive = false, the inactive codes will not be included in the expansion. If absent, the behavior is determined by the implementation, or by the applicable $expand parameters (but generally, inactive codes would be expected to be included).
      *
-     * @param bool $inactive
+     * @param \TKusy\Hl7FhirR4\BooleanType $inactive
      * @return self
      */
-    public function setInactive($inactive)
+    public function setInactive(\TKusy\Hl7FhirR4\BooleanType $inactive)
     {
         $this->inactive = $inactive;
         return $this;

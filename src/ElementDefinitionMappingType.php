@@ -28,14 +28,14 @@ class ElementDefinitionMappingType extends BackboneElementType
     /**
      * Expresses what part of the target specification corresponds to this element.
      *
-     * @var string $map
+     * @var \TKusy\Hl7FhirR4\StringType $map
      */
     private $map = null;
 
     /**
      * Comments that provide information about the mapping or its use.
      *
-     * @var string $comment
+     * @var \TKusy\Hl7FhirR4\StringType $comment
      */
     private $comment = null;
 
@@ -96,7 +96,7 @@ class ElementDefinitionMappingType extends BackboneElementType
      *
      * Expresses what part of the target specification corresponds to this element.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMap()
     {
@@ -108,10 +108,10 @@ class ElementDefinitionMappingType extends BackboneElementType
      *
      * Expresses what part of the target specification corresponds to this element.
      *
-     * @param string $map
+     * @param \TKusy\Hl7FhirR4\StringType $map
      * @return self
      */
-    public function setMap($map)
+    public function setMap(\TKusy\Hl7FhirR4\StringType $map)
     {
         $this->map = $map;
         return $this;
@@ -122,7 +122,7 @@ class ElementDefinitionMappingType extends BackboneElementType
      *
      * Comments that provide information about the mapping or its use.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getComment()
     {
@@ -134,10 +134,10 @@ class ElementDefinitionMappingType extends BackboneElementType
      *
      * Comments that provide information about the mapping or its use.
      *
-     * @param string $comment
+     * @param \TKusy\Hl7FhirR4\StringType $comment
      * @return self
      */
-    public function setComment($comment)
+    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
     {
         $this->comment = $comment;
         return $this;

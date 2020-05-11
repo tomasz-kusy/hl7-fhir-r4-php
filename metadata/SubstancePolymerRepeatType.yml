@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatType:
             accessor:
                 getter: getNumberOfUnits
                 setter: setNumberOfUnits
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         averageMolecularFormula:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatType:
             accessor:
                 getter: getAverageMolecularFormula
                 setter: setAverageMolecularFormula
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         repeatUnitAmountType:
             expose: true
             access_type: public_method

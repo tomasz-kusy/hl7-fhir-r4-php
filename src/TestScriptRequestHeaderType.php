@@ -14,14 +14,14 @@ class TestScriptRequestHeaderType extends BackboneElementType
     /**
      * The HTTP header field e.g. "Accept".
      *
-     * @var string $field
+     * @var \TKusy\Hl7FhirR4\StringType $field
      */
     private $field = null;
 
     /**
      * The value of the header e.g. "application/fhir+xml".
      *
-     * @var string $value
+     * @var \TKusy\Hl7FhirR4\StringType $value
      */
     private $value = null;
 
@@ -30,7 +30,7 @@ class TestScriptRequestHeaderType extends BackboneElementType
      *
      * The HTTP header field e.g. "Accept".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getField()
     {
@@ -42,10 +42,10 @@ class TestScriptRequestHeaderType extends BackboneElementType
      *
      * The HTTP header field e.g. "Accept".
      *
-     * @param string $field
+     * @param \TKusy\Hl7FhirR4\StringType $field
      * @return self
      */
-    public function setField($field)
+    public function setField(\TKusy\Hl7FhirR4\StringType $field)
     {
         $this->field = $field;
         return $this;
@@ -56,7 +56,7 @@ class TestScriptRequestHeaderType extends BackboneElementType
      *
      * The value of the header e.g. "application/fhir+xml".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValue()
     {
@@ -68,10 +68,10 @@ class TestScriptRequestHeaderType extends BackboneElementType
      *
      * The value of the header e.g. "application/fhir+xml".
      *
-     * @param string $value
+     * @param \TKusy\Hl7FhirR4\StringType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
     {
         $this->value = $value;
         return $this;

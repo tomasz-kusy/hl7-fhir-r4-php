@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ContractAnswerType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         valueDecimal:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ContractAnswerType:
             accessor:
                 getter: getValueDecimal
                 setter: setValueDecimal
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         valueInteger:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ContractAnswerType:
             accessor:
                 getter: getValueInteger
                 setter: setValueInteger
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         valueDate:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\ContractAnswerType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueUri:
             expose: true
             access_type: public_method

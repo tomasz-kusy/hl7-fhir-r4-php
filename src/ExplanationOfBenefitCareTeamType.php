@@ -28,7 +28,7 @@ class ExplanationOfBenefitCareTeamType extends BackboneElementType
     /**
      * The party who is billing and/or responsible for the claimed products or services.
      *
-     * @var bool $responsible
+     * @var \TKusy\Hl7FhirR4\BooleanType $responsible
      */
     private $responsible = null;
 
@@ -103,7 +103,7 @@ class ExplanationOfBenefitCareTeamType extends BackboneElementType
      *
      * The party who is billing and/or responsible for the claimed products or services.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getResponsible()
     {
@@ -115,10 +115,10 @@ class ExplanationOfBenefitCareTeamType extends BackboneElementType
      *
      * The party who is billing and/or responsible for the claimed products or services.
      *
-     * @param bool $responsible
+     * @param \TKusy\Hl7FhirR4\BooleanType $responsible
      * @return self
      */
-    public function setResponsible($responsible)
+    public function setResponsible(\TKusy\Hl7FhirR4\BooleanType $responsible)
     {
         $this->responsible = $responsible;
         return $this;

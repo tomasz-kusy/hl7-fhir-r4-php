@@ -21,7 +21,7 @@ class ConceptMapGroupType extends BackboneElementType
     /**
      * The specific version of the code system, as determined by the code system authority.
      *
-     * @var string $sourceVersion
+     * @var \TKusy\Hl7FhirR4\StringType $sourceVersion
      */
     private $sourceVersion = null;
 
@@ -35,7 +35,7 @@ class ConceptMapGroupType extends BackboneElementType
     /**
      * The specific version of the code system, as determined by the code system authority.
      *
-     * @var string $targetVersion
+     * @var \TKusy\Hl7FhirR4\StringType $targetVersion
      */
     private $targetVersion = null;
 
@@ -84,7 +84,7 @@ class ConceptMapGroupType extends BackboneElementType
      *
      * The specific version of the code system, as determined by the code system authority.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSourceVersion()
     {
@@ -96,10 +96,10 @@ class ConceptMapGroupType extends BackboneElementType
      *
      * The specific version of the code system, as determined by the code system authority.
      *
-     * @param string $sourceVersion
+     * @param \TKusy\Hl7FhirR4\StringType $sourceVersion
      * @return self
      */
-    public function setSourceVersion($sourceVersion)
+    public function setSourceVersion(\TKusy\Hl7FhirR4\StringType $sourceVersion)
     {
         $this->sourceVersion = $sourceVersion;
         return $this;
@@ -136,7 +136,7 @@ class ConceptMapGroupType extends BackboneElementType
      *
      * The specific version of the code system, as determined by the code system authority.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTargetVersion()
     {
@@ -148,10 +148,10 @@ class ConceptMapGroupType extends BackboneElementType
      *
      * The specific version of the code system, as determined by the code system authority.
      *
-     * @param string $targetVersion
+     * @param \TKusy\Hl7FhirR4\StringType $targetVersion
      * @return self
      */
-    public function setTargetVersion($targetVersion)
+    public function setTargetVersion(\TKusy\Hl7FhirR4\StringType $targetVersion)
     {
         $this->targetVersion = $targetVersion;
         return $this;

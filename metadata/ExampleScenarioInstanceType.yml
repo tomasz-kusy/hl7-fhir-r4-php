@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             accessor:
                 getter: getResourceId
                 setter: setResourceId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         resourceType:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExampleScenarioInstanceType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         description:
             expose: true
             access_type: public_method

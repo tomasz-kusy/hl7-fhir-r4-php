@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\DeviceSpecializationType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

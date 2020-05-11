@@ -98,7 +98,7 @@ class DocumentReferenceType extends DomainResourceType
     /**
      * Human-readable description of the source document.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -600,7 +600,7 @@ class DocumentReferenceType extends DomainResourceType
      *
      * Human-readable description of the source document.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -612,10 +612,10 @@ class DocumentReferenceType extends DomainResourceType
      *
      * Human-readable description of the source document.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

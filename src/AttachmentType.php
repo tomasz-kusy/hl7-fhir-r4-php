@@ -56,7 +56,7 @@ class AttachmentType extends ElementType
     /**
      * A label or set of text to display in place of the data.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -228,7 +228,7 @@ class AttachmentType extends ElementType
      *
      * A label or set of text to display in place of the data.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -240,10 +240,10 @@ class AttachmentType extends ElementType
      *
      * A label or set of text to display in place of the data.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;

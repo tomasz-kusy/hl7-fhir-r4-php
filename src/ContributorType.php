@@ -21,7 +21,7 @@ class ContributorType extends ElementType
     /**
      * The name of the individual or organization responsible for the contribution.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -63,7 +63,7 @@ class ContributorType extends ElementType
      *
      * The name of the individual or organization responsible for the contribution.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -75,10 +75,10 @@ class ContributorType extends ElementType
      *
      * The name of the individual or organization responsible for the contribution.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

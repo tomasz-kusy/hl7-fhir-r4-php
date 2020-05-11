@@ -21,7 +21,7 @@ class SubstancePolymerStructuralRepresentationType extends BackboneElementType
     /**
      * Todo.
      *
-     * @var string $representation
+     * @var \TKusy\Hl7FhirR4\StringType $representation
      */
     private $representation = null;
 
@@ -63,7 +63,7 @@ class SubstancePolymerStructuralRepresentationType extends BackboneElementType
      *
      * Todo.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRepresentation()
     {
@@ -75,10 +75,10 @@ class SubstancePolymerStructuralRepresentationType extends BackboneElementType
      *
      * Todo.
      *
-     * @param string $representation
+     * @param \TKusy\Hl7FhirR4\StringType $representation
      * @return self
      */
-    public function setRepresentation($representation)
+    public function setRepresentation(\TKusy\Hl7FhirR4\StringType $representation)
     {
         $this->representation = $representation;
         return $this;

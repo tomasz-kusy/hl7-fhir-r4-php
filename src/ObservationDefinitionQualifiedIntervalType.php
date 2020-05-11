@@ -63,7 +63,7 @@ class ObservationDefinitionQualifiedIntervalType extends BackboneElementType
     /**
      * Text based condition for which the reference range is valid.
      *
-     * @var string $condition
+     * @var \TKusy\Hl7FhirR4\StringType $condition
      */
     private $condition = null;
 
@@ -294,7 +294,7 @@ class ObservationDefinitionQualifiedIntervalType extends BackboneElementType
      *
      * Text based condition for which the reference range is valid.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCondition()
     {
@@ -306,10 +306,10 @@ class ObservationDefinitionQualifiedIntervalType extends BackboneElementType
      *
      * Text based condition for which the reference range is valid.
      *
-     * @param string $condition
+     * @param \TKusy\Hl7FhirR4\StringType $condition
      * @return self
      */
-    public function setCondition($condition)
+    public function setCondition(\TKusy\Hl7FhirR4\StringType $condition)
     {
         $this->condition = $condition;
         return $this;

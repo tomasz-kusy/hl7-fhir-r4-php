@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType:
             accessor:
                 getter: getAllDay
                 setter: setAllDay
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         availableStartTime:
             expose: true
             access_type: public_method

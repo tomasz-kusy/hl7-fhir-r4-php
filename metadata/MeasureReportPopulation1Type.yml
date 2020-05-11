@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MeasureReportPopulation1Type:
             accessor:
                 getter: getCount
                 setter: setCount
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         subjectResults:
             expose: true
             access_type: public_method

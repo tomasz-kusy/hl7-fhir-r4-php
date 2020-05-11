@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         source:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         moiety:
             expose: true
             access_type: public_method

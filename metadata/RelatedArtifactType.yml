@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             accessor:
                 getter: getLabel
                 setter: setLabel
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         display:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\RelatedArtifactType:
             accessor:
                 getter: getDisplay
                 setter: setDisplay
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         citation:
             expose: true
             access_type: public_method

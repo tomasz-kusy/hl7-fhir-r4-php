@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidSubunitType:
             accessor:
                 getter: getSubunit
                 setter: setSubunit
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         sequence:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidSubunitType:
             accessor:
                 getter: getSequence
                 setter: setSequence
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         length:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidSubunitType:
             accessor:
                 getter: getLength
                 setter: setLength
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         sequenceAttachment:
             expose: true
             access_type: public_method

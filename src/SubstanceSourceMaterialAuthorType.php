@@ -21,7 +21,7 @@ class SubstanceSourceMaterialAuthorType extends BackboneElementType
     /**
      * The author of an organism species shall be specified. The author year of an organism shall also be specified when applicable; refers to the year in which the first author(s) published the infraspecific plant/animal name (of any rank).
      *
-     * @var string $authorDescription
+     * @var \TKusy\Hl7FhirR4\StringType $authorDescription
      */
     private $authorDescription = null;
 
@@ -56,7 +56,7 @@ class SubstanceSourceMaterialAuthorType extends BackboneElementType
      *
      * The author of an organism species shall be specified. The author year of an organism shall also be specified when applicable; refers to the year in which the first author(s) published the infraspecific plant/animal name (of any rank).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAuthorDescription()
     {
@@ -68,10 +68,10 @@ class SubstanceSourceMaterialAuthorType extends BackboneElementType
      *
      * The author of an organism species shall be specified. The author year of an organism shall also be specified when applicable; refers to the year in which the first author(s) published the infraspecific plant/animal name (of any rank).
      *
-     * @param string $authorDescription
+     * @param \TKusy\Hl7FhirR4\StringType $authorDescription
      * @return self
      */
-    public function setAuthorDescription($authorDescription)
+    public function setAuthorDescription(\TKusy\Hl7FhirR4\StringType $authorDescription)
     {
         $this->authorDescription = $authorDescription;
         return $this;

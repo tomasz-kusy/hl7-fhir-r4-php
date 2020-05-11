@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\ContractType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -195,7 +195,7 @@ TKusy\Hl7FhirR4\ContractType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -206,7 +206,7 @@ TKusy\Hl7FhirR4\ContractType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         subtitle:
             expose: true
             access_type: public_method
@@ -217,7 +217,7 @@ TKusy\Hl7FhirR4\ContractType:
             accessor:
                 getter: getSubtitle
                 setter: setSubtitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         alias:
             expose: true
             access_type: public_method
@@ -232,7 +232,7 @@ TKusy\Hl7FhirR4\ContractType:
                 inline: true
                 entry_name: alias
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         author:
             expose: true
             access_type: public_method

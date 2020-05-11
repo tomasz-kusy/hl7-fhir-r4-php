@@ -77,14 +77,14 @@ class CarePlanType extends DomainResourceType
     /**
      * Human-friendly name for the care plan.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
     /**
      * A description of the scope and nature of the plan.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -691,7 +691,7 @@ class CarePlanType extends DomainResourceType
      *
      * Human-friendly name for the care plan.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -703,10 +703,10 @@ class CarePlanType extends DomainResourceType
      *
      * Human-friendly name for the care plan.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -717,7 +717,7 @@ class CarePlanType extends DomainResourceType
      *
      * A description of the scope and nature of the plan.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -729,10 +729,10 @@ class CarePlanType extends DomainResourceType
      *
      * A description of the scope and nature of the plan.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

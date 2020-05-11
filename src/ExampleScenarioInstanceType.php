@@ -14,7 +14,7 @@ class ExampleScenarioInstanceType extends BackboneElementType
     /**
      * The id of the resource for referencing.
      *
-     * @var string $resourceId
+     * @var \TKusy\Hl7FhirR4\StringType $resourceId
      */
     private $resourceId = null;
 
@@ -28,7 +28,7 @@ class ExampleScenarioInstanceType extends BackboneElementType
     /**
      * A short name for the resource instance.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -58,7 +58,7 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * The id of the resource for referencing.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getResourceId()
     {
@@ -70,10 +70,10 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * The id of the resource for referencing.
      *
-     * @param string $resourceId
+     * @param \TKusy\Hl7FhirR4\StringType $resourceId
      * @return self
      */
-    public function setResourceId($resourceId)
+    public function setResourceId(\TKusy\Hl7FhirR4\StringType $resourceId)
     {
         $this->resourceId = $resourceId;
         return $this;
@@ -110,7 +110,7 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * A short name for the resource instance.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -122,10 +122,10 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * A short name for the resource instance.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

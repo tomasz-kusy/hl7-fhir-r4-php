@@ -21,7 +21,7 @@ class NutritionOrderSupplementType extends BackboneElementType
     /**
      * The product or brand name of the nutritional supplement such as "Acme Protein Shake".
      *
-     * @var string $productName
+     * @var \TKusy\Hl7FhirR4\StringType $productName
      */
     private $productName = null;
 
@@ -42,7 +42,7 @@ class NutritionOrderSupplementType extends BackboneElementType
     /**
      * Free text or additional instructions or information pertaining to the oral supplement.
      *
-     * @var string $instruction
+     * @var \TKusy\Hl7FhirR4\StringType $instruction
      */
     private $instruction = null;
 
@@ -77,7 +77,7 @@ class NutritionOrderSupplementType extends BackboneElementType
      *
      * The product or brand name of the nutritional supplement such as "Acme Protein Shake".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getProductName()
     {
@@ -89,10 +89,10 @@ class NutritionOrderSupplementType extends BackboneElementType
      *
      * The product or brand name of the nutritional supplement such as "Acme Protein Shake".
      *
-     * @param string $productName
+     * @param \TKusy\Hl7FhirR4\StringType $productName
      * @return self
      */
-    public function setProductName($productName)
+    public function setProductName(\TKusy\Hl7FhirR4\StringType $productName)
     {
         $this->productName = $productName;
         return $this;
@@ -195,7 +195,7 @@ class NutritionOrderSupplementType extends BackboneElementType
      *
      * Free text or additional instructions or information pertaining to the oral supplement.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getInstruction()
     {
@@ -207,10 +207,10 @@ class NutritionOrderSupplementType extends BackboneElementType
      *
      * Free text or additional instructions or information pertaining to the oral supplement.
      *
-     * @param string $instruction
+     * @param \TKusy\Hl7FhirR4\StringType $instruction
      * @return self
      */
-    public function setInstruction($instruction)
+    public function setInstruction(\TKusy\Hl7FhirR4\StringType $instruction)
     {
         $this->instruction = $instruction;
         return $this;

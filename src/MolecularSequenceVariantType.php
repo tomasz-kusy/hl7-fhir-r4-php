@@ -14,35 +14,35 @@ class MolecularSequenceVariantType extends BackboneElementType
     /**
      * Start position of the variant on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @var \integer $start
+     * @var \TKusy\Hl7FhirR4\IntegerType $start
      */
     private $start = null;
 
     /**
      * End position of the variant on the reference sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @var \integer $end
+     * @var \TKusy\Hl7FhirR4\IntegerType $end
      */
     private $end = null;
 
     /**
      * An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the observed sequence. When the sequence type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.
      *
-     * @var string $observedAllele
+     * @var \TKusy\Hl7FhirR4\StringType $observedAllele
      */
     private $observedAllele = null;
 
     /**
      * An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the reference sequence. When the sequence type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.
      *
-     * @var string $referenceAllele
+     * @var \TKusy\Hl7FhirR4\StringType $referenceAllele
      */
     private $referenceAllele = null;
 
     /**
      * Extended CIGAR string for aligning the sequence with reference bases. See detailed documentation [here](http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_ExtendedCIGARFormat.htm).
      *
-     * @var string $cigar
+     * @var \TKusy\Hl7FhirR4\StringType $cigar
      */
     private $cigar = null;
 
@@ -58,7 +58,7 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * Start position of the variant on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getStart()
     {
@@ -70,10 +70,10 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * Start position of the variant on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @param \integer $start
+     * @param \TKusy\Hl7FhirR4\IntegerType $start
      * @return self
      */
-    public function setStart(\integer $start)
+    public function setStart(\TKusy\Hl7FhirR4\IntegerType $start)
     {
         $this->start = $start;
         return $this;
@@ -84,7 +84,7 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * End position of the variant on the reference sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getEnd()
     {
@@ -96,10 +96,10 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * End position of the variant on the reference sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @param \integer $end
+     * @param \TKusy\Hl7FhirR4\IntegerType $end
      * @return self
      */
-    public function setEnd(\integer $end)
+    public function setEnd(\TKusy\Hl7FhirR4\IntegerType $end)
     {
         $this->end = $end;
         return $this;
@@ -110,7 +110,7 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the observed sequence. When the sequence type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getObservedAllele()
     {
@@ -122,10 +122,10 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the observed sequence. When the sequence type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.
      *
-     * @param string $observedAllele
+     * @param \TKusy\Hl7FhirR4\StringType $observedAllele
      * @return self
      */
-    public function setObservedAllele($observedAllele)
+    public function setObservedAllele(\TKusy\Hl7FhirR4\StringType $observedAllele)
     {
         $this->observedAllele = $observedAllele;
         return $this;
@@ -136,7 +136,7 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the reference sequence. When the sequence type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getReferenceAllele()
     {
@@ -148,10 +148,10 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * An allele is one of a set of coexisting sequence variants of a gene ([SO:0001023](http://www.sequenceontology.org/browser/current_svn/term/SO:0001023)). Nucleotide(s)/amino acids from start position of sequence to stop position of sequence on the positive (+) strand of the reference sequence. When the sequence type is DNA, it should be the sequence on the positive (+) strand. This will lay in the range between variant.start and variant.end.
      *
-     * @param string $referenceAllele
+     * @param \TKusy\Hl7FhirR4\StringType $referenceAllele
      * @return self
      */
-    public function setReferenceAllele($referenceAllele)
+    public function setReferenceAllele(\TKusy\Hl7FhirR4\StringType $referenceAllele)
     {
         $this->referenceAllele = $referenceAllele;
         return $this;
@@ -162,7 +162,7 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * Extended CIGAR string for aligning the sequence with reference bases. See detailed documentation [here](http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_ExtendedCIGARFormat.htm).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCigar()
     {
@@ -174,10 +174,10 @@ class MolecularSequenceVariantType extends BackboneElementType
      *
      * Extended CIGAR string for aligning the sequence with reference bases. See detailed documentation [here](http://support.illumina.com/help/SequencingAnalysisWorkflow/Content/Vault/Informatics/Sequencing_Analysis/CASAVA/swSEQ_mCA_ExtendedCIGARFormat.htm).
      *
-     * @param string $cigar
+     * @param \TKusy\Hl7FhirR4\StringType $cigar
      * @return self
      */
-    public function setCigar($cigar)
+    public function setCigar(\TKusy\Hl7FhirR4\StringType $cigar)
     {
         $this->cigar = $cigar;
         return $this;

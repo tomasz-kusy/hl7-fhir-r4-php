@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ValueSetExpansionType:
             accessor:
                 getter: getTotal
                 setter: setTotal
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         offset:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ValueSetExpansionType:
             accessor:
                 getter: getOffset
                 setter: setOffset
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         parameter:
             expose: true
             access_type: public_method

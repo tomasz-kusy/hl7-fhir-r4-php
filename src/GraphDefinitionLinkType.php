@@ -14,35 +14,35 @@ class GraphDefinitionLinkType extends BackboneElementType
     /**
      * A FHIR expression that identifies one of FHIR References to other resources.
      *
-     * @var string $path
+     * @var \TKusy\Hl7FhirR4\StringType $path
      */
     private $path = null;
 
     /**
      * Which slice (if profiled).
      *
-     * @var string $sliceName
+     * @var \TKusy\Hl7FhirR4\StringType $sliceName
      */
     private $sliceName = null;
 
     /**
      * Minimum occurrences for this link.
      *
-     * @var \integer $min
+     * @var \TKusy\Hl7FhirR4\IntegerType $min
      */
     private $min = null;
 
     /**
      * Maximum occurrences for this link.
      *
-     * @var string $max
+     * @var \TKusy\Hl7FhirR4\StringType $max
      */
     private $max = null;
 
     /**
      * Information about why this link is of interest in this graph definition.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -58,7 +58,7 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * A FHIR expression that identifies one of FHIR References to other resources.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPath()
     {
@@ -70,10 +70,10 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * A FHIR expression that identifies one of FHIR References to other resources.
      *
-     * @param string $path
+     * @param \TKusy\Hl7FhirR4\StringType $path
      * @return self
      */
-    public function setPath($path)
+    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
     {
         $this->path = $path;
         return $this;
@@ -84,7 +84,7 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Which slice (if profiled).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSliceName()
     {
@@ -96,10 +96,10 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Which slice (if profiled).
      *
-     * @param string $sliceName
+     * @param \TKusy\Hl7FhirR4\StringType $sliceName
      * @return self
      */
-    public function setSliceName($sliceName)
+    public function setSliceName(\TKusy\Hl7FhirR4\StringType $sliceName)
     {
         $this->sliceName = $sliceName;
         return $this;
@@ -110,7 +110,7 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Minimum occurrences for this link.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getMin()
     {
@@ -122,10 +122,10 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Minimum occurrences for this link.
      *
-     * @param \integer $min
+     * @param \TKusy\Hl7FhirR4\IntegerType $min
      * @return self
      */
-    public function setMin(\integer $min)
+    public function setMin(\TKusy\Hl7FhirR4\IntegerType $min)
     {
         $this->min = $min;
         return $this;
@@ -136,7 +136,7 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Maximum occurrences for this link.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMax()
     {
@@ -148,10 +148,10 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Maximum occurrences for this link.
      *
-     * @param string $max
+     * @param \TKusy\Hl7FhirR4\StringType $max
      * @return self
      */
-    public function setMax($max)
+    public function setMax(\TKusy\Hl7FhirR4\StringType $max)
     {
         $this->max = $max;
         return $this;
@@ -162,7 +162,7 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Information about why this link is of interest in this graph definition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -174,10 +174,10 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * Information about why this link is of interest in this graph definition.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

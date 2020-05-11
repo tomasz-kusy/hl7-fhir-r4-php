@@ -28,14 +28,14 @@ class TestScriptOperationType extends BackboneElementType
     /**
      * The label would be used for tracking/logging purposes by test engines.
      *
-     * @var string $label
+     * @var \TKusy\Hl7FhirR4\StringType $label
      */
     private $label = null;
 
     /**
      * The description would be used by test engines for tracking and reporting purposes.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -56,14 +56,14 @@ class TestScriptOperationType extends BackboneElementType
     /**
      * The server where the request message is destined for. Must be one of the server numbers listed in TestScript.destination section.
      *
-     * @var \integer $destination
+     * @var \TKusy\Hl7FhirR4\IntegerType $destination
      */
     private $destination = null;
 
     /**
      * Whether or not to implicitly send the request url in encoded format. The default is true to match the standard RESTful client behavior. Set to false when communicating with a server that does not support encoded url paths.
      *
-     * @var bool $encodeRequestUrl
+     * @var \TKusy\Hl7FhirR4\BooleanType $encodeRequestUrl
      */
     private $encodeRequestUrl = null;
 
@@ -77,14 +77,14 @@ class TestScriptOperationType extends BackboneElementType
     /**
      * The server where the request message originates from. Must be one of the server numbers listed in TestScript.origin section.
      *
-     * @var \integer $origin
+     * @var \TKusy\Hl7FhirR4\IntegerType $origin
      */
     private $origin = null;
 
     /**
      * Path plus parameters after [type]. Used to set parts of the request URL explicitly.
      *
-     * @var string $params
+     * @var \TKusy\Hl7FhirR4\StringType $params
      */
     private $params = null;
 
@@ -126,7 +126,7 @@ class TestScriptOperationType extends BackboneElementType
     /**
      * Complete request URL.
      *
-     * @var string $url
+     * @var \TKusy\Hl7FhirR4\StringType $url
      */
     private $url = null;
 
@@ -187,7 +187,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The label would be used for tracking/logging purposes by test engines.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getLabel()
     {
@@ -199,10 +199,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The label would be used for tracking/logging purposes by test engines.
      *
-     * @param string $label
+     * @param \TKusy\Hl7FhirR4\StringType $label
      * @return self
      */
-    public function setLabel($label)
+    public function setLabel(\TKusy\Hl7FhirR4\StringType $label)
     {
         $this->label = $label;
         return $this;
@@ -213,7 +213,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The description would be used by test engines for tracking and reporting purposes.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -225,10 +225,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The description would be used by test engines for tracking and reporting purposes.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -291,7 +291,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The server where the request message is destined for. Must be one of the server numbers listed in TestScript.destination section.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getDestination()
     {
@@ -303,10 +303,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The server where the request message is destined for. Must be one of the server numbers listed in TestScript.destination section.
      *
-     * @param \integer $destination
+     * @param \TKusy\Hl7FhirR4\IntegerType $destination
      * @return self
      */
-    public function setDestination(\integer $destination)
+    public function setDestination(\TKusy\Hl7FhirR4\IntegerType $destination)
     {
         $this->destination = $destination;
         return $this;
@@ -317,7 +317,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * Whether or not to implicitly send the request url in encoded format. The default is true to match the standard RESTful client behavior. Set to false when communicating with a server that does not support encoded url paths.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getEncodeRequestUrl()
     {
@@ -329,10 +329,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * Whether or not to implicitly send the request url in encoded format. The default is true to match the standard RESTful client behavior. Set to false when communicating with a server that does not support encoded url paths.
      *
-     * @param bool $encodeRequestUrl
+     * @param \TKusy\Hl7FhirR4\BooleanType $encodeRequestUrl
      * @return self
      */
-    public function setEncodeRequestUrl($encodeRequestUrl)
+    public function setEncodeRequestUrl(\TKusy\Hl7FhirR4\BooleanType $encodeRequestUrl)
     {
         $this->encodeRequestUrl = $encodeRequestUrl;
         return $this;
@@ -369,7 +369,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The server where the request message originates from. Must be one of the server numbers listed in TestScript.origin section.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getOrigin()
     {
@@ -381,10 +381,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * The server where the request message originates from. Must be one of the server numbers listed in TestScript.origin section.
      *
-     * @param \integer $origin
+     * @param \TKusy\Hl7FhirR4\IntegerType $origin
      * @return self
      */
-    public function setOrigin(\integer $origin)
+    public function setOrigin(\TKusy\Hl7FhirR4\IntegerType $origin)
     {
         $this->origin = $origin;
         return $this;
@@ -395,7 +395,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * Path plus parameters after [type]. Used to set parts of the request URL explicitly.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getParams()
     {
@@ -407,10 +407,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * Path plus parameters after [type]. Used to set parts of the request URL explicitly.
      *
-     * @param string $params
+     * @param \TKusy\Hl7FhirR4\StringType $params
      * @return self
      */
-    public function setParams($params)
+    public function setParams(\TKusy\Hl7FhirR4\StringType $params)
     {
         $this->params = $params;
         return $this;
@@ -591,7 +591,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * Complete request URL.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getUrl()
     {
@@ -603,10 +603,10 @@ class TestScriptOperationType extends BackboneElementType
      *
      * Complete request URL.
      *
-     * @param string $url
+     * @param \TKusy\Hl7FhirR4\StringType $url
      * @return self
      */
-    public function setUrl($url)
+    public function setUrl(\TKusy\Hl7FhirR4\StringType $url)
     {
         $this->url = $url;
         return $this;

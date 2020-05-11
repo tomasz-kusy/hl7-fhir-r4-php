@@ -14,7 +14,7 @@ class DeviceUdiCarrierType extends BackboneElementType
     /**
      * The device identifier (DI) is a mandatory, fixed portion of a UDI that identifies the labeler and the specific version or model of a device.
      *
-     * @var string $deviceIdentifier
+     * @var \TKusy\Hl7FhirR4\StringType $deviceIdentifier
      */
     private $deviceIdentifier = null;
 
@@ -50,7 +50,7 @@ class DeviceUdiCarrierType extends BackboneElementType
     /**
      * The full UDI carrier as the human readable form (HRF) representation of the barcode string as printed on the packaging of the device.
      *
-     * @var string $carrierHRF
+     * @var \TKusy\Hl7FhirR4\StringType $carrierHRF
      */
     private $carrierHRF = null;
 
@@ -66,7 +66,7 @@ class DeviceUdiCarrierType extends BackboneElementType
      *
      * The device identifier (DI) is a mandatory, fixed portion of a UDI that identifies the labeler and the specific version or model of a device.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDeviceIdentifier()
     {
@@ -78,10 +78,10 @@ class DeviceUdiCarrierType extends BackboneElementType
      *
      * The device identifier (DI) is a mandatory, fixed portion of a UDI that identifies the labeler and the specific version or model of a device.
      *
-     * @param string $deviceIdentifier
+     * @param \TKusy\Hl7FhirR4\StringType $deviceIdentifier
      * @return self
      */
-    public function setDeviceIdentifier($deviceIdentifier)
+    public function setDeviceIdentifier(\TKusy\Hl7FhirR4\StringType $deviceIdentifier)
     {
         $this->deviceIdentifier = $deviceIdentifier;
         return $this;
@@ -186,7 +186,7 @@ class DeviceUdiCarrierType extends BackboneElementType
      *
      * The full UDI carrier as the human readable form (HRF) representation of the barcode string as printed on the packaging of the device.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCarrierHRF()
     {
@@ -198,10 +198,10 @@ class DeviceUdiCarrierType extends BackboneElementType
      *
      * The full UDI carrier as the human readable form (HRF) representation of the barcode string as printed on the packaging of the device.
      *
-     * @param string $carrierHRF
+     * @param \TKusy\Hl7FhirR4\StringType $carrierHRF
      * @return self
      */
-    public function setCarrierHRF($carrierHRF)
+    public function setCarrierHRF(\TKusy\Hl7FhirR4\StringType $carrierHRF)
     {
         $this->carrierHRF = $carrierHRF;
         return $this;

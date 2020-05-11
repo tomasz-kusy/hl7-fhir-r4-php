@@ -42,21 +42,21 @@ class GoalTargetType extends BackboneElementType
     /**
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @var string $detailString
+     * @var \TKusy\Hl7FhirR4\StringType $detailString
      */
     private $detailString = null;
 
     /**
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @var bool $detailBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $detailBoolean
      */
     private $detailBoolean = null;
 
     /**
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @var \integer $detailInteger
+     * @var \TKusy\Hl7FhirR4\IntegerType $detailInteger
      */
     private $detailInteger = null;
 
@@ -190,7 +190,7 @@ class GoalTargetType extends BackboneElementType
      *
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDetailString()
     {
@@ -202,10 +202,10 @@ class GoalTargetType extends BackboneElementType
      *
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @param string $detailString
+     * @param \TKusy\Hl7FhirR4\StringType $detailString
      * @return self
      */
-    public function setDetailString($detailString)
+    public function setDetailString(\TKusy\Hl7FhirR4\StringType $detailString)
     {
         $this->detailString = $detailString;
         return $this;
@@ -216,7 +216,7 @@ class GoalTargetType extends BackboneElementType
      *
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getDetailBoolean()
     {
@@ -228,10 +228,10 @@ class GoalTargetType extends BackboneElementType
      *
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @param bool $detailBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $detailBoolean
      * @return self
      */
-    public function setDetailBoolean($detailBoolean)
+    public function setDetailBoolean(\TKusy\Hl7FhirR4\BooleanType $detailBoolean)
     {
         $this->detailBoolean = $detailBoolean;
         return $this;
@@ -242,7 +242,7 @@ class GoalTargetType extends BackboneElementType
      *
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getDetailInteger()
     {
@@ -254,10 +254,10 @@ class GoalTargetType extends BackboneElementType
      *
      * The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any focus value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any focus value at or above the low value. (choose any one of detail*, but only one)
      *
-     * @param \integer $detailInteger
+     * @param \TKusy\Hl7FhirR4\IntegerType $detailInteger
      * @return self
      */
-    public function setDetailInteger(\integer $detailInteger)
+    public function setDetailInteger(\TKusy\Hl7FhirR4\IntegerType $detailInteger)
     {
         $this->detailInteger = $detailInteger;
         return $this;

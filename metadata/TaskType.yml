@@ -154,7 +154,7 @@ TKusy\Hl7FhirR4\TaskType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         focus:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ class CodeSystemFilterType extends BackboneElementType
     /**
      * A description of how or why the filter is used.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -35,7 +35,7 @@ class CodeSystemFilterType extends BackboneElementType
     /**
      * A description of what the value for the filter should be.
      *
-     * @var string $value
+     * @var \TKusy\Hl7FhirR4\StringType $value
      */
     private $value = null;
 
@@ -70,7 +70,7 @@ class CodeSystemFilterType extends BackboneElementType
      *
      * A description of how or why the filter is used.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -82,10 +82,10 @@ class CodeSystemFilterType extends BackboneElementType
      *
      * A description of how or why the filter is used.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -162,7 +162,7 @@ class CodeSystemFilterType extends BackboneElementType
      *
      * A description of what the value for the filter should be.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValue()
     {
@@ -174,10 +174,10 @@ class CodeSystemFilterType extends BackboneElementType
      *
      * A description of what the value for the filter should be.
      *
-     * @param string $value
+     * @param \TKusy\Hl7FhirR4\StringType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
     {
         $this->value = $value;
         return $this;

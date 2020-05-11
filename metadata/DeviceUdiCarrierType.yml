@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\DeviceUdiCarrierType:
             accessor:
                 getter: getDeviceIdentifier
                 setter: setDeviceIdentifier
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         issuer:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\DeviceUdiCarrierType:
             accessor:
                 getter: getCarrierHRF
                 setter: setCarrierHRF
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         entryType:
             expose: true
             access_type: public_method

@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\BundleSearchType:
             accessor:
                 getter: getScore
                 setter: setScore
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType

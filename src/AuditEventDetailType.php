@@ -14,14 +14,14 @@ class AuditEventDetailType extends BackboneElementType
     /**
      * The type of extra detail provided in the value.
      *
-     * @var string $type
+     * @var \TKusy\Hl7FhirR4\StringType $type
      */
     private $type = null;
 
     /**
      * The value of the extra detail. (choose any one of value*, but only one)
      *
-     * @var string $valueString
+     * @var \TKusy\Hl7FhirR4\StringType $valueString
      */
     private $valueString = null;
 
@@ -37,7 +37,7 @@ class AuditEventDetailType extends BackboneElementType
      *
      * The type of extra detail provided in the value.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getType()
     {
@@ -49,10 +49,10 @@ class AuditEventDetailType extends BackboneElementType
      *
      * The type of extra detail provided in the value.
      *
-     * @param string $type
+     * @param \TKusy\Hl7FhirR4\StringType $type
      * @return self
      */
-    public function setType($type)
+    public function setType(\TKusy\Hl7FhirR4\StringType $type)
     {
         $this->type = $type;
         return $this;
@@ -63,7 +63,7 @@ class AuditEventDetailType extends BackboneElementType
      *
      * The value of the extra detail. (choose any one of value*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValueString()
     {
@@ -75,10 +75,10 @@ class AuditEventDetailType extends BackboneElementType
      *
      * The value of the extra detail. (choose any one of value*, but only one)
      *
-     * @param string $valueString
+     * @param \TKusy\Hl7FhirR4\StringType $valueString
      * @return self
      */
-    public function setValueString($valueString)
+    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
     {
         $this->valueString = $valueString;
         return $this;

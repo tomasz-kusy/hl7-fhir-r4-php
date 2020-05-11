@@ -21,7 +21,7 @@ class AdverseEventCausalityType extends BackboneElementType
     /**
      * AdverseEvent.suspectEntity.causalityProductRelatedness.
      *
-     * @var string $productRelatedness
+     * @var \TKusy\Hl7FhirR4\StringType $productRelatedness
      */
     private $productRelatedness = null;
 
@@ -70,7 +70,7 @@ class AdverseEventCausalityType extends BackboneElementType
      *
      * AdverseEvent.suspectEntity.causalityProductRelatedness.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getProductRelatedness()
     {
@@ -82,10 +82,10 @@ class AdverseEventCausalityType extends BackboneElementType
      *
      * AdverseEvent.suspectEntity.causalityProductRelatedness.
      *
-     * @param string $productRelatedness
+     * @param \TKusy\Hl7FhirR4\StringType $productRelatedness
      * @return self
      */
-    public function setProductRelatedness($productRelatedness)
+    public function setProductRelatedness(\TKusy\Hl7FhirR4\StringType $productRelatedness)
     {
         $this->productRelatedness = $productRelatedness;
         return $this;

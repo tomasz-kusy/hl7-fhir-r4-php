@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidType:
             accessor:
                 getter: getNumberOfSubunits
                 setter: setNumberOfSubunits
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         areaOfHybridisation:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidType:
             accessor:
                 getter: getAreaOfHybridisation
                 setter: setAreaOfHybridisation
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         oligoNucleotideType:
             expose: true
             access_type: public_method

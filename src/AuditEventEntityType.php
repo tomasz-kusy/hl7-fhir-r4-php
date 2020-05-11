@@ -49,14 +49,14 @@ class AuditEventEntityType extends BackboneElementType
     /**
      * A name of the entity in the audit event.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * Text that describes the entity in more detail.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -249,7 +249,7 @@ class AuditEventEntityType extends BackboneElementType
      *
      * A name of the entity in the audit event.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -261,10 +261,10 @@ class AuditEventEntityType extends BackboneElementType
      *
      * A name of the entity in the audit event.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -275,7 +275,7 @@ class AuditEventEntityType extends BackboneElementType
      *
      * Text that describes the entity in more detail.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -287,10 +287,10 @@ class AuditEventEntityType extends BackboneElementType
      *
      * Text that describes the entity in more detail.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

@@ -14,7 +14,7 @@ class MedicationDispenseSubstitutionType extends BackboneElementType
     /**
      * True if the dispenser dispensed a different drug or product from what was prescribed.
      *
-     * @var bool $wasSubstituted
+     * @var \TKusy\Hl7FhirR4\BooleanType $wasSubstituted
      */
     private $wasSubstituted = null;
 
@@ -44,7 +44,7 @@ class MedicationDispenseSubstitutionType extends BackboneElementType
      *
      * True if the dispenser dispensed a different drug or product from what was prescribed.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getWasSubstituted()
     {
@@ -56,10 +56,10 @@ class MedicationDispenseSubstitutionType extends BackboneElementType
      *
      * True if the dispenser dispensed a different drug or product from what was prescribed.
      *
-     * @param bool $wasSubstituted
+     * @param \TKusy\Hl7FhirR4\BooleanType $wasSubstituted
      * @return self
      */
-    public function setWasSubstituted($wasSubstituted)
+    public function setWasSubstituted(\TKusy\Hl7FhirR4\BooleanType $wasSubstituted)
     {
         $this->wasSubstituted = $wasSubstituted;
         return $this;

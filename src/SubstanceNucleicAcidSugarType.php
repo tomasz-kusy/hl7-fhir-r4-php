@@ -21,14 +21,14 @@ class SubstanceNucleicAcidSugarType extends BackboneElementType
     /**
      * The name of the sugar or sugar-like component that make up the nucleotide.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * The residues that contain a given sugar will be captured. The order of given residues will be captured in the 5‘-3‘direction consistent with the base sequences listed above.
      *
-     * @var string $residueSite
+     * @var \TKusy\Hl7FhirR4\StringType $residueSite
      */
     private $residueSite = null;
 
@@ -63,7 +63,7 @@ class SubstanceNucleicAcidSugarType extends BackboneElementType
      *
      * The name of the sugar or sugar-like component that make up the nucleotide.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -75,10 +75,10 @@ class SubstanceNucleicAcidSugarType extends BackboneElementType
      *
      * The name of the sugar or sugar-like component that make up the nucleotide.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -89,7 +89,7 @@ class SubstanceNucleicAcidSugarType extends BackboneElementType
      *
      * The residues that contain a given sugar will be captured. The order of given residues will be captured in the 5‘-3‘direction consistent with the base sequences listed above.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getResidueSite()
     {
@@ -101,10 +101,10 @@ class SubstanceNucleicAcidSugarType extends BackboneElementType
      *
      * The residues that contain a given sugar will be captured. The order of given residues will be captured in the 5‘-3‘direction consistent with the base sequences listed above.
      *
-     * @param string $residueSite
+     * @param \TKusy\Hl7FhirR4\StringType $residueSite
      * @return self
      */
-    public function setResidueSite($residueSite)
+    public function setResidueSite(\TKusy\Hl7FhirR4\StringType $residueSite)
     {
         $this->residueSite = $residueSite;
         return $this;

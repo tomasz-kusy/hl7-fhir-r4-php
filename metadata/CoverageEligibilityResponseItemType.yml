@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             accessor:
                 getter: getExcluded
                 setter: setExcluded
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         name:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         description:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         network:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType:
             accessor:
                 getter: getAuthorizationRequired
                 setter: setAuthorizationRequired
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         authorizationSupporting:
             expose: true
             access_type: public_method

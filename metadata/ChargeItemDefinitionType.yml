@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         derivedFromUri:
             expose: true
             access_type: public_method
@@ -114,7 +114,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         date:
             expose: true
             access_type: public_method
@@ -136,7 +136,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method

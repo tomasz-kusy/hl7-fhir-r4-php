@@ -14,7 +14,7 @@ class ExpressionType extends ElementType
     /**
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -35,7 +35,7 @@ class ExpressionType extends ElementType
     /**
      * An expression in the specified language that returns a value.
      *
-     * @var string $expression
+     * @var \TKusy\Hl7FhirR4\StringType $expression
      */
     private $expression = null;
 
@@ -51,7 +51,7 @@ class ExpressionType extends ElementType
      *
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -63,10 +63,10 @@ class ExpressionType extends ElementType
      *
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -129,7 +129,7 @@ class ExpressionType extends ElementType
      *
      * An expression in the specified language that returns a value.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getExpression()
     {
@@ -141,10 +141,10 @@ class ExpressionType extends ElementType
      *
      * An expression in the specified language that returns a value.
      *
-     * @param string $expression
+     * @param \TKusy\Hl7FhirR4\StringType $expression
      * @return self
      */
-    public function setExpression($expression)
+    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
     {
         $this->expression = $expression;
         return $this;

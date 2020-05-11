@@ -21,7 +21,7 @@ class ImplementationGuideParameterType extends BackboneElementType
     /**
      * Value for named type.
      *
-     * @var string $value
+     * @var \TKusy\Hl7FhirR4\StringType $value
      */
     private $value = null;
 
@@ -56,7 +56,7 @@ class ImplementationGuideParameterType extends BackboneElementType
      *
      * Value for named type.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValue()
     {
@@ -68,10 +68,10 @@ class ImplementationGuideParameterType extends BackboneElementType
      *
      * Value for named type.
      *
-     * @param string $value
+     * @param \TKusy\Hl7FhirR4\StringType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
     {
         $this->value = $value;
         return $this;

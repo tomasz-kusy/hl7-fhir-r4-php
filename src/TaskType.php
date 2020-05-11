@@ -98,7 +98,7 @@ class TaskType extends DomainResourceType
     /**
      * A free-text description of what is to be performed.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -665,7 +665,7 @@ class TaskType extends DomainResourceType
      *
      * A free-text description of what is to be performed.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -677,10 +677,10 @@ class TaskType extends DomainResourceType
      *
      * A free-text description of what is to be performed.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

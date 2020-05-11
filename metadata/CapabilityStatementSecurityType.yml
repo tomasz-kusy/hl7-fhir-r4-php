@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSecurityType:
             accessor:
                 getter: getCors
                 setter: setCors
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         service:
             expose: true
             access_type: public_method

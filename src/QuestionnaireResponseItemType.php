@@ -14,7 +14,7 @@ class QuestionnaireResponseItemType extends BackboneElementType
     /**
      * The item from the Questionnaire that corresponds to this item in the QuestionnaireResponse resource.
      *
-     * @var string $linkId
+     * @var \TKusy\Hl7FhirR4\StringType $linkId
      */
     private $linkId = null;
 
@@ -28,7 +28,7 @@ class QuestionnaireResponseItemType extends BackboneElementType
     /**
      * Text that is displayed above the contents of the group or as the text of the question being answered.
      *
-     * @var string $text
+     * @var \TKusy\Hl7FhirR4\StringType $text
      */
     private $text = null;
 
@@ -51,7 +51,7 @@ class QuestionnaireResponseItemType extends BackboneElementType
      *
      * The item from the Questionnaire that corresponds to this item in the QuestionnaireResponse resource.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getLinkId()
     {
@@ -63,10 +63,10 @@ class QuestionnaireResponseItemType extends BackboneElementType
      *
      * The item from the Questionnaire that corresponds to this item in the QuestionnaireResponse resource.
      *
-     * @param string $linkId
+     * @param \TKusy\Hl7FhirR4\StringType $linkId
      * @return self
      */
-    public function setLinkId($linkId)
+    public function setLinkId(\TKusy\Hl7FhirR4\StringType $linkId)
     {
         $this->linkId = $linkId;
         return $this;
@@ -103,7 +103,7 @@ class QuestionnaireResponseItemType extends BackboneElementType
      *
      * Text that is displayed above the contents of the group or as the text of the question being answered.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getText()
     {
@@ -115,10 +115,10 @@ class QuestionnaireResponseItemType extends BackboneElementType
      *
      * Text that is displayed above the contents of the group or as the text of the question being answered.
      *
-     * @param string $text
+     * @param \TKusy\Hl7FhirR4\StringType $text
      * @return self
      */
-    public function setText($text)
+    public function setText(\TKusy\Hl7FhirR4\StringType $text)
     {
         $this->text = $text;
         return $this;

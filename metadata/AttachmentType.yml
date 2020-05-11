@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\AttachmentType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         creation:
             expose: true
             access_type: public_method

@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\LocationType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         alias:
             expose: true
             access_type: public_method
@@ -62,7 +62,7 @@ TKusy\Hl7FhirR4\LocationType:
                 inline: true
                 entry_name: alias
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         description:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ TKusy\Hl7FhirR4\LocationType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         mode:
             expose: true
             access_type: public_method
@@ -195,7 +195,7 @@ TKusy\Hl7FhirR4\LocationType:
             accessor:
                 getter: getAvailabilityExceptions
                 setter: setAvailabilityExceptions
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         endpoint:
             expose: true
             access_type: public_method

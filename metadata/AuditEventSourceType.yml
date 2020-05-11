@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\AuditEventSourceType:
             accessor:
                 getter: getSite
                 setter: setSite
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         observer:
             expose: true
             access_type: public_method

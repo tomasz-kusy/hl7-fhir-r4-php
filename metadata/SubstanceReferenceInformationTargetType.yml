@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationTargetType:
             accessor:
                 getter: getAmountString
                 setter: setAmountString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         amountType:
             expose: true
             access_type: public_method

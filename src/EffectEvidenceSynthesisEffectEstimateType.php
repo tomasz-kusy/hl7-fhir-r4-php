@@ -14,7 +14,7 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
     /**
      * Human-readable summary of effect estimate.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -35,7 +35,7 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
     /**
      * The point estimate of the effect estimate.
      *
-     * @var float $value
+     * @var \TKusy\Hl7FhirR4\DecimalType $value
      */
     private $value = null;
 
@@ -58,7 +58,7 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
      *
      * Human-readable summary of effect estimate.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -70,10 +70,10 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
      *
      * Human-readable summary of effect estimate.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -136,7 +136,7 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
      *
      * The point estimate of the effect estimate.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getValue()
     {
@@ -148,10 +148,10 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
      *
      * The point estimate of the effect estimate.
      *
-     * @param float $value
+     * @param \TKusy\Hl7FhirR4\DecimalType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\DecimalType $value)
     {
         $this->value = $value;
         return $this;

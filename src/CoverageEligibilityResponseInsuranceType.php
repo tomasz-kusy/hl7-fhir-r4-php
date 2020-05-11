@@ -21,7 +21,7 @@ class CoverageEligibilityResponseInsuranceType extends BackboneElementType
     /**
      * Flag indicating if the coverage provided is inforce currently if no service date(s) specified or for the whole duration of the service dates.
      *
-     * @var bool $inforce
+     * @var \TKusy\Hl7FhirR4\BooleanType $inforce
      */
     private $inforce = null;
 
@@ -70,7 +70,7 @@ class CoverageEligibilityResponseInsuranceType extends BackboneElementType
      *
      * Flag indicating if the coverage provided is inforce currently if no service date(s) specified or for the whole duration of the service dates.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getInforce()
     {
@@ -82,10 +82,10 @@ class CoverageEligibilityResponseInsuranceType extends BackboneElementType
      *
      * Flag indicating if the coverage provided is inforce currently if no service date(s) specified or for the whole duration of the service dates.
      *
-     * @param bool $inforce
+     * @param \TKusy\Hl7FhirR4\BooleanType $inforce
      * @return self
      */
-    public function setInforce($inforce)
+    public function setInforce(\TKusy\Hl7FhirR4\BooleanType $inforce)
     {
         $this->inforce = $inforce;
         return $this;

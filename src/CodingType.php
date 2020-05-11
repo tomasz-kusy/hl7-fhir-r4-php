@@ -21,7 +21,7 @@ class CodingType extends ElementType
     /**
      * The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
@@ -35,14 +35,14 @@ class CodingType extends ElementType
     /**
      * A representation of the meaning of the code in the system, following the rules of the system.
      *
-     * @var string $display
+     * @var \TKusy\Hl7FhirR4\StringType $display
      */
     private $display = null;
 
     /**
      * Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).
      *
-     * @var bool $userSelected
+     * @var \TKusy\Hl7FhirR4\BooleanType $userSelected
      */
     private $userSelected = null;
 
@@ -77,7 +77,7 @@ class CodingType extends ElementType
      *
      * The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -89,10 +89,10 @@ class CodingType extends ElementType
      *
      * The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -129,7 +129,7 @@ class CodingType extends ElementType
      *
      * A representation of the meaning of the code in the system, following the rules of the system.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisplay()
     {
@@ -141,10 +141,10 @@ class CodingType extends ElementType
      *
      * A representation of the meaning of the code in the system, following the rules of the system.
      *
-     * @param string $display
+     * @param \TKusy\Hl7FhirR4\StringType $display
      * @return self
      */
-    public function setDisplay($display)
+    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
     {
         $this->display = $display;
         return $this;
@@ -155,7 +155,7 @@ class CodingType extends ElementType
      *
      * Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getUserSelected()
     {
@@ -167,10 +167,10 @@ class CodingType extends ElementType
      *
      * Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).
      *
-     * @param bool $userSelected
+     * @param \TKusy\Hl7FhirR4\BooleanType $userSelected
      * @return self
      */
-    public function setUserSelected($userSelected)
+    public function setUserSelected(\TKusy\Hl7FhirR4\BooleanType $userSelected)
     {
         $this->userSelected = $userSelected;
         return $this;

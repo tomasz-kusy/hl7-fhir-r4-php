@@ -42,7 +42,7 @@ class DeviceRequestParameterType extends BackboneElementType
     /**
      * The value of the device detail. (choose any one of value*, but only one)
      *
-     * @var bool $valueBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      */
     private $valueBoolean = null;
 
@@ -155,7 +155,7 @@ class DeviceRequestParameterType extends BackboneElementType
      *
      * The value of the device detail. (choose any one of value*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getValueBoolean()
     {
@@ -167,10 +167,10 @@ class DeviceRequestParameterType extends BackboneElementType
      *
      * The value of the device detail. (choose any one of value*, but only one)
      *
-     * @param bool $valueBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
      * @return self
      */
-    public function setValueBoolean($valueBoolean)
+    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;

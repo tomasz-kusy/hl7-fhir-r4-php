@@ -56,7 +56,7 @@ class AuditEventType extends DomainResourceType
     /**
      * A free text description of the outcome of the event.
      *
-     * @var string $outcomeDesc
+     * @var \TKusy\Hl7FhirR4\StringType $outcomeDesc
      */
     private $outcomeDesc = null;
 
@@ -289,7 +289,7 @@ class AuditEventType extends DomainResourceType
      *
      * A free text description of the outcome of the event.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getOutcomeDesc()
     {
@@ -301,10 +301,10 @@ class AuditEventType extends DomainResourceType
      *
      * A free text description of the outcome of the event.
      *
-     * @param string $outcomeDesc
+     * @param \TKusy\Hl7FhirR4\StringType $outcomeDesc
      * @return self
      */
-    public function setOutcomeDesc($outcomeDesc)
+    public function setOutcomeDesc(\TKusy\Hl7FhirR4\StringType $outcomeDesc)
     {
         $this->outcomeDesc = $outcomeDesc;
         return $this;

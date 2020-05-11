@@ -28,21 +28,21 @@ class OperationDefinitionParameterType extends BackboneElementType
     /**
      * The minimum number of times this parameter SHALL appear in the request or response.
      *
-     * @var \integer $min
+     * @var \TKusy\Hl7FhirR4\IntegerType $min
      */
     private $min = null;
 
     /**
      * The maximum number of times this element is permitted to appear in the request or response.
      *
-     * @var string $max
+     * @var \TKusy\Hl7FhirR4\StringType $max
      */
     private $max = null;
 
     /**
      * Describes the meaning or use of this parameter.
      *
-     * @var string $documentation
+     * @var \TKusy\Hl7FhirR4\StringType $documentation
      */
     private $documentation = null;
 
@@ -145,7 +145,7 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * The minimum number of times this parameter SHALL appear in the request or response.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getMin()
     {
@@ -157,10 +157,10 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * The minimum number of times this parameter SHALL appear in the request or response.
      *
-     * @param \integer $min
+     * @param \TKusy\Hl7FhirR4\IntegerType $min
      * @return self
      */
-    public function setMin(\integer $min)
+    public function setMin(\TKusy\Hl7FhirR4\IntegerType $min)
     {
         $this->min = $min;
         return $this;
@@ -171,7 +171,7 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * The maximum number of times this element is permitted to appear in the request or response.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMax()
     {
@@ -183,10 +183,10 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * The maximum number of times this element is permitted to appear in the request or response.
      *
-     * @param string $max
+     * @param \TKusy\Hl7FhirR4\StringType $max
      * @return self
      */
-    public function setMax($max)
+    public function setMax(\TKusy\Hl7FhirR4\StringType $max)
     {
         $this->max = $max;
         return $this;
@@ -197,7 +197,7 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * Describes the meaning or use of this parameter.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDocumentation()
     {
@@ -209,10 +209,10 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * Describes the meaning or use of this parameter.
      *
-     * @param string $documentation
+     * @param \TKusy\Hl7FhirR4\StringType $documentation
      * @return self
      */
-    public function setDocumentation($documentation)
+    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
     {
         $this->documentation = $documentation;
         return $this;

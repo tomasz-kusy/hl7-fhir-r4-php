@@ -70,7 +70,7 @@ class PaymentReconciliationType extends DomainResourceType
     /**
      * A human readable description of the status of the request for the reconciliation.
      *
-     * @var string $disposition
+     * @var \TKusy\Hl7FhirR4\StringType $disposition
      */
     private $disposition = null;
 
@@ -369,7 +369,7 @@ class PaymentReconciliationType extends DomainResourceType
      *
      * A human readable description of the status of the request for the reconciliation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisposition()
     {
@@ -381,10 +381,10 @@ class PaymentReconciliationType extends DomainResourceType
      *
      * A human readable description of the status of the request for the reconciliation.
      *
-     * @param string $disposition
+     * @param \TKusy\Hl7FhirR4\StringType $disposition
      * @return self
      */
-    public function setDisposition($disposition)
+    public function setDisposition(\TKusy\Hl7FhirR4\StringType $disposition)
     {
         $this->disposition = $disposition;
         return $this;

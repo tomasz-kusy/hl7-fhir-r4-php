@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MeasureComponentType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         criteria:
             expose: true
             access_type: public_method

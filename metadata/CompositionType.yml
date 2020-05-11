@@ -106,7 +106,7 @@ TKusy\Hl7FhirR4\CompositionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         confidentiality:
             expose: true
             access_type: public_method

@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitAdjudicationType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType

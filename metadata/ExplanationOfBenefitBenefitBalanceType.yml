@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             accessor:
                 getter: getExcluded
                 setter: setExcluded
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         name:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         description:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         network:
             expose: true
             access_type: public_method

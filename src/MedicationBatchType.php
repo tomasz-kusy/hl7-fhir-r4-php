@@ -14,7 +14,7 @@ class MedicationBatchType extends BackboneElementType
     /**
      * The assigned lot number of a batch of the specified product.
      *
-     * @var string $lotNumber
+     * @var \TKusy\Hl7FhirR4\StringType $lotNumber
      */
     private $lotNumber = null;
 
@@ -30,7 +30,7 @@ class MedicationBatchType extends BackboneElementType
      *
      * The assigned lot number of a batch of the specified product.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getLotNumber()
     {
@@ -42,10 +42,10 @@ class MedicationBatchType extends BackboneElementType
      *
      * The assigned lot number of a batch of the specified product.
      *
-     * @param string $lotNumber
+     * @param \TKusy\Hl7FhirR4\StringType $lotNumber
      * @return self
      */
-    public function setLotNumber($lotNumber)
+    public function setLotNumber(\TKusy\Hl7FhirR4\StringType $lotNumber)
     {
         $this->lotNumber = $lotNumber;
         return $this;

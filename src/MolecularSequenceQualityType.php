@@ -28,14 +28,14 @@ class MolecularSequenceQualityType extends BackboneElementType
     /**
      * Start position of the sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @var \integer $start
+     * @var \TKusy\Hl7FhirR4\IntegerType $start
      */
     private $start = null;
 
     /**
      * End position of the sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @var \integer $end
+     * @var \TKusy\Hl7FhirR4\IntegerType $end
      */
     private $end = null;
 
@@ -56,56 +56,56 @@ class MolecularSequenceQualityType extends BackboneElementType
     /**
      * True positives, from the perspective of the truth data, i.e. the number of sites in the Truth Call Set for which there are paths through the Query Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.
      *
-     * @var float $truthTP
+     * @var \TKusy\Hl7FhirR4\DecimalType $truthTP
      */
     private $truthTP = null;
 
     /**
      * True positives, from the perspective of the query data, i.e. the number of sites in the Query Call Set for which there are paths through the Truth Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.
      *
-     * @var float $queryTP
+     * @var \TKusy\Hl7FhirR4\DecimalType $queryTP
      */
     private $queryTP = null;
 
     /**
      * False negatives, i.e. the number of sites in the Truth Call Set for which there is no path through the Query Call Set that is consistent with all of the alleles at this site, or sites for which there is an inaccurate genotype call for the event. Sites with correct variant but incorrect genotype are counted here.
      *
-     * @var float $truthFN
+     * @var \TKusy\Hl7FhirR4\DecimalType $truthFN
      */
     private $truthFN = null;
 
     /**
      * False positives, i.e. the number of sites in the Query Call Set for which there is no path through the Truth Call Set that is consistent with this site. Sites with correct variant but incorrect genotype are counted here.
      *
-     * @var float $queryFP
+     * @var \TKusy\Hl7FhirR4\DecimalType $queryFP
      */
     private $queryFP = null;
 
     /**
      * The number of false positives where the non-REF alleles in the Truth and Query Call Sets match (i.e. cases where the truth is 1/1 and the query is 0/1 or similar).
      *
-     * @var float $gtFP
+     * @var \TKusy\Hl7FhirR4\DecimalType $gtFP
      */
     private $gtFP = null;
 
     /**
      * QUERY.TP / (QUERY.TP + QUERY.FP).
      *
-     * @var float $precision
+     * @var \TKusy\Hl7FhirR4\DecimalType $precision
      */
     private $precision = null;
 
     /**
      * TRUTH.TP / (TRUTH.TP + TRUTH.FN).
      *
-     * @var float $recall
+     * @var \TKusy\Hl7FhirR4\DecimalType $recall
      */
     private $recall = null;
 
     /**
      * Harmonic mean of Recall and Precision, computed as: 2 * precision * recall / (precision + recall).
      *
-     * @var float $fScore
+     * @var \TKusy\Hl7FhirR4\DecimalType $fScore
      */
     private $fScore = null;
 
@@ -173,7 +173,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * Start position of the sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getStart()
     {
@@ -185,10 +185,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * Start position of the sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @param \integer $start
+     * @param \TKusy\Hl7FhirR4\IntegerType $start
      * @return self
      */
-    public function setStart(\integer $start)
+    public function setStart(\TKusy\Hl7FhirR4\IntegerType $start)
     {
         $this->start = $start;
         return $this;
@@ -199,7 +199,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * End position of the sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getEnd()
     {
@@ -211,10 +211,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * End position of the sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @param \integer $end
+     * @param \TKusy\Hl7FhirR4\IntegerType $end
      * @return self
      */
-    public function setEnd(\integer $end)
+    public function setEnd(\TKusy\Hl7FhirR4\IntegerType $end)
     {
         $this->end = $end;
         return $this;
@@ -277,7 +277,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * True positives, from the perspective of the truth data, i.e. the number of sites in the Truth Call Set for which there are paths through the Query Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getTruthTP()
     {
@@ -289,10 +289,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * True positives, from the perspective of the truth data, i.e. the number of sites in the Truth Call Set for which there are paths through the Query Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.
      *
-     * @param float $truthTP
+     * @param \TKusy\Hl7FhirR4\DecimalType $truthTP
      * @return self
      */
-    public function setTruthTP($truthTP)
+    public function setTruthTP(\TKusy\Hl7FhirR4\DecimalType $truthTP)
     {
         $this->truthTP = $truthTP;
         return $this;
@@ -303,7 +303,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * True positives, from the perspective of the query data, i.e. the number of sites in the Query Call Set for which there are paths through the Truth Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getQueryTP()
     {
@@ -315,10 +315,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * True positives, from the perspective of the query data, i.e. the number of sites in the Query Call Set for which there are paths through the Truth Call Set that are consistent with all of the alleles at this site, and for which there is an accurate genotype call for the event.
      *
-     * @param float $queryTP
+     * @param \TKusy\Hl7FhirR4\DecimalType $queryTP
      * @return self
      */
-    public function setQueryTP($queryTP)
+    public function setQueryTP(\TKusy\Hl7FhirR4\DecimalType $queryTP)
     {
         $this->queryTP = $queryTP;
         return $this;
@@ -329,7 +329,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * False negatives, i.e. the number of sites in the Truth Call Set for which there is no path through the Query Call Set that is consistent with all of the alleles at this site, or sites for which there is an inaccurate genotype call for the event. Sites with correct variant but incorrect genotype are counted here.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getTruthFN()
     {
@@ -341,10 +341,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * False negatives, i.e. the number of sites in the Truth Call Set for which there is no path through the Query Call Set that is consistent with all of the alleles at this site, or sites for which there is an inaccurate genotype call for the event. Sites with correct variant but incorrect genotype are counted here.
      *
-     * @param float $truthFN
+     * @param \TKusy\Hl7FhirR4\DecimalType $truthFN
      * @return self
      */
-    public function setTruthFN($truthFN)
+    public function setTruthFN(\TKusy\Hl7FhirR4\DecimalType $truthFN)
     {
         $this->truthFN = $truthFN;
         return $this;
@@ -355,7 +355,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * False positives, i.e. the number of sites in the Query Call Set for which there is no path through the Truth Call Set that is consistent with this site. Sites with correct variant but incorrect genotype are counted here.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getQueryFP()
     {
@@ -367,10 +367,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * False positives, i.e. the number of sites in the Query Call Set for which there is no path through the Truth Call Set that is consistent with this site. Sites with correct variant but incorrect genotype are counted here.
      *
-     * @param float $queryFP
+     * @param \TKusy\Hl7FhirR4\DecimalType $queryFP
      * @return self
      */
-    public function setQueryFP($queryFP)
+    public function setQueryFP(\TKusy\Hl7FhirR4\DecimalType $queryFP)
     {
         $this->queryFP = $queryFP;
         return $this;
@@ -381,7 +381,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * The number of false positives where the non-REF alleles in the Truth and Query Call Sets match (i.e. cases where the truth is 1/1 and the query is 0/1 or similar).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getGtFP()
     {
@@ -393,10 +393,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * The number of false positives where the non-REF alleles in the Truth and Query Call Sets match (i.e. cases where the truth is 1/1 and the query is 0/1 or similar).
      *
-     * @param float $gtFP
+     * @param \TKusy\Hl7FhirR4\DecimalType $gtFP
      * @return self
      */
-    public function setGtFP($gtFP)
+    public function setGtFP(\TKusy\Hl7FhirR4\DecimalType $gtFP)
     {
         $this->gtFP = $gtFP;
         return $this;
@@ -407,7 +407,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * QUERY.TP / (QUERY.TP + QUERY.FP).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getPrecision()
     {
@@ -419,10 +419,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * QUERY.TP / (QUERY.TP + QUERY.FP).
      *
-     * @param float $precision
+     * @param \TKusy\Hl7FhirR4\DecimalType $precision
      * @return self
      */
-    public function setPrecision($precision)
+    public function setPrecision(\TKusy\Hl7FhirR4\DecimalType $precision)
     {
         $this->precision = $precision;
         return $this;
@@ -433,7 +433,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * TRUTH.TP / (TRUTH.TP + TRUTH.FN).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getRecall()
     {
@@ -445,10 +445,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * TRUTH.TP / (TRUTH.TP + TRUTH.FN).
      *
-     * @param float $recall
+     * @param \TKusy\Hl7FhirR4\DecimalType $recall
      * @return self
      */
-    public function setRecall($recall)
+    public function setRecall(\TKusy\Hl7FhirR4\DecimalType $recall)
     {
         $this->recall = $recall;
         return $this;
@@ -459,7 +459,7 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * Harmonic mean of Recall and Precision, computed as: 2 * precision * recall / (precision + recall).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getFScore()
     {
@@ -471,10 +471,10 @@ class MolecularSequenceQualityType extends BackboneElementType
      *
      * Harmonic mean of Recall and Precision, computed as: 2 * precision * recall / (precision + recall).
      *
-     * @param float $fScore
+     * @param \TKusy\Hl7FhirR4\DecimalType $fScore
      * @return self
      */
-    public function setFScore($fScore)
+    public function setFScore(\TKusy\Hl7FhirR4\DecimalType $fScore)
     {
         $this->fScore = $fScore;
         return $this;

@@ -28,7 +28,7 @@ class SubstanceSpecificationPropertyType extends BackboneElementType
     /**
      * Parameters that were used in the measurement of a property (e.g. for viscosity: measured at 20C with a pH of 7.1).
      *
-     * @var string $parameters
+     * @var \TKusy\Hl7FhirR4\StringType $parameters
      */
     private $parameters = null;
 
@@ -56,7 +56,7 @@ class SubstanceSpecificationPropertyType extends BackboneElementType
     /**
      * Quantitative value for this property. (choose any one of amount*, but only one)
      *
-     * @var string $amountString
+     * @var \TKusy\Hl7FhirR4\StringType $amountString
      */
     private $amountString = null;
 
@@ -117,7 +117,7 @@ class SubstanceSpecificationPropertyType extends BackboneElementType
      *
      * Parameters that were used in the measurement of a property (e.g. for viscosity: measured at 20C with a pH of 7.1).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getParameters()
     {
@@ -129,10 +129,10 @@ class SubstanceSpecificationPropertyType extends BackboneElementType
      *
      * Parameters that were used in the measurement of a property (e.g. for viscosity: measured at 20C with a pH of 7.1).
      *
-     * @param string $parameters
+     * @param \TKusy\Hl7FhirR4\StringType $parameters
      * @return self
      */
-    public function setParameters($parameters)
+    public function setParameters(\TKusy\Hl7FhirR4\StringType $parameters)
     {
         $this->parameters = $parameters;
         return $this;
@@ -221,7 +221,7 @@ class SubstanceSpecificationPropertyType extends BackboneElementType
      *
      * Quantitative value for this property. (choose any one of amount*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAmountString()
     {
@@ -233,10 +233,10 @@ class SubstanceSpecificationPropertyType extends BackboneElementType
      *
      * Quantitative value for this property. (choose any one of amount*, but only one)
      *
-     * @param string $amountString
+     * @param \TKusy\Hl7FhirR4\StringType $amountString
      * @return self
      */
-    public function setAmountString($amountString)
+    public function setAmountString(\TKusy\Hl7FhirR4\StringType $amountString)
     {
         $this->amountString = $amountString;
         return $this;

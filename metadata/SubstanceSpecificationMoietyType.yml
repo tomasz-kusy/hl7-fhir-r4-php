@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         stereochemistry:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             accessor:
                 getter: getMolecularFormula
                 setter: setMolecularFormula
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         amountQuantity:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType:
             accessor:
                 getter: getAmountString
                 setter: setAmountString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

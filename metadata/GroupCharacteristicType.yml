@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         valueQuantity:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\GroupCharacteristicType:
             accessor:
                 getter: getExclude
                 setter: setExclude
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         period:
             expose: true
             access_type: public_method

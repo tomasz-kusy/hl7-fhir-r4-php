@@ -21,14 +21,14 @@ class SearchParameterType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the search parameter when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the search parameter author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -49,7 +49,7 @@ class SearchParameterType extends DomainResourceType
     /**
      * A Boolean value to indicate that this search parameter is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -63,7 +63,7 @@ class SearchParameterType extends DomainResourceType
     /**
      * The name of the organization or individual that published the search parameter.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -126,14 +126,14 @@ class SearchParameterType extends DomainResourceType
     /**
      * A FHIRPath expression that returns a set of elements for the search parameter.
      *
-     * @var string $expression
+     * @var \TKusy\Hl7FhirR4\StringType $expression
      */
     private $expression = null;
 
     /**
      * An XPath expression that returns a set of elements for the search parameter.
      *
-     * @var string $xpath
+     * @var \TKusy\Hl7FhirR4\StringType $xpath
      */
     private $xpath = null;
 
@@ -154,14 +154,14 @@ class SearchParameterType extends DomainResourceType
     /**
      * Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match.
      *
-     * @var bool $multipleOr
+     * @var \TKusy\Hl7FhirR4\BooleanType $multipleOr
      */
     private $multipleOr = null;
 
     /**
      * Whether multiple parameters are allowed - e.g. more than one parameter with the same name. The search matches if all the parameters match.
      *
-     * @var bool $multipleAnd
+     * @var \TKusy\Hl7FhirR4\BooleanType $multipleAnd
      */
     private $multipleAnd = null;
 
@@ -182,7 +182,7 @@ class SearchParameterType extends DomainResourceType
     /**
      * Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.
      *
-     * @var string[] $chain
+     * @var \TKusy\Hl7FhirR4\StringType[] $chain
      */
     private $chain = null;
 
@@ -224,7 +224,7 @@ class SearchParameterType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the search parameter when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the search parameter author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -236,10 +236,10 @@ class SearchParameterType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the search parameter when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the search parameter author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -250,7 +250,7 @@ class SearchParameterType extends DomainResourceType
      *
      * A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -262,10 +262,10 @@ class SearchParameterType extends DomainResourceType
      *
      * A natural language name identifying the search parameter. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -328,7 +328,7 @@ class SearchParameterType extends DomainResourceType
      *
      * A Boolean value to indicate that this search parameter is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -340,10 +340,10 @@ class SearchParameterType extends DomainResourceType
      *
      * A Boolean value to indicate that this search parameter is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -380,7 +380,7 @@ class SearchParameterType extends DomainResourceType
      *
      * The name of the organization or individual that published the search parameter.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -392,10 +392,10 @@ class SearchParameterType extends DomainResourceType
      *
      * The name of the organization or individual that published the search parameter.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -774,7 +774,7 @@ class SearchParameterType extends DomainResourceType
      *
      * A FHIRPath expression that returns a set of elements for the search parameter.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getExpression()
     {
@@ -786,10 +786,10 @@ class SearchParameterType extends DomainResourceType
      *
      * A FHIRPath expression that returns a set of elements for the search parameter.
      *
-     * @param string $expression
+     * @param \TKusy\Hl7FhirR4\StringType $expression
      * @return self
      */
-    public function setExpression($expression)
+    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
     {
         $this->expression = $expression;
         return $this;
@@ -800,7 +800,7 @@ class SearchParameterType extends DomainResourceType
      *
      * An XPath expression that returns a set of elements for the search parameter.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getXpath()
     {
@@ -812,10 +812,10 @@ class SearchParameterType extends DomainResourceType
      *
      * An XPath expression that returns a set of elements for the search parameter.
      *
-     * @param string $xpath
+     * @param \TKusy\Hl7FhirR4\StringType $xpath
      * @return self
      */
-    public function setXpath($xpath)
+    public function setXpath(\TKusy\Hl7FhirR4\StringType $xpath)
     {
         $this->xpath = $xpath;
         return $this;
@@ -918,7 +918,7 @@ class SearchParameterType extends DomainResourceType
      *
      * Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getMultipleOr()
     {
@@ -930,10 +930,10 @@ class SearchParameterType extends DomainResourceType
      *
      * Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match.
      *
-     * @param bool $multipleOr
+     * @param \TKusy\Hl7FhirR4\BooleanType $multipleOr
      * @return self
      */
-    public function setMultipleOr($multipleOr)
+    public function setMultipleOr(\TKusy\Hl7FhirR4\BooleanType $multipleOr)
     {
         $this->multipleOr = $multipleOr;
         return $this;
@@ -944,7 +944,7 @@ class SearchParameterType extends DomainResourceType
      *
      * Whether multiple parameters are allowed - e.g. more than one parameter with the same name. The search matches if all the parameters match.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getMultipleAnd()
     {
@@ -956,10 +956,10 @@ class SearchParameterType extends DomainResourceType
      *
      * Whether multiple parameters are allowed - e.g. more than one parameter with the same name. The search matches if all the parameters match.
      *
-     * @param bool $multipleAnd
+     * @param \TKusy\Hl7FhirR4\BooleanType $multipleAnd
      * @return self
      */
-    public function setMultipleAnd($multipleAnd)
+    public function setMultipleAnd(\TKusy\Hl7FhirR4\BooleanType $multipleAnd)
     {
         $this->multipleAnd = $multipleAnd;
         return $this;
@@ -1103,9 +1103,9 @@ class SearchParameterType extends DomainResourceType
      * Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.
      *
      * @return self
-     * @param string $chain
+     * @param \TKusy\Hl7FhirR4\StringType $chain
      */
-    public function addToChain($chain)
+    public function addToChain(\TKusy\Hl7FhirR4\StringType $chain)
     {
         $this->chain[] = $chain;
         return $this;
@@ -1142,7 +1142,7 @@ class SearchParameterType extends DomainResourceType
      *
      * Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getChain()
     {
@@ -1154,7 +1154,7 @@ class SearchParameterType extends DomainResourceType
      *
      * Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.
      *
-     * @param string[] $chain
+     * @param \TKusy\Hl7FhirR4\StringType[] $chain
      * @return self
      */
     public function setChain(array $chain)

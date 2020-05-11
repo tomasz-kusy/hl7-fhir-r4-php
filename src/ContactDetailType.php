@@ -14,7 +14,7 @@ class ContactDetailType extends ElementType
     /**
      * The name of an individual to contact.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -30,7 +30,7 @@ class ContactDetailType extends ElementType
      *
      * The name of an individual to contact.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -42,10 +42,10 @@ class ContactDetailType extends ElementType
      *
      * The name of an individual to contact.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

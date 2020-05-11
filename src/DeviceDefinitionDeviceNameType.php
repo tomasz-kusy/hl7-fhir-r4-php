@@ -14,7 +14,7 @@ class DeviceDefinitionDeviceNameType extends BackboneElementType
     /**
      * The name of the device.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -31,7 +31,7 @@ class DeviceDefinitionDeviceNameType extends BackboneElementType
      *
      * The name of the device.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -43,10 +43,10 @@ class DeviceDefinitionDeviceNameType extends BackboneElementType
      *
      * The name of the device.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

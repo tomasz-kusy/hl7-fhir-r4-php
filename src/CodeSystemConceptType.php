@@ -21,14 +21,14 @@ class CodeSystemConceptType extends BackboneElementType
     /**
      * A human readable string that is the recommended default way to present this concept to a user.
      *
-     * @var string $display
+     * @var \TKusy\Hl7FhirR4\StringType $display
      */
     private $display = null;
 
     /**
      * The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
      *
-     * @var string $definition
+     * @var \TKusy\Hl7FhirR4\StringType $definition
      */
     private $definition = null;
 
@@ -84,7 +84,7 @@ class CodeSystemConceptType extends BackboneElementType
      *
      * A human readable string that is the recommended default way to present this concept to a user.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisplay()
     {
@@ -96,10 +96,10 @@ class CodeSystemConceptType extends BackboneElementType
      *
      * A human readable string that is the recommended default way to present this concept to a user.
      *
-     * @param string $display
+     * @param \TKusy\Hl7FhirR4\StringType $display
      * @return self
      */
-    public function setDisplay($display)
+    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
     {
         $this->display = $display;
         return $this;
@@ -110,7 +110,7 @@ class CodeSystemConceptType extends BackboneElementType
      *
      * The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDefinition()
     {
@@ -122,10 +122,10 @@ class CodeSystemConceptType extends BackboneElementType
      *
      * The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.
      *
-     * @param string $definition
+     * @param \TKusy\Hl7FhirR4\StringType $definition
      * @return self
      */
-    public function setDefinition($definition)
+    public function setDefinition(\TKusy\Hl7FhirR4\StringType $definition)
     {
         $this->definition = $definition;
         return $this;

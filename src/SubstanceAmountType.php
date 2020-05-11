@@ -28,7 +28,7 @@ class SubstanceAmountType extends BackboneElementType
     /**
      * Used to capture quantitative values for a variety of elements. If only limits are given, the arithmetic mean would be the average. If only a single definite value for a given element is given, it would be captured in this field. (choose any one of amount*, but only one)
      *
-     * @var string $amountString
+     * @var \TKusy\Hl7FhirR4\StringType $amountString
      */
     private $amountString = null;
 
@@ -42,7 +42,7 @@ class SubstanceAmountType extends BackboneElementType
     /**
      * A textual comment on a numeric value.
      *
-     * @var string $amountText
+     * @var \TKusy\Hl7FhirR4\StringType $amountText
      */
     private $amountText = null;
 
@@ -110,7 +110,7 @@ class SubstanceAmountType extends BackboneElementType
      *
      * Used to capture quantitative values for a variety of elements. If only limits are given, the arithmetic mean would be the average. If only a single definite value for a given element is given, it would be captured in this field. (choose any one of amount*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAmountString()
     {
@@ -122,10 +122,10 @@ class SubstanceAmountType extends BackboneElementType
      *
      * Used to capture quantitative values for a variety of elements. If only limits are given, the arithmetic mean would be the average. If only a single definite value for a given element is given, it would be captured in this field. (choose any one of amount*, but only one)
      *
-     * @param string $amountString
+     * @param \TKusy\Hl7FhirR4\StringType $amountString
      * @return self
      */
-    public function setAmountString($amountString)
+    public function setAmountString(\TKusy\Hl7FhirR4\StringType $amountString)
     {
         $this->amountString = $amountString;
         return $this;
@@ -162,7 +162,7 @@ class SubstanceAmountType extends BackboneElementType
      *
      * A textual comment on a numeric value.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAmountText()
     {
@@ -174,10 +174,10 @@ class SubstanceAmountType extends BackboneElementType
      *
      * A textual comment on a numeric value.
      *
-     * @param string $amountText
+     * @param \TKusy\Hl7FhirR4\StringType $amountText
      * @return self
      */
-    public function setAmountText($amountText)
+    public function setAmountText(\TKusy\Hl7FhirR4\StringType $amountText)
     {
         $this->amountText = $amountText;
         return $this;

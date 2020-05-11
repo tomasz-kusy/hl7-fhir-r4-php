@@ -28,21 +28,21 @@ class StructureMapType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the structure map when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure map author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the structure map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the structure map.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -56,7 +56,7 @@ class StructureMapType extends DomainResourceType
     /**
      * A Boolean value to indicate that this structure map is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -70,7 +70,7 @@ class StructureMapType extends DomainResourceType
     /**
      * The name of the organization or individual that published the structure map.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -234,7 +234,7 @@ class StructureMapType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the structure map when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure map author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -246,10 +246,10 @@ class StructureMapType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the structure map when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure map author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -260,7 +260,7 @@ class StructureMapType extends DomainResourceType
      *
      * A natural language name identifying the structure map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -272,10 +272,10 @@ class StructureMapType extends DomainResourceType
      *
      * A natural language name identifying the structure map. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -286,7 +286,7 @@ class StructureMapType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the structure map.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -298,10 +298,10 @@ class StructureMapType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the structure map.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -338,7 +338,7 @@ class StructureMapType extends DomainResourceType
      *
      * A Boolean value to indicate that this structure map is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -350,10 +350,10 @@ class StructureMapType extends DomainResourceType
      *
      * A Boolean value to indicate that this structure map is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -390,7 +390,7 @@ class StructureMapType extends DomainResourceType
      *
      * The name of the organization or individual that published the structure map.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -402,10 +402,10 @@ class StructureMapType extends DomainResourceType
      *
      * The name of the organization or individual that published the structure map.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;

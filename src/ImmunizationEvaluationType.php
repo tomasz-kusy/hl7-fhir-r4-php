@@ -77,14 +77,14 @@ class ImmunizationEvaluationType extends DomainResourceType
     /**
      * Additional information about the evaluation.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
     /**
      * One possible path to achieve presumed immunity against a disease - within the context of an authority.
      *
-     * @var string $series
+     * @var \TKusy\Hl7FhirR4\StringType $series
      */
     private $series = null;
 
@@ -98,7 +98,7 @@ class ImmunizationEvaluationType extends DomainResourceType
     /**
      * Nominal position in a series. (choose any one of doseNumber*, but only one)
      *
-     * @var string $doseNumberString
+     * @var \TKusy\Hl7FhirR4\StringType $doseNumberString
      */
     private $doseNumberString = null;
 
@@ -112,7 +112,7 @@ class ImmunizationEvaluationType extends DomainResourceType
     /**
      * The recommended number of doses to achieve immunity. (choose any one of seriesDoses*, but only one)
      *
-     * @var string $seriesDosesString
+     * @var \TKusy\Hl7FhirR4\StringType $seriesDosesString
      */
     private $seriesDosesString = null;
 
@@ -435,7 +435,7 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * Additional information about the evaluation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -447,10 +447,10 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * Additional information about the evaluation.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -461,7 +461,7 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * One possible path to achieve presumed immunity against a disease - within the context of an authority.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSeries()
     {
@@ -473,10 +473,10 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * One possible path to achieve presumed immunity against a disease - within the context of an authority.
      *
-     * @param string $series
+     * @param \TKusy\Hl7FhirR4\StringType $series
      * @return self
      */
-    public function setSeries($series)
+    public function setSeries(\TKusy\Hl7FhirR4\StringType $series)
     {
         $this->series = $series;
         return $this;
@@ -513,7 +513,7 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * Nominal position in a series. (choose any one of doseNumber*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDoseNumberString()
     {
@@ -525,10 +525,10 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * Nominal position in a series. (choose any one of doseNumber*, but only one)
      *
-     * @param string $doseNumberString
+     * @param \TKusy\Hl7FhirR4\StringType $doseNumberString
      * @return self
      */
-    public function setDoseNumberString($doseNumberString)
+    public function setDoseNumberString(\TKusy\Hl7FhirR4\StringType $doseNumberString)
     {
         $this->doseNumberString = $doseNumberString;
         return $this;
@@ -565,7 +565,7 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * The recommended number of doses to achieve immunity. (choose any one of seriesDoses*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSeriesDosesString()
     {
@@ -577,10 +577,10 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * The recommended number of doses to achieve immunity. (choose any one of seriesDoses*, but only one)
      *
-     * @param string $seriesDosesString
+     * @param \TKusy\Hl7FhirR4\StringType $seriesDosesString
      * @return self
      */
-    public function setSeriesDosesString($seriesDosesString)
+    public function setSeriesDosesString(\TKusy\Hl7FhirR4\StringType $seriesDosesString)
     {
         $this->seriesDosesString = $seriesDosesString;
         return $this;

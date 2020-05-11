@@ -49,7 +49,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
     /**
      * When true, members with this characteristic are excluded from the element.
      *
-     * @var bool $exclude
+     * @var \TKusy\Hl7FhirR4\BooleanType $exclude
      */
     private $exclude = null;
 
@@ -63,7 +63,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
     /**
      * A narrative description of the time period the study covers.
      *
-     * @var string $studyEffectiveDescription
+     * @var \TKusy\Hl7FhirR4\StringType $studyEffectiveDescription
      */
     private $studyEffectiveDescription = null;
 
@@ -112,7 +112,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
     /**
      * A narrative description of the time period the study covers.
      *
-     * @var string $participantEffectiveDescription
+     * @var \TKusy\Hl7FhirR4\StringType $participantEffectiveDescription
      */
     private $participantEffectiveDescription = null;
 
@@ -333,7 +333,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * When true, members with this characteristic are excluded from the element.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExclude()
     {
@@ -345,10 +345,10 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * When true, members with this characteristic are excluded from the element.
      *
-     * @param bool $exclude
+     * @param \TKusy\Hl7FhirR4\BooleanType $exclude
      * @return self
      */
-    public function setExclude($exclude)
+    public function setExclude(\TKusy\Hl7FhirR4\BooleanType $exclude)
     {
         $this->exclude = $exclude;
         return $this;
@@ -385,7 +385,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * A narrative description of the time period the study covers.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getStudyEffectiveDescription()
     {
@@ -397,10 +397,10 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * A narrative description of the time period the study covers.
      *
-     * @param string $studyEffectiveDescription
+     * @param \TKusy\Hl7FhirR4\StringType $studyEffectiveDescription
      * @return self
      */
-    public function setStudyEffectiveDescription($studyEffectiveDescription)
+    public function setStudyEffectiveDescription(\TKusy\Hl7FhirR4\StringType $studyEffectiveDescription)
     {
         $this->studyEffectiveDescription = $studyEffectiveDescription;
         return $this;
@@ -567,7 +567,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * A narrative description of the time period the study covers.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getParticipantEffectiveDescription()
     {
@@ -579,10 +579,10 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * A narrative description of the time period the study covers.
      *
-     * @param string $participantEffectiveDescription
+     * @param \TKusy\Hl7FhirR4\StringType $participantEffectiveDescription
      * @return self
      */
-    public function setParticipantEffectiveDescription($participantEffectiveDescription)
+    public function setParticipantEffectiveDescription(\TKusy\Hl7FhirR4\StringType $participantEffectiveDescription)
     {
         $this->participantEffectiveDescription = $participantEffectiveDescription;
         return $this;

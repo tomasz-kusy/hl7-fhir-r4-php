@@ -21,7 +21,7 @@ class ResearchStudyType extends DomainResourceType
     /**
      * A short, descriptive user-friendly label for the study.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -250,7 +250,7 @@ class ResearchStudyType extends DomainResourceType
      *
      * A short, descriptive user-friendly label for the study.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -262,10 +262,10 @@ class ResearchStudyType extends DomainResourceType
      *
      * A short, descriptive user-friendly label for the study.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;

@@ -21,21 +21,21 @@ class OperationDefinitionType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the operation definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the operation definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the operation definition.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -56,7 +56,7 @@ class OperationDefinitionType extends DomainResourceType
     /**
      * A Boolean value to indicate that this operation definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -70,7 +70,7 @@ class OperationDefinitionType extends DomainResourceType
     /**
      * The name of the organization or individual that published the operation definition.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -112,7 +112,7 @@ class OperationDefinitionType extends DomainResourceType
     /**
      * Whether the operation affects state. Side effects such as producing audit trail entries do not count as 'affecting state'.
      *
-     * @var bool $affectsState
+     * @var \TKusy\Hl7FhirR4\BooleanType $affectsState
      */
     private $affectsState = null;
 
@@ -147,21 +147,21 @@ class OperationDefinitionType extends DomainResourceType
     /**
      * Indicates whether this operation or named query can be invoked at the system level (e.g. without needing to choose a resource type for the context).
      *
-     * @var bool $system
+     * @var \TKusy\Hl7FhirR4\BooleanType $system
      */
     private $system = null;
 
     /**
      * Indicates whether this operation or named query can be invoked at the resource type level for any given resource type level (e.g. without needing to choose a specific resource id for the context).
      *
-     * @var bool $type
+     * @var \TKusy\Hl7FhirR4\BooleanType $type
      */
     private $type = null;
 
     /**
      * Indicates whether this operation can be invoked on a particular instance of one of the given types.
      *
-     * @var bool $instance
+     * @var \TKusy\Hl7FhirR4\BooleanType $instance
      */
     private $instance = null;
 
@@ -224,7 +224,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the operation definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the operation definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -236,10 +236,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the operation definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the operation definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -250,7 +250,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -262,10 +262,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the operation definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -276,7 +276,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the operation definition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -288,10 +288,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the operation definition.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -354,7 +354,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this operation definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -366,10 +366,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this operation definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -406,7 +406,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the operation definition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -418,10 +418,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the operation definition.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -682,7 +682,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Whether the operation affects state. Side effects such as producing audit trail entries do not count as 'affecting state'.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAffectsState()
     {
@@ -694,10 +694,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Whether the operation affects state. Side effects such as producing audit trail entries do not count as 'affecting state'.
      *
-     * @param bool $affectsState
+     * @param \TKusy\Hl7FhirR4\BooleanType $affectsState
      * @return self
      */
-    public function setAffectsState($affectsState)
+    public function setAffectsState(\TKusy\Hl7FhirR4\BooleanType $affectsState)
     {
         $this->affectsState = $affectsState;
         return $this;
@@ -852,7 +852,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Indicates whether this operation or named query can be invoked at the system level (e.g. without needing to choose a resource type for the context).
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getSystem()
     {
@@ -864,10 +864,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Indicates whether this operation or named query can be invoked at the system level (e.g. without needing to choose a resource type for the context).
      *
-     * @param bool $system
+     * @param \TKusy\Hl7FhirR4\BooleanType $system
      * @return self
      */
-    public function setSystem($system)
+    public function setSystem(\TKusy\Hl7FhirR4\BooleanType $system)
     {
         $this->system = $system;
         return $this;
@@ -878,7 +878,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Indicates whether this operation or named query can be invoked at the resource type level for any given resource type level (e.g. without needing to choose a specific resource id for the context).
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getType()
     {
@@ -890,10 +890,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Indicates whether this operation or named query can be invoked at the resource type level for any given resource type level (e.g. without needing to choose a specific resource id for the context).
      *
-     * @param bool $type
+     * @param \TKusy\Hl7FhirR4\BooleanType $type
      * @return self
      */
-    public function setType($type)
+    public function setType(\TKusy\Hl7FhirR4\BooleanType $type)
     {
         $this->type = $type;
         return $this;
@@ -904,7 +904,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Indicates whether this operation can be invoked on a particular instance of one of the given types.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getInstance()
     {
@@ -916,10 +916,10 @@ class OperationDefinitionType extends DomainResourceType
      *
      * Indicates whether this operation can be invoked on a particular instance of one of the given types.
      *
-     * @param bool $instance
+     * @param \TKusy\Hl7FhirR4\BooleanType $instance
      * @return self
      */
-    public function setInstance($instance)
+    public function setInstance(\TKusy\Hl7FhirR4\BooleanType $instance)
     {
         $this->instance = $instance;
         return $this;

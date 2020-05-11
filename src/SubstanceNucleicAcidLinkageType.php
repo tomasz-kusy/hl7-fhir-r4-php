@@ -14,7 +14,7 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
     /**
      * The entity that links the sugar residues together should also be captured for nearly all naturally occurring nucleic acid the linkage is a phosphate group. For many synthetic oligonucleotides phosphorothioate linkages are often seen. Linkage connectivity is assumed to be 3’-5’. If the linkage is either 3’-3’ or 5’-5’ this should be specified.
      *
-     * @var string $connectivity
+     * @var \TKusy\Hl7FhirR4\StringType $connectivity
      */
     private $connectivity = null;
 
@@ -28,14 +28,14 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
     /**
      * Each linkage will be registered as a fragment and have at least one name. A single name shall be assigned to each linkage.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * Residues shall be captured as described in 5.3.6.8.3.
      *
-     * @var string $residueSite
+     * @var \TKusy\Hl7FhirR4\StringType $residueSite
      */
     private $residueSite = null;
 
@@ -44,7 +44,7 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
      *
      * The entity that links the sugar residues together should also be captured for nearly all naturally occurring nucleic acid the linkage is a phosphate group. For many synthetic oligonucleotides phosphorothioate linkages are often seen. Linkage connectivity is assumed to be 3’-5’. If the linkage is either 3’-3’ or 5’-5’ this should be specified.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getConnectivity()
     {
@@ -56,10 +56,10 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
      *
      * The entity that links the sugar residues together should also be captured for nearly all naturally occurring nucleic acid the linkage is a phosphate group. For many synthetic oligonucleotides phosphorothioate linkages are often seen. Linkage connectivity is assumed to be 3’-5’. If the linkage is either 3’-3’ or 5’-5’ this should be specified.
      *
-     * @param string $connectivity
+     * @param \TKusy\Hl7FhirR4\StringType $connectivity
      * @return self
      */
-    public function setConnectivity($connectivity)
+    public function setConnectivity(\TKusy\Hl7FhirR4\StringType $connectivity)
     {
         $this->connectivity = $connectivity;
         return $this;
@@ -96,7 +96,7 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
      *
      * Each linkage will be registered as a fragment and have at least one name. A single name shall be assigned to each linkage.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -108,10 +108,10 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
      *
      * Each linkage will be registered as a fragment and have at least one name. A single name shall be assigned to each linkage.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -122,7 +122,7 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
      *
      * Residues shall be captured as described in 5.3.6.8.3.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getResidueSite()
     {
@@ -134,10 +134,10 @@ class SubstanceNucleicAcidLinkageType extends BackboneElementType
      *
      * Residues shall be captured as described in 5.3.6.8.3.
      *
-     * @param string $residueSite
+     * @param \TKusy\Hl7FhirR4\StringType $residueSite
      * @return self
      */
-    public function setResidueSite($residueSite)
+    public function setResidueSite(\TKusy\Hl7FhirR4\StringType $residueSite)
     {
         $this->residueSite = $residueSite;
         return $this;

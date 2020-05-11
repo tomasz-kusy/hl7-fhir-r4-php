@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             accessor:
                 getter: getOccurrenceString
                 setter: setOccurrenceString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         recorded:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             accessor:
                 getter: getPrimarySource
                 setter: setPrimarySource
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         reportOrigin:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             accessor:
                 getter: getLotNumber
                 setter: setLotNumber
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         expirationDate:
             expose: true
             access_type: public_method
@@ -272,7 +272,7 @@ TKusy\Hl7FhirR4\ImmunizationType:
             accessor:
                 getter: getIsSubpotent
                 setter: setIsSubpotent
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         subpotentReason:
             expose: true
             access_type: public_method

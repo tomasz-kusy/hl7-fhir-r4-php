@@ -222,7 +222,7 @@ TKusy\Hl7FhirR4\DiagnosticReportType:
             accessor:
                 getter: getConclusion
                 setter: setConclusion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         conclusionCode:
             expose: true
             access_type: public_method

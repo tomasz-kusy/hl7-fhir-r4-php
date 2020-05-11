@@ -21,21 +21,21 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * Specified minimum cardinality for the element. This is optional; if present, it acts an implicit check on the input content.
      *
-     * @var \integer $min
+     * @var \TKusy\Hl7FhirR4\IntegerType $min
      */
     private $min = null;
 
     /**
      * Specified maximum cardinality for the element - a number or a "*". This is optional; if present, it acts an implicit check on the input content (* just serves as documentation; it's the default value).
      *
-     * @var string $max
+     * @var \TKusy\Hl7FhirR4\StringType $max
      */
     private $max = null;
 
     /**
      * Specified type for the element. This works as a condition on the mapping - use for polymorphic elements.
      *
-     * @var string $type
+     * @var \TKusy\Hl7FhirR4\StringType $type
      */
     private $type = null;
 
@@ -49,7 +49,7 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @var bool $defaultValueBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $defaultValueBoolean
      */
     private $defaultValueBoolean = null;
 
@@ -84,7 +84,7 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @var float $defaultValueDecimal
+     * @var \TKusy\Hl7FhirR4\DecimalType $defaultValueDecimal
      */
     private $defaultValueDecimal = null;
 
@@ -105,7 +105,7 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @var \integer $defaultValueInteger
+     * @var \TKusy\Hl7FhirR4\IntegerType $defaultValueInteger
      */
     private $defaultValueInteger = null;
 
@@ -133,7 +133,7 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @var string $defaultValueString
+     * @var \TKusy\Hl7FhirR4\StringType $defaultValueString
      */
     private $defaultValueString = null;
 
@@ -392,7 +392,7 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * Optional field for this source.
      *
-     * @var string $element
+     * @var \TKusy\Hl7FhirR4\StringType $element
      */
     private $element = null;
 
@@ -413,21 +413,21 @@ class StructureMapSourceType extends BackboneElementType
     /**
      * FHIRPath expression - must be true or the rule does not apply.
      *
-     * @var string $condition
+     * @var \TKusy\Hl7FhirR4\StringType $condition
      */
     private $condition = null;
 
     /**
      * FHIRPath expression - must be true or the mapping engine throws an error instead of completing.
      *
-     * @var string $check
+     * @var \TKusy\Hl7FhirR4\StringType $check
      */
     private $check = null;
 
     /**
      * A FHIRPath expression which specifies a message to put in the transform log when content matching the source rule is found.
      *
-     * @var string $logMessage
+     * @var \TKusy\Hl7FhirR4\StringType $logMessage
      */
     private $logMessage = null;
 
@@ -462,7 +462,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Specified minimum cardinality for the element. This is optional; if present, it acts an implicit check on the input content.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getMin()
     {
@@ -474,10 +474,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Specified minimum cardinality for the element. This is optional; if present, it acts an implicit check on the input content.
      *
-     * @param \integer $min
+     * @param \TKusy\Hl7FhirR4\IntegerType $min
      * @return self
      */
-    public function setMin(\integer $min)
+    public function setMin(\TKusy\Hl7FhirR4\IntegerType $min)
     {
         $this->min = $min;
         return $this;
@@ -488,7 +488,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Specified maximum cardinality for the element - a number or a "*". This is optional; if present, it acts an implicit check on the input content (* just serves as documentation; it's the default value).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMax()
     {
@@ -500,10 +500,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Specified maximum cardinality for the element - a number or a "*". This is optional; if present, it acts an implicit check on the input content (* just serves as documentation; it's the default value).
      *
-     * @param string $max
+     * @param \TKusy\Hl7FhirR4\StringType $max
      * @return self
      */
-    public function setMax($max)
+    public function setMax(\TKusy\Hl7FhirR4\StringType $max)
     {
         $this->max = $max;
         return $this;
@@ -514,7 +514,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Specified type for the element. This works as a condition on the mapping - use for polymorphic elements.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getType()
     {
@@ -526,10 +526,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Specified type for the element. This works as a condition on the mapping - use for polymorphic elements.
      *
-     * @param string $type
+     * @param \TKusy\Hl7FhirR4\StringType $type
      * @return self
      */
-    public function setType($type)
+    public function setType(\TKusy\Hl7FhirR4\StringType $type)
     {
         $this->type = $type;
         return $this;
@@ -566,7 +566,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getDefaultValueBoolean()
     {
@@ -578,10 +578,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @param bool $defaultValueBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $defaultValueBoolean
      * @return self
      */
-    public function setDefaultValueBoolean($defaultValueBoolean)
+    public function setDefaultValueBoolean(\TKusy\Hl7FhirR4\BooleanType $defaultValueBoolean)
     {
         $this->defaultValueBoolean = $defaultValueBoolean;
         return $this;
@@ -696,7 +696,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getDefaultValueDecimal()
     {
@@ -708,10 +708,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @param float $defaultValueDecimal
+     * @param \TKusy\Hl7FhirR4\DecimalType $defaultValueDecimal
      * @return self
      */
-    public function setDefaultValueDecimal($defaultValueDecimal)
+    public function setDefaultValueDecimal(\TKusy\Hl7FhirR4\DecimalType $defaultValueDecimal)
     {
         $this->defaultValueDecimal = $defaultValueDecimal;
         return $this;
@@ -774,7 +774,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getDefaultValueInteger()
     {
@@ -786,10 +786,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @param \integer $defaultValueInteger
+     * @param \TKusy\Hl7FhirR4\IntegerType $defaultValueInteger
      * @return self
      */
-    public function setDefaultValueInteger(\integer $defaultValueInteger)
+    public function setDefaultValueInteger(\TKusy\Hl7FhirR4\IntegerType $defaultValueInteger)
     {
         $this->defaultValueInteger = $defaultValueInteger;
         return $this;
@@ -878,7 +878,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDefaultValueString()
     {
@@ -890,10 +890,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A value to use if there is no existing value in the source object. (choose any one of defaultValue*, but only one)
      *
-     * @param string $defaultValueString
+     * @param \TKusy\Hl7FhirR4\StringType $defaultValueString
      * @return self
      */
-    public function setDefaultValueString($defaultValueString)
+    public function setDefaultValueString(\TKusy\Hl7FhirR4\StringType $defaultValueString)
     {
         $this->defaultValueString = $defaultValueString;
         return $this;
@@ -1840,7 +1840,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Optional field for this source.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getElement()
     {
@@ -1852,10 +1852,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * Optional field for this source.
      *
-     * @param string $element
+     * @param \TKusy\Hl7FhirR4\StringType $element
      * @return self
      */
-    public function setElement($element)
+    public function setElement(\TKusy\Hl7FhirR4\StringType $element)
     {
         $this->element = $element;
         return $this;
@@ -1918,7 +1918,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * FHIRPath expression - must be true or the rule does not apply.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCondition()
     {
@@ -1930,10 +1930,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * FHIRPath expression - must be true or the rule does not apply.
      *
-     * @param string $condition
+     * @param \TKusy\Hl7FhirR4\StringType $condition
      * @return self
      */
-    public function setCondition($condition)
+    public function setCondition(\TKusy\Hl7FhirR4\StringType $condition)
     {
         $this->condition = $condition;
         return $this;
@@ -1944,7 +1944,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * FHIRPath expression - must be true or the mapping engine throws an error instead of completing.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getCheck()
     {
@@ -1956,10 +1956,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * FHIRPath expression - must be true or the mapping engine throws an error instead of completing.
      *
-     * @param string $check
+     * @param \TKusy\Hl7FhirR4\StringType $check
      * @return self
      */
-    public function setCheck($check)
+    public function setCheck(\TKusy\Hl7FhirR4\StringType $check)
     {
         $this->check = $check;
         return $this;
@@ -1970,7 +1970,7 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A FHIRPath expression which specifies a message to put in the transform log when content matching the source rule is found.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getLogMessage()
     {
@@ -1982,10 +1982,10 @@ class StructureMapSourceType extends BackboneElementType
      *
      * A FHIRPath expression which specifies a message to put in the transform log when content matching the source rule is found.
      *
-     * @param string $logMessage
+     * @param \TKusy\Hl7FhirR4\StringType $logMessage
      * @return self
      */
-    public function setLogMessage($logMessage)
+    public function setLogMessage(\TKusy\Hl7FhirR4\StringType $logMessage)
     {
         $this->logMessage = $logMessage;
         return $this;

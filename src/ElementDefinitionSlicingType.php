@@ -21,14 +21,14 @@ class ElementDefinitionSlicingType extends BackboneElementType
     /**
      * A human-readable text description of how the slicing works. If there is no discriminator, this is required to be present to provide whatever information is possible about how the slices can be differentiated.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
     /**
      * If the matching elements have to occur in the same order as defined in the profile.
      *
-     * @var bool $ordered
+     * @var \TKusy\Hl7FhirR4\BooleanType $ordered
      */
     private $ordered = null;
 
@@ -110,7 +110,7 @@ class ElementDefinitionSlicingType extends BackboneElementType
      *
      * A human-readable text description of how the slicing works. If there is no discriminator, this is required to be present to provide whatever information is possible about how the slices can be differentiated.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -122,10 +122,10 @@ class ElementDefinitionSlicingType extends BackboneElementType
      *
      * A human-readable text description of how the slicing works. If there is no discriminator, this is required to be present to provide whatever information is possible about how the slices can be differentiated.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -136,7 +136,7 @@ class ElementDefinitionSlicingType extends BackboneElementType
      *
      * If the matching elements have to occur in the same order as defined in the profile.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getOrdered()
     {
@@ -148,10 +148,10 @@ class ElementDefinitionSlicingType extends BackboneElementType
      *
      * If the matching elements have to occur in the same order as defined in the profile.
      *
-     * @param bool $ordered
+     * @param \TKusy\Hl7FhirR4\BooleanType $ordered
      * @return self
      */
-    public function setOrdered($ordered)
+    public function setOrdered(\TKusy\Hl7FhirR4\BooleanType $ordered)
     {
         $this->ordered = $ordered;
         return $this;

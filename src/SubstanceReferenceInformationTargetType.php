@@ -63,7 +63,7 @@ class SubstanceReferenceInformationTargetType extends BackboneElementType
     /**
      * Todo. (choose any one of amount*, but only one)
      *
-     * @var string $amountString
+     * @var \TKusy\Hl7FhirR4\StringType $amountString
      */
     private $amountString = null;
 
@@ -268,7 +268,7 @@ class SubstanceReferenceInformationTargetType extends BackboneElementType
      *
      * Todo. (choose any one of amount*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAmountString()
     {
@@ -280,10 +280,10 @@ class SubstanceReferenceInformationTargetType extends BackboneElementType
      *
      * Todo. (choose any one of amount*, but only one)
      *
-     * @param string $amountString
+     * @param \TKusy\Hl7FhirR4\StringType $amountString
      * @return self
      */
-    public function setAmountString($amountString)
+    public function setAmountString(\TKusy\Hl7FhirR4\StringType $amountString)
     {
         $this->amountString = $amountString;
         return $this;

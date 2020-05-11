@@ -42,7 +42,7 @@ class MedicinalProductIngredientStrengthType extends BackboneElementType
     /**
      * For when strength is measured at a particular point or distance.
      *
-     * @var string $measurementPoint
+     * @var \TKusy\Hl7FhirR4\StringType $measurementPoint
      */
     private $measurementPoint = null;
 
@@ -169,7 +169,7 @@ class MedicinalProductIngredientStrengthType extends BackboneElementType
      *
      * For when strength is measured at a particular point or distance.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getMeasurementPoint()
     {
@@ -181,10 +181,10 @@ class MedicinalProductIngredientStrengthType extends BackboneElementType
      *
      * For when strength is measured at a particular point or distance.
      *
-     * @param string $measurementPoint
+     * @param \TKusy\Hl7FhirR4\StringType $measurementPoint
      * @return self
      */
-    public function setMeasurementPoint($measurementPoint)
+    public function setMeasurementPoint(\TKusy\Hl7FhirR4\StringType $measurementPoint)
     {
         $this->measurementPoint = $measurementPoint;
         return $this;

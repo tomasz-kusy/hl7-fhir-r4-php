@@ -62,7 +62,7 @@ TKusy\Hl7FhirR4\DataRequirementType:
                 inline: true
                 entry_name: mustSupport
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         codeFilter:
             expose: true
             access_type: public_method

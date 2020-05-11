@@ -21,7 +21,7 @@ class ImplementationGuideResource1Type extends BackboneElementType
     /**
      * If true or a reference, indicates the resource is an example instance. If a reference is present, indicates that the example is an example of the specified profile. (choose any one of example*, but only one)
      *
-     * @var bool $exampleBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $exampleBoolean
      */
     private $exampleBoolean = null;
 
@@ -70,7 +70,7 @@ class ImplementationGuideResource1Type extends BackboneElementType
      *
      * If true or a reference, indicates the resource is an example instance. If a reference is present, indicates that the example is an example of the specified profile. (choose any one of example*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExampleBoolean()
     {
@@ -82,10 +82,10 @@ class ImplementationGuideResource1Type extends BackboneElementType
      *
      * If true or a reference, indicates the resource is an example instance. If a reference is present, indicates that the example is an example of the specified profile. (choose any one of example*, but only one)
      *
-     * @param bool $exampleBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $exampleBoolean
      * @return self
      */
-    public function setExampleBoolean($exampleBoolean)
+    public function setExampleBoolean(\TKusy\Hl7FhirR4\BooleanType $exampleBoolean)
     {
         $this->exampleBoolean = $exampleBoolean;
         return $this;

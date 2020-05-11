@@ -35,7 +35,7 @@ class SubstanceSpecificationCodeType extends BackboneElementType
     /**
      * Any comment can be provided in this field, if necessary.
      *
-     * @var string $comment
+     * @var \TKusy\Hl7FhirR4\StringType $comment
      */
     private $comment = null;
 
@@ -129,7 +129,7 @@ class SubstanceSpecificationCodeType extends BackboneElementType
      *
      * Any comment can be provided in this field, if necessary.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getComment()
     {
@@ -141,10 +141,10 @@ class SubstanceSpecificationCodeType extends BackboneElementType
      *
      * Any comment can be provided in this field, if necessary.
      *
-     * @param string $comment
+     * @param \TKusy\Hl7FhirR4\StringType $comment
      * @return self
      */
-    public function setComment($comment)
+    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
     {
         $this->comment = $comment;
         return $this;

@@ -14,21 +14,21 @@ class ImplementationGuidePage1Type extends BackboneElementType
     /**
      * Relative path to the page.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * Label for the page intended for human display.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
     /**
      * The name of an anchor available on the page.
      *
-     * @var string[] $anchor
+     * @var \TKusy\Hl7FhirR4\StringType[] $anchor
      */
     private $anchor = null;
 
@@ -37,7 +37,7 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * Relative path to the page.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -49,10 +49,10 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * Relative path to the page.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -63,7 +63,7 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * Label for the page intended for human display.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -75,10 +75,10 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * Label for the page intended for human display.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -90,9 +90,9 @@ class ImplementationGuidePage1Type extends BackboneElementType
      * The name of an anchor available on the page.
      *
      * @return self
-     * @param string $anchor
+     * @param \TKusy\Hl7FhirR4\StringType $anchor
      */
-    public function addToAnchor($anchor)
+    public function addToAnchor(\TKusy\Hl7FhirR4\StringType $anchor)
     {
         $this->anchor[] = $anchor;
         return $this;
@@ -129,7 +129,7 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * The name of an anchor available on the page.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getAnchor()
     {
@@ -141,7 +141,7 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * The name of an anchor available on the page.
      *
-     * @param string[] $anchor
+     * @param \TKusy\Hl7FhirR4\StringType[] $anchor
      * @return self
      */
     public function setAnchor(array $anchor)

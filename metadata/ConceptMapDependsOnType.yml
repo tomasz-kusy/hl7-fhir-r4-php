@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ConceptMapDependsOnType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         display:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\ConceptMapDependsOnType:
             accessor:
                 getter: getDisplay
                 setter: setDisplay
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

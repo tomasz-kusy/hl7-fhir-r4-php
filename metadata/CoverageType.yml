@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\CoverageType:
             accessor:
                 getter: getSubscriberId
                 setter: setSubscriberId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         beneficiary:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\CoverageType:
             accessor:
                 getter: getDependent
                 setter: setDependent
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         relationship:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ TKusy\Hl7FhirR4\CoverageType:
             accessor:
                 getter: getNetwork
                 setter: setNetwork
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         costToBeneficiary:
             expose: true
             access_type: public_method
@@ -191,7 +191,7 @@ TKusy\Hl7FhirR4\CoverageType:
             accessor:
                 getter: getSubrogation
                 setter: setSubrogation
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         contract:
             expose: true
             access_type: public_method

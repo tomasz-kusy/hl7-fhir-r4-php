@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         factor:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             accessor:
                 getter: getFactor
                 setter: setFactor
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         lowerLimit:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             accessor:
                 getter: getLowerLimit
                 setter: setLowerLimit
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         upperLimit:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\SampledDataType:
             accessor:
                 getter: getUpperLimit
                 setter: setUpperLimit
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         dimensions:
             expose: true
             access_type: public_method

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TestScriptFixtureType:
             accessor:
                 getter: getAutocreate
                 setter: setAutocreate
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         autodelete:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TestScriptFixtureType:
             accessor:
                 getter: getAutodelete
                 setter: setAutodelete
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         resource:
             expose: true
             access_type: public_method

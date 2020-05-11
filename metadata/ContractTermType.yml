@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\ContractTermType:
             accessor:
                 getter: getText
                 setter: setText
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         securityLabel:
             expose: true
             access_type: public_method

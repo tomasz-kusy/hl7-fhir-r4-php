@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionPrismType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         base:
             expose: true
             access_type: public_method

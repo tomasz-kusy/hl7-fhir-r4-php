@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientType:
             accessor:
                 getter: getAllergenicIndicator
                 setter: setAllergenicIndicator
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         manufacturer:
             expose: true
             access_type: public_method

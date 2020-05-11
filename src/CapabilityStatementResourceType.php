@@ -56,21 +56,21 @@ class CapabilityStatementResourceType extends BackboneElementType
     /**
      * A flag for whether the server is able to return past versions as part of the vRead operation.
      *
-     * @var bool $readHistory
+     * @var \TKusy\Hl7FhirR4\BooleanType $readHistory
      */
     private $readHistory = null;
 
     /**
      * A flag to indicate that the server allows or needs to allow the client to create new identities on the server (that is, the client PUTs to a location where there is no existing resource). Allowing this operation means that the server allows the client to create new identities on the server.
      *
-     * @var bool $updateCreate
+     * @var \TKusy\Hl7FhirR4\BooleanType $updateCreate
      */
     private $updateCreate = null;
 
     /**
      * A flag that indicates that the server supports conditional create.
      *
-     * @var bool $conditionalCreate
+     * @var \TKusy\Hl7FhirR4\BooleanType $conditionalCreate
      */
     private $conditionalCreate = null;
 
@@ -84,7 +84,7 @@ class CapabilityStatementResourceType extends BackboneElementType
     /**
      * A flag that indicates that the server supports conditional update.
      *
-     * @var bool $conditionalUpdate
+     * @var \TKusy\Hl7FhirR4\BooleanType $conditionalUpdate
      */
     private $conditionalUpdate = null;
 
@@ -105,14 +105,14 @@ class CapabilityStatementResourceType extends BackboneElementType
     /**
      * A list of _include values supported by the server.
      *
-     * @var string[] $searchInclude
+     * @var \TKusy\Hl7FhirR4\StringType[] $searchInclude
      */
     private $searchInclude = null;
 
     /**
      * A list of _revinclude (reverse include) values supported by the server.
      *
-     * @var string[] $searchRevInclude
+     * @var \TKusy\Hl7FhirR4\StringType[] $searchRevInclude
      */
     private $searchRevInclude = null;
 
@@ -371,7 +371,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag for whether the server is able to return past versions as part of the vRead operation.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getReadHistory()
     {
@@ -383,10 +383,10 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag for whether the server is able to return past versions as part of the vRead operation.
      *
-     * @param bool $readHistory
+     * @param \TKusy\Hl7FhirR4\BooleanType $readHistory
      * @return self
      */
-    public function setReadHistory($readHistory)
+    public function setReadHistory(\TKusy\Hl7FhirR4\BooleanType $readHistory)
     {
         $this->readHistory = $readHistory;
         return $this;
@@ -397,7 +397,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag to indicate that the server allows or needs to allow the client to create new identities on the server (that is, the client PUTs to a location where there is no existing resource). Allowing this operation means that the server allows the client to create new identities on the server.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getUpdateCreate()
     {
@@ -409,10 +409,10 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag to indicate that the server allows or needs to allow the client to create new identities on the server (that is, the client PUTs to a location where there is no existing resource). Allowing this operation means that the server allows the client to create new identities on the server.
      *
-     * @param bool $updateCreate
+     * @param \TKusy\Hl7FhirR4\BooleanType $updateCreate
      * @return self
      */
-    public function setUpdateCreate($updateCreate)
+    public function setUpdateCreate(\TKusy\Hl7FhirR4\BooleanType $updateCreate)
     {
         $this->updateCreate = $updateCreate;
         return $this;
@@ -423,7 +423,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag that indicates that the server supports conditional create.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getConditionalCreate()
     {
@@ -435,10 +435,10 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag that indicates that the server supports conditional create.
      *
-     * @param bool $conditionalCreate
+     * @param \TKusy\Hl7FhirR4\BooleanType $conditionalCreate
      * @return self
      */
-    public function setConditionalCreate($conditionalCreate)
+    public function setConditionalCreate(\TKusy\Hl7FhirR4\BooleanType $conditionalCreate)
     {
         $this->conditionalCreate = $conditionalCreate;
         return $this;
@@ -475,7 +475,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag that indicates that the server supports conditional update.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getConditionalUpdate()
     {
@@ -487,10 +487,10 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A flag that indicates that the server supports conditional update.
      *
-     * @param bool $conditionalUpdate
+     * @param \TKusy\Hl7FhirR4\BooleanType $conditionalUpdate
      * @return self
      */
-    public function setConditionalUpdate($conditionalUpdate)
+    public function setConditionalUpdate(\TKusy\Hl7FhirR4\BooleanType $conditionalUpdate)
     {
         $this->conditionalUpdate = $conditionalUpdate;
         return $this;
@@ -594,9 +594,9 @@ class CapabilityStatementResourceType extends BackboneElementType
      * A list of _include values supported by the server.
      *
      * @return self
-     * @param string $searchInclude
+     * @param \TKusy\Hl7FhirR4\StringType $searchInclude
      */
-    public function addToSearchInclude($searchInclude)
+    public function addToSearchInclude(\TKusy\Hl7FhirR4\StringType $searchInclude)
     {
         $this->searchInclude[] = $searchInclude;
         return $this;
@@ -633,7 +633,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A list of _include values supported by the server.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getSearchInclude()
     {
@@ -645,7 +645,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A list of _include values supported by the server.
      *
-     * @param string[] $searchInclude
+     * @param \TKusy\Hl7FhirR4\StringType[] $searchInclude
      * @return self
      */
     public function setSearchInclude(array $searchInclude)
@@ -660,9 +660,9 @@ class CapabilityStatementResourceType extends BackboneElementType
      * A list of _revinclude (reverse include) values supported by the server.
      *
      * @return self
-     * @param string $searchRevInclude
+     * @param \TKusy\Hl7FhirR4\StringType $searchRevInclude
      */
-    public function addToSearchRevInclude($searchRevInclude)
+    public function addToSearchRevInclude(\TKusy\Hl7FhirR4\StringType $searchRevInclude)
     {
         $this->searchRevInclude[] = $searchRevInclude;
         return $this;
@@ -699,7 +699,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A list of _revinclude (reverse include) values supported by the server.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getSearchRevInclude()
     {
@@ -711,7 +711,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * A list of _revinclude (reverse include) values supported by the server.
      *
-     * @param string[] $searchRevInclude
+     * @param \TKusy\Hl7FhirR4\StringType[] $searchRevInclude
      * @return self
      */
     public function setSearchRevInclude(array $searchRevInclude)

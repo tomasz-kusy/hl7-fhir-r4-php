@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             accessor:
                 getter: getIsDefining
                 setter: setIsDefining
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         amountQuantity:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType:
             accessor:
                 getter: getAmountString
                 setter: setAmountString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         amountRatioLowLimit:
             expose: true
             access_type: public_method

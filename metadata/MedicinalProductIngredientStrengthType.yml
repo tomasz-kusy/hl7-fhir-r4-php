@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType:
             accessor:
                 getter: getMeasurementPoint
                 setter: setMeasurementPoint
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         country:
             expose: true
             access_type: public_method

@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\IdentifierType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         period:
             expose: true
             access_type: public_method

@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\PatientCommunicationType:
             accessor:
                 getter: getPreferred
                 setter: setPreferred
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType

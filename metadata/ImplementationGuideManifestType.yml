@@ -55,7 +55,7 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
                 inline: true
                 entry_name: image
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         other:
             expose: true
             access_type: public_method
@@ -70,4 +70,4 @@ TKusy\Hl7FhirR4\ImplementationGuideManifestType:
                 inline: true
                 entry_name: other
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>

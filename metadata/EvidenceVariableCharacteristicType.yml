@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         definitionReference:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\EvidenceVariableCharacteristicType:
             accessor:
                 getter: getExclude
                 setter: setExclude
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         participantEffectiveDateTime:
             expose: true
             access_type: public_method

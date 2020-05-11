@@ -21,7 +21,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
     /**
      * The Genome Build used for reference, following GRCh build versions e.g. 'GRCh 37'. Version number must be included if a versioned release of a primary build was used.
      *
-     * @var string $genomeBuild
+     * @var \TKusy\Hl7FhirR4\StringType $genomeBuild
      */
     private $genomeBuild = null;
 
@@ -49,7 +49,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
     /**
      * A string like "ACGT".
      *
-     * @var string $referenceSeqString
+     * @var \TKusy\Hl7FhirR4\StringType $referenceSeqString
      */
     private $referenceSeqString = null;
 
@@ -63,14 +63,14 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
     /**
      * Start position of the window on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @var \integer $windowStart
+     * @var \TKusy\Hl7FhirR4\IntegerType $windowStart
      */
     private $windowStart = null;
 
     /**
      * End position of the window on the reference sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @var \integer $windowEnd
+     * @var \TKusy\Hl7FhirR4\IntegerType $windowEnd
      */
     private $windowEnd = null;
 
@@ -105,7 +105,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * The Genome Build used for reference, following GRCh build versions e.g. 'GRCh 37'. Version number must be included if a versioned release of a primary build was used.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getGenomeBuild()
     {
@@ -117,10 +117,10 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * The Genome Build used for reference, following GRCh build versions e.g. 'GRCh 37'. Version number must be included if a versioned release of a primary build was used.
      *
-     * @param string $genomeBuild
+     * @param \TKusy\Hl7FhirR4\StringType $genomeBuild
      * @return self
      */
-    public function setGenomeBuild($genomeBuild)
+    public function setGenomeBuild(\TKusy\Hl7FhirR4\StringType $genomeBuild)
     {
         $this->genomeBuild = $genomeBuild;
         return $this;
@@ -209,7 +209,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * A string like "ACGT".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getReferenceSeqString()
     {
@@ -221,10 +221,10 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * A string like "ACGT".
      *
-     * @param string $referenceSeqString
+     * @param \TKusy\Hl7FhirR4\StringType $referenceSeqString
      * @return self
      */
-    public function setReferenceSeqString($referenceSeqString)
+    public function setReferenceSeqString(\TKusy\Hl7FhirR4\StringType $referenceSeqString)
     {
         $this->referenceSeqString = $referenceSeqString;
         return $this;
@@ -261,7 +261,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * Start position of the window on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getWindowStart()
     {
@@ -273,10 +273,10 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * Start position of the window on the reference sequence. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @param \integer $windowStart
+     * @param \TKusy\Hl7FhirR4\IntegerType $windowStart
      * @return self
      */
-    public function setWindowStart(\integer $windowStart)
+    public function setWindowStart(\TKusy\Hl7FhirR4\IntegerType $windowStart)
     {
         $this->windowStart = $windowStart;
         return $this;
@@ -287,7 +287,7 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * End position of the window on the reference sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getWindowEnd()
     {
@@ -299,10 +299,10 @@ class MolecularSequenceReferenceSeqType extends BackboneElementType
      *
      * End position of the window on the reference sequence. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @param \integer $windowEnd
+     * @param \TKusy\Hl7FhirR4\IntegerType $windowEnd
      * @return self
      */
-    public function setWindowEnd(\integer $windowEnd)
+    public function setWindowEnd(\TKusy\Hl7FhirR4\IntegerType $windowEnd)
     {
         $this->windowEnd = $windowEnd;
         return $this;

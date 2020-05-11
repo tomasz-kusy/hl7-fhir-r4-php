@@ -21,7 +21,7 @@ class VerificationResultType extends DomainResourceType
     /**
      * The fhirpath location(s) within the resource that was validated.
      *
-     * @var string[] $targetLocation
+     * @var \TKusy\Hl7FhirR4\StringType[] $targetLocation
      */
     private $targetLocation = null;
 
@@ -181,9 +181,9 @@ class VerificationResultType extends DomainResourceType
      * The fhirpath location(s) within the resource that was validated.
      *
      * @return self
-     * @param string $targetLocation
+     * @param \TKusy\Hl7FhirR4\StringType $targetLocation
      */
-    public function addToTargetLocation($targetLocation)
+    public function addToTargetLocation(\TKusy\Hl7FhirR4\StringType $targetLocation)
     {
         $this->targetLocation[] = $targetLocation;
         return $this;
@@ -220,7 +220,7 @@ class VerificationResultType extends DomainResourceType
      *
      * The fhirpath location(s) within the resource that was validated.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getTargetLocation()
     {
@@ -232,7 +232,7 @@ class VerificationResultType extends DomainResourceType
      *
      * The fhirpath location(s) within the resource that was validated.
      *
-     * @param string[] $targetLocation
+     * @param \TKusy\Hl7FhirR4\StringType[] $targetLocation
      * @return self
      */
     public function setTargetLocation(array $targetLocation)

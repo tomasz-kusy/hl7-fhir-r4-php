@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         name:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         date:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -243,7 +243,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
             accessor:
                 getter: getAbstract
                 setter: setAbstract
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         context:
             expose: true
             access_type: public_method
@@ -273,7 +273,7 @@ TKusy\Hl7FhirR4\StructureDefinitionType:
                 inline: true
                 entry_name: contextInvariant
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         type:
             expose: true
             access_type: public_method

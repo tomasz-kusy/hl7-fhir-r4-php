@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         name:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         date:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -150,7 +150,7 @@ TKusy\Hl7FhirR4\CompartmentDefinitionType:
             accessor:
                 getter: getSearch
                 setter: setSearch
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         resource:
             expose: true
             access_type: public_method

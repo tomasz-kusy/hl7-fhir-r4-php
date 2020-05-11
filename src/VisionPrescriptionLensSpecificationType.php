@@ -28,21 +28,21 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
     /**
      * Lens power measured in dioptres (0.25 units).
      *
-     * @var float $sphere
+     * @var \TKusy\Hl7FhirR4\DecimalType $sphere
      */
     private $sphere = null;
 
     /**
      * Power adjustment for astigmatism measured in dioptres (0.25 units).
      *
-     * @var float $cylinder
+     * @var \TKusy\Hl7FhirR4\DecimalType $cylinder
      */
     private $cylinder = null;
 
     /**
      * Adjustment for astigmatism measured in integer degrees.
      *
-     * @var \integer $axis
+     * @var \TKusy\Hl7FhirR4\IntegerType $axis
      */
     private $axis = null;
 
@@ -56,28 +56,28 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
     /**
      * Power adjustment for multifocal lenses measured in dioptres (0.25 units).
      *
-     * @var float $add
+     * @var \TKusy\Hl7FhirR4\DecimalType $add
      */
     private $add = null;
 
     /**
      * Contact lens power measured in dioptres (0.25 units).
      *
-     * @var float $power
+     * @var \TKusy\Hl7FhirR4\DecimalType $power
      */
     private $power = null;
 
     /**
      * Back curvature measured in millimetres.
      *
-     * @var float $backCurve
+     * @var \TKusy\Hl7FhirR4\DecimalType $backCurve
      */
     private $backCurve = null;
 
     /**
      * Contact lens diameter measured in millimetres.
      *
-     * @var float $diameter
+     * @var \TKusy\Hl7FhirR4\DecimalType $diameter
      */
     private $diameter = null;
 
@@ -91,14 +91,14 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
     /**
      * Special color or pattern.
      *
-     * @var string $color
+     * @var \TKusy\Hl7FhirR4\StringType $color
      */
     private $color = null;
 
     /**
      * Brand recommendations or restrictions.
      *
-     * @var string $brand
+     * @var \TKusy\Hl7FhirR4\StringType $brand
      */
     private $brand = null;
 
@@ -166,7 +166,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Lens power measured in dioptres (0.25 units).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getSphere()
     {
@@ -178,10 +178,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Lens power measured in dioptres (0.25 units).
      *
-     * @param float $sphere
+     * @param \TKusy\Hl7FhirR4\DecimalType $sphere
      * @return self
      */
-    public function setSphere($sphere)
+    public function setSphere(\TKusy\Hl7FhirR4\DecimalType $sphere)
     {
         $this->sphere = $sphere;
         return $this;
@@ -192,7 +192,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Power adjustment for astigmatism measured in dioptres (0.25 units).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getCylinder()
     {
@@ -204,10 +204,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Power adjustment for astigmatism measured in dioptres (0.25 units).
      *
-     * @param float $cylinder
+     * @param \TKusy\Hl7FhirR4\DecimalType $cylinder
      * @return self
      */
-    public function setCylinder($cylinder)
+    public function setCylinder(\TKusy\Hl7FhirR4\DecimalType $cylinder)
     {
         $this->cylinder = $cylinder;
         return $this;
@@ -218,7 +218,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Adjustment for astigmatism measured in integer degrees.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getAxis()
     {
@@ -230,10 +230,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Adjustment for astigmatism measured in integer degrees.
      *
-     * @param \integer $axis
+     * @param \TKusy\Hl7FhirR4\IntegerType $axis
      * @return self
      */
-    public function setAxis(\integer $axis)
+    public function setAxis(\TKusy\Hl7FhirR4\IntegerType $axis)
     {
         $this->axis = $axis;
         return $this;
@@ -310,7 +310,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Power adjustment for multifocal lenses measured in dioptres (0.25 units).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getAdd()
     {
@@ -322,10 +322,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Power adjustment for multifocal lenses measured in dioptres (0.25 units).
      *
-     * @param float $add
+     * @param \TKusy\Hl7FhirR4\DecimalType $add
      * @return self
      */
-    public function setAdd($add)
+    public function setAdd(\TKusy\Hl7FhirR4\DecimalType $add)
     {
         $this->add = $add;
         return $this;
@@ -336,7 +336,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Contact lens power measured in dioptres (0.25 units).
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getPower()
     {
@@ -348,10 +348,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Contact lens power measured in dioptres (0.25 units).
      *
-     * @param float $power
+     * @param \TKusy\Hl7FhirR4\DecimalType $power
      * @return self
      */
-    public function setPower($power)
+    public function setPower(\TKusy\Hl7FhirR4\DecimalType $power)
     {
         $this->power = $power;
         return $this;
@@ -362,7 +362,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Back curvature measured in millimetres.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getBackCurve()
     {
@@ -374,10 +374,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Back curvature measured in millimetres.
      *
-     * @param float $backCurve
+     * @param \TKusy\Hl7FhirR4\DecimalType $backCurve
      * @return self
      */
-    public function setBackCurve($backCurve)
+    public function setBackCurve(\TKusy\Hl7FhirR4\DecimalType $backCurve)
     {
         $this->backCurve = $backCurve;
         return $this;
@@ -388,7 +388,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Contact lens diameter measured in millimetres.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getDiameter()
     {
@@ -400,10 +400,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Contact lens diameter measured in millimetres.
      *
-     * @param float $diameter
+     * @param \TKusy\Hl7FhirR4\DecimalType $diameter
      * @return self
      */
-    public function setDiameter($diameter)
+    public function setDiameter(\TKusy\Hl7FhirR4\DecimalType $diameter)
     {
         $this->diameter = $diameter;
         return $this;
@@ -440,7 +440,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Special color or pattern.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getColor()
     {
@@ -452,10 +452,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Special color or pattern.
      *
-     * @param string $color
+     * @param \TKusy\Hl7FhirR4\StringType $color
      * @return self
      */
-    public function setColor($color)
+    public function setColor(\TKusy\Hl7FhirR4\StringType $color)
     {
         $this->color = $color;
         return $this;
@@ -466,7 +466,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Brand recommendations or restrictions.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getBrand()
     {
@@ -478,10 +478,10 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * Brand recommendations or restrictions.
      *
-     * @param string $brand
+     * @param \TKusy\Hl7FhirR4\StringType $brand
      * @return self
      */
-    public function setBrand($brand)
+    public function setBrand(\TKusy\Hl7FhirR4\StringType $brand)
     {
         $this->brand = $brand;
         return $this;

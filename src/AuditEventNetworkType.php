@@ -14,7 +14,7 @@ class AuditEventNetworkType extends BackboneElementType
     /**
      * An identifier for the network access point of the user device for the audit event.
      *
-     * @var string $address
+     * @var \TKusy\Hl7FhirR4\StringType $address
      */
     private $address = null;
 
@@ -30,7 +30,7 @@ class AuditEventNetworkType extends BackboneElementType
      *
      * An identifier for the network access point of the user device for the audit event.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAddress()
     {
@@ -42,10 +42,10 @@ class AuditEventNetworkType extends BackboneElementType
      *
      * An identifier for the network access point of the user device for the audit event.
      *
-     * @param string $address
+     * @param \TKusy\Hl7FhirR4\StringType $address
      * @return self
      */
-    public function setAddress($address)
+    public function setAddress(\TKusy\Hl7FhirR4\StringType $address)
     {
         $this->address = $address;
         return $this;

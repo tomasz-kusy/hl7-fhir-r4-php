@@ -114,7 +114,7 @@ TKusy\Hl7FhirR4\CommunicationRequestType:
             accessor:
                 getter: getDoNotPerform
                 setter: setDoNotPerform
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         medium:
             expose: true
             access_type: public_method

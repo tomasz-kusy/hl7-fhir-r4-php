@@ -77,7 +77,7 @@ class CarePlanDetailType extends BackboneElementType
     /**
      * If true, indicates that the described activity is one that must NOT be engaged in when following the plan. If false, or missing, indicates that the described activity is one that should be engaged in when following the plan.
      *
-     * @var bool $doNotPerform
+     * @var \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      */
     private $doNotPerform = null;
 
@@ -98,7 +98,7 @@ class CarePlanDetailType extends BackboneElementType
     /**
      * The period, timing or frequency upon which the described activity is to occur. (choose any one of scheduled*, but only one)
      *
-     * @var string $scheduledString
+     * @var \TKusy\Hl7FhirR4\StringType $scheduledString
      */
     private $scheduledString = null;
 
@@ -147,7 +147,7 @@ class CarePlanDetailType extends BackboneElementType
     /**
      * This provides a textual description of constraints on the intended activity occurrence, including relation to other activities. It may also include objectives, pre-conditions and end-conditions. Finally, it may convey specifics about the activity such as body site, method, route, etc.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -590,7 +590,7 @@ class CarePlanDetailType extends BackboneElementType
      *
      * If true, indicates that the described activity is one that must NOT be engaged in when following the plan. If false, or missing, indicates that the described activity is one that should be engaged in when following the plan.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getDoNotPerform()
     {
@@ -602,10 +602,10 @@ class CarePlanDetailType extends BackboneElementType
      *
      * If true, indicates that the described activity is one that must NOT be engaged in when following the plan. If false, or missing, indicates that the described activity is one that should be engaged in when following the plan.
      *
-     * @param bool $doNotPerform
+     * @param \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      * @return self
      */
-    public function setDoNotPerform($doNotPerform)
+    public function setDoNotPerform(\TKusy\Hl7FhirR4\BooleanType $doNotPerform)
     {
         $this->doNotPerform = $doNotPerform;
         return $this;
@@ -668,7 +668,7 @@ class CarePlanDetailType extends BackboneElementType
      *
      * The period, timing or frequency upon which the described activity is to occur. (choose any one of scheduled*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getScheduledString()
     {
@@ -680,10 +680,10 @@ class CarePlanDetailType extends BackboneElementType
      *
      * The period, timing or frequency upon which the described activity is to occur. (choose any one of scheduled*, but only one)
      *
-     * @param string $scheduledString
+     * @param \TKusy\Hl7FhirR4\StringType $scheduledString
      * @return self
      */
-    public function setScheduledString($scheduledString)
+    public function setScheduledString(\TKusy\Hl7FhirR4\StringType $scheduledString)
     {
         $this->scheduledString = $scheduledString;
         return $this;
@@ -890,7 +890,7 @@ class CarePlanDetailType extends BackboneElementType
      *
      * This provides a textual description of constraints on the intended activity occurrence, including relation to other activities. It may also include objectives, pre-conditions and end-conditions. Finally, it may convey specifics about the activity such as body site, method, route, etc.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -902,10 +902,10 @@ class CarePlanDetailType extends BackboneElementType
      *
      * This provides a textual description of constraints on the intended activity occurrence, including relation to other activities. It may also include objectives, pre-conditions and end-conditions. Finally, it may convey specifics about the activity such as body site, method, route, etc.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

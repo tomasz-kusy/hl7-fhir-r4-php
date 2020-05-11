@@ -35,14 +35,14 @@ class InsurancePlanType extends DomainResourceType
     /**
      * Official name of the health insurance product as designated by the owner.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A list of alternate names that the product is known as, or was known as in the past.
      *
-     * @var string[] $alias
+     * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
     private $alias = null;
 
@@ -272,7 +272,7 @@ class InsurancePlanType extends DomainResourceType
      *
      * Official name of the health insurance product as designated by the owner.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -284,10 +284,10 @@ class InsurancePlanType extends DomainResourceType
      *
      * Official name of the health insurance product as designated by the owner.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -299,9 +299,9 @@ class InsurancePlanType extends DomainResourceType
      * A list of alternate names that the product is known as, or was known as in the past.
      *
      * @return self
-     * @param string $alias
+     * @param \TKusy\Hl7FhirR4\StringType $alias
      */
-    public function addToAlias($alias)
+    public function addToAlias(\TKusy\Hl7FhirR4\StringType $alias)
     {
         $this->alias[] = $alias;
         return $this;
@@ -338,7 +338,7 @@ class InsurancePlanType extends DomainResourceType
      *
      * A list of alternate names that the product is known as, or was known as in the past.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getAlias()
     {
@@ -350,7 +350,7 @@ class InsurancePlanType extends DomainResourceType
      *
      * A list of alternate names that the product is known as, or was known as in the past.
      *
-     * @param string[] $alias
+     * @param \TKusy\Hl7FhirR4\StringType[] $alias
      * @return self
      */
     public function setAlias(array $alias)

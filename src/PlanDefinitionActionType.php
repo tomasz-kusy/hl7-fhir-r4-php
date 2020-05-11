@@ -14,28 +14,28 @@ class PlanDefinitionActionType extends BackboneElementType
     /**
      * A user-visible prefix for the action.
      *
-     * @var string $prefix
+     * @var \TKusy\Hl7FhirR4\StringType $prefix
      */
     private $prefix = null;
 
     /**
      * The title of the action displayed to a user.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
     /**
      * A brief description of the action used to provide a summary to display to the user.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
     /**
      * A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.
      *
-     * @var string $textEquivalent
+     * @var \TKusy\Hl7FhirR4\StringType $textEquivalent
      */
     private $textEquivalent = null;
 
@@ -254,7 +254,7 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * A user-visible prefix for the action.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPrefix()
     {
@@ -266,10 +266,10 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * A user-visible prefix for the action.
      *
-     * @param string $prefix
+     * @param \TKusy\Hl7FhirR4\StringType $prefix
      * @return self
      */
-    public function setPrefix($prefix)
+    public function setPrefix(\TKusy\Hl7FhirR4\StringType $prefix)
     {
         $this->prefix = $prefix;
         return $this;
@@ -280,7 +280,7 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * The title of the action displayed to a user.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -292,10 +292,10 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * The title of the action displayed to a user.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -306,7 +306,7 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * A brief description of the action used to provide a summary to display to the user.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -318,10 +318,10 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * A brief description of the action used to provide a summary to display to the user.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -332,7 +332,7 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTextEquivalent()
     {
@@ -344,10 +344,10 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.
      *
-     * @param string $textEquivalent
+     * @param \TKusy\Hl7FhirR4\StringType $textEquivalent
      * @return self
      */
-    public function setTextEquivalent($textEquivalent)
+    public function setTextEquivalent(\TKusy\Hl7FhirR4\StringType $textEquivalent)
     {
         $this->textEquivalent = $textEquivalent;
         return $this;

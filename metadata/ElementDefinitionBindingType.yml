@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ElementDefinitionBindingType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueSet:
             expose: true
             access_type: public_method

@@ -35,21 +35,21 @@ class LocationType extends DomainResourceType
     /**
      * Name of the location as used by humans. Does not need to be unique.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A list of alternate names that the location is known as, or was known as, in the past.
      *
-     * @var string[] $alias
+     * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
     private $alias = null;
 
     /**
      * Description of the Location, which helps in finding or referencing the place.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -119,7 +119,7 @@ class LocationType extends DomainResourceType
     /**
      * A description of when the locations opening ours are different to normal, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as detailed in the opening hours Times.
      *
-     * @var string $availabilityExceptions
+     * @var \TKusy\Hl7FhirR4\StringType $availabilityExceptions
      */
     private $availabilityExceptions = null;
 
@@ -253,7 +253,7 @@ class LocationType extends DomainResourceType
      *
      * Name of the location as used by humans. Does not need to be unique.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -265,10 +265,10 @@ class LocationType extends DomainResourceType
      *
      * Name of the location as used by humans. Does not need to be unique.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -280,9 +280,9 @@ class LocationType extends DomainResourceType
      * A list of alternate names that the location is known as, or was known as, in the past.
      *
      * @return self
-     * @param string $alias
+     * @param \TKusy\Hl7FhirR4\StringType $alias
      */
-    public function addToAlias($alias)
+    public function addToAlias(\TKusy\Hl7FhirR4\StringType $alias)
     {
         $this->alias[] = $alias;
         return $this;
@@ -319,7 +319,7 @@ class LocationType extends DomainResourceType
      *
      * A list of alternate names that the location is known as, or was known as, in the past.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getAlias()
     {
@@ -331,7 +331,7 @@ class LocationType extends DomainResourceType
      *
      * A list of alternate names that the location is known as, or was known as, in the past.
      *
-     * @param string[] $alias
+     * @param \TKusy\Hl7FhirR4\StringType[] $alias
      * @return self
      */
     public function setAlias(array $alias)
@@ -345,7 +345,7 @@ class LocationType extends DomainResourceType
      *
      * Description of the Location, which helps in finding or referencing the place.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -357,10 +357,10 @@ class LocationType extends DomainResourceType
      *
      * Description of the Location, which helps in finding or referencing the place.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -725,7 +725,7 @@ class LocationType extends DomainResourceType
      *
      * A description of when the locations opening ours are different to normal, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as detailed in the opening hours Times.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAvailabilityExceptions()
     {
@@ -737,10 +737,10 @@ class LocationType extends DomainResourceType
      *
      * A description of when the locations opening ours are different to normal, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as detailed in the opening hours Times.
      *
-     * @param string $availabilityExceptions
+     * @param \TKusy\Hl7FhirR4\StringType $availabilityExceptions
      * @return self
      */
-    public function setAvailabilityExceptions($availabilityExceptions)
+    public function setAvailabilityExceptions(\TKusy\Hl7FhirR4\StringType $availabilityExceptions)
     {
         $this->availabilityExceptions = $availabilityExceptions;
         return $this;

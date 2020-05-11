@@ -21,14 +21,14 @@ class CompartmentDefinitionType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the compartment definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the compartment definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the compartment definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -42,7 +42,7 @@ class CompartmentDefinitionType extends DomainResourceType
     /**
      * A Boolean value to indicate that this compartment definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -56,7 +56,7 @@ class CompartmentDefinitionType extends DomainResourceType
     /**
      * The name of the organization or individual that published the compartment definition.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -98,7 +98,7 @@ class CompartmentDefinitionType extends DomainResourceType
     /**
      * Whether the search syntax is supported,.
      *
-     * @var bool $search
+     * @var \TKusy\Hl7FhirR4\BooleanType $search
      */
     private $search = null;
 
@@ -140,7 +140,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the compartment definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the compartment definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -152,10 +152,10 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the compartment definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the compartment definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -166,7 +166,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the compartment definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -178,10 +178,10 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the compartment definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -218,7 +218,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this compartment definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -230,10 +230,10 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this compartment definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -270,7 +270,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the compartment definition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -282,10 +282,10 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the compartment definition.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -506,7 +506,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * Whether the search syntax is supported,.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getSearch()
     {
@@ -518,10 +518,10 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * Whether the search syntax is supported,.
      *
-     * @param bool $search
+     * @param \TKusy\Hl7FhirR4\BooleanType $search
      * @return self
      */
-    public function setSearch($search)
+    public function setSearch(\TKusy\Hl7FhirR4\BooleanType $search)
     {
         $this->search = $search;
         return $this;

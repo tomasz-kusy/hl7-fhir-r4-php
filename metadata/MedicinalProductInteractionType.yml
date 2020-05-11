@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\MedicinalProductInteractionType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         interactant:
             expose: true
             access_type: public_method

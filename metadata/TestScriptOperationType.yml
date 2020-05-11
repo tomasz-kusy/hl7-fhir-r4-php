@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getLabel
                 setter: setLabel
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         description:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         accept:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getDestination
                 setter: setDestination
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         encodeRequestUrl:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getEncodeRequestUrl
                 setter: setEncodeRequestUrl
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         method:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getOrigin
                 setter: setOrigin
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         params:
             expose: true
             access_type: public_method
@@ -120,7 +120,7 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getParams
                 setter: setParams
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         requestHeader:
             expose: true
             access_type: public_method
@@ -190,4 +190,4 @@ TKusy\Hl7FhirR4\TestScriptOperationType:
             accessor:
                 getter: getUrl
                 setter: setUrl
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

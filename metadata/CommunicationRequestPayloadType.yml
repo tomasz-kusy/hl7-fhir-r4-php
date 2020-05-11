@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\CommunicationRequestPayloadType:
             accessor:
                 getter: getContentString
                 setter: setContentString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contentAttachment:
             expose: true
             access_type: public_method

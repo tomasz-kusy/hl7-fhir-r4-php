@@ -14,14 +14,14 @@ class DataRequirementDateFilterType extends ElementType
     /**
      * The date-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type date, dateTime, Period, Schedule, or Timing.
      *
-     * @var string $path
+     * @var \TKusy\Hl7FhirR4\StringType $path
      */
     private $path = null;
 
     /**
      * A date parameter that refers to a search parameter defined on the specified type of the DataRequirement, and which searches on elements of type date, dateTime, Period, Schedule, or Timing.
      *
-     * @var string $searchParam
+     * @var \TKusy\Hl7FhirR4\StringType $searchParam
      */
     private $searchParam = null;
 
@@ -51,7 +51,7 @@ class DataRequirementDateFilterType extends ElementType
      *
      * The date-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type date, dateTime, Period, Schedule, or Timing.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPath()
     {
@@ -63,10 +63,10 @@ class DataRequirementDateFilterType extends ElementType
      *
      * The date-valued attribute of the filter. The specified path SHALL be a FHIRPath resolveable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of type date, dateTime, Period, Schedule, or Timing.
      *
-     * @param string $path
+     * @param \TKusy\Hl7FhirR4\StringType $path
      * @return self
      */
-    public function setPath($path)
+    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
     {
         $this->path = $path;
         return $this;
@@ -77,7 +77,7 @@ class DataRequirementDateFilterType extends ElementType
      *
      * A date parameter that refers to a search parameter defined on the specified type of the DataRequirement, and which searches on elements of type date, dateTime, Period, Schedule, or Timing.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSearchParam()
     {
@@ -89,10 +89,10 @@ class DataRequirementDateFilterType extends ElementType
      *
      * A date parameter that refers to a search parameter defined on the specified type of the DataRequirement, and which searches on elements of type date, dateTime, Period, Schedule, or Timing.
      *
-     * @param string $searchParam
+     * @param \TKusy\Hl7FhirR4\StringType $searchParam
      * @return self
      */
-    public function setSearchParam($searchParam)
+    public function setSearchParam(\TKusy\Hl7FhirR4\StringType $searchParam)
     {
         $this->searchParam = $searchParam;
         return $this;

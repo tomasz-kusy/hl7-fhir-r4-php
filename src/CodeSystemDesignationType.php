@@ -28,7 +28,7 @@ class CodeSystemDesignationType extends BackboneElementType
     /**
      * The text value for this designation.
      *
-     * @var string $value
+     * @var \TKusy\Hl7FhirR4\StringType $value
      */
     private $value = null;
 
@@ -89,7 +89,7 @@ class CodeSystemDesignationType extends BackboneElementType
      *
      * The text value for this designation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValue()
     {
@@ -101,10 +101,10 @@ class CodeSystemDesignationType extends BackboneElementType
      *
      * The text value for this designation.
      *
-     * @param string $value
+     * @param \TKusy\Hl7FhirR4\StringType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
     {
         $this->value = $value;
         return $this;

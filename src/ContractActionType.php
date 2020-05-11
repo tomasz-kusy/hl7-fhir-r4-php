@@ -14,7 +14,7 @@ class ContractActionType extends BackboneElementType
     /**
      * True if the term prohibits the action.
      *
-     * @var bool $doNotPerform
+     * @var \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      */
     private $doNotPerform = null;
 
@@ -42,7 +42,7 @@ class ContractActionType extends BackboneElementType
     /**
      * Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $linkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
     private $linkId = null;
 
@@ -63,7 +63,7 @@ class ContractActionType extends BackboneElementType
     /**
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $contextLinkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $contextLinkId
      */
     private $contextLinkId = null;
 
@@ -98,7 +98,7 @@ class ContractActionType extends BackboneElementType
     /**
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $requesterLinkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $requesterLinkId
      */
     private $requesterLinkId = null;
 
@@ -126,7 +126,7 @@ class ContractActionType extends BackboneElementType
     /**
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $performerLinkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $performerLinkId
      */
     private $performerLinkId = null;
 
@@ -147,14 +147,14 @@ class ContractActionType extends BackboneElementType
     /**
      * Describes why the action is to be performed or not performed in textual form.
      *
-     * @var string[] $reason
+     * @var \TKusy\Hl7FhirR4\StringType[] $reason
      */
     private $reason = null;
 
     /**
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
-     * @var string[] $reasonLinkId
+     * @var \TKusy\Hl7FhirR4\StringType[] $reasonLinkId
      */
     private $reasonLinkId = null;
 
@@ -177,7 +177,7 @@ class ContractActionType extends BackboneElementType
      *
      * True if the term prohibits the action.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getDoNotPerform()
     {
@@ -189,10 +189,10 @@ class ContractActionType extends BackboneElementType
      *
      * True if the term prohibits the action.
      *
-     * @param bool $doNotPerform
+     * @param \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      * @return self
      */
-    public function setDoNotPerform($doNotPerform)
+    public function setDoNotPerform(\TKusy\Hl7FhirR4\BooleanType $doNotPerform)
     {
         $this->doNotPerform = $doNotPerform;
         return $this;
@@ -322,9 +322,9 @@ class ContractActionType extends BackboneElementType
      * Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $linkId
+     * @param \TKusy\Hl7FhirR4\StringType $linkId
      */
-    public function addToLinkId($linkId)
+    public function addToLinkId(\TKusy\Hl7FhirR4\StringType $linkId)
     {
         $this->linkId[] = $linkId;
         return $this;
@@ -361,7 +361,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getLinkId()
     {
@@ -373,7 +373,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $linkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $linkId
      * @return self
      */
     public function setLinkId(array $linkId)
@@ -440,9 +440,9 @@ class ContractActionType extends BackboneElementType
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $contextLinkId
+     * @param \TKusy\Hl7FhirR4\StringType $contextLinkId
      */
-    public function addToContextLinkId($contextLinkId)
+    public function addToContextLinkId(\TKusy\Hl7FhirR4\StringType $contextLinkId)
     {
         $this->contextLinkId[] = $contextLinkId;
         return $this;
@@ -479,7 +479,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getContextLinkId()
     {
@@ -491,7 +491,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $contextLinkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $contextLinkId
      * @return self
      */
     public function setContextLinkId(array $contextLinkId)
@@ -650,9 +650,9 @@ class ContractActionType extends BackboneElementType
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $requesterLinkId
+     * @param \TKusy\Hl7FhirR4\StringType $requesterLinkId
      */
-    public function addToRequesterLinkId($requesterLinkId)
+    public function addToRequesterLinkId(\TKusy\Hl7FhirR4\StringType $requesterLinkId)
     {
         $this->requesterLinkId[] = $requesterLinkId;
         return $this;
@@ -689,7 +689,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getRequesterLinkId()
     {
@@ -701,7 +701,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $requesterLinkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $requesterLinkId
      * @return self
      */
     public function setRequesterLinkId(array $requesterLinkId)
@@ -834,9 +834,9 @@ class ContractActionType extends BackboneElementType
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $performerLinkId
+     * @param \TKusy\Hl7FhirR4\StringType $performerLinkId
      */
-    public function addToPerformerLinkId($performerLinkId)
+    public function addToPerformerLinkId(\TKusy\Hl7FhirR4\StringType $performerLinkId)
     {
         $this->performerLinkId[] = $performerLinkId;
         return $this;
@@ -873,7 +873,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getPerformerLinkId()
     {
@@ -885,7 +885,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $performerLinkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $performerLinkId
      * @return self
      */
     public function setPerformerLinkId(array $performerLinkId)
@@ -1032,9 +1032,9 @@ class ContractActionType extends BackboneElementType
      * Describes why the action is to be performed or not performed in textual form.
      *
      * @return self
-     * @param string $reason
+     * @param \TKusy\Hl7FhirR4\StringType $reason
      */
-    public function addToReason($reason)
+    public function addToReason(\TKusy\Hl7FhirR4\StringType $reason)
     {
         $this->reason[] = $reason;
         return $this;
@@ -1071,7 +1071,7 @@ class ContractActionType extends BackboneElementType
      *
      * Describes why the action is to be performed or not performed in textual form.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getReason()
     {
@@ -1083,7 +1083,7 @@ class ContractActionType extends BackboneElementType
      *
      * Describes why the action is to be performed or not performed in textual form.
      *
-     * @param string[] $reason
+     * @param \TKusy\Hl7FhirR4\StringType[] $reason
      * @return self
      */
     public function setReason(array $reason)
@@ -1098,9 +1098,9 @@ class ContractActionType extends BackboneElementType
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
      * @return self
-     * @param string $reasonLinkId
+     * @param \TKusy\Hl7FhirR4\StringType $reasonLinkId
      */
-    public function addToReasonLinkId($reasonLinkId)
+    public function addToReasonLinkId(\TKusy\Hl7FhirR4\StringType $reasonLinkId)
     {
         $this->reasonLinkId[] = $reasonLinkId;
         return $this;
@@ -1137,7 +1137,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getReasonLinkId()
     {
@@ -1149,7 +1149,7 @@ class ContractActionType extends BackboneElementType
      *
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
-     * @param string[] $reasonLinkId
+     * @param \TKusy\Hl7FhirR4\StringType[] $reasonLinkId
      * @return self
      */
     public function setReasonLinkId(array $reasonLinkId)

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ValueSetParameterType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueString:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ValueSetParameterType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         valueBoolean:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ValueSetParameterType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         valueInteger:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ValueSetParameterType:
             accessor:
                 getter: getValueInteger
                 setter: setValueInteger
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         valueDecimal:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\ValueSetParameterType:
             accessor:
                 getter: getValueDecimal
                 setter: setValueDecimal
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         valueUri:
             expose: true
             access_type: public_method

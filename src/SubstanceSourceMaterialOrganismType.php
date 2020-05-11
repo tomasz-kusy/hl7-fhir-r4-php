@@ -42,7 +42,7 @@ class SubstanceSourceMaterialOrganismType extends BackboneElementType
     /**
      * The intraspecific description of an organism shall be specified based on a controlled vocabulary. For Influenza Vaccine, the intraspecific description shall contain the syntax of the antigen in line with the WHO convention.
      *
-     * @var string $intraspecificDescription
+     * @var \TKusy\Hl7FhirR4\StringType $intraspecificDescription
      */
     private $intraspecificDescription = null;
 
@@ -176,7 +176,7 @@ class SubstanceSourceMaterialOrganismType extends BackboneElementType
      *
      * The intraspecific description of an organism shall be specified based on a controlled vocabulary. For Influenza Vaccine, the intraspecific description shall contain the syntax of the antigen in line with the WHO convention.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getIntraspecificDescription()
     {
@@ -188,10 +188,10 @@ class SubstanceSourceMaterialOrganismType extends BackboneElementType
      *
      * The intraspecific description of an organism shall be specified based on a controlled vocabulary. For Influenza Vaccine, the intraspecific description shall contain the syntax of the antigen in line with the WHO convention.
      *
-     * @param string $intraspecificDescription
+     * @param \TKusy\Hl7FhirR4\StringType $intraspecificDescription
      * @return self
      */
-    public function setIntraspecificDescription($intraspecificDescription)
+    public function setIntraspecificDescription(\TKusy\Hl7FhirR4\StringType $intraspecificDescription)
     {
         $this->intraspecificDescription = $intraspecificDescription;
         return $this;

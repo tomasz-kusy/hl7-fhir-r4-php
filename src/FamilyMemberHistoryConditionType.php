@@ -28,7 +28,7 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
     /**
      * This condition contributed to the cause of death of the related person. If contributedToDeath is not populated, then it is unknown.
      *
-     * @var bool $contributedToDeath
+     * @var \TKusy\Hl7FhirR4\BooleanType $contributedToDeath
      */
     private $contributedToDeath = null;
 
@@ -56,7 +56,7 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
     /**
      * Either the age of onset, range of approximate age or descriptive string can be recorded. For conditions with multiple occurrences, this describes the first known occurrence. (choose any one of onset*, but only one)
      *
-     * @var string $onsetString
+     * @var \TKusy\Hl7FhirR4\StringType $onsetString
      */
     private $onsetString = null;
 
@@ -124,7 +124,7 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
      *
      * This condition contributed to the cause of death of the related person. If contributedToDeath is not populated, then it is unknown.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getContributedToDeath()
     {
@@ -136,10 +136,10 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
      *
      * This condition contributed to the cause of death of the related person. If contributedToDeath is not populated, then it is unknown.
      *
-     * @param bool $contributedToDeath
+     * @param \TKusy\Hl7FhirR4\BooleanType $contributedToDeath
      * @return self
      */
-    public function setContributedToDeath($contributedToDeath)
+    public function setContributedToDeath(\TKusy\Hl7FhirR4\BooleanType $contributedToDeath)
     {
         $this->contributedToDeath = $contributedToDeath;
         return $this;
@@ -228,7 +228,7 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
      *
      * Either the age of onset, range of approximate age or descriptive string can be recorded. For conditions with multiple occurrences, this describes the first known occurrence. (choose any one of onset*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getOnsetString()
     {
@@ -240,10 +240,10 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
      *
      * Either the age of onset, range of approximate age or descriptive string can be recorded. For conditions with multiple occurrences, this describes the first known occurrence. (choose any one of onset*, but only one)
      *
-     * @param string $onsetString
+     * @param \TKusy\Hl7FhirR4\StringType $onsetString
      * @return self
      */
-    public function setOnsetString($onsetString)
+    public function setOnsetString(\TKusy\Hl7FhirR4\StringType $onsetString)
     {
         $this->onsetString = $onsetString;
         return $this;

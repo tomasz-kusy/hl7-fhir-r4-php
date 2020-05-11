@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\StructureMapTargetType:
             accessor:
                 getter: getElement
                 setter: setElement
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         variable:
             expose: true
             access_type: public_method

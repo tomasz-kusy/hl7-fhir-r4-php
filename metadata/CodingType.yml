@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\CodingType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         code:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\CodingType:
             accessor:
                 getter: getDisplay
                 setter: setDisplay
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         userSelected:
             expose: true
             access_type: public_method
@@ -54,4 +54,4 @@ TKusy\Hl7FhirR4\CodingType:
             accessor:
                 getter: getUserSelected
                 setter: setUserSelected
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType

@@ -84,7 +84,7 @@ TKusy\Hl7FhirR4\MedicinalProductType:
                 inline: true
                 entry_name: specialMeasures
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         paediatricUseIndicator:
             expose: true
             access_type: public_method

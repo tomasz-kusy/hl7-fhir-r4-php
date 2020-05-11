@@ -21,7 +21,7 @@ class OrganizationType extends DomainResourceType
     /**
      * Whether the organization's record is still in active use.
      *
-     * @var bool $active
+     * @var \TKusy\Hl7FhirR4\BooleanType $active
      */
     private $active = null;
 
@@ -35,14 +35,14 @@ class OrganizationType extends DomainResourceType
     /**
      * A name associated with the organization.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A list of alternate names that the organization is known as, or was known as in the past.
      *
-     * @var string[] $alias
+     * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
     private $alias = null;
 
@@ -152,7 +152,7 @@ class OrganizationType extends DomainResourceType
      *
      * Whether the organization's record is still in active use.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getActive()
     {
@@ -164,10 +164,10 @@ class OrganizationType extends DomainResourceType
      *
      * Whether the organization's record is still in active use.
      *
-     * @param bool $active
+     * @param \TKusy\Hl7FhirR4\BooleanType $active
      * @return self
      */
-    public function setActive($active)
+    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
     {
         $this->active = $active;
         return $this;
@@ -244,7 +244,7 @@ class OrganizationType extends DomainResourceType
      *
      * A name associated with the organization.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -256,10 +256,10 @@ class OrganizationType extends DomainResourceType
      *
      * A name associated with the organization.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -271,9 +271,9 @@ class OrganizationType extends DomainResourceType
      * A list of alternate names that the organization is known as, or was known as in the past.
      *
      * @return self
-     * @param string $alias
+     * @param \TKusy\Hl7FhirR4\StringType $alias
      */
-    public function addToAlias($alias)
+    public function addToAlias(\TKusy\Hl7FhirR4\StringType $alias)
     {
         $this->alias[] = $alias;
         return $this;
@@ -310,7 +310,7 @@ class OrganizationType extends DomainResourceType
      *
      * A list of alternate names that the organization is known as, or was known as in the past.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getAlias()
     {
@@ -322,7 +322,7 @@ class OrganizationType extends DomainResourceType
      *
      * A list of alternate names that the organization is known as, or was known as in the past.
      *
-     * @param string[] $alias
+     * @param \TKusy\Hl7FhirR4\StringType[] $alias
      * @return self
      */
     public function setAlias(array $alias)

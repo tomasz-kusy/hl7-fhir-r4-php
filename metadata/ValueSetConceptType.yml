@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ValueSetConceptType:
             accessor:
                 getter: getDisplay
                 setter: setDisplay
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         designation:
             expose: true
             access_type: public_method

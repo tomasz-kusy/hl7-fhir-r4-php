@@ -14,7 +14,7 @@ class ResearchStudyObjectiveType extends BackboneElementType
     /**
      * Unique, human-readable label for this objective of the study.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -30,7 +30,7 @@ class ResearchStudyObjectiveType extends BackboneElementType
      *
      * Unique, human-readable label for this objective of the study.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -42,10 +42,10 @@ class ResearchStudyObjectiveType extends BackboneElementType
      *
      * Unique, human-readable label for this objective of the study.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

@@ -14,7 +14,7 @@ class ImmunizationEducationType extends BackboneElementType
     /**
      * Identifier of the material presented to the patient.
      *
-     * @var string $documentType
+     * @var \TKusy\Hl7FhirR4\StringType $documentType
      */
     private $documentType = null;
 
@@ -44,7 +44,7 @@ class ImmunizationEducationType extends BackboneElementType
      *
      * Identifier of the material presented to the patient.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDocumentType()
     {
@@ -56,10 +56,10 @@ class ImmunizationEducationType extends BackboneElementType
      *
      * Identifier of the material presented to the patient.
      *
-     * @param string $documentType
+     * @param \TKusy\Hl7FhirR4\StringType $documentType
      * @return self
      */
-    public function setDocumentType($documentType)
+    public function setDocumentType(\TKusy\Hl7FhirR4\StringType $documentType)
     {
         $this->documentType = $documentType;
         return $this;

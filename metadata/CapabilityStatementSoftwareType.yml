@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSoftwareType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         version:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\CapabilityStatementSoftwareType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         releaseDate:
             expose: true
             access_type: public_method

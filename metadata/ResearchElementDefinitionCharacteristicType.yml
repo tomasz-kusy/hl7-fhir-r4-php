@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionCharacteristicType:
             accessor:
                 getter: getExclude
                 setter: setExclude
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         unitOfMeasure:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionCharacteristicType:
             accessor:
                 getter: getStudyEffectiveDescription
                 setter: setStudyEffectiveDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         studyEffectiveDateTime:
             expose: true
             access_type: public_method
@@ -168,7 +168,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionCharacteristicType:
             accessor:
                 getter: getParticipantEffectiveDescription
                 setter: setParticipantEffectiveDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         participantEffectiveDateTime:
             expose: true
             access_type: public_method

@@ -28,28 +28,28 @@ class MeasureType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the measure when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the measure author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the measure. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the measure.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
     /**
      * An explanatory or alternate title for the measure giving additional information about its content.
      *
-     * @var string $subtitle
+     * @var \TKusy\Hl7FhirR4\StringType $subtitle
      */
     private $subtitle = null;
 
@@ -63,7 +63,7 @@ class MeasureType extends DomainResourceType
     /**
      * A Boolean value to indicate that this measure is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -91,7 +91,7 @@ class MeasureType extends DomainResourceType
     /**
      * The name of the organization or individual that published the measure.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -133,7 +133,7 @@ class MeasureType extends DomainResourceType
     /**
      * A detailed description, from a clinical perspective, of how the measure is used.
      *
-     * @var string $usage
+     * @var \TKusy\Hl7FhirR4\StringType $usage
      */
     private $usage = null;
 
@@ -245,14 +245,14 @@ class MeasureType extends DomainResourceType
     /**
      * A description of the risk adjustment factors that may impact the resulting score for the measure and how they may be accounted for when computing and reporting measure results.
      *
-     * @var string $riskAdjustment
+     * @var \TKusy\Hl7FhirR4\StringType $riskAdjustment
      */
     private $riskAdjustment = null;
 
     /**
      * Describes how to combine the information calculated, based on logic in each of several populations, into one summarized result.
      *
-     * @var string $rateAggregation
+     * @var \TKusy\Hl7FhirR4\StringType $rateAggregation
      */
     private $rateAggregation = null;
 
@@ -402,7 +402,7 @@ class MeasureType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the measure when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the measure author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -414,10 +414,10 @@ class MeasureType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the measure when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the measure author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -428,7 +428,7 @@ class MeasureType extends DomainResourceType
      *
      * A natural language name identifying the measure. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -440,10 +440,10 @@ class MeasureType extends DomainResourceType
      *
      * A natural language name identifying the measure. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -454,7 +454,7 @@ class MeasureType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the measure.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -466,10 +466,10 @@ class MeasureType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the measure.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -480,7 +480,7 @@ class MeasureType extends DomainResourceType
      *
      * An explanatory or alternate title for the measure giving additional information about its content.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSubtitle()
     {
@@ -492,10 +492,10 @@ class MeasureType extends DomainResourceType
      *
      * An explanatory or alternate title for the measure giving additional information about its content.
      *
-     * @param string $subtitle
+     * @param \TKusy\Hl7FhirR4\StringType $subtitle
      * @return self
      */
-    public function setSubtitle($subtitle)
+    public function setSubtitle(\TKusy\Hl7FhirR4\StringType $subtitle)
     {
         $this->subtitle = $subtitle;
         return $this;
@@ -532,7 +532,7 @@ class MeasureType extends DomainResourceType
      *
      * A Boolean value to indicate that this measure is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -544,10 +544,10 @@ class MeasureType extends DomainResourceType
      *
      * A Boolean value to indicate that this measure is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -636,7 +636,7 @@ class MeasureType extends DomainResourceType
      *
      * The name of the organization or individual that published the measure.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -648,10 +648,10 @@ class MeasureType extends DomainResourceType
      *
      * The name of the organization or individual that published the measure.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -912,7 +912,7 @@ class MeasureType extends DomainResourceType
      *
      * A detailed description, from a clinical perspective, of how the measure is used.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getUsage()
     {
@@ -924,10 +924,10 @@ class MeasureType extends DomainResourceType
      *
      * A detailed description, from a clinical perspective, of how the measure is used.
      *
-     * @param string $usage
+     * @param \TKusy\Hl7FhirR4\StringType $usage
      * @return self
      */
-    public function setUsage($usage)
+    public function setUsage(\TKusy\Hl7FhirR4\StringType $usage)
     {
         $this->usage = $usage;
         return $this;
@@ -1648,7 +1648,7 @@ class MeasureType extends DomainResourceType
      *
      * A description of the risk adjustment factors that may impact the resulting score for the measure and how they may be accounted for when computing and reporting measure results.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRiskAdjustment()
     {
@@ -1660,10 +1660,10 @@ class MeasureType extends DomainResourceType
      *
      * A description of the risk adjustment factors that may impact the resulting score for the measure and how they may be accounted for when computing and reporting measure results.
      *
-     * @param string $riskAdjustment
+     * @param \TKusy\Hl7FhirR4\StringType $riskAdjustment
      * @return self
      */
-    public function setRiskAdjustment($riskAdjustment)
+    public function setRiskAdjustment(\TKusy\Hl7FhirR4\StringType $riskAdjustment)
     {
         $this->riskAdjustment = $riskAdjustment;
         return $this;
@@ -1674,7 +1674,7 @@ class MeasureType extends DomainResourceType
      *
      * Describes how to combine the information calculated, based on logic in each of several populations, into one summarized result.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRateAggregation()
     {
@@ -1686,10 +1686,10 @@ class MeasureType extends DomainResourceType
      *
      * Describes how to combine the information calculated, based on logic in each of several populations, into one summarized result.
      *
-     * @param string $rateAggregation
+     * @param \TKusy\Hl7FhirR4\StringType $rateAggregation
      * @return self
      */
-    public function setRateAggregation($rateAggregation)
+    public function setRateAggregation(\TKusy\Hl7FhirR4\StringType $rateAggregation)
     {
         $this->rateAggregation = $rateAggregation;
         return $this;

@@ -14,7 +14,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
     /**
      * Human-readable summary of risk estimate.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -28,7 +28,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
     /**
      * The point estimate of the risk estimate.
      *
-     * @var float $value
+     * @var \TKusy\Hl7FhirR4\DecimalType $value
      */
     private $value = null;
 
@@ -42,14 +42,14 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
     /**
      * The sample size for the group that was measured for this risk estimate.
      *
-     * @var \integer $denominatorCount
+     * @var \TKusy\Hl7FhirR4\IntegerType $denominatorCount
      */
     private $denominatorCount = null;
 
     /**
      * The number of group members with the outcome of interest.
      *
-     * @var \integer $numeratorCount
+     * @var \TKusy\Hl7FhirR4\IntegerType $numeratorCount
      */
     private $numeratorCount = null;
 
@@ -65,7 +65,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * Human-readable summary of risk estimate.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -77,10 +77,10 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * Human-readable summary of risk estimate.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;
@@ -117,7 +117,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * The point estimate of the risk estimate.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getValue()
     {
@@ -129,10 +129,10 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * The point estimate of the risk estimate.
      *
-     * @param float $value
+     * @param \TKusy\Hl7FhirR4\DecimalType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\DecimalType $value)
     {
         $this->value = $value;
         return $this;
@@ -169,7 +169,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * The sample size for the group that was measured for this risk estimate.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getDenominatorCount()
     {
@@ -181,10 +181,10 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * The sample size for the group that was measured for this risk estimate.
      *
-     * @param \integer $denominatorCount
+     * @param \TKusy\Hl7FhirR4\IntegerType $denominatorCount
      * @return self
      */
-    public function setDenominatorCount(\integer $denominatorCount)
+    public function setDenominatorCount(\TKusy\Hl7FhirR4\IntegerType $denominatorCount)
     {
         $this->denominatorCount = $denominatorCount;
         return $this;
@@ -195,7 +195,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * The number of group members with the outcome of interest.
      *
-     * @return \integer
+     * @return \TKusy\Hl7FhirR4\IntegerType
      */
     public function getNumeratorCount()
     {
@@ -207,10 +207,10 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * The number of group members with the outcome of interest.
      *
-     * @param \integer $numeratorCount
+     * @param \TKusy\Hl7FhirR4\IntegerType $numeratorCount
      * @return self
      */
-    public function setNumeratorCount(\integer $numeratorCount)
+    public function setNumeratorCount(\TKusy\Hl7FhirR4\IntegerType $numeratorCount)
     {
         $this->numeratorCount = $numeratorCount;
         return $this;

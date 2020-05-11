@@ -14,7 +14,7 @@ class TerminologyCapabilitiesImplementationType extends BackboneElementType
     /**
      * Information about the specific installation that this terminology capability statement relates to.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -30,7 +30,7 @@ class TerminologyCapabilitiesImplementationType extends BackboneElementType
      *
      * Information about the specific installation that this terminology capability statement relates to.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -42,10 +42,10 @@ class TerminologyCapabilitiesImplementationType extends BackboneElementType
      *
      * Information about the specific installation that this terminology capability statement relates to.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

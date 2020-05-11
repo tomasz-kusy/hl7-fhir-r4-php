@@ -21,7 +21,7 @@ class GroupType extends DomainResourceType
     /**
      * Indicates whether the record for the group is available for use or is merely being retained for historical purposes.
      *
-     * @var bool $active
+     * @var \TKusy\Hl7FhirR4\BooleanType $active
      */
     private $active = null;
 
@@ -35,7 +35,7 @@ class GroupType extends DomainResourceType
     /**
      * If true, indicates that the resource refers to a specific group of real individuals. If false, the group defines a set of intended individuals.
      *
-     * @var bool $actual
+     * @var \TKusy\Hl7FhirR4\BooleanType $actual
      */
     private $actual = null;
 
@@ -49,7 +49,7 @@ class GroupType extends DomainResourceType
     /**
      * A label assigned to the group for human identification and communication.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -152,7 +152,7 @@ class GroupType extends DomainResourceType
      *
      * Indicates whether the record for the group is available for use or is merely being retained for historical purposes.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getActive()
     {
@@ -164,10 +164,10 @@ class GroupType extends DomainResourceType
      *
      * Indicates whether the record for the group is available for use or is merely being retained for historical purposes.
      *
-     * @param bool $active
+     * @param \TKusy\Hl7FhirR4\BooleanType $active
      * @return self
      */
-    public function setActive($active)
+    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
     {
         $this->active = $active;
         return $this;
@@ -204,7 +204,7 @@ class GroupType extends DomainResourceType
      *
      * If true, indicates that the resource refers to a specific group of real individuals. If false, the group defines a set of intended individuals.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getActual()
     {
@@ -216,10 +216,10 @@ class GroupType extends DomainResourceType
      *
      * If true, indicates that the resource refers to a specific group of real individuals. If false, the group defines a set of intended individuals.
      *
-     * @param bool $actual
+     * @param \TKusy\Hl7FhirR4\BooleanType $actual
      * @return self
      */
-    public function setActual($actual)
+    public function setActual(\TKusy\Hl7FhirR4\BooleanType $actual)
     {
         $this->actual = $actual;
         return $this;
@@ -256,7 +256,7 @@ class GroupType extends DomainResourceType
      *
      * A label assigned to the group for human identification and communication.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -268,10 +268,10 @@ class GroupType extends DomainResourceType
      *
      * A label assigned to the group for human identification and communication.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

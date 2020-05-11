@@ -28,14 +28,14 @@ class ConceptMapDependsOnType extends BackboneElementType
     /**
      * Identity (code or path) or the element/item/ValueSet/text that the map depends on / refers to.
      *
-     * @var string $value
+     * @var \TKusy\Hl7FhirR4\StringType $value
      */
     private $value = null;
 
     /**
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @var string $display
+     * @var \TKusy\Hl7FhirR4\StringType $display
      */
     private $display = null;
 
@@ -96,7 +96,7 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * Identity (code or path) or the element/item/ValueSet/text that the map depends on / refers to.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getValue()
     {
@@ -108,10 +108,10 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * Identity (code or path) or the element/item/ValueSet/text that the map depends on / refers to.
      *
-     * @param string $value
+     * @param \TKusy\Hl7FhirR4\StringType $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
     {
         $this->value = $value;
         return $this;
@@ -122,7 +122,7 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDisplay()
     {
@@ -134,10 +134,10 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @param string $display
+     * @param \TKusy\Hl7FhirR4\StringType $display
      * @return self
      */
-    public function setDisplay($display)
+    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
     {
         $this->display = $display;
         return $this;

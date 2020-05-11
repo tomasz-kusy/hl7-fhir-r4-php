@@ -14,7 +14,7 @@ class PractitionerRoleNotAvailableType extends BackboneElementType
     /**
      * The reason that can be presented to the user as to why this time is not available.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -30,7 +30,7 @@ class PractitionerRoleNotAvailableType extends BackboneElementType
      *
      * The reason that can be presented to the user as to why this time is not available.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -42,10 +42,10 @@ class PractitionerRoleNotAvailableType extends BackboneElementType
      *
      * The reason that can be presented to the user as to why this time is not available.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

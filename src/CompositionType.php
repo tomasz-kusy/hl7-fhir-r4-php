@@ -70,7 +70,7 @@ class CompositionType extends DomainResourceType
     /**
      * Official human-readable label for the composition.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -409,7 +409,7 @@ class CompositionType extends DomainResourceType
      *
      * Official human-readable label for the composition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -421,10 +421,10 @@ class CompositionType extends DomainResourceType
      *
      * Official human-readable label for the composition.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;

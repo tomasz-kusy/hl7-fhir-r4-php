@@ -56,14 +56,14 @@ class MedicationRequestType extends DomainResourceType
     /**
      * If true indicates that the provider is asking for the medication request not to occur.
      *
-     * @var bool $doNotPerform
+     * @var \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      */
     private $doNotPerform = null;
 
     /**
      * Indicates if this record was captured as a secondary 'reported' record rather than as an original primary source-of-truth record. It may also indicate the source of the report. (choose any one of reported*, but only one)
      *
-     * @var bool $reportedBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $reportedBoolean
      */
     private $reportedBoolean = null;
 
@@ -490,7 +490,7 @@ class MedicationRequestType extends DomainResourceType
      *
      * If true indicates that the provider is asking for the medication request not to occur.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getDoNotPerform()
     {
@@ -502,10 +502,10 @@ class MedicationRequestType extends DomainResourceType
      *
      * If true indicates that the provider is asking for the medication request not to occur.
      *
-     * @param bool $doNotPerform
+     * @param \TKusy\Hl7FhirR4\BooleanType $doNotPerform
      * @return self
      */
-    public function setDoNotPerform($doNotPerform)
+    public function setDoNotPerform(\TKusy\Hl7FhirR4\BooleanType $doNotPerform)
     {
         $this->doNotPerform = $doNotPerform;
         return $this;
@@ -516,7 +516,7 @@ class MedicationRequestType extends DomainResourceType
      *
      * Indicates if this record was captured as a secondary 'reported' record rather than as an original primary source-of-truth record. It may also indicate the source of the report. (choose any one of reported*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getReportedBoolean()
     {
@@ -528,10 +528,10 @@ class MedicationRequestType extends DomainResourceType
      *
      * Indicates if this record was captured as a secondary 'reported' record rather than as an original primary source-of-truth record. It may also indicate the source of the report. (choose any one of reported*, but only one)
      *
-     * @param bool $reportedBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $reportedBoolean
      * @return self
      */
-    public function setReportedBoolean($reportedBoolean)
+    public function setReportedBoolean(\TKusy\Hl7FhirR4\BooleanType $reportedBoolean)
     {
         $this->reportedBoolean = $reportedBoolean;
         return $this;

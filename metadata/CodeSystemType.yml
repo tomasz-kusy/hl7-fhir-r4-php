@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         name:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         date:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -191,7 +191,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getCaseSensitive
                 setter: setCaseSensitive
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         valueSet:
             expose: true
             access_type: public_method
@@ -224,7 +224,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getCompositional
                 setter: setCompositional
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         versionNeeded:
             expose: true
             access_type: public_method
@@ -235,7 +235,7 @@ TKusy\Hl7FhirR4\CodeSystemType:
             accessor:
                 getter: getVersionNeeded
                 setter: setVersionNeeded
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         content:
             expose: true
             access_type: public_method

@@ -28,7 +28,7 @@ class MedicinalProductPharmaceuticalWithdrawalPeriodType extends BackboneElement
     /**
      * Extra information about the withdrawal period.
      *
-     * @var string $supportingInformation
+     * @var \TKusy\Hl7FhirR4\StringType $supportingInformation
      */
     private $supportingInformation = null;
 
@@ -89,7 +89,7 @@ class MedicinalProductPharmaceuticalWithdrawalPeriodType extends BackboneElement
      *
      * Extra information about the withdrawal period.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getSupportingInformation()
     {
@@ -101,10 +101,10 @@ class MedicinalProductPharmaceuticalWithdrawalPeriodType extends BackboneElement
      *
      * Extra information about the withdrawal period.
      *
-     * @param string $supportingInformation
+     * @param \TKusy\Hl7FhirR4\StringType $supportingInformation
      * @return self
      */
-    public function setSupportingInformation($supportingInformation)
+    public function setSupportingInformation(\TKusy\Hl7FhirR4\StringType $supportingInformation)
     {
         $this->supportingInformation = $supportingInformation;
         return $this;

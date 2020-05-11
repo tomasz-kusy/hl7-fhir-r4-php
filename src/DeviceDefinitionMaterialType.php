@@ -21,14 +21,14 @@ class DeviceDefinitionMaterialType extends BackboneElementType
     /**
      * Indicates an alternative material of the device.
      *
-     * @var bool $alternate
+     * @var \TKusy\Hl7FhirR4\BooleanType $alternate
      */
     private $alternate = null;
 
     /**
      * Whether the substance is a known or suspected allergen.
      *
-     * @var bool $allergenicIndicator
+     * @var \TKusy\Hl7FhirR4\BooleanType $allergenicIndicator
      */
     private $allergenicIndicator = null;
 
@@ -63,7 +63,7 @@ class DeviceDefinitionMaterialType extends BackboneElementType
      *
      * Indicates an alternative material of the device.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAlternate()
     {
@@ -75,10 +75,10 @@ class DeviceDefinitionMaterialType extends BackboneElementType
      *
      * Indicates an alternative material of the device.
      *
-     * @param bool $alternate
+     * @param \TKusy\Hl7FhirR4\BooleanType $alternate
      * @return self
      */
-    public function setAlternate($alternate)
+    public function setAlternate(\TKusy\Hl7FhirR4\BooleanType $alternate)
     {
         $this->alternate = $alternate;
         return $this;
@@ -89,7 +89,7 @@ class DeviceDefinitionMaterialType extends BackboneElementType
      *
      * Whether the substance is a known or suspected allergen.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAllergenicIndicator()
     {
@@ -101,10 +101,10 @@ class DeviceDefinitionMaterialType extends BackboneElementType
      *
      * Whether the substance is a known or suspected allergen.
      *
-     * @param bool $allergenicIndicator
+     * @param \TKusy\Hl7FhirR4\BooleanType $allergenicIndicator
      * @return self
      */
-    public function setAllergenicIndicator($allergenicIndicator)
+    public function setAllergenicIndicator(\TKusy\Hl7FhirR4\BooleanType $allergenicIndicator)
     {
         $this->allergenicIndicator = $allergenicIndicator;
         return $this;

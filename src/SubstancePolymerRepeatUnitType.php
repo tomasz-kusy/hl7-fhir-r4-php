@@ -21,7 +21,7 @@ class SubstancePolymerRepeatUnitType extends BackboneElementType
     /**
      * Todo.
      *
-     * @var string $repeatUnit
+     * @var \TKusy\Hl7FhirR4\StringType $repeatUnit
      */
     private $repeatUnit = null;
 
@@ -77,7 +77,7 @@ class SubstancePolymerRepeatUnitType extends BackboneElementType
      *
      * Todo.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRepeatUnit()
     {
@@ -89,10 +89,10 @@ class SubstancePolymerRepeatUnitType extends BackboneElementType
      *
      * Todo.
      *
-     * @param string $repeatUnit
+     * @param \TKusy\Hl7FhirR4\StringType $repeatUnit
      * @return self
      */
-    public function setRepeatUnit($repeatUnit)
+    public function setRepeatUnit(\TKusy\Hl7FhirR4\StringType $repeatUnit)
     {
         $this->repeatUnit = $repeatUnit;
         return $this;

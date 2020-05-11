@@ -21,7 +21,7 @@ class ClaimInsuranceType extends BackboneElementType
     /**
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @var bool $focal
+     * @var \TKusy\Hl7FhirR4\BooleanType $focal
      */
     private $focal = null;
 
@@ -42,14 +42,14 @@ class ClaimInsuranceType extends BackboneElementType
     /**
      * A business agreement number established between the provider and the insurer for special business processing purposes.
      *
-     * @var string $businessArrangement
+     * @var \TKusy\Hl7FhirR4\StringType $businessArrangement
      */
     private $businessArrangement = null;
 
     /**
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
-     * @var string[] $preAuthRef
+     * @var \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      */
     private $preAuthRef = null;
 
@@ -91,7 +91,7 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getFocal()
     {
@@ -103,10 +103,10 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @param bool $focal
+     * @param \TKusy\Hl7FhirR4\BooleanType $focal
      * @return self
      */
-    public function setFocal($focal)
+    public function setFocal(\TKusy\Hl7FhirR4\BooleanType $focal)
     {
         $this->focal = $focal;
         return $this;
@@ -169,7 +169,7 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * A business agreement number established between the provider and the insurer for special business processing purposes.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getBusinessArrangement()
     {
@@ -181,10 +181,10 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * A business agreement number established between the provider and the insurer for special business processing purposes.
      *
-     * @param string $businessArrangement
+     * @param \TKusy\Hl7FhirR4\StringType $businessArrangement
      * @return self
      */
-    public function setBusinessArrangement($businessArrangement)
+    public function setBusinessArrangement(\TKusy\Hl7FhirR4\StringType $businessArrangement)
     {
         $this->businessArrangement = $businessArrangement;
         return $this;
@@ -196,9 +196,9 @@ class ClaimInsuranceType extends BackboneElementType
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
      * @return self
-     * @param string $preAuthRef
+     * @param \TKusy\Hl7FhirR4\StringType $preAuthRef
      */
-    public function addToPreAuthRef($preAuthRef)
+    public function addToPreAuthRef(\TKusy\Hl7FhirR4\StringType $preAuthRef)
     {
         $this->preAuthRef[] = $preAuthRef;
         return $this;
@@ -235,7 +235,7 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getPreAuthRef()
     {
@@ -247,7 +247,7 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * Reference numbers previously provided by the insurer to the provider to be quoted on subsequent claims containing services or products related to the prior authorization.
      *
-     * @param string[] $preAuthRef
+     * @param \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      * @return self
      */
     public function setPreAuthRef(array $preAuthRef)

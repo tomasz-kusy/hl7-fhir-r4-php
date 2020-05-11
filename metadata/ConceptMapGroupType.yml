@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ConceptMapGroupType:
             accessor:
                 getter: getSourceVersion
                 setter: setSourceVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         target:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ConceptMapGroupType:
             accessor:
                 getter: getTargetVersion
                 setter: setTargetVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         element:
             expose: true
             access_type: public_method

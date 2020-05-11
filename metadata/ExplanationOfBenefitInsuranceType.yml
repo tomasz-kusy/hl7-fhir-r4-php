@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitInsuranceType:
             accessor:
                 getter: getFocal
                 setter: setFocal
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         coverage:
             expose: true
             access_type: public_method
@@ -36,4 +36,4 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitInsuranceType:
                 inline: true
                 entry_name: preAuthRef
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>

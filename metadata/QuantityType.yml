@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\QuantityType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: float
+            type: TKusy\Hl7FhirR4\DecimalType
         comparator:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\QuantityType:
             accessor:
                 getter: getUnit
                 setter: setUnit
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         system:
             expose: true
             access_type: public_method

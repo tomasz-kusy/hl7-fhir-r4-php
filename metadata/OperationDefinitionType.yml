@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         name:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         date:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -176,7 +176,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getAffectsState
                 setter: setAffectsState
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         code:
             expose: true
             access_type: public_method
@@ -235,7 +235,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getSystem
                 setter: setSystem
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         type:
             expose: true
             access_type: public_method
@@ -246,7 +246,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getType
                 setter: setType
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         instance:
             expose: true
             access_type: public_method
@@ -257,7 +257,7 @@ TKusy\Hl7FhirR4\OperationDefinitionType:
             accessor:
                 getter: getInstance
                 setter: setInstance
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         inputProfile:
             expose: true
             access_type: public_method

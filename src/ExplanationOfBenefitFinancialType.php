@@ -28,7 +28,7 @@ class ExplanationOfBenefitFinancialType extends BackboneElementType
     /**
      * The quantity of the benefit which is permitted under the coverage. (choose any one of allowed*, but only one)
      *
-     * @var string $allowedString
+     * @var \TKusy\Hl7FhirR4\StringType $allowedString
      */
     private $allowedString = null;
 
@@ -110,7 +110,7 @@ class ExplanationOfBenefitFinancialType extends BackboneElementType
      *
      * The quantity of the benefit which is permitted under the coverage. (choose any one of allowed*, but only one)
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAllowedString()
     {
@@ -122,10 +122,10 @@ class ExplanationOfBenefitFinancialType extends BackboneElementType
      *
      * The quantity of the benefit which is permitted under the coverage. (choose any one of allowed*, but only one)
      *
-     * @param string $allowedString
+     * @param \TKusy\Hl7FhirR4\StringType $allowedString
      * @return self
      */
-    public function setAllowedString($allowedString)
+    public function setAllowedString(\TKusy\Hl7FhirR4\StringType $allowedString)
     {
         $this->allowedString = $allowedString;
         return $this;

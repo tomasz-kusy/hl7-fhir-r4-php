@@ -21,35 +21,35 @@ class HumanNameType extends ElementType
     /**
      * Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts.
      *
-     * @var string $text
+     * @var \TKusy\Hl7FhirR4\StringType $text
      */
     private $text = null;
 
     /**
      * The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
      *
-     * @var string $family
+     * @var \TKusy\Hl7FhirR4\StringType $family
      */
     private $family = null;
 
     /**
      * Given name.
      *
-     * @var string[] $given
+     * @var \TKusy\Hl7FhirR4\StringType[] $given
      */
     private $given = null;
 
     /**
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.
      *
-     * @var string[] $prefix
+     * @var \TKusy\Hl7FhirR4\StringType[] $prefix
      */
     private $prefix = null;
 
     /**
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.
      *
-     * @var string[] $suffix
+     * @var \TKusy\Hl7FhirR4\StringType[] $suffix
      */
     private $suffix = null;
 
@@ -91,7 +91,7 @@ class HumanNameType extends ElementType
      *
      * Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getText()
     {
@@ -103,10 +103,10 @@ class HumanNameType extends ElementType
      *
      * Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts.
      *
-     * @param string $text
+     * @param \TKusy\Hl7FhirR4\StringType $text
      * @return self
      */
-    public function setText($text)
+    public function setText(\TKusy\Hl7FhirR4\StringType $text)
     {
         $this->text = $text;
         return $this;
@@ -117,7 +117,7 @@ class HumanNameType extends ElementType
      *
      * The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getFamily()
     {
@@ -129,10 +129,10 @@ class HumanNameType extends ElementType
      *
      * The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.
      *
-     * @param string $family
+     * @param \TKusy\Hl7FhirR4\StringType $family
      * @return self
      */
-    public function setFamily($family)
+    public function setFamily(\TKusy\Hl7FhirR4\StringType $family)
     {
         $this->family = $family;
         return $this;
@@ -144,9 +144,9 @@ class HumanNameType extends ElementType
      * Given name.
      *
      * @return self
-     * @param string $given
+     * @param \TKusy\Hl7FhirR4\StringType $given
      */
-    public function addToGiven($given)
+    public function addToGiven(\TKusy\Hl7FhirR4\StringType $given)
     {
         $this->given[] = $given;
         return $this;
@@ -183,7 +183,7 @@ class HumanNameType extends ElementType
      *
      * Given name.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getGiven()
     {
@@ -195,7 +195,7 @@ class HumanNameType extends ElementType
      *
      * Given name.
      *
-     * @param string[] $given
+     * @param \TKusy\Hl7FhirR4\StringType[] $given
      * @return self
      */
     public function setGiven(array $given)
@@ -210,9 +210,9 @@ class HumanNameType extends ElementType
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.
      *
      * @return self
-     * @param string $prefix
+     * @param \TKusy\Hl7FhirR4\StringType $prefix
      */
-    public function addToPrefix($prefix)
+    public function addToPrefix(\TKusy\Hl7FhirR4\StringType $prefix)
     {
         $this->prefix[] = $prefix;
         return $this;
@@ -249,7 +249,7 @@ class HumanNameType extends ElementType
      *
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getPrefix()
     {
@@ -261,7 +261,7 @@ class HumanNameType extends ElementType
      *
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.
      *
-     * @param string[] $prefix
+     * @param \TKusy\Hl7FhirR4\StringType[] $prefix
      * @return self
      */
     public function setPrefix(array $prefix)
@@ -276,9 +276,9 @@ class HumanNameType extends ElementType
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.
      *
      * @return self
-     * @param string $suffix
+     * @param \TKusy\Hl7FhirR4\StringType $suffix
      */
-    public function addToSuffix($suffix)
+    public function addToSuffix(\TKusy\Hl7FhirR4\StringType $suffix)
     {
         $this->suffix[] = $suffix;
         return $this;
@@ -315,7 +315,7 @@ class HumanNameType extends ElementType
      *
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getSuffix()
     {
@@ -327,7 +327,7 @@ class HumanNameType extends ElementType
      *
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.
      *
-     * @param string[] $suffix
+     * @param \TKusy\Hl7FhirR4\StringType[] $suffix
      * @return self
      */
     public function setSuffix(array $suffix)

@@ -21,7 +21,7 @@ class MedicationKnowledgeMonitoringProgramType extends BackboneElementType
     /**
      * Name of the reviewing program.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -56,7 +56,7 @@ class MedicationKnowledgeMonitoringProgramType extends BackboneElementType
      *
      * Name of the reviewing program.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -68,10 +68,10 @@ class MedicationKnowledgeMonitoringProgramType extends BackboneElementType
      *
      * Name of the reviewing program.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;

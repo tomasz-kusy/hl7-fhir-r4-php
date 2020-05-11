@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\MedicationKnowledgeSubstitutionType:
             accessor:
                 getter: getAllowed
                 setter: setAllowed
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType

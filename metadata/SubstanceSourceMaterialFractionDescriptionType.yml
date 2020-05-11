@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialFractionDescriptionType:
             accessor:
                 getter: getFraction
                 setter: setFraction
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         materialType:
             expose: true
             access_type: public_method

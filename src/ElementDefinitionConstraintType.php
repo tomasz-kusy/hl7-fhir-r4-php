@@ -21,7 +21,7 @@ class ElementDefinitionConstraintType extends BackboneElementType
     /**
      * Description of why this constraint is necessary or appropriate.
      *
-     * @var string $requirements
+     * @var \TKusy\Hl7FhirR4\StringType $requirements
      */
     private $requirements = null;
 
@@ -35,21 +35,21 @@ class ElementDefinitionConstraintType extends BackboneElementType
     /**
      * Text that can be used to describe the constraint in messages identifying that the constraint has been violated.
      *
-     * @var string $human
+     * @var \TKusy\Hl7FhirR4\StringType $human
      */
     private $human = null;
 
     /**
      * A [FHIRPath](fhirpath.html) expression of constraint that can be executed to see if this constraint is met.
      *
-     * @var string $expression
+     * @var \TKusy\Hl7FhirR4\StringType $expression
      */
     private $expression = null;
 
     /**
      * An XPath expression of constraint that can be executed to see if this constraint is met.
      *
-     * @var string $xpath
+     * @var \TKusy\Hl7FhirR4\StringType $xpath
      */
     private $xpath = null;
 
@@ -91,7 +91,7 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * Description of why this constraint is necessary or appropriate.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getRequirements()
     {
@@ -103,10 +103,10 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * Description of why this constraint is necessary or appropriate.
      *
-     * @param string $requirements
+     * @param \TKusy\Hl7FhirR4\StringType $requirements
      * @return self
      */
-    public function setRequirements($requirements)
+    public function setRequirements(\TKusy\Hl7FhirR4\StringType $requirements)
     {
         $this->requirements = $requirements;
         return $this;
@@ -143,7 +143,7 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * Text that can be used to describe the constraint in messages identifying that the constraint has been violated.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getHuman()
     {
@@ -155,10 +155,10 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * Text that can be used to describe the constraint in messages identifying that the constraint has been violated.
      *
-     * @param string $human
+     * @param \TKusy\Hl7FhirR4\StringType $human
      * @return self
      */
-    public function setHuman($human)
+    public function setHuman(\TKusy\Hl7FhirR4\StringType $human)
     {
         $this->human = $human;
         return $this;
@@ -169,7 +169,7 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * A [FHIRPath](fhirpath.html) expression of constraint that can be executed to see if this constraint is met.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getExpression()
     {
@@ -181,10 +181,10 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * A [FHIRPath](fhirpath.html) expression of constraint that can be executed to see if this constraint is met.
      *
-     * @param string $expression
+     * @param \TKusy\Hl7FhirR4\StringType $expression
      * @return self
      */
-    public function setExpression($expression)
+    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
     {
         $this->expression = $expression;
         return $this;
@@ -195,7 +195,7 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * An XPath expression of constraint that can be executed to see if this constraint is met.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getXpath()
     {
@@ -207,10 +207,10 @@ class ElementDefinitionConstraintType extends BackboneElementType
      *
      * An XPath expression of constraint that can be executed to see if this constraint is met.
      *
-     * @param string $xpath
+     * @param \TKusy\Hl7FhirR4\StringType $xpath
      * @return self
      */
-    public function setXpath($xpath)
+    public function setXpath(\TKusy\Hl7FhirR4\StringType $xpath)
     {
         $this->xpath = $xpath;
         return $this;

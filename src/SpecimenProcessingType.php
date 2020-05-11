@@ -14,7 +14,7 @@ class SpecimenProcessingType extends BackboneElementType
     /**
      * Textual description of procedure.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -51,7 +51,7 @@ class SpecimenProcessingType extends BackboneElementType
      *
      * Textual description of procedure.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -63,10 +63,10 @@ class SpecimenProcessingType extends BackboneElementType
      *
      * Textual description of procedure.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

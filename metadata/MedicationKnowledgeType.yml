@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeType:
                 inline: true
                 entry_name: synonym
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         relatedMedicationKnowledge:
             expose: true
             access_type: public_method

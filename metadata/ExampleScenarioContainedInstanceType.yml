@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExampleScenarioContainedInstanceType:
             accessor:
                 getter: getResourceId
                 setter: setResourceId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         versionId:
             expose: true
             access_type: public_method
@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\ExampleScenarioContainedInstanceType:
             accessor:
                 getter: getVersionId
                 setter: setVersionId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

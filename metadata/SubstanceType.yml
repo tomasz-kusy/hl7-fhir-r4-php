@@ -62,7 +62,7 @@ TKusy\Hl7FhirR4\SubstanceType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         instance:
             expose: true
             access_type: public_method

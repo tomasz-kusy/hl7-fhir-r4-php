@@ -129,7 +129,7 @@ TKusy\Hl7FhirR4\CarePlanDetailType:
             accessor:
                 getter: getDoNotPerform
                 setter: setDoNotPerform
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         scheduledTiming:
             expose: true
             access_type: public_method
@@ -162,7 +162,7 @@ TKusy\Hl7FhirR4\CarePlanDetailType:
             accessor:
                 getter: getScheduledString
                 setter: setScheduledString
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         location:
             expose: true
             access_type: public_method
@@ -243,4 +243,4 @@ TKusy\Hl7FhirR4\CarePlanDetailType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: string
+            type: TKusy\Hl7FhirR4\StringType

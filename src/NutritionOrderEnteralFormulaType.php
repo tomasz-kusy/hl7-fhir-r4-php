@@ -21,7 +21,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
     /**
      * The product or brand name of the enteral or infant formula product such as "ACME Adult Standard Formula".
      *
-     * @var string $baseFormulaProductName
+     * @var \TKusy\Hl7FhirR4\StringType $baseFormulaProductName
      */
     private $baseFormulaProductName = null;
 
@@ -35,7 +35,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
     /**
      * The product or brand name of the type of modular component to be added to the formula.
      *
-     * @var string $additiveProductName
+     * @var \TKusy\Hl7FhirR4\StringType $additiveProductName
      */
     private $additiveProductName = null;
 
@@ -70,7 +70,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
     /**
      * Free text formula administration, feeding instructions or additional instructions or information.
      *
-     * @var string $administrationInstruction
+     * @var \TKusy\Hl7FhirR4\StringType $administrationInstruction
      */
     private $administrationInstruction = null;
 
@@ -105,7 +105,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * The product or brand name of the enteral or infant formula product such as "ACME Adult Standard Formula".
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getBaseFormulaProductName()
     {
@@ -117,10 +117,10 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * The product or brand name of the enteral or infant formula product such as "ACME Adult Standard Formula".
      *
-     * @param string $baseFormulaProductName
+     * @param \TKusy\Hl7FhirR4\StringType $baseFormulaProductName
      * @return self
      */
-    public function setBaseFormulaProductName($baseFormulaProductName)
+    public function setBaseFormulaProductName(\TKusy\Hl7FhirR4\StringType $baseFormulaProductName)
     {
         $this->baseFormulaProductName = $baseFormulaProductName;
         return $this;
@@ -157,7 +157,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * The product or brand name of the type of modular component to be added to the formula.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAdditiveProductName()
     {
@@ -169,10 +169,10 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * The product or brand name of the type of modular component to be added to the formula.
      *
-     * @param string $additiveProductName
+     * @param \TKusy\Hl7FhirR4\StringType $additiveProductName
      * @return self
      */
-    public function setAdditiveProductName($additiveProductName)
+    public function setAdditiveProductName(\TKusy\Hl7FhirR4\StringType $additiveProductName)
     {
         $this->additiveProductName = $additiveProductName;
         return $this;
@@ -327,7 +327,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * Free text formula administration, feeding instructions or additional instructions or information.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAdministrationInstruction()
     {
@@ -339,10 +339,10 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * Free text formula administration, feeding instructions or additional instructions or information.
      *
-     * @param string $administrationInstruction
+     * @param \TKusy\Hl7FhirR4\StringType $administrationInstruction
      * @return self
      */
-    public function setAdministrationInstruction($administrationInstruction)
+    public function setAdministrationInstruction(\TKusy\Hl7FhirR4\StringType $administrationInstruction)
     {
         $this->administrationInstruction = $administrationInstruction;
         return $this;

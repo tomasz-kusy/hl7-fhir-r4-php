@@ -21,7 +21,7 @@ class TestReportType extends DomainResourceType
     /**
      * A free text natural language name identifying the executed TestScript.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
@@ -49,14 +49,14 @@ class TestReportType extends DomainResourceType
     /**
      * The final score (percentage of tests passed) resulting from the execution of the TestScript.
      *
-     * @var float $score
+     * @var \TKusy\Hl7FhirR4\DecimalType $score
      */
     private $score = null;
 
     /**
      * Name of the tester producing this report (Organization or individual).
      *
-     * @var string $tester
+     * @var \TKusy\Hl7FhirR4\StringType $tester
      */
     private $tester = null;
 
@@ -126,7 +126,7 @@ class TestReportType extends DomainResourceType
      *
      * A free text natural language name identifying the executed TestScript.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -138,10 +138,10 @@ class TestReportType extends DomainResourceType
      *
      * A free text natural language name identifying the executed TestScript.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -230,7 +230,7 @@ class TestReportType extends DomainResourceType
      *
      * The final score (percentage of tests passed) resulting from the execution of the TestScript.
      *
-     * @return float
+     * @return \TKusy\Hl7FhirR4\DecimalType
      */
     public function getScore()
     {
@@ -242,10 +242,10 @@ class TestReportType extends DomainResourceType
      *
      * The final score (percentage of tests passed) resulting from the execution of the TestScript.
      *
-     * @param float $score
+     * @param \TKusy\Hl7FhirR4\DecimalType $score
      * @return self
      */
-    public function setScore($score)
+    public function setScore(\TKusy\Hl7FhirR4\DecimalType $score)
     {
         $this->score = $score;
         return $this;
@@ -256,7 +256,7 @@ class TestReportType extends DomainResourceType
      *
      * Name of the tester producing this report (Organization or individual).
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTester()
     {
@@ -268,10 +268,10 @@ class TestReportType extends DomainResourceType
      *
      * Name of the tester producing this report (Organization or individual).
      *
-     * @param string $tester
+     * @param \TKusy\Hl7FhirR4\StringType $tester
      * @return self
      */
-    public function setTester($tester)
+    public function setTester(\TKusy\Hl7FhirR4\StringType $tester)
     {
         $this->tester = $tester;
         return $this;

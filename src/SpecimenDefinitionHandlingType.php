@@ -35,7 +35,7 @@ class SpecimenDefinitionHandlingType extends BackboneElementType
     /**
      * Additional textual instructions for the preservation or transport of the specimen. For instance, 'Protect from light exposure'.
      *
-     * @var string $instruction
+     * @var \TKusy\Hl7FhirR4\StringType $instruction
      */
     private $instruction = null;
 
@@ -122,7 +122,7 @@ class SpecimenDefinitionHandlingType extends BackboneElementType
      *
      * Additional textual instructions for the preservation or transport of the specimen. For instance, 'Protect from light exposure'.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getInstruction()
     {
@@ -134,10 +134,10 @@ class SpecimenDefinitionHandlingType extends BackboneElementType
      *
      * Additional textual instructions for the preservation or transport of the specimen. For instance, 'Protect from light exposure'.
      *
-     * @param string $instruction
+     * @param \TKusy\Hl7FhirR4\StringType $instruction
      * @return self
      */
-    public function setInstruction($instruction)
+    public function setInstruction(\TKusy\Hl7FhirR4\StringType $instruction)
     {
         $this->instruction = $instruction;
         return $this;

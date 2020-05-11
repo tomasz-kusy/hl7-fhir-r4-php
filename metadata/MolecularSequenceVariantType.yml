@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MolecularSequenceVariantType:
             accessor:
                 getter: getStart
                 setter: setStart
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         end:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MolecularSequenceVariantType:
             accessor:
                 getter: getEnd
                 setter: setEnd
-            type: integer
+            type: TKusy\Hl7FhirR4\IntegerType
         observedAllele:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MolecularSequenceVariantType:
             accessor:
                 getter: getObservedAllele
                 setter: setObservedAllele
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         referenceAllele:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\MolecularSequenceVariantType:
             accessor:
                 getter: getReferenceAllele
                 setter: setReferenceAllele
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         cigar:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\MolecularSequenceVariantType:
             accessor:
                 getter: getCigar
                 setter: setCigar
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         variantPointer:
             expose: true
             access_type: public_method

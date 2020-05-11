@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MedicationDispenseSubstitutionType:
             accessor:
                 getter: getWasSubstituted
                 setter: setWasSubstituted
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         type:
             expose: true
             access_type: public_method

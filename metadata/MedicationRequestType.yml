@@ -84,7 +84,7 @@ TKusy\Hl7FhirR4\MedicationRequestType:
             accessor:
                 getter: getDoNotPerform
                 setter: setDoNotPerform
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         reportedBoolean:
             expose: true
             access_type: public_method
@@ -95,7 +95,7 @@ TKusy\Hl7FhirR4\MedicationRequestType:
             accessor:
                 getter: getReportedBoolean
                 setter: setReportedBoolean
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         reportedReference:
             expose: true
             access_type: public_method

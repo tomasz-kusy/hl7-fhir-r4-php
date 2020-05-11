@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExampleScenarioVersionType:
             accessor:
                 getter: getVersionId
                 setter: setVersionId
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         description:
             expose: true
             access_type: public_method

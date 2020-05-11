@@ -14,7 +14,7 @@ class TerminologyCapabilitiesTranslationType extends BackboneElementType
     /**
      * Whether the client must identify the map.
      *
-     * @var bool $needsMap
+     * @var \TKusy\Hl7FhirR4\BooleanType $needsMap
      */
     private $needsMap = null;
 
@@ -23,7 +23,7 @@ class TerminologyCapabilitiesTranslationType extends BackboneElementType
      *
      * Whether the client must identify the map.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getNeedsMap()
     {
@@ -35,10 +35,10 @@ class TerminologyCapabilitiesTranslationType extends BackboneElementType
      *
      * Whether the client must identify the map.
      *
-     * @param bool $needsMap
+     * @param \TKusy\Hl7FhirR4\BooleanType $needsMap
      * @return self
      */
-    public function setNeedsMap($needsMap)
+    public function setNeedsMap(\TKusy\Hl7FhirR4\BooleanType $needsMap)
     {
         $this->needsMap = $needsMap;
         return $this;

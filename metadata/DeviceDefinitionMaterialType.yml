@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\DeviceDefinitionMaterialType:
             accessor:
                 getter: getAlternate
                 setter: setAlternate
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         allergenicIndicator:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\DeviceDefinitionMaterialType:
             accessor:
                 getter: getAllergenicIndicator
                 setter: setAllergenicIndicator
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType

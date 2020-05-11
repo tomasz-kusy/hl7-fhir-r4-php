@@ -14,7 +14,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: score
                 namespace: 'http://hl7.org/fhir'
-            type: array<integer>
+            type: array<TKusy\Hl7FhirR4\IntegerType>
         numTP:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: numTP
                 namespace: 'http://hl7.org/fhir'
-            type: array<integer>
+            type: array<TKusy\Hl7FhirR4\IntegerType>
         numFP:
             expose: true
             access_type: public_method
@@ -44,7 +44,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: numFP
                 namespace: 'http://hl7.org/fhir'
-            type: array<integer>
+            type: array<TKusy\Hl7FhirR4\IntegerType>
         numFN:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: numFN
                 namespace: 'http://hl7.org/fhir'
-            type: array<integer>
+            type: array<TKusy\Hl7FhirR4\IntegerType>
         precision:
             expose: true
             access_type: public_method
@@ -74,7 +74,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: precision
                 namespace: 'http://hl7.org/fhir'
-            type: array<float>
+            type: array<TKusy\Hl7FhirR4\DecimalType>
         sensitivity:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: sensitivity
                 namespace: 'http://hl7.org/fhir'
-            type: array<float>
+            type: array<TKusy\Hl7FhirR4\DecimalType>
         fMeasure:
             expose: true
             access_type: public_method
@@ -104,4 +104,4 @@ TKusy\Hl7FhirR4\MolecularSequenceRocType:
                 inline: true
                 entry_name: fMeasure
                 namespace: 'http://hl7.org/fhir'
-            type: array<float>
+            type: array<TKusy\Hl7FhirR4\DecimalType>

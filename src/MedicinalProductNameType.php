@@ -14,7 +14,7 @@ class MedicinalProductNameType extends BackboneElementType
     /**
      * The full product name.
      *
-     * @var string $productName
+     * @var \TKusy\Hl7FhirR4\StringType $productName
      */
     private $productName = null;
 
@@ -37,7 +37,7 @@ class MedicinalProductNameType extends BackboneElementType
      *
      * The full product name.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getProductName()
     {
@@ -49,10 +49,10 @@ class MedicinalProductNameType extends BackboneElementType
      *
      * The full product name.
      *
-     * @param string $productName
+     * @param \TKusy\Hl7FhirR4\StringType $productName
      * @return self
      */
-    public function setProductName($productName)
+    public function setProductName(\TKusy\Hl7FhirR4\StringType $productName)
     {
         $this->productName = $productName;
         return $this;

@@ -28,21 +28,21 @@ class CodeSystemType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the code system when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the code system author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. This is used in [Coding](datatypes.html#Coding).version.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the code system.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -56,7 +56,7 @@ class CodeSystemType extends DomainResourceType
     /**
      * A Boolean value to indicate that this code system is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -70,7 +70,7 @@ class CodeSystemType extends DomainResourceType
     /**
      * The name of the organization or individual that published the code system.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -119,7 +119,7 @@ class CodeSystemType extends DomainResourceType
     /**
      * If code comparison is case sensitive when codes within this system are compared to each other.
      *
-     * @var bool $caseSensitive
+     * @var \TKusy\Hl7FhirR4\BooleanType $caseSensitive
      */
     private $caseSensitive = null;
 
@@ -140,14 +140,14 @@ class CodeSystemType extends DomainResourceType
     /**
      * The code system defines a compositional (post-coordination) grammar.
      *
-     * @var bool $compositional
+     * @var \TKusy\Hl7FhirR4\BooleanType $compositional
      */
     private $compositional = null;
 
     /**
      * This flag is used to signify that the code system does not commit to concept permanence across versions. If true, a version must be specified when referencing this code system.
      *
-     * @var bool $versionNeeded
+     * @var \TKusy\Hl7FhirR4\BooleanType $versionNeeded
      */
     private $versionNeeded = null;
 
@@ -290,7 +290,7 @@ class CodeSystemType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the code system when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the code system author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. This is used in [Coding](datatypes.html#Coding).version.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -302,10 +302,10 @@ class CodeSystemType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the code system when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the code system author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. This is used in [Coding](datatypes.html#Coding).version.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -316,7 +316,7 @@ class CodeSystemType extends DomainResourceType
      *
      * A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -328,10 +328,10 @@ class CodeSystemType extends DomainResourceType
      *
      * A natural language name identifying the code system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -342,7 +342,7 @@ class CodeSystemType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the code system.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -354,10 +354,10 @@ class CodeSystemType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the code system.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -394,7 +394,7 @@ class CodeSystemType extends DomainResourceType
      *
      * A Boolean value to indicate that this code system is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -406,10 +406,10 @@ class CodeSystemType extends DomainResourceType
      *
      * A Boolean value to indicate that this code system is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -446,7 +446,7 @@ class CodeSystemType extends DomainResourceType
      *
      * The name of the organization or individual that published the code system.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -458,10 +458,10 @@ class CodeSystemType extends DomainResourceType
      *
      * The name of the organization or individual that published the code system.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -748,7 +748,7 @@ class CodeSystemType extends DomainResourceType
      *
      * If code comparison is case sensitive when codes within this system are compared to each other.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getCaseSensitive()
     {
@@ -760,10 +760,10 @@ class CodeSystemType extends DomainResourceType
      *
      * If code comparison is case sensitive when codes within this system are compared to each other.
      *
-     * @param bool $caseSensitive
+     * @param \TKusy\Hl7FhirR4\BooleanType $caseSensitive
      * @return self
      */
-    public function setCaseSensitive($caseSensitive)
+    public function setCaseSensitive(\TKusy\Hl7FhirR4\BooleanType $caseSensitive)
     {
         $this->caseSensitive = $caseSensitive;
         return $this;
@@ -826,7 +826,7 @@ class CodeSystemType extends DomainResourceType
      *
      * The code system defines a compositional (post-coordination) grammar.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getCompositional()
     {
@@ -838,10 +838,10 @@ class CodeSystemType extends DomainResourceType
      *
      * The code system defines a compositional (post-coordination) grammar.
      *
-     * @param bool $compositional
+     * @param \TKusy\Hl7FhirR4\BooleanType $compositional
      * @return self
      */
-    public function setCompositional($compositional)
+    public function setCompositional(\TKusy\Hl7FhirR4\BooleanType $compositional)
     {
         $this->compositional = $compositional;
         return $this;
@@ -852,7 +852,7 @@ class CodeSystemType extends DomainResourceType
      *
      * This flag is used to signify that the code system does not commit to concept permanence across versions. If true, a version must be specified when referencing this code system.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getVersionNeeded()
     {
@@ -864,10 +864,10 @@ class CodeSystemType extends DomainResourceType
      *
      * This flag is used to signify that the code system does not commit to concept permanence across versions. If true, a version must be specified when referencing this code system.
      *
-     * @param bool $versionNeeded
+     * @param \TKusy\Hl7FhirR4\BooleanType $versionNeeded
      * @return self
      */
-    public function setVersionNeeded($versionNeeded)
+    public function setVersionNeeded(\TKusy\Hl7FhirR4\BooleanType $versionNeeded)
     {
         $this->versionNeeded = $versionNeeded;
         return $this;

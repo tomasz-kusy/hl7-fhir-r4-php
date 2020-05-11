@@ -14,7 +14,7 @@ class MedicationRequestSubstitutionType extends BackboneElementType
     /**
      * True if the prescriber allows a different drug to be dispensed from what was prescribed. (choose any one of allowed*, but only one)
      *
-     * @var bool $allowedBoolean
+     * @var \TKusy\Hl7FhirR4\BooleanType $allowedBoolean
      */
     private $allowedBoolean = null;
 
@@ -37,7 +37,7 @@ class MedicationRequestSubstitutionType extends BackboneElementType
      *
      * True if the prescriber allows a different drug to be dispensed from what was prescribed. (choose any one of allowed*, but only one)
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAllowedBoolean()
     {
@@ -49,10 +49,10 @@ class MedicationRequestSubstitutionType extends BackboneElementType
      *
      * True if the prescriber allows a different drug to be dispensed from what was prescribed. (choose any one of allowed*, but only one)
      *
-     * @param bool $allowedBoolean
+     * @param \TKusy\Hl7FhirR4\BooleanType $allowedBoolean
      * @return self
      */
-    public function setAllowedBoolean($allowedBoolean)
+    public function setAllowedBoolean(\TKusy\Hl7FhirR4\BooleanType $allowedBoolean)
     {
         $this->allowedBoolean = $allowedBoolean;
         return $this;

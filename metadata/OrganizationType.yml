@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         type:
             expose: true
             access_type: public_method
@@ -51,7 +51,7 @@ TKusy\Hl7FhirR4\OrganizationType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         alias:
             expose: true
             access_type: public_method
@@ -66,7 +66,7 @@ TKusy\Hl7FhirR4\OrganizationType:
                 inline: true
                 entry_name: alias
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         telecom:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\AdverseEventCausalityType:
             accessor:
                 getter: getProductRelatedness
                 setter: setProductRelatedness
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         author:
             expose: true
             access_type: public_method

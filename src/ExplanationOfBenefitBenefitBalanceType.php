@@ -21,21 +21,21 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
     /**
      * True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.
      *
-     * @var bool $excluded
+     * @var \TKusy\Hl7FhirR4\BooleanType $excluded
      */
     private $excluded = null;
 
     /**
      * A short name or tag for the benefit.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A richer description of the benefit or services covered.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -98,7 +98,7 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExcluded()
     {
@@ -110,10 +110,10 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * True if the indicated class of service is excluded from the plan, missing or False indicates the product or service is included in the coverage.
      *
-     * @param bool $excluded
+     * @param \TKusy\Hl7FhirR4\BooleanType $excluded
      * @return self
      */
-    public function setExcluded($excluded)
+    public function setExcluded(\TKusy\Hl7FhirR4\BooleanType $excluded)
     {
         $this->excluded = $excluded;
         return $this;
@@ -124,7 +124,7 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * A short name or tag for the benefit.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -136,10 +136,10 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * A short name or tag for the benefit.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -150,7 +150,7 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * A richer description of the benefit or services covered.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -162,10 +162,10 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * A richer description of the benefit or services covered.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

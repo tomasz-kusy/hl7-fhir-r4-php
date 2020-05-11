@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ClaimInsuranceType:
             accessor:
                 getter: getFocal
                 setter: setFocal
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         identifier:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\ClaimInsuranceType:
             accessor:
                 getter: getBusinessArrangement
                 setter: setBusinessArrangement
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         preAuthRef:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\ClaimInsuranceType:
                 inline: true
                 entry_name: preAuthRef
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         claimResponse:
             expose: true
             access_type: public_method

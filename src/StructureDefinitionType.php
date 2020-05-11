@@ -28,21 +28,21 @@ class StructureDefinitionType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the structure definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @var string $version
+     * @var \TKusy\Hl7FhirR4\StringType $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the structure definition.
      *
-     * @var string $title
+     * @var \TKusy\Hl7FhirR4\StringType $title
      */
     private $title = null;
 
@@ -56,7 +56,7 @@ class StructureDefinitionType extends DomainResourceType
     /**
      * A Boolean value to indicate that this structure definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var bool $experimental
+     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
      */
     private $experimental = null;
 
@@ -70,7 +70,7 @@ class StructureDefinitionType extends DomainResourceType
     /**
      * The name of the organization or individual that published the structure definition.
      *
-     * @var string $publisher
+     * @var \TKusy\Hl7FhirR4\StringType $publisher
      */
     private $publisher = null;
 
@@ -147,7 +147,7 @@ class StructureDefinitionType extends DomainResourceType
     /**
      * Whether structure this definition describes is abstract or not - that is, whether the structure is not intended to be instantiated. For Resources and Data types, abstract types will never be exchanged between systems.
      *
-     * @var bool $abstract
+     * @var \TKusy\Hl7FhirR4\BooleanType $abstract
      */
     private $abstract = null;
 
@@ -161,7 +161,7 @@ class StructureDefinitionType extends DomainResourceType
     /**
      * A set of rules as FHIRPath Invariants about when the extension can be used (e.g. co-occurrence variants for the extension). All the rules must be true.
      *
-     * @var string[] $contextInvariant
+     * @var \TKusy\Hl7FhirR4\StringType[] $contextInvariant
      */
     private $contextInvariant = null;
 
@@ -297,7 +297,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the structure definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getVersion()
     {
@@ -309,10 +309,10 @@ class StructureDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the structure definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @param string $version
+     * @param \TKusy\Hl7FhirR4\StringType $version
      * @return self
      */
-    public function setVersion($version)
+    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
     {
         $this->version = $version;
         return $this;
@@ -323,7 +323,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -335,10 +335,10 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -349,7 +349,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the structure definition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getTitle()
     {
@@ -361,10 +361,10 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the structure definition.
      *
-     * @param string $title
+     * @param \TKusy\Hl7FhirR4\StringType $title
      * @return self
      */
-    public function setTitle($title)
+    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
     {
         $this->title = $title;
         return $this;
@@ -401,7 +401,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this structure definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getExperimental()
     {
@@ -413,10 +413,10 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this structure definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param bool $experimental
+     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
      * @return self
      */
-    public function setExperimental($experimental)
+    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -453,7 +453,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the structure definition.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getPublisher()
     {
@@ -465,10 +465,10 @@ class StructureDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the structure definition.
      *
-     * @param string $publisher
+     * @param \TKusy\Hl7FhirR4\StringType $publisher
      * @return self
      */
-    public function setPublisher($publisher)
+    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -939,7 +939,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * Whether structure this definition describes is abstract or not - that is, whether the structure is not intended to be instantiated. For Resources and Data types, abstract types will never be exchanged between systems.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getAbstract()
     {
@@ -951,10 +951,10 @@ class StructureDefinitionType extends DomainResourceType
      *
      * Whether structure this definition describes is abstract or not - that is, whether the structure is not intended to be instantiated. For Resources and Data types, abstract types will never be exchanged between systems.
      *
-     * @param bool $abstract
+     * @param \TKusy\Hl7FhirR4\BooleanType $abstract
      * @return self
      */
-    public function setAbstract($abstract)
+    public function setAbstract(\TKusy\Hl7FhirR4\BooleanType $abstract)
     {
         $this->abstract = $abstract;
         return $this;
@@ -1032,9 +1032,9 @@ class StructureDefinitionType extends DomainResourceType
      * A set of rules as FHIRPath Invariants about when the extension can be used (e.g. co-occurrence variants for the extension). All the rules must be true.
      *
      * @return self
-     * @param string $contextInvariant
+     * @param \TKusy\Hl7FhirR4\StringType $contextInvariant
      */
-    public function addToContextInvariant($contextInvariant)
+    public function addToContextInvariant(\TKusy\Hl7FhirR4\StringType $contextInvariant)
     {
         $this->contextInvariant[] = $contextInvariant;
         return $this;
@@ -1071,7 +1071,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A set of rules as FHIRPath Invariants about when the extension can be used (e.g. co-occurrence variants for the extension). All the rules must be true.
      *
-     * @return string[]
+     * @return \TKusy\Hl7FhirR4\StringType[]
      */
     public function getContextInvariant()
     {
@@ -1083,7 +1083,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * A set of rules as FHIRPath Invariants about when the extension can be used (e.g. co-occurrence variants for the extension). All the rules must be true.
      *
-     * @param string[] $contextInvariant
+     * @param \TKusy\Hl7FhirR4\StringType[] $contextInvariant
      * @return self
      */
     public function setContextInvariant(array $contextInvariant)

@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         name:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getName
                 setter: setName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         title:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         subtitle:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getSubtitle
                 setter: setSubtitle
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         status:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: bool
+            type: TKusy\Hl7FhirR4\BooleanType
         subjectCodeableConcept:
             expose: true
             access_type: public_method
@@ -135,7 +135,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         contact:
             expose: true
             access_type: public_method
@@ -213,7 +213,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getUsage
                 setter: setUsage
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         copyright:
             expose: true
             access_type: public_method
@@ -421,7 +421,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getRiskAdjustment
                 setter: setRiskAdjustment
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         rateAggregation:
             expose: true
             access_type: public_method
@@ -432,7 +432,7 @@ TKusy\Hl7FhirR4\MeasureType:
             accessor:
                 getter: getRateAggregation
                 setter: setRateAggregation
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         rationale:
             expose: true
             access_type: public_method

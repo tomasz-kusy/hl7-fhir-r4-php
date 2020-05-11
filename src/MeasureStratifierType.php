@@ -21,7 +21,7 @@ class MeasureStratifierType extends BackboneElementType
     /**
      * The human readable description of this stratifier criteria.
      *
-     * @var string $description
+     * @var \TKusy\Hl7FhirR4\StringType $description
      */
     private $description = null;
 
@@ -70,7 +70,7 @@ class MeasureStratifierType extends BackboneElementType
      *
      * The human readable description of this stratifier criteria.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDescription()
     {
@@ -82,10 +82,10 @@ class MeasureStratifierType extends BackboneElementType
      *
      * The human readable description of this stratifier criteria.
      *
-     * @param string $description
+     * @param \TKusy\Hl7FhirR4\StringType $description
      * @return self
      */
-    public function setDescription($description)
+    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
     {
         $this->description = $description;
         return $this;

@@ -28,7 +28,7 @@ class SubstancePolymerStartingMaterialType extends BackboneElementType
     /**
      * Todo.
      *
-     * @var bool $isDefining
+     * @var \TKusy\Hl7FhirR4\BooleanType $isDefining
      */
     private $isDefining = null;
 
@@ -96,7 +96,7 @@ class SubstancePolymerStartingMaterialType extends BackboneElementType
      *
      * Todo.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getIsDefining()
     {
@@ -108,10 +108,10 @@ class SubstancePolymerStartingMaterialType extends BackboneElementType
      *
      * Todo.
      *
-     * @param bool $isDefining
+     * @param \TKusy\Hl7FhirR4\BooleanType $isDefining
      * @return self
      */
-    public function setIsDefining($isDefining)
+    public function setIsDefining(\TKusy\Hl7FhirR4\BooleanType $isDefining)
     {
         $this->isDefining = $isDefining;
         return $this;

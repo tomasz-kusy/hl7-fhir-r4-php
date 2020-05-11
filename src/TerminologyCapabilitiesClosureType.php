@@ -14,7 +14,7 @@ class TerminologyCapabilitiesClosureType extends BackboneElementType
     /**
      * If cross-system closure is supported.
      *
-     * @var bool $translation
+     * @var \TKusy\Hl7FhirR4\BooleanType $translation
      */
     private $translation = null;
 
@@ -23,7 +23,7 @@ class TerminologyCapabilitiesClosureType extends BackboneElementType
      *
      * If cross-system closure is supported.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getTranslation()
     {
@@ -35,10 +35,10 @@ class TerminologyCapabilitiesClosureType extends BackboneElementType
      *
      * If cross-system closure is supported.
      *
-     * @param bool $translation
+     * @param \TKusy\Hl7FhirR4\BooleanType $translation
      * @return self
      */
-    public function setTranslation($translation)
+    public function setTranslation(\TKusy\Hl7FhirR4\BooleanType $translation)
     {
         $this->translation = $translation;
         return $this;

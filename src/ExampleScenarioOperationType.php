@@ -14,35 +14,35 @@ class ExampleScenarioOperationType extends BackboneElementType
     /**
      * The sequential number of the interaction, e.g. 1.2.5.
      *
-     * @var string $number
+     * @var \TKusy\Hl7FhirR4\StringType $number
      */
     private $number = null;
 
     /**
      * The type of operation - CRUD.
      *
-     * @var string $type
+     * @var \TKusy\Hl7FhirR4\StringType $type
      */
     private $type = null;
 
     /**
      * The human-friendly name of the interaction.
      *
-     * @var string $name
+     * @var \TKusy\Hl7FhirR4\StringType $name
      */
     private $name = null;
 
     /**
      * Who starts the transaction.
      *
-     * @var string $initiator
+     * @var \TKusy\Hl7FhirR4\StringType $initiator
      */
     private $initiator = null;
 
     /**
      * Who receives the transaction.
      *
-     * @var string $receiver
+     * @var \TKusy\Hl7FhirR4\StringType $receiver
      */
     private $receiver = null;
 
@@ -56,14 +56,14 @@ class ExampleScenarioOperationType extends BackboneElementType
     /**
      * Whether the initiator is deactivated right after the transaction.
      *
-     * @var bool $initiatorActive
+     * @var \TKusy\Hl7FhirR4\BooleanType $initiatorActive
      */
     private $initiatorActive = null;
 
     /**
      * Whether the receiver is deactivated right after the transaction.
      *
-     * @var bool $receiverActive
+     * @var \TKusy\Hl7FhirR4\BooleanType $receiverActive
      */
     private $receiverActive = null;
 
@@ -86,7 +86,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * The sequential number of the interaction, e.g. 1.2.5.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getNumber()
     {
@@ -98,10 +98,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * The sequential number of the interaction, e.g. 1.2.5.
      *
-     * @param string $number
+     * @param \TKusy\Hl7FhirR4\StringType $number
      * @return self
      */
-    public function setNumber($number)
+    public function setNumber(\TKusy\Hl7FhirR4\StringType $number)
     {
         $this->number = $number;
         return $this;
@@ -112,7 +112,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * The type of operation - CRUD.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getType()
     {
@@ -124,10 +124,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * The type of operation - CRUD.
      *
-     * @param string $type
+     * @param \TKusy\Hl7FhirR4\StringType $type
      * @return self
      */
-    public function setType($type)
+    public function setType(\TKusy\Hl7FhirR4\StringType $type)
     {
         $this->type = $type;
         return $this;
@@ -138,7 +138,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * The human-friendly name of the interaction.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getName()
     {
@@ -150,10 +150,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * The human-friendly name of the interaction.
      *
-     * @param string $name
+     * @param \TKusy\Hl7FhirR4\StringType $name
      * @return self
      */
-    public function setName($name)
+    public function setName(\TKusy\Hl7FhirR4\StringType $name)
     {
         $this->name = $name;
         return $this;
@@ -164,7 +164,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Who starts the transaction.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getInitiator()
     {
@@ -176,10 +176,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Who starts the transaction.
      *
-     * @param string $initiator
+     * @param \TKusy\Hl7FhirR4\StringType $initiator
      * @return self
      */
-    public function setInitiator($initiator)
+    public function setInitiator(\TKusy\Hl7FhirR4\StringType $initiator)
     {
         $this->initiator = $initiator;
         return $this;
@@ -190,7 +190,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Who receives the transaction.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getReceiver()
     {
@@ -202,10 +202,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Who receives the transaction.
      *
-     * @param string $receiver
+     * @param \TKusy\Hl7FhirR4\StringType $receiver
      * @return self
      */
-    public function setReceiver($receiver)
+    public function setReceiver(\TKusy\Hl7FhirR4\StringType $receiver)
     {
         $this->receiver = $receiver;
         return $this;
@@ -242,7 +242,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Whether the initiator is deactivated right after the transaction.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getInitiatorActive()
     {
@@ -254,10 +254,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Whether the initiator is deactivated right after the transaction.
      *
-     * @param bool $initiatorActive
+     * @param \TKusy\Hl7FhirR4\BooleanType $initiatorActive
      * @return self
      */
-    public function setInitiatorActive($initiatorActive)
+    public function setInitiatorActive(\TKusy\Hl7FhirR4\BooleanType $initiatorActive)
     {
         $this->initiatorActive = $initiatorActive;
         return $this;
@@ -268,7 +268,7 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Whether the receiver is deactivated right after the transaction.
      *
-     * @return bool
+     * @return \TKusy\Hl7FhirR4\BooleanType
      */
     public function getReceiverActive()
     {
@@ -280,10 +280,10 @@ class ExampleScenarioOperationType extends BackboneElementType
      *
      * Whether the receiver is deactivated right after the transaction.
      *
-     * @param bool $receiverActive
+     * @param \TKusy\Hl7FhirR4\BooleanType $receiverActive
      * @return self
      */
-    public function setReceiverActive($receiverActive)
+    public function setReceiverActive(\TKusy\Hl7FhirR4\BooleanType $receiverActive)
     {
         $this->receiverActive = $receiverActive;
         return $this;

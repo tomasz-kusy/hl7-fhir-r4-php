@@ -28,7 +28,7 @@ class TestReportAssertType extends BackboneElementType
     /**
      * A link to further details on the result.
      *
-     * @var string $detail
+     * @var \TKusy\Hl7FhirR4\StringType $detail
      */
     private $detail = null;
 
@@ -89,7 +89,7 @@ class TestReportAssertType extends BackboneElementType
      *
      * A link to further details on the result.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDetail()
     {
@@ -101,10 +101,10 @@ class TestReportAssertType extends BackboneElementType
      *
      * A link to further details on the result.
      *
-     * @param string $detail
+     * @param \TKusy\Hl7FhirR4\StringType $detail
      * @return self
      */
-    public function setDetail($detail)
+    public function setDetail(\TKusy\Hl7FhirR4\StringType $detail)
     {
         $this->detail = $detail;
         return $this;

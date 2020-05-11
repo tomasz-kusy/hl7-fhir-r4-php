@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
             accessor:
                 getter: getOrganismName
                 setter: setOrganismName
-            type: string
+            type: TKusy\Hl7FhirR4\StringType
         parentSubstanceId:
             expose: true
             access_type: public_method
@@ -84,7 +84,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
                 inline: true
                 entry_name: parentSubstanceName
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         countryOfOrigin:
             expose: true
             access_type: public_method
@@ -114,7 +114,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialType:
                 inline: true
                 entry_name: geographicalLocation
                 namespace: 'http://hl7.org/fhir'
-            type: array<string>
+            type: array<TKusy\Hl7FhirR4\StringType>
         developmentStage:
             expose: true
             access_type: public_method

@@ -28,14 +28,14 @@ class StructureMapStructureType extends BackboneElementType
     /**
      * The name used for this type in the map.
      *
-     * @var string $alias
+     * @var \TKusy\Hl7FhirR4\StringType $alias
      */
     private $alias = null;
 
     /**
      * Documentation that describes how the structure is used in the mapping.
      *
-     * @var string $documentation
+     * @var \TKusy\Hl7FhirR4\StringType $documentation
      */
     private $documentation = null;
 
@@ -96,7 +96,7 @@ class StructureMapStructureType extends BackboneElementType
      *
      * The name used for this type in the map.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getAlias()
     {
@@ -108,10 +108,10 @@ class StructureMapStructureType extends BackboneElementType
      *
      * The name used for this type in the map.
      *
-     * @param string $alias
+     * @param \TKusy\Hl7FhirR4\StringType $alias
      * @return self
      */
-    public function setAlias($alias)
+    public function setAlias(\TKusy\Hl7FhirR4\StringType $alias)
     {
         $this->alias = $alias;
         return $this;
@@ -122,7 +122,7 @@ class StructureMapStructureType extends BackboneElementType
      *
      * Documentation that describes how the structure is used in the mapping.
      *
-     * @return string
+     * @return \TKusy\Hl7FhirR4\StringType
      */
     public function getDocumentation()
     {
@@ -134,10 +134,10 @@ class StructureMapStructureType extends BackboneElementType
      *
      * Documentation that describes how the structure is used in the mapping.
      *
-     * @param string $documentation
+     * @param \TKusy\Hl7FhirR4\StringType $documentation
      * @return self
      */
-    public function setDocumentation($documentation)
+    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
     {
         $this->documentation = $documentation;
         return $this;
