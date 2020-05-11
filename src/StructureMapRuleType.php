@@ -23,36 +23,28 @@ class StructureMapRuleType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StructureMapSourceType[] $source
      */
-    private $source = [
-        
-    ];
+    private $source = null;
 
     /**
      * Content to create because of this mapping rule.
      *
      * @var \TKusy\Hl7FhirR4\StructureMapTargetType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Rules contained in this rule.
      *
      * @var \TKusy\Hl7FhirR4\StructureMapRuleType[] $rule
      */
-    private $rule = [
-        
-    ];
+    private $rule = null;
 
     /**
      * Which other rules to apply in the context of this rule.
      *
      * @var \TKusy\Hl7FhirR4\StructureMapDependentType[] $dependent
      */
-    private $dependent = [
-        
-    ];
+    private $dependent = null;
 
     /**
      * Documentation for this instance of data.

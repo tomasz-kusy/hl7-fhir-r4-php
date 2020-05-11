@@ -23,9 +23,7 @@ class DataRequirementType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $profile
      */
-    private $profile = [
-        
-    ];
+    private $profile = null;
 
     /**
      * The intended subjects of the data requirement. If this element is not provided, a Patient subject is assumed. (choose any one of subject*, but only one)
@@ -48,27 +46,21 @@ class DataRequirementType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $mustSupport
      */
-    private $mustSupport = [
-        
-    ];
+    private $mustSupport = null;
 
     /**
      * Code filters specify additional constraints on the data, specifying the value set of interest for a particular element of the data. Each code filter defines an additional constraint on the data, i.e. code filters are AND'ed, not OR'ed.
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementCodeFilterType[] $codeFilter
      */
-    private $codeFilter = [
-        
-    ];
+    private $codeFilter = null;
 
     /**
      * Date filters specify additional constraints on the data in terms of the applicable date range for specific elements. Each date filter specifies an additional constraint on the data, i.e. date filters are AND'ed, not OR'ed.
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementDateFilterType[] $dateFilter
      */
-    private $dateFilter = [
-        
-    ];
+    private $dateFilter = null;
 
     /**
      * Specifies a maximum number of results that are required (uses the _count search parameter).
@@ -82,9 +74,7 @@ class DataRequirementType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementSortType[] $sort
      */
-    private $sort = [
-        
-    ];
+    private $sort = null;
 
     /**
      * Gets as type

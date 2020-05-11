@@ -16,9 +16,7 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Describes what will be observed. Sometimes this is called the observation "name".
@@ -32,18 +30,14 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The data types allowed for the value element of the instance observations conforming to this ObservationDefinition.
      *
      * @var \TKusy\Hl7FhirR4\ObservationDataTypeType[] $permittedDataType
      */
-    private $permittedDataType = [
-        
-    ];
+    private $permittedDataType = null;
 
     /**
      * Multiple results allowed for observations conforming to this ObservationDefinition.
@@ -78,9 +72,7 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ObservationDefinitionQualifiedIntervalType[] $qualifiedInterval
      */
-    private $qualifiedInterval = [
-        
-    ];
+    private $qualifiedInterval = null;
 
     /**
      * The set of valid coded results for the observations conforming to this ObservationDefinition.

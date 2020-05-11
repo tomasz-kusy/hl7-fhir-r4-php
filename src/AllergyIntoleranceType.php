@@ -16,9 +16,7 @@ class AllergyIntoleranceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The clinical status of the allergy or intolerance.
@@ -46,9 +44,7 @@ class AllergyIntoleranceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AllergyIntoleranceCategoryType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Estimate of the potential clinical harm, or seriousness, of the reaction to the identified substance.
@@ -146,18 +142,14 @@ class AllergyIntoleranceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Details about each adverse reaction event linked to exposure to the identified substance.
      *
      * @var \TKusy\Hl7FhirR4\AllergyIntoleranceReactionType[] $reaction
      */
-    private $reaction = [
-        
-    ];
+    private $reaction = null;
 
     /**
      * Adds as identifier

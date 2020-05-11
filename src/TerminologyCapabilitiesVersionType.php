@@ -37,27 +37,21 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $language
      */
-    private $language = [
-        
-    ];
+    private $language = null;
 
     /**
      * Filter Properties supported.
      *
      * @var \TKusy\Hl7FhirR4\TerminologyCapabilitiesFilterType[] $filter
      */
-    private $filter = [
-        
-    ];
+    private $filter = null;
 
     /**
      * Properties supported for $lookup.
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $property
      */
-    private $property = [
-        
-    ];
+    private $property = null;
 
     /**
      * Gets as code

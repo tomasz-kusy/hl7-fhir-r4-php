@@ -16,9 +16,7 @@ class VisionPrescriptionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -67,9 +65,7 @@ class VisionPrescriptionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType[] $lensSpecification
      */
-    private $lensSpecification = [
-        
-    ];
+    private $lensSpecification = null;
 
     /**
      * Adds as identifier

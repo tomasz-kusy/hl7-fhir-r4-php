@@ -37,27 +37,21 @@ class MetaType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $profile
      */
-    private $profile = [
-        
-    ];
+    private $profile = null;
 
     /**
      * Security labels applied to this resource. These tags connect specific resources to the overall security policy and infrastructure.
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $security
      */
-    private $security = [
-        
-    ];
+    private $security = null;
 
     /**
      * Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource.
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $tag
      */
-    private $tag = [
-        
-    ];
+    private $tag = null;
 
     /**
      * Gets as versionId

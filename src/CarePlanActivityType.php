@@ -16,27 +16,21 @@ class CarePlanActivityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $outcomeCodeableConcept
      */
-    private $outcomeCodeableConcept = [
-        
-    ];
+    private $outcomeCodeableConcept = null;
 
     /**
      * Details of the outcome or action resulting from the activity. The reference to an "event" resource, such as Procedure or Encounter or Observation, is the result/outcome of the activity itself. The activity can be conveyed using CarePlan.activity.detail OR using the CarePlan.activity.reference (a reference to a “request” resource).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $outcomeReference
      */
-    private $outcomeReference = [
-        
-    ];
+    private $outcomeReference = null;
 
     /**
      * Notes about the adherence/status/progress of the activity.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $progress
      */
-    private $progress = [
-        
-    ];
+    private $progress = null;
 
     /**
      * The details of the proposed activity represented in a specific resource.

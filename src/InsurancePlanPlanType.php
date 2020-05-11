@@ -16,9 +16,7 @@ class InsurancePlanPlanType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Type of plan. For example, "Platinum" or "High Deductable".
@@ -32,36 +30,28 @@ class InsurancePlanPlanType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $coverageArea
      */
-    private $coverageArea = [
-        
-    ];
+    private $coverageArea = null;
 
     /**
      * Reference to the network that providing the type of coverage.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $network
      */
-    private $network = [
-        
-    ];
+    private $network = null;
 
     /**
      * Overall costs associated with the plan.
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanGeneralCostType[] $generalCost
      */
-    private $generalCost = [
-        
-    ];
+    private $generalCost = null;
 
     /**
      * Costs associated with the coverage provided by the product.
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanSpecificCostType[] $specificCost
      */
-    private $specificCost = [
-        
-    ];
+    private $specificCost = null;
 
     /**
      * Adds as identifier

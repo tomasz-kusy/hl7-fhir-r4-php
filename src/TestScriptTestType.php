@@ -30,9 +30,7 @@ class TestScriptTestType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptAction1Type[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Gets as name

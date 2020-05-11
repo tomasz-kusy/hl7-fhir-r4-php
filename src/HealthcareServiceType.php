@@ -16,9 +16,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this.
@@ -39,36 +37,28 @@ class HealthcareServiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * The specific type of service that may be delivered or performed.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Collection of specialties handled by the service site. This is more of a medical term.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialty
      */
-    private $specialty = [
-        
-    ];
+    private $specialty = null;
 
     /**
      * The location(s) where this healthcare service may be provided.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $location
      */
-    private $location = [
-        
-    ];
+    private $location = null;
 
     /**
      * Further description of the service as it would be presented to a consumer while searching.
@@ -103,72 +93,56 @@ class HealthcareServiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * The location(s) that this service is available to (not where the service is provided).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $coverageArea
      */
-    private $coverageArea = [
-        
-    ];
+    private $coverageArea = null;
 
     /**
      * The code(s) that detail the conditions under which the healthcare service is available/offered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceProvisionCode
      */
-    private $serviceProvisionCode = [
-        
-    ];
+    private $serviceProvisionCode = null;
 
     /**
      * Does this service have specific eligibility requirements that need to be met in order to use the service?
      *
      * @var \TKusy\Hl7FhirR4\HealthcareServiceEligibilityType[] $eligibility
      */
-    private $eligibility = [
-        
-    ];
+    private $eligibility = null;
 
     /**
      * Programs that this service is applicable to.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $program
      */
-    private $program = [
-        
-    ];
+    private $program = null;
 
     /**
      * Collection of characteristics (attributes).
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $characteristic
      */
-    private $characteristic = [
-        
-    ];
+    private $characteristic = null;
 
     /**
      * Some services are specifically made available in multiple languages, this property permits a directory to declare the languages this is offered in. Typically this is only provided where a service operates in communities with mixed languages used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $communication
      */
-    private $communication = [
-        
-    ];
+    private $communication = null;
 
     /**
      * Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $referralMethod
      */
-    private $referralMethod = [
-        
-    ];
+    private $referralMethod = null;
 
     /**
      * Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service.
@@ -182,18 +156,14 @@ class HealthcareServiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\HealthcareServiceAvailableTimeType[] $availableTime
      */
-    private $availableTime = [
-        
-    ];
+    private $availableTime = null;
 
     /**
      * The HealthcareService is not available during this period of time due to the provided reason.
      *
      * @var \TKusy\Hl7FhirR4\HealthcareServiceNotAvailableType[] $notAvailable
      */
-    private $notAvailable = [
-        
-    ];
+    private $notAvailable = null;
 
     /**
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
@@ -207,9 +177,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Adds as identifier

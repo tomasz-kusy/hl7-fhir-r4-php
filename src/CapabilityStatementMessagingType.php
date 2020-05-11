@@ -16,9 +16,7 @@ class CapabilityStatementMessagingType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementEndpointType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Length if the receiver's reliable messaging cache in minutes (if a receiver) or how long the cache length on the receiver should be (if a sender).
@@ -39,9 +37,7 @@ class CapabilityStatementMessagingType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementSupportedMessageType[] $supportedMessage
      */
-    private $supportedMessage = [
-        
-    ];
+    private $supportedMessage = null;
 
     /**
      * Adds as endpoint

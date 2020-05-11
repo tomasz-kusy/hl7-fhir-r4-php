@@ -16,18 +16,14 @@ class ImplementationGuideDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideGroupingType[] $grouping
      */
-    private $grouping = [
-        
-    ];
+    private $grouping = null;
 
     /**
      * A resource that is part of the implementation guide. Conformance resources (value set, structure definition, capability statements etc.) are obvious candidates for inclusion, but any kind of resource can be included as an example resource.
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideResourceType[] $resource
      */
-    private $resource = [
-        
-    ];
+    private $resource = null;
 
     /**
      * A page / section in the implementation guide. The root page is the implementation guide home page.
@@ -41,18 +37,14 @@ class ImplementationGuideDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * A template for building resources.
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideTemplateType[] $template
      */
-    private $template = [
-        
-    ];
+    private $template = null;
 
     /**
      * Adds as grouping

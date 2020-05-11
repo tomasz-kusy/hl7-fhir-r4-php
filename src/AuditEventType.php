@@ -23,9 +23,7 @@ class AuditEventType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $subtype
      */
-    private $subtype = [
-        
-    ];
+    private $subtype = null;
 
     /**
      * Indicator for type of action performed during the event that generated the audit.
@@ -67,18 +65,14 @@ class AuditEventType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $purposeOfEvent
      */
-    private $purposeOfEvent = [
-        
-    ];
+    private $purposeOfEvent = null;
 
     /**
      * An actor taking an active role in the event or activity that is logged.
      *
      * @var \TKusy\Hl7FhirR4\AuditEventAgentType[] $agent
      */
-    private $agent = [
-        
-    ];
+    private $agent = null;
 
     /**
      * The system that is reporting the event.
@@ -92,9 +86,7 @@ class AuditEventType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AuditEventEntityType[] $entity
      */
-    private $entity = [
-        
-    ];
+    private $entity = null;
 
     /**
      * Gets as type

@@ -100,9 +100,7 @@ class QuestionnaireResponseAnswerType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireResponseItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as valueBoolean

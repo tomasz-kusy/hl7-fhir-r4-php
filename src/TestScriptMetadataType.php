@@ -16,18 +16,14 @@ class TestScriptMetadataType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptLinkType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * Capabilities that must exist and are assumed to function correctly on the FHIR server being tested.
      *
      * @var \TKusy\Hl7FhirR4\TestScriptCapabilityType[] $capability
      */
-    private $capability = [
-        
-    ];
+    private $capability = null;
 
     /**
      * Adds as link

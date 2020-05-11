@@ -16,9 +16,7 @@ class PractitionerType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this practitioner's record is in active use.
@@ -32,18 +30,14 @@ class PractitionerType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\HumanNameType[] $name
      */
-    private $name = [
-        
-    ];
+    private $name = null;
 
     /**
      * A contact detail for the practitioner, e.g. a telephone number or an email address.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Address(es) of the practitioner that are not role specific (typically home address). 
@@ -51,9 +45,7 @@ class PractitionerType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AddressType[] $address
      */
-    private $address = [
-        
-    ];
+    private $address = null;
 
     /**
      * Administrative Gender - the gender that the person is considered to have for administration and record keeping purposes.
@@ -74,27 +66,21 @@ class PractitionerType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AttachmentType[] $photo
      */
-    private $photo = [
-        
-    ];
+    private $photo = null;
 
     /**
      * The official certifications, training, and licenses that authorize or otherwise pertain to the provision of care by the practitioner. For example, a medical license issued by a medical board authorizing the practitioner to practice medicine within a certian locality.
      *
      * @var \TKusy\Hl7FhirR4\PractitionerQualificationType[] $qualification
      */
-    private $qualification = [
-        
-    ];
+    private $qualification = null;
 
     /**
      * A language the practitioner can use in patient communication.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $communication
      */
-    private $communication = [
-        
-    ];
+    private $communication = null;
 
     /**
      * Adds as identifier

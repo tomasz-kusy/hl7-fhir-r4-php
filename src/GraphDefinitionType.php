@@ -65,9 +65,7 @@ class GraphDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the graph definition from a consumer's perspective.
@@ -81,18 +79,14 @@ class GraphDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the graph definition is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this graph definition is needed and why it has been designed as it has.
@@ -120,9 +114,7 @@ class GraphDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\GraphDefinitionLinkType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * Gets as url

@@ -23,18 +23,14 @@ class QuestionnaireResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A procedure or observation that this questionnaire was performed as part of the execution of. For example, the surgery a checklist was executed as part of.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * The Questionnaire that defines and organizes the questions for which answers are being provided.
@@ -90,9 +86,7 @@ class QuestionnaireResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireResponseItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as identifier

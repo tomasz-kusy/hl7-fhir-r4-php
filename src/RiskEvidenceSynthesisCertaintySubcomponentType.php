@@ -23,18 +23,14 @@ class RiskEvidenceSynthesisCertaintySubcomponentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $rating
      */
-    private $rating = [
-        
-    ];
+    private $rating = null;
 
     /**
      * A human-readable string to clarify or explain concepts about the resource.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Gets as type

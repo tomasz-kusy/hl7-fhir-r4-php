@@ -16,9 +16,7 @@ class ImmunizationRecommendationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The patient the recommendation(s) are for.
@@ -46,9 +44,7 @@ class ImmunizationRecommendationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType[] $recommendation
      */
-    private $recommendation = [
-        
-    ];
+    private $recommendation = null;
 
     /**
      * Adds as identifier

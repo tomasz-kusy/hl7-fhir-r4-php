@@ -51,9 +51,7 @@ class ImagingStudySeriesType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * The anatomic structures examined. See DICOM Part 16 Annex L (http://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_L.html) for DICOM to SNOMED-CT mappings. The bodySite may indicate the laterality of body part imaged; if so, it shall be consistent with any content of ImagingStudy.series.laterality.
@@ -74,9 +72,7 @@ class ImagingStudySeriesType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $specimen
      */
-    private $specimen = [
-        
-    ];
+    private $specimen = null;
 
     /**
      * The date and time the series was started.
@@ -90,18 +86,14 @@ class ImagingStudySeriesType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ImagingStudyPerformerType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * A single SOP instance within the series, e.g. an image, or presentation state.
      *
      * @var \TKusy\Hl7FhirR4\ImagingStudyInstanceType[] $instance
      */
-    private $instance = [
-        
-    ];
+    private $instance = null;
 
     /**
      * Gets as uid

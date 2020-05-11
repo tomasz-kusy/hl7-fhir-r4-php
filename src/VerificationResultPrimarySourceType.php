@@ -23,18 +23,14 @@ class VerificationResultPrimarySourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Method for communicating with the primary source (manual; API; Push).
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $communicationMethod
      */
-    private $communicationMethod = [
-        
-    ];
+    private $communicationMethod = null;
 
     /**
      * Status of the validation of the target against the primary source (successful; failed; unknown).
@@ -62,9 +58,7 @@ class VerificationResultPrimarySourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $pushTypeAvailable
      */
-    private $pushTypeAvailable = [
-        
-    ];
+    private $pushTypeAvailable = null;
 
     /**
      * Gets as who

@@ -23,9 +23,7 @@ class DocumentReferenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of this document reference.
@@ -53,9 +51,7 @@ class DocumentReferenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Who or what the document is about. The document can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of farm animals, or a set of patients that share a common exposure).
@@ -76,9 +72,7 @@ class DocumentReferenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $author
      */
-    private $author = [
-        
-    ];
+    private $author = null;
 
     /**
      * Which person or organization authenticates that this document is valid.
@@ -99,9 +93,7 @@ class DocumentReferenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DocumentReferenceRelatesToType[] $relatesTo
      */
-    private $relatesTo = [
-        
-    ];
+    private $relatesTo = null;
 
     /**
      * Human-readable description of the source document.
@@ -115,18 +107,14 @@ class DocumentReferenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $securityLabel
      */
-    private $securityLabel = [
-        
-    ];
+    private $securityLabel = null;
 
     /**
      * The document and format referenced. There may be multiple content element repetitions, each with a different format.
      *
      * @var \TKusy\Hl7FhirR4\DocumentReferenceContentType[] $content
      */
-    private $content = [
-        
-    ];
+    private $content = null;
 
     /**
      * The clinical context in which the document was prepared.

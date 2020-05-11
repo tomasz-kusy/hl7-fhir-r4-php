@@ -16,9 +16,7 @@ class BodyStructureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this body site is in active use.
@@ -46,9 +44,7 @@ class BodyStructureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $locationQualifier
      */
-    private $locationQualifier = [
-        
-    ];
+    private $locationQualifier = null;
 
     /**
      * A summary, characterization or explanation of the body structure.
@@ -62,9 +58,7 @@ class BodyStructureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AttachmentType[] $image
      */
-    private $image = [
-        
-    ];
+    private $image = null;
 
     /**
      * The person to which the body site belongs.

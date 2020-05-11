@@ -30,9 +30,7 @@ class TestReportTestType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestReportAction1Type[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Gets as name

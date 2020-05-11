@@ -16,45 +16,35 @@ class ProcedureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The URL pointing to a FHIR-defined protocol, guideline, order set or other definition that is adhered to in whole or in part by this Procedure.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, order set or other definition that is adhered to in whole or in part by this Procedure.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * A reference to a resource that contains details of the request for this procedure.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A larger event of which this particular procedure is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * A code specifying the state of the procedure. Generally, this will be the in-progress or completed state.
@@ -152,9 +142,7 @@ class ProcedureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ProcedurePerformerType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The location where the procedure actually happened. E.g. a newborn at home, a tracheostomy at a restaurant.
@@ -168,27 +156,21 @@ class ProcedureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * The justification of why the procedure was performed.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Detailed and structured anatomical location information. Multiple locations are allowed - e.g. multiple punch biopsies of a lesion.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $bodySite
      */
-    private $bodySite = [
-        
-    ];
+    private $bodySite = null;
 
     /**
      * The outcome of the procedure - did it resolve the reasons for the procedure being performed?
@@ -202,72 +184,56 @@ class ProcedureType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $report
      */
-    private $report = [
-        
-    ];
+    private $report = null;
 
     /**
      * Any complications that occurred during the procedure, or in the immediate post-performance period. These are generally tracked separately from the notes, which will typically describe the procedure itself rather than any 'post procedure' issues.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $complication
      */
-    private $complication = [
-        
-    ];
+    private $complication = null;
 
     /**
      * Any complications that occurred during the procedure, or in the immediate post-performance period.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $complicationDetail
      */
-    private $complicationDetail = [
-        
-    ];
+    private $complicationDetail = null;
 
     /**
      * If the procedure required specific follow up - e.g. removal of sutures. The follow up may be represented as a simple note or could potentially be more complex, in which case the CarePlan resource can be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $followUp
      */
-    private $followUp = [
-        
-    ];
+    private $followUp = null;
 
     /**
      * Any other notes and comments about the procedure.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * A device that is implanted, removed or otherwise manipulated (calibration, battery replacement, fitting a prosthesis, attaching a wound-vac, etc.) as a focal portion of the Procedure.
      *
      * @var \TKusy\Hl7FhirR4\ProcedureFocalDeviceType[] $focalDevice
      */
-    private $focalDevice = [
-        
-    ];
+    private $focalDevice = null;
 
     /**
      * Identifies medications, devices and any other substance used as part of the procedure.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $usedReference
      */
-    private $usedReference = [
-        
-    ];
+    private $usedReference = null;
 
     /**
      * Identifies coded items that were used as part of the procedure.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $usedCode
      */
-    private $usedCode = [
-        
-    ];
+    private $usedCode = null;
 
     /**
      * Adds as identifier

@@ -38,9 +38,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
@@ -68,9 +66,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireEnableWhenType[] $enableWhen
      */
-    private $enableWhen = [
-        
-    ];
+    private $enableWhen = null;
 
     /**
      * Controls how multiple enableWhen values are interpreted - whether all or any must be true.
@@ -119,27 +115,21 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireAnswerOptionType[] $answerOption
      */
-    private $answerOption = [
-        
-    ];
+    private $answerOption = null;
 
     /**
      * One or more values that should be pre-populated in the answer when initially rendering the questionnaire for user input.
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireInitialType[] $initial
      */
-    private $initial = [
-        
-    ];
+    private $initial = null;
 
     /**
      * Text, questions and other groups to be nested beneath a question or group.
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as linkId

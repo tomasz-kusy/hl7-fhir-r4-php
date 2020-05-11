@@ -30,18 +30,14 @@ class MedicationDispenseSubstitutionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reason
      */
-    private $reason = [
-        
-    ];
+    private $reason = null;
 
     /**
      * The person or organization that has primary responsibility for the substitution.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $responsibleParty
      */
-    private $responsibleParty = [
-        
-    ];
+    private $responsibleParty = null;
 
     /**
      * Gets as wasSubstituted

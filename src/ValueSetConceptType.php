@@ -30,9 +30,7 @@ class ValueSetConceptType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ValueSetDesignationType[] $designation
      */
-    private $designation = [
-        
-    ];
+    private $designation = null;
 
     /**
      * Gets as code

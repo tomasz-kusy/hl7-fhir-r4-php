@@ -51,9 +51,7 @@ class EffectEvidenceSynthesisEffectEstimateType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\EffectEvidenceSynthesisPrecisionEstimateType[] $precisionEstimate
      */
-    private $precisionEstimate = [
-        
-    ];
+    private $precisionEstimate = null;
 
     /**
      * Gets as description

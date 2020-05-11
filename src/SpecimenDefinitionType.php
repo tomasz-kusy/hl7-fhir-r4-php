@@ -30,9 +30,7 @@ class SpecimenDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $patientPreparation
      */
-    private $patientPreparation = [
-        
-    ];
+    private $patientPreparation = null;
 
     /**
      * Time aspect of specimen collection (duration or offset).
@@ -46,18 +44,14 @@ class SpecimenDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $collection
      */
-    private $collection = [
-        
-    ];
+    private $collection = null;
 
     /**
      * Specimen conditioned in a container as expected by the testing laboratory.
      *
      * @var \TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType[] $typeTested
      */
-    private $typeTested = [
-        
-    ];
+    private $typeTested = null;
 
     /**
      * Gets as identifier

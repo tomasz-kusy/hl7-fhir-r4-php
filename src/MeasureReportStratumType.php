@@ -23,18 +23,14 @@ class MeasureReportStratumType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MeasureReportComponentType[] $component
      */
-    private $component = [
-        
-    ];
+    private $component = null;
 
     /**
      * The populations that make up the stratum, one for each type of population appropriate to the measure.
      *
      * @var \TKusy\Hl7FhirR4\MeasureReportPopulation1Type[] $population
      */
-    private $population = [
-        
-    ];
+    private $population = null;
 
     /**
      * The measure score for this stratum, calculated as appropriate for the measure type and scoring method, and based on only the members of this stratum.

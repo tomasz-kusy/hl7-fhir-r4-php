@@ -16,9 +16,7 @@ class LocationHoursOfOperationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\DaysOfWeekType[] $daysOfWeek
      */
-    private $daysOfWeek = [
-        
-    ];
+    private $daysOfWeek = null;
 
     /**
      * The Location is open all day.

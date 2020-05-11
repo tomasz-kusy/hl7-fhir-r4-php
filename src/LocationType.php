@@ -16,9 +16,7 @@ class LocationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status property covers the general availability of the resource, not the current value which may be covered by the operationStatus, or by a schedule/slots if they are configured for the location.
@@ -46,9 +44,7 @@ class LocationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
-    private $alias = [
-        
-    ];
+    private $alias = null;
 
     /**
      * Description of the Location, which helps in finding or referencing the place.
@@ -69,18 +65,14 @@ class LocationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * The contact details of communication devices available at the location. This can include phone numbers, fax numbers, mobile numbers, email addresses and web sites.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Physical location.
@@ -122,9 +114,7 @@ class LocationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\LocationHoursOfOperationType[] $hoursOfOperation
      */
-    private $hoursOfOperation = [
-        
-    ];
+    private $hoursOfOperation = null;
 
     /**
      * A description of when the locations opening ours are different to normal, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as detailed in the opening hours Times.
@@ -138,9 +128,7 @@ class LocationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Adds as identifier

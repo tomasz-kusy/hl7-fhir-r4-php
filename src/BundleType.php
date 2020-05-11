@@ -44,18 +44,14 @@ class BundleType extends ResourceType
      *
      * @var \TKusy\Hl7FhirR4\BundleLinkType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * An entry in a bundle resource - will either contain a resource or information about a resource (transactions and history only).
      *
      * @var \TKusy\Hl7FhirR4\BundleEntryType[] $entry
      */
-    private $entry = [
-        
-    ];
+    private $entry = null;
 
     /**
      * Digital Signature - base64 encoded. XML-DSig or a JWT.

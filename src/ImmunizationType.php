@@ -16,9 +16,7 @@ class ImmunizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates the current status of the immunization event.
@@ -144,36 +142,28 @@ class ImmunizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ImmunizationPerformerType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * Extra information about the immunization that is not conveyed by the other attributes.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Reasons why the vaccine was administered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Condition, Observation or DiagnosticReport that supports why the immunization was administered.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent.
@@ -187,27 +177,21 @@ class ImmunizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $subpotentReason
      */
-    private $subpotentReason = [
-        
-    ];
+    private $subpotentReason = null;
 
     /**
      * Educational material presented to the patient (or guardian) at the time of vaccine administration.
      *
      * @var \TKusy\Hl7FhirR4\ImmunizationEducationType[] $education
      */
-    private $education = [
-        
-    ];
+    private $education = null;
 
     /**
      * Indicates a patient's eligibility for a funding program.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $programEligibility
      */
-    private $programEligibility = [
-        
-    ];
+    private $programEligibility = null;
 
     /**
      * Indicates the source of the vaccine actually administered. This may be different than the patient eligibility (e.g. the patient may be eligible for a publically purchased vaccine but due to inventory issues, vaccine purchased with private funds was actually administered).
@@ -221,18 +205,14 @@ class ImmunizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ImmunizationReactionType[] $reaction
      */
-    private $reaction = [
-        
-    ];
+    private $reaction = null;
 
     /**
      * The protocol (set of recommendations) being followed by the provider who administered the dose.
      *
      * @var \TKusy\Hl7FhirR4\ImmunizationProtocolAppliedType[] $protocolApplied
      */
-    private $protocolApplied = [
-        
-    ];
+    private $protocolApplied = null;
 
     /**
      * Adds as identifier

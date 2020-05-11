@@ -30,9 +30,7 @@ class ProvenanceEntityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ProvenanceAgentType[] $agent
      */
-    private $agent = [
-        
-    ];
+    private $agent = null;
 
     /**
      * Gets as role

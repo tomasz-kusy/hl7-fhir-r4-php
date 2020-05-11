@@ -30,9 +30,7 @@ class SpecimenProcessingType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $additive
      */
-    private $additive = [
-        
-    ];
+    private $additive = null;
 
     /**
      * A record of the time or period when the specimen processing occurred. For example the time of sample fixation or the period of time the sample was in formalin. (choose any one of time*, but only one)

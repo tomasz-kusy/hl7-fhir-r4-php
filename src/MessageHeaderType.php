@@ -30,9 +30,7 @@ class MessageHeaderType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MessageHeaderDestinationType[] $destination
      */
-    private $destination = [
-        
-    ];
+    private $destination = null;
 
     /**
      * Identifies the sending system to allow the use of a trust relationship.
@@ -88,9 +86,7 @@ class MessageHeaderType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $focus
      */
-    private $focus = [
-        
-    ];
+    private $focus = null;
 
     /**
      * Permanent link to the MessageDefinition for this message.

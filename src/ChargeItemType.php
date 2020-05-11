@@ -16,27 +16,21 @@ class ChargeItemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * References the (external) source of pricing information, rules of application for the code this ChargeItem uses.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $definitionUri
      */
-    private $definitionUri = [
-        
-    ];
+    private $definitionUri = null;
 
     /**
      * References the source of pricing information, rules of application for the code this ChargeItem uses.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $definitionCanonical
      */
-    private $definitionCanonical = [
-        
-    ];
+    private $definitionCanonical = null;
 
     /**
      * The current state of the ChargeItem.
@@ -50,9 +44,7 @@ class ChargeItemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * A code that identifies the charge, like a billing code.
@@ -101,9 +93,7 @@ class ChargeItemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ChargeItemPerformerType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The organization requesting the service.
@@ -138,9 +128,7 @@ class ChargeItemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $bodysite
      */
-    private $bodysite = [
-        
-    ];
+    private $bodysite = null;
 
     /**
      * Factor overriding the factor determined by the rules associated with the code.
@@ -182,18 +170,14 @@ class ChargeItemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reason
      */
-    private $reason = [
-        
-    ];
+    private $reason = null;
 
     /**
      * Indicated the rendered service that caused this charge.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $service
      */
-    private $service = [
-        
-    ];
+    private $service = null;
 
     /**
      * Identifies the device, food, drug or other product being charged either by type code or reference to an instance. (choose any one of product*, but only one)
@@ -214,27 +198,21 @@ class ChargeItemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $account
      */
-    private $account = [
-        
-    ];
+    private $account = null;
 
     /**
      * Comments made about the event by the performer, subject or other participants.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Further information supporting this charge.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInformation
      */
-    private $supportingInformation = [
-        
-    ];
+    private $supportingInformation = null;
 
     /**
      * Adds as identifier

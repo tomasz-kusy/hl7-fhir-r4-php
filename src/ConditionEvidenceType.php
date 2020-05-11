@@ -16,18 +16,14 @@ class ConditionEvidenceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Links to other relevant information, including pathology reports.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Adds as code

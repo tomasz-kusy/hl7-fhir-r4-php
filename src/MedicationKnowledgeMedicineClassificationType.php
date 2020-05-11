@@ -23,9 +23,7 @@ class MedicationKnowledgeMedicineClassificationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $classification
      */
-    private $classification = [
-        
-    ];
+    private $classification = null;
 
     /**
      * Gets as type

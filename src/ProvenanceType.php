@@ -16,9 +16,7 @@ class ProvenanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * The period during which the activity occurred. (choose any one of occurred*, but only one)
@@ -46,9 +44,7 @@ class ProvenanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $policy
      */
-    private $policy = [
-        
-    ];
+    private $policy = null;
 
     /**
      * Where the activity occurred, if relevant.
@@ -62,9 +58,7 @@ class ProvenanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reason
      */
-    private $reason = [
-        
-    ];
+    private $reason = null;
 
     /**
      * An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.
@@ -78,27 +72,21 @@ class ProvenanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ProvenanceAgentType[] $agent
      */
-    private $agent = [
-        
-    ];
+    private $agent = null;
 
     /**
      * An entity used in this activity.
      *
      * @var \TKusy\Hl7FhirR4\ProvenanceEntityType[] $entity
      */
-    private $entity = [
-        
-    ];
+    private $entity = null;
 
     /**
      * A digital signature on the target Reference(s). The signer should match a Provenance.agent. The purpose of the signature is indicated.
      *
      * @var \TKusy\Hl7FhirR4\SignatureType[] $signature
      */
-    private $signature = [
-        
-    ];
+    private $signature = null;
 
     /**
      * Adds as target

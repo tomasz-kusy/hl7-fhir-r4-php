@@ -23,9 +23,7 @@ class CodeSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the code system when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the code system author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. This is used in [Coding](datatypes.html#Coding).version.
@@ -81,9 +79,7 @@ class CodeSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the code system from a consumer's perspective.
@@ -97,18 +93,14 @@ class CodeSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the code system is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this code system is needed and why it has been designed as it has.
@@ -185,27 +177,21 @@ class CodeSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeSystemFilterType[] $filter
      */
-    private $filter = [
-        
-    ];
+    private $filter = null;
 
     /**
      * A property defines an additional slot through which additional information can be provided about a concept.
      *
      * @var \TKusy\Hl7FhirR4\CodeSystemPropertyType[] $property
      */
-    private $property = [
-        
-    ];
+    private $property = null;
 
     /**
      * Concepts that are in the code system. The concept definitions are inherently hierarchical, but the definitions must be consulted to determine what the meanings of the hierarchical relationships are.
      *
      * @var \TKusy\Hl7FhirR4\CodeSystemConceptType[] $concept
      */
-    private $concept = [
-        
-    ];
+    private $concept = null;
 
     /**
      * Gets as url

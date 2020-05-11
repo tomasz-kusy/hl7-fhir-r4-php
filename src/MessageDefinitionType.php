@@ -23,9 +23,7 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the message definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the message definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
@@ -53,9 +51,7 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $replaces
      */
-    private $replaces = [
-        
-    ];
+    private $replaces = null;
 
     /**
      * The status of this message definition. Enables tracking the life-cycle of the content.
@@ -90,9 +86,7 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the message definition from a consumer's perspective.
@@ -106,18 +100,14 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the message definition is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this message definition is needed and why it has been designed as it has.
@@ -145,9 +135,7 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $parent
      */
-    private $parent = [
-        
-    ];
+    private $parent = null;
 
     /**
      * Event code or link to the EventDefinition. (choose any one of event*, but only one)
@@ -175,9 +163,7 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MessageDefinitionFocusType[] $focus
      */
-    private $focus = [
-        
-    ];
+    private $focus = null;
 
     /**
      * Declare at a message definition level whether a response is required or only upon error or success, or never.
@@ -191,18 +177,14 @@ class MessageDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MessageDefinitionAllowedResponseType[] $allowedResponse
      */
-    private $allowedResponse = [
-        
-    ];
+    private $allowedResponse = null;
 
     /**
      * Canonical reference to a GraphDefinition. If a URL is provided, it is the canonical reference to a [[[GraphDefinition]]] that it controls what resources are to be added to the bundle when building the document. The GraphDefinition can also specify profiles that apply to the various resources.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $graph
      */
-    private $graph = [
-        
-    ];
+    private $graph = null;
 
     /**
      * Gets as url

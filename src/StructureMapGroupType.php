@@ -44,18 +44,14 @@ class StructureMapGroupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StructureMapInputType[] $input
      */
-    private $input = [
-        
-    ];
+    private $input = null;
 
     /**
      * Transform Rule from source to target.
      *
      * @var \TKusy\Hl7FhirR4\StructureMapRuleType[] $rule
      */
-    private $rule = [
-        
-    ];
+    private $rule = null;
 
     /**
      * Gets as name

@@ -30,27 +30,21 @@ class ValueSetIncludeType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ValueSetConceptType[] $concept
      */
-    private $concept = [
-        
-    ];
+    private $concept = null;
 
     /**
      * Select concepts by specify a matching criterion based on the properties (including relationships) defined by the system, or on filters defined by the system. If multiple filters are specified, they SHALL all be true.
      *
      * @var \TKusy\Hl7FhirR4\ValueSetFilterType[] $filter
      */
-    private $filter = [
-        
-    ];
+    private $filter = null;
 
     /**
      * Selects the concepts found in this value set (based on its value set definition). This is an absolute URI that is a reference to ValueSet.url. If multiple value sets are specified this includes the union of the contents of all of the referenced value sets.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $valueSet
      */
-    private $valueSet = [
-        
-    ];
+    private $valueSet = null;
 
     /**
      * Gets as system

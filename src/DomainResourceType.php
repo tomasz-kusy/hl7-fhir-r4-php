@@ -23,18 +23,14 @@ class DomainResourceType extends ResourceType
      *
      * @var \TKusy\Hl7FhirR4\ResourceContainerType[] $contained
      */
-    private $contained = [
-        
-    ];
+    private $contained = null;
 
     /**
      * May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.
      *
      * @var \TKusy\Hl7FhirR4\ExtensionType[] $extension
      */
-    private $extension = [
-        
-    ];
+    private $extension = null;
 
     /**
      * May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -43,9 +39,7 @@ class DomainResourceType extends ResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExtensionType[] $modifierExtension
      */
-    private $modifierExtension = [
-        
-    ];
+    private $modifierExtension = null;
 
     /**
      * Gets as text

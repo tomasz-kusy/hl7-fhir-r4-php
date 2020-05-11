@@ -107,27 +107,21 @@ class TimingRepeatType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $dayOfWeek
      */
-    private $dayOfWeek = [
-        
-    ];
+    private $dayOfWeek = null;
 
     /**
      * Specified time of day for action to take place.
      *
      * @var \TKusy\Hl7FhirR4\TimeType[] $timeOfDay
      */
-    private $timeOfDay = [
-        
-    ];
+    private $timeOfDay = null;
 
     /**
      * An approximate time period during the day, potentially linked to an event of daily living that indicates when the action should occur.
      *
      * @var \TKusy\Hl7FhirR4\EventTimingType[] $when
      */
-    private $when = [
-        
-    ];
+    private $when = null;
 
     /**
      * The number of minutes from the event. If the event code does not indicate whether the minutes is before or after the event, then the offset is assumed to be after the event.

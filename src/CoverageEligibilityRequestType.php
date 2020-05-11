@@ -16,9 +16,7 @@ class CoverageEligibilityRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -39,9 +37,7 @@ class CoverageEligibilityRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\EligibilityRequestPurposeType[] $purpose
      */
-    private $purpose = [
-        
-    ];
+    private $purpose = null;
 
     /**
      * The party who is the beneficiary of the supplied coverage and for whom eligibility is sought.
@@ -104,27 +100,21 @@ class CoverageEligibilityRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType[] $supportingInfo
      */
-    private $supportingInfo = [
-        
-    ];
+    private $supportingInfo = null;
 
     /**
      * Financial instruments for reimbursement for the health care products and services.
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityRequestInsuranceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Service categories or billable services for which benefit details and/or an authorization prior to service delivery may be required by the payor.
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityRequestItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Adds as identifier

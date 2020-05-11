@@ -16,27 +16,21 @@ class PersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A name associated with the person.
      *
      * @var \TKusy\Hl7FhirR4\HumanNameType[] $name
      */
-    private $name = [
-        
-    ];
+    private $name = null;
 
     /**
      * A contact detail for the person, e.g. a telephone number or an email address.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Administrative Gender.
@@ -57,9 +51,7 @@ class PersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AddressType[] $address
      */
-    private $address = [
-        
-    ];
+    private $address = null;
 
     /**
      * An image that can be displayed as a thumbnail of the person to enhance the identification of the individual.
@@ -87,9 +79,7 @@ class PersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\PersonLinkType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * Adds as identifier

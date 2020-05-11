@@ -16,9 +16,7 @@ class TestScriptSetupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptActionType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Adds as action

@@ -51,36 +51,28 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * A description of why this action is necessary or appropriate.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reason
      */
-    private $reason = [
-        
-    ];
+    private $reason = null;
 
     /**
      * Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.
      *
      * @var \TKusy\Hl7FhirR4\RelatedArtifactType[] $documentation
      */
-    private $documentation = [
-        
-    ];
+    private $documentation = null;
 
     /**
      * Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition.
      *
      * @var \TKusy\Hl7FhirR4\IdType[] $goalId
      */
-    private $goalId = [
-        
-    ];
+    private $goalId = null;
 
     /**
      * A code or group definition that describes the intended subject of the action and its children, if any. (choose any one of subject*, but only one)
@@ -101,45 +93,35 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TriggerDefinitionType[] $trigger
      */
-    private $trigger = [
-        
-    ];
+    private $trigger = null;
 
     /**
      * An expression that describes applicability criteria or start/stop conditions for the action.
      *
      * @var \TKusy\Hl7FhirR4\PlanDefinitionConditionType[] $condition
      */
-    private $condition = [
-        
-    ];
+    private $condition = null;
 
     /**
      * Defines input data requirements for the action.
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementType[] $input
      */
-    private $input = [
-        
-    ];
+    private $input = null;
 
     /**
      * Defines the outputs of the action, if any.
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementType[] $output
      */
-    private $output = [
-        
-    ];
+    private $output = null;
 
     /**
      * A relationship to another action such as "before" or "30-60 minutes after start of".
      *
      * @var \TKusy\Hl7FhirR4\PlanDefinitionRelatedActionType[] $relatedAction
      */
-    private $relatedAction = [
-        
-    ];
+    private $relatedAction = null;
 
     /**
      * An optional value describing when the action should be performed. (choose any one of timing*, but only one)
@@ -188,9 +170,7 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PlanDefinitionParticipantType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * The type of action to perform (create, update, remove).
@@ -260,18 +240,14 @@ class PlanDefinitionActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PlanDefinitionDynamicValueType[] $dynamicValue
      */
-    private $dynamicValue = [
-        
-    ];
+    private $dynamicValue = null;
 
     /**
      * Sub actions that are contained within the action. The behavior of this action determines the functionality of the sub-actions. For example, a selection behavior of at-most-one indicates that of the sub-actions, at most one may be chosen as part of realizing the action definition.
      *
      * @var \TKusy\Hl7FhirR4\PlanDefinitionActionType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Gets as prefix

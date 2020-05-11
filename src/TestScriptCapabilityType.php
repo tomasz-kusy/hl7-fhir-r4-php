@@ -37,9 +37,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IntegerType[] $origin
      */
-    private $origin = [
-        
-    ];
+    private $origin = null;
 
     /**
      * Which server these requirements apply to.
@@ -53,9 +51,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * Minimum capabilities required of server for test script to execute successfully. If server does not meet at a minimum the referenced capability statement, then all tests in this script are skipped.

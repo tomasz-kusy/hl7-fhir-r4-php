@@ -79,9 +79,7 @@ class TestScriptType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the test script from a consumer's perspective.
@@ -95,18 +93,14 @@ class TestScriptType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the test script is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this test script is needed and why it has been designed as it has.
@@ -127,18 +121,14 @@ class TestScriptType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptOriginType[] $origin
      */
-    private $origin = [
-        
-    ];
+    private $origin = null;
 
     /**
      * An abstract server used in operations within this test script in the destination element.
      *
      * @var \TKusy\Hl7FhirR4\TestScriptDestinationType[] $destination
      */
-    private $destination = [
-        
-    ];
+    private $destination = null;
 
     /**
      * The required capability must exist and are assumed to function correctly on the FHIR server being tested.
@@ -152,27 +142,21 @@ class TestScriptType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptFixtureType[] $fixture
      */
-    private $fixture = [
-        
-    ];
+    private $fixture = null;
 
     /**
      * Reference to the profile to be used for validation.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $profile
      */
-    private $profile = [
-        
-    ];
+    private $profile = null;
 
     /**
      * Variable is set based either on element value in response body or on header field value in the response headers.
      *
      * @var \TKusy\Hl7FhirR4\TestScriptVariableType[] $variable
      */
-    private $variable = [
-        
-    ];
+    private $variable = null;
 
     /**
      * A series of required setup operations before tests are executed.
@@ -186,9 +170,7 @@ class TestScriptType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptTestType[] $test
      */
-    private $test = [
-        
-    ];
+    private $test = null;
 
     /**
      * A series of operations required to clean up after all the tests are executed (successfully or otherwise).

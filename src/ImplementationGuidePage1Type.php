@@ -30,9 +30,7 @@ class ImplementationGuidePage1Type extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $anchor
      */
-    private $anchor = [
-        
-    ];
+    private $anchor = null;
 
     /**
      * Gets as name

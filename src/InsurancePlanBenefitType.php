@@ -30,9 +30,7 @@ class InsurancePlanBenefitType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanLimitType[] $limit
      */
-    private $limit = [
-        
-    ];
+    private $limit = null;
 
     /**
      * Gets as type

@@ -23,9 +23,7 @@ class StructureMapDependentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $variable
      */
-    private $variable = [
-        
-    ];
+    private $variable = null;
 
     /**
      * Gets as name

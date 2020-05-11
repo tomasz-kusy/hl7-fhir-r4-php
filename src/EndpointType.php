@@ -16,9 +16,7 @@ class EndpointType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * active | suspended | error | off | test.
@@ -53,9 +51,7 @@ class EndpointType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * The interval during which the endpoint is expected to be operational.
@@ -69,18 +65,14 @@ class EndpointType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $payloadType
      */
-    private $payloadType = [
-        
-    ];
+    private $payloadType = null;
 
     /**
      * The mime type to send the payload in - e.g. application/fhir+xml, application/fhir+json. If the mime type is not specified, then the sender could send any content (including no content depending on the connectionType).
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $payloadMimeType
      */
-    private $payloadMimeType = [
-        
-    ];
+    private $payloadMimeType = null;
 
     /**
      * The uri that describes the actual end-point to connect to.
@@ -94,9 +86,7 @@ class EndpointType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $header
      */
-    private $header = [
-        
-    ];
+    private $header = null;
 
     /**
      * Adds as identifier

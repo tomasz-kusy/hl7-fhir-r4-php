@@ -37,9 +37,7 @@ class InvoiceLineItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\InvoicePriceComponentType[] $priceComponent
      */
-    private $priceComponent = [
-        
-    ];
+    private $priceComponent = null;
 
     /**
      * Gets as sequence

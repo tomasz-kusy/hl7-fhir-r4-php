@@ -16,18 +16,14 @@ class DiagnosticReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Details concerning a service requested.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * The status of the diagnostic report.
@@ -41,9 +37,7 @@ class DiagnosticReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * A code or name that describes this diagnostic report.
@@ -92,54 +86,42 @@ class DiagnosticReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The practitioner or organization that is responsible for the report's conclusions and interpretations.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $resultsInterpreter
      */
-    private $resultsInterpreter = [
-        
-    ];
+    private $resultsInterpreter = null;
 
     /**
      * Details about the specimens on which this diagnostic report is based.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $specimen
      */
-    private $specimen = [
-        
-    ];
+    private $specimen = null;
 
     /**
      * [Observations](observation.html) that are part of this diagnostic report.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $result
      */
-    private $result = [
-        
-    ];
+    private $result = null;
 
     /**
      * One or more links to full details of any imaging performed during the diagnostic investigation. Typically, this is imaging performed by DICOM enabled modalities, but this is not required. A fully enabled PACS viewer can use this information to provide views of the source images.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $imagingStudy
      */
-    private $imagingStudy = [
-        
-    ];
+    private $imagingStudy = null;
 
     /**
      * A list of key images associated with this report. The images are generally created during the diagnostic process, and may be directly of the patient, or of treated specimens (i.e. slides of interest).
      *
      * @var \TKusy\Hl7FhirR4\DiagnosticReportMediaType[] $media
      */
-    private $media = [
-        
-    ];
+    private $media = null;
 
     /**
      * Concise and clinically contextualized summary conclusion (interpretation/impression) of the diagnostic report.
@@ -153,18 +135,14 @@ class DiagnosticReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $conclusionCode
      */
-    private $conclusionCode = [
-        
-    ];
+    private $conclusionCode = null;
 
     /**
      * Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they SHALL be semantically equivalent.
      *
      * @var \TKusy\Hl7FhirR4\AttachmentType[] $presentedForm
      */
-    private $presentedForm = [
-        
-    ];
+    private $presentedForm = null;
 
     /**
      * Adds as identifier

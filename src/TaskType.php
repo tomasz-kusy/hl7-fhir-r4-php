@@ -16,9 +16,7 @@ class TaskType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The URL pointing to a *FHIR*-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Task.
@@ -39,9 +37,7 @@ class TaskType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * An identifier that links together multiple tasks and other requests that were created in the same context.
@@ -55,9 +51,7 @@ class TaskType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * The current status of the task.
@@ -162,9 +156,7 @@ class TaskType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $performerType
      */
-    private $performerType = [
-        
-    ];
+    private $performerType = null;
 
     /**
      * Individual organization or Device currently responsible for task execution.
@@ -199,27 +191,21 @@ class TaskType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Free-text information captured about the task as it progresses.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Links to Provenance records for past versions of this Task that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the task.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $relevantHistory
      */
-    private $relevantHistory = [
-        
-    ];
+    private $relevantHistory = null;
 
     /**
      * If the Task.focus is a request resource and the task is seeking fulfillment (i.e. is asking for the request to be actioned), this element identifies any limitations on what parts of the referenced request should be actioned.
@@ -233,18 +219,14 @@ class TaskType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TaskInputType[] $input
      */
-    private $input = [
-        
-    ];
+    private $input = null;
 
     /**
      * Outputs produced by the Task.
      *
      * @var \TKusy\Hl7FhirR4\TaskOutputType[] $output
      */
-    private $output = [
-        
-    ];
+    private $output = null;
 
     /**
      * Adds as identifier

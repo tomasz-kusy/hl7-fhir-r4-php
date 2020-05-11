@@ -16,9 +16,7 @@ class AppointmentParticipantType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * A Person, Location/HealthcareService or Device that is participating in the appointment.

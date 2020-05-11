@@ -16,54 +16,42 @@ class CommunicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The URL pointing to a FHIR-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Communication.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Communication.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * An order, proposal or plan fulfilled in whole or in part by this Communication.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * Part of this action.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * Prior communication that this communication is in response to.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $inResponseTo
      */
-    private $inResponseTo = [
-        
-    ];
+    private $inResponseTo = null;
 
     /**
      * The status of the transmission.
@@ -84,9 +72,7 @@ class CommunicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Characterizes how quickly the planned or in progress communication must be addressed. Includes concepts such as stat, urgent, routine.
@@ -100,9 +86,7 @@ class CommunicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $medium
      */
-    private $medium = [
-        
-    ];
+    private $medium = null;
 
     /**
      * The patient or group that was the focus of this communication.
@@ -123,9 +107,7 @@ class CommunicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $about
      */
-    private $about = [
-        
-    ];
+    private $about = null;
 
     /**
      * The Encounter during which this Communication was created or to which the creation of this record is tightly associated.
@@ -153,9 +135,7 @@ class CommunicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $recipient
      */
-    private $recipient = [
-        
-    ];
+    private $recipient = null;
 
     /**
      * The entity (e.g. person, organization, clinical information system, or device) which was the source of the communication.
@@ -169,36 +149,28 @@ class CommunicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource whose existence justifies this communication.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Text, attachment(s), or resource(s) that was communicated to the recipient.
      *
      * @var \TKusy\Hl7FhirR4\CommunicationPayloadType[] $payload
      */
-    private $payload = [
-        
-    ];
+    private $payload = null;
 
     /**
      * Additional notes or commentary about the communication by the sender, receiver or other interested parties.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

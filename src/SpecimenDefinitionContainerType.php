@@ -65,9 +65,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SpecimenDefinitionAdditiveType[] $additive
      */
-    private $additive = [
-        
-    ];
+    private $additive = null;
 
     /**
      * Special processing that should be applied to the container for this kind of specimen.

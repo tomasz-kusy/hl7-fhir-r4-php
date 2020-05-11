@@ -30,54 +30,42 @@ class ConsentProvisionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ConsentActorType[] $actor
      */
-    private $actor = [
-        
-    ];
+    private $actor = null;
 
     /**
      * Actions controlled by this Rule.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception.
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $securityLabel
      */
-    private $securityLabel = [
-        
-    ];
+    private $securityLabel = null;
 
     /**
      * The context of the activities a user is taking - why the user is accessing the data - that are controlled by this rule.
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $purpose
      */
-    private $purpose = [
-        
-    ];
+    private $purpose = null;
 
     /**
      * The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to.
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $class
      */
-    private $class = [
-        
-    ];
+    private $class = null;
 
     /**
      * If this code is found in an instance, then the rule applies.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Clinical or Operational Relevant period of time that bounds the data controlled by this rule.
@@ -91,18 +79,14 @@ class ConsentProvisionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ConsentDataType[] $data
      */
-    private $data = [
-        
-    ];
+    private $data = null;
 
     /**
      * Rules which provide exceptions to the base rule or subrules.
      *
      * @var \TKusy\Hl7FhirR4\ConsentProvisionType[] $provision
      */
-    private $provision = [
-        
-    ];
+    private $provision = null;
 
     /**
      * Gets as type

@@ -16,45 +16,35 @@ class ServiceRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The URL pointing to a FHIR-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this ServiceRequest.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, orderset or other definition that is adhered to in whole or in part by this ServiceRequest.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * Plan/proposal/order fulfilled by this request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * The request takes the place of the referenced completed or terminated request(s).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $replaces
      */
-    private $replaces = [
-        
-    ];
+    private $replaces = null;
 
     /**
      * A shared identifier common to all service requests that were authorized more or less simultaneously by a single author, representing the composite or group identifier.
@@ -82,9 +72,7 @@ class ServiceRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Indicates how quickly the ServiceRequest should be addressed with respect to other requests.
@@ -112,9 +100,7 @@ class ServiceRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $orderDetail
      */
-    private $orderDetail = [
-        
-    ];
+    private $orderDetail = null;
 
     /**
      * An amount of service being requested which can be a quantity ( for example $1,500 home modification), a ratio ( for example, 20 half day visits per month), or a range (2.0 to 1.8 Gy per fraction). (choose any one of quantity*, but only one)
@@ -212,90 +198,70 @@ class ServiceRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The preferred location(s) where the procedure should actually happen in coded or free text form. E.g. at home or nursing day care center.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $locationCode
      */
-    private $locationCode = [
-        
-    ];
+    private $locationCode = null;
 
     /**
      * A reference to the the preferred location(s) where the procedure should actually happen. E.g. at home or nursing day care center.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $locationReference
      */
-    private $locationReference = [
-        
-    ];
+    private $locationReference = null;
 
     /**
      * An explanation or justification for why this service is being requested in coded or textual form. This is often for billing purposes. May relate to the resources referred to in `supportingInfo`.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource that provides a justification for why this service is being requested. May relate to the resources referred to in `supportingInfo`.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Insurance plans, coverage extensions, pre-authorizations and/or pre-determinations that may be needed for delivering the requested service.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Additional clinical information about the patient or specimen that may influence the services or their interpretations. This information includes diagnosis, clinical findings and other observations. In laboratory ordering these are typically referred to as "ask at order entry questions (AOEs)". This includes observations explicitly requested by the producer (filler) to provide context or supporting information needed to complete the order. For example, reporting the amount of inspired oxygen for blood gas measurements.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInfo
      */
-    private $supportingInfo = [
-        
-    ];
+    private $supportingInfo = null;
 
     /**
      * One or more specimens that the laboratory procedure will use.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $specimen
      */
-    private $specimen = [
-        
-    ];
+    private $specimen = null;
 
     /**
      * Anatomic location where the procedure should be performed. This is the target site.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $bodySite
      */
-    private $bodySite = [
-        
-    ];
+    private $bodySite = null;
 
     /**
      * Any other notes and comments made about the service request. For example, internal billing notes.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Instructions in terms that are understood by the patient or consumer.
@@ -309,9 +275,7 @@ class ServiceRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $relevantHistory
      */
-    private $relevantHistory = [
-        
-    ];
+    private $relevantHistory = null;
 
     /**
      * Adds as identifier

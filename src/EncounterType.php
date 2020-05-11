@@ -16,9 +16,7 @@ class EncounterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * planned | arrived | triaged | in-progress | onleave | finished | cancelled +.
@@ -32,9 +30,7 @@ class EncounterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\EncounterStatusHistoryType[] $statusHistory
      */
-    private $statusHistory = [
-        
-    ];
+    private $statusHistory = null;
 
     /**
      * Concepts representing classification of patient encounter such as ambulatory (outpatient), inpatient, emergency, home health or others due to local variations.
@@ -48,18 +44,14 @@ class EncounterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\EncounterClassHistoryType[] $classHistory
      */
-    private $classHistory = [
-        
-    ];
+    private $classHistory = null;
 
     /**
      * Specific type of encounter (e.g. e-mail consultation, surgical day-care, skilled nursing, rehabilitation).
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Broad categorization of the service that is to be provided (e.g. cardiology).
@@ -87,36 +79,28 @@ class EncounterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $episodeOfCare
      */
-    private $episodeOfCare = [
-        
-    ];
+    private $episodeOfCare = null;
 
     /**
      * The request this encounter satisfies (e.g. incoming referral or procedure request).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * The list of people responsible for providing the service.
      *
      * @var \TKusy\Hl7FhirR4\EncounterParticipantType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * The appointment that scheduled this encounter.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $appointment
      */
-    private $appointment = [
-        
-    ];
+    private $appointment = null;
 
     /**
      * The start and end time of the encounter.
@@ -137,36 +121,28 @@ class EncounterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * The list of diagnosis relevant to this encounter.
      *
      * @var \TKusy\Hl7FhirR4\EncounterDiagnosisType[] $diagnosis
      */
-    private $diagnosis = [
-        
-    ];
+    private $diagnosis = null;
 
     /**
      * The set of accounts that may be used for billing for this Encounter.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $account
      */
-    private $account = [
-        
-    ];
+    private $account = null;
 
     /**
      * Details about the admission to a healthcare service.
@@ -180,9 +156,7 @@ class EncounterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\EncounterLocationType[] $location
      */
-    private $location = [
-        
-    ];
+    private $location = null;
 
     /**
      * The organization that is primarily responsible for this Encounter's services. This MAY be the same as the organization on the Patient record, however it could be different, such as if the actor performing the services was from an external organization (which may be billed seperately) for an external consultation. Refer to the example bundle showing an abbreviated set of Encounters for a colonoscopy.

@@ -23,36 +23,28 @@ class ImplementationGuideManifestType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideResource1Type[] $resource
      */
-    private $resource = [
-        
-    ];
+    private $resource = null;
 
     /**
      * Information about a page within the IG.
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuidePage1Type[] $page
      */
-    private $page = [
-        
-    ];
+    private $page = null;
 
     /**
      * Indicates a relative path to an image that exists within the IG.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $image
      */
-    private $image = [
-        
-    ];
+    private $image = null;
 
     /**
      * Indicates the relative path of an additional non-page, non-image file that is part of the IG - e.g. zip, jar and similar files that could be the target of a hyperlink in a derived IG.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $other
      */
-    private $other = [
-        
-    ];
+    private $other = null;
 
     /**
      * Gets as rendering

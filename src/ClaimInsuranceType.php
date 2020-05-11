@@ -51,9 +51,7 @@ class ClaimInsuranceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      */
-    private $preAuthRef = [
-        
-    ];
+    private $preAuthRef = null;
 
     /**
      * The result of the adjudication of the line items for the Coverage specified in this insurance.

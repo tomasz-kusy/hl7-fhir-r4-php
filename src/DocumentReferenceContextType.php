@@ -16,18 +16,14 @@ class DocumentReferenceContextType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $encounter
      */
-    private $encounter = [
-        
-    ];
+    private $encounter = null;
 
     /**
      * This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the type Code, such as a "History and Physical Report" in which the procedure being documented is necessarily a "History and Physical" act.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $event
      */
-    private $event = [
-        
-    ];
+    private $event = null;
 
     /**
      * The time period over which the service that is described by the document was provided.
@@ -62,9 +58,7 @@ class DocumentReferenceContextType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $related
      */
-    private $related = [
-        
-    ];
+    private $related = null;
 
     /**
      * Adds as encounter

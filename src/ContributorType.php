@@ -30,9 +30,7 @@ class ContributorType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * Gets as type

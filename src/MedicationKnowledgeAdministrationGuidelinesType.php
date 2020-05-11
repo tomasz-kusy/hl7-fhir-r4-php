@@ -16,9 +16,7 @@ class MedicationKnowledgeAdministrationGuidelinesType extends BackboneElementTyp
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeDosageType[] $dosage
      */
-    private $dosage = [
-        
-    ];
+    private $dosage = null;
 
     /**
      * Indication for use that apply to the specific administration guidelines. (choose any one of indication*, but only one)
@@ -39,9 +37,7 @@ class MedicationKnowledgeAdministrationGuidelinesType extends BackboneElementTyp
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgePatientCharacteristicsType[] $patientCharacteristics
      */
-    private $patientCharacteristics = [
-        
-    ];
+    private $patientCharacteristics = null;
 
     /**
      * Adds as dosage

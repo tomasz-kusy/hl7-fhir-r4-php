@@ -30,9 +30,7 @@ class ExplanationOfBenefitInsuranceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      */
-    private $preAuthRef = [
-        
-    ];
+    private $preAuthRef = null;
 
     /**
      * Gets as focal

@@ -16,9 +16,7 @@ class ScheduleType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this schedule record is in active use or should not be used (such as was entered in error).
@@ -32,36 +30,28 @@ class ScheduleType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceCategory
      */
-    private $serviceCategory = [
-        
-    ];
+    private $serviceCategory = null;
 
     /**
      * The specific service that is to be performed during this appointment.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceType
      */
-    private $serviceType = [
-        
-    ];
+    private $serviceType = null;
 
     /**
      * The specialty of a practitioner that would be required to perform the service requested in this appointment.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialty
      */
-    private $specialty = [
-        
-    ];
+    private $specialty = null;
 
     /**
      * Slots that reference this schedule resource provide the availability details to these referenced resource(s).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $actor
      */
-    private $actor = [
-        
-    ];
+    private $actor = null;
 
     /**
      * The period of time that the slots that reference this Schedule resource cover (even if none exist). These cover the amount of time that an organization's planning horizon; the interval for which they are currently accepting appointments. This does not define a "template" for planning outside these dates.

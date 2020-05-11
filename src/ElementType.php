@@ -21,9 +21,7 @@ class ElementType
      *
      * @var \TKusy\Hl7FhirR4\ExtensionType[] $extension
      */
-    private $extension = [
-        
-    ];
+    private $extension = null;
 
     /**
      * Gets as id

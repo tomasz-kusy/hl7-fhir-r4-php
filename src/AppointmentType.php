@@ -16,9 +16,7 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The overall status of the Appointment. Each of the participants has their own participation status which indicates their involvement in the process, however this status indicates the shared status.
@@ -39,27 +37,21 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceCategory
      */
-    private $serviceCategory = [
-        
-    ];
+    private $serviceCategory = null;
 
     /**
      * The specific service that is to be performed during this appointment.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceType
      */
-    private $serviceType = [
-        
-    ];
+    private $serviceType = null;
 
     /**
      * The specialty of a practitioner that would be required to perform the service requested in this appointment.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialty
      */
-    private $specialty = [
-        
-    ];
+    private $specialty = null;
 
     /**
      * The style of appointment or patient that has been booked in the slot (not service type).
@@ -73,18 +65,14 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Reason the appointment has been scheduled to take place, as specified using information from another resource. When the patient arrives and the encounter begins it may be used as the admission diagnosis. The indication will typically be a Condition (with other resources referenced in the evidence.detail), or a Procedure.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * The priority of the appointment. Can be used to make informed decisions if needing to re-prioritize appointments. (The iCal Standard specifies 0 as undefined, 1 as highest, 9 as lowest priority).
@@ -105,9 +93,7 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInformation
      */
-    private $supportingInformation = [
-        
-    ];
+    private $supportingInformation = null;
 
     /**
      * Date/Time that the appointment is to take place.
@@ -135,9 +121,7 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $slot
      */
-    private $slot = [
-        
-    ];
+    private $slot = null;
 
     /**
      * The date that this appointment was initially created. This could be different to the meta.lastModified value on the initial entry, as this could have been before the resource was created on the FHIR server, and should remain unchanged over the lifespan of the appointment.
@@ -165,18 +149,14 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * List of participants involved in the appointment.
      *
      * @var \TKusy\Hl7FhirR4\AppointmentParticipantType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * A set of date ranges (potentially including times) that the appointment is preferred to be scheduled within.
@@ -185,9 +165,7 @@ class AppointmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\PeriodType[] $requestedPeriod
      */
-    private $requestedPeriod = [
-        
-    ];
+    private $requestedPeriod = null;
 
     /**
      * Adds as identifier

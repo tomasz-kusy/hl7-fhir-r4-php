@@ -23,9 +23,7 @@ class SubscriptionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * The time for the server to turn the subscription off.

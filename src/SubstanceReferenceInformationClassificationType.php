@@ -30,18 +30,14 @@ class SubstanceReferenceInformationClassificationType extends BackboneElementTyp
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $subtype
      */
-    private $subtype = [
-        
-    ];
+    private $subtype = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $source
      */
-    private $source = [
-        
-    ];
+    private $source = null;
 
     /**
      * Gets as domain

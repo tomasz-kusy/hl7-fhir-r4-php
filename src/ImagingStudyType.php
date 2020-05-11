@@ -16,9 +16,7 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The current state of the ImagingStudy.
@@ -32,9 +30,7 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $modality
      */
-    private $modality = [
-        
-    ];
+    private $modality = null;
 
     /**
      * The subject, typically a patient, of the imaging study.
@@ -62,9 +58,7 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * The requesting/referring physician.
@@ -78,18 +72,14 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $interpreter
      */
-    private $interpreter = [
-        
-    ];
+    private $interpreter = null;
 
     /**
      * The network service providing access (e.g., query, view, or retrieval) for the study. See implementation notes for information about using DICOM endpoints. A study-level endpoint applies to each series in the study, unless overridden by a series-level endpoint with the same Endpoint.connectionType.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Number of Series in the Study. This value given may be larger than the number of series elements this Resource contains due to resource availability, security, or other factors. This element should be present if any series elements are present.
@@ -117,9 +107,7 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $procedureCode
      */
-    private $procedureCode = [
-        
-    ];
+    private $procedureCode = null;
 
     /**
      * The principal physical location where the ImagingStudy was performed.
@@ -133,27 +121,21 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource whose existence justifies this Study.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Per the recommended DICOM mapping, this element is derived from the Study Description attribute (0008,1030). Observations or findings about the imaging study should be recorded in another resource, e.g. Observation, and not in this element.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * The Imaging Manager description of the study. Institution-generated description or classification of the Study (component) performed.
@@ -167,9 +149,7 @@ class ImagingStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ImagingStudySeriesType[] $series
      */
-    private $series = [
-        
-    ];
+    private $series = null;
 
     /**
      * Adds as identifier

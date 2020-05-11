@@ -23,9 +23,7 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the charge item definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the charge item definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
@@ -46,27 +44,21 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $derivedFromUri
      */
-    private $derivedFromUri = [
-        
-    ];
+    private $derivedFromUri = null;
 
     /**
      * A larger definition of which this particular definition is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * As new versions of a protocol or guideline are defined, allows identification of what versions are replaced by a new instance.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $replaces
      */
-    private $replaces = [
-        
-    ];
+    private $replaces = null;
 
     /**
      * The current state of the ChargeItemDefinition.
@@ -101,9 +93,7 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the charge item definition from a consumer's perspective.
@@ -117,18 +107,14 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the charge item definition is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * A copyright statement relating to the charge item definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the charge item definition.
@@ -170,27 +156,21 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $instance
      */
-    private $instance = [
-        
-    ];
+    private $instance = null;
 
     /**
      * Expressions that describe applicability criteria for the billing code.
      *
      * @var \TKusy\Hl7FhirR4\ChargeItemDefinitionApplicabilityType[] $applicability
      */
-    private $applicability = [
-        
-    ];
+    private $applicability = null;
 
     /**
      * Group of properties which are applicable under the same conditions. If no applicability rules are established for the group, then all properties always apply.
      *
      * @var \TKusy\Hl7FhirR4\ChargeItemDefinitionPropertyGroupType[] $propertyGroup
      */
-    private $propertyGroup = [
-        
-    ];
+    private $propertyGroup = null;
 
     /**
      * Gets as url

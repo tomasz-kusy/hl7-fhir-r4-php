@@ -37,9 +37,7 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TerminologyCapabilitiesParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * Documentation about text searching works.

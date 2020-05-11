@@ -51,54 +51,42 @@ class MedicationKnowledgeType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $synonym
      */
-    private $synonym = [
-        
-    ];
+    private $synonym = null;
 
     /**
      * Associated or related knowledge about a medication.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeRelatedMedicationKnowledgeType[] $relatedMedicationKnowledge
      */
-    private $relatedMedicationKnowledge = [
-        
-    ];
+    private $relatedMedicationKnowledge = null;
 
     /**
      * Associated or related medications. For example, if the medication is a branded product (e.g. Crestor), this is the Therapeutic Moeity (e.g. Rosuvastatin) or if this is a generic medication (e.g. Rosuvastatin), this would link to a branded product (e.g. Crestor).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $associatedMedication
      */
-    private $associatedMedication = [
-        
-    ];
+    private $associatedMedication = null;
 
     /**
      * Category of the medication or product (e.g. branded product, therapeutic moeity, generic product, innovator product, etc.).
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $productType
      */
-    private $productType = [
-        
-    ];
+    private $productType = null;
 
     /**
      * Associated documentation about the medication.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeMonographType[] $monograph
      */
-    private $monograph = [
-        
-    ];
+    private $monograph = null;
 
     /**
      * Identifies a particular constituent of interest in the product.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeIngredientType[] $ingredient
      */
-    private $ingredient = [
-        
-    ];
+    private $ingredient = null;
 
     /**
      * The instructions for preparing the medication.
@@ -112,45 +100,35 @@ class MedicationKnowledgeType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $intendedRoute
      */
-    private $intendedRoute = [
-        
-    ];
+    private $intendedRoute = null;
 
     /**
      * The price of the medication.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeCostType[] $cost
      */
-    private $cost = [
-        
-    ];
+    private $cost = null;
 
     /**
      * The program under which the medication is reviewed.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeMonitoringProgramType[] $monitoringProgram
      */
-    private $monitoringProgram = [
-        
-    ];
+    private $monitoringProgram = null;
 
     /**
      * Guidelines for the administration of the medication.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeAdministrationGuidelinesType[] $administrationGuidelines
      */
-    private $administrationGuidelines = [
-        
-    ];
+    private $administrationGuidelines = null;
 
     /**
      * Categorization of the medication within a formulary or classification system.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeMedicineClassificationType[] $medicineClassification
      */
-    private $medicineClassification = [
-        
-    ];
+    private $medicineClassification = null;
 
     /**
      * Information that only applies to packages (not products).
@@ -164,36 +142,28 @@ class MedicationKnowledgeType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeDrugCharacteristicType[] $drugCharacteristic
      */
-    private $drugCharacteristic = [
-        
-    ];
+    private $drugCharacteristic = null;
 
     /**
      * Potential clinical issue with or between medication(s) (for example, drug-drug interaction, drug-disease contraindication, drug-allergy interaction, etc.).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $contraindication
      */
-    private $contraindication = [
-        
-    ];
+    private $contraindication = null;
 
     /**
      * Regulatory information about a medication.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeRegulatoryType[] $regulatory
      */
-    private $regulatory = [
-        
-    ];
+    private $regulatory = null;
 
     /**
      * The time course of drug absorption, distribution, metabolism and excretion of a medication from the body.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeKineticsType[] $kinetics
      */
-    private $kinetics = [
-        
-    ];
+    private $kinetics = null;
 
     /**
      * Gets as code

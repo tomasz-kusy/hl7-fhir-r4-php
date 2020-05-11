@@ -44,18 +44,14 @@ class ClaimSubDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * Identifies the program under which this may be recovered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $programCode
      */
-    private $programCode = [
-        
-    ];
+    private $programCode = null;
 
     /**
      * The number of repetitions of a service or product.
@@ -90,9 +86,7 @@ class ClaimSubDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $udi
      */
-    private $udi = [
-        
-    ];
+    private $udi = null;
 
     /**
      * Gets as sequence

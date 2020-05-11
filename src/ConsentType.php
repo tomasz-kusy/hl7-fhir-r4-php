@@ -16,9 +16,7 @@ class ConsentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates the current state of this consent.
@@ -39,9 +37,7 @@ class ConsentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * The patient/healthcare consumer to whom this consent applies.
@@ -62,18 +58,14 @@ class ConsentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The organization that manages the consent, and the framework within which it is executed.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $organization
      */
-    private $organization = [
-        
-    ];
+    private $organization = null;
 
     /**
      * The source on which this consent statement is based. The source might be a scanned original paper form, or a reference to a consent that links back to such a source, a reference to a document repository (e.g. XDS) that stores the original consent document. (choose any one of source*, but only one)
@@ -94,9 +86,7 @@ class ConsentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ConsentPolicyType[] $policy
      */
-    private $policy = [
-        
-    ];
+    private $policy = null;
 
     /**
      * A reference to the specific base computable regulation or policy.
@@ -110,9 +100,7 @@ class ConsentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ConsentVerificationType[] $verification
      */
-    private $verification = [
-        
-    ];
+    private $verification = null;
 
     /**
      * An exception to the base policy of this consent. An exception can be an addition or removal of access permissions.

@@ -16,9 +16,7 @@ class MedicinalProductAuthorizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The medicinal product that is being authorized.
@@ -32,18 +30,14 @@ class MedicinalProductAuthorizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $country
      */
-    private $country = [
-        
-    ];
+    private $country = null;
 
     /**
      * Jurisdiction within a country.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * The status of the marketing authorization.
@@ -106,9 +100,7 @@ class MedicinalProductAuthorizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductAuthorizationJurisdictionalAuthorizationType[] $jurisdictionalAuthorization
      */
-    private $jurisdictionalAuthorization = [
-        
-    ];
+    private $jurisdictionalAuthorization = null;
 
     /**
      * Marketing Authorization Holder.

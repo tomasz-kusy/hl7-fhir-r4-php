@@ -18,9 +18,7 @@ class BackboneElementType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\ExtensionType[] $modifierExtension
      */
-    private $modifierExtension = [
-        
-    ];
+    private $modifierExtension = null;
 
     /**
      * Adds as modifierExtension

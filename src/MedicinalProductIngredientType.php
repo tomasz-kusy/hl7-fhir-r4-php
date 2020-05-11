@@ -37,18 +37,14 @@ class MedicinalProductIngredientType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $manufacturer
      */
-    private $manufacturer = [
-        
-    ];
+    private $manufacturer = null;
 
     /**
      * A specified substance that comprises this ingredient.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductIngredientSpecifiedSubstanceType[] $specifiedSubstance
      */
-    private $specifiedSubstance = [
-        
-    ];
+    private $specifiedSubstance = null;
 
     /**
      * The ingredient substance.

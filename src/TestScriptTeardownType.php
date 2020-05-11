@@ -16,9 +16,7 @@ class TestScriptTeardownType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptAction2Type[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Adds as action

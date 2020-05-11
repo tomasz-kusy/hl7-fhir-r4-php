@@ -72,9 +72,7 @@ class CapabilityStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the capability statement from a consumer's perspective. Typically, this is used when the capability statement describes a desired rather than an actual solution, for example as a formal expression of requirements as part of an RFP.
@@ -88,18 +86,14 @@ class CapabilityStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the capability statement is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this capability statement is needed and why it has been designed as it has.
@@ -127,18 +121,14 @@ class CapabilityStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiates
      */
-    private $instantiates = [
-        
-    ];
+    private $instantiates = null;
 
     /**
      * Reference to a canonical URL of another CapabilityStatement that this software adds to. The capability statement automatically includes everything in the other statement, and it is not duplicated, though the server may repeat the same resources, interactions and operations to add additional details to them.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $imports
      */
-    private $imports = [
-        
-    ];
+    private $imports = null;
 
     /**
      * Software that is covered by this capability statement. It is used when the capability statement describes the capabilities of a particular software version, independent of an installation.
@@ -166,54 +156,42 @@ class CapabilityStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $format
      */
-    private $format = [
-        
-    ];
+    private $format = null;
 
     /**
      * A list of the patch formats supported by this implementation using their content types.
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $patchFormat
      */
-    private $patchFormat = [
-        
-    ];
+    private $patchFormat = null;
 
     /**
      * A list of implementation guides that the server does (or should) support in their entirety.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $implementationGuide
      */
-    private $implementationGuide = [
-        
-    ];
+    private $implementationGuide = null;
 
     /**
      * A definition of the restful capabilities of the solution, if any.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementRestType[] $rest
      */
-    private $rest = [
-        
-    ];
+    private $rest = null;
 
     /**
      * A description of the messaging capabilities of the solution.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementMessagingType[] $messaging
      */
-    private $messaging = [
-        
-    ];
+    private $messaging = null;
 
     /**
      * A document definition.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementDocumentType[] $document
      */
-    private $document = [
-        
-    ];
+    private $document = null;
 
     /**
      * Gets as url

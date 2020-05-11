@@ -16,9 +16,7 @@ class BasicType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Identifies the 'type' of resource - equivalent to the resource name for other resources.

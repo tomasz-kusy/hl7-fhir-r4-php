@@ -37,9 +37,7 @@ class CoverageEligibilityResponseInsuranceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityResponseItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as coverage

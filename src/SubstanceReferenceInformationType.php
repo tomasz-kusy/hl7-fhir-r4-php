@@ -23,36 +23,28 @@ class SubstanceReferenceInformationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceReferenceInformationGeneType[] $gene
      */
-    private $gene = [
-        
-    ];
+    private $gene = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceReferenceInformationGeneElementType[] $geneElement
      */
-    private $geneElement = [
-        
-    ];
+    private $geneElement = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceReferenceInformationClassificationType[] $classification
      */
-    private $classification = [
-        
-    ];
+    private $classification = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceReferenceInformationTargetType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Gets as comment

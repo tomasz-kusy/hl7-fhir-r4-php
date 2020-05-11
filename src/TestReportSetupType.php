@@ -16,9 +16,7 @@ class TestReportSetupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestReportActionType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Adds as action

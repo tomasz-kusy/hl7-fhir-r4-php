@@ -16,18 +16,14 @@ class ContractOfferType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Offer Recipient.
      *
      * @var \TKusy\Hl7FhirR4\ContractPartyType[] $party
      */
-    private $party = [
-        
-    ];
+    private $party = null;
 
     /**
      * The owner of an asset has the residual control rights over the asset: the right to decide all usages of the asset in any way not inconsistent with a prior contract, custom, or law (Hart, 1995, p. 30).
@@ -55,18 +51,14 @@ class ContractOfferType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $decisionMode
      */
-    private $decisionMode = [
-        
-    ];
+    private $decisionMode = null;
 
     /**
      * Response to offer text.
      *
      * @var \TKusy\Hl7FhirR4\ContractAnswerType[] $answer
      */
-    private $answer = [
-        
-    ];
+    private $answer = null;
 
     /**
      * Human readable form of this Contract Offer.
@@ -80,18 +72,14 @@ class ContractOfferType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
-    private $linkId = [
-        
-    ];
+    private $linkId = null;
 
     /**
      * Security labels that protects the offer.
      *
      * @var \TKusy\Hl7FhirR4\UnsignedIntType[] $securityLabelNumber
      */
-    private $securityLabelNumber = [
-        
-    ];
+    private $securityLabelNumber = null;
 
     /**
      * Adds as identifier

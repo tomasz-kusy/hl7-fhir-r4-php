@@ -93,9 +93,7 @@ class TestScriptOperationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TestScriptRequestHeaderType[] $requestHeader
      */
-    private $requestHeader = [
-        
-    ];
+    private $requestHeader = null;
 
     /**
      * The fixture id (maybe new) to map to the request.

@@ -16,9 +16,7 @@ class CareTeamParticipantType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $role
      */
-    private $role = [
-        
-    ];
+    private $role = null;
 
     /**
      * The specific person or organization who is participating/expected to participate in the care team.

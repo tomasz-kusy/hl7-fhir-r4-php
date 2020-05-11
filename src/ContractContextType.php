@@ -23,9 +23,7 @@ class ContractContextType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Context description.

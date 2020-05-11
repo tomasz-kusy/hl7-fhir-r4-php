@@ -16,9 +16,7 @@ class GroupType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates whether the record for the group is available for use or is merely being retained for historical purposes.
@@ -74,18 +72,14 @@ class GroupType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\GroupCharacteristicType[] $characteristic
      */
-    private $characteristic = [
-        
-    ];
+    private $characteristic = null;
 
     /**
      * Identifies the resource instances that are members of the group.
      *
      * @var \TKusy\Hl7FhirR4\GroupMemberType[] $member
      */
-    private $member = [
-        
-    ];
+    private $member = null;
 
     /**
      * Adds as identifier

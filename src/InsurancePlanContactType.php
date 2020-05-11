@@ -30,9 +30,7 @@ class InsurancePlanContactType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Visiting or postal addresses for the contact.

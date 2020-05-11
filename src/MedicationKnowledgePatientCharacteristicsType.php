@@ -30,9 +30,7 @@ class MedicationKnowledgePatientCharacteristicsType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $value
      */
-    private $value = [
-        
-    ];
+    private $value = null;
 
     /**
      * Gets as characteristicCodeableConcept

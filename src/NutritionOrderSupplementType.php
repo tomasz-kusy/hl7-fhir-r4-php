@@ -30,9 +30,7 @@ class NutritionOrderSupplementType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TimingType[] $schedule
      */
-    private $schedule = [
-        
-    ];
+    private $schedule = null;
 
     /**
      * The amount of the nutritional supplement to be given.

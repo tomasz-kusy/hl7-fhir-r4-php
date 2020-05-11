@@ -23,9 +23,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PropertyRepresentationType[] $representation
      */
-    private $representation = [
-        
-    ];
+    private $representation = null;
 
     /**
      * The name of this element definition slice, when slicing is working. The name must be a token with no dots or spaces. This is a unique name referring to a specific set of constraints applied to this element, used to provide a name to different slices of the same element.
@@ -53,9 +51,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Indicates that the element is sliced into a set of alternative definitions (i.e. in a structure definition, there are multiple different constraints on a single element in the base resource). Slicing can be used in any resource that has cardinality ..* on the base resource, or any resource with a choice of types. The set of slices is any elements that come after this in the element sequence that have the same path, until a shorter path occurs (the shorter path terminates the set).
@@ -97,9 +93,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
-    private $alias = [
-        
-    ];
+    private $alias = null;
 
     /**
      * The minimum number of times this element SHALL appear in the instance.
@@ -134,9 +128,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ElementDefinitionTypeType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * The value that should be used if there is no value stated in the instance (e.g. 'if not otherwise specified, the abstract is false'). (choose any one of the elements, but only one)
@@ -1707,9 +1699,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ElementDefinitionExampleType[] $example
      */
-    private $example = [
-        
-    ];
+    private $example = null;
 
     /**
      * The minimum allowed value for the element. The value is inclusive. This is allowed for the types date, dateTime, instant, time, decimal, integer, and Quantity. (choose any one of minValue*, but only one)
@@ -1849,18 +1839,14 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdType[] $condition
      */
-    private $condition = [
-        
-    ];
+    private $condition = null;
 
     /**
      * Formal constraints such as co-occurrence and other constraints that can be computationally evaluated within the context of the instance.
      *
      * @var \TKusy\Hl7FhirR4\ElementDefinitionConstraintType[] $constraint
      */
-    private $constraint = [
-        
-    ];
+    private $constraint = null;
 
     /**
      * If true, implementations that produce or consume resources SHALL provide "support" for the element in some meaningful way. If false, the element may be ignored and not supported. If false, whether to populate or use the data element in any way is at the discretion of the implementation.
@@ -1902,9 +1888,7 @@ class ElementDefinitionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ElementDefinitionMappingType[] $mapping
      */
-    private $mapping = [
-        
-    ];
+    private $mapping = null;
 
     /**
      * Gets as path

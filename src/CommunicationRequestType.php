@@ -16,27 +16,21 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A plan or proposal that is fulfilled in whole or in part by this request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * Completed or terminated request(s) whose function is taken by this new request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $replaces
      */
-    private $replaces = [
-        
-    ];
+    private $replaces = null;
 
     /**
      * A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition, prescription or similar form.
@@ -64,9 +58,7 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Characterizes how quickly the proposed act must be initiated. Includes concepts such as stat, urgent, routine.
@@ -87,9 +79,7 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $medium
      */
-    private $medium = [
-        
-    ];
+    private $medium = null;
 
     /**
      * The patient or group that is the focus of this communication request.
@@ -103,9 +93,7 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $about
      */
-    private $about = [
-        
-    ];
+    private $about = null;
 
     /**
      * The Encounter during which this CommunicationRequest was created or to which the creation of this record is tightly associated.
@@ -119,9 +107,7 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CommunicationRequestPayloadType[] $payload
      */
-    private $payload = [
-        
-    ];
+    private $payload = null;
 
     /**
      * The time when this communication is to occur. (choose any one of occurrence*, but only one)
@@ -156,9 +142,7 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $recipient
      */
-    private $recipient = [
-        
-    ];
+    private $recipient = null;
 
     /**
      * The entity (e.g. person, organization, clinical information system, or device) which is to be the source of the communication.
@@ -172,27 +156,21 @@ class CommunicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource whose existence justifies this request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Comments made about the request by the requester, sender, recipient, subject or other participants.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

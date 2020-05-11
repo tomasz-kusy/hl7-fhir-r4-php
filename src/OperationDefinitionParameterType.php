@@ -58,9 +58,7 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $targetProfile
      */
-    private $targetProfile = [
-        
-    ];
+    private $targetProfile = null;
 
     /**
      * How the parameter is understood as a search parameter. This is only used if the parameter type is 'string'.
@@ -81,18 +79,14 @@ class OperationDefinitionParameterType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\OperationDefinitionReferencedFromType[] $referencedFrom
      */
-    private $referencedFrom = [
-        
-    ];
+    private $referencedFrom = null;
 
     /**
      * The parts of a nested Parameter.
      *
      * @var \TKusy\Hl7FhirR4\OperationDefinitionParameterType[] $part
      */
-    private $part = [
-        
-    ];
+    private $part = null;
 
     /**
      * Gets as name

@@ -44,9 +44,7 @@ class ConceptMapGroupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ConceptMapElementType[] $element
      */
-    private $element = [
-        
-    ];
+    private $element = null;
 
     /**
      * What to do when there is no mapping for the source concept. "Unmapped" does not include codes that are unmatched, and the unmapped element is ignored in a code is specified to have equivalence = unmatched.

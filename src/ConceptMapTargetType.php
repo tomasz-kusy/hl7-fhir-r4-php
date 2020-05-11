@@ -44,18 +44,14 @@ class ConceptMapTargetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ConceptMapDependsOnType[] $dependsOn
      */
-    private $dependsOn = [
-        
-    ];
+    private $dependsOn = null;
 
     /**
      * A set of additional outcomes from this mapping to other elements. To properly execute this mapping, the specified element must be mapped to some data element or source that is in context. The mapping may still be useful without a place for the additional data elements, but the equivalence cannot be relied on.
      *
      * @var \TKusy\Hl7FhirR4\ConceptMapDependsOnType[] $product
      */
-    private $product = [
-        
-    ];
+    private $product = null;
 
     /**
      * Gets as code

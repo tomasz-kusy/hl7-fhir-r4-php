@@ -51,9 +51,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\VisionPrescriptionPrismType[] $prism
      */
-    private $prism = [
-        
-    ];
+    private $prism = null;
 
     /**
      * Power adjustment for multifocal lenses measured in dioptres (0.25 units).
@@ -109,9 +107,7 @@ class VisionPrescriptionLensSpecificationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Gets as product

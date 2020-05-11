@@ -16,9 +16,7 @@ class EncounterParticipantType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * The period of time that the specified participant participated in the encounter. These can overlap or be sub-sets of the overall encounter's period.

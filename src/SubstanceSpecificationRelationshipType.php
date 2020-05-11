@@ -86,9 +86,7 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $source
      */
-    private $source = [
-        
-    ];
+    private $source = null;
 
     /**
      * Gets as substanceReference

@@ -16,36 +16,28 @@ class NutritionOrderType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The URL pointing to a FHIR-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this NutritionOrder.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, orderset or other definition that is adhered to in whole or in part by this NutritionOrder.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * The URL pointing to a protocol, guideline, orderset or other definition that is adhered to in whole or in part by this NutritionOrder.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiates
      */
-    private $instantiates = [
-        
-    ];
+    private $instantiates = null;
 
     /**
      * The workflow status of the nutrition order/request.
@@ -94,27 +86,21 @@ class NutritionOrderType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $allergyIntolerance
      */
-    private $allergyIntolerance = [
-        
-    ];
+    private $allergyIntolerance = null;
 
     /**
      * This modifier is used to convey order-specific modifiers about the type of food that should be given. These can be derived from patient allergies, intolerances, or preferences such as Halal, Vegan or Kosher. This modifier applies to the entire nutrition order inclusive of the oral diet, nutritional supplements and enteral formula feedings.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $foodPreferenceModifier
      */
-    private $foodPreferenceModifier = [
-        
-    ];
+    private $foodPreferenceModifier = null;
 
     /**
      * This modifier is used to convey Order-specific modifier about the type of oral food or oral fluids that should not be given. These can be derived from patient allergies, intolerances, or preferences such as No Red Meat, No Soy or No Wheat or Gluten-Free. While it should not be necessary to repeat allergy or intolerance information captured in the referenced AllergyIntolerance resource in the excludeFoodModifier, this element may be used to convey additional specificity related to foods that should be eliminated from the patient’s diet for any reason. This modifier applies to the entire nutrition order inclusive of the oral diet, nutritional supplements and enteral formula feedings.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $excludeFoodModifier
      */
-    private $excludeFoodModifier = [
-        
-    ];
+    private $excludeFoodModifier = null;
 
     /**
      * Diet given orally in contrast to enteral (tube) feeding.
@@ -128,9 +114,7 @@ class NutritionOrderType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\NutritionOrderSupplementType[] $supplement
      */
-    private $supplement = [
-        
-    ];
+    private $supplement = null;
 
     /**
      * Feeding provided through the gastrointestinal tract via a tube, catheter, or stoma that delivers nutrition distal to the oral cavity.
@@ -144,9 +128,7 @@ class NutritionOrderType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

@@ -16,9 +16,7 @@ class MedicinalProductSpecialDesignationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The type of special designation, e.g. orphan drug, minor use.

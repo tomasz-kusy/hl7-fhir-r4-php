@@ -16,9 +16,7 @@ class OrganizationAffiliationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this organization affiliation record is in active use.
@@ -53,63 +51,49 @@ class OrganizationAffiliationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $network
      */
-    private $network = [
-        
-    ];
+    private $network = null;
 
     /**
      * Definition of the role the participatingOrganization plays in the association.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Specific specialty of the participatingOrganization in the context of the role.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialty
      */
-    private $specialty = [
-        
-    ];
+    private $specialty = null;
 
     /**
      * The location(s) at which the role occurs.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $location
      */
-    private $location = [
-        
-    ];
+    private $location = null;
 
     /**
      * Healthcare services provided through the role.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $healthcareService
      */
-    private $healthcareService = [
-        
-    ];
+    private $healthcareService = null;
 
     /**
      * Contact details at the participatingOrganization relevant to this Affiliation.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Technical endpoints providing access to services operated for this role.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Adds as identifier

@@ -16,9 +16,7 @@ class MedicinalProductPharmaceuticalType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The administrable dose form, after necessary reconstitution.
@@ -39,36 +37,28 @@ class MedicinalProductPharmaceuticalType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $ingredient
      */
-    private $ingredient = [
-        
-    ];
+    private $ingredient = null;
 
     /**
      * Accompanying device.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $device
      */
-    private $device = [
-        
-    ];
+    private $device = null;
 
     /**
      * Characteristics e.g. a products onset of action.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalCharacteristicsType[] $characteristics
      */
-    private $characteristics = [
-        
-    ];
+    private $characteristics = null;
 
     /**
      * The path by which the pharmaceutical product is taken into or makes contact with the body.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalRouteOfAdministrationType[] $routeOfAdministration
      */
-    private $routeOfAdministration = [
-        
-    ];
+    private $routeOfAdministration = null;
 
     /**
      * Adds as identifier

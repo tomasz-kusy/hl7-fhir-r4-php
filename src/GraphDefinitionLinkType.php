@@ -51,9 +51,7 @@ class GraphDefinitionLinkType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\GraphDefinitionTargetType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Gets as path

@@ -16,9 +16,7 @@ class ClaimType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -109,9 +107,7 @@ class ClaimType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ClaimRelatedType[] $related
      */
-    private $related = [
-        
-    ];
+    private $related = null;
 
     /**
      * Prescription to support the dispensing of pharmacy, device or vision products.
@@ -153,45 +149,35 @@ class ClaimType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ClaimCareTeamType[] $careTeam
      */
-    private $careTeam = [
-        
-    ];
+    private $careTeam = null;
 
     /**
      * Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues.
      *
      * @var \TKusy\Hl7FhirR4\ClaimSupportingInfoType[] $supportingInfo
      */
-    private $supportingInfo = [
-        
-    ];
+    private $supportingInfo = null;
 
     /**
      * Information about diagnoses relevant to the claim items.
      *
      * @var \TKusy\Hl7FhirR4\ClaimDiagnosisType[] $diagnosis
      */
-    private $diagnosis = [
-        
-    ];
+    private $diagnosis = null;
 
     /**
      * Procedures performed on the patient relevant to the billing items with the claim.
      *
      * @var \TKusy\Hl7FhirR4\ClaimProcedureType[] $procedure
      */
-    private $procedure = [
-        
-    ];
+    private $procedure = null;
 
     /**
      * Financial instruments for reimbursement for the health care products and services specified on the claim.
      *
      * @var \TKusy\Hl7FhirR4\ClaimInsuranceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Details of an accident which resulted in injuries which required the products and services listed in the claim.
@@ -205,9 +191,7 @@ class ClaimType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ClaimItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * The total value of the all the items in the claim.

@@ -44,9 +44,7 @@ class SubstanceSpecificationStructureType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationIsotopeType[] $isotope
      */
-    private $isotope = [
-        
-    ];
+    private $isotope = null;
 
     /**
      * The molecular weight or weight range (for proteins, polymers or nucleic acids).
@@ -60,18 +58,14 @@ class SubstanceSpecificationStructureType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $source
      */
-    private $source = [
-        
-    ];
+    private $source = null;
 
     /**
      * Molecular structural representation.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationRepresentationType[] $representation
      */
-    private $representation = [
-        
-    ];
+    private $representation = null;
 
     /**
      * Gets as stereochemistry

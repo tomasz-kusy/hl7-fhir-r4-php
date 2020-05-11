@@ -16,9 +16,7 @@ class ParametersType extends ResourceType
      *
      * @var \TKusy\Hl7FhirR4\ParametersParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * Adds as parameter

@@ -16,45 +16,35 @@ class RequestGroupType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A canonical URL referencing a FHIR-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this request.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * A URL referencing an externally defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this request.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * A plan, proposal or order that is fulfilled in whole or in part by this request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * Completed or terminated request(s) whose function is taken by this new request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $replaces
      */
-    private $replaces = [
-        
-    ];
+    private $replaces = null;
 
     /**
      * A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition, prescription or similar form.
@@ -124,36 +114,28 @@ class RequestGroupType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource whose existence justifies this request group.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Provides a mechanism to communicate additional information about the response.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * The actions, if any, produced by the evaluation of the artifact.
      *
      * @var \TKusy\Hl7FhirR4\RequestGroupActionType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Adds as identifier

@@ -16,9 +16,7 @@ class PractitionerRoleAvailableTimeType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\DaysOfWeekType[] $daysOfWeek
      */
-    private $daysOfWeek = [
-        
-    ];
+    private $daysOfWeek = null;
 
     /**
      * Is this always available? (hence times are irrelevant) e.g. 24 hour service.

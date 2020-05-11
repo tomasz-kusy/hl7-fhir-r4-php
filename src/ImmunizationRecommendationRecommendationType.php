@@ -16,9 +16,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $vaccineCode
      */
-    private $vaccineCode = [
-        
-    ];
+    private $vaccineCode = null;
 
     /**
      * The targeted disease for the recommendation.
@@ -32,9 +30,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $contraindicatedVaccineCode
      */
-    private $contraindicatedVaccineCode = [
-        
-    ];
+    private $contraindicatedVaccineCode = null;
 
     /**
      * Indicates the patient status with respect to the path to immunity for the target disease.
@@ -48,18 +44,14 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $forecastReason
      */
-    private $forecastReason = [
-        
-    ];
+    private $forecastReason = null;
 
     /**
      * Vaccine date recommendations. For example, earliest date to administer, latest date to administer, etc.
      *
      * @var \TKusy\Hl7FhirR4\ImmunizationRecommendationDateCriterionType[] $dateCriterion
      */
-    private $dateCriterion = [
-        
-    ];
+    private $dateCriterion = null;
 
     /**
      * Contains the description about the protocol under which the vaccine was administered.
@@ -108,18 +100,14 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingImmunization
      */
-    private $supportingImmunization = [
-        
-    ];
+    private $supportingImmunization = null;
 
     /**
      * Patient Information that supports the status and recommendation. This includes patient observations, adverse reactions and allergy/intolerance information.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingPatientInformation
      */
-    private $supportingPatientInformation = [
-        
-    ];
+    private $supportingPatientInformation = null;
 
     /**
      * Adds as vaccineCode

@@ -17,9 +17,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Broad category of this product.
@@ -47,9 +45,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $request
      */
-    private $request = [
-        
-    ];
+    private $request = null;
 
     /**
      * Number of discrete units within this product.
@@ -63,9 +59,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $parent
      */
-    private $parent = [
-        
-    ];
+    private $parent = null;
 
     /**
      * How this product was collected.
@@ -79,9 +73,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\BiologicallyDerivedProductProcessingType[] $processing
      */
-    private $processing = [
-        
-    ];
+    private $processing = null;
 
     /**
      * Any manipulation of product post-collection that is intended to alter the product. For example a buffy-coat enrichment or CD8 reduction of Peripheral Blood Stem Cells to make it more suitable for infusion.
@@ -95,9 +87,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType[] $storage
      */
-    private $storage = [
-        
-    ];
+    private $storage = null;
 
     /**
      * Adds as identifier

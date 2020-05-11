@@ -16,9 +16,7 @@ class RiskAssessmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A reference to the request that is fulfilled by this risk assessment.
@@ -102,36 +100,28 @@ class RiskAssessmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Resources supporting the reason the risk assessment was performed.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Indicates the source data considered as part of the assessment (for example, FamilyHistory, Observations, Procedures, Conditions, etc.).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basis
      */
-    private $basis = [
-        
-    ];
+    private $basis = null;
 
     /**
      * Describes the expected outcome for the subject.
      *
      * @var \TKusy\Hl7FhirR4\RiskAssessmentPredictionType[] $prediction
      */
-    private $prediction = [
-        
-    ];
+    private $prediction = null;
 
     /**
      * A description of the steps that might be taken to reduce the identified risk(s).
@@ -145,9 +135,7 @@ class RiskAssessmentType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

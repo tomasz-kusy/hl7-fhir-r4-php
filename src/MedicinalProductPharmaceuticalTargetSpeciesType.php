@@ -23,9 +23,7 @@ class MedicinalProductPharmaceuticalTargetSpeciesType extends BackboneElementTyp
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalWithdrawalPeriodType[] $withdrawalPeriod
      */
-    private $withdrawalPeriod = [
-        
-    ];
+    private $withdrawalPeriod = null;
 
     /**
      * Gets as code

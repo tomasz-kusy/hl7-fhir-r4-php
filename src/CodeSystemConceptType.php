@@ -37,27 +37,21 @@ class CodeSystemConceptType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeSystemDesignationType[] $designation
      */
-    private $designation = [
-        
-    ];
+    private $designation = null;
 
     /**
      * A property value for this concept.
      *
      * @var \TKusy\Hl7FhirR4\CodeSystemProperty1Type[] $property
      */
-    private $property = [
-        
-    ];
+    private $property = null;
 
     /**
      * Defines children of a concept to produce a hierarchy of concepts. The nature of the relationships is variable (is-a/contains/categorizes) - see hierarchyMeaning.
      *
      * @var \TKusy\Hl7FhirR4\CodeSystemConceptType[] $concept
      */
-    private $concept = [
-        
-    ];
+    private $concept = null;
 
     /**
      * Gets as code

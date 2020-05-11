@@ -16,9 +16,7 @@ class MedicinalProductUndesirableEffectType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * The symptom, condition or undesirable effect.
@@ -46,9 +44,7 @@ class MedicinalProductUndesirableEffectType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\PopulationType[] $population
      */
-    private $population = [
-        
-    ];
+    private $population = null;
 
     /**
      * Adds as subject

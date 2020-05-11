@@ -16,18 +16,14 @@ class MedicationKnowledgeKineticsType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\QuantityType[] $areaUnderCurve
      */
-    private $areaUnderCurve = [
-        
-    ];
+    private $areaUnderCurve = null;
 
     /**
      * The median lethal dose of a drug.
      *
      * @var \TKusy\Hl7FhirR4\QuantityType[] $lethalDose50
      */
-    private $lethalDose50 = [
-        
-    ];
+    private $lethalDose50 = null;
 
     /**
      * The time required for any specified property (e.g., the concentration of a substance in the body) to decrease by half.

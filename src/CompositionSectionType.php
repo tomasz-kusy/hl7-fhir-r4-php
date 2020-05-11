@@ -30,9 +30,7 @@ class CompositionSectionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $author
      */
-    private $author = [
-        
-    ];
+    private $author = null;
 
     /**
      * The actual focus of the section when it is not the subject of the composition, but instead represents something or someone associated with the subject such as (for a patient subject) a spouse, parent, fetus, or donor. If not focus is specified, the focus is assumed to be focus of the parent section, or, for a section in the Composition itself, the subject of the composition. Sections with a focus SHALL only include resources where the logical subject (patient, subject, focus, etc.) matches the section focus, or the resources have no logical subject (few resources).
@@ -67,9 +65,7 @@ class CompositionSectionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $entry
      */
-    private $entry = [
-        
-    ];
+    private $entry = null;
 
     /**
      * If the section is empty, why the list is empty. An empty section typically has some text explaining the empty reason.
@@ -83,9 +79,7 @@ class CompositionSectionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CompositionSectionType[] $section
      */
-    private $section = [
-        
-    ];
+    private $section = null;
 
     /**
      * Gets as title

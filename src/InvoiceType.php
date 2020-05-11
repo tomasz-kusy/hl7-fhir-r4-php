@@ -16,9 +16,7 @@ class InvoiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The current state of the Invoice.
@@ -67,9 +65,7 @@ class InvoiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\InvoiceParticipantType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * The organizationissuing the Invoice.
@@ -90,18 +86,14 @@ class InvoiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\InvoiceLineItemType[] $lineItem
      */
-    private $lineItem = [
-        
-    ];
+    private $lineItem = null;
 
     /**
      * The total amount for the Invoice may be calculated as the sum of the line items with surcharges/deductions that apply in certain conditions. The priceComponent element can be used to offer transparency to the recipient of the Invoice of how the total price was calculated.
      *
      * @var \TKusy\Hl7FhirR4\InvoicePriceComponentType[] $totalPriceComponent
      */
-    private $totalPriceComponent = [
-        
-    ];
+    private $totalPriceComponent = null;
 
     /**
      * Invoice total , taxes excluded.
@@ -129,9 +121,7 @@ class InvoiceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

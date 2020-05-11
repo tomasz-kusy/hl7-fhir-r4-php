@@ -23,18 +23,14 @@ class CarePlanDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan activity.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * Detailed description of the type of planned activity; e.g. what lab test, what procedure, what kind of encounter.
@@ -48,27 +44,21 @@ class CarePlanDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource, such as the health condition(s), whose existence justifies this request and drove the inclusion of this particular activity as part of the plan.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Internal reference that identifies the goals that this activity is intended to contribute towards meeting.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $goal
      */
-    private $goal = [
-        
-    ];
+    private $goal = null;
 
     /**
      * Identifies what progress is being made for the specific activity.
@@ -124,9 +114,7 @@ class CarePlanDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * Identifies the food, drug or other product to be consumed or supplied in the activity. (choose any one of product*, but only one)

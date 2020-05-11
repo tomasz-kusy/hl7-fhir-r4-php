@@ -72,9 +72,7 @@ class ContractTermType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ContractSecurityLabelType[] $securityLabel
      */
-    private $securityLabel = [
-        
-    ];
+    private $securityLabel = null;
 
     /**
      * The matter of concern in the context of this provision of the agrement.
@@ -88,27 +86,21 @@ class ContractTermType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ContractAssetType[] $asset
      */
-    private $asset = [
-        
-    ];
+    private $asset = null;
 
     /**
      * An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place.
      *
      * @var \TKusy\Hl7FhirR4\ContractActionType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Nested group of Contract Provisions.
      *
      * @var \TKusy\Hl7FhirR4\ContractTermType[] $group
      */
-    private $group = [
-        
-    ];
+    private $group = null;
 
     /**
      * Gets as identifier

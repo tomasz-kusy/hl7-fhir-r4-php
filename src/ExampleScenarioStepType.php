@@ -16,9 +16,7 @@ class ExampleScenarioStepType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioProcessType[] $process
      */
-    private $process = [
-        
-    ];
+    private $process = null;
 
     /**
      * If there is a pause in the flow.
@@ -39,9 +37,7 @@ class ExampleScenarioStepType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioAlternativeType[] $alternative
      */
-    private $alternative = [
-        
-    ];
+    private $alternative = null;
 
     /**
      * Adds as process

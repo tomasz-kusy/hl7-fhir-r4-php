@@ -16,9 +16,7 @@ class SubstanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A code to indicate if the substance is actively used.
@@ -32,9 +30,7 @@ class SubstanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * A code (or set of codes) that identify this substance.
@@ -55,18 +51,14 @@ class SubstanceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceInstanceType[] $instance
      */
-    private $instance = [
-        
-    ];
+    private $instance = null;
 
     /**
      * A substance can be composed of other substances.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceIngredientType[] $ingredient
      */
-    private $ingredient = [
-        
-    ];
+    private $ingredient = null;
 
     /**
      * Adds as identifier

@@ -16,9 +16,7 @@ class CoverageType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -88,18 +86,14 @@ class CoverageType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $payor
      */
-    private $payor = [
-        
-    ];
+    private $payor = null;
 
     /**
      * A suite of underwriter specific classifiers.
      *
      * @var \TKusy\Hl7FhirR4\CoverageClassType[] $class
      */
-    private $class = [
-        
-    ];
+    private $class = null;
 
     /**
      * The order of applicability of this coverage relative to other coverages which are currently in force. Note, there may be gaps in the numbering and this does not imply primary, secondary etc. as the specific positioning of coverages depends upon the episode of care.
@@ -120,9 +114,7 @@ class CoverageType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CoverageCostToBeneficiaryType[] $costToBeneficiary
      */
-    private $costToBeneficiary = [
-        
-    ];
+    private $costToBeneficiary = null;
 
     /**
      * When 'subrogation=true' this insurance instance has been included not for adjudication but to provide insurers with the details to recover costs.
@@ -136,9 +128,7 @@ class CoverageType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $contract
      */
-    private $contract = [
-        
-    ];
+    private $contract = null;
 
     /**
      * Adds as identifier

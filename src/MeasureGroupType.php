@@ -30,18 +30,14 @@ class MeasureGroupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MeasurePopulationType[] $population
      */
-    private $population = [
-        
-    ];
+    private $population = null;
 
     /**
      * The stratifier criteria for the measure report, specified as either the name of a valid CQL expression defined within a referenced library or a valid FHIR Resource Path.
      *
      * @var \TKusy\Hl7FhirR4\MeasureStratifierType[] $stratifier
      */
-    private $stratifier = [
-        
-    ];
+    private $stratifier = null;
 
     /**
      * Gets as code

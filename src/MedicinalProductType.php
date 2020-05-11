@@ -16,9 +16,7 @@ class MedicinalProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Regulatory type, e.g. Investigational or Authorized.
@@ -60,9 +58,7 @@ class MedicinalProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $specialMeasures
      */
-    private $specialMeasures = [
-        
-    ];
+    private $specialMeasures = null;
 
     /**
      * If authorised for use in children.
@@ -76,108 +72,84 @@ class MedicinalProductType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $productClassification
      */
-    private $productClassification = [
-        
-    ];
+    private $productClassification = null;
 
     /**
      * Marketing status of the medicinal product, in contrast to marketing authorizaton.
      *
      * @var \TKusy\Hl7FhirR4\MarketingStatusType[] $marketingStatus
      */
-    private $marketingStatus = [
-        
-    ];
+    private $marketingStatus = null;
 
     /**
      * Pharmaceutical aspects of product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $pharmaceuticalProduct
      */
-    private $pharmaceuticalProduct = [
-        
-    ];
+    private $pharmaceuticalProduct = null;
 
     /**
      * Package representation for the product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $packagedMedicinalProduct
      */
-    private $packagedMedicinalProduct = [
-        
-    ];
+    private $packagedMedicinalProduct = null;
 
     /**
      * Supporting documentation, typically for regulatory submission.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $attachedDocument
      */
-    private $attachedDocument = [
-        
-    ];
+    private $attachedDocument = null;
 
     /**
      * A master file for to the medicinal product (e.g. Pharmacovigilance System Master File).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $masterFile
      */
-    private $masterFile = [
-        
-    ];
+    private $masterFile = null;
 
     /**
      * A product specific contact, person (in a role), or an organization.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * Clinical trials or studies that this product is involved in.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $clinicalTrial
      */
-    private $clinicalTrial = [
-        
-    ];
+    private $clinicalTrial = null;
 
     /**
      * The product's name, including full name and possibly coded parts.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductNameType[] $name
      */
-    private $name = [
-        
-    ];
+    private $name = null;
 
     /**
      * Reference to another product, e.g. for linking authorised to investigational product.
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $crossReference
      */
-    private $crossReference = [
-        
-    ];
+    private $crossReference = null;
 
     /**
      * An operation applied to the product, for manufacturing or adminsitrative purpose.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductManufacturingBusinessOperationType[] $manufacturingBusinessOperation
      */
-    private $manufacturingBusinessOperation = [
-        
-    ];
+    private $manufacturingBusinessOperation = null;
 
     /**
      * Indicates if the medicinal product has an orphan designation for the treatment of a rare disease.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductSpecialDesignationType[] $specialDesignation
      */
-    private $specialDesignation = [
-        
-    ];
+    private $specialDesignation = null;
 
     /**
      * Adds as identifier

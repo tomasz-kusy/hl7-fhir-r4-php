@@ -23,9 +23,7 @@ class QuestionnaireType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the questionnaire when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the questionnaire author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
@@ -53,9 +51,7 @@ class QuestionnaireType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $derivedFrom
      */
-    private $derivedFrom = [
-        
-    ];
+    private $derivedFrom = null;
 
     /**
      * The status of this questionnaire. Enables tracking the life-cycle of the content.
@@ -76,9 +72,7 @@ class QuestionnaireType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $subjectType
      */
-    private $subjectType = [
-        
-    ];
+    private $subjectType = null;
 
     /**
      * The date (and optionally time) when the questionnaire was published. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the questionnaire changes.
@@ -99,9 +93,7 @@ class QuestionnaireType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the questionnaire from a consumer's perspective.
@@ -115,18 +107,14 @@ class QuestionnaireType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the questionnaire is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this questionnaire is needed and why it has been designed as it has.
@@ -168,18 +156,14 @@ class QuestionnaireType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * A particular question, question grouping or display text that is part of the questionnaire.
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as url

@@ -79,9 +79,7 @@ class ConceptMapType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the concept map from a consumer's perspective.
@@ -95,18 +93,14 @@ class ConceptMapType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the concept map is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this concept map is needed and why it has been designed as it has.
@@ -155,9 +149,7 @@ class ConceptMapType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ConceptMapGroupType[] $group
      */
-    private $group = [
-        
-    ];
+    private $group = null;
 
     /**
      * Gets as url

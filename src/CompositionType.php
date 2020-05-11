@@ -37,9 +37,7 @@ class CompositionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Who or what the composition is about. The composition can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure).
@@ -67,9 +65,7 @@ class CompositionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $author
      */
-    private $author = [
-        
-    ];
+    private $author = null;
 
     /**
      * Official human-readable label for the composition.
@@ -90,9 +86,7 @@ class CompositionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CompositionAttesterType[] $attester
      */
-    private $attester = [
-        
-    ];
+    private $attester = null;
 
     /**
      * Identifies the organization or group who is responsible for ongoing maintenance of and access to the composition/document information.
@@ -106,27 +100,21 @@ class CompositionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CompositionRelatesToType[] $relatesTo
      */
-    private $relatesTo = [
-        
-    ];
+    private $relatesTo = null;
 
     /**
      * The clinical service, such as a colonoscopy or an appendectomy, being documented.
      *
      * @var \TKusy\Hl7FhirR4\CompositionEventType[] $event
      */
-    private $event = [
-        
-    ];
+    private $event = null;
 
     /**
      * The root of the sections that make up the composition.
      *
      * @var \TKusy\Hl7FhirR4\CompositionSectionType[] $section
      */
-    private $section = [
-        
-    ];
+    private $section = null;
 
     /**
      * Gets as identifier

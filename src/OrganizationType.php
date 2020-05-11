@@ -16,9 +16,7 @@ class OrganizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether the organization's record is still in active use.
@@ -32,9 +30,7 @@ class OrganizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * A name associated with the organization.
@@ -48,27 +44,21 @@ class OrganizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
-    private $alias = [
-        
-    ];
+    private $alias = null;
 
     /**
      * A contact detail for the organization.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * An address for the organization.
      *
      * @var \TKusy\Hl7FhirR4\AddressType[] $address
      */
-    private $address = [
-        
-    ];
+    private $address = null;
 
     /**
      * The organization of which this organization forms a part.
@@ -82,18 +72,14 @@ class OrganizationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\OrganizationContactType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * Technical endpoints providing access to services operated for the organization.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Adds as identifier

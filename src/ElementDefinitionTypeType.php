@@ -23,27 +23,21 @@ class ElementDefinitionTypeType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $profile
      */
-    private $profile = [
-        
-    ];
+    private $profile = null;
 
     /**
      * Used when the type is "Reference" or "canonical", and identifies a profile structure or implementation Guide that applies to the target of the reference this element refers to. If any profiles are specified, then the content must conform to at least one of them. The URL can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canonical URL. When an implementation guide is specified, the target resource SHALL conform to at least one profile defined in the implementation guide.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $targetProfile
      */
-    private $targetProfile = [
-        
-    ];
+    private $targetProfile = null;
 
     /**
      * If the type is a reference to another resource, how the resource is or can be aggregated - is it a contained resource, or a reference, and if the context is a bundle, is it included in the bundle.
      *
      * @var \TKusy\Hl7FhirR4\AggregationModeType[] $aggregation
      */
-    private $aggregation = [
-        
-    ];
+    private $aggregation = null;
 
     /**
      * Whether this reference needs to be version specific or version independent, or whether either can be used.

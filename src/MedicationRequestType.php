@@ -16,9 +16,7 @@ class MedicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A code specifying the current state of the order. Generally, this will be active or completed state.
@@ -46,9 +44,7 @@ class MedicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Indicates how quickly the Medication Request should be addressed with respect to other requests.
@@ -111,9 +107,7 @@ class MedicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInformation
      */
-    private $supportingInformation = [
-        
-    ];
+    private $supportingInformation = null;
 
     /**
      * The date (and perhaps time) when the prescription was initially written or authored on.
@@ -155,45 +149,35 @@ class MedicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Condition or observation that supports why the medication was ordered.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * The URL pointing to a protocol, guideline, orderset, or other definition that is adhered to in whole or in part by this MedicationRequest.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, orderset or other definition that is adhered to in whole or in part by this MedicationRequest.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * A plan or request that is fulfilled in whole or in part by this medication request.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A shared identifier common to all requests that were authorized more or less simultaneously by a single author, representing the identifier of the requisition or prescription.
@@ -214,27 +198,21 @@ class MedicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Extra information about the prescription that could not be conveyed by the other attributes.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Indicates how the medication is to be used by the patient.
      *
      * @var \TKusy\Hl7FhirR4\DosageType[] $dosageInstruction
      */
-    private $dosageInstruction = [
-        
-    ];
+    private $dosageInstruction = null;
 
     /**
      * Indicates the specific details for the dispense or medication supply part of a medication request (also known as a Medication Prescription or Medication Order). Note that this information is not always sent with the order. There may be in some settings (e.g. hospitals) institutional or system support for completing the dispense details in the pharmacy department.
@@ -262,18 +240,14 @@ class MedicationRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $detectedIssue
      */
-    private $detectedIssue = [
-        
-    ];
+    private $detectedIssue = null;
 
     /**
      * Links to Provenance records for past versions of this resource or fulfilling request or event resources that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the resource.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $eventHistory
      */
-    private $eventHistory = [
-        
-    ];
+    private $eventHistory = null;
 
     /**
      * Adds as identifier

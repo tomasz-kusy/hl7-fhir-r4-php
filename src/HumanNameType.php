@@ -37,27 +37,21 @@ class HumanNameType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $given
      */
-    private $given = [
-        
-    ];
+    private $given = null;
 
     /**
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $prefix
      */
-    private $prefix = [
-        
-    ];
+    private $prefix = null;
 
     /**
      * Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $suffix
      */
-    private $suffix = [
-        
-    ];
+    private $suffix = null;
 
     /**
      * Indicates the period of time when this name was valid for the named person.

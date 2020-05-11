@@ -44,9 +44,7 @@ class ResearchElementDefinitionCharacteristicType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $usageContext
      */
-    private $usageContext = [
-        
-    ];
+    private $usageContext = null;
 
     /**
      * When true, members with this characteristic are excluded from the element.

@@ -16,36 +16,28 @@ class ExplanationOfBenefitAddItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $itemSequence
      */
-    private $itemSequence = [
-        
-    ];
+    private $itemSequence = null;
 
     /**
      * The sequence number of the details within the claim item which this line is intended to replace.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $detailSequence
      */
-    private $detailSequence = [
-        
-    ];
+    private $detailSequence = null;
 
     /**
      * The sequence number of the sub-details woithin the details within the claim item which this line is intended to replace.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $subDetailSequence
      */
-    private $subDetailSequence = [
-        
-    ];
+    private $subDetailSequence = null;
 
     /**
      * The providers who are authorized for the services rendered to the patient.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $provider
      */
-    private $provider = [
-        
-    ];
+    private $provider = null;
 
     /**
      * When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item.
@@ -59,18 +51,14 @@ class ExplanationOfBenefitAddItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * Identifies the program under which this may be recovered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $programCode
      */
-    private $programCode = [
-        
-    ];
+    private $programCode = null;
 
     /**
      * The date or dates when the service or product was supplied, performed or completed. (choose any one of serviced*, but only one)
@@ -147,36 +135,28 @@ class ExplanationOfBenefitAddItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $subSite
      */
-    private $subSite = [
-        
-    ];
+    private $subSite = null;
 
     /**
      * The numbers associated with notes below which apply to the adjudication of this item.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $noteNumber
      */
-    private $noteNumber = [
-        
-    ];
+    private $noteNumber = null;
 
     /**
      * The adjudication results.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * The second-tier service adjudications for payor added services.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitDetail1Type[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Adds as itemSequence

@@ -44,27 +44,21 @@ class PlanDefinitionGoalType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $addresses
      */
-    private $addresses = [
-        
-    ];
+    private $addresses = null;
 
     /**
      * Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web resources.
      *
      * @var \TKusy\Hl7FhirR4\RelatedArtifactType[] $documentation
      */
-    private $documentation = [
-        
-    ];
+    private $documentation = null;
 
     /**
      * Indicates what should be done and within what timeframe.
      *
      * @var \TKusy\Hl7FhirR4\PlanDefinitionTargetType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Gets as category

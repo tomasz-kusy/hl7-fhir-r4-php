@@ -23,27 +23,21 @@ class ClaimResponseItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $noteNumber
      */
-    private $noteNumber = [
-        
-    ];
+    private $noteNumber = null;
 
     /**
      * If this item is a group then the values here are a summary of the adjudication of the detail items. If this item is a simple product or service then this is the result of the adjudication of this item.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * A claim detail. Either a simple (a product or service) or a 'group' of sub-details which are simple items.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseDetailType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Gets as itemSequence

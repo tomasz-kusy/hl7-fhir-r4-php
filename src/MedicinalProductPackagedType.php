@@ -16,18 +16,14 @@ class MedicinalProductPackagedType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The product with this is a pack for.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * Textual description.
@@ -48,9 +44,7 @@ class MedicinalProductPackagedType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MarketingStatusType[] $marketingStatus
      */
-    private $marketingStatus = [
-        
-    ];
+    private $marketingStatus = null;
 
     /**
      * Manufacturer of this Package Item.
@@ -64,27 +58,21 @@ class MedicinalProductPackagedType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $manufacturer
      */
-    private $manufacturer = [
-        
-    ];
+    private $manufacturer = null;
 
     /**
      * Batch numbering.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPackagedBatchIdentifierType[] $batchIdentifier
      */
-    private $batchIdentifier = [
-        
-    ];
+    private $batchIdentifier = null;
 
     /**
      * A packaging item, as a contained for medicine, possibly with other packaging items within.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType[] $packageItem
      */
-    private $packageItem = [
-        
-    ];
+    private $packageItem = null;
 
     /**
      * Adds as identifier

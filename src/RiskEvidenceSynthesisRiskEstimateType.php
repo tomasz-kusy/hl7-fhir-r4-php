@@ -58,9 +58,7 @@ class RiskEvidenceSynthesisRiskEstimateType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\RiskEvidenceSynthesisPrecisionEstimateType[] $precisionEstimate
      */
-    private $precisionEstimate = [
-        
-    ];
+    private $precisionEstimate = null;
 
     /**
      * Gets as description

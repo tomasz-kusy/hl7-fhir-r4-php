@@ -16,9 +16,7 @@ class OperationOutcomeType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\OperationOutcomeIssueType[] $issue
      */
-    private $issue = [
-        
-    ];
+    private $issue = null;
 
     /**
      * Adds as issue

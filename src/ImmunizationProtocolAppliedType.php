@@ -30,9 +30,7 @@ class ImmunizationProtocolAppliedType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $targetDisease
      */
-    private $targetDisease = [
-        
-    ];
+    private $targetDisease = null;
 
     /**
      * Nominal position in a series. (choose any one of doseNumber*, but only one)

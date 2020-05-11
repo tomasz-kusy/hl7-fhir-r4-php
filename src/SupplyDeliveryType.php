@@ -16,27 +16,21 @@ class SupplyDeliveryType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A plan, proposal or order that is fulfilled in whole or in part by this event.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A larger event of which this particular event is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * A code specifying the state of the dispense event.
@@ -106,9 +100,7 @@ class SupplyDeliveryType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $receiver
      */
-    private $receiver = [
-        
-    ];
+    private $receiver = null;
 
     /**
      * Adds as identifier

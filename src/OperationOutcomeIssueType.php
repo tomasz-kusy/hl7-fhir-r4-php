@@ -46,18 +46,14 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $location
      */
-    private $location = [
-        
-    ];
+    private $location = null;
 
     /**
      * A [simple subset of FHIRPath](fhirpath.html#simple) limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $expression
      */
-    private $expression = [
-        
-    ];
+    private $expression = null;
 
     /**
      * Gets as severity

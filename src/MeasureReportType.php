@@ -16,9 +16,7 @@ class MeasureReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The MeasureReport status. No data will be available until the MeasureReport status is complete.
@@ -81,18 +79,14 @@ class MeasureReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MeasureReportGroupType[] $group
      */
-    private $group = [
-        
-    ];
+    private $group = null;
 
     /**
      * A reference to a Bundle containing the Resources that were used in the calculation of this measure.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $evaluatedResource
      */
-    private $evaluatedResource = [
-        
-    ];
+    private $evaluatedResource = null;
 
     /**
      * Adds as identifier

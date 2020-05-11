@@ -23,27 +23,21 @@ class ClaimResponseDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $noteNumber
      */
-    private $noteNumber = [
-        
-    ];
+    private $noteNumber = null;
 
     /**
      * The adjudication results.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * A sub-detail adjudication of a simple product or service.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseSubDetailType[] $subDetail
      */
-    private $subDetail = [
-        
-    ];
+    private $subDetail = null;
 
     /**
      * Gets as detailSequence

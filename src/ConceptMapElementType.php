@@ -30,9 +30,7 @@ class ConceptMapElementType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ConceptMapTargetType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Gets as code

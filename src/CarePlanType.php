@@ -16,54 +16,42 @@ class CarePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The URL pointing to a FHIR-defined protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $instantiatesCanonical
      */
-    private $instantiatesCanonical = [
-        
-    ];
+    private $instantiatesCanonical = null;
 
     /**
      * The URL pointing to an externally maintained protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiatesUri
      */
-    private $instantiatesUri = [
-        
-    ];
+    private $instantiatesUri = null;
 
     /**
      * A care plan that is fulfilled in whole or in part by this care plan.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * Completed or terminated care plan whose function is taken by this new care plan.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $replaces
      */
-    private $replaces = [
-        
-    ];
+    private $replaces = null;
 
     /**
      * A larger care plan of which this particular care plan is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.
@@ -84,9 +72,7 @@ class CarePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Human-friendly name for the care plan.
@@ -142,63 +128,49 @@ class CarePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $contributor
      */
-    private $contributor = [
-        
-    ];
+    private $contributor = null;
 
     /**
      * Identifies all people and organizations who are expected to be involved in the care envisioned by this plan.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $careTeam
      */
-    private $careTeam = [
-        
-    ];
+    private $careTeam = null;
 
     /**
      * Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $addresses
      */
-    private $addresses = [
-        
-    ];
+    private $addresses = null;
 
     /**
      * Identifies portions of the patient's record that specifically influenced the formation of the plan. These might include comorbidities, recent procedures, limitations, recent assessments, etc.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInfo
      */
-    private $supportingInfo = [
-        
-    ];
+    private $supportingInfo = null;
 
     /**
      * Describes the intended objective(s) of carrying out the care plan.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $goal
      */
-    private $goal = [
-        
-    ];
+    private $goal = null;
 
     /**
      * Identifies a planned action to occur as part of the plan. For example, a medication to be used, lab tests to perform, self-monitoring, education, etc.
      *
      * @var \TKusy\Hl7FhirR4\CarePlanActivityType[] $activity
      */
-    private $activity = [
-        
-    ];
+    private $activity = null;
 
     /**
      * General notes about the care plan not covered elsewhere.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

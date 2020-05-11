@@ -51,9 +51,7 @@ class SubstanceSourceMaterialOrganismType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSourceMaterialAuthorType[] $author
      */
-    private $author = [
-        
-    ];
+    private $author = null;
 
     /**
      * 4.9.13.8.1 Hybrid species maternal organism ID (Optional).

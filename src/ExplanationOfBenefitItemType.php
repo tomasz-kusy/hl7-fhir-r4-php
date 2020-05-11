@@ -23,36 +23,28 @@ class ExplanationOfBenefitItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $careTeamSequence
      */
-    private $careTeamSequence = [
-        
-    ];
+    private $careTeamSequence = null;
 
     /**
      * Diagnoses applicable for this service or product.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $diagnosisSequence
      */
-    private $diagnosisSequence = [
-        
-    ];
+    private $diagnosisSequence = null;
 
     /**
      * Procedures applicable for this service or product.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $procedureSequence
      */
-    private $procedureSequence = [
-        
-    ];
+    private $procedureSequence = null;
 
     /**
      * Exceptions, special conditions and supporting information applicable for this service or product.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $informationSequence
      */
-    private $informationSequence = [
-        
-    ];
+    private $informationSequence = null;
 
     /**
      * The type of revenue or cost center providing the product and/or service.
@@ -80,18 +72,14 @@ class ExplanationOfBenefitItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * Identifies the program under which this may be recovered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $programCode
      */
-    private $programCode = [
-        
-    ];
+    private $programCode = null;
 
     /**
      * The date or dates when the service or product was supplied, performed or completed. (choose any one of serviced*, but only one)
@@ -161,9 +149,7 @@ class ExplanationOfBenefitItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $udi
      */
-    private $udi = [
-        
-    ];
+    private $udi = null;
 
     /**
      * Physical service site on the patient (limb, tooth, etc.).
@@ -177,45 +163,35 @@ class ExplanationOfBenefitItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $subSite
      */
-    private $subSite = [
-        
-    ];
+    private $subSite = null;
 
     /**
      * A billed item may include goods or services provided in multiple encounters.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $encounter
      */
-    private $encounter = [
-        
-    ];
+    private $encounter = null;
 
     /**
      * The numbers associated with notes below which apply to the adjudication of this item.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $noteNumber
      */
-    private $noteNumber = [
-        
-    ];
+    private $noteNumber = null;
 
     /**
      * If this item is a group then the values here are a summary of the adjudication of the detail items. If this item is a simple product or service then this is the result of the adjudication of this item.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * Second-tier of goods and services.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitDetailType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Gets as sequence

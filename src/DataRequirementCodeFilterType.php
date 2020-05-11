@@ -37,9 +37,7 @@ class DataRequirementCodeFilterType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Gets as path

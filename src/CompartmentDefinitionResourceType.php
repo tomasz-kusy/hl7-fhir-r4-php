@@ -23,9 +23,7 @@ class CompartmentDefinitionResourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $param
      */
-    private $param = [
-        
-    ];
+    private $param = null;
 
     /**
      * Additional documentation about the resource and compartment.

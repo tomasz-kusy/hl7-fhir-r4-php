@@ -79,9 +79,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the operation definition from a consumer's perspective.
@@ -95,18 +93,14 @@ class OperationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the operation definition is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this operation definition is needed and why it has been designed as it has.
@@ -148,9 +142,7 @@ class OperationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $resource
      */
-    private $resource = [
-        
-    ];
+    private $resource = null;
 
     /**
      * Indicates whether this operation or named query can be invoked at the system level (e.g. without needing to choose a resource type for the context).
@@ -192,18 +184,14 @@ class OperationDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\OperationDefinitionParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * Defines an appropriate combination of parameters to use when invoking this operation, to help code generators when generating overloaded parameter sets for this operation.
      *
      * @var \TKusy\Hl7FhirR4\OperationDefinitionOverloadType[] $overload
      */
-    private $overload = [
-        
-    ];
+    private $overload = null;
 
     /**
      * Gets as url

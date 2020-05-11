@@ -16,9 +16,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -32,9 +30,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\EligibilityResponsePurposeType[] $purpose
      */
-    private $purpose = [
-        
-    ];
+    private $purpose = null;
 
     /**
      * The party who is the beneficiary of the supplied coverage and for whom eligibility is sought.
@@ -104,9 +100,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityResponseInsuranceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * A reference from the Insurer to which these services pertain to be used on further communication and as proof that the request occurred.
@@ -127,9 +121,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityResponseErrorType[] $error
      */
-    private $error = [
-        
-    ];
+    private $error = null;
 
     /**
      * Adds as identifier

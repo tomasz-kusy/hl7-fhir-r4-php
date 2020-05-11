@@ -30,9 +30,7 @@ class AuditEventSourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Gets as site

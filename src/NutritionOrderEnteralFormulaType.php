@@ -58,9 +58,7 @@ class NutritionOrderEnteralFormulaType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\NutritionOrderAdministrationType[] $administration
      */
-    private $administration = [
-        
-    ];
+    private $administration = null;
 
     /**
      * The maximum total quantity of formula that may be administered to a subject over the period of time, e.g. 1440 mL over 24 hours.

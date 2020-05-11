@@ -16,9 +16,7 @@ class InsurancePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The current state of the health insurance product.
@@ -32,9 +30,7 @@ class InsurancePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Official name of the health insurance product as designated by the owner.
@@ -48,9 +44,7 @@ class InsurancePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $alias
      */
-    private $alias = [
-        
-    ];
+    private $alias = null;
 
     /**
      * The period of time that the health insurance product is available.
@@ -78,54 +72,42 @@ class InsurancePlanType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $coverageArea
      */
-    private $coverageArea = [
-        
-    ];
+    private $coverageArea = null;
 
     /**
      * The contact for the health insurance product for a certain purpose.
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanContactType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * The technical endpoints providing access to services operated for the health insurance product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Reference to the network included in the health insurance product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $network
      */
-    private $network = [
-        
-    ];
+    private $network = null;
 
     /**
      * Details about the coverage offered by the insurance product.
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanCoverageType[] $coverage
      */
-    private $coverage = [
-        
-    ];
+    private $coverage = null;
 
     /**
      * Details about an insurance plan.
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanPlanType[] $plan
      */
-    private $plan = [
-        
-    ];
+    private $plan = null;
 
     /**
      * Adds as identifier

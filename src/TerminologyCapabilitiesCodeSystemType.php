@@ -23,9 +23,7 @@ class TerminologyCapabilitiesCodeSystemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType[] $version
      */
-    private $version = [
-        
-    ];
+    private $version = null;
 
     /**
      * True if subsumption is supported for this version of the code system.

@@ -16,18 +16,14 @@ class ChargeItemDefinitionPropertyGroupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ChargeItemDefinitionApplicabilityType[] $applicability
      */
-    private $applicability = [
-        
-    ];
+    private $applicability = null;
 
     /**
      * The price for a ChargeItem may be calculated as a base price with surcharges/deductions that apply in certain conditions. A ChargeItemDefinition resource that defines the prices, factors and conditions that apply to a billing code is currently under development. The priceComponent element can be used to offer transparency to the recipient of the Invoice of how the prices have been calculated.
      *
      * @var \TKusy\Hl7FhirR4\ChargeItemDefinitionPriceComponentType[] $priceComponent
      */
-    private $priceComponent = [
-        
-    ];
+    private $priceComponent = null;
 
     /**
      * Adds as applicability

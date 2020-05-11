@@ -23,9 +23,7 @@ class AdverseEventSuspectEntityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\AdverseEventCausalityType[] $causality
      */
-    private $causality = [
-        
-    ];
+    private $causality = null;
 
     /**
      * Gets as instance

@@ -37,9 +37,7 @@ class ExplanationOfBenefitDiagnosisType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Indication of whether the diagnosis was present on admission to a facility.

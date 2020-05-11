@@ -23,9 +23,7 @@ class ExampleScenarioType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the example scenario when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the example scenario author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
@@ -74,27 +72,21 @@ class ExampleScenarioType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate example scenario instances.
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the example scenario is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * A copyright statement relating to the example scenario and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the example scenario.
@@ -115,36 +107,28 @@ class ExampleScenarioType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioActorType[] $actor
      */
-    private $actor = [
-        
-    ];
+    private $actor = null;
 
     /**
      * Each resource and each version that is present in the workflow.
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioInstanceType[] $instance
      */
-    private $instance = [
-        
-    ];
+    private $instance = null;
 
     /**
      * Each major process - a group of operations.
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioProcessType[] $process
      */
-    private $process = [
-        
-    ];
+    private $process = null;
 
     /**
      * Another nested workflow.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $workflow
      */
-    private $workflow = [
-        
-    ];
+    private $workflow = null;
 
     /**
      * Gets as url

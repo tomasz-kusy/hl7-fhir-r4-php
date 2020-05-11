@@ -23,9 +23,7 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\FHIRVersionType[] $fhirVersion
      */
-    private $fhirVersion = [
-        
-    ];
+    private $fhirVersion = null;
 
     /**
      * A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).

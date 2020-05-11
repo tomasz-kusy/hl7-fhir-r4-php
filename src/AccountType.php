@@ -16,9 +16,7 @@ class AccountType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates whether the account is presently used/usable or not.
@@ -46,9 +44,7 @@ class AccountType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * The date range of services associated with this account.
@@ -62,9 +58,7 @@ class AccountType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AccountCoverageType[] $coverage
      */
-    private $coverage = [
-        
-    ];
+    private $coverage = null;
 
     /**
      * Indicates the service area, hospital, department, etc. with responsibility for managing the Account.
@@ -85,9 +79,7 @@ class AccountType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AccountGuarantorType[] $guarantor
      */
-    private $guarantor = [
-        
-    ];
+    private $guarantor = null;
 
     /**
      * Reference to a parent Account.

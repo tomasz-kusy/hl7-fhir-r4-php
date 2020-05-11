@@ -16,9 +16,7 @@ class ClaimResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -123,36 +121,28 @@ class ClaimResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * The first-tier service adjudications for payor added product or service lines.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseAddItemType[] $addItem
      */
-    private $addItem = [
-        
-    ];
+    private $addItem = null;
 
     /**
      * The adjudication results which are presented at the header level rather than at the line-item or add-item levels.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * Categorized monetary totals for the adjudication.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseTotalType[] $total
      */
-    private $total = [
-        
-    ];
+    private $total = null;
 
     /**
      * Payment details for the adjudication of the claim.
@@ -187,36 +177,28 @@ class ClaimResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseProcessNoteType[] $processNote
      */
-    private $processNote = [
-        
-    ];
+    private $processNote = null;
 
     /**
      * Request for additional supporting or authorizing information.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $communicationRequest
      */
-    private $communicationRequest = [
-        
-    ];
+    private $communicationRequest = null;
 
     /**
      * Financial instruments for reimbursement for the health care products and services specified on the claim.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseInsuranceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Errors encountered during the processing of the adjudication.
      *
      * @var \TKusy\Hl7FhirR4\ClaimResponseErrorType[] $error
      */
-    private $error = [
-        
-    ];
+    private $error = null;
 
     /**
      * Adds as identifier

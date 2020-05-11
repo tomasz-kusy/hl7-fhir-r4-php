@@ -51,9 +51,7 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $source
      */
-    private $source = [
-        
-    ];
+    private $source = null;
 
     /**
      * Textual comment about this record of a substance.
@@ -67,18 +65,14 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationMoietyType[] $moiety
      */
-    private $moiety = [
-        
-    ];
+    private $moiety = null;
 
     /**
      * General specifications for this substance, including how it is related to other substances.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationPropertyType[] $property
      */
-    private $property = [
-        
-    ];
+    private $property = null;
 
     /**
      * General information detailing this substance.
@@ -99,36 +93,28 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationCodeType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Names applicable to this substance.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationNameType[] $name
      */
-    private $name = [
-        
-    ];
+    private $name = null;
 
     /**
      * The molecular weight or weight range (for proteins, polymers or nucleic acids).
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationMolecularWeightType[] $molecularWeight
      */
-    private $molecularWeight = [
-        
-    ];
+    private $molecularWeight = null;
 
     /**
      * A link between this substance and another, with details of the relationship.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationRelationshipType[] $relationship
      */
-    private $relationship = [
-        
-    ];
+    private $relationship = null;
 
     /**
      * Data items specific to nucleic acids.

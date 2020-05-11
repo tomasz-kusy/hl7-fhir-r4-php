@@ -23,9 +23,7 @@ class InsurancePlanBenefit1Type extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanCostType[] $cost
      */
-    private $cost = [
-        
-    ];
+    private $cost = null;
 
     /**
      * Gets as type

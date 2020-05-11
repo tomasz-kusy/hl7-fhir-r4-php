@@ -44,9 +44,7 @@ class ExampleScenarioProcessType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioStepType[] $step
      */
-    private $step = [
-        
-    ];
+    private $step = null;
 
     /**
      * Gets as title

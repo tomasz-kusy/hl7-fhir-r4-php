@@ -16,9 +16,7 @@ class PractitionerRoleType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this practitioner role record is in active use.
@@ -53,63 +51,49 @@ class PractitionerRoleType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Specific specialty of the practitioner.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialty
      */
-    private $specialty = [
-        
-    ];
+    private $specialty = null;
 
     /**
      * The location(s) at which this practitioner provides care.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $location
      */
-    private $location = [
-        
-    ];
+    private $location = null;
 
     /**
      * The list of healthcare services that this worker provides for this role's Organization/Location(s).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $healthcareService
      */
-    private $healthcareService = [
-        
-    ];
+    private $healthcareService = null;
 
     /**
      * Contact details that are specific to the role/location/service.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * A collection of times the practitioner is available or performing this role at the location and/or healthcareservice.
      *
      * @var \TKusy\Hl7FhirR4\PractitionerRoleAvailableTimeType[] $availableTime
      */
-    private $availableTime = [
-        
-    ];
+    private $availableTime = null;
 
     /**
      * The practitioner is not available or performing this role during this period of time due to the provided reason.
      *
      * @var \TKusy\Hl7FhirR4\PractitionerRoleNotAvailableType[] $notAvailable
      */
-    private $notAvailable = [
-        
-    ];
+    private $notAvailable = null;
 
     /**
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
@@ -123,9 +107,7 @@ class PractitionerRoleType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $endpoint
      */
-    private $endpoint = [
-        
-    ];
+    private $endpoint = null;
 
     /**
      * Adds as identifier

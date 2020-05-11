@@ -23,36 +23,28 @@ class ClaimItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $careTeamSequence
      */
-    private $careTeamSequence = [
-        
-    ];
+    private $careTeamSequence = null;
 
     /**
      * Diagnosis applicable for this service or product.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $diagnosisSequence
      */
-    private $diagnosisSequence = [
-        
-    ];
+    private $diagnosisSequence = null;
 
     /**
      * Procedures applicable for this service or product.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $procedureSequence
      */
-    private $procedureSequence = [
-        
-    ];
+    private $procedureSequence = null;
 
     /**
      * Exceptions, special conditions and supporting information applicable for this service or product.
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $informationSequence
      */
-    private $informationSequence = [
-        
-    ];
+    private $informationSequence = null;
 
     /**
      * The type of revenue or cost center providing the product and/or service.
@@ -80,18 +72,14 @@ class ClaimItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * Identifies the program under which this may be recovered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $programCode
      */
-    private $programCode = [
-        
-    ];
+    private $programCode = null;
 
     /**
      * The date or dates when the service or product was supplied, performed or completed. (choose any one of serviced*, but only one)
@@ -161,9 +149,7 @@ class ClaimItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $udi
      */
-    private $udi = [
-        
-    ];
+    private $udi = null;
 
     /**
      * Physical service site on the patient (limb, tooth, etc.).
@@ -177,27 +163,21 @@ class ClaimItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $subSite
      */
-    private $subSite = [
-        
-    ];
+    private $subSite = null;
 
     /**
      * The Encounters during which this Claim was created or to which the creation of this record is tightly associated.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $encounter
      */
-    private $encounter = [
-        
-    ];
+    private $encounter = null;
 
     /**
      * A claim detail line. Either a simple (a product or service) or a 'group' of sub-details which are simple items.
      *
      * @var \TKusy\Hl7FhirR4\ClaimDetailType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Gets as sequence

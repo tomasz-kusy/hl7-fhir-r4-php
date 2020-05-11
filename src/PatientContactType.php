@@ -16,9 +16,7 @@ class PatientContactType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $relationship
      */
-    private $relationship = [
-        
-    ];
+    private $relationship = null;
 
     /**
      * A name associated with the contact person.
@@ -32,9 +30,7 @@ class PatientContactType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Address for the contact person.

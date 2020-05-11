@@ -37,18 +37,14 @@ class QuestionnaireResponseItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType[] $answer
      */
-    private $answer = [
-        
-    ];
+    private $answer = null;
 
     /**
      * Questions or sub-groups nested beneath a question or group.
      *
      * @var \TKusy\Hl7FhirR4\QuestionnaireResponseItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as linkId

@@ -16,9 +16,7 @@ class CompositionEventType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * The period of time covered by the documentation. There is no assertion that the documentation is a complete representation for this period, only that it documents events during this time.
@@ -32,9 +30,7 @@ class CompositionEventType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Adds as code

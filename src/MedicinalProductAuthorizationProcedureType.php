@@ -44,9 +44,7 @@ class MedicinalProductAuthorizationProcedureType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductAuthorizationProcedureType[] $application
      */
-    private $application = [
-        
-    ];
+    private $application = null;
 
     /**
      * Gets as identifier

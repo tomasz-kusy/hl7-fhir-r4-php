@@ -44,9 +44,7 @@ class SubstanceNucleicAcidType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceNucleicAcidSubunitType[] $subunit
      */
-    private $subunit = [
-        
-    ];
+    private $subunit = null;
 
     /**
      * Gets as sequenceType

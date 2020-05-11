@@ -30,9 +30,7 @@ class ContractActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ContractSubjectType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * Reason or purpose for the action stipulated by this Contract Provision.
@@ -46,9 +44,7 @@ class ContractActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
-    private $linkId = [
-        
-    ];
+    private $linkId = null;
 
     /**
      * Current state of the term action.
@@ -69,9 +65,7 @@ class ContractActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $contextLinkId
      */
-    private $contextLinkId = [
-        
-    ];
+    private $contextLinkId = null;
 
     /**
      * When action happens. (choose any one of occurrence*, but only one)
@@ -99,27 +93,21 @@ class ContractActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $requester
      */
-    private $requester = [
-        
-    ];
+    private $requester = null;
 
     /**
      * Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $requesterLinkId
      */
-    private $requesterLinkId = [
-        
-    ];
+    private $requesterLinkId = null;
 
     /**
      * The type of individual that is desired or required to perform or not perform the action.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $performerType
      */
-    private $performerType = [
-        
-    ];
+    private $performerType = null;
 
     /**
      * The type of role or competency of an individual desired or required to perform or not perform the action.
@@ -140,63 +128,49 @@ class ContractActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $performerLinkId
      */
-    private $performerLinkId = [
-        
-    ];
+    private $performerLinkId = null;
 
     /**
      * Rationale for the action to be performed or not performed. Describes why the action is permitted or prohibited.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource whose existence justifies permitting or not permitting this action.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Describes why the action is to be performed or not performed in textual form.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $reason
      */
-    private $reason = [
-        
-    ];
+    private $reason = null;
 
     /**
      * Id [identifier??] of the clause or question text related to the reason type or reference of this action in the referenced form or QuestionnaireResponse.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $reasonLinkId
      */
-    private $reasonLinkId = [
-        
-    ];
+    private $reasonLinkId = null;
 
     /**
      * Comments made about the term action made by the requester, performer, subject or other participants.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Security labels that protects the action.
      *
      * @var \TKusy\Hl7FhirR4\UnsignedIntType[] $securityLabelNumber
      */
-    private $securityLabelNumber = [
-        
-    ];
+    private $securityLabelNumber = null;
 
     /**
      * Gets as doNotPerform

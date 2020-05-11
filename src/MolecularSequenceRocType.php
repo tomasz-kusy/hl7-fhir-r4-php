@@ -16,63 +16,49 @@ class MolecularSequenceRocType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IntegerType[] $score
      */
-    private $score = [
-        
-    ];
+    private $score = null;
 
     /**
      * The number of true positives if the GQ score threshold was set to "score" field value.
      *
      * @var \TKusy\Hl7FhirR4\IntegerType[] $numTP
      */
-    private $numTP = [
-        
-    ];
+    private $numTP = null;
 
     /**
      * The number of false positives if the GQ score threshold was set to "score" field value.
      *
      * @var \TKusy\Hl7FhirR4\IntegerType[] $numFP
      */
-    private $numFP = [
-        
-    ];
+    private $numFP = null;
 
     /**
      * The number of false negatives if the GQ score threshold was set to "score" field value.
      *
      * @var \TKusy\Hl7FhirR4\IntegerType[] $numFN
      */
-    private $numFN = [
-        
-    ];
+    private $numFN = null;
 
     /**
      * Calculated precision if the GQ score threshold was set to "score" field value.
      *
      * @var \TKusy\Hl7FhirR4\DecimalType[] $precision
      */
-    private $precision = [
-        
-    ];
+    private $precision = null;
 
     /**
      * Calculated sensitivity if the GQ score threshold was set to "score" field value.
      *
      * @var \TKusy\Hl7FhirR4\DecimalType[] $sensitivity
      */
-    private $sensitivity = [
-        
-    ];
+    private $sensitivity = null;
 
     /**
      * Calculated fScore if the GQ score threshold was set to "score" field value.
      *
      * @var \TKusy\Hl7FhirR4\DecimalType[] $fMeasure
      */
-    private $fMeasure = [
-        
-    ];
+    private $fMeasure = null;
 
     /**
      * Adds as score

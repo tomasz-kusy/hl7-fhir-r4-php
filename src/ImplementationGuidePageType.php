@@ -44,9 +44,7 @@ class ImplementationGuidePageType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuidePageType[] $page
      */
-    private $page = [
-        
-    ];
+    private $page = null;
 
     /**
      * Gets as nameUrl

@@ -16,9 +16,7 @@ class MedicinalProductAuthorizationJurisdictionalAuthorizationType extends Backb
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Country of authorization.
@@ -32,9 +30,7 @@ class MedicinalProductAuthorizationJurisdictionalAuthorizationType extends Backb
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * The legal status of supply in a jurisdiction or region.

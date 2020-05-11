@@ -16,9 +16,7 @@ class ContractPartyType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reference
      */
-    private $reference = [
-        
-    ];
+    private $reference = null;
 
     /**
      * How the party participates in the offer.

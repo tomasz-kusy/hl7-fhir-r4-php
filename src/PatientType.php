@@ -16,9 +16,7 @@ class PatientType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this patient record is in active use. 
@@ -37,18 +35,14 @@ class PatientType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\HumanNameType[] $name
      */
-    private $name = [
-        
-    ];
+    private $name = null;
 
     /**
      * A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.
@@ -83,9 +77,7 @@ class PatientType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AddressType[] $address
      */
-    private $address = [
-        
-    ];
+    private $address = null;
 
     /**
      * This field contains a patient's most recent marital (civil) status.
@@ -113,36 +105,28 @@ class PatientType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AttachmentType[] $photo
      */
-    private $photo = [
-        
-    ];
+    private $photo = null;
 
     /**
      * A contact party (e.g. guardian, partner, friend) for the patient.
      *
      * @var \TKusy\Hl7FhirR4\PatientContactType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A language which may be used to communicate with the patient about his or her health.
      *
      * @var \TKusy\Hl7FhirR4\PatientCommunicationType[] $communication
      */
-    private $communication = [
-        
-    ];
+    private $communication = null;
 
     /**
      * Patient's nominated care provider.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $generalPractitioner
      */
-    private $generalPractitioner = [
-        
-    ];
+    private $generalPractitioner = null;
 
     /**
      * Organization that is the custodian of the patient record.
@@ -156,9 +140,7 @@ class PatientType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\PatientLinkType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * Adds as identifier

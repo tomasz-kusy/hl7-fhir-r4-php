@@ -23,9 +23,7 @@ class MeasureReportGroupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MeasureReportPopulationType[] $population
      */
-    private $population = [
-        
-    ];
+    private $population = null;
 
     /**
      * The measure score for this population group, calculated as appropriate for the measure type and scoring method, and based on the contents of the populations defined in the group.
@@ -39,9 +37,7 @@ class MeasureReportGroupType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MeasureReportStratifierType[] $stratifier
      */
-    private $stratifier = [
-        
-    ];
+    private $stratifier = null;
 
     /**
      * Gets as code

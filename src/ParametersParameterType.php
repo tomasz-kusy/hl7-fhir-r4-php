@@ -380,9 +380,7 @@ class ParametersParameterType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ParametersParameterType[] $part
      */
-    private $part = [
-        
-    ];
+    private $part = null;
 
     /**
      * Gets as name

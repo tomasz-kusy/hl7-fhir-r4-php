@@ -23,9 +23,7 @@ class DocumentManifestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of this document manifest.
@@ -60,18 +58,14 @@ class DocumentManifestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $author
      */
-    private $author = [
-        
-    ];
+    private $author = null;
 
     /**
      * A patient, practitioner, or organization for which this set of documents is intended.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $recipient
      */
-    private $recipient = [
-        
-    ];
+    private $recipient = null;
 
     /**
      * Identifies the source system, application, or software that produced the document manifest.
@@ -92,18 +86,14 @@ class DocumentManifestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $content
      */
-    private $content = [
-        
-    ];
+    private $content = null;
 
     /**
      * Related identifiers or resources associated with the DocumentManifest.
      *
      * @var \TKusy\Hl7FhirR4\DocumentManifestRelatedType[] $related
      */
-    private $related = [
-        
-    ];
+    private $related = null;
 
     /**
      * Gets as masterIdentifier

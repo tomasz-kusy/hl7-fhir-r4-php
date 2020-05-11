@@ -44,18 +44,14 @@ class ValueSetExpansionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ValueSetParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * The codes that are contained in the value set expansion.
      *
      * @var \TKusy\Hl7FhirR4\ValueSetContainsType[] $contains
      */
-    private $contains = [
-        
-    ];
+    private $contains = null;
 
     /**
      * Gets as identifier

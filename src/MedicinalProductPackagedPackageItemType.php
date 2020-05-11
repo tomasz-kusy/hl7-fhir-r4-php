@@ -16,9 +16,7 @@ class MedicinalProductPackagedPackageItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The physical type of the container of the medicine.
@@ -39,45 +37,35 @@ class MedicinalProductPackagedPackageItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $material
      */
-    private $material = [
-        
-    ];
+    private $material = null;
 
     /**
      * A possible alternate material for the packaging.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $alternateMaterial
      */
-    private $alternateMaterial = [
-        
-    ];
+    private $alternateMaterial = null;
 
     /**
      * A device accompanying a medicinal product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $device
      */
-    private $device = [
-        
-    ];
+    private $device = null;
 
     /**
      * The manufactured item as contained in the packaged medicinal product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $manufacturedItem
      */
-    private $manufacturedItem = [
-        
-    ];
+    private $manufacturedItem = null;
 
     /**
      * Allows containers within containers.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPackagedPackageItemType[] $packageItem
      */
-    private $packageItem = [
-        
-    ];
+    private $packageItem = null;
 
     /**
      * Dimensions, color etc.
@@ -91,27 +79,21 @@ class MedicinalProductPackagedPackageItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $otherCharacteristics
      */
-    private $otherCharacteristics = [
-        
-    ];
+    private $otherCharacteristics = null;
 
     /**
      * Shelf Life and storage information.
      *
      * @var \TKusy\Hl7FhirR4\ProductShelfLifeType[] $shelfLifeStorage
      */
-    private $shelfLifeStorage = [
-        
-    ];
+    private $shelfLifeStorage = null;
 
     /**
      * Manufacturer of this Package Item.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $manufacturer
      */
-    private $manufacturer = [
-        
-    ];
+    private $manufacturer = null;
 
     /**
      * Adds as identifier

@@ -16,9 +16,7 @@ class TimingType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\DateTimeType[] $event
      */
-    private $event = [
-        
-    ];
+    private $event = null;
 
     /**
      * A set of rules that describe when the event is scheduled.

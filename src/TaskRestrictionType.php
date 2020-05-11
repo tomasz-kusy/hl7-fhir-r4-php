@@ -30,9 +30,7 @@ class TaskRestrictionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $recipient
      */
-    private $recipient = [
-        
-    ];
+    private $recipient = null;
 
     /**
      * Gets as repetitions

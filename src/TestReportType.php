@@ -72,9 +72,7 @@ class TestReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TestReportParticipantType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * The results of the series of required setup operations before the tests were executed.
@@ -88,9 +86,7 @@ class TestReportType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TestReportTestType[] $test
      */
-    private $test = [
-        
-    ];
+    private $test = null;
 
     /**
      * The results of the series of operations required to clean up after all the tests were executed (successfully or otherwise).

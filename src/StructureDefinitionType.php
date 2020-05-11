@@ -23,9 +23,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the structure definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the structure definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
@@ -81,9 +79,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the structure definition from a consumer's perspective.
@@ -97,18 +93,14 @@ class StructureDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the structure definition is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this structure definition is needed and why it has been designed as it has.
@@ -129,9 +121,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $keyword
      */
-    private $keyword = [
-        
-    ];
+    private $keyword = null;
 
     /**
      * The version of the FHIR specification on which this StructureDefinition is based - this is the formal version of the specification, without the revision number, e.g. [publication].[major].[minor], which is 4.0.1. for this version.
@@ -145,9 +135,7 @@ class StructureDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StructureDefinitionMappingType[] $mapping
      */
-    private $mapping = [
-        
-    ];
+    private $mapping = null;
 
     /**
      * Defines the kind of structure that this definition is describing.
@@ -168,18 +156,14 @@ class StructureDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StructureDefinitionContextType[] $context
      */
-    private $context = [
-        
-    ];
+    private $context = null;
 
     /**
      * A set of rules as FHIRPath Invariants about when the extension can be used (e.g. co-occurrence variants for the extension). All the rules must be true.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $contextInvariant
      */
-    private $contextInvariant = [
-        
-    ];
+    private $contextInvariant = null;
 
     /**
      * The type this structure describes. If the derivation kind is 'specialization' then this is the master definition for a type, and there is always one of these (a data type, an extension, a resource, including abstract ones). Otherwise the structure definition is a constraint on the stated type (and in this case, the type cannot be an abstract type). References are URLs that are relative to http://hl7.org/fhir/StructureDefinition e.g. "string" is a reference to http://hl7.org/fhir/StructureDefinition/string. Absolute URLs are only allowed in logical models.

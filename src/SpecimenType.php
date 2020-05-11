@@ -16,9 +16,7 @@ class SpecimenType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier assigned by the lab when accessioning specimen(s). This is not necessarily the same as the specimen identifier, depending on local lab procedures.
@@ -60,18 +58,14 @@ class SpecimenType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $parent
      */
-    private $parent = [
-        
-    ];
+    private $parent = null;
 
     /**
      * Details concerning a service request that required a specimen to be collected.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $request
      */
-    private $request = [
-        
-    ];
+    private $request = null;
 
     /**
      * Details concerning the specimen collection.
@@ -85,36 +79,28 @@ class SpecimenType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SpecimenProcessingType[] $processing
      */
-    private $processing = [
-        
-    ];
+    private $processing = null;
 
     /**
      * The container holding the specimen. The recursive nature of containers; i.e. blood in tube in tray in rack is not addressed here.
      *
      * @var \TKusy\Hl7FhirR4\SpecimenContainerType[] $container
      */
-    private $container = [
-        
-    ];
+    private $container = null;
 
     /**
      * A mode or state of being that describes the nature of the specimen.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $condition
      */
-    private $condition = [
-        
-    ];
+    private $condition = null;
 
     /**
      * To communicate any details or issues about the specimen or during the specimen collection. (for example: broken vial, sent with patient, frozen).
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

@@ -23,9 +23,7 @@ class ContactDetailType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Gets as name

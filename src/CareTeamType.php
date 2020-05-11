@@ -16,9 +16,7 @@ class CareTeamType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates the current state of the care team.
@@ -32,9 +30,7 @@ class CareTeamType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * A label for human use intended to distinguish like teams. E.g. the "red" vs. "green" trauma teams.
@@ -69,54 +65,42 @@ class CareTeamType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CareTeamParticipantType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * Describes why the care team exists.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Condition(s) that this care team addresses.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * The organization responsible for the care team.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $managingOrganization
      */
-    private $managingOrganization = [
-        
-    ];
+    private $managingOrganization = null;
 
     /**
      * A central contact detail for the care team (that applies to all members).
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Comments made about the CareTeam.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

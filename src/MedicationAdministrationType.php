@@ -16,27 +16,21 @@ class MedicationAdministrationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A protocol, guideline, orderset, or other definition that was adhered to in whole or in part by this event.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $instantiates
      */
-    private $instantiates = [
-        
-    ];
+    private $instantiates = null;
 
     /**
      * A larger event of which this particular event is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * Will generally be set to show that the administration has been completed. For some long running administrations such as infusions, it is possible for an administration to be started but not completed or it may be paused while some other process is under way.
@@ -50,9 +44,7 @@ class MedicationAdministrationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $statusReason
      */
-    private $statusReason = [
-        
-    ];
+    private $statusReason = null;
 
     /**
      * Indicates where the medication is expected to be consumed or administered.
@@ -94,9 +86,7 @@ class MedicationAdministrationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInformation
      */
-    private $supportingInformation = [
-        
-    ];
+    private $supportingInformation = null;
 
     /**
      * A specific date/time or interval of time during which the administration took place (or did not take place, when the 'notGiven' attribute is true). For many administrations, such as swallowing a tablet the use of dateTime is more appropriate. (choose any one of effective*, but only one)
@@ -117,27 +107,21 @@ class MedicationAdministrationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MedicationAdministrationPerformerType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * A code indicating why the medication was given.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Condition or observation that supports why the medication was administered.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * The original request, instruction or authority to perform the administration.
@@ -151,18 +135,14 @@ class MedicationAdministrationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $device
      */
-    private $device = [
-        
-    ];
+    private $device = null;
 
     /**
      * Extra information about the medication administration that is not conveyed by the other attributes.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Describes the medication dosage information details e.g. dose, rate, site, route, etc.
@@ -176,9 +156,7 @@ class MedicationAdministrationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $eventHistory
      */
-    private $eventHistory = [
-        
-    ];
+    private $eventHistory = null;
 
     /**
      * Adds as identifier

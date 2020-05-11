@@ -16,9 +16,7 @@ class OperationDefinitionOverloadType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $parameterName
      */
-    private $parameterName = [
-        
-    ];
+    private $parameterName = null;
 
     /**
      * Comments to go on overload.

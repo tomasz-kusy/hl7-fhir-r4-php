@@ -65,27 +65,21 @@ class ProdCharacteristicType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $color
      */
-    private $color = [
-        
-    ];
+    private $color = null;
 
     /**
      * Where applicable, the imprint can be specified as text.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $imprint
      */
-    private $imprint = [
-        
-    ];
+    private $imprint = null;
 
     /**
      * Where applicable, the image can be provided The format of the image attachment shall be specified by regional implementations.
      *
      * @var \TKusy\Hl7FhirR4\AttachmentType[] $image
      */
-    private $image = [
-        
-    ];
+    private $image = null;
 
     /**
      * Where applicable, the scoring can be specified An appropriate controlled vocabulary shall be used The term and the term identifier shall be used.

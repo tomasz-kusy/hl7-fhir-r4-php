@@ -44,18 +44,14 @@ class ExampleScenarioInstanceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioVersionType[] $version
      */
-    private $version = [
-        
-    ];
+    private $version = null;
 
     /**
      * Resources contained in the instance (e.g. the observations contained in a bundle).
      *
      * @var \TKusy\Hl7FhirR4\ExampleScenarioContainedInstanceType[] $containedInstance
      */
-    private $containedInstance = [
-        
-    ];
+    private $containedInstance = null;
 
     /**
      * Gets as resourceId

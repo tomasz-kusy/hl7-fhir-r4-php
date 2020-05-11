@@ -51,9 +51,7 @@ class NamingSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * The name of the organization that is responsible for issuing identifiers or codes for this namespace and ensuring their non-collision.
@@ -81,18 +79,14 @@ class NamingSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the naming system is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Provides guidance on the use of the namespace, including the handling of formatting characters, use of upper vs. lower case, etc.
@@ -106,9 +100,7 @@ class NamingSystemType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\NamingSystemUniqueIdType[] $uniqueId
      */
-    private $uniqueId = [
-        
-    ];
+    private $uniqueId = null;
 
     /**
      * Gets as name

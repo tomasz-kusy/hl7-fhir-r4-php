@@ -23,9 +23,7 @@ class TerminologyCapabilitiesFilterType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $op
      */
-    private $op = [
-        
-    ];
+    private $op = null;
 
     /**
      * Gets as code

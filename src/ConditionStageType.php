@@ -23,9 +23,7 @@ class ConditionStageType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $assessment
      */
-    private $assessment = [
-        
-    ];
+    private $assessment = null;
 
     /**
      * The kind of staging, such as pathological or clinical staging.

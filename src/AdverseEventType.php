@@ -30,9 +30,7 @@ class AdverseEventType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * This element defines the specific type of event that occurred or that was prevented from occurring.
@@ -81,9 +79,7 @@ class AdverseEventType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $resultingCondition
      */
-    private $resultingCondition = [
-        
-    ];
+    private $resultingCondition = null;
 
     /**
      * The information about where the adverse event occurred.
@@ -125,45 +121,35 @@ class AdverseEventType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $contributor
      */
-    private $contributor = [
-        
-    ];
+    private $contributor = null;
 
     /**
      * Describes the entity that is suspected to have caused the adverse event.
      *
      * @var \TKusy\Hl7FhirR4\AdverseEventSuspectEntityType[] $suspectEntity
      */
-    private $suspectEntity = [
-        
-    ];
+    private $suspectEntity = null;
 
     /**
      * AdverseEvent.subjectMedicalHistory.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subjectMedicalHistory
      */
-    private $subjectMedicalHistory = [
-        
-    ];
+    private $subjectMedicalHistory = null;
 
     /**
      * AdverseEvent.referenceDocument.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $referenceDocument
      */
-    private $referenceDocument = [
-        
-    ];
+    private $referenceDocument = null;
 
     /**
      * AdverseEvent.study.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $study
      */
-    private $study = [
-        
-    ];
+    private $study = null;
 
     /**
      * Gets as identifier

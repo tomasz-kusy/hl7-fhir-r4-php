@@ -23,9 +23,7 @@ class GuidanceResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * An identifier, CodeableConcept or canonical reference to the guidance that was requested. (choose any one of module*, but only one)
@@ -88,36 +86,28 @@ class GuidanceResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates the reason the request was initiated. This is typically provided as a parameter to the evaluation and echoed by the service, although for some use cases, such as subscription- or event-based scenarios, it may provide an indication of the cause for the response.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Provides a mechanism to communicate additional information about the response.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Messages resulting from the evaluation of the artifact or artifacts. As part of evaluating the request, the engine may produce informational or warning messages. These messages will be provided by this element.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $evaluationMessage
      */
-    private $evaluationMessage = [
-        
-    ];
+    private $evaluationMessage = null;
 
     /**
      * The output parameters of the evaluation, if any. Many modules will result in the return of specific resources such as procedure or communication requests that are returned as part of the operation result. However, modules may define specific outputs that would be returned as the result of the evaluation, and these would be returned in this element.
@@ -138,9 +128,7 @@ class GuidanceResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementType[] $dataRequirement
      */
-    private $dataRequirement = [
-        
-    ];
+    private $dataRequirement = null;
 
     /**
      * Gets as requestIdentifier

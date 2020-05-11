@@ -23,9 +23,7 @@ class SubstancePolymerMonomerSetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SubstancePolymerStartingMaterialType[] $startingMaterial
      */
-    private $startingMaterial = [
-        
-    ];
+    private $startingMaterial = null;
 
     /**
      * Gets as ratioType

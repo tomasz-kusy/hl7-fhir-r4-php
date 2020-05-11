@@ -16,45 +16,35 @@ class NutritionOrderOralDietType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * The time period and frequency at which the diet should be given. The diet should be given for the combination of all schedules if more than one schedule is present.
      *
      * @var \TKusy\Hl7FhirR4\TimingType[] $schedule
      */
-    private $schedule = [
-        
-    ];
+    private $schedule = null;
 
     /**
      * Class that defines the quantity and type of nutrient modifications (for example carbohydrate, fiber or sodium) required for the oral diet.
      *
      * @var \TKusy\Hl7FhirR4\NutritionOrderNutrientType[] $nutrient
      */
-    private $nutrient = [
-        
-    ];
+    private $nutrient = null;
 
     /**
      * Class that describes any texture modifications required for the patient to safely consume various types of solid foods.
      *
      * @var \TKusy\Hl7FhirR4\NutritionOrderTextureType[] $texture
      */
-    private $texture = [
-        
-    ];
+    private $texture = null;
 
     /**
      * The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $fluidConsistencyType
      */
-    private $fluidConsistencyType = [
-        
-    ];
+    private $fluidConsistencyType = null;
 
     /**
      * Free text or additional instructions or information pertaining to the oral diet.

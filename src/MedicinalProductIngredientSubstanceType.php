@@ -23,9 +23,7 @@ class MedicinalProductIngredientSubstanceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductIngredientStrengthType[] $strength
      */
-    private $strength = [
-        
-    ];
+    private $strength = null;
 
     /**
      * Gets as code

@@ -16,18 +16,14 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Unique device identifier (UDI) assigned to device label or package. Note that the Device may include multiple udiCarriers as it either may include just the udiCarrier for the jurisdiction it is sold, or for multiple jurisdictions it could have been sold.
      *
      * @var \TKusy\Hl7FhirR4\DeviceDefinitionUdiDeviceIdentifierType[] $udiDeviceIdentifier
      */
-    private $udiDeviceIdentifier = [
-        
-    ];
+    private $udiDeviceIdentifier = null;
 
     /**
      * A name of the manufacturer. (choose any one of manufacturer*, but only one)
@@ -48,9 +44,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceDefinitionDeviceNameType[] $deviceName
      */
-    private $deviceName = [
-        
-    ];
+    private $deviceName = null;
 
     /**
      * The model number for the device.
@@ -71,36 +65,28 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceDefinitionSpecializationType[] $specialization
      */
-    private $specialization = [
-        
-    ];
+    private $specialization = null;
 
     /**
      * The available versions of the device, e.g., software versions.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $version
      */
-    private $version = [
-        
-    ];
+    private $version = null;
 
     /**
      * Safety characteristics of the device.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $safety
      */
-    private $safety = [
-        
-    ];
+    private $safety = null;
 
     /**
      * Shelf Life and storage information.
      *
      * @var \TKusy\Hl7FhirR4\ProductShelfLifeType[] $shelfLifeStorage
      */
-    private $shelfLifeStorage = [
-        
-    ];
+    private $shelfLifeStorage = null;
 
     /**
      * Dimensions, color etc.
@@ -114,27 +100,21 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $languageCode
      */
-    private $languageCode = [
-        
-    ];
+    private $languageCode = null;
 
     /**
      * Device capabilities.
      *
      * @var \TKusy\Hl7FhirR4\DeviceDefinitionCapabilityType[] $capability
      */
-    private $capability = [
-        
-    ];
+    private $capability = null;
 
     /**
      * The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties.
      *
      * @var \TKusy\Hl7FhirR4\DeviceDefinitionPropertyType[] $property
      */
-    private $property = [
-        
-    ];
+    private $property = null;
 
     /**
      * An organization that is responsible for the provision and ongoing maintenance of the device.
@@ -148,9 +128,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A network address on which the device may be contacted directly.
@@ -171,9 +149,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * The quantity of the device present in the packaging (e.g. the number of devices present in a pack, or the number of devices in the same package of the medicinal product).
@@ -194,9 +170,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceDefinitionMaterialType[] $material
      */
-    private $material = [
-        
-    ];
+    private $material = null;
 
     /**
      * Adds as identifier

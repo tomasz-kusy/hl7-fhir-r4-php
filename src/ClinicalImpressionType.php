@@ -16,9 +16,7 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Identifies the workflow status of the assessment.
@@ -102,27 +100,21 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $problem
      */
-    private $problem = [
-        
-    ];
+    private $problem = null;
 
     /**
      * One or more sets of investigations (signs, symptoms, etc.). The actual grouping of investigations varies greatly depending on the type and context of the assessment. These investigations may include data generated during the assessment process, or data previously generated and recorded that is pertinent to the outcomes.
      *
      * @var \TKusy\Hl7FhirR4\ClinicalImpressionInvestigationType[] $investigation
      */
-    private $investigation = [
-        
-    ];
+    private $investigation = null;
 
     /**
      * Reference to a specific published clinical protocol that was followed during this assessment, and/or that provides evidence in support of the diagnosis.
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $protocol
      */
-    private $protocol = [
-        
-    ];
+    private $protocol = null;
 
     /**
      * A text summary of the investigations and the diagnosis.
@@ -136,45 +128,35 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ClinicalImpressionFindingType[] $finding
      */
-    private $finding = [
-        
-    ];
+    private $finding = null;
 
     /**
      * Estimate of likely outcome.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $prognosisCodeableConcept
      */
-    private $prognosisCodeableConcept = [
-        
-    ];
+    private $prognosisCodeableConcept = null;
 
     /**
      * RiskAssessment expressing likely outcome.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $prognosisReference
      */
-    private $prognosisReference = [
-        
-    ];
+    private $prognosisReference = null;
 
     /**
      * Information supporting the clinical impression.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInfo
      */
-    private $supportingInfo = [
-        
-    ];
+    private $supportingInfo = null;
 
     /**
      * Commentary about the impression, typically recorded after the impression itself was made, though supplemental notes by the original author could also appear.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

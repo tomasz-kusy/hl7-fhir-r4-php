@@ -30,18 +30,14 @@ class SubstanceProteinType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $disulfideLinkage
      */
-    private $disulfideLinkage = [
-        
-    ];
+    private $disulfideLinkage = null;
 
     /**
      * This subclause refers to the description of each subunit constituting the SubstanceProtein. A subunit is a linear sequence of amino acids linked through peptide bonds. The Subunit information shall be provided when the finished SubstanceProtein is a complex of multiple sequences; subunits are not used to delineate domains within a single sequence. Subunits are listed in order of decreasing length; sequences of the same length will be ordered by decreasing molecular weight; subunits that have identical sequences will be repeated multiple times.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceProteinSubunitType[] $subunit
      */
-    private $subunit = [
-        
-    ];
+    private $subunit = null;
 
     /**
      * Gets as sequenceType

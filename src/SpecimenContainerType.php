@@ -16,9 +16,7 @@ class SpecimenContainerType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Textual description of the container.

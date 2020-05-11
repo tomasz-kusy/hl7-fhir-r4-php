@@ -44,9 +44,7 @@ class MedicinalProductIngredientReferenceStrengthType extends BackboneElementTyp
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $country
      */
-    private $country = [
-        
-    ];
+    private $country = null;
 
     /**
      * Gets as substance

@@ -107,18 +107,14 @@ class ContractValuedItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
-    private $linkId = [
-        
-    ];
+    private $linkId = null;
 
     /**
      * A set of security labels that define which terms are controlled by this condition.
      *
      * @var \TKusy\Hl7FhirR4\UnsignedIntType[] $securityLabelNumber
      */
-    private $securityLabelNumber = [
-        
-    ];
+    private $securityLabelNumber = null;
 
     /**
      * Gets as entityCodeableConcept

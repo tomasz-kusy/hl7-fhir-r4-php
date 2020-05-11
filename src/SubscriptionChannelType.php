@@ -37,9 +37,7 @@ class SubscriptionChannelType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $header
      */
-    private $header = [
-        
-    ];
+    private $header = null;
 
     /**
      * Gets as type

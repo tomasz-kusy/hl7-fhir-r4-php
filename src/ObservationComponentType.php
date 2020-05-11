@@ -107,18 +107,14 @@ class ObservationComponentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $interpretation
      */
-    private $interpretation = [
-        
-    ];
+    private $interpretation = null;
 
     /**
      * Guidance on how to interpret the value by comparison to a normal or recommended range.
      *
      * @var \TKusy\Hl7FhirR4\ObservationReferenceRangeType[] $referenceRange
      */
-    private $referenceRange = [
-        
-    ];
+    private $referenceRange = null;
 
     /**
      * Gets as code

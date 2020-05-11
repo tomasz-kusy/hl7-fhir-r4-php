@@ -30,9 +30,7 @@ class InsurancePlanCostType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $qualifiers
      */
-    private $qualifiers = [
-        
-    ];
+    private $qualifiers = null;
 
     /**
      * The actual cost value. (some of the costs may be represented as percentages rather than currency, e.g. 10% coinsurance).

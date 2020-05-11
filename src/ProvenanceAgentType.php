@@ -23,9 +23,7 @@ class ProvenanceAgentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $role
      */
-    private $role = [
-        
-    ];
+    private $role = null;
 
     /**
      * The individual, device or organization that participated in the event.

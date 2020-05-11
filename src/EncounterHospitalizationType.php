@@ -44,27 +44,21 @@ class EncounterHospitalizationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $dietPreference
      */
-    private $dietPreference = [
-        
-    ];
+    private $dietPreference = null;
 
     /**
      * Special courtesies (VIP, board member).
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialCourtesy
      */
-    private $specialCourtesy = [
-        
-    ];
+    private $specialCourtesy = null;
 
     /**
      * Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialArrangement
      */
-    private $specialArrangement = [
-        
-    ];
+    private $specialArrangement = null;
 
     /**
      * Location/organization to which the patient is discharged.

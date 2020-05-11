@@ -16,9 +16,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Amino Acid Sequence/ DNA Sequence / RNA Sequence.
@@ -81,9 +79,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MolecularSequenceVariantType[] $variant
      */
-    private $variant = [
-        
-    ];
+    private $variant = null;
 
     /**
      * Sequence that was observed. It is the result marked by referenceSeq along with variant records on referenceSeq. This shall start from referenceSeq.windowStart and end by referenceSeq.windowEnd.
@@ -97,9 +93,7 @@ class MolecularSequenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MolecularSequenceQualityType[] $quality
      */
-    private $quality = [
-        
-    ];
+    private $quality = null;
 
     /**
      * Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence.
@@ -113,27 +107,21 @@ class MolecularSequenceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MolecularSequenceRepositoryType[] $repository
      */
-    private $repository = [
-        
-    ];
+    private $repository = null;
 
     /**
      * Pointer to next atomic sequence which at most contains one variant.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $pointer
      */
-    private $pointer = [
-        
-    ];
+    private $pointer = null;
 
     /**
      * Information about chromosome structure variation.
      *
      * @var \TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType[] $structureVariant
      */
-    private $structureVariant = [
-        
-    ];
+    private $structureVariant = null;
 
     /**
      * Adds as identifier

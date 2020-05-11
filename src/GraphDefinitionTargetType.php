@@ -37,18 +37,14 @@ class GraphDefinitionTargetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\GraphDefinitionCompartmentType[] $compartment
      */
-    private $compartment = [
-        
-    ];
+    private $compartment = null;
 
     /**
      * Additional links from target resource.
      *
      * @var \TKusy\Hl7FhirR4\GraphDefinitionLinkType[] $link
      */
-    private $link = [
-        
-    ];
+    private $link = null;
 
     /**
      * Gets as type

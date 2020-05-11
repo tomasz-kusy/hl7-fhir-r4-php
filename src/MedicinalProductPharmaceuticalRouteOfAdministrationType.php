@@ -58,9 +58,7 @@ class MedicinalProductPharmaceuticalRouteOfAdministrationType extends BackboneEl
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalTargetSpeciesType[] $targetSpecies
      */
-    private $targetSpecies = [
-        
-    ];
+    private $targetSpecies = null;
 
     /**
      * Gets as code

@@ -16,9 +16,7 @@ class SupplyRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Status of the supply request.
@@ -67,9 +65,7 @@ class SupplyRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SupplyRequestParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * When the request should be fulfilled. (choose any one of occurrence*, but only one)
@@ -111,27 +107,21 @@ class SupplyRequestType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supplier
      */
-    private $supplier = [
-        
-    ];
+    private $supplier = null;
 
     /**
      * The reason why the supply item was requested.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * The reason why the supply item was requested.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Where the supply is expected to come from.

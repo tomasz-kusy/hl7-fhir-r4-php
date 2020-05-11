@@ -37,18 +37,14 @@ class MedicinalProductManufacturedType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $manufacturer
      */
-    private $manufacturer = [
-        
-    ];
+    private $manufacturer = null;
 
     /**
      * Ingredient.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $ingredient
      */
-    private $ingredient = [
-        
-    ];
+    private $ingredient = null;
 
     /**
      * Dimensions, color etc.
@@ -62,9 +58,7 @@ class MedicinalProductManufacturedType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $otherCharacteristics
      */
-    private $otherCharacteristics = [
-        
-    ];
+    private $otherCharacteristics = null;
 
     /**
      * Gets as manufacturedDoseForm

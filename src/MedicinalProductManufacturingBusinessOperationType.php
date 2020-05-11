@@ -44,9 +44,7 @@ class MedicinalProductManufacturingBusinessOperationType extends BackboneElement
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $manufacturer
      */
-    private $manufacturer = [
-        
-    ];
+    private $manufacturer = null;
 
     /**
      * A regulator which oversees the operation.

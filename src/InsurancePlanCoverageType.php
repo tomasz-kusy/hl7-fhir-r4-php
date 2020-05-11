@@ -23,18 +23,14 @@ class InsurancePlanCoverageType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $network
      */
-    private $network = [
-        
-    ];
+    private $network = null;
 
     /**
      * Specific benefits under this type of coverage.
      *
      * @var \TKusy\Hl7FhirR4\InsurancePlanBenefitType[] $benefit
      */
-    private $benefit = [
-        
-    ];
+    private $benefit = null;
 
     /**
      * Gets as type

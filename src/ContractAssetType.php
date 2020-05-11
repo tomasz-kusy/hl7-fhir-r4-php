@@ -23,27 +23,21 @@ class ContractAssetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Associated entities.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $typeReference
      */
-    private $typeReference = [
-        
-    ];
+    private $typeReference = null;
 
     /**
      * May be a subtype or part of an offered asset.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $subtype
      */
-    private $subtype = [
-        
-    ];
+    private $subtype = null;
 
     /**
      * Specifies the applicability of the term to an asset resource instance, and instances it refers to orinstances that refer to it, and/or are owned by the offeree.
@@ -57,9 +51,7 @@ class ContractAssetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ContractContextType[] $context
      */
-    private $context = [
-        
-    ];
+    private $context = null;
 
     /**
      * Description of the quality and completeness of the asset that imay be a factor in its valuation.
@@ -73,27 +65,21 @@ class ContractAssetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $periodType
      */
-    private $periodType = [
-        
-    ];
+    private $periodType = null;
 
     /**
      * Asset relevant contractual time period.
      *
      * @var \TKusy\Hl7FhirR4\PeriodType[] $period
      */
-    private $period = [
-        
-    ];
+    private $period = null;
 
     /**
      * Time period of asset use.
      *
      * @var \TKusy\Hl7FhirR4\PeriodType[] $usePeriod
      */
-    private $usePeriod = [
-        
-    ];
+    private $usePeriod = null;
 
     /**
      * Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract.
@@ -107,36 +93,28 @@ class ContractAssetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $linkId
      */
-    private $linkId = [
-        
-    ];
+    private $linkId = null;
 
     /**
      * Response to assets.
      *
      * @var \TKusy\Hl7FhirR4\ContractAnswerType[] $answer
      */
-    private $answer = [
-        
-    ];
+    private $answer = null;
 
     /**
      * Security labels that protects the asset.
      *
      * @var \TKusy\Hl7FhirR4\UnsignedIntType[] $securityLabelNumber
      */
-    private $securityLabelNumber = [
-        
-    ];
+    private $securityLabelNumber = null;
 
     /**
      * Contract Valued Item List.
      *
      * @var \TKusy\Hl7FhirR4\ContractValuedItemType[] $valuedItem
      */
-    private $valuedItem = [
-        
-    ];
+    private $valuedItem = null;
 
     /**
      * Gets as scope

@@ -16,9 +16,7 @@ class AppointmentResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Appointment that this response is replying to.
@@ -46,9 +44,7 @@ class AppointmentResponseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $participantType
      */
-    private $participantType = [
-        
-    ];
+    private $participantType = null;
 
     /**
      * A Person, Location, HealthcareService, or Device that is participating in the appointment.

@@ -16,9 +16,7 @@ class RelatedPersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Whether this related person record is in active use.
@@ -39,27 +37,21 @@ class RelatedPersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $relationship
      */
-    private $relationship = [
-        
-    ];
+    private $relationship = null;
 
     /**
      * A name associated with the person.
      *
      * @var \TKusy\Hl7FhirR4\HumanNameType[] $name
      */
-    private $name = [
-        
-    ];
+    private $name = null;
 
     /**
      * A contact detail for the person, e.g. a telephone number or an email address.
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $telecom
      */
-    private $telecom = [
-        
-    ];
+    private $telecom = null;
 
     /**
      * Administrative Gender - the gender that the person is considered to have for administration and record keeping purposes.
@@ -80,18 +72,14 @@ class RelatedPersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AddressType[] $address
      */
-    private $address = [
-        
-    ];
+    private $address = null;
 
     /**
      * Image of the person.
      *
      * @var \TKusy\Hl7FhirR4\AttachmentType[] $photo
      */
-    private $photo = [
-        
-    ];
+    private $photo = null;
 
     /**
      * The period of time during which this relationship is or was active. If there are no dates defined, then the interval is unknown.
@@ -105,9 +93,7 @@ class RelatedPersonType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\RelatedPersonCommunicationType[] $communication
      */
-    private $communication = [
-        
-    ];
+    private $communication = null;
 
     /**
      * Adds as identifier

@@ -23,9 +23,7 @@ class AuditEventAgentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $role
      */
-    private $role = [
-        
-    ];
+    private $role = null;
 
     /**
      * Reference to who this agent is that was involved in the event.
@@ -67,9 +65,7 @@ class AuditEventAgentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\UriType[] $policy
      */
-    private $policy = [
-        
-    ];
+    private $policy = null;
 
     /**
      * Type of media involved. Used when the event is about exporting/importing onto media.
@@ -90,9 +86,7 @@ class AuditEventAgentType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $purposeOfUse
      */
-    private $purposeOfUse = [
-        
-    ];
+    private $purposeOfUse = null;
 
     /**
      * Gets as type

@@ -30,18 +30,14 @@ class ValueSetComposeType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ValueSetIncludeType[] $include
      */
-    private $include = [
-        
-    ];
+    private $include = null;
 
     /**
      * Exclude one or more codes from the value set based on code system filters and/or other value sets.
      *
      * @var \TKusy\Hl7FhirR4\ValueSetIncludeType[] $exclude
      */
-    private $exclude = [
-        
-    ];
+    private $exclude = null;
 
     /**
      * Gets as lockedDate

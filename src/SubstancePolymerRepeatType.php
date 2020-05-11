@@ -37,9 +37,7 @@ class SubstancePolymerRepeatType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SubstancePolymerRepeatUnitType[] $repeatUnit
      */
-    private $repeatUnit = [
-        
-    ];
+    private $repeatUnit = null;
 
     /**
      * Gets as numberOfUnits

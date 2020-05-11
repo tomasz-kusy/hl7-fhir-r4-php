@@ -23,9 +23,7 @@ class DeviceDefinitionCapabilityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $description
      */
-    private $description = [
-        
-    ];
+    private $description = null;
 
     /**
      * Gets as type

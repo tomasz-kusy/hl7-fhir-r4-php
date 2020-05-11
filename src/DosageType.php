@@ -30,9 +30,7 @@ class DosageType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $additionalInstruction
      */
-    private $additionalInstruction = [
-        
-    ];
+    private $additionalInstruction = null;
 
     /**
      * Instructions in terms that are understood by the patient or consumer.
@@ -88,9 +86,7 @@ class DosageType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\DosageDoseAndRateType[] $doseAndRate
      */
-    private $doseAndRate = [
-        
-    ];
+    private $doseAndRate = null;
 
     /**
      * Upper limit on medication per unit of time.

@@ -37,9 +37,7 @@ class MeasureStratifierType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MeasureComponentType[] $component
      */
-    private $component = [
-        
-    ];
+    private $component = null;
 
     /**
      * Gets as code

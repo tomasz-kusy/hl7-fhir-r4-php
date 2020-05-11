@@ -16,9 +16,7 @@ class ResearchStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A short, descriptive user-friendly label for the study.
@@ -32,18 +30,14 @@ class ResearchStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $protocol
      */
-    private $protocol = [
-        
-    ];
+    private $protocol = null;
 
     /**
      * A larger research study of which this particular study is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * The current state of the study.
@@ -71,63 +65,49 @@ class ResearchStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * The medication(s), food(s), therapy(ies), device(s) or other concerns or interventions that the study is seeking to gain more information about.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $focus
      */
-    private $focus = [
-        
-    ];
+    private $focus = null;
 
     /**
      * The condition that is the focus of the study. For example, In a study to examine risk factors for Lupus, might have as an inclusion criterion "healthy volunteer", but the target condition code would be a Lupus SNOMED code.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $condition
      */
-    private $condition = [
-        
-    ];
+    private $condition = null;
 
     /**
      * Contact details to assist a user in learning more about or engaging with the study.
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * Citations, references and other related documents.
      *
      * @var \TKusy\Hl7FhirR4\RelatedArtifactType[] $relatedArtifact
      */
-    private $relatedArtifact = [
-        
-    ];
+    private $relatedArtifact = null;
 
     /**
      * Key terms to aid in searching for or filtering the study.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $keyword
      */
-    private $keyword = [
-        
-    ];
+    private $keyword = null;
 
     /**
      * Indicates a country, state or other region where the study is taking place.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $location
      */
-    private $location = [
-        
-    ];
+    private $location = null;
 
     /**
      * A full description of how the study is being conducted.
@@ -141,9 +121,7 @@ class ResearchStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $enrollment
      */
-    private $enrollment = [
-        
-    ];
+    private $enrollment = null;
 
     /**
      * Identifies the start date and the expected (or actual, depending on status) end date for the study.
@@ -171,9 +149,7 @@ class ResearchStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $site
      */
-    private $site = [
-        
-    ];
+    private $site = null;
 
     /**
      * A description and/or code explaining the premature termination of the study.
@@ -187,27 +163,21 @@ class ResearchStudyType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Describes an expected sequence of events for one of the participants of a study. E.g. Exposure to drug A, wash-out, exposure to drug B, wash-out, follow-up.
      *
      * @var \TKusy\Hl7FhirR4\ResearchStudyArmType[] $arm
      */
-    private $arm = [
-        
-    ];
+    private $arm = null;
 
     /**
      * A goal that the study is aiming to achieve in terms of a scientific question to be answered by the analysis of data collected during the study.
      *
      * @var \TKusy\Hl7FhirR4\ResearchStudyObjectiveType[] $objective
      */
-    private $objective = [
-        
-    ];
+    private $objective = null;
 
     /**
      * Adds as identifier

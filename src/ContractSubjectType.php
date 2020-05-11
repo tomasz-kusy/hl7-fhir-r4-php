@@ -16,9 +16,7 @@ class ContractSubjectType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reference
      */
-    private $reference = [
-        
-    ];
+    private $reference = null;
 
     /**
      * Role type of agent assigned roles in this Contract.

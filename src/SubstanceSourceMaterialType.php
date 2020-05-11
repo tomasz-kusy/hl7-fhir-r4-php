@@ -51,36 +51,28 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $parentSubstanceId
      */
-    private $parentSubstanceId = [
-        
-    ];
+    private $parentSubstanceId = null;
 
     /**
      * The parent substance of the Herbal Drug, or Herbal preparation.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $parentSubstanceName
      */
-    private $parentSubstanceName = [
-        
-    ];
+    private $parentSubstanceName = null;
 
     /**
      * The country where the plant material is harvested or the countries where the plasma is sourced from as laid down in accordance with the Plasma Master File. For “Plasma-derived substances” the attribute country of origin provides information about the countries used for the manufacturing of the Cryopoor plama or Crioprecipitate.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $countryOfOrigin
      */
-    private $countryOfOrigin = [
-        
-    ];
+    private $countryOfOrigin = null;
 
     /**
      * The place/region where the plant is harvested or the places/regions where the animal source material has its habitat.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $geographicalLocation
      */
-    private $geographicalLocation = [
-        
-    ];
+    private $geographicalLocation = null;
 
     /**
      * Stage of life for animals, plants, insects and microorganisms. This information shall be provided only when the substance is significantly different in these stages (e.g. foetal bovine serum).
@@ -94,9 +86,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSourceMaterialFractionDescriptionType[] $fractionDescription
      */
-    private $fractionDescription = [
-        
-    ];
+    private $fractionDescription = null;
 
     /**
      * This subclause describes the organism which the substance is derived from. For vaccines, the parent organism shall be specified based on these subclause elements. As an example, full taxonomy will be described for the Substance Name: ., Leaf.
@@ -110,9 +100,7 @@ class SubstanceSourceMaterialType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSourceMaterialPartDescriptionType[] $partDescription
      */
-    private $partDescription = [
-        
-    ];
+    private $partDescription = null;
 
     /**
      * Gets as sourceMaterialClass

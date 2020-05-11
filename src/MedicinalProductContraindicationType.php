@@ -16,9 +16,7 @@ class MedicinalProductContraindicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * The disease, symptom or procedure for the contraindication.
@@ -39,36 +37,28 @@ class MedicinalProductContraindicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $comorbidity
      */
-    private $comorbidity = [
-        
-    ];
+    private $comorbidity = null;
 
     /**
      * Information about the use of the medicinal product in relation to other therapies as part of the indication.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $therapeuticIndication
      */
-    private $therapeuticIndication = [
-        
-    ];
+    private $therapeuticIndication = null;
 
     /**
      * Information about the use of the medicinal product in relation to other therapies described as part of the indication.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductContraindicationOtherTherapyType[] $otherTherapy
      */
-    private $otherTherapy = [
-        
-    ];
+    private $otherTherapy = null;
 
     /**
      * The population group to which this applies.
      *
      * @var \TKusy\Hl7FhirR4\PopulationType[] $population
      */
-    private $population = [
-        
-    ];
+    private $population = null;
 
     /**
      * Adds as subject

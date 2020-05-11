@@ -30,9 +30,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $supportedProfile
      */
-    private $supportedProfile = [
-        
-    ];
+    private $supportedProfile = null;
 
     /**
      * Additional information about the resource type used by the system.
@@ -46,9 +44,7 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementInteractionType[] $interaction
      */
-    private $interaction = [
-        
-    ];
+    private $interaction = null;
 
     /**
      * This field is set to no-version to specify that the system does not support (server) or use (client) versioning for this resource type. If this has some other value, the server must at least correctly track and populate the versionId meta-property on resources. If the value is 'versioned-update', then the server supports all the versioning features, including using e-tags for version integrity in the API.
@@ -104,45 +100,35 @@ class CapabilityStatementResourceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceHandlingPolicyType[] $referencePolicy
      */
-    private $referencePolicy = [
-        
-    ];
+    private $referencePolicy = null;
 
     /**
      * A list of _include values supported by the server.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $searchInclude
      */
-    private $searchInclude = [
-        
-    ];
+    private $searchInclude = null;
 
     /**
      * A list of _revinclude (reverse include) values supported by the server.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $searchRevInclude
      */
-    private $searchRevInclude = [
-        
-    ];
+    private $searchRevInclude = null;
 
     /**
      * Search parameters for implementations to support and/or make use of - either references to ones defined in the specification, or additional ones defined for/by the implementation.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementSearchParamType[] $searchParam
      */
-    private $searchParam = [
-        
-    ];
+    private $searchParam = null;
 
     /**
      * Definition of an operation or a named query together with its parameters and their meaning and type. Consult the definition of the operation for details about how to invoke the operation, and the parameters.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementOperationType[] $operation
      */
-    private $operation = [
-        
-    ];
+    private $operation = null;
 
     /**
      * Gets as type

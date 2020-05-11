@@ -16,9 +16,7 @@ class MedicinalProductIndicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * The disease, symptom or procedure that is the indication for treatment.
@@ -39,9 +37,7 @@ class MedicinalProductIndicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $comorbidity
      */
-    private $comorbidity = [
-        
-    ];
+    private $comorbidity = null;
 
     /**
      * The intended effect, aim or strategy to be achieved by the indication.
@@ -62,27 +58,21 @@ class MedicinalProductIndicationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductIndicationOtherTherapyType[] $otherTherapy
      */
-    private $otherTherapy = [
-        
-    ];
+    private $otherTherapy = null;
 
     /**
      * Describe the undesirable effects of the medicinal product.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $undesirableEffect
      */
-    private $undesirableEffect = [
-        
-    ];
+    private $undesirableEffect = null;
 
     /**
      * The population group to which this applies.
      *
      * @var \TKusy\Hl7FhirR4\PopulationType[] $population
      */
-    private $population = [
-        
-    ];
+    private $population = null;
 
     /**
      * Adds as subject

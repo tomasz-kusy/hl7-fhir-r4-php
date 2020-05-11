@@ -30,9 +30,7 @@ class CodeSystemFilterType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\FilterOperatorType[] $operator
      */
-    private $operator = [
-        
-    ];
+    private $operator = null;
 
     /**
      * A description of what the value for the filter should be.

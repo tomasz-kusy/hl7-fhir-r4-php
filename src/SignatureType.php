@@ -16,9 +16,7 @@ class SignatureType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * When the digital signature was signed.

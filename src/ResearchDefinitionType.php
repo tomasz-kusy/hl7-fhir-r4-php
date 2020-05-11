@@ -23,9 +23,7 @@ class ResearchDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The identifier that is used to identify this version of the research definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the research definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.
@@ -109,9 +107,7 @@ class ResearchDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the research definition from a consumer's perspective.
@@ -125,27 +121,21 @@ class ResearchDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $comment
      */
-    private $comment = [
-        
-    ];
+    private $comment = null;
 
     /**
      * The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate research definition instances.
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the research definition is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this research definition is needed and why it has been designed as it has.
@@ -194,63 +184,49 @@ class ResearchDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $topic
      */
-    private $topic = [
-        
-    ];
+    private $topic = null;
 
     /**
      * An individiual or organization primarily involved in the creation and maintenance of the content.
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $author
      */
-    private $author = [
-        
-    ];
+    private $author = null;
 
     /**
      * An individual or organization primarily responsible for internal coherence of the content.
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $editor
      */
-    private $editor = [
-        
-    ];
+    private $editor = null;
 
     /**
      * An individual or organization primarily responsible for review of some aspect of the content.
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $reviewer
      */
-    private $reviewer = [
-        
-    ];
+    private $reviewer = null;
 
     /**
      * An individual or organization responsible for officially endorsing the content for use in some setting.
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $endorser
      */
-    private $endorser = [
-        
-    ];
+    private $endorser = null;
 
     /**
      * Related artifacts such as additional documentation, justification, or bibliographic references.
      *
      * @var \TKusy\Hl7FhirR4\RelatedArtifactType[] $relatedArtifact
      */
-    private $relatedArtifact = [
-        
-    ];
+    private $relatedArtifact = null;
 
     /**
      * A reference to a Library resource containing the formal logic used by the ResearchDefinition.
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $library
      */
-    private $library = [
-        
-    ];
+    private $library = null;
 
     /**
      * A reference to a ResearchElementDefinition resource that defines the population for the research.

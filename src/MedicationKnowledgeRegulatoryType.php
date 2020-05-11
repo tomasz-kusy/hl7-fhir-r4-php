@@ -23,18 +23,14 @@ class MedicationKnowledgeRegulatoryType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeSubstitutionType[] $substitution
      */
-    private $substitution = [
-        
-    ];
+    private $substitution = null;
 
     /**
      * Specifies the schedule of a medication in jurisdiction.
      *
      * @var \TKusy\Hl7FhirR4\MedicationKnowledgeScheduleType[] $schedule
      */
-    private $schedule = [
-        
-    ];
+    private $schedule = null;
 
     /**
      * The maximum number of units of the medication that can be dispensed in a period.

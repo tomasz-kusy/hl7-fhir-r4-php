@@ -44,63 +44,49 @@ class SubstanceSpecificationNameType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $language
      */
-    private $language = [
-        
-    ];
+    private $language = null;
 
     /**
      * The use context of this name for example if there is a different name a drug active ingredient as opposed to a food colour additive.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $domain
      */
-    private $domain = [
-        
-    ];
+    private $domain = null;
 
     /**
      * The jurisdiction where this name applies.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * A synonym of this name.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationNameType[] $synonym
      */
-    private $synonym = [
-        
-    ];
+    private $synonym = null;
 
     /**
      * A translation for this name.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationNameType[] $translation
      */
-    private $translation = [
-        
-    ];
+    private $translation = null;
 
     /**
      * Details of the official nature of this name.
      *
      * @var \TKusy\Hl7FhirR4\SubstanceSpecificationOfficialType[] $official
      */
-    private $official = [
-        
-    ];
+    private $official = null;
 
     /**
      * Supporting literature.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $source
      */
-    private $source = [
-        
-    ];
+    private $source = null;
 
     /**
      * Gets as name

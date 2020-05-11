@@ -23,9 +23,7 @@ class ClaimProcedureType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * Date and optionally time the procedure was performed.
@@ -53,9 +51,7 @@ class ClaimProcedureType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $udi
      */
-    private $udi = [
-        
-    ];
+    private $udi = null;
 
     /**
      * Gets as sequence

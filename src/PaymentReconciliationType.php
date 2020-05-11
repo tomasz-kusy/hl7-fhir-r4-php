@@ -16,9 +16,7 @@ class PaymentReconciliationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -102,9 +100,7 @@ class PaymentReconciliationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\PaymentReconciliationDetailType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * A code for the form to be used for printing the content.
@@ -118,9 +114,7 @@ class PaymentReconciliationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\PaymentReconciliationProcessNoteType[] $processNote
      */
-    private $processNote = [
-        
-    ];
+    private $processNote = null;
 
     /**
      * Adds as identifier

@@ -37,9 +37,7 @@ class ObservationReferenceRangeType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $appliesTo
      */
-    private $appliesTo = [
-        
-    ];
+    private $appliesTo = null;
 
     /**
      * The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.

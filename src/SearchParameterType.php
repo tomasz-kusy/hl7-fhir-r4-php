@@ -72,9 +72,7 @@ class SearchParameterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * And how it used.
@@ -88,18 +86,14 @@ class SearchParameterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the search parameter is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this search parameter is needed and why it has been designed as it has.
@@ -120,9 +114,7 @@ class SearchParameterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $base
      */
-    private $base = [
-        
-    ];
+    private $base = null;
 
     /**
      * The type of value that a search parameter may contain, and how the content is interpreted.
@@ -157,9 +149,7 @@ class SearchParameterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Whether multiple values are allowed for each time the parameter exists. Values are separated by commas, and the parameter matches if any of the values match.
@@ -180,36 +170,28 @@ class SearchParameterType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\SearchComparatorType[] $comparator
      */
-    private $comparator = [
-        
-    ];
+    private $comparator = null;
 
     /**
      * A modifier supported for the search parameter.
      *
      * @var \TKusy\Hl7FhirR4\SearchModifierCodeType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * Contains the names of any search parameters which may be chained to the containing search parameter. Chained parameters may be added to search parameters of type reference and specify that resources will only be returned if they contain a reference to a resource which matches the chained parameter value. Values for this field should be drawn from SearchParameter.code for a parameter on the target resource type.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $chain
      */
-    private $chain = [
-        
-    ];
+    private $chain = null;
 
     /**
      * Used to define the parts of a composite search parameter.
      *
      * @var \TKusy\Hl7FhirR4\SearchParameterComponentType[] $component
      */
-    private $component = [
-        
-    ];
+    private $component = null;
 
     /**
      * Gets as url

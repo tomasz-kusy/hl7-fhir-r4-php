@@ -16,9 +16,7 @@ class ContractSecurityLabelType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\UnsignedIntType[] $number
      */
-    private $number = [
-        
-    ];
+    private $number = null;
 
     /**
      * Security label privacy tag that species the level of confidentiality protection required for this term and/or term elements.
@@ -32,18 +30,14 @@ class ContractSecurityLabelType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Security label privacy tag that species the manner in which term and/or term elements are to be protected.
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $control
      */
-    private $control = [
-        
-    ];
+    private $control = null;
 
     /**
      * Adds as number

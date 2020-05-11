@@ -37,18 +37,14 @@ class SubstancePolymerRepeatUnitType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SubstancePolymerDegreeOfPolymerisationType[] $degreeOfPolymerisation
      */
-    private $degreeOfPolymerisation = [
-        
-    ];
+    private $degreeOfPolymerisation = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\SubstancePolymerStructuralRepresentationType[] $structuralRepresentation
      */
-    private $structuralRepresentation = [
-        
-    ];
+    private $structuralRepresentation = null;
 
     /**
      * Gets as orientationOfPolymerisation

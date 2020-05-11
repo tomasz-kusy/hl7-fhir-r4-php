@@ -23,9 +23,7 @@ class CapabilityStatementSecurityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $service
      */
-    private $service = [
-        
-    ];
+    private $service = null;
 
     /**
      * General description of how security works.

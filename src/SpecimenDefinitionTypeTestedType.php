@@ -58,18 +58,14 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $rejectionCriterion
      */
-    private $rejectionCriterion = [
-        
-    ];
+    private $rejectionCriterion = null;
 
     /**
      * Set of instructions for preservation/transport of the specimen at a defined temperature interval, prior the testing process.
      *
      * @var \TKusy\Hl7FhirR4\SpecimenDefinitionHandlingType[] $handling
      */
-    private $handling = [
-        
-    ];
+    private $handling = null;
 
     /**
      * Gets as isDerived

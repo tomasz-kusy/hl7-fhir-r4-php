@@ -16,9 +16,7 @@ class EpisodeOfCareType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * planned | waitlist | active | onhold | finished | cancelled.
@@ -32,27 +30,21 @@ class EpisodeOfCareType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\EpisodeOfCareStatusHistoryType[] $statusHistory
      */
-    private $statusHistory = [
-        
-    ];
+    private $statusHistory = null;
 
     /**
      * A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $type
      */
-    private $type = [
-        
-    ];
+    private $type = null;
 
     /**
      * The list of diagnosis relevant to this episode of care.
      *
      * @var \TKusy\Hl7FhirR4\EpisodeOfCareDiagnosisType[] $diagnosis
      */
-    private $diagnosis = [
-        
-    ];
+    private $diagnosis = null;
 
     /**
      * The patient who is the focus of this episode of care.
@@ -80,9 +72,7 @@ class EpisodeOfCareType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $referralRequest
      */
-    private $referralRequest = [
-        
-    ];
+    private $referralRequest = null;
 
     /**
      * The practitioner that is the care manager/care coordinator for this patient.
@@ -96,18 +86,14 @@ class EpisodeOfCareType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $team
      */
-    private $team = [
-        
-    ];
+    private $team = null;
 
     /**
      * The set of accounts that may be used for billing for this EpisodeOfCare.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $account
      */
-    private $account = [
-        
-    ];
+    private $account = null;
 
     /**
      * Adds as identifier

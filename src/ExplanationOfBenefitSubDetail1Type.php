@@ -23,9 +23,7 @@ class ExplanationOfBenefitSubDetail1Type extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * The number of repetitions of a service or product.
@@ -60,18 +58,14 @@ class ExplanationOfBenefitSubDetail1Type extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $noteNumber
      */
-    private $noteNumber = [
-        
-    ];
+    private $noteNumber = null;
 
     /**
      * The adjudication results.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * Gets as productOrService

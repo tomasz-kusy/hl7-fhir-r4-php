@@ -58,9 +58,7 @@ class TriggerDefinitionType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\DataRequirementType[] $data
      */
-    private $data = [
-        
-    ];
+    private $data = null;
 
     /**
      * A boolean-valued expression that is evaluated in the context of the container of the trigger definition and returns whether or not the trigger fires.

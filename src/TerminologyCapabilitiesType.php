@@ -72,9 +72,7 @@ class TerminologyCapabilitiesType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the terminology capabilities from a consumer's perspective. Typically, this is used when the capability statement describes a desired rather than an actual solution, for example as a formal expression of requirements as part of an RFP.
@@ -88,18 +86,14 @@ class TerminologyCapabilitiesType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the terminology capabilities is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * Explanation of why this terminology capabilities is needed and why it has been designed as it has.
@@ -148,9 +142,7 @@ class TerminologyCapabilitiesType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\TerminologyCapabilitiesCodeSystemType[] $codeSystem
      */
-    private $codeSystem = [
-        
-    ];
+    private $codeSystem = null;
 
     /**
      * Information about the [ValueSet/$expand](valueset-operation-expand.html) operation.

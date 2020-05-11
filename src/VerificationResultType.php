@@ -16,18 +16,14 @@ class VerificationResultType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * The fhirpath location(s) within the resource that was validated.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $targetLocation
      */
-    private $targetLocation = [
-        
-    ];
+    private $targetLocation = null;
 
     /**
      * The frequency with which the target must be validated (none; initial; periodic).
@@ -62,9 +58,7 @@ class VerificationResultType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $validationProcess
      */
-    private $validationProcess = [
-        
-    ];
+    private $validationProcess = null;
 
     /**
      * Frequency of revalidation.
@@ -99,9 +93,7 @@ class VerificationResultType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\VerificationResultPrimarySourceType[] $primarySource
      */
-    private $primarySource = [
-        
-    ];
+    private $primarySource = null;
 
     /**
      * Information about the entity attesting to information.
@@ -115,9 +107,7 @@ class VerificationResultType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\VerificationResultValidatorType[] $validator
      */
-    private $validator = [
-        
-    ];
+    private $validator = null;
 
     /**
      * Adds as target

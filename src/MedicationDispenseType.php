@@ -16,18 +16,14 @@ class MedicationDispenseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The procedure that trigger the dispense.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * A code specifying the state of the set of dispense events.
@@ -90,18 +86,14 @@ class MedicationDispenseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $supportingInformation
      */
-    private $supportingInformation = [
-        
-    ];
+    private $supportingInformation = null;
 
     /**
      * Indicates who or what performed the event.
      *
      * @var \TKusy\Hl7FhirR4\MedicationDispensePerformerType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The principal physical location where the dispense was performed.
@@ -115,9 +107,7 @@ class MedicationDispenseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $authorizingPrescription
      */
-    private $authorizingPrescription = [
-        
-    ];
+    private $authorizingPrescription = null;
 
     /**
      * Indicates the type of dispensing event that is performed. For example, Trial Fill, Completion of Trial, Partial Fill, Emergency Fill, Samples, etc.
@@ -166,27 +156,21 @@ class MedicationDispenseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $receiver
      */
-    private $receiver = [
-        
-    ];
+    private $receiver = null;
 
     /**
      * Extra information about the dispense that could not be conveyed in the other attributes.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Indicates how the medication is to be used by the patient.
      *
      * @var \TKusy\Hl7FhirR4\DosageType[] $dosageInstruction
      */
-    private $dosageInstruction = [
-        
-    ];
+    private $dosageInstruction = null;
 
     /**
      * Indicates whether or not substitution was made as part of the dispense. In some cases, substitution will be expected but does not happen, in other cases substitution is not expected but does happen. This block explains what substitution did or did not happen and why. If nothing is specified, substitution was not done.
@@ -200,18 +184,14 @@ class MedicationDispenseType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $detectedIssue
      */
-    private $detectedIssue = [
-        
-    ];
+    private $detectedIssue = null;
 
     /**
      * A summary of the events of interest that have occurred, such as when the dispense was verified.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $eventHistory
      */
-    private $eventHistory = [
-        
-    ];
+    private $eventHistory = null;
 
     /**
      * Adds as identifier

@@ -16,9 +16,7 @@ class ConditionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The clinical status of the condition.
@@ -39,9 +37,7 @@ class ConditionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * A subjective assessment of the severity of the condition as evaluated by the clinician.
@@ -62,9 +58,7 @@ class ConditionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $bodySite
      */
-    private $bodySite = [
-        
-    ];
+    private $bodySite = null;
 
     /**
      * Indicates the patient or group who the condition record is associated with.
@@ -176,27 +170,21 @@ class ConditionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ConditionStageType[] $stage
      */
-    private $stage = [
-        
-    ];
+    private $stage = null;
 
     /**
      * Supporting evidence / manifestations that are the basis of the Condition's verification status, such as evidence that confirmed or refuted the condition.
      *
      * @var \TKusy\Hl7FhirR4\ConditionEvidenceType[] $evidence
      */
-    private $evidence = [
-        
-    ];
+    private $evidence = null;
 
     /**
      * Additional information about the Condition. This is a general notes/comments entry for description of the Condition, its diagnosis and prognosis.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

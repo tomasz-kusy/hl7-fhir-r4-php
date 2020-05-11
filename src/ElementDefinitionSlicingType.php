@@ -16,9 +16,7 @@ class ElementDefinitionSlicingType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ElementDefinitionDiscriminatorType[] $discriminator
      */
-    private $discriminator = [
-        
-    ];
+    private $discriminator = null;
 
     /**
      * A human-readable text description of how the slicing works. If there is no discriminator, this is required to be present to provide whatever information is possible about how the slices can be differentiated.

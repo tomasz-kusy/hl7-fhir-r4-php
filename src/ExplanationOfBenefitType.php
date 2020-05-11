@@ -16,9 +16,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The status of the resource instance.
@@ -116,9 +114,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitRelatedType[] $related
      */
-    private $related = [
-        
-    ];
+    private $related = null;
 
     /**
      * Prescription to support the dispensing of pharmacy, device or vision products.
@@ -188,54 +184,42 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $preAuthRef
      */
-    private $preAuthRef = [
-        
-    ];
+    private $preAuthRef = null;
 
     /**
      * The timeframe during which the supplied preauthorization reference may be quoted on claims to obtain the adjudication as provided.
      *
      * @var \TKusy\Hl7FhirR4\PeriodType[] $preAuthRefPeriod
      */
-    private $preAuthRefPeriod = [
-        
-    ];
+    private $preAuthRefPeriod = null;
 
     /**
      * The members of the team who provided the products and services.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType[] $careTeam
      */
-    private $careTeam = [
-        
-    ];
+    private $careTeam = null;
 
     /**
      * Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitSupportingInfoType[] $supportingInfo
      */
-    private $supportingInfo = [
-        
-    ];
+    private $supportingInfo = null;
 
     /**
      * Information about diagnoses relevant to the claim items.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitDiagnosisType[] $diagnosis
      */
-    private $diagnosis = [
-        
-    ];
+    private $diagnosis = null;
 
     /**
      * Procedures performed on the patient relevant to the billing items with the claim.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitProcedureType[] $procedure
      */
-    private $procedure = [
-        
-    ];
+    private $procedure = null;
 
     /**
      * This indicates the relative order of a series of EOBs related to different coverages for the same suite of services.
@@ -249,9 +233,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitInsuranceType[] $insurance
      */
-    private $insurance = [
-        
-    ];
+    private $insurance = null;
 
     /**
      * Details of a accident which resulted in injuries which required the products and services listed in the claim.
@@ -265,36 +247,28 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * The first-tier service adjudications for payor added product or service lines.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitAddItemType[] $addItem
      */
-    private $addItem = [
-        
-    ];
+    private $addItem = null;
 
     /**
      * The adjudication results which are presented at the header level rather than at the line-item or add-item levels.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitAdjudicationType[] $adjudication
      */
-    private $adjudication = [
-        
-    ];
+    private $adjudication = null;
 
     /**
      * Categorized monetary totals for the adjudication.
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitTotalType[] $total
      */
-    private $total = [
-        
-    ];
+    private $total = null;
 
     /**
      * Payment details for the adjudication of the claim.
@@ -322,9 +296,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitProcessNoteType[] $processNote
      */
-    private $processNote = [
-        
-    ];
+    private $processNote = null;
 
     /**
      * The term of the benefits documented in this response.
@@ -338,9 +310,7 @@ class ExplanationOfBenefitType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitBenefitBalanceType[] $benefitBalance
      */
-    private $benefitBalance = [
-        
-    ];
+    private $benefitBalance = null;
 
     /**
      * Adds as identifier

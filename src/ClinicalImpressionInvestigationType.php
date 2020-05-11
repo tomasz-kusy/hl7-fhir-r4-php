@@ -23,9 +23,7 @@ class ClinicalImpressionInvestigationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as code

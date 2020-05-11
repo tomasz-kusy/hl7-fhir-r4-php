@@ -51,36 +51,28 @@ class RequestGroupActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.
      *
      * @var \TKusy\Hl7FhirR4\RelatedArtifactType[] $documentation
      */
-    private $documentation = [
-        
-    ];
+    private $documentation = null;
 
     /**
      * An expression that describes applicability criteria, or start/stop conditions for the action.
      *
      * @var \TKusy\Hl7FhirR4\RequestGroupConditionType[] $condition
      */
-    private $condition = [
-        
-    ];
+    private $condition = null;
 
     /**
      * A relationship to another action such as "before" or "30-60 minutes after start of".
      *
      * @var \TKusy\Hl7FhirR4\RequestGroupRelatedActionType[] $relatedAction
      */
-    private $relatedAction = [
-        
-    ];
+    private $relatedAction = null;
 
     /**
      * An optional value describing when the action should be performed. (choose any one of timing*, but only one)
@@ -129,9 +121,7 @@ class RequestGroupActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $participant
      */
-    private $participant = [
-        
-    ];
+    private $participant = null;
 
     /**
      * The type of action to perform (create, update, remove).
@@ -187,9 +177,7 @@ class RequestGroupActionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\RequestGroupActionType[] $action
      */
-    private $action = [
-        
-    ];
+    private $action = null;
 
     /**
      * Gets as prefix

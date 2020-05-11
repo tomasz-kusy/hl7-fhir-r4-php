@@ -16,9 +16,7 @@ class MedicinalProductInteractionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $subject
      */
-    private $subject = [
-        
-    ];
+    private $subject = null;
 
     /**
      * The interaction described.
@@ -32,9 +30,7 @@ class MedicinalProductInteractionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductInteractionInteractantType[] $interactant
      */
-    private $interactant = [
-        
-    ];
+    private $interactant = null;
 
     /**
      * The type of the interaction e.g. drug-drug interaction, drug-food interaction, drug-lab test interaction.

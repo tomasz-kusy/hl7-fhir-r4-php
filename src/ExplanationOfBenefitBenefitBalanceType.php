@@ -65,9 +65,7 @@ class ExplanationOfBenefitBenefitBalanceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType[] $financial
      */
-    private $financial = [
-        
-    ];
+    private $financial = null;
 
     /**
      * Gets as category

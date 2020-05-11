@@ -16,9 +16,7 @@ class ListType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates the current state of this list.
@@ -88,18 +86,14 @@ class ListType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Entries in this list.
      *
      * @var \TKusy\Hl7FhirR4\ListEntryType[] $entry
      */
-    private $entry = [
-        
-    ];
+    private $entry = null;
 
     /**
      * If the list is empty, why the list is empty.

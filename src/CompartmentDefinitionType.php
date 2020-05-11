@@ -65,9 +65,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the compartment definition from a consumer's perspective.
@@ -81,9 +79,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * Explanation of why this compartment definition is needed and why it has been designed as it has.
@@ -111,9 +107,7 @@ class CompartmentDefinitionType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CompartmentDefinitionResourceType[] $resource
      */
-    private $resource = [
-        
-    ];
+    private $resource = null;
 
     /**
      * Gets as url

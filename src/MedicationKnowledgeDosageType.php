@@ -23,9 +23,7 @@ class MedicationKnowledgeDosageType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\DosageType[] $dosage
      */
-    private $dosage = [
-        
-    ];
+    private $dosage = null;
 
     /**
      * Gets as type

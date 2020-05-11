@@ -44,9 +44,7 @@ class StructureMapTargetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StructureMapTargetListModeType[] $listMode
      */
-    private $listMode = [
-        
-    ];
+    private $listMode = null;
 
     /**
      * Internal rule reference for shared list items.
@@ -67,9 +65,7 @@ class StructureMapTargetType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\StructureMapParameterType[] $parameter
      */
-    private $parameter = [
-        
-    ];
+    private $parameter = null;
 
     /**
      * Gets as context

@@ -44,9 +44,7 @@ class AuditEventEntityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodingType[] $securityLabel
      */
-    private $securityLabel = [
-        
-    ];
+    private $securityLabel = null;
 
     /**
      * A name of the entity in the audit event.
@@ -74,9 +72,7 @@ class AuditEventEntityType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\AuditEventDetailType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Gets as what

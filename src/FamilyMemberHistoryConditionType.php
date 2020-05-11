@@ -65,9 +65,7 @@ class FamilyMemberHistoryConditionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Gets as code

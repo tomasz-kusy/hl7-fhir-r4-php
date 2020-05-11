@@ -16,18 +16,14 @@ class DetectedIssueEvidenceType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * Links to resources that constitute evidence for the detected issue such as a GuidanceResponse or MeasureReport.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Adds as code

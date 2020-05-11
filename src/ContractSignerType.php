@@ -30,9 +30,7 @@ class ContractSignerType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SignatureType[] $signature
      */
-    private $signature = [
-        
-    ];
+    private $signature = null;
 
     /**
      * Gets as type

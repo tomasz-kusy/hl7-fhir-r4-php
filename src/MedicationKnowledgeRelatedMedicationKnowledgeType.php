@@ -23,9 +23,7 @@ class MedicationKnowledgeRelatedMedicationKnowledgeType extends BackboneElementT
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reference
      */
-    private $reference = [
-        
-    ];
+    private $reference = null;
 
     /**
      * Gets as type

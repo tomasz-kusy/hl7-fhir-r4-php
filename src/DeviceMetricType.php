@@ -16,9 +16,7 @@ class DeviceMetricType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Describes the type of the metric. For example: Heart Rate, PEEP Setting, etc.
@@ -81,9 +79,7 @@ class DeviceMetricType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceMetricCalibrationType[] $calibration
      */
-    private $calibration = [
-        
-    ];
+    private $calibration = null;
 
     /**
      * Adds as identifier

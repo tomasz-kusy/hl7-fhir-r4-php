@@ -37,45 +37,35 @@ class CapabilityStatementRestType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementResourceType[] $resource
      */
-    private $resource = [
-        
-    ];
+    private $resource = null;
 
     /**
      * A specification of restful operations supported by the system.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementInteraction1Type[] $interaction
      */
-    private $interaction = [
-        
-    ];
+    private $interaction = null;
 
     /**
      * Search parameters that are supported for searching all resources for implementations to support and/or make use of - either references to ones defined in the specification, or additional ones defined for/by the implementation.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementSearchParamType[] $searchParam
      */
-    private $searchParam = [
-        
-    ];
+    private $searchParam = null;
 
     /**
      * Definition of an operation or a named query together with its parameters and their meaning and type.
      *
      * @var \TKusy\Hl7FhirR4\CapabilityStatementOperationType[] $operation
      */
-    private $operation = [
-        
-    ];
+    private $operation = null;
 
     /**
      * An absolute URI which is a reference to the definition of a compartment that the system supports. The reference is to a CompartmentDefinition resource by its canonical URL .
      *
      * @var \TKusy\Hl7FhirR4\CanonicalType[] $compartment
      */
-    private $compartment = [
-        
-    ];
+    private $compartment = null;
 
     /**
      * Gets as mode

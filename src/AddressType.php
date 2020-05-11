@@ -37,9 +37,7 @@ class AddressType extends ElementType
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $line
      */
-    private $line = [
-        
-    ];
+    private $line = null;
 
     /**
      * The name of the city, town, suburb, village or other community or delivery center.

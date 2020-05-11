@@ -30,36 +30,28 @@ class SubstancePolymerType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $copolymerConnectivity
      */
-    private $copolymerConnectivity = [
-        
-    ];
+    private $copolymerConnectivity = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\StringType[] $modification
      */
-    private $modification = [
-        
-    ];
+    private $modification = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\SubstancePolymerMonomerSetType[] $monomerSet
      */
-    private $monomerSet = [
-        
-    ];
+    private $monomerSet = null;
 
     /**
      * Todo.
      *
      * @var \TKusy\Hl7FhirR4\SubstancePolymerRepeatType[] $repeat
      */
-    private $repeat = [
-        
-    ];
+    private $repeat = null;
 
     /**
      * Gets as class

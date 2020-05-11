@@ -16,27 +16,21 @@ class ObservationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A plan, proposal or order that is fulfilled in whole or in part by this event. For example, a MedicationRequest may require a patient to have laboratory test performed before it is dispensed.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A larger event of which this particular Observation is a component or step. For example, an observation as part of a procedure.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * The status of the result value.
@@ -50,9 +44,7 @@ class ObservationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Describes what was observed. Sometimes this is called the observation "name".
@@ -73,9 +65,7 @@ class ObservationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $focus
      */
-    private $focus = [
-        
-    ];
+    private $focus = null;
 
     /**
      * The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.
@@ -124,9 +114,7 @@ class ObservationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $performer
      */
-    private $performer = [
-        
-    ];
+    private $performer = null;
 
     /**
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
@@ -217,18 +205,14 @@ class ObservationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $interpretation
      */
-    private $interpretation = [
-        
-    ];
+    private $interpretation = null;
 
     /**
      * Comments about the observation or the results.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Indicates the site on the subject's body where the observation was made (i.e. the target site).
@@ -263,36 +247,28 @@ class ObservationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ObservationReferenceRangeType[] $referenceRange
      */
-    private $referenceRange = [
-        
-    ];
+    private $referenceRange = null;
 
     /**
      * This observation is a group observation (e.g. a battery, a panel of tests, a set of vital sign measurements) that includes the target as a member of the group.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $hasMember
      */
-    private $hasMember = [
-        
-    ];
+    private $hasMember = null;
 
     /**
      * The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $derivedFrom
      */
-    private $derivedFrom = [
-        
-    ];
+    private $derivedFrom = null;
 
     /**
      * Some observations have multiple component observations. These component observations are expressed as separate code value pairs that share the same attributes. Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations.
      *
      * @var \TKusy\Hl7FhirR4\ObservationComponentType[] $component
      */
-    private $component = [
-        
-    ];
+    private $component = null;
 
     /**
      * Adds as identifier

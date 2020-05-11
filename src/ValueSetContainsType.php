@@ -58,18 +58,14 @@ class ValueSetContainsType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ValueSetDesignationType[] $designation
      */
-    private $designation = [
-        
-    ];
+    private $designation = null;
 
     /**
      * Other codes and entries contained under this entry in the hierarchy.
      *
      * @var \TKusy\Hl7FhirR4\ValueSetContainsType[] $contains
      */
-    private $contains = [
-        
-    ];
+    private $contains = null;
 
     /**
      * Gets as system

@@ -30,9 +30,7 @@ class LinkageType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\LinkageItemType[] $item
      */
-    private $item = [
-        
-    ];
+    private $item = null;
 
     /**
      * Gets as active

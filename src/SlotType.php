@@ -16,36 +16,28 @@ class SlotType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A broad categorization of the service that is to be performed during this appointment.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceCategory
      */
-    private $serviceCategory = [
-        
-    ];
+    private $serviceCategory = null;
 
     /**
      * The type of appointments that can be booked into this slot (ideally this would be an identifiable service - which is at a location, rather than the location itself). If provided then this overrides the value provided on the availability resource.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $serviceType
      */
-    private $serviceType = [
-        
-    ];
+    private $serviceType = null;
 
     /**
      * The specialty of a practitioner that would be required to perform the service requested in this appointment.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialty
      */
-    private $specialty = [
-        
-    ];
+    private $specialty = null;
 
     /**
      * The style of appointment or patient that may be booked in the slot (not service type).

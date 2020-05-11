@@ -23,9 +23,7 @@ class MeasureSupplementalDataType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $usage
      */
-    private $usage = [
-        
-    ];
+    private $usage = null;
 
     /**
      * The human readable description of this supplemental data.

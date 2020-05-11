@@ -16,9 +16,7 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates the current status of the evaluation of the vaccination administration event.
@@ -74,9 +72,7 @@ class ImmunizationEvaluationType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $doseStatusReason
      */
-    private $doseStatusReason = [
-        
-    ];
+    private $doseStatusReason = null;
 
     /**
      * Additional information about the evaluation.

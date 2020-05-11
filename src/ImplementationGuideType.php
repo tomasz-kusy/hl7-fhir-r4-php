@@ -72,9 +72,7 @@ class ImplementationGuideType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactDetailType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * A free text natural language description of the implementation guide from a consumer's perspective.
@@ -88,18 +86,14 @@ class ImplementationGuideType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\UsageContextType[] $useContext
      */
-    private $useContext = [
-        
-    ];
+    private $useContext = null;
 
     /**
      * A legal or geographic region in which the implementation guide is intended to be used.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $jurisdiction
      */
-    private $jurisdiction = [
-        
-    ];
+    private $jurisdiction = null;
 
     /**
      * A copyright statement relating to the implementation guide and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the implementation guide.
@@ -127,27 +121,21 @@ class ImplementationGuideType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\FHIRVersionType[] $fhirVersion
      */
-    private $fhirVersion = [
-        
-    ];
+    private $fhirVersion = null;
 
     /**
      * Another implementation guide that this implementation depends on. Typically, an implementation guide uses value sets, profiles etc.defined in other implementation guides.
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideDependsOnType[] $dependsOn
      */
-    private $dependsOn = [
-        
-    ];
+    private $dependsOn = null;
 
     /**
      * A set of profiles that all resources covered by this implementation guide must conform to.
      *
      * @var \TKusy\Hl7FhirR4\ImplementationGuideGlobalType[] $global
      */
-    private $global = [
-        
-    ];
+    private $global = null;
 
     /**
      * The information needed by an IG publisher tool to publish the whole implementation guide.

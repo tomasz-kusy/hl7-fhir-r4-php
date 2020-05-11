@@ -30,9 +30,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * The practitioner who is eligible for the provision of the product or service.
@@ -88,9 +86,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityResponseBenefitType[] $benefit
      */
-    private $benefit = [
-        
-    ];
+    private $benefit = null;
 
     /**
      * A boolean flag indicating whether a preauthorization is required prior to actual service delivery.
@@ -104,9 +100,7 @@ class CoverageEligibilityResponseItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $authorizationSupporting
      */
-    private $authorizationSupporting = [
-        
-    ];
+    private $authorizationSupporting = null;
 
     /**
      * A web location for obtaining requirements or descriptive information regarding the preauthorization.

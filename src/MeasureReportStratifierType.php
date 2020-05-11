@@ -16,18 +16,14 @@ class MeasureReportStratifierType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $code
      */
-    private $code = [
-        
-    ];
+    private $code = null;
 
     /**
      * This element contains the results for a single stratum within the stratifier. For example, when stratifying on administrative gender, there will be four strata, one for each possible gender value.
      *
      * @var \TKusy\Hl7FhirR4\MeasureReportStratumType[] $stratum
      */
-    private $stratum = [
-        
-    ];
+    private $stratum = null;
 
     /**
      * Adds as code

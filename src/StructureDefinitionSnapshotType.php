@@ -16,9 +16,7 @@ class StructureDefinitionSnapshotType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ElementDefinitionType[] $element
      */
-    private $element = [
-        
-    ];
+    private $element = null;
 
     /**
      * Adds as element

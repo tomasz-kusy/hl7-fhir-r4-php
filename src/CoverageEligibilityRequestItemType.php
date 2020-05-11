@@ -16,9 +16,7 @@ class CoverageEligibilityRequestItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\PositiveIntType[] $supportingInfoSequence
      */
-    private $supportingInfoSequence = [
-        
-    ];
+    private $supportingInfoSequence = null;
 
     /**
      * Code to identify the general type of benefits under which products and services are provided.
@@ -39,9 +37,7 @@ class CoverageEligibilityRequestItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * The practitioner who is responsible for the product or service to be rendered to the patient.
@@ -76,18 +72,14 @@ class CoverageEligibilityRequestItemType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CoverageEligibilityRequestDiagnosisType[] $diagnosis
      */
-    private $diagnosis = [
-        
-    ];
+    private $diagnosis = null;
 
     /**
      * The plan/proposal/order describing the proposed service in detail.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $detail
      */
-    private $detail = [
-        
-    ];
+    private $detail = null;
 
     /**
      * Adds as supportingInfoSequence

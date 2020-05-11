@@ -16,9 +16,7 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The reference to the definition for the device.
@@ -32,9 +30,7 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceUdiCarrierType[] $udiCarrier
      */
-    private $udiCarrier = [
-        
-    ];
+    private $udiCarrier = null;
 
     /**
      * Status of the Device availability.
@@ -48,9 +44,7 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $statusReason
      */
-    private $statusReason = [
-        
-    ];
+    private $statusReason = null;
 
     /**
      * The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product.
@@ -99,9 +93,7 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceDeviceNameType[] $deviceName
      */
-    private $deviceName = [
-        
-    ];
+    private $deviceName = null;
 
     /**
      * The model number for the device.
@@ -129,27 +121,21 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DeviceSpecializationType[] $specialization
      */
-    private $specialization = [
-        
-    ];
+    private $specialization = null;
 
     /**
      * The actual design of the device or software version running on the device.
      *
      * @var \TKusy\Hl7FhirR4\DeviceVersionType[] $version
      */
-    private $version = [
-        
-    ];
+    private $version = null;
 
     /**
      * The actual configuration settings of a device as it actually operates, e.g., regulation status, time properties.
      *
      * @var \TKusy\Hl7FhirR4\DevicePropertyType[] $property
      */
-    private $property = [
-        
-    ];
+    private $property = null;
 
     /**
      * Patient information, If the device is affixed to a person.
@@ -170,9 +156,7 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ContactPointType[] $contact
      */
-    private $contact = [
-        
-    ];
+    private $contact = null;
 
     /**
      * The place where the device can be found.
@@ -193,18 +177,14 @@ class DeviceType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Provides additional safety characteristics about a medical device. For example devices containing latex.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $safety
      */
-    private $safety = [
-        
-    ];
+    private $safety = null;
 
     /**
      * The parent device.

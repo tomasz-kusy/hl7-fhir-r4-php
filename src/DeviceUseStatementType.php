@@ -16,18 +16,14 @@ class DeviceUseStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A plan, proposal or order that is fulfilled in whole or in part by this DeviceUseStatement.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A code representing the patient or other source's judgment about the state of the device used that this statement is about. Generally this will be active or completed.
@@ -48,9 +44,7 @@ class DeviceUseStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $derivedFrom
      */
-    private $derivedFrom = [
-        
-    ];
+    private $derivedFrom = null;
 
     /**
      * How often the device was used. (choose any one of timing*, but only one)
@@ -99,18 +93,14 @@ class DeviceUseStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Indicates another resource whose existence justifies this DeviceUseStatement.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Indicates the anotomic location on the subject's body where the device was used ( i.e. the target).
@@ -124,9 +114,7 @@ class DeviceUseStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Adds as identifier

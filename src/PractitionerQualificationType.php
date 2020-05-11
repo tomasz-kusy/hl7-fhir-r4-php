@@ -16,9 +16,7 @@ class PractitionerQualificationType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Coded representation of the qualification.

@@ -18,27 +18,21 @@ class MedicationStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * A plan, proposal or order that is fulfilled in whole or in part by this event.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $basedOn
      */
-    private $basedOn = [
-        
-    ];
+    private $basedOn = null;
 
     /**
      * A larger event of which this particular event is a component or step.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $partOf
      */
-    private $partOf = [
-        
-    ];
+    private $partOf = null;
 
     /**
      * A code representing the patient or other source's judgment about the state of the medication used that this statement is about. Generally, this will be active or completed.
@@ -52,9 +46,7 @@ class MedicationStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $statusReason
      */
-    private $statusReason = [
-        
-    ];
+    private $statusReason = null;
 
     /**
      * Indicates where the medication is expected to be consumed or administered.
@@ -124,45 +116,35 @@ class MedicationStatementType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $derivedFrom
      */
-    private $derivedFrom = [
-        
-    ];
+    private $derivedFrom = null;
 
     /**
      * A reason for why the medication is being/was taken.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $reasonCode
      */
-    private $reasonCode = [
-        
-    ];
+    private $reasonCode = null;
 
     /**
      * Condition or observation that supports why the medication is being/was taken.
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $reasonReference
      */
-    private $reasonReference = [
-        
-    ];
+    private $reasonReference = null;
 
     /**
      * Provides extra information about the medication statement that is not conveyed by the other attributes.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Indicates how the medication is/was or should be taken by the patient.
      *
      * @var \TKusy\Hl7FhirR4\DosageType[] $dosage
      */
-    private $dosage = [
-        
-    ];
+    private $dosage = null;
 
     /**
      * Adds as identifier

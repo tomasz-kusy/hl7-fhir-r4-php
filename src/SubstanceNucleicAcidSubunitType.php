@@ -58,18 +58,14 @@ class SubstanceNucleicAcidSubunitType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\SubstanceNucleicAcidLinkageType[] $linkage
      */
-    private $linkage = [
-        
-    ];
+    private $linkage = null;
 
     /**
      * 5.3.6.8.1 Sugar ID (Mandatory).
      *
      * @var \TKusy\Hl7FhirR4\SubstanceNucleicAcidSugarType[] $sugar
      */
-    private $sugar = [
-        
-    ];
+    private $sugar = null;
 
     /**
      * Gets as subunit

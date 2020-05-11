@@ -44,18 +44,14 @@ class ClaimDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $modifier
      */
-    private $modifier = [
-        
-    ];
+    private $modifier = null;
 
     /**
      * Identifies the program under which this may be recovered.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $programCode
      */
-    private $programCode = [
-        
-    ];
+    private $programCode = null;
 
     /**
      * The number of repetitions of a service or product.
@@ -90,18 +86,14 @@ class ClaimDetailType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $udi
      */
-    private $udi = [
-        
-    ];
+    private $udi = null;
 
     /**
      * A claim detail line. Either a simple (a product or service) or a 'group' of sub-details which are simple items.
      *
      * @var \TKusy\Hl7FhirR4\ClaimSubDetailType[] $subDetail
      */
-    private $subDetail = [
-        
-    ];
+    private $subDetail = null;
 
     /**
      * Gets as sequence

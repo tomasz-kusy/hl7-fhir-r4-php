@@ -23,9 +23,7 @@ class AllergyIntoleranceReactionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $manifestation
      */
-    private $manifestation = [
-        
-    ];
+    private $manifestation = null;
 
     /**
      * Text description about the reaction as a whole, including details of the manifestation if required.
@@ -60,9 +58,7 @@ class AllergyIntoleranceReactionType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Gets as substance

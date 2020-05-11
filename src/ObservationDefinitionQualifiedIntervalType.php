@@ -37,9 +37,7 @@ class ObservationDefinitionQualifiedIntervalType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $appliesTo
      */
-    private $appliesTo = [
-        
-    ];
+    private $appliesTo = null;
 
     /**
      * Sex of the population the range applies to.

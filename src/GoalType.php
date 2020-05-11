@@ -16,9 +16,7 @@ class GoalType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The state of the goal throughout its lifecycle.
@@ -39,9 +37,7 @@ class GoalType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $category
      */
-    private $category = [
-        
-    ];
+    private $category = null;
 
     /**
      * Identifies the mutually agreed level of importance associated with reaching/sustaining the goal.
@@ -83,9 +79,7 @@ class GoalType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\GoalTargetType[] $target
      */
-    private $target = [
-        
-    ];
+    private $target = null;
 
     /**
      * Identifies when the current status. I.e. When initially created, when achieved, when cancelled, etc.
@@ -113,36 +107,28 @@ class GoalType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $addresses
      */
-    private $addresses = [
-        
-    ];
+    private $addresses = null;
 
     /**
      * Any comments related to the goal.
      *
      * @var \TKusy\Hl7FhirR4\AnnotationType[] $note
      */
-    private $note = [
-        
-    ];
+    private $note = null;
 
     /**
      * Identifies the change (or lack of change) at the point when the status of the goal is assessed.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $outcomeCode
      */
-    private $outcomeCode = [
-        
-    ];
+    private $outcomeCode = null;
 
     /**
      * Details of what's changed (or not changed).
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $outcomeReference
      */
-    private $outcomeReference = [
-        
-    ];
+    private $outcomeReference = null;
 
     /**
      * Adds as identifier

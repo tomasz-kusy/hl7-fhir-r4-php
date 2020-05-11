@@ -16,9 +16,7 @@ class CatalogEntryType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * The type of item - medication, device, service, protocol or other.
@@ -46,18 +44,14 @@ class CatalogEntryType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $additionalIdentifier
      */
-    private $additionalIdentifier = [
-        
-    ];
+    private $additionalIdentifier = null;
 
     /**
      * Classes of devices, or ATC for medication.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $classification
      */
-    private $classification = [
-        
-    ];
+    private $classification = null;
 
     /**
      * Used to support catalog exchange even for unsupported products, e.g. getting list of medications even if not prescribable.
@@ -92,27 +86,21 @@ class CatalogEntryType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $additionalCharacteristic
      */
-    private $additionalCharacteristic = [
-        
-    ];
+    private $additionalCharacteristic = null;
 
     /**
      * User for example for ATC classification, or.
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $additionalClassification
      */
-    private $additionalClassification = [
-        
-    ];
+    private $additionalClassification = null;
 
     /**
      * Used for example, to point to a substance, or to a device used to administer a medication.
      *
      * @var \TKusy\Hl7FhirR4\CatalogEntryRelatedEntryType[] $relatedEntry
      */
-    private $relatedEntry = [
-        
-    ];
+    private $relatedEntry = null;
 
     /**
      * Adds as identifier

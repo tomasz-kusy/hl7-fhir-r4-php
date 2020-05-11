@@ -37,9 +37,7 @@ class CoverageCostToBeneficiaryType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CoverageExceptionType[] $exception
      */
-    private $exception = [
-        
-    ];
+    private $exception = null;
 
     /**
      * Gets as type

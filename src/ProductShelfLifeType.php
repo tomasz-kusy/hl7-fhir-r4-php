@@ -37,9 +37,7 @@ class ProductShelfLifeType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $specialPrecautionsForStorage
      */
-    private $specialPrecautionsForStorage = [
-        
-    ];
+    private $specialPrecautionsForStorage = null;
 
     /**
      * Gets as identifier

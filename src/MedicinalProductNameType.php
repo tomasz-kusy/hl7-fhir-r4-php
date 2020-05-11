@@ -23,18 +23,14 @@ class MedicinalProductNameType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductNamePartType[] $namePart
      */
-    private $namePart = [
-        
-    ];
+    private $namePart = null;
 
     /**
      * Country where the name applies.
      *
      * @var \TKusy\Hl7FhirR4\MedicinalProductCountryLanguageType[] $countryLanguage
      */
-    private $countryLanguage = [
-        
-    ];
+    private $countryLanguage = null;
 
     /**
      * Gets as productName

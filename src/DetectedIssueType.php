@@ -16,9 +16,7 @@ class DetectedIssueType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\IdentifierType[] $identifier
      */
-    private $identifier = [
-        
-    ];
+    private $identifier = null;
 
     /**
      * Indicates the status of the detected issue.
@@ -74,18 +72,14 @@ class DetectedIssueType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\ReferenceType[] $implicated
      */
-    private $implicated = [
-        
-    ];
+    private $implicated = null;
 
     /**
      * Supporting evidence or manifestations that provide the basis for identifying the detected issue such as a GuidanceResponse or MeasureReport.
      *
      * @var \TKusy\Hl7FhirR4\DetectedIssueEvidenceType[] $evidence
      */
-    private $evidence = [
-        
-    ];
+    private $evidence = null;
 
     /**
      * A textual explanation of the detected issue.
@@ -106,9 +100,7 @@ class DetectedIssueType extends DomainResourceType
      *
      * @var \TKusy\Hl7FhirR4\DetectedIssueMitigationType[] $mitigation
      */
-    private $mitigation = [
-        
-    ];
+    private $mitigation = null;
 
     /**
      * Adds as identifier

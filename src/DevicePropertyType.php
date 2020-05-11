@@ -23,18 +23,14 @@ class DevicePropertyType extends BackboneElementType
      *
      * @var \TKusy\Hl7FhirR4\QuantityType[] $valueQuantity
      */
-    private $valueQuantity = [
-        
-    ];
+    private $valueQuantity = null;
 
     /**
      * Property value as a code, e.g., NTP4 (synced to NTP).
      *
      * @var \TKusy\Hl7FhirR4\CodeableConceptType[] $valueCode
      */
-    private $valueCode = [
-        
-    ];
+    private $valueCode = null;
 
     /**
      * Gets as type
