@@ -21,7 +21,7 @@ class TerminologyCapabilitiesParameterType extends BackboneElementType
     /**
      * Description of support for parameter.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $documentation
+     * @var string $documentation
      */
     private $documentation = null;
 
@@ -56,7 +56,7 @@ class TerminologyCapabilitiesParameterType extends BackboneElementType
      *
      * Description of support for parameter.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDocumentation()
     {
@@ -68,10 +68,10 @@ class TerminologyCapabilitiesParameterType extends BackboneElementType
      *
      * Description of support for parameter.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $documentation
+     * @param string $documentation
      * @return self
      */
-    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
+    public function setDocumentation($documentation)
     {
         $this->documentation = $documentation;
         return $this;

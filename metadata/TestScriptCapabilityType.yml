@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TestScriptCapabilityType:
             accessor:
                 getter: getRequired
                 setter: setRequired
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         validated:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TestScriptCapabilityType:
             accessor:
                 getter: getValidated
                 setter: setValidated
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         description:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\TestScriptCapabilityType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         origin:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\TestScriptCapabilityType:
                 inline: true
                 entry_name: origin
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\IntegerType>
+            type: array<integer>
         destination:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\TestScriptCapabilityType:
             accessor:
                 getter: getDestination
                 setter: setDestination
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         link:
             expose: true
             access_type: public_method

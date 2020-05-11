@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\ImmunizationReactionType:
             accessor:
                 getter: getReported
                 setter: setReported
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

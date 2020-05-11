@@ -14,35 +14,35 @@ class TestScriptCapabilityType extends BackboneElementType
     /**
      * Whether or not the test execution will require the given capabilities of the server in order for this test script to execute.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $required
+     * @var bool $required
      */
     private $required = null;
 
     /**
      * Whether or not the test execution will validate the given capabilities of the server in order for this test script to execute.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $validated
+     * @var bool $validated
      */
     private $validated = null;
 
     /**
      * Description of the capabilities that this test script is requiring the server to support.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
     /**
      * Which origin server these requirements apply to.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType[] $origin
+     * @var \integer[] $origin
      */
     private $origin = null;
 
     /**
      * Which server these requirements apply to.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $destination
+     * @var \integer $destination
      */
     private $destination = null;
 
@@ -65,7 +65,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Whether or not the test execution will require the given capabilities of the server in order for this test script to execute.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getRequired()
     {
@@ -77,10 +77,10 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Whether or not the test execution will require the given capabilities of the server in order for this test script to execute.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $required
+     * @param bool $required
      * @return self
      */
-    public function setRequired(\TKusy\Hl7FhirR4\BooleanType $required)
+    public function setRequired($required)
     {
         $this->required = $required;
         return $this;
@@ -91,7 +91,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Whether or not the test execution will validate the given capabilities of the server in order for this test script to execute.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getValidated()
     {
@@ -103,10 +103,10 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Whether or not the test execution will validate the given capabilities of the server in order for this test script to execute.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $validated
+     * @param bool $validated
      * @return self
      */
-    public function setValidated(\TKusy\Hl7FhirR4\BooleanType $validated)
+    public function setValidated($validated)
     {
         $this->validated = $validated;
         return $this;
@@ -117,7 +117,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Description of the capabilities that this test script is requiring the server to support.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -129,10 +129,10 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Description of the capabilities that this test script is requiring the server to support.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -144,9 +144,9 @@ class TestScriptCapabilityType extends BackboneElementType
      * Which origin server these requirements apply to.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\IntegerType $origin
+     * @param \integer $origin
      */
-    public function addToOrigin(\TKusy\Hl7FhirR4\IntegerType $origin)
+    public function addToOrigin(\integer $origin)
     {
         $this->origin[] = $origin;
         return $this;
@@ -183,7 +183,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Which origin server these requirements apply to.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType[]
+     * @return \integer[]
      */
     public function getOrigin()
     {
@@ -195,7 +195,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Which origin server these requirements apply to.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType[] $origin
+     * @param \integer[] $origin
      * @return self
      */
     public function setOrigin(array $origin)
@@ -209,7 +209,7 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Which server these requirements apply to.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getDestination()
     {
@@ -221,10 +221,10 @@ class TestScriptCapabilityType extends BackboneElementType
      *
      * Which server these requirements apply to.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $destination
+     * @param \integer $destination
      * @return self
      */
-    public function setDestination(\TKusy\Hl7FhirR4\IntegerType $destination)
+    public function setDestination(\integer $destination)
     {
         $this->destination = $destination;
         return $this;

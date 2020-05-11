@@ -35,7 +35,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
     /**
      * The textual description of the kind of container.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -56,7 +56,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
     /**
      * The minimum volume to be conditioned in the container. (choose any one of minimumVolume*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $minimumVolumeString
+     * @var string $minimumVolumeString
      */
     private $minimumVolumeString = null;
 
@@ -70,7 +70,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
     /**
      * Special processing that should be applied to the container for this kind of specimen.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $preparation
+     * @var string $preparation
      */
     private $preparation = null;
 
@@ -157,7 +157,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * The textual description of the kind of container.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -169,10 +169,10 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * The textual description of the kind of container.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -235,7 +235,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * The minimum volume to be conditioned in the container. (choose any one of minimumVolume*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getMinimumVolumeString()
     {
@@ -247,10 +247,10 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * The minimum volume to be conditioned in the container. (choose any one of minimumVolume*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $minimumVolumeString
+     * @param string $minimumVolumeString
      * @return self
      */
-    public function setMinimumVolumeString(\TKusy\Hl7FhirR4\StringType $minimumVolumeString)
+    public function setMinimumVolumeString($minimumVolumeString)
     {
         $this->minimumVolumeString = $minimumVolumeString;
         return $this;
@@ -327,7 +327,7 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * Special processing that should be applied to the container for this kind of specimen.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPreparation()
     {
@@ -339,10 +339,10 @@ class SpecimenDefinitionContainerType extends BackboneElementType
      *
      * Special processing that should be applied to the container for this kind of specimen.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $preparation
+     * @param string $preparation
      * @return self
      */
-    public function setPreparation(\TKusy\Hl7FhirR4\StringType $preparation)
+    public function setPreparation($preparation)
     {
         $this->preparation = $preparation;
         return $this;

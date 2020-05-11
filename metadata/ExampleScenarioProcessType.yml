@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExampleScenarioProcessType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method

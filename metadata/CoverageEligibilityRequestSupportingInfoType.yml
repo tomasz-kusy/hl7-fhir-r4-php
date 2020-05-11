@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\CoverageEligibilityRequestSupportingInfoType:
             accessor:
                 getter: getAppliesToAll
                 setter: setAppliesToAll
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

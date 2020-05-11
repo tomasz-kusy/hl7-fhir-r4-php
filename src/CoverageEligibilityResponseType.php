@@ -84,7 +84,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
     /**
      * A human readable description of the status of the adjudication.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $disposition
+     * @var string $disposition
      */
     private $disposition = null;
 
@@ -105,7 +105,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
     /**
      * A reference from the Insurer to which these services pertain to be used on further communication and as proof that the request occurred.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $preAuthRef
+     * @var string $preAuthRef
      */
     private $preAuthRef = null;
 
@@ -468,7 +468,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * A human readable description of the status of the adjudication.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisposition()
     {
@@ -480,10 +480,10 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * A human readable description of the status of the adjudication.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $disposition
+     * @param string $disposition
      * @return self
      */
-    public function setDisposition(\TKusy\Hl7FhirR4\StringType $disposition)
+    public function setDisposition($disposition)
     {
         $this->disposition = $disposition;
         return $this;
@@ -586,7 +586,7 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * A reference from the Insurer to which these services pertain to be used on further communication and as proof that the request occurred.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPreAuthRef()
     {
@@ -598,10 +598,10 @@ class CoverageEligibilityResponseType extends DomainResourceType
      *
      * A reference from the Insurer to which these services pertain to be used on further communication and as proof that the request occurred.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $preAuthRef
+     * @param string $preAuthRef
      * @return self
      */
-    public function setPreAuthRef(\TKusy\Hl7FhirR4\StringType $preAuthRef)
+    public function setPreAuthRef($preAuthRef)
     {
         $this->preAuthRef = $preAuthRef;
         return $this;

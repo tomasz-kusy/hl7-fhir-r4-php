@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             accessor:
                 getter: getExact
                 setter: setExact
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         length:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MolecularSequenceStructureVariantType:
             accessor:
                 getter: getLength
                 setter: setLength
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         outer:
             expose: true
             access_type: public_method

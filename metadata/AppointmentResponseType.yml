@@ -95,4 +95,4 @@ TKusy\Hl7FhirR4\AppointmentResponseType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

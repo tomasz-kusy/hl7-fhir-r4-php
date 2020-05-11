@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExampleScenarioActorType:
             accessor:
                 getter: getActorId
                 setter: setActorId
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExampleScenarioActorType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method

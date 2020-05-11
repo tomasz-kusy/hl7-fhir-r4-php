@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\MessageDefinitionFocusType:
             accessor:
                 getter: getMax
                 setter: setMax
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

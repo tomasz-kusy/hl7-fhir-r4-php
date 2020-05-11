@@ -14,7 +14,7 @@ class ExampleScenarioVersionType extends BackboneElementType
     /**
      * The identifier of a specific version of a resource.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $versionId
+     * @var string $versionId
      */
     private $versionId = null;
 
@@ -30,7 +30,7 @@ class ExampleScenarioVersionType extends BackboneElementType
      *
      * The identifier of a specific version of a resource.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersionId()
     {
@@ -42,10 +42,10 @@ class ExampleScenarioVersionType extends BackboneElementType
      *
      * The identifier of a specific version of a resource.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $versionId
+     * @param string $versionId
      * @return self
      */
-    public function setVersionId(\TKusy\Hl7FhirR4\StringType $versionId)
+    public function setVersionId($versionId)
     {
         $this->versionId = $versionId;
         return $this;

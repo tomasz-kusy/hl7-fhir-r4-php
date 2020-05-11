@@ -21,7 +21,7 @@ class ValueSetIncludeType extends BackboneElementType
     /**
      * The version of the code system that the codes are selected from, or the special version '*' for all versions.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
@@ -77,7 +77,7 @@ class ValueSetIncludeType extends BackboneElementType
      *
      * The version of the code system that the codes are selected from, or the special version '*' for all versions.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -89,10 +89,10 @@ class ValueSetIncludeType extends BackboneElementType
      *
      * The version of the code system that the codes are selected from, or the special version '*' for all versions.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;

@@ -21,7 +21,7 @@ class MeasureReportPopulation1Type extends BackboneElementType
     /**
      * The number of members of the population in this stratum.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $count
+     * @var \integer $count
      */
     private $count = null;
 
@@ -63,7 +63,7 @@ class MeasureReportPopulation1Type extends BackboneElementType
      *
      * The number of members of the population in this stratum.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getCount()
     {
@@ -75,10 +75,10 @@ class MeasureReportPopulation1Type extends BackboneElementType
      *
      * The number of members of the population in this stratum.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $count
+     * @param \integer $count
      * @return self
      */
-    public function setCount(\TKusy\Hl7FhirR4\IntegerType $count)
+    public function setCount(\integer $count)
     {
         $this->count = $count;
         return $this;

@@ -21,14 +21,14 @@ class ImplementationGuideTemplateType extends BackboneElementType
     /**
      * The source location for the template.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $source
+     * @var string $source
      */
     private $source = null;
 
     /**
      * The scope in which the template applies.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $scope
+     * @var string $scope
      */
     private $scope = null;
 
@@ -63,7 +63,7 @@ class ImplementationGuideTemplateType extends BackboneElementType
      *
      * The source location for the template.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSource()
     {
@@ -75,10 +75,10 @@ class ImplementationGuideTemplateType extends BackboneElementType
      *
      * The source location for the template.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $source
+     * @param string $source
      * @return self
      */
-    public function setSource(\TKusy\Hl7FhirR4\StringType $source)
+    public function setSource($source)
     {
         $this->source = $source;
         return $this;
@@ -89,7 +89,7 @@ class ImplementationGuideTemplateType extends BackboneElementType
      *
      * The scope in which the template applies.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getScope()
     {
@@ -101,10 +101,10 @@ class ImplementationGuideTemplateType extends BackboneElementType
      *
      * The scope in which the template applies.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $scope
+     * @param string $scope
      * @return self
      */
-    public function setScope(\TKusy\Hl7FhirR4\StringType $scope)
+    public function setScope($scope)
     {
         $this->scope = $scope;
         return $this;

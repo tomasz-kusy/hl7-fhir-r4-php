@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             accessor:
                 getter: getGenomeBuild
                 setter: setGenomeBuild
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         orientation:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             accessor:
                 getter: getReferenceSeqString
                 setter: setReferenceSeqString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         strand:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             accessor:
                 getter: getWindowStart
                 setter: setWindowStart
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         windowEnd:
             expose: true
             access_type: public_method
@@ -98,4 +98,4 @@ TKusy\Hl7FhirR4\MolecularSequenceReferenceSeqType:
             accessor:
                 getter: getWindowEnd
                 setter: setWindowEnd
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer

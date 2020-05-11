@@ -21,7 +21,7 @@ class ElementDefinitionDiscriminatorType extends BackboneElementType
     /**
      * A FHIRPath expression, using [the simple subset of FHIRPath](fhirpath.html#simple), that is used to identify the element on which discrimination is based.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $path
+     * @var string $path
      */
     private $path = null;
 
@@ -56,7 +56,7 @@ class ElementDefinitionDiscriminatorType extends BackboneElementType
      *
      * A FHIRPath expression, using [the simple subset of FHIRPath](fhirpath.html#simple), that is used to identify the element on which discrimination is based.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPath()
     {
@@ -68,10 +68,10 @@ class ElementDefinitionDiscriminatorType extends BackboneElementType
      *
      * A FHIRPath expression, using [the simple subset of FHIRPath](fhirpath.html#simple), that is used to identify the element on which discrimination is based.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $path
+     * @param string $path
      * @return self
      */
-    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
+    public function setPath($path)
     {
         $this->path = $path;
         return $this;

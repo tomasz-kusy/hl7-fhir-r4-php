@@ -77,14 +77,14 @@ class SlotType extends DomainResourceType
     /**
      * This slot has already been overbooked, appointments are unlikely to be accepted for this time.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $overbooked
+     * @var bool $overbooked
      */
     private $overbooked = null;
 
     /**
      * Comments on the slot to describe any extended information. Such as custom constraints on the slot.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -487,7 +487,7 @@ class SlotType extends DomainResourceType
      *
      * This slot has already been overbooked, appointments are unlikely to be accepted for this time.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getOverbooked()
     {
@@ -499,10 +499,10 @@ class SlotType extends DomainResourceType
      *
      * This slot has already been overbooked, appointments are unlikely to be accepted for this time.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $overbooked
+     * @param bool $overbooked
      * @return self
      */
-    public function setOverbooked(\TKusy\Hl7FhirR4\BooleanType $overbooked)
+    public function setOverbooked($overbooked)
     {
         $this->overbooked = $overbooked;
         return $this;
@@ -513,7 +513,7 @@ class SlotType extends DomainResourceType
      *
      * Comments on the slot to describe any extended information. Such as custom constraints on the slot.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -525,10 +525,10 @@ class SlotType extends DomainResourceType
      *
      * Comments on the slot to describe any extended information. Such as custom constraints on the slot.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

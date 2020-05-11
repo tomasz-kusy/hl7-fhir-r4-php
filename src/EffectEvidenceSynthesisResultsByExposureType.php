@@ -14,7 +14,7 @@ class EffectEvidenceSynthesisResultsByExposureType extends BackboneElementType
     /**
      * Human-readable summary of results by exposure state.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -44,7 +44,7 @@ class EffectEvidenceSynthesisResultsByExposureType extends BackboneElementType
      *
      * Human-readable summary of results by exposure state.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -56,10 +56,10 @@ class EffectEvidenceSynthesisResultsByExposureType extends BackboneElementType
      *
      * Human-readable summary of results by exposure state.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

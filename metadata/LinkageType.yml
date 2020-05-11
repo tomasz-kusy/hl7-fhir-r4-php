@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\LinkageType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         author:
             expose: true
             access_type: public_method

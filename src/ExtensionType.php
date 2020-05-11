@@ -26,7 +26,7 @@ class ExtensionType extends ElementType
     /**
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @var bool $valueBoolean
      */
     private $valueBoolean = null;
 
@@ -61,7 +61,7 @@ class ExtensionType extends ElementType
     /**
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $valueDecimal
+     * @var float $valueDecimal
      */
     private $valueDecimal = null;
 
@@ -82,7 +82,7 @@ class ExtensionType extends ElementType
     /**
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
+     * @var \integer $valueInteger
      */
     private $valueInteger = null;
 
@@ -110,7 +110,7 @@ class ExtensionType extends ElementType
     /**
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $valueString
+     * @var string $valueString
      */
     private $valueString = null;
 
@@ -419,7 +419,7 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getValueBoolean()
     {
@@ -431,10 +431,10 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @param bool $valueBoolean
      * @return self
      */
-    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
+    public function setValueBoolean($valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -549,7 +549,7 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getValueDecimal()
     {
@@ -561,10 +561,10 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $valueDecimal
+     * @param float $valueDecimal
      * @return self
      */
-    public function setValueDecimal(\TKusy\Hl7FhirR4\DecimalType $valueDecimal)
+    public function setValueDecimal($valueDecimal)
     {
         $this->valueDecimal = $valueDecimal;
         return $this;
@@ -627,7 +627,7 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getValueInteger()
     {
@@ -639,10 +639,10 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
+     * @param \integer $valueInteger
      * @return self
      */
-    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
+    public function setValueInteger(\integer $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;
@@ -731,7 +731,7 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValueString()
     {
@@ -743,10 +743,10 @@ class ExtensionType extends ElementType
      *
      * Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list). (choose any one of the elements, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $valueString
+     * @param string $valueString
      * @return self
      */
-    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
+    public function setValueString($valueString)
     {
         $this->valueString = $valueString;
         return $this;

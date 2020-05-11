@@ -133,7 +133,7 @@ class ClaimItemType extends BackboneElementType
     /**
      * A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $factor
+     * @var float $factor
      */
     private $factor = null;
 
@@ -866,7 +866,7 @@ class ClaimItemType extends BackboneElementType
      *
      * A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getFactor()
     {
@@ -878,10 +878,10 @@ class ClaimItemType extends BackboneElementType
      *
      * A real number that represents a multiplier used in determining the overall value of services delivered and/or goods received. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $factor
+     * @param float $factor
      * @return self
      */
-    public function setFactor(\TKusy\Hl7FhirR4\DecimalType $factor)
+    public function setFactor($factor)
     {
         $this->factor = $factor;
         return $this;

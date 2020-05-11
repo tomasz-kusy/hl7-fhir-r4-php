@@ -14,14 +14,14 @@ class OperationDefinitionReferencedFromType extends BackboneElementType
     /**
      * The name of the parameter or dot-separated path of parameter names pointing to the resource parameter that is expected to contain a reference to this resource.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $source
+     * @var string $source
      */
     private $source = null;
 
     /**
      * The id of the element in the referencing resource that is expected to resolve to this resource.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $sourceId
+     * @var string $sourceId
      */
     private $sourceId = null;
 
@@ -30,7 +30,7 @@ class OperationDefinitionReferencedFromType extends BackboneElementType
      *
      * The name of the parameter or dot-separated path of parameter names pointing to the resource parameter that is expected to contain a reference to this resource.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSource()
     {
@@ -42,10 +42,10 @@ class OperationDefinitionReferencedFromType extends BackboneElementType
      *
      * The name of the parameter or dot-separated path of parameter names pointing to the resource parameter that is expected to contain a reference to this resource.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $source
+     * @param string $source
      * @return self
      */
-    public function setSource(\TKusy\Hl7FhirR4\StringType $source)
+    public function setSource($source)
     {
         $this->source = $source;
         return $this;
@@ -56,7 +56,7 @@ class OperationDefinitionReferencedFromType extends BackboneElementType
      *
      * The id of the element in the referencing resource that is expected to resolve to this resource.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSourceId()
     {
@@ -68,10 +68,10 @@ class OperationDefinitionReferencedFromType extends BackboneElementType
      *
      * The id of the element in the referencing resource that is expected to resolve to this resource.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $sourceId
+     * @param string $sourceId
      * @return self
      */
-    public function setSourceId(\TKusy\Hl7FhirR4\StringType $sourceId)
+    public function setSourceId($sourceId)
     {
         $this->sourceId = $sourceId;
         return $this;

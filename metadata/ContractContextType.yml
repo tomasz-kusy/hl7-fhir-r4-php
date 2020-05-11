@@ -36,4 +36,4 @@ TKusy\Hl7FhirR4\ContractContextType:
             accessor:
                 getter: getText
                 setter: setText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

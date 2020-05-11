@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\InsurancePlanGeneralCostType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

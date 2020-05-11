@@ -14,7 +14,7 @@ class ConsentVerificationType extends BackboneElementType
     /**
      * Has the instruction been verified.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $verified
+     * @var bool $verified
      */
     private $verified = null;
 
@@ -37,7 +37,7 @@ class ConsentVerificationType extends BackboneElementType
      *
      * Has the instruction been verified.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getVerified()
     {
@@ -49,10 +49,10 @@ class ConsentVerificationType extends BackboneElementType
      *
      * Has the instruction been verified.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $verified
+     * @param bool $verified
      * @return self
      */
-    public function setVerified(\TKusy\Hl7FhirR4\BooleanType $verified)
+    public function setVerified($verified)
     {
         $this->verified = $verified;
         return $this;

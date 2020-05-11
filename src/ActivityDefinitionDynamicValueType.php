@@ -14,7 +14,7 @@ class ActivityDefinitionDynamicValueType extends BackboneElementType
     /**
      * The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolveable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
-     * @var \TKusy\Hl7FhirR4\StringType $path
+     * @var string $path
      */
     private $path = null;
 
@@ -30,7 +30,7 @@ class ActivityDefinitionDynamicValueType extends BackboneElementType
      *
      * The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolveable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPath()
     {
@@ -42,10 +42,10 @@ class ActivityDefinitionDynamicValueType extends BackboneElementType
      *
      * The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolveable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](fhirpath.html#simple) for full details).
      *
-     * @param \TKusy\Hl7FhirR4\StringType $path
+     * @param string $path
      * @return self
      */
-    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
+    public function setPath($path)
     {
         $this->path = $path;
         return $this;

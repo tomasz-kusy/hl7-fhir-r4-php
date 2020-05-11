@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TestScriptOriginType:
             accessor:
                 getter: getIndex
                 setter: setIndex
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         profile:
             expose: true
             access_type: public_method

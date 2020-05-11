@@ -47,4 +47,4 @@ TKusy\Hl7FhirR4\SubscriptionChannelType:
                 inline: true
                 entry_name: header
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>

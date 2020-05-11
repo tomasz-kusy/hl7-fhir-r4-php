@@ -14,7 +14,7 @@ class CommunicationPayloadType extends BackboneElementType
     /**
      * A communicated content (or for multi-part communications, one portion of the communication). (choose any one of content*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $contentString
+     * @var string $contentString
      */
     private $contentString = null;
 
@@ -37,7 +37,7 @@ class CommunicationPayloadType extends BackboneElementType
      *
      * A communicated content (or for multi-part communications, one portion of the communication). (choose any one of content*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getContentString()
     {
@@ -49,10 +49,10 @@ class CommunicationPayloadType extends BackboneElementType
      *
      * A communicated content (or for multi-part communications, one portion of the communication). (choose any one of content*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $contentString
+     * @param string $contentString
      * @return self
      */
-    public function setContentString(\TKusy\Hl7FhirR4\StringType $contentString)
+    public function setContentString($contentString)
     {
         $this->contentString = $contentString;
         return $this;

@@ -28,7 +28,7 @@ class ClinicalImpressionFindingType extends BackboneElementType
     /**
      * Which investigations support finding or diagnosis.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $basis
+     * @var string $basis
      */
     private $basis = null;
 
@@ -89,7 +89,7 @@ class ClinicalImpressionFindingType extends BackboneElementType
      *
      * Which investigations support finding or diagnosis.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getBasis()
     {
@@ -101,10 +101,10 @@ class ClinicalImpressionFindingType extends BackboneElementType
      *
      * Which investigations support finding or diagnosis.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $basis
+     * @param string $basis
      * @return self
      */
-    public function setBasis(\TKusy\Hl7FhirR4\StringType $basis)
+    public function setBasis($basis)
     {
         $this->basis = $basis;
         return $this;

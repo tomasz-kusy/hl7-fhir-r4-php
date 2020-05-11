@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstanceProteinType:
             accessor:
                 getter: getNumberOfSubunits
                 setter: setNumberOfSubunits
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         disulfideLinkage:
             expose: true
             access_type: public_method
@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\SubstanceProteinType:
                 inline: true
                 entry_name: disulfideLinkage
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         subunit:
             expose: true
             access_type: public_method

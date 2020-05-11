@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             accessor:
                 getter: getText
                 setter: setText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         family:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\HumanNameType:
             accessor:
                 getter: getFamily
                 setter: setFamily
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         given:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\HumanNameType:
                 inline: true
                 entry_name: given
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         prefix:
             expose: true
             access_type: public_method
@@ -62,7 +62,7 @@ TKusy\Hl7FhirR4\HumanNameType:
                 inline: true
                 entry_name: prefix
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         suffix:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ TKusy\Hl7FhirR4\HumanNameType:
                 inline: true
                 entry_name: suffix
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         period:
             expose: true
             access_type: public_method

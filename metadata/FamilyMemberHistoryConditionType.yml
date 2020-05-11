@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryConditionType:
             accessor:
                 getter: getContributedToDeath
                 setter: setContributedToDeath
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         onsetAge:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\FamilyMemberHistoryConditionType:
             accessor:
                 getter: getOnsetString
                 setter: setOnsetString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         note:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class CapabilityStatementOperationType extends BackboneElementType
     /**
      * The name of the operation or query. For an operation, this is the name prefixed with $ and used in the URL. For a query, this is the name used in the _query parameter when the query is called.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -37,7 +37,7 @@ class CapabilityStatementOperationType extends BackboneElementType
      *
      * The name of the operation or query. For an operation, this is the name prefixed with $ and used in the URL. For a query, this is the name used in the _query parameter when the query is called.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -49,10 +49,10 @@ class CapabilityStatementOperationType extends BackboneElementType
      *
      * The name of the operation or query. For an operation, this is the name prefixed with $ and used in the URL. For a query, this is the name used in the _query parameter when the query is called.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;

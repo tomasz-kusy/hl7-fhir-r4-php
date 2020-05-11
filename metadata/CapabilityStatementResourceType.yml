@@ -84,7 +84,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             accessor:
                 getter: getReadHistory
                 setter: setReadHistory
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         updateCreate:
             expose: true
             access_type: public_method
@@ -95,7 +95,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             accessor:
                 getter: getUpdateCreate
                 setter: setUpdateCreate
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         conditionalCreate:
             expose: true
             access_type: public_method
@@ -106,7 +106,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             accessor:
                 getter: getConditionalCreate
                 setter: setConditionalCreate
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         conditionalRead:
             expose: true
             access_type: public_method
@@ -128,7 +128,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
             accessor:
                 getter: getConditionalUpdate
                 setter: setConditionalUpdate
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         conditionalDelete:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
                 inline: true
                 entry_name: searchInclude
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         searchRevInclude:
             expose: true
             access_type: public_method
@@ -184,7 +184,7 @@ TKusy\Hl7FhirR4\CapabilityStatementResourceType:
                 inline: true
                 entry_name: searchRevInclude
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         searchParam:
             expose: true
             access_type: public_method

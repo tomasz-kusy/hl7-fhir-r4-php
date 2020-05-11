@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\BundleLinkType:
             accessor:
                 getter: getRelation
                 setter: setRelation
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         url:
             expose: true
             access_type: public_method

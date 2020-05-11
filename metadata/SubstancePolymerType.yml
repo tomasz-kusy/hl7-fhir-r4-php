@@ -51,7 +51,7 @@ TKusy\Hl7FhirR4\SubstancePolymerType:
                 inline: true
                 entry_name: modification
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         monomerSet:
             expose: true
             access_type: public_method

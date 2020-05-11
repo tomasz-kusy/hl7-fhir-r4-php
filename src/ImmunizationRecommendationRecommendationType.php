@@ -56,14 +56,14 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
     /**
      * Contains the description about the protocol under which the vaccine was administered.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
     /**
      * One possible path to achieve presumed immunity against a disease - within the context of an authority.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $series
+     * @var string $series
      */
     private $series = null;
 
@@ -77,7 +77,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
     /**
      * Nominal position of the recommended dose in a series (e.g. dose 2 is the next recommended dose). (choose any one of doseNumber*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $doseNumberString
+     * @var string $doseNumberString
      */
     private $doseNumberString = null;
 
@@ -91,7 +91,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
     /**
      * The recommended number of doses to achieve immunity. (choose any one of seriesDoses*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $seriesDosesString
+     * @var string $seriesDosesString
      */
     private $seriesDosesString = null;
 
@@ -430,7 +430,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * Contains the description about the protocol under which the vaccine was administered.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -442,10 +442,10 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * Contains the description about the protocol under which the vaccine was administered.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -456,7 +456,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * One possible path to achieve presumed immunity against a disease - within the context of an authority.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSeries()
     {
@@ -468,10 +468,10 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * One possible path to achieve presumed immunity against a disease - within the context of an authority.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $series
+     * @param string $series
      * @return self
      */
-    public function setSeries(\TKusy\Hl7FhirR4\StringType $series)
+    public function setSeries($series)
     {
         $this->series = $series;
         return $this;
@@ -508,7 +508,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * Nominal position of the recommended dose in a series (e.g. dose 2 is the next recommended dose). (choose any one of doseNumber*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDoseNumberString()
     {
@@ -520,10 +520,10 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * Nominal position of the recommended dose in a series (e.g. dose 2 is the next recommended dose). (choose any one of doseNumber*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $doseNumberString
+     * @param string $doseNumberString
      * @return self
      */
-    public function setDoseNumberString(\TKusy\Hl7FhirR4\StringType $doseNumberString)
+    public function setDoseNumberString($doseNumberString)
     {
         $this->doseNumberString = $doseNumberString;
         return $this;
@@ -560,7 +560,7 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * The recommended number of doses to achieve immunity. (choose any one of seriesDoses*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSeriesDosesString()
     {
@@ -572,10 +572,10 @@ class ImmunizationRecommendationRecommendationType extends BackboneElementType
      *
      * The recommended number of doses to achieve immunity. (choose any one of seriesDoses*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $seriesDosesString
+     * @param string $seriesDosesString
      * @return self
      */
-    public function setSeriesDosesString(\TKusy\Hl7FhirR4\StringType $seriesDosesString)
+    public function setSeriesDosesString($seriesDosesString)
     {
         $this->seriesDosesString = $seriesDosesString;
         return $this;

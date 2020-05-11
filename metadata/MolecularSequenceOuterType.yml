@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MolecularSequenceOuterType:
             accessor:
                 getter: getStart
                 setter: setStart
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         end:
             expose: true
             access_type: public_method
@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\MolecularSequenceOuterType:
             accessor:
                 getter: getEnd
                 setter: setEnd
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer

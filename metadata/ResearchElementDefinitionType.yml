@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         name:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         title:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         shortTitle:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getShortTitle
                 setter: setShortTitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         subtitle:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getSubtitle
                 setter: setSubtitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         status:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         subjectCodeableConcept:
             expose: true
             access_type: public_method
@@ -146,7 +146,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         contact:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
                 inline: true
                 entry_name: comment
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         useContext:
             expose: true
             access_type: public_method
@@ -239,7 +239,7 @@ TKusy\Hl7FhirR4\ResearchElementDefinitionType:
             accessor:
                 getter: getUsage
                 setter: setUsage
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         copyright:
             expose: true
             access_type: public_method

@@ -14,14 +14,14 @@ class DosageType extends BackboneElementType
     /**
      * Indicates the order in which the dosage instructions should be applied or interpreted.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $sequence
+     * @var \integer $sequence
      */
     private $sequence = null;
 
     /**
      * Free text dosage instructions e.g. SIG.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
@@ -35,7 +35,7 @@ class DosageType extends BackboneElementType
     /**
      * Instructions in terms that are understood by the patient or consumer.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $patientInstruction
+     * @var string $patientInstruction
      */
     private $patientInstruction = null;
 
@@ -49,7 +49,7 @@ class DosageType extends BackboneElementType
     /**
      * Indicates whether the Medication is only taken when needed within a specific dosing schedule (Boolean option), or it indicates the precondition for taking the Medication (CodeableConcept). (choose any one of asNeeded*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $asNeededBoolean
+     * @var bool $asNeededBoolean
      */
     private $asNeededBoolean = null;
 
@@ -114,7 +114,7 @@ class DosageType extends BackboneElementType
      *
      * Indicates the order in which the dosage instructions should be applied or interpreted.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getSequence()
     {
@@ -126,10 +126,10 @@ class DosageType extends BackboneElementType
      *
      * Indicates the order in which the dosage instructions should be applied or interpreted.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $sequence
+     * @param \integer $sequence
      * @return self
      */
-    public function setSequence(\TKusy\Hl7FhirR4\IntegerType $sequence)
+    public function setSequence(\integer $sequence)
     {
         $this->sequence = $sequence;
         return $this;
@@ -140,7 +140,7 @@ class DosageType extends BackboneElementType
      *
      * Free text dosage instructions e.g. SIG.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -152,10 +152,10 @@ class DosageType extends BackboneElementType
      *
      * Free text dosage instructions e.g. SIG.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;
@@ -232,7 +232,7 @@ class DosageType extends BackboneElementType
      *
      * Instructions in terms that are understood by the patient or consumer.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPatientInstruction()
     {
@@ -244,10 +244,10 @@ class DosageType extends BackboneElementType
      *
      * Instructions in terms that are understood by the patient or consumer.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $patientInstruction
+     * @param string $patientInstruction
      * @return self
      */
-    public function setPatientInstruction(\TKusy\Hl7FhirR4\StringType $patientInstruction)
+    public function setPatientInstruction($patientInstruction)
     {
         $this->patientInstruction = $patientInstruction;
         return $this;
@@ -284,7 +284,7 @@ class DosageType extends BackboneElementType
      *
      * Indicates whether the Medication is only taken when needed within a specific dosing schedule (Boolean option), or it indicates the precondition for taking the Medication (CodeableConcept). (choose any one of asNeeded*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAsNeededBoolean()
     {
@@ -296,10 +296,10 @@ class DosageType extends BackboneElementType
      *
      * Indicates whether the Medication is only taken when needed within a specific dosing schedule (Boolean option), or it indicates the precondition for taking the Medication (CodeableConcept). (choose any one of asNeeded*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $asNeededBoolean
+     * @param bool $asNeededBoolean
      * @return self
      */
-    public function setAsNeededBoolean(\TKusy\Hl7FhirR4\BooleanType $asNeededBoolean)
+    public function setAsNeededBoolean($asNeededBoolean)
     {
         $this->asNeededBoolean = $asNeededBoolean;
         return $this;

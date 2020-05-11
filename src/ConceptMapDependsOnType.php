@@ -28,14 +28,14 @@ class ConceptMapDependsOnType extends BackboneElementType
     /**
      * Identity (code or path) or the element/item/ValueSet/text that the map depends on / refers to.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
     /**
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $display
+     * @var string $display
      */
     private $display = null;
 
@@ -96,7 +96,7 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * Identity (code or path) or the element/item/ValueSet/text that the map depends on / refers to.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -108,10 +108,10 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * Identity (code or path) or the element/item/ValueSet/text that the map depends on / refers to.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;
@@ -122,7 +122,7 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisplay()
     {
@@ -134,10 +134,10 @@ class ConceptMapDependsOnType extends BackboneElementType
      *
      * The display for the code. The display is only provided to help editors when editing the concept map.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $display
+     * @param string $display
      * @return self
      */
-    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
+    public function setDisplay($display)
     {
         $this->display = $display;
         return $this;

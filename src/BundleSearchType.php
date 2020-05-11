@@ -21,7 +21,7 @@ class BundleSearchType extends BackboneElementType
     /**
      * When searching, the server's search ranking score for the entry.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $score
+     * @var float $score
      */
     private $score = null;
 
@@ -56,7 +56,7 @@ class BundleSearchType extends BackboneElementType
      *
      * When searching, the server's search ranking score for the entry.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getScore()
     {
@@ -68,10 +68,10 @@ class BundleSearchType extends BackboneElementType
      *
      * When searching, the server's search ranking score for the entry.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $score
+     * @param float $score
      * @return self
      */
-    public function setScore(\TKusy\Hl7FhirR4\DecimalType $score)
+    public function setScore($score)
     {
         $this->score = $score;
         return $this;

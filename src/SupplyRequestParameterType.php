@@ -42,7 +42,7 @@ class SupplyRequestParameterType extends BackboneElementType
     /**
      * The value of the device detail. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @var bool $valueBoolean
      */
     private $valueBoolean = null;
 
@@ -155,7 +155,7 @@ class SupplyRequestParameterType extends BackboneElementType
      *
      * The value of the device detail. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getValueBoolean()
     {
@@ -167,10 +167,10 @@ class SupplyRequestParameterType extends BackboneElementType
      *
      * The value of the device detail. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @param bool $valueBoolean
      * @return self
      */
-    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
+    public function setValueBoolean($valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;

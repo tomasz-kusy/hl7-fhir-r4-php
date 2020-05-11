@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getLabel
                 setter: setLabel
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         direction:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getCompareToSourceId
                 setter: setCompareToSourceId
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         compareToSourceExpression:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getCompareToSourceExpression
                 setter: setCompareToSourceExpression
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         compareToSourcePath:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getCompareToSourcePath
                 setter: setCompareToSourcePath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         contentType:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         headerField:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getHeaderField
                 setter: setHeaderField
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         minimumId:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getMinimumId
                 setter: setMinimumId
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         navigationLinks:
             expose: true
             access_type: public_method
@@ -120,7 +120,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getNavigationLinks
                 setter: setNavigationLinks
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         operator:
             expose: true
             access_type: public_method
@@ -142,7 +142,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         requestMethod:
             expose: true
             access_type: public_method
@@ -164,7 +164,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getRequestURL
                 setter: setRequestURL
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         resource:
             expose: true
             access_type: public_method
@@ -197,7 +197,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getResponseCode
                 setter: setResponseCode
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         sourceId:
             expose: true
             access_type: public_method
@@ -230,7 +230,7 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         warningOnly:
             expose: true
             access_type: public_method
@@ -241,4 +241,4 @@ TKusy\Hl7FhirR4\TestScriptAssertType:
             accessor:
                 getter: getWarningOnly
                 setter: setWarningOnly
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

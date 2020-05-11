@@ -91,14 +91,14 @@ class ClaimResponseType extends DomainResourceType
     /**
      * A human readable description of the status of the adjudication.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $disposition
+     * @var string $disposition
      */
     private $disposition = null;
 
     /**
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $preAuthRef
+     * @var string $preAuthRef
      */
     private $preAuthRef = null;
 
@@ -531,7 +531,7 @@ class ClaimResponseType extends DomainResourceType
      *
      * A human readable description of the status of the adjudication.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisposition()
     {
@@ -543,10 +543,10 @@ class ClaimResponseType extends DomainResourceType
      *
      * A human readable description of the status of the adjudication.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $disposition
+     * @param string $disposition
      * @return self
      */
-    public function setDisposition(\TKusy\Hl7FhirR4\StringType $disposition)
+    public function setDisposition($disposition)
     {
         $this->disposition = $disposition;
         return $this;
@@ -557,7 +557,7 @@ class ClaimResponseType extends DomainResourceType
      *
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPreAuthRef()
     {
@@ -569,10 +569,10 @@ class ClaimResponseType extends DomainResourceType
      *
      * Reference from the Insurer which is used in later communications which refers to this adjudication.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $preAuthRef
+     * @param string $preAuthRef
      * @return self
      */
-    public function setPreAuthRef(\TKusy\Hl7FhirR4\StringType $preAuthRef)
+    public function setPreAuthRef($preAuthRef)
     {
         $this->preAuthRef = $preAuthRef;
         return $this;

@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\GroupMemberType:
             accessor:
                 getter: getInactive
                 setter: setInactive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

@@ -49,7 +49,7 @@ class CoverageType extends DomainResourceType
     /**
      * The insurer assigned ID for the Subscriber.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $subscriberId
+     * @var string $subscriberId
      */
     private $subscriberId = null;
 
@@ -63,7 +63,7 @@ class CoverageType extends DomainResourceType
     /**
      * A unique identifier for a dependent under the coverage.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $dependent
+     * @var string $dependent
      */
     private $dependent = null;
 
@@ -105,7 +105,7 @@ class CoverageType extends DomainResourceType
     /**
      * The insurer-specific identifier for the insurer-defined network of providers to which the beneficiary may seek treatment which will be covered at the 'in-network' rate, otherwise 'out of network' terms and conditions apply.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $network
+     * @var string $network
      */
     private $network = null;
 
@@ -119,7 +119,7 @@ class CoverageType extends DomainResourceType
     /**
      * When 'subrogation=true' this insurance instance has been included not for adjudication but to provide insurers with the details to recover costs.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $subrogation
+     * @var bool $subrogation
      */
     private $subrogation = null;
 
@@ -305,7 +305,7 @@ class CoverageType extends DomainResourceType
      *
      * The insurer assigned ID for the Subscriber.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSubscriberId()
     {
@@ -317,10 +317,10 @@ class CoverageType extends DomainResourceType
      *
      * The insurer assigned ID for the Subscriber.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $subscriberId
+     * @param string $subscriberId
      * @return self
      */
-    public function setSubscriberId(\TKusy\Hl7FhirR4\StringType $subscriberId)
+    public function setSubscriberId($subscriberId)
     {
         $this->subscriberId = $subscriberId;
         return $this;
@@ -357,7 +357,7 @@ class CoverageType extends DomainResourceType
      *
      * A unique identifier for a dependent under the coverage.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDependent()
     {
@@ -369,10 +369,10 @@ class CoverageType extends DomainResourceType
      *
      * A unique identifier for a dependent under the coverage.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $dependent
+     * @param string $dependent
      * @return self
      */
-    public function setDependent(\TKusy\Hl7FhirR4\StringType $dependent)
+    public function setDependent($dependent)
     {
         $this->dependent = $dependent;
         return $this;
@@ -593,7 +593,7 @@ class CoverageType extends DomainResourceType
      *
      * The insurer-specific identifier for the insurer-defined network of providers to which the beneficiary may seek treatment which will be covered at the 'in-network' rate, otherwise 'out of network' terms and conditions apply.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getNetwork()
     {
@@ -605,10 +605,10 @@ class CoverageType extends DomainResourceType
      *
      * The insurer-specific identifier for the insurer-defined network of providers to which the beneficiary may seek treatment which will be covered at the 'in-network' rate, otherwise 'out of network' terms and conditions apply.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $network
+     * @param string $network
      * @return self
      */
-    public function setNetwork(\TKusy\Hl7FhirR4\StringType $network)
+    public function setNetwork($network)
     {
         $this->network = $network;
         return $this;
@@ -685,7 +685,7 @@ class CoverageType extends DomainResourceType
      *
      * When 'subrogation=true' this insurance instance has been included not for adjudication but to provide insurers with the details to recover costs.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getSubrogation()
     {
@@ -697,10 +697,10 @@ class CoverageType extends DomainResourceType
      *
      * When 'subrogation=true' this insurance instance has been included not for adjudication but to provide insurers with the details to recover costs.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $subrogation
+     * @param bool $subrogation
      * @return self
      */
-    public function setSubrogation(\TKusy\Hl7FhirR4\BooleanType $subrogation)
+    public function setSubrogation($subrogation)
     {
         $this->subrogation = $subrogation;
         return $this;

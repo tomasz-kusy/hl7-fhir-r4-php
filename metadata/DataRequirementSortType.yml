@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\DataRequirementSortType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         direction:
             expose: true
             access_type: public_method

@@ -28,7 +28,7 @@ class ValueSetFilterType extends BackboneElementType
     /**
      * The match value may be either a code defined by the system, or a string value, which is a regex match on the literal string of the property value (if the filter represents a property defined in CodeSystem) or of the system filter value (if the filter represents a filter defined in CodeSystem) when the operation is 'regex', or one of the values (true and false), when the operation is 'exists'.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
@@ -89,7 +89,7 @@ class ValueSetFilterType extends BackboneElementType
      *
      * The match value may be either a code defined by the system, or a string value, which is a regex match on the literal string of the property value (if the filter represents a property defined in CodeSystem) or of the system filter value (if the filter represents a filter defined in CodeSystem) when the operation is 'regex', or one of the values (true and false), when the operation is 'exists'.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -101,10 +101,10 @@ class ValueSetFilterType extends BackboneElementType
      *
      * The match value may be either a code defined by the system, or a string value, which is a regex match on the literal string of the property value (if the filter represents a property defined in CodeSystem) or of the system filter value (if the filter represents a filter defined in CodeSystem) when the operation is 'regex', or one of the values (true and false), when the operation is 'exists'.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;

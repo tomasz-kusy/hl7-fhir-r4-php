@@ -133,7 +133,7 @@ class ChargeItemType extends DomainResourceType
     /**
      * Factor overriding the factor determined by the rules associated with the code.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $factorOverride
+     * @var float $factorOverride
      */
     private $factorOverride = null;
 
@@ -147,7 +147,7 @@ class ChargeItemType extends DomainResourceType
     /**
      * If the list price or the rule-based factor associated with the code is overridden, this attribute can capture a text to indicate the reason for this action.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $overrideReason
+     * @var string $overrideReason
      */
     private $overrideReason = null;
 
@@ -901,7 +901,7 @@ class ChargeItemType extends DomainResourceType
      *
      * Factor overriding the factor determined by the rules associated with the code.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getFactorOverride()
     {
@@ -913,10 +913,10 @@ class ChargeItemType extends DomainResourceType
      *
      * Factor overriding the factor determined by the rules associated with the code.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $factorOverride
+     * @param float $factorOverride
      * @return self
      */
-    public function setFactorOverride(\TKusy\Hl7FhirR4\DecimalType $factorOverride)
+    public function setFactorOverride($factorOverride)
     {
         $this->factorOverride = $factorOverride;
         return $this;
@@ -953,7 +953,7 @@ class ChargeItemType extends DomainResourceType
      *
      * If the list price or the rule-based factor associated with the code is overridden, this attribute can capture a text to indicate the reason for this action.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getOverrideReason()
     {
@@ -965,10 +965,10 @@ class ChargeItemType extends DomainResourceType
      *
      * If the list price or the rule-based factor associated with the code is overridden, this attribute can capture a text to indicate the reason for this action.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $overrideReason
+     * @param string $overrideReason
      * @return self
      */
-    public function setOverrideReason(\TKusy\Hl7FhirR4\StringType $overrideReason)
+    public function setOverrideReason($overrideReason)
     {
         $this->overrideReason = $overrideReason;
         return $this;

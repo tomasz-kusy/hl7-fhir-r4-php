@@ -49,7 +49,7 @@ class MedicationKnowledgeType extends DomainResourceType
     /**
      * Additional names for a medication, for example, the name(s) given to a medication in different countries. For example, acetaminophen and paracetamol or salbutamol and albuterol.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $synonym
+     * @var string[] $synonym
      */
     private $synonym = null;
 
@@ -301,9 +301,9 @@ class MedicationKnowledgeType extends DomainResourceType
      * Additional names for a medication, for example, the name(s) given to a medication in different countries. For example, acetaminophen and paracetamol or salbutamol and albuterol.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $synonym
+     * @param string $synonym
      */
-    public function addToSynonym(\TKusy\Hl7FhirR4\StringType $synonym)
+    public function addToSynonym($synonym)
     {
         $this->synonym[] = $synonym;
         return $this;
@@ -340,7 +340,7 @@ class MedicationKnowledgeType extends DomainResourceType
      *
      * Additional names for a medication, for example, the name(s) given to a medication in different countries. For example, acetaminophen and paracetamol or salbutamol and albuterol.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getSynonym()
     {
@@ -352,7 +352,7 @@ class MedicationKnowledgeType extends DomainResourceType
      *
      * Additional names for a medication, for example, the name(s) given to a medication in different countries. For example, acetaminophen and paracetamol or salbutamol and albuterol.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $synonym
+     * @param string[] $synonym
      * @return self
      */
     public function setSynonym(array $synonym)

@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\GraphDefinitionTargetType:
             accessor:
                 getter: getParams
                 setter: setParams
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         profile:
             expose: true
             access_type: public_method

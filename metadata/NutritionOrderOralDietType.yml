@@ -85,4 +85,4 @@ TKusy\Hl7FhirR4\NutritionOrderOralDietType:
             accessor:
                 getter: getInstruction
                 setter: setInstruction
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

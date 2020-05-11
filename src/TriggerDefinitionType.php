@@ -21,7 +21,7 @@ class TriggerDefinitionType extends ElementType
     /**
      * A formal name for the event. This may be an absolute URI that identifies the event formally (e.g. from a trigger registry), or a simple relative URI that identifies the event in a local context.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -98,7 +98,7 @@ class TriggerDefinitionType extends ElementType
      *
      * A formal name for the event. This may be an absolute URI that identifies the event formally (e.g. from a trigger registry), or a simple relative URI that identifies the event in a local context.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -110,10 +110,10 @@ class TriggerDefinitionType extends ElementType
      *
      * A formal name for the event. This may be an absolute URI that identifies the event formally (e.g. from a trigger registry), or a simple relative URI that identifies the event in a local context.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;

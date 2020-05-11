@@ -14,7 +14,7 @@ class DeviceDefinitionUdiDeviceIdentifierType extends BackboneElementType
     /**
      * The identifier that is to be associated with every Device that references this DeviceDefintiion for the issuer and jurisdication porvided in the DeviceDefinition.udiDeviceIdentifier.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $deviceIdentifier
+     * @var string $deviceIdentifier
      */
     private $deviceIdentifier = null;
 
@@ -37,7 +37,7 @@ class DeviceDefinitionUdiDeviceIdentifierType extends BackboneElementType
      *
      * The identifier that is to be associated with every Device that references this DeviceDefintiion for the issuer and jurisdication porvided in the DeviceDefinition.udiDeviceIdentifier.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDeviceIdentifier()
     {
@@ -49,10 +49,10 @@ class DeviceDefinitionUdiDeviceIdentifierType extends BackboneElementType
      *
      * The identifier that is to be associated with every Device that references this DeviceDefintiion for the issuer and jurisdication porvided in the DeviceDefinition.udiDeviceIdentifier.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $deviceIdentifier
+     * @param string $deviceIdentifier
      * @return self
      */
-    public function setDeviceIdentifier(\TKusy\Hl7FhirR4\StringType $deviceIdentifier)
+    public function setDeviceIdentifier($deviceIdentifier)
     {
         $this->deviceIdentifier = $deviceIdentifier;
         return $this;

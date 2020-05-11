@@ -28,7 +28,7 @@ class GroupMemberType extends BackboneElementType
     /**
      * A flag to indicate that the member is no longer in the group, but previously may have been a member.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $inactive
+     * @var bool $inactive
      */
     private $inactive = null;
 
@@ -89,7 +89,7 @@ class GroupMemberType extends BackboneElementType
      *
      * A flag to indicate that the member is no longer in the group, but previously may have been a member.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getInactive()
     {
@@ -101,10 +101,10 @@ class GroupMemberType extends BackboneElementType
      *
      * A flag to indicate that the member is no longer in the group, but previously may have been a member.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $inactive
+     * @param bool $inactive
      * @return self
      */
-    public function setInactive(\TKusy\Hl7FhirR4\BooleanType $inactive)
+    public function setInactive($inactive)
     {
         $this->inactive = $inactive;
         return $this;

@@ -21,21 +21,21 @@ class ValueSetContainsType extends BackboneElementType
     /**
      * If true, this entry is included in the expansion for navigational purposes, and the user cannot select the code directly as a proper value.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $abstract
+     * @var bool $abstract
      */
     private $abstract = null;
 
     /**
      * If the concept is inactive in the code system that defines it. Inactive codes are those that are no longer to be used, but are maintained by the code system for understanding legacy data. It might not be known or specified whether an concept is inactive (and it may depend on the context of use).
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $inactive
+     * @var bool $inactive
      */
     private $inactive = null;
 
     /**
      * The version of the code system from this code was taken. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
@@ -49,7 +49,7 @@ class ValueSetContainsType extends BackboneElementType
     /**
      * The recommended display for this item in the expansion.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $display
+     * @var string $display
      */
     private $display = null;
 
@@ -98,7 +98,7 @@ class ValueSetContainsType extends BackboneElementType
      *
      * If true, this entry is included in the expansion for navigational purposes, and the user cannot select the code directly as a proper value.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAbstract()
     {
@@ -110,10 +110,10 @@ class ValueSetContainsType extends BackboneElementType
      *
      * If true, this entry is included in the expansion for navigational purposes, and the user cannot select the code directly as a proper value.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $abstract
+     * @param bool $abstract
      * @return self
      */
-    public function setAbstract(\TKusy\Hl7FhirR4\BooleanType $abstract)
+    public function setAbstract($abstract)
     {
         $this->abstract = $abstract;
         return $this;
@@ -124,7 +124,7 @@ class ValueSetContainsType extends BackboneElementType
      *
      * If the concept is inactive in the code system that defines it. Inactive codes are those that are no longer to be used, but are maintained by the code system for understanding legacy data. It might not be known or specified whether an concept is inactive (and it may depend on the context of use).
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getInactive()
     {
@@ -136,10 +136,10 @@ class ValueSetContainsType extends BackboneElementType
      *
      * If the concept is inactive in the code system that defines it. Inactive codes are those that are no longer to be used, but are maintained by the code system for understanding legacy data. It might not be known or specified whether an concept is inactive (and it may depend on the context of use).
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $inactive
+     * @param bool $inactive
      * @return self
      */
-    public function setInactive(\TKusy\Hl7FhirR4\BooleanType $inactive)
+    public function setInactive($inactive)
     {
         $this->inactive = $inactive;
         return $this;
@@ -150,7 +150,7 @@ class ValueSetContainsType extends BackboneElementType
      *
      * The version of the code system from this code was taken. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -162,10 +162,10 @@ class ValueSetContainsType extends BackboneElementType
      *
      * The version of the code system from this code was taken. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;
@@ -202,7 +202,7 @@ class ValueSetContainsType extends BackboneElementType
      *
      * The recommended display for this item in the expansion.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisplay()
     {
@@ -214,10 +214,10 @@ class ValueSetContainsType extends BackboneElementType
      *
      * The recommended display for this item in the expansion.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $display
+     * @param string $display
      * @return self
      */
-    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
+    public function setDisplay($display)
     {
         $this->display = $display;
         return $this;

@@ -14,7 +14,7 @@ class TerminologyCapabilitiesValidateCodeType extends BackboneElementType
     /**
      * Whether translations are validated.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $translations
+     * @var bool $translations
      */
     private $translations = null;
 
@@ -23,7 +23,7 @@ class TerminologyCapabilitiesValidateCodeType extends BackboneElementType
      *
      * Whether translations are validated.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getTranslations()
     {
@@ -35,10 +35,10 @@ class TerminologyCapabilitiesValidateCodeType extends BackboneElementType
      *
      * Whether translations are validated.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $translations
+     * @param bool $translations
      * @return self
      */
-    public function setTranslations(\TKusy\Hl7FhirR4\BooleanType $translations)
+    public function setTranslations($translations)
     {
         $this->translations = $translations;
         return $this;

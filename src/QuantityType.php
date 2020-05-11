@@ -14,7 +14,7 @@ class QuantityType extends ElementType
     /**
      * The value of the measured amount. The value includes an implicit precision in the presentation of the value.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $value
+     * @var float $value
      */
     private $value = null;
 
@@ -28,7 +28,7 @@ class QuantityType extends ElementType
     /**
      * A human-readable form of the unit.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $unit
+     * @var string $unit
      */
     private $unit = null;
 
@@ -51,7 +51,7 @@ class QuantityType extends ElementType
      *
      * The value of the measured amount. The value includes an implicit precision in the presentation of the value.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getValue()
     {
@@ -63,10 +63,10 @@ class QuantityType extends ElementType
      *
      * The value of the measured amount. The value includes an implicit precision in the presentation of the value.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $value
+     * @param float $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\DecimalType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;
@@ -103,7 +103,7 @@ class QuantityType extends ElementType
      *
      * A human-readable form of the unit.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getUnit()
     {
@@ -115,10 +115,10 @@ class QuantityType extends ElementType
      *
      * A human-readable form of the unit.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $unit
+     * @param string $unit
      * @return self
      */
-    public function setUnit(\TKusy\Hl7FhirR4\StringType $unit)
+    public function setUnit($unit)
     {
         $this->unit = $unit;
         return $this;

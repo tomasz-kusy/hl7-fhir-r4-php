@@ -21,7 +21,7 @@ class AnnotationType extends ElementType
     /**
      * The individual responsible for making the annotation. (choose any one of author*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $authorString
+     * @var string $authorString
      */
     private $authorString = null;
 
@@ -70,7 +70,7 @@ class AnnotationType extends ElementType
      *
      * The individual responsible for making the annotation. (choose any one of author*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAuthorString()
     {
@@ -82,10 +82,10 @@ class AnnotationType extends ElementType
      *
      * The individual responsible for making the annotation. (choose any one of author*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $authorString
+     * @param string $authorString
      * @return self
      */
-    public function setAuthorString(\TKusy\Hl7FhirR4\StringType $authorString)
+    public function setAuthorString($authorString)
     {
         $this->authorString = $authorString;
         return $this;

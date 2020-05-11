@@ -188,7 +188,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitAddItemType:
             accessor:
                 getter: getFactor
                 setter: setFactor
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         net:
             expose: true
             access_type: public_method

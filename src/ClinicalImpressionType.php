@@ -42,7 +42,7 @@ class ClinicalImpressionType extends DomainResourceType
     /**
      * A summary of the context and/or cause of the assessment - why / where it was performed, and what patient events/status prompted it.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -119,7 +119,7 @@ class ClinicalImpressionType extends DomainResourceType
     /**
      * A text summary of the investigations and the diagnosis.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $summary
+     * @var string $summary
      */
     private $summary = null;
 
@@ -307,7 +307,7 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * A summary of the context and/or cause of the assessment - why / where it was performed, and what patient events/status prompted it.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -319,10 +319,10 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * A summary of the context and/or cause of the assessment - why / where it was performed, and what patient events/status prompted it.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -713,7 +713,7 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * A text summary of the investigations and the diagnosis.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSummary()
     {
@@ -725,10 +725,10 @@ class ClinicalImpressionType extends DomainResourceType
      *
      * A text summary of the investigations and the diagnosis.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $summary
+     * @param string $summary
      * @return self
      */
-    public function setSummary(\TKusy\Hl7FhirR4\StringType $summary)
+    public function setSummary($summary)
     {
         $this->summary = $summary;
         return $this;

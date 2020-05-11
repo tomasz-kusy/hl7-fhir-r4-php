@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
             accessor:
                 getter: getShape
                 setter: setShape
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         color:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
                 inline: true
                 entry_name: color
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         imprint:
             expose: true
             access_type: public_method
@@ -106,7 +106,7 @@ TKusy\Hl7FhirR4\ProdCharacteristicType:
                 inline: true
                 entry_name: imprint
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         image:
             expose: true
             access_type: public_method

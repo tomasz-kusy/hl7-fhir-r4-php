@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\PatientType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         name:
             expose: true
             access_type: public_method
@@ -88,7 +88,7 @@ TKusy\Hl7FhirR4\PatientType:
             accessor:
                 getter: getDeceasedBoolean
                 setter: setDeceasedBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         deceasedDateTime:
             expose: true
             access_type: public_method
@@ -136,7 +136,7 @@ TKusy\Hl7FhirR4\PatientType:
             accessor:
                 getter: getMultipleBirthBoolean
                 setter: setMultipleBirthBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         multipleBirthInteger:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ TKusy\Hl7FhirR4\PatientType:
             accessor:
                 getter: getMultipleBirthInteger
                 setter: setMultipleBirthInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         photo:
             expose: true
             access_type: public_method

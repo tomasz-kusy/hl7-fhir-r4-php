@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitSupportingInfoType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         valueString:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitSupportingInfoType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         valueQuantity:
             expose: true
             access_type: public_method

@@ -36,4 +36,4 @@ TKusy\Hl7FhirR4\MedicationKnowledgePatientCharacteristicsType:
                 inline: true
                 entry_name: value
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TestScriptRequestHeaderType:
             accessor:
                 getter: getField
                 setter: setField
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         value:
             expose: true
             access_type: public_method
@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\TestScriptRequestHeaderType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

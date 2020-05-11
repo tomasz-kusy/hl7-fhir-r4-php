@@ -35,7 +35,7 @@ class EndpointType extends DomainResourceType
     /**
      * A friendly name that this endpoint can be referred to with.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -84,7 +84,7 @@ class EndpointType extends DomainResourceType
     /**
      * Additional headers / information to send as part of the notification.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $header
+     * @var string[] $header
      */
     private $header = null;
 
@@ -211,7 +211,7 @@ class EndpointType extends DomainResourceType
      *
      * A friendly name that this endpoint can be referred to with.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -223,10 +223,10 @@ class EndpointType extends DomainResourceType
      *
      * A friendly name that this endpoint can be referred to with.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -514,9 +514,9 @@ class EndpointType extends DomainResourceType
      * Additional headers / information to send as part of the notification.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $header
+     * @param string $header
      */
-    public function addToHeader(\TKusy\Hl7FhirR4\StringType $header)
+    public function addToHeader($header)
     {
         $this->header[] = $header;
         return $this;
@@ -553,7 +553,7 @@ class EndpointType extends DomainResourceType
      *
      * Additional headers / information to send as part of the notification.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getHeader()
     {
@@ -565,7 +565,7 @@ class EndpointType extends DomainResourceType
      *
      * Additional headers / information to send as part of the notification.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $header
+     * @param string[] $header
      * @return self
      */
     public function setHeader(array $header)

@@ -42,7 +42,7 @@ class SubstanceSpecificationType extends DomainResourceType
     /**
      * Textual description of the substance.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -56,7 +56,7 @@ class SubstanceSpecificationType extends DomainResourceType
     /**
      * Textual comment about this record of a substance.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -253,7 +253,7 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * Textual description of the substance.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -265,10 +265,10 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * Textual description of the substance.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -345,7 +345,7 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * Textual comment about this record of a substance.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -357,10 +357,10 @@ class SubstanceSpecificationType extends DomainResourceType
      *
      * Textual comment about this record of a substance.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

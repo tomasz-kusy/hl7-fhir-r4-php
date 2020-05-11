@@ -84,7 +84,7 @@ class ServiceRequestType extends DomainResourceType
     /**
      * Set this to true if the record is saying that the service/procedure should NOT be performed.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $doNotPerform
+     * @var bool $doNotPerform
      */
     private $doNotPerform = null;
 
@@ -161,7 +161,7 @@ class ServiceRequestType extends DomainResourceType
     /**
      * If a CodeableConcept is present, it indicates the pre-condition for performing the service. For example "pain", "on flare-up", etc. (choose any one of asNeeded*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $asNeededBoolean
+     * @var bool $asNeededBoolean
      */
     private $asNeededBoolean = null;
 
@@ -266,7 +266,7 @@ class ServiceRequestType extends DomainResourceType
     /**
      * Instructions in terms that are understood by the patient or consumer.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $patientInstruction
+     * @var string $patientInstruction
      */
     private $patientInstruction = null;
 
@@ -782,7 +782,7 @@ class ServiceRequestType extends DomainResourceType
      *
      * Set this to true if the record is saying that the service/procedure should NOT be performed.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getDoNotPerform()
     {
@@ -794,10 +794,10 @@ class ServiceRequestType extends DomainResourceType
      *
      * Set this to true if the record is saying that the service/procedure should NOT be performed.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $doNotPerform
+     * @param bool $doNotPerform
      * @return self
      */
-    public function setDoNotPerform(\TKusy\Hl7FhirR4\BooleanType $doNotPerform)
+    public function setDoNotPerform($doNotPerform)
     {
         $this->doNotPerform = $doNotPerform;
         return $this;
@@ -1108,7 +1108,7 @@ class ServiceRequestType extends DomainResourceType
      *
      * If a CodeableConcept is present, it indicates the pre-condition for performing the service. For example "pain", "on flare-up", etc. (choose any one of asNeeded*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAsNeededBoolean()
     {
@@ -1120,10 +1120,10 @@ class ServiceRequestType extends DomainResourceType
      *
      * If a CodeableConcept is present, it indicates the pre-condition for performing the service. For example "pain", "on flare-up", etc. (choose any one of asNeeded*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $asNeededBoolean
+     * @param bool $asNeededBoolean
      * @return self
      */
-    public function setAsNeededBoolean(\TKusy\Hl7FhirR4\BooleanType $asNeededBoolean)
+    public function setAsNeededBoolean($asNeededBoolean)
     {
         $this->asNeededBoolean = $asNeededBoolean;
         return $this;
@@ -1898,7 +1898,7 @@ class ServiceRequestType extends DomainResourceType
      *
      * Instructions in terms that are understood by the patient or consumer.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPatientInstruction()
     {
@@ -1910,10 +1910,10 @@ class ServiceRequestType extends DomainResourceType
      *
      * Instructions in terms that are understood by the patient or consumer.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $patientInstruction
+     * @param string $patientInstruction
      * @return self
      */
-    public function setPatientInstruction(\TKusy\Hl7FhirR4\StringType $patientInstruction)
+    public function setPatientInstruction($patientInstruction)
     {
         $this->patientInstruction = $patientInstruction;
         return $this;

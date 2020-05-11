@@ -35,7 +35,7 @@ class SubscriptionChannelType extends BackboneElementType
     /**
      * Additional headers / information to send as part of the notification.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $header
+     * @var string[] $header
      */
     private $header = null;
 
@@ -123,9 +123,9 @@ class SubscriptionChannelType extends BackboneElementType
      * Additional headers / information to send as part of the notification.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $header
+     * @param string $header
      */
-    public function addToHeader(\TKusy\Hl7FhirR4\StringType $header)
+    public function addToHeader($header)
     {
         $this->header[] = $header;
         return $this;
@@ -162,7 +162,7 @@ class SubscriptionChannelType extends BackboneElementType
      *
      * Additional headers / information to send as part of the notification.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getHeader()
     {
@@ -174,7 +174,7 @@ class SubscriptionChannelType extends BackboneElementType
      *
      * Additional headers / information to send as part of the notification.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $header
+     * @param string[] $header
      * @return self
      */
     public function setHeader(array $header)

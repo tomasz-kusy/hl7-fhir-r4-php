@@ -28,7 +28,7 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
     /**
      * Textual name for this moiety substance.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -49,7 +49,7 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
     /**
      * Molecular formula.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $molecularFormula
+     * @var string $molecularFormula
      */
     private $molecularFormula = null;
 
@@ -63,7 +63,7 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
     /**
      * Quantitative value for this moiety. (choose any one of amount*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $amountString
+     * @var string $amountString
      */
     private $amountString = null;
 
@@ -124,7 +124,7 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
      *
      * Textual name for this moiety substance.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -136,10 +136,10 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
      *
      * Textual name for this moiety substance.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -202,7 +202,7 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
      *
      * Molecular formula.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getMolecularFormula()
     {
@@ -214,10 +214,10 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
      *
      * Molecular formula.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $molecularFormula
+     * @param string $molecularFormula
      * @return self
      */
-    public function setMolecularFormula(\TKusy\Hl7FhirR4\StringType $molecularFormula)
+    public function setMolecularFormula($molecularFormula)
     {
         $this->molecularFormula = $molecularFormula;
         return $this;
@@ -254,7 +254,7 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
      *
      * Quantitative value for this moiety. (choose any one of amount*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAmountString()
     {
@@ -266,10 +266,10 @@ class SubstanceSpecificationMoietyType extends BackboneElementType
      *
      * Quantitative value for this moiety. (choose any one of amount*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $amountString
+     * @param string $amountString
      * @return self
      */
-    public function setAmountString(\TKusy\Hl7FhirR4\StringType $amountString)
+    public function setAmountString($amountString)
     {
         $this->amountString = $amountString;
         return $this;

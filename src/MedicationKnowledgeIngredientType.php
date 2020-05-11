@@ -28,7 +28,7 @@ class MedicationKnowledgeIngredientType extends BackboneElementType
     /**
      * Indication of whether this ingredient affects the therapeutic action of the drug.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $isActive
+     * @var bool $isActive
      */
     private $isActive = null;
 
@@ -96,7 +96,7 @@ class MedicationKnowledgeIngredientType extends BackboneElementType
      *
      * Indication of whether this ingredient affects the therapeutic action of the drug.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getIsActive()
     {
@@ -108,10 +108,10 @@ class MedicationKnowledgeIngredientType extends BackboneElementType
      *
      * Indication of whether this ingredient affects the therapeutic action of the drug.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $isActive
+     * @param bool $isActive
      * @return self
      */
-    public function setIsActive(\TKusy\Hl7FhirR4\BooleanType $isActive)
+    public function setIsActive($isActive)
     {
         $this->isActive = $isActive;
         return $this;

@@ -28,7 +28,7 @@ class ImmunizationReactionType extends BackboneElementType
     /**
      * Self-reported indicator.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $reported
+     * @var bool $reported
      */
     private $reported = null;
 
@@ -89,7 +89,7 @@ class ImmunizationReactionType extends BackboneElementType
      *
      * Self-reported indicator.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getReported()
     {
@@ -101,10 +101,10 @@ class ImmunizationReactionType extends BackboneElementType
      *
      * Self-reported indicator.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $reported
+     * @param bool $reported
      * @return self
      */
-    public function setReported(\TKusy\Hl7FhirR4\BooleanType $reported)
+    public function setReported($reported)
     {
         $this->reported = $reported;
         return $this;

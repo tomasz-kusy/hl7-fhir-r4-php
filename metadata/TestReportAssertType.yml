@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\TestReportAssertType:
             accessor:
                 getter: getDetail
                 setter: setDetail
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

@@ -126,7 +126,7 @@ class DiagnosticReportType extends DomainResourceType
     /**
      * Concise and clinically contextualized summary conclusion (interpretation/impression) of the diagnostic report.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $conclusion
+     * @var string $conclusion
      */
     private $conclusion = null;
 
@@ -925,7 +925,7 @@ class DiagnosticReportType extends DomainResourceType
      *
      * Concise and clinically contextualized summary conclusion (interpretation/impression) of the diagnostic report.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getConclusion()
     {
@@ -937,10 +937,10 @@ class DiagnosticReportType extends DomainResourceType
      *
      * Concise and clinically contextualized summary conclusion (interpretation/impression) of the diagnostic report.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $conclusion
+     * @param string $conclusion
      * @return self
      */
-    public function setConclusion(\TKusy\Hl7FhirR4\StringType $conclusion)
+    public function setConclusion($conclusion)
     {
         $this->conclusion = $conclusion;
         return $this;

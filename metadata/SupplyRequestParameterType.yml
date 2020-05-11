@@ -54,4 +54,4 @@ TKusy\Hl7FhirR4\SupplyRequestParameterType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

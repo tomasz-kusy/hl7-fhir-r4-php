@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ConceptMapTargetType:
             accessor:
                 getter: getDisplay
                 setter: setDisplay
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         equivalence:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ConceptMapTargetType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         dependsOn:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class ResearchStudyArmType extends BackboneElementType
     /**
      * Unique, human-readable label for this arm of the study.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -28,7 +28,7 @@ class ResearchStudyArmType extends BackboneElementType
     /**
      * A succinct description of the path through the study that would be followed by a subject adhering to this arm.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -37,7 +37,7 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * Unique, human-readable label for this arm of the study.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -49,10 +49,10 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * Unique, human-readable label for this arm of the study.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -89,7 +89,7 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * A succinct description of the path through the study that would be followed by a subject adhering to this arm.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -101,10 +101,10 @@ class ResearchStudyArmType extends BackboneElementType
      *
      * A succinct description of the path through the study that would be followed by a subject adhering to this arm.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

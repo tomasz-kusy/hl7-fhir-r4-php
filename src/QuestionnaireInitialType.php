@@ -14,21 +14,21 @@ class QuestionnaireInitialType extends BackboneElementType
     /**
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @var bool $valueBoolean
      */
     private $valueBoolean = null;
 
     /**
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $valueDecimal
+     * @var float $valueDecimal
      */
     private $valueDecimal = null;
 
     /**
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
+     * @var \integer $valueInteger
      */
     private $valueInteger = null;
 
@@ -56,7 +56,7 @@ class QuestionnaireInitialType extends BackboneElementType
     /**
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $valueString
+     * @var string $valueString
      */
     private $valueString = null;
 
@@ -100,7 +100,7 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getValueBoolean()
     {
@@ -112,10 +112,10 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @param bool $valueBoolean
      * @return self
      */
-    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
+    public function setValueBoolean($valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -126,7 +126,7 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getValueDecimal()
     {
@@ -138,10 +138,10 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $valueDecimal
+     * @param float $valueDecimal
      * @return self
      */
-    public function setValueDecimal(\TKusy\Hl7FhirR4\DecimalType $valueDecimal)
+    public function setValueDecimal($valueDecimal)
     {
         $this->valueDecimal = $valueDecimal;
         return $this;
@@ -152,7 +152,7 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getValueInteger()
     {
@@ -164,10 +164,10 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
+     * @param \integer $valueInteger
      * @return self
      */
-    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
+    public function setValueInteger(\integer $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;
@@ -256,7 +256,7 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValueString()
     {
@@ -268,10 +268,10 @@ class QuestionnaireInitialType extends BackboneElementType
      *
      * The actual value to for an initial answer. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $valueString
+     * @param string $valueString
      * @return self
      */
-    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
+    public function setValueString($valueString)
     {
         $this->valueString = $valueString;
         return $this;

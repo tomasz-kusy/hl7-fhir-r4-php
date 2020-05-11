@@ -21,7 +21,7 @@ class ValueSetConceptType extends BackboneElementType
     /**
      * The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $display
+     * @var string $display
      */
     private $display = null;
 
@@ -63,7 +63,7 @@ class ValueSetConceptType extends BackboneElementType
      *
      * The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisplay()
     {
@@ -75,10 +75,10 @@ class ValueSetConceptType extends BackboneElementType
      *
      * The text to display to the user for this concept in the context of this valueset. If no display is provided, then applications using the value set use the display specified for the code by the system.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $display
+     * @param string $display
      * @return self
      */
-    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
+    public function setDisplay($display)
     {
         $this->display = $display;
         return $this;

@@ -63,14 +63,14 @@ class ContractOfferType extends BackboneElementType
     /**
      * Human readable form of this Contract Offer.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
     /**
      * The id of the clause or question text of the offer in the referenced questionnaire/response.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $linkId
+     * @var string[] $linkId
      */
     private $linkId = null;
 
@@ -428,7 +428,7 @@ class ContractOfferType extends BackboneElementType
      *
      * Human readable form of this Contract Offer.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -440,10 +440,10 @@ class ContractOfferType extends BackboneElementType
      *
      * Human readable form of this Contract Offer.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;
@@ -455,9 +455,9 @@ class ContractOfferType extends BackboneElementType
      * The id of the clause or question text of the offer in the referenced questionnaire/response.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $linkId
+     * @param string $linkId
      */
-    public function addToLinkId(\TKusy\Hl7FhirR4\StringType $linkId)
+    public function addToLinkId($linkId)
     {
         $this->linkId[] = $linkId;
         return $this;
@@ -494,7 +494,7 @@ class ContractOfferType extends BackboneElementType
      *
      * The id of the clause or question text of the offer in the referenced questionnaire/response.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getLinkId()
     {
@@ -506,7 +506,7 @@ class ContractOfferType extends BackboneElementType
      *
      * The id of the clause or question text of the offer in the referenced questionnaire/response.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $linkId
+     * @param string[] $linkId
      * @return self
      */
     public function setLinkId(array $linkId)

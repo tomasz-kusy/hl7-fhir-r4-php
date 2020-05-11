@@ -84,7 +84,7 @@ class AppointmentType extends DomainResourceType
     /**
      * The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -133,14 +133,14 @@ class AppointmentType extends DomainResourceType
     /**
      * Additional comments about the appointment.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
     /**
      * While Appointment.comment contains information for internal use, Appointment.patientInstructions is used to capture patient facing information about the Appointment (e.g. please bring your referral or fast from 8pm night before).
      *
-     * @var \TKusy\Hl7FhirR4\StringType $patientInstruction
+     * @var string $patientInstruction
      */
     private $patientInstruction = null;
 
@@ -672,7 +672,7 @@ class AppointmentType extends DomainResourceType
      *
      * The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -684,10 +684,10 @@ class AppointmentType extends DomainResourceType
      *
      * The brief description of the appointment as would be shown on a subject line in a meeting request, or appointment list. Detailed or expanded information should be put in the comment field.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -934,7 +934,7 @@ class AppointmentType extends DomainResourceType
      *
      * Additional comments about the appointment.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -946,10 +946,10 @@ class AppointmentType extends DomainResourceType
      *
      * Additional comments about the appointment.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;
@@ -960,7 +960,7 @@ class AppointmentType extends DomainResourceType
      *
      * While Appointment.comment contains information for internal use, Appointment.patientInstructions is used to capture patient facing information about the Appointment (e.g. please bring your referral or fast from 8pm night before).
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPatientInstruction()
     {
@@ -972,10 +972,10 @@ class AppointmentType extends DomainResourceType
      *
      * While Appointment.comment contains information for internal use, Appointment.patientInstructions is used to capture patient facing information about the Appointment (e.g. please bring your referral or fast from 8pm night before).
      *
-     * @param \TKusy\Hl7FhirR4\StringType $patientInstruction
+     * @param string $patientInstruction
      * @return self
      */
-    public function setPatientInstruction(\TKusy\Hl7FhirR4\StringType $patientInstruction)
+    public function setPatientInstruction($patientInstruction)
     {
         $this->patientInstruction = $patientInstruction;
         return $this;

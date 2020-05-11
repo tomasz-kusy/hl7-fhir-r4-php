@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitProcessNoteType:
             accessor:
                 getter: getText
                 setter: setText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         language:
             expose: true
             access_type: public_method

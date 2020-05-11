@@ -14,7 +14,7 @@ class CapabilityStatementSecurityType extends BackboneElementType
     /**
      * Server adds CORS headers when responding to requests - this enables Javascript applications to use the server.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $cors
+     * @var bool $cors
      */
     private $cors = null;
 
@@ -37,7 +37,7 @@ class CapabilityStatementSecurityType extends BackboneElementType
      *
      * Server adds CORS headers when responding to requests - this enables Javascript applications to use the server.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getCors()
     {
@@ -49,10 +49,10 @@ class CapabilityStatementSecurityType extends BackboneElementType
      *
      * Server adds CORS headers when responding to requests - this enables Javascript applications to use the server.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $cors
+     * @param bool $cors
      * @return self
      */
-    public function setCors(\TKusy\Hl7FhirR4\BooleanType $cors)
+    public function setCors($cors)
     {
         $this->cors = $cors;
         return $this;

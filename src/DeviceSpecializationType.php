@@ -21,7 +21,7 @@ class DeviceSpecializationType extends BackboneElementType
     /**
      * The version of the standard that is used to operate and communicate.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
@@ -56,7 +56,7 @@ class DeviceSpecializationType extends BackboneElementType
      *
      * The version of the standard that is used to operate and communicate.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -68,10 +68,10 @@ class DeviceSpecializationType extends BackboneElementType
      *
      * The version of the standard that is used to operate and communicate.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         name:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ExpressionType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         reference:
             expose: true
             access_type: public_method

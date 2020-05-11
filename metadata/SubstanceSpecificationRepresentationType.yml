@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationRepresentationType:
             accessor:
                 getter: getRepresentation
                 setter: setRepresentation
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         attachment:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ class SpecimenContainerType extends BackboneElementType
     /**
      * Textual description of the container.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -131,7 +131,7 @@ class SpecimenContainerType extends BackboneElementType
      *
      * Textual description of the container.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -143,10 +143,10 @@ class SpecimenContainerType extends BackboneElementType
      *
      * Textual description of the container.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

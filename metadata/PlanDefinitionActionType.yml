@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             accessor:
                 getter: getPrefix
                 setter: setPrefix
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         title:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         textEquivalent:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\PlanDefinitionActionType:
             accessor:
                 getter: getTextEquivalent
                 setter: setTextEquivalent
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         priority:
             expose: true
             access_type: public_method

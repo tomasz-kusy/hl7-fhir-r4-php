@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ParameterDefinitionType:
             accessor:
                 getter: getMin
                 setter: setMin
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         max:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ParameterDefinitionType:
             accessor:
                 getter: getMax
                 setter: setMax
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         documentation:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\ParameterDefinitionType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method

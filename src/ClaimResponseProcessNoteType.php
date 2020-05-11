@@ -28,7 +28,7 @@ class ClaimResponseProcessNoteType extends BackboneElementType
     /**
      * The explanation or description associated with the processing.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
@@ -96,7 +96,7 @@ class ClaimResponseProcessNoteType extends BackboneElementType
      *
      * The explanation or description associated with the processing.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -108,10 +108,10 @@ class ClaimResponseProcessNoteType extends BackboneElementType
      *
      * The explanation or description associated with the processing.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;

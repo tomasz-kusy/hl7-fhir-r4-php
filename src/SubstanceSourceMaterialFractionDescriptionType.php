@@ -14,7 +14,7 @@ class SubstanceSourceMaterialFractionDescriptionType extends BackboneElementType
     /**
      * This element is capturing information about the fraction of a plant part, or human plasma for fractionation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $fraction
+     * @var string $fraction
      */
     private $fraction = null;
 
@@ -30,7 +30,7 @@ class SubstanceSourceMaterialFractionDescriptionType extends BackboneElementType
      *
      * This element is capturing information about the fraction of a plant part, or human plasma for fractionation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getFraction()
     {
@@ -42,10 +42,10 @@ class SubstanceSourceMaterialFractionDescriptionType extends BackboneElementType
      *
      * This element is capturing information about the fraction of a plant part, or human plasma for fractionation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $fraction
+     * @param string $fraction
      * @return self
      */
-    public function setFraction(\TKusy\Hl7FhirR4\StringType $fraction)
+    public function setFraction($fraction)
     {
         $this->fraction = $fraction;
         return $this;

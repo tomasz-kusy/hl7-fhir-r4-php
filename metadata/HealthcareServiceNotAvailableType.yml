@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\HealthcareServiceNotAvailableType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         during:
             expose: true
             access_type: public_method

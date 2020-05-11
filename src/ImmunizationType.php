@@ -63,7 +63,7 @@ class ImmunizationType extends DomainResourceType
     /**
      * Date vaccine administered or was to be administered. (choose any one of occurrence*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $occurrenceString
+     * @var string $occurrenceString
      */
     private $occurrenceString = null;
 
@@ -77,7 +77,7 @@ class ImmunizationType extends DomainResourceType
     /**
      * An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $primarySource
+     * @var bool $primarySource
      */
     private $primarySource = null;
 
@@ -105,7 +105,7 @@ class ImmunizationType extends DomainResourceType
     /**
      * Lot number of the vaccine product.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $lotNumber
+     * @var string $lotNumber
      */
     private $lotNumber = null;
 
@@ -168,7 +168,7 @@ class ImmunizationType extends DomainResourceType
     /**
      * Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $isSubpotent
+     * @var bool $isSubpotent
      */
     private $isSubpotent = null;
 
@@ -441,7 +441,7 @@ class ImmunizationType extends DomainResourceType
      *
      * Date vaccine administered or was to be administered. (choose any one of occurrence*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getOccurrenceString()
     {
@@ -453,10 +453,10 @@ class ImmunizationType extends DomainResourceType
      *
      * Date vaccine administered or was to be administered. (choose any one of occurrence*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $occurrenceString
+     * @param string $occurrenceString
      * @return self
      */
-    public function setOccurrenceString(\TKusy\Hl7FhirR4\StringType $occurrenceString)
+    public function setOccurrenceString($occurrenceString)
     {
         $this->occurrenceString = $occurrenceString;
         return $this;
@@ -493,7 +493,7 @@ class ImmunizationType extends DomainResourceType
      *
      * An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getPrimarySource()
     {
@@ -505,10 +505,10 @@ class ImmunizationType extends DomainResourceType
      *
      * An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $primarySource
+     * @param bool $primarySource
      * @return self
      */
-    public function setPrimarySource(\TKusy\Hl7FhirR4\BooleanType $primarySource)
+    public function setPrimarySource($primarySource)
     {
         $this->primarySource = $primarySource;
         return $this;
@@ -597,7 +597,7 @@ class ImmunizationType extends DomainResourceType
      *
      * Lot number of the vaccine product.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getLotNumber()
     {
@@ -609,10 +609,10 @@ class ImmunizationType extends DomainResourceType
      *
      * Lot number of the vaccine product.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $lotNumber
+     * @param string $lotNumber
      * @return self
      */
-    public function setLotNumber(\TKusy\Hl7FhirR4\StringType $lotNumber)
+    public function setLotNumber($lotNumber)
     {
         $this->lotNumber = $lotNumber;
         return $this;
@@ -991,7 +991,7 @@ class ImmunizationType extends DomainResourceType
      *
      * Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getIsSubpotent()
     {
@@ -1003,10 +1003,10 @@ class ImmunizationType extends DomainResourceType
      *
      * Indication if a dose is considered to be subpotent. By default, a dose should be considered to be potent.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $isSubpotent
+     * @param bool $isSubpotent
      * @return self
      */
-    public function setIsSubpotent(\TKusy\Hl7FhirR4\BooleanType $isSubpotent)
+    public function setIsSubpotent($isSubpotent)
     {
         $this->isSubpotent = $isSubpotent;
         return $this;

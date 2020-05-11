@@ -15,7 +15,7 @@ class BiologicallyDerivedProductManipulationType extends BackboneElementType
     /**
      * Description of manipulation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -38,7 +38,7 @@ class BiologicallyDerivedProductManipulationType extends BackboneElementType
      *
      * Description of manipulation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -50,10 +50,10 @@ class BiologicallyDerivedProductManipulationType extends BackboneElementType
      *
      * Description of manipulation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

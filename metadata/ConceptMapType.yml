@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ConceptMapType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         name:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ConceptMapType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         title:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\ConceptMapType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         status:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\ConceptMapType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         date:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ TKusy\Hl7FhirR4\ConceptMapType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         contact:
             expose: true
             access_type: public_method

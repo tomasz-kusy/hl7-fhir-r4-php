@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseItemType:
             accessor:
                 getter: getLinkId
                 setter: setLinkId
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         definition:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseItemType:
             accessor:
                 getter: getText
                 setter: setText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         answer:
             expose: true
             access_type: public_method

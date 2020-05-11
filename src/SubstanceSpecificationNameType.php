@@ -14,7 +14,7 @@ class SubstanceSpecificationNameType extends BackboneElementType
     /**
      * The actual name.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -35,7 +35,7 @@ class SubstanceSpecificationNameType extends BackboneElementType
     /**
      * If this is the preferred name for this substance.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $preferred
+     * @var bool $preferred
      */
     private $preferred = null;
 
@@ -93,7 +93,7 @@ class SubstanceSpecificationNameType extends BackboneElementType
      *
      * The actual name.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -105,10 +105,10 @@ class SubstanceSpecificationNameType extends BackboneElementType
      *
      * The actual name.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -171,7 +171,7 @@ class SubstanceSpecificationNameType extends BackboneElementType
      *
      * If this is the preferred name for this substance.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getPreferred()
     {
@@ -183,10 +183,10 @@ class SubstanceSpecificationNameType extends BackboneElementType
      *
      * If this is the preferred name for this substance.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $preferred
+     * @param bool $preferred
      * @return self
      */
-    public function setPreferred(\TKusy\Hl7FhirR4\BooleanType $preferred)
+    public function setPreferred($preferred)
     {
         $this->preferred = $preferred;
         return $this;

@@ -29,7 +29,7 @@ TKusy\Hl7FhirR4\VerificationResultType:
                 inline: true
                 entry_name: targetLocation
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         need:
             expose: true
             access_type: public_method

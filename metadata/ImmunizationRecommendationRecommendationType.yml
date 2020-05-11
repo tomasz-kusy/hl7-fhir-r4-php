@@ -92,7 +92,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         series:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             accessor:
                 getter: getSeries
                 setter: setSeries
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         doseNumberPositiveInt:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             accessor:
                 getter: getDoseNumberString
                 setter: setDoseNumberString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         seriesDosesPositiveInt:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ TKusy\Hl7FhirR4\ImmunizationRecommendationRecommendationType:
             accessor:
                 getter: getSeriesDosesString
                 setter: setSeriesDosesString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         supportingImmunization:
             expose: true
             access_type: public_method

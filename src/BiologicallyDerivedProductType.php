@@ -50,7 +50,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
     /**
      * Number of discrete units within this product.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $quantity
+     * @var \integer $quantity
      */
     private $quantity = null;
 
@@ -304,7 +304,7 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * Number of discrete units within this product.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getQuantity()
     {
@@ -316,10 +316,10 @@ class BiologicallyDerivedProductType extends DomainResourceType
      *
      * Number of discrete units within this product.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $quantity
+     * @param \integer $quantity
      * @return self
      */
-    public function setQuantity(\TKusy\Hl7FhirR4\IntegerType $quantity)
+    public function setQuantity(\integer $quantity)
     {
         $this->quantity = $quantity;
         return $this;

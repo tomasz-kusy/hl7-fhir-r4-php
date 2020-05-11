@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisSampleSizeType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         numberOfStudies:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisSampleSizeType:
             accessor:
                 getter: getNumberOfStudies
                 setter: setNumberOfStudies
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         numberOfParticipants:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisSampleSizeType:
             accessor:
                 getter: getNumberOfParticipants
                 setter: setNumberOfParticipants
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer

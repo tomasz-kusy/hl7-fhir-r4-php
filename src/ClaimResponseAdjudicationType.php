@@ -35,7 +35,7 @@ class ClaimResponseAdjudicationType extends BackboneElementType
     /**
      * A non-monetary value associated with the category. Mutually exclusive to the amount element above.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $value
+     * @var float $value
      */
     private $value = null;
 
@@ -122,7 +122,7 @@ class ClaimResponseAdjudicationType extends BackboneElementType
      *
      * A non-monetary value associated with the category. Mutually exclusive to the amount element above.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getValue()
     {
@@ -134,10 +134,10 @@ class ClaimResponseAdjudicationType extends BackboneElementType
      *
      * A non-monetary value associated with the category. Mutually exclusive to the amount element above.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $value
+     * @param float $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\DecimalType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;

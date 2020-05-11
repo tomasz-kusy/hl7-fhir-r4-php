@@ -105,7 +105,7 @@ class ProcedureType extends DomainResourceType
     /**
      * Estimated or actual date, date-time, period, or age when the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured. (choose any one of performed*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $performedString
+     * @var string $performedString
      */
     private $performedString = null;
 
@@ -778,7 +778,7 @@ class ProcedureType extends DomainResourceType
      *
      * Estimated or actual date, date-time, period, or age when the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured. (choose any one of performed*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPerformedString()
     {
@@ -790,10 +790,10 @@ class ProcedureType extends DomainResourceType
      *
      * Estimated or actual date, date-time, period, or age when the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured. (choose any one of performed*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $performedString
+     * @param string $performedString
      * @return self
      */
-    public function setPerformedString(\TKusy\Hl7FhirR4\StringType $performedString)
+    public function setPerformedString($performedString)
     {
         $this->performedString = $performedString;
         return $this;

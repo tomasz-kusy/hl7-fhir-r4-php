@@ -21,7 +21,7 @@ class ElementDefinitionBindingType extends BackboneElementType
     /**
      * Describes the intended use of this particular set of codes.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -63,7 +63,7 @@ class ElementDefinitionBindingType extends BackboneElementType
      *
      * Describes the intended use of this particular set of codes.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -75,10 +75,10 @@ class ElementDefinitionBindingType extends BackboneElementType
      *
      * Describes the intended use of this particular set of codes.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

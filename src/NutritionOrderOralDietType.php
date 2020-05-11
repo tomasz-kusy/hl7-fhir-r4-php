@@ -49,7 +49,7 @@ class NutritionOrderOralDietType extends BackboneElementType
     /**
      * Free text or additional instructions or information pertaining to the oral diet.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $instruction
+     * @var string $instruction
      */
     private $instruction = null;
 
@@ -388,7 +388,7 @@ class NutritionOrderOralDietType extends BackboneElementType
      *
      * Free text or additional instructions or information pertaining to the oral diet.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getInstruction()
     {
@@ -400,10 +400,10 @@ class NutritionOrderOralDietType extends BackboneElementType
      *
      * Free text or additional instructions or information pertaining to the oral diet.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $instruction
+     * @param string $instruction
      * @return self
      */
-    public function setInstruction(\TKusy\Hl7FhirR4\StringType $instruction)
+    public function setInstruction($instruction)
     {
         $this->instruction = $instruction;
         return $this;

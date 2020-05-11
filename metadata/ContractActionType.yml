@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ContractActionType:
             accessor:
                 getter: getDoNotPerform
                 setter: setDoNotPerform
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         type:
             expose: true
             access_type: public_method
@@ -62,7 +62,7 @@ TKusy\Hl7FhirR4\ContractActionType:
                 inline: true
                 entry_name: linkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         status:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ TKusy\Hl7FhirR4\ContractActionType:
                 inline: true
                 entry_name: contextLinkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         occurrenceDateTime:
             expose: true
             access_type: public_method
@@ -162,7 +162,7 @@ TKusy\Hl7FhirR4\ContractActionType:
                 inline: true
                 entry_name: requesterLinkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         performerType:
             expose: true
             access_type: public_method
@@ -214,7 +214,7 @@ TKusy\Hl7FhirR4\ContractActionType:
                 inline: true
                 entry_name: performerLinkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         reasonCode:
             expose: true
             access_type: public_method
@@ -259,7 +259,7 @@ TKusy\Hl7FhirR4\ContractActionType:
                 inline: true
                 entry_name: reason
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         reasonLinkId:
             expose: true
             access_type: public_method
@@ -274,7 +274,7 @@ TKusy\Hl7FhirR4\ContractActionType:
                 inline: true
                 entry_name: reasonLinkId
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         note:
             expose: true
             access_type: public_method

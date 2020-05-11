@@ -21,7 +21,7 @@ class StructureMapInputType extends BackboneElementType
     /**
      * Type for this instance of data.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $type
+     * @var string $type
      */
     private $type = null;
 
@@ -35,7 +35,7 @@ class StructureMapInputType extends BackboneElementType
     /**
      * Documentation for this instance of data.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $documentation
+     * @var string $documentation
      */
     private $documentation = null;
 
@@ -70,7 +70,7 @@ class StructureMapInputType extends BackboneElementType
      *
      * Type for this instance of data.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getType()
     {
@@ -82,10 +82,10 @@ class StructureMapInputType extends BackboneElementType
      *
      * Type for this instance of data.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $type
+     * @param string $type
      * @return self
      */
-    public function setType(\TKusy\Hl7FhirR4\StringType $type)
+    public function setType($type)
     {
         $this->type = $type;
         return $this;
@@ -122,7 +122,7 @@ class StructureMapInputType extends BackboneElementType
      *
      * Documentation for this instance of data.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDocumentation()
     {
@@ -134,10 +134,10 @@ class StructureMapInputType extends BackboneElementType
      *
      * Documentation for this instance of data.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $documentation
+     * @param string $documentation
      * @return self
      */
-    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
+    public function setDocumentation($documentation)
     {
         $this->documentation = $documentation;
         return $this;

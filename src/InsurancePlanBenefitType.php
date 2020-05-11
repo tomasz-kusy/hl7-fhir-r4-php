@@ -21,7 +21,7 @@ class InsurancePlanBenefitType extends BackboneElementType
     /**
      * The referral requirements to have access/coverage for this benefit.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $requirement
+     * @var string $requirement
      */
     private $requirement = null;
 
@@ -63,7 +63,7 @@ class InsurancePlanBenefitType extends BackboneElementType
      *
      * The referral requirements to have access/coverage for this benefit.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getRequirement()
     {
@@ -75,10 +75,10 @@ class InsurancePlanBenefitType extends BackboneElementType
      *
      * The referral requirements to have access/coverage for this benefit.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $requirement
+     * @param string $requirement
      * @return self
      */
-    public function setRequirement(\TKusy\Hl7FhirR4\StringType $requirement)
+    public function setRequirement($requirement)
     {
         $this->requirement = $requirement;
         return $this;

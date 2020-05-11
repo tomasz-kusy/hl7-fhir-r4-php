@@ -28,14 +28,14 @@ class ChargeItemDefinitionType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the charge item definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the charge item definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
     /**
      * A short, descriptive, user-friendly title for the charge item definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
@@ -70,7 +70,7 @@ class ChargeItemDefinitionType extends DomainResourceType
     /**
      * A Boolean value to indicate that this charge item definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
+     * @var bool $experimental
      */
     private $experimental = null;
 
@@ -84,7 +84,7 @@ class ChargeItemDefinitionType extends DomainResourceType
     /**
      * The name of the organization or individual that published the charge item definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $publisher
+     * @var string $publisher
      */
     private $publisher = null;
 
@@ -269,7 +269,7 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the charge item definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the charge item definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -281,10 +281,10 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the charge item definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the charge item definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;
@@ -295,7 +295,7 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the charge item definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -307,10 +307,10 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the charge item definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;
@@ -545,7 +545,7 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this charge item definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getExperimental()
     {
@@ -557,10 +557,10 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this charge item definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
+     * @param bool $experimental
      * @return self
      */
-    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
+    public function setExperimental($experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -597,7 +597,7 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the charge item definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPublisher()
     {
@@ -609,10 +609,10 @@ class ChargeItemDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the charge item definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $publisher
+     * @param string $publisher
      * @return self
      */
-    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
+    public function setPublisher($publisher)
     {
         $this->publisher = $publisher;
         return $this;

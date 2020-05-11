@@ -14,14 +14,14 @@ class TestScriptFixtureType extends BackboneElementType
     /**
      * Whether or not to implicitly create the fixture during setup. If true, the fixture is automatically created on each server being tested during setup, therefore no create operation is required for this fixture in the TestScript.setup section.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $autocreate
+     * @var bool $autocreate
      */
     private $autocreate = null;
 
     /**
      * Whether or not to implicitly delete the fixture during teardown. If true, the fixture is automatically deleted on each server being tested during teardown, therefore no delete operation is required for this fixture in the TestScript.teardown section.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $autodelete
+     * @var bool $autodelete
      */
     private $autodelete = null;
 
@@ -37,7 +37,7 @@ class TestScriptFixtureType extends BackboneElementType
      *
      * Whether or not to implicitly create the fixture during setup. If true, the fixture is automatically created on each server being tested during setup, therefore no create operation is required for this fixture in the TestScript.setup section.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAutocreate()
     {
@@ -49,10 +49,10 @@ class TestScriptFixtureType extends BackboneElementType
      *
      * Whether or not to implicitly create the fixture during setup. If true, the fixture is automatically created on each server being tested during setup, therefore no create operation is required for this fixture in the TestScript.setup section.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $autocreate
+     * @param bool $autocreate
      * @return self
      */
-    public function setAutocreate(\TKusy\Hl7FhirR4\BooleanType $autocreate)
+    public function setAutocreate($autocreate)
     {
         $this->autocreate = $autocreate;
         return $this;
@@ -63,7 +63,7 @@ class TestScriptFixtureType extends BackboneElementType
      *
      * Whether or not to implicitly delete the fixture during teardown. If true, the fixture is automatically deleted on each server being tested during teardown, therefore no delete operation is required for this fixture in the TestScript.teardown section.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAutodelete()
     {
@@ -75,10 +75,10 @@ class TestScriptFixtureType extends BackboneElementType
      *
      * Whether or not to implicitly delete the fixture during teardown. If true, the fixture is automatically deleted on each server being tested during teardown, therefore no delete operation is required for this fixture in the TestScript.teardown section.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $autodelete
+     * @param bool $autodelete
      * @return self
      */
-    public function setAutodelete(\TKusy\Hl7FhirR4\BooleanType $autodelete)
+    public function setAutodelete($autodelete)
     {
         $this->autodelete = $autodelete;
         return $this;

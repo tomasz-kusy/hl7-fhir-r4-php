@@ -21,7 +21,7 @@ class HealthcareServiceType extends DomainResourceType
     /**
      * This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $active
+     * @var bool $active
      */
     private $active = null;
 
@@ -63,14 +63,14 @@ class HealthcareServiceType extends DomainResourceType
     /**
      * Further description of the service as it would be presented to a consumer while searching.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -147,7 +147,7 @@ class HealthcareServiceType extends DomainResourceType
     /**
      * Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $appointmentRequired
+     * @var bool $appointmentRequired
      */
     private $appointmentRequired = null;
 
@@ -168,7 +168,7 @@ class HealthcareServiceType extends DomainResourceType
     /**
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $availabilityExceptions
+     * @var string $availabilityExceptions
      */
     private $availabilityExceptions = null;
 
@@ -250,7 +250,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getActive()
     {
@@ -262,10 +262,10 @@ class HealthcareServiceType extends DomainResourceType
      *
      * This flag is used to mark the record to not be used. This is not used when a center is closed for maintenance, or for holidays, the notAvailable period is to be used for this.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $active
+     * @param bool $active
      * @return self
      */
-    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
+    public function setActive($active)
     {
         $this->active = $active;
         return $this;
@@ -566,7 +566,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * Further description of the service as it would be presented to a consumer while searching.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -578,10 +578,10 @@ class HealthcareServiceType extends DomainResourceType
      *
      * Further description of the service as it would be presented to a consumer while searching.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -592,7 +592,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -604,10 +604,10 @@ class HealthcareServiceType extends DomainResourceType
      *
      * Any additional description of the service and/or any specific issues not covered by the other attributes, which can be displayed as further detail under the serviceName.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;
@@ -1198,7 +1198,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAppointmentRequired()
     {
@@ -1210,10 +1210,10 @@ class HealthcareServiceType extends DomainResourceType
      *
      * Indicates whether or not a prospective consumer will require an appointment for a particular service at a site to be provided by the Organization. Indicates if an appointment is required for access to this service.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $appointmentRequired
+     * @param bool $appointmentRequired
      * @return self
      */
-    public function setAppointmentRequired(\TKusy\Hl7FhirR4\BooleanType $appointmentRequired)
+    public function setAppointmentRequired($appointmentRequired)
     {
         $this->appointmentRequired = $appointmentRequired;
         return $this;
@@ -1356,7 +1356,7 @@ class HealthcareServiceType extends DomainResourceType
      *
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAvailabilityExceptions()
     {
@@ -1368,10 +1368,10 @@ class HealthcareServiceType extends DomainResourceType
      *
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $availabilityExceptions
+     * @param string $availabilityExceptions
      * @return self
      */
-    public function setAvailabilityExceptions(\TKusy\Hl7FhirR4\StringType $availabilityExceptions)
+    public function setAvailabilityExceptions($availabilityExceptions)
     {
         $this->availabilityExceptions = $availabilityExceptions;
         return $this;

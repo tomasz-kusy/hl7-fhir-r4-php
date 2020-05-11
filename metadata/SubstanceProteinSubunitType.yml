@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstanceProteinSubunitType:
             accessor:
                 getter: getSubunit
                 setter: setSubunit
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         sequence:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstanceProteinSubunitType:
             accessor:
                 getter: getSequence
                 setter: setSequence
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         length:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceProteinSubunitType:
             accessor:
                 getter: getLength
                 setter: setLength
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         sequenceAttachment:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\SubstanceProteinSubunitType:
             accessor:
                 getter: getNTerminalModification
                 setter: setNTerminalModification
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         cTerminalModificationId:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ TKusy\Hl7FhirR4\SubstanceProteinSubunitType:
             accessor:
                 getter: getCTerminalModification
                 setter: setCTerminalModification
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

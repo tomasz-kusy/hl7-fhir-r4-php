@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ImplementationGuideTemplateType:
             accessor:
                 getter: getSource
                 setter: setSource
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         scope:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\ImplementationGuideTemplateType:
             accessor:
                 getter: getScope
                 setter: setScope
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

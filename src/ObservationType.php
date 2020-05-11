@@ -133,21 +133,21 @@ class ObservationType extends DomainResourceType
     /**
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $valueString
+     * @var string $valueString
      */
     private $valueString = null;
 
     /**
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @var bool $valueBoolean
      */
     private $valueBoolean = null;
 
     /**
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $valueInteger
+     * @var \integer $valueInteger
      */
     private $valueInteger = null;
 
@@ -957,7 +957,7 @@ class ObservationType extends DomainResourceType
      *
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValueString()
     {
@@ -969,10 +969,10 @@ class ObservationType extends DomainResourceType
      *
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $valueString
+     * @param string $valueString
      * @return self
      */
-    public function setValueString(\TKusy\Hl7FhirR4\StringType $valueString)
+    public function setValueString($valueString)
     {
         $this->valueString = $valueString;
         return $this;
@@ -983,7 +983,7 @@ class ObservationType extends DomainResourceType
      *
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getValueBoolean()
     {
@@ -995,10 +995,10 @@ class ObservationType extends DomainResourceType
      *
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $valueBoolean
+     * @param bool $valueBoolean
      * @return self
      */
-    public function setValueBoolean(\TKusy\Hl7FhirR4\BooleanType $valueBoolean)
+    public function setValueBoolean($valueBoolean)
     {
         $this->valueBoolean = $valueBoolean;
         return $this;
@@ -1009,7 +1009,7 @@ class ObservationType extends DomainResourceType
      *
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getValueInteger()
     {
@@ -1021,10 +1021,10 @@ class ObservationType extends DomainResourceType
      *
      * The information determined as a result of making the observation, if the information has a simple value. (choose any one of value*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $valueInteger
+     * @param \integer $valueInteger
      * @return self
      */
-    public function setValueInteger(\TKusy\Hl7FhirR4\IntegerType $valueInteger)
+    public function setValueInteger(\integer $valueInteger)
     {
         $this->valueInteger = $valueInteger;
         return $this;

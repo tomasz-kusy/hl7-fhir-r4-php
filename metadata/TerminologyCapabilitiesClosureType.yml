@@ -10,4 +10,4 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesClosureType:
             accessor:
                 getter: getTranslation
                 setter: setTranslation
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

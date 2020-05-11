@@ -14,28 +14,28 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
     /**
      * The identifier of the maternal species constituting the hybrid organism shall be specified based on a controlled vocabulary. For plants, the parents aren’t always known, and it is unlikely that it will be known which is maternal and which is paternal.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $maternalOrganismId
+     * @var string $maternalOrganismId
      */
     private $maternalOrganismId = null;
 
     /**
      * The name of the maternal species constituting the hybrid organism shall be specified. For plants, the parents aren’t always known, and it is unlikely that it will be known which is maternal and which is paternal.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $maternalOrganismName
+     * @var string $maternalOrganismName
      */
     private $maternalOrganismName = null;
 
     /**
      * The identifier of the paternal species constituting the hybrid organism shall be specified based on a controlled vocabulary.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $paternalOrganismId
+     * @var string $paternalOrganismId
      */
     private $paternalOrganismId = null;
 
     /**
      * The name of the paternal species constituting the hybrid organism shall be specified.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $paternalOrganismName
+     * @var string $paternalOrganismName
      */
     private $paternalOrganismName = null;
 
@@ -51,7 +51,7 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The identifier of the maternal species constituting the hybrid organism shall be specified based on a controlled vocabulary. For plants, the parents aren’t always known, and it is unlikely that it will be known which is maternal and which is paternal.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getMaternalOrganismId()
     {
@@ -63,10 +63,10 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The identifier of the maternal species constituting the hybrid organism shall be specified based on a controlled vocabulary. For plants, the parents aren’t always known, and it is unlikely that it will be known which is maternal and which is paternal.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $maternalOrganismId
+     * @param string $maternalOrganismId
      * @return self
      */
-    public function setMaternalOrganismId(\TKusy\Hl7FhirR4\StringType $maternalOrganismId)
+    public function setMaternalOrganismId($maternalOrganismId)
     {
         $this->maternalOrganismId = $maternalOrganismId;
         return $this;
@@ -77,7 +77,7 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The name of the maternal species constituting the hybrid organism shall be specified. For plants, the parents aren’t always known, and it is unlikely that it will be known which is maternal and which is paternal.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getMaternalOrganismName()
     {
@@ -89,10 +89,10 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The name of the maternal species constituting the hybrid organism shall be specified. For plants, the parents aren’t always known, and it is unlikely that it will be known which is maternal and which is paternal.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $maternalOrganismName
+     * @param string $maternalOrganismName
      * @return self
      */
-    public function setMaternalOrganismName(\TKusy\Hl7FhirR4\StringType $maternalOrganismName)
+    public function setMaternalOrganismName($maternalOrganismName)
     {
         $this->maternalOrganismName = $maternalOrganismName;
         return $this;
@@ -103,7 +103,7 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The identifier of the paternal species constituting the hybrid organism shall be specified based on a controlled vocabulary.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPaternalOrganismId()
     {
@@ -115,10 +115,10 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The identifier of the paternal species constituting the hybrid organism shall be specified based on a controlled vocabulary.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $paternalOrganismId
+     * @param string $paternalOrganismId
      * @return self
      */
-    public function setPaternalOrganismId(\TKusy\Hl7FhirR4\StringType $paternalOrganismId)
+    public function setPaternalOrganismId($paternalOrganismId)
     {
         $this->paternalOrganismId = $paternalOrganismId;
         return $this;
@@ -129,7 +129,7 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The name of the paternal species constituting the hybrid organism shall be specified.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPaternalOrganismName()
     {
@@ -141,10 +141,10 @@ class SubstanceSourceMaterialHybridType extends BackboneElementType
      *
      * The name of the paternal species constituting the hybrid organism shall be specified.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $paternalOrganismName
+     * @param string $paternalOrganismName
      * @return self
      */
-    public function setPaternalOrganismName(\TKusy\Hl7FhirR4\StringType $paternalOrganismName)
+    public function setPaternalOrganismName($paternalOrganismName)
     {
         $this->paternalOrganismName = $paternalOrganismName;
         return $this;

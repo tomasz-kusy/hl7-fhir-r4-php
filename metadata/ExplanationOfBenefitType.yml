@@ -271,7 +271,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
             accessor:
                 getter: getDisposition
                 setter: setDisposition
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         preAuthRef:
             expose: true
             access_type: public_method
@@ -286,7 +286,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitType:
                 inline: true
                 entry_name: preAuthRef
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         preAuthRefPeriod:
             expose: true
             access_type: public_method

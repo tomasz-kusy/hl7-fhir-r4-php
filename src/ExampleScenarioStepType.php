@@ -21,7 +21,7 @@ class ExampleScenarioStepType extends BackboneElementType
     /**
      * If there is a pause in the flow.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $pause
+     * @var bool $pause
      */
     private $pause = null;
 
@@ -110,7 +110,7 @@ class ExampleScenarioStepType extends BackboneElementType
      *
      * If there is a pause in the flow.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getPause()
     {
@@ -122,10 +122,10 @@ class ExampleScenarioStepType extends BackboneElementType
      *
      * If there is a pause in the flow.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $pause
+     * @param bool $pause
      * @return self
      */
-    public function setPause(\TKusy\Hl7FhirR4\BooleanType $pause)
+    public function setPause($pause)
     {
         $this->pause = $pause;
         return $this;

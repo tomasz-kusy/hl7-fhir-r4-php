@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\BundleResponseType:
             accessor:
                 getter: getStatus
                 setter: setStatus
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         location:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\BundleResponseType:
             accessor:
                 getter: getEtag
                 setter: setEtag
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         lastModified:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class ReferenceType extends ElementType
     /**
      * A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $reference
+     * @var string $reference
      */
     private $reference = null;
 
@@ -37,7 +37,7 @@ class ReferenceType extends ElementType
     /**
      * Plain text narrative that identifies the resource in addition to the resource reference.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $display
+     * @var string $display
      */
     private $display = null;
 
@@ -46,7 +46,7 @@ class ReferenceType extends ElementType
      *
      * A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getReference()
     {
@@ -58,10 +58,10 @@ class ReferenceType extends ElementType
      *
      * A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $reference
+     * @param string $reference
      * @return self
      */
-    public function setReference(\TKusy\Hl7FhirR4\StringType $reference)
+    public function setReference($reference)
     {
         $this->reference = $reference;
         return $this;
@@ -128,7 +128,7 @@ class ReferenceType extends ElementType
      *
      * Plain text narrative that identifies the resource in addition to the resource reference.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisplay()
     {
@@ -140,10 +140,10 @@ class ReferenceType extends ElementType
      *
      * Plain text narrative that identifies the resource in addition to the resource reference.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $display
+     * @param string $display
      * @return self
      */
-    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
+    public function setDisplay($display)
     {
         $this->display = $display;
         return $this;

@@ -206,7 +206,7 @@ TKusy\Hl7FhirR4\RiskAssessmentType:
             accessor:
                 getter: getMitigation
                 setter: setMitigation
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         note:
             expose: true
             access_type: public_method

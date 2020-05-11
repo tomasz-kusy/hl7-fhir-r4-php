@@ -14,14 +14,14 @@ class SubstancePolymerRepeatType extends BackboneElementType
     /**
      * Todo.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $numberOfUnits
+     * @var \integer $numberOfUnits
      */
     private $numberOfUnits = null;
 
     /**
      * Todo.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $averageMolecularFormula
+     * @var string $averageMolecularFormula
      */
     private $averageMolecularFormula = null;
 
@@ -44,7 +44,7 @@ class SubstancePolymerRepeatType extends BackboneElementType
      *
      * Todo.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getNumberOfUnits()
     {
@@ -56,10 +56,10 @@ class SubstancePolymerRepeatType extends BackboneElementType
      *
      * Todo.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $numberOfUnits
+     * @param \integer $numberOfUnits
      * @return self
      */
-    public function setNumberOfUnits(\TKusy\Hl7FhirR4\IntegerType $numberOfUnits)
+    public function setNumberOfUnits(\integer $numberOfUnits)
     {
         $this->numberOfUnits = $numberOfUnits;
         return $this;
@@ -70,7 +70,7 @@ class SubstancePolymerRepeatType extends BackboneElementType
      *
      * Todo.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAverageMolecularFormula()
     {
@@ -82,10 +82,10 @@ class SubstancePolymerRepeatType extends BackboneElementType
      *
      * Todo.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $averageMolecularFormula
+     * @param string $averageMolecularFormula
      * @return self
      */
-    public function setAverageMolecularFormula(\TKusy\Hl7FhirR4\StringType $averageMolecularFormula)
+    public function setAverageMolecularFormula($averageMolecularFormula)
     {
         $this->averageMolecularFormula = $averageMolecularFormula;
         return $this;

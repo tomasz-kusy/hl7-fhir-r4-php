@@ -25,4 +25,4 @@ TKusy\Hl7FhirR4\StructureMapDependentType:
                 inline: true
                 entry_name: variable
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>

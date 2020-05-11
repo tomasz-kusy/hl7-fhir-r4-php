@@ -35,7 +35,7 @@ class AccountType extends DomainResourceType
     /**
      * Name used for the account when displaying it to humans in reports, etc.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -70,7 +70,7 @@ class AccountType extends DomainResourceType
     /**
      * Provides additional information about what the account tracks and how it is used.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -211,7 +211,7 @@ class AccountType extends DomainResourceType
      *
      * Name used for the account when displaying it to humans in reports, etc.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -223,10 +223,10 @@ class AccountType extends DomainResourceType
      *
      * Name used for the account when displaying it to humans in reports, etc.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -421,7 +421,7 @@ class AccountType extends DomainResourceType
      *
      * Provides additional information about what the account tracks and how it is used.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -433,10 +433,10 @@ class AccountType extends DomainResourceType
      *
      * Provides additional information about what the account tracks and how it is used.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

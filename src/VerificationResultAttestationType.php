@@ -42,14 +42,14 @@ class VerificationResultAttestationType extends BackboneElementType
     /**
      * A digital identity certificate associated with the attestation source.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $sourceIdentityCertificate
+     * @var string $sourceIdentityCertificate
      */
     private $sourceIdentityCertificate = null;
 
     /**
      * A digital identity certificate associated with the proxy entity submitting attested information on behalf of the attestation source.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $proxyIdentityCertificate
+     * @var string $proxyIdentityCertificate
      */
     private $proxyIdentityCertificate = null;
 
@@ -176,7 +176,7 @@ class VerificationResultAttestationType extends BackboneElementType
      *
      * A digital identity certificate associated with the attestation source.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSourceIdentityCertificate()
     {
@@ -188,10 +188,10 @@ class VerificationResultAttestationType extends BackboneElementType
      *
      * A digital identity certificate associated with the attestation source.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $sourceIdentityCertificate
+     * @param string $sourceIdentityCertificate
      * @return self
      */
-    public function setSourceIdentityCertificate(\TKusy\Hl7FhirR4\StringType $sourceIdentityCertificate)
+    public function setSourceIdentityCertificate($sourceIdentityCertificate)
     {
         $this->sourceIdentityCertificate = $sourceIdentityCertificate;
         return $this;
@@ -202,7 +202,7 @@ class VerificationResultAttestationType extends BackboneElementType
      *
      * A digital identity certificate associated with the proxy entity submitting attested information on behalf of the attestation source.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getProxyIdentityCertificate()
     {
@@ -214,10 +214,10 @@ class VerificationResultAttestationType extends BackboneElementType
      *
      * A digital identity certificate associated with the proxy entity submitting attested information on behalf of the attestation source.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $proxyIdentityCertificate
+     * @param string $proxyIdentityCertificate
      * @return self
      */
-    public function setProxyIdentityCertificate(\TKusy\Hl7FhirR4\StringType $proxyIdentityCertificate)
+    public function setProxyIdentityCertificate($proxyIdentityCertificate)
     {
         $this->proxyIdentityCertificate = $proxyIdentityCertificate;
         return $this;

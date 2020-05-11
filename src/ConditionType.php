@@ -105,7 +105,7 @@ class ConditionType extends DomainResourceType
     /**
      * Estimated or actual date or date-time the condition began, in the opinion of the clinician. (choose any one of onset*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $onsetString
+     * @var string $onsetString
      */
     private $onsetString = null;
 
@@ -140,7 +140,7 @@ class ConditionType extends DomainResourceType
     /**
      * The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" - Conditions are never really resolved, but they can abate. (choose any one of abatement*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $abatementString
+     * @var string $abatementString
      */
     private $abatementString = null;
 
@@ -649,7 +649,7 @@ class ConditionType extends DomainResourceType
      *
      * Estimated or actual date or date-time the condition began, in the opinion of the clinician. (choose any one of onset*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getOnsetString()
     {
@@ -661,10 +661,10 @@ class ConditionType extends DomainResourceType
      *
      * Estimated or actual date or date-time the condition began, in the opinion of the clinician. (choose any one of onset*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $onsetString
+     * @param string $onsetString
      * @return self
      */
-    public function setOnsetString(\TKusy\Hl7FhirR4\StringType $onsetString)
+    public function setOnsetString($onsetString)
     {
         $this->onsetString = $onsetString;
         return $this;
@@ -779,7 +779,7 @@ class ConditionType extends DomainResourceType
      *
      * The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" - Conditions are never really resolved, but they can abate. (choose any one of abatement*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAbatementString()
     {
@@ -791,10 +791,10 @@ class ConditionType extends DomainResourceType
      *
      * The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" - Conditions are never really resolved, but they can abate. (choose any one of abatement*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $abatementString
+     * @param string $abatementString
      * @return self
      */
-    public function setAbatementString(\TKusy\Hl7FhirR4\StringType $abatementString)
+    public function setAbatementString($abatementString)
     {
         $this->abatementString = $abatementString;
         return $this;

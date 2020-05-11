@@ -21,7 +21,7 @@ class MedicinalProductInteractionType extends DomainResourceType
     /**
      * The interaction described.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -131,7 +131,7 @@ class MedicinalProductInteractionType extends DomainResourceType
      *
      * The interaction described.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -143,10 +143,10 @@ class MedicinalProductInteractionType extends DomainResourceType
      *
      * The interaction described.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

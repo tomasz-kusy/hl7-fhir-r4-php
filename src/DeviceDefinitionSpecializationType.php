@@ -14,14 +14,14 @@ class DeviceDefinitionSpecializationType extends BackboneElementType
     /**
      * The standard that is used to operate and communicate.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $systemType
+     * @var string $systemType
      */
     private $systemType = null;
 
     /**
      * The version of the standard that is used to operate and communicate.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
@@ -30,7 +30,7 @@ class DeviceDefinitionSpecializationType extends BackboneElementType
      *
      * The standard that is used to operate and communicate.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSystemType()
     {
@@ -42,10 +42,10 @@ class DeviceDefinitionSpecializationType extends BackboneElementType
      *
      * The standard that is used to operate and communicate.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $systemType
+     * @param string $systemType
      * @return self
      */
-    public function setSystemType(\TKusy\Hl7FhirR4\StringType $systemType)
+    public function setSystemType($systemType)
     {
         $this->systemType = $systemType;
         return $this;
@@ -56,7 +56,7 @@ class DeviceDefinitionSpecializationType extends BackboneElementType
      *
      * The version of the standard that is used to operate and communicate.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -68,10 +68,10 @@ class DeviceDefinitionSpecializationType extends BackboneElementType
      *
      * The version of the standard that is used to operate and communicate.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;

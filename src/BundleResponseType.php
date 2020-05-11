@@ -14,7 +14,7 @@ class BundleResponseType extends BackboneElementType
     /**
      * The status code returned by processing this entry. The status SHALL start with a 3 digit HTTP code (e.g. 404) and may contain the standard HTTP description associated with the status code.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $status
+     * @var string $status
      */
     private $status = null;
 
@@ -28,7 +28,7 @@ class BundleResponseType extends BackboneElementType
     /**
      * The Etag for the resource, if the operation for the entry produced a versioned resource (see [Resource Metadata and Versioning](http.html#versioning) and [Managing Resource Contention](http.html#concurrency)).
      *
-     * @var \TKusy\Hl7FhirR4\StringType $etag
+     * @var string $etag
      */
     private $etag = null;
 
@@ -51,7 +51,7 @@ class BundleResponseType extends BackboneElementType
      *
      * The status code returned by processing this entry. The status SHALL start with a 3 digit HTTP code (e.g. 404) and may contain the standard HTTP description associated with the status code.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getStatus()
     {
@@ -63,10 +63,10 @@ class BundleResponseType extends BackboneElementType
      *
      * The status code returned by processing this entry. The status SHALL start with a 3 digit HTTP code (e.g. 404) and may contain the standard HTTP description associated with the status code.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $status
+     * @param string $status
      * @return self
      */
-    public function setStatus(\TKusy\Hl7FhirR4\StringType $status)
+    public function setStatus($status)
     {
         $this->status = $status;
         return $this;
@@ -103,7 +103,7 @@ class BundleResponseType extends BackboneElementType
      *
      * The Etag for the resource, if the operation for the entry produced a versioned resource (see [Resource Metadata and Versioning](http.html#versioning) and [Managing Resource Contention](http.html#concurrency)).
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getEtag()
     {
@@ -115,10 +115,10 @@ class BundleResponseType extends BackboneElementType
      *
      * The Etag for the resource, if the operation for the entry produced a versioned resource (see [Resource Metadata and Versioning](http.html#versioning) and [Managing Resource Contention](http.html#concurrency)).
      *
-     * @param \TKusy\Hl7FhirR4\StringType $etag
+     * @param string $etag
      * @return self
      */
-    public function setEtag(\TKusy\Hl7FhirR4\StringType $etag)
+    public function setEtag($etag)
     {
         $this->etag = $etag;
         return $this;

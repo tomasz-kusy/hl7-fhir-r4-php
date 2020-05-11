@@ -14,7 +14,7 @@ class QuestionnaireItemType extends BackboneElementType
     /**
      * An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $linkId
+     * @var string $linkId
      */
     private $linkId = null;
 
@@ -43,14 +43,14 @@ class QuestionnaireItemType extends BackboneElementType
     /**
      * A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $prefix
+     * @var string $prefix
      */
     private $prefix = null;
 
     /**
      * The name of a section, the text of a question or text content for a display item.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
@@ -78,28 +78,28 @@ class QuestionnaireItemType extends BackboneElementType
     /**
      * An indication, if true, that the item must be present in a "completed" QuestionnaireResponse. If false, the item may be skipped when answering the questionnaire.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $required
+     * @var bool $required
      */
     private $required = null;
 
     /**
      * An indication, if true, that the item may occur multiple times in the response, collecting multiple answers for questions or multiple sets of answers for groups.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $repeats
+     * @var bool $repeats
      */
     private $repeats = null;
 
     /**
      * An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $readOnly
+     * @var bool $readOnly
      */
     private $readOnly = null;
 
     /**
      * The maximum number of characters that are permitted in the answer to be considered a "valid" QuestionnaireResponse.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $maxLength
+     * @var \integer $maxLength
      */
     private $maxLength = null;
 
@@ -136,7 +136,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getLinkId()
     {
@@ -148,10 +148,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $linkId
+     * @param string $linkId
      * @return self
      */
-    public function setLinkId(\TKusy\Hl7FhirR4\StringType $linkId)
+    public function setLinkId($linkId)
     {
         $this->linkId = $linkId;
         return $this;
@@ -270,7 +270,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPrefix()
     {
@@ -282,10 +282,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $prefix
+     * @param string $prefix
      * @return self
      */
-    public function setPrefix(\TKusy\Hl7FhirR4\StringType $prefix)
+    public function setPrefix($prefix)
     {
         $this->prefix = $prefix;
         return $this;
@@ -296,7 +296,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * The name of a section, the text of a question or text content for a display item.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -308,10 +308,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * The name of a section, the text of a question or text content for a display item.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;
@@ -440,7 +440,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An indication, if true, that the item must be present in a "completed" QuestionnaireResponse. If false, the item may be skipped when answering the questionnaire.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getRequired()
     {
@@ -452,10 +452,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An indication, if true, that the item must be present in a "completed" QuestionnaireResponse. If false, the item may be skipped when answering the questionnaire.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $required
+     * @param bool $required
      * @return self
      */
-    public function setRequired(\TKusy\Hl7FhirR4\BooleanType $required)
+    public function setRequired($required)
     {
         $this->required = $required;
         return $this;
@@ -466,7 +466,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An indication, if true, that the item may occur multiple times in the response, collecting multiple answers for questions or multiple sets of answers for groups.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getRepeats()
     {
@@ -478,10 +478,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An indication, if true, that the item may occur multiple times in the response, collecting multiple answers for questions or multiple sets of answers for groups.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $repeats
+     * @param bool $repeats
      * @return self
      */
-    public function setRepeats(\TKusy\Hl7FhirR4\BooleanType $repeats)
+    public function setRepeats($repeats)
     {
         $this->repeats = $repeats;
         return $this;
@@ -492,7 +492,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getReadOnly()
     {
@@ -504,10 +504,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * An indication, when true, that the value cannot be changed by a human respondent to the Questionnaire.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $readOnly
+     * @param bool $readOnly
      * @return self
      */
-    public function setReadOnly(\TKusy\Hl7FhirR4\BooleanType $readOnly)
+    public function setReadOnly($readOnly)
     {
         $this->readOnly = $readOnly;
         return $this;
@@ -518,7 +518,7 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * The maximum number of characters that are permitted in the answer to be considered a "valid" QuestionnaireResponse.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getMaxLength()
     {
@@ -530,10 +530,10 @@ class QuestionnaireItemType extends BackboneElementType
      *
      * The maximum number of characters that are permitted in the answer to be considered a "valid" QuestionnaireResponse.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $maxLength
+     * @param \integer $maxLength
      * @return self
      */
-    public function setMaxLength(\TKusy\Hl7FhirR4\IntegerType $maxLength)
+    public function setMaxLength(\integer $maxLength)
     {
         $this->maxLength = $maxLength;
         return $this;

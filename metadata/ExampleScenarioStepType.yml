@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\ExampleScenarioStepType:
             accessor:
                 getter: getPause
                 setter: setPause
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         operation:
             expose: true
             access_type: public_method

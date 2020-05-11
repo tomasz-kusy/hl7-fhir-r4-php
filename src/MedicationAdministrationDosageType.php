@@ -16,7 +16,7 @@ class MedicationAdministrationDosageType extends BackboneElementType
      *
      * The dosage instructions should reflect the dosage of the medication that was administered.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
@@ -69,7 +69,7 @@ class MedicationAdministrationDosageType extends BackboneElementType
      *
      * The dosage instructions should reflect the dosage of the medication that was administered.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -83,10 +83,10 @@ class MedicationAdministrationDosageType extends BackboneElementType
      *
      * The dosage instructions should reflect the dosage of the medication that was administered.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;

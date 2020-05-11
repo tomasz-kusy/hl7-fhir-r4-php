@@ -28,28 +28,28 @@ class ActivityDefinitionType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the activity definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the activity definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the activity definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the activity definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
     /**
      * An explanatory or alternate title for the activity definition giving additional information about its content.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $subtitle
+     * @var string $subtitle
      */
     private $subtitle = null;
 
@@ -63,7 +63,7 @@ class ActivityDefinitionType extends DomainResourceType
     /**
      * A Boolean value to indicate that this activity definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
+     * @var bool $experimental
      */
     private $experimental = null;
 
@@ -91,7 +91,7 @@ class ActivityDefinitionType extends DomainResourceType
     /**
      * The name of the organization or individual that published the activity definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $publisher
+     * @var string $publisher
      */
     private $publisher = null;
 
@@ -133,7 +133,7 @@ class ActivityDefinitionType extends DomainResourceType
     /**
      * A detailed description of how the activity definition is used from a clinical perspective.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $usage
+     * @var string $usage
      */
     private $usage = null;
 
@@ -252,7 +252,7 @@ class ActivityDefinitionType extends DomainResourceType
     /**
      * Set this to true if the definition is to indicate that a particular activity should NOT be performed. If true, this element should be interpreted to reinforce a negative coding. For example NPO as a code with a doNotPerform of true would still indicate to NOT perform the action.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $doNotPerform
+     * @var bool $doNotPerform
      */
     private $doNotPerform = null;
 
@@ -479,7 +479,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the activity definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the activity definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -491,10 +491,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the activity definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the activity definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;
@@ -505,7 +505,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the activity definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -517,10 +517,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the activity definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -531,7 +531,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the activity definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -543,10 +543,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the activity definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;
@@ -557,7 +557,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * An explanatory or alternate title for the activity definition giving additional information about its content.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSubtitle()
     {
@@ -569,10 +569,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * An explanatory or alternate title for the activity definition giving additional information about its content.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $subtitle
+     * @param string $subtitle
      * @return self
      */
-    public function setSubtitle(\TKusy\Hl7FhirR4\StringType $subtitle)
+    public function setSubtitle($subtitle)
     {
         $this->subtitle = $subtitle;
         return $this;
@@ -609,7 +609,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this activity definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getExperimental()
     {
@@ -621,10 +621,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this activity definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
+     * @param bool $experimental
      * @return self
      */
-    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
+    public function setExperimental($experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -713,7 +713,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the activity definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPublisher()
     {
@@ -725,10 +725,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the activity definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $publisher
+     * @param string $publisher
      * @return self
      */
-    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
+    public function setPublisher($publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -989,7 +989,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A detailed description of how the activity definition is used from a clinical perspective.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getUsage()
     {
@@ -1001,10 +1001,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * A detailed description of how the activity definition is used from a clinical perspective.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $usage
+     * @param string $usage
      * @return self
      */
-    public function setUsage(\TKusy\Hl7FhirR4\StringType $usage)
+    public function setUsage($usage)
     {
         $this->usage = $usage;
         return $this;
@@ -1711,7 +1711,7 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * Set this to true if the definition is to indicate that a particular activity should NOT be performed. If true, this element should be interpreted to reinforce a negative coding. For example NPO as a code with a doNotPerform of true would still indicate to NOT perform the action.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getDoNotPerform()
     {
@@ -1723,10 +1723,10 @@ class ActivityDefinitionType extends DomainResourceType
      *
      * Set this to true if the definition is to indicate that a particular activity should NOT be performed. If true, this element should be interpreted to reinforce a negative coding. For example NPO as a code with a doNotPerform of true would still indicate to NOT perform the action.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $doNotPerform
+     * @param bool $doNotPerform
      * @return self
      */
-    public function setDoNotPerform(\TKusy\Hl7FhirR4\BooleanType $doNotPerform)
+    public function setDoNotPerform($doNotPerform)
     {
         $this->doNotPerform = $doNotPerform;
         return $this;

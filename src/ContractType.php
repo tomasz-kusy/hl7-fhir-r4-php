@@ -28,7 +28,7 @@ class ContractType extends DomainResourceType
     /**
      * An edition identifier used for business purposes to label business significant variants.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
@@ -119,28 +119,28 @@ class ContractType extends DomainResourceType
     /**
      * A natural language name identifying this Contract definition, derivative, or instance in any legal state. Provides additional information about its content. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for this Contract definition, derivative, or instance in any legal state.t giving additional information about its content.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
     /**
      * An explanatory or alternate user-friendly title for this Contract definition, derivative, or instance in any legal state.t giving additional information about its content.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $subtitle
+     * @var string $subtitle
      */
     private $subtitle = null;
 
     /**
      * Alternative representation of the title for this Contract definition, derivative, or instance in any legal state., e.g., a domain specific contract number related to legislation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $alias
+     * @var string[] $alias
      */
     private $alias = null;
 
@@ -353,7 +353,7 @@ class ContractType extends DomainResourceType
      *
      * An edition identifier used for business purposes to label business significant variants.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -365,10 +365,10 @@ class ContractType extends DomainResourceType
      *
      * An edition identifier used for business purposes to label business significant variants.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;
@@ -851,7 +851,7 @@ class ContractType extends DomainResourceType
      *
      * A natural language name identifying this Contract definition, derivative, or instance in any legal state. Provides additional information about its content. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -863,10 +863,10 @@ class ContractType extends DomainResourceType
      *
      * A natural language name identifying this Contract definition, derivative, or instance in any legal state. Provides additional information about its content. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -877,7 +877,7 @@ class ContractType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for this Contract definition, derivative, or instance in any legal state.t giving additional information about its content.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -889,10 +889,10 @@ class ContractType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for this Contract definition, derivative, or instance in any legal state.t giving additional information about its content.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;
@@ -903,7 +903,7 @@ class ContractType extends DomainResourceType
      *
      * An explanatory or alternate user-friendly title for this Contract definition, derivative, or instance in any legal state.t giving additional information about its content.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSubtitle()
     {
@@ -915,10 +915,10 @@ class ContractType extends DomainResourceType
      *
      * An explanatory or alternate user-friendly title for this Contract definition, derivative, or instance in any legal state.t giving additional information about its content.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $subtitle
+     * @param string $subtitle
      * @return self
      */
-    public function setSubtitle(\TKusy\Hl7FhirR4\StringType $subtitle)
+    public function setSubtitle($subtitle)
     {
         $this->subtitle = $subtitle;
         return $this;
@@ -930,9 +930,9 @@ class ContractType extends DomainResourceType
      * Alternative representation of the title for this Contract definition, derivative, or instance in any legal state., e.g., a domain specific contract number related to legislation.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $alias
+     * @param string $alias
      */
-    public function addToAlias(\TKusy\Hl7FhirR4\StringType $alias)
+    public function addToAlias($alias)
     {
         $this->alias[] = $alias;
         return $this;
@@ -969,7 +969,7 @@ class ContractType extends DomainResourceType
      *
      * Alternative representation of the title for this Contract definition, derivative, or instance in any legal state., e.g., a domain specific contract number related to legislation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getAlias()
     {
@@ -981,7 +981,7 @@ class ContractType extends DomainResourceType
      *
      * Alternative representation of the title for this Contract definition, derivative, or instance in any legal state., e.g., a domain specific contract number related to legislation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $alias
+     * @param string[] $alias
      * @return self
      */
     public function setAlias(array $alias)

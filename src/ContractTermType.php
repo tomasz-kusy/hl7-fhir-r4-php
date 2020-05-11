@@ -63,7 +63,7 @@ class ContractTermType extends BackboneElementType
     /**
      * Statement of a provision in a policy or a contract.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
@@ -289,7 +289,7 @@ class ContractTermType extends BackboneElementType
      *
      * Statement of a provision in a policy or a contract.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -301,10 +301,10 @@ class ContractTermType extends BackboneElementType
      *
      * Statement of a provision in a policy or a contract.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;

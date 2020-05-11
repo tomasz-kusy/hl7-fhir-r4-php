@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         exampleBoolean:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResourceType:
             accessor:
                 getter: getExampleBoolean
                 setter: setExampleBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         exampleCanonical:
             expose: true
             access_type: public_method

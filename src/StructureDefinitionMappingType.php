@@ -28,14 +28,14 @@ class StructureDefinitionMappingType extends BackboneElementType
     /**
      * A name for the specification that is being mapped to.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * Comments about this mapping, including version notes, issues, scope limitations, and other important notes for usage.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -96,7 +96,7 @@ class StructureDefinitionMappingType extends BackboneElementType
      *
      * A name for the specification that is being mapped to.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -108,10 +108,10 @@ class StructureDefinitionMappingType extends BackboneElementType
      *
      * A name for the specification that is being mapped to.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -122,7 +122,7 @@ class StructureDefinitionMappingType extends BackboneElementType
      *
      * Comments about this mapping, including version notes, issues, scope limitations, and other important notes for usage.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -134,10 +134,10 @@ class StructureDefinitionMappingType extends BackboneElementType
      *
      * Comments about this mapping, including version notes, issues, scope limitations, and other important notes for usage.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

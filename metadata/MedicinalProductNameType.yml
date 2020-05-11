@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MedicinalProductNameType:
             accessor:
                 getter: getProductName
                 setter: setProductName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         namePart:
             expose: true
             access_type: public_method

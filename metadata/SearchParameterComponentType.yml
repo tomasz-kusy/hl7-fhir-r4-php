@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\SearchParameterComponentType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

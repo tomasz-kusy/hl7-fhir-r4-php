@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ContactPointType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         use:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ class ScheduleType extends DomainResourceType
     /**
      * Whether this schedule record is in active use or should not be used (such as was entered in error).
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $active
+     * @var bool $active
      */
     private $active = null;
 
@@ -63,7 +63,7 @@ class ScheduleType extends DomainResourceType
     /**
      * Comments on the availability to describe any extended information. Such as custom constraints on the slots that may be associated.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -138,7 +138,7 @@ class ScheduleType extends DomainResourceType
      *
      * Whether this schedule record is in active use or should not be used (such as was entered in error).
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getActive()
     {
@@ -150,10 +150,10 @@ class ScheduleType extends DomainResourceType
      *
      * Whether this schedule record is in active use or should not be used (such as was entered in error).
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $active
+     * @param bool $active
      * @return self
      */
-    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
+    public function setActive($active)
     {
         $this->active = $active;
         return $this;
@@ -454,7 +454,7 @@ class ScheduleType extends DomainResourceType
      *
      * Comments on the availability to describe any extended information. Such as custom constraints on the slots that may be associated.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -466,10 +466,10 @@ class ScheduleType extends DomainResourceType
      *
      * Comments on the availability to describe any extended information. Such as custom constraints on the slots that may be associated.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

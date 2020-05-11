@@ -21,7 +21,7 @@ class MedicationKnowledgeSubstitutionType extends BackboneElementType
     /**
      * Specifies if regulation allows for changes in the medication when dispensing.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $allowed
+     * @var bool $allowed
      */
     private $allowed = null;
 
@@ -56,7 +56,7 @@ class MedicationKnowledgeSubstitutionType extends BackboneElementType
      *
      * Specifies if regulation allows for changes in the medication when dispensing.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAllowed()
     {
@@ -68,10 +68,10 @@ class MedicationKnowledgeSubstitutionType extends BackboneElementType
      *
      * Specifies if regulation allows for changes in the medication when dispensing.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $allowed
+     * @param bool $allowed
      * @return self
      */
-    public function setAllowed(\TKusy\Hl7FhirR4\BooleanType $allowed)
+    public function setAllowed($allowed)
     {
         $this->allowed = $allowed;
         return $this;

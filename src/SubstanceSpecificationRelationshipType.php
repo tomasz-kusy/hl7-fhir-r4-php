@@ -35,7 +35,7 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
     /**
      * For example where an enzyme strongly bonds with a particular substance, this is a defining relationship for that enzyme, out of several possible substance relationships.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $isDefining
+     * @var bool $isDefining
      */
     private $isDefining = null;
 
@@ -63,7 +63,7 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
     /**
      * A numeric factor for the relationship, for instance to express that the salt of a substance has some percentage of the active substance in relation to some other. (choose any one of amount*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $amountString
+     * @var string $amountString
      */
     private $amountString = null;
 
@@ -171,7 +171,7 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
      *
      * For example where an enzyme strongly bonds with a particular substance, this is a defining relationship for that enzyme, out of several possible substance relationships.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getIsDefining()
     {
@@ -183,10 +183,10 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
      *
      * For example where an enzyme strongly bonds with a particular substance, this is a defining relationship for that enzyme, out of several possible substance relationships.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $isDefining
+     * @param bool $isDefining
      * @return self
      */
-    public function setIsDefining(\TKusy\Hl7FhirR4\BooleanType $isDefining)
+    public function setIsDefining($isDefining)
     {
         $this->isDefining = $isDefining;
         return $this;
@@ -275,7 +275,7 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
      *
      * A numeric factor for the relationship, for instance to express that the salt of a substance has some percentage of the active substance in relation to some other. (choose any one of amount*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAmountString()
     {
@@ -287,10 +287,10 @@ class SubstanceSpecificationRelationshipType extends BackboneElementType
      *
      * A numeric factor for the relationship, for instance to express that the salt of a substance has some percentage of the active substance in relation to some other. (choose any one of amount*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $amountString
+     * @param string $amountString
      * @return self
      */
-    public function setAmountString(\TKusy\Hl7FhirR4\StringType $amountString)
+    public function setAmountString($amountString)
     {
         $this->amountString = $amountString;
         return $this;

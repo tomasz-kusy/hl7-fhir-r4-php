@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\DosageType:
             accessor:
                 getter: getSequence
                 setter: setSequence
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         text:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\DosageType:
             accessor:
                 getter: getText
                 setter: setText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         additionalInstruction:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\DosageType:
             accessor:
                 getter: getPatientInstruction
                 setter: setPatientInstruction
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         timing:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\DosageType:
             accessor:
                 getter: getAsNeededBoolean
                 setter: setAsNeededBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         asNeededCodeableConcept:
             expose: true
             access_type: public_method

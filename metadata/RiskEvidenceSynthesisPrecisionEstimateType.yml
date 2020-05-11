@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisPrecisionEstimateType:
             accessor:
                 getter: getLevel
                 setter: setLevel
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         from:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisPrecisionEstimateType:
             accessor:
                 getter: getFrom
                 setter: setFrom
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         to:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisPrecisionEstimateType:
             accessor:
                 getter: getTo
                 setter: setTo
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float

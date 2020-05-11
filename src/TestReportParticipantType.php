@@ -28,7 +28,7 @@ class TestReportParticipantType extends BackboneElementType
     /**
      * The display name of the participant.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $display
+     * @var string $display
      */
     private $display = null;
 
@@ -89,7 +89,7 @@ class TestReportParticipantType extends BackboneElementType
      *
      * The display name of the participant.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisplay()
     {
@@ -101,10 +101,10 @@ class TestReportParticipantType extends BackboneElementType
      *
      * The display name of the participant.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $display
+     * @param string $display
      * @return self
      */
-    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
+    public function setDisplay($display)
     {
         $this->display = $display;
         return $this;

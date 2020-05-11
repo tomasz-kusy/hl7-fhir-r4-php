@@ -173,7 +173,7 @@ TKusy\Hl7FhirR4\ProcedureType:
             accessor:
                 getter: getPerformedString
                 setter: setPerformedString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         performedAge:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class VisionPrescriptionPrismType extends BackboneElementType
     /**
      * Amount of prism to compensate for eye alignment in fractional units.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $amount
+     * @var float $amount
      */
     private $amount = null;
 
@@ -30,7 +30,7 @@ class VisionPrescriptionPrismType extends BackboneElementType
      *
      * Amount of prism to compensate for eye alignment in fractional units.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getAmount()
     {
@@ -42,10 +42,10 @@ class VisionPrescriptionPrismType extends BackboneElementType
      *
      * Amount of prism to compensate for eye alignment in fractional units.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $amount
+     * @param float $amount
      * @return self
      */
-    public function setAmount(\TKusy\Hl7FhirR4\DecimalType $amount)
+    public function setAmount($amount)
     {
         $this->amount = $amount;
         return $this;

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\GraphDefinitionLinkType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         sliceName:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\GraphDefinitionLinkType:
             accessor:
                 getter: getSliceName
                 setter: setSliceName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         min:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\GraphDefinitionLinkType:
             accessor:
                 getter: getMin
                 setter: setMin
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         max:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\GraphDefinitionLinkType:
             accessor:
                 getter: getMax
                 setter: setMax
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\GraphDefinitionLinkType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         target:
             expose: true
             access_type: public_method

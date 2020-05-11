@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ElementDefinitionMappingType:
             accessor:
                 getter: getMap
                 setter: setMap
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         comment:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\ElementDefinitionMappingType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

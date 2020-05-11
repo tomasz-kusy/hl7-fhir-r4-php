@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ContributorType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         contact:
             expose: true
             access_type: public_method

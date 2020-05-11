@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             accessor:
                 getter: getIsDerived
                 setter: setIsDerived
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         type:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\SpecimenDefinitionTypeTestedType:
             accessor:
                 getter: getRequirement
                 setter: setRequirement
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         retentionTime:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class NamingSystemType extends DomainResourceType
     /**
      * A natural language name identifying the naming system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -42,7 +42,7 @@ class NamingSystemType extends DomainResourceType
     /**
      * The name of the organization or individual that published the naming system.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $publisher
+     * @var string $publisher
      */
     private $publisher = null;
 
@@ -56,7 +56,7 @@ class NamingSystemType extends DomainResourceType
     /**
      * The name of the organization that is responsible for issuing identifiers or codes for this namespace and ensuring their non-collision.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $responsible
+     * @var string $responsible
      */
     private $responsible = null;
 
@@ -91,7 +91,7 @@ class NamingSystemType extends DomainResourceType
     /**
      * Provides guidance on the use of the namespace, including the handling of formatting characters, use of upper vs. lower case, etc.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $usage
+     * @var string $usage
      */
     private $usage = null;
 
@@ -107,7 +107,7 @@ class NamingSystemType extends DomainResourceType
      *
      * A natural language name identifying the naming system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -119,10 +119,10 @@ class NamingSystemType extends DomainResourceType
      *
      * A natural language name identifying the naming system. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -211,7 +211,7 @@ class NamingSystemType extends DomainResourceType
      *
      * The name of the organization or individual that published the naming system.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPublisher()
     {
@@ -223,10 +223,10 @@ class NamingSystemType extends DomainResourceType
      *
      * The name of the organization or individual that published the naming system.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $publisher
+     * @param string $publisher
      * @return self
      */
-    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
+    public function setPublisher($publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -303,7 +303,7 @@ class NamingSystemType extends DomainResourceType
      *
      * The name of the organization that is responsible for issuing identifiers or codes for this namespace and ensuring their non-collision.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getResponsible()
     {
@@ -315,10 +315,10 @@ class NamingSystemType extends DomainResourceType
      *
      * The name of the organization that is responsible for issuing identifiers or codes for this namespace and ensuring their non-collision.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $responsible
+     * @param string $responsible
      * @return self
      */
-    public function setResponsible(\TKusy\Hl7FhirR4\StringType $responsible)
+    public function setResponsible($responsible)
     {
         $this->responsible = $responsible;
         return $this;
@@ -513,7 +513,7 @@ class NamingSystemType extends DomainResourceType
      *
      * Provides guidance on the use of the namespace, including the handling of formatting characters, use of upper vs. lower case, etc.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getUsage()
     {
@@ -525,10 +525,10 @@ class NamingSystemType extends DomainResourceType
      *
      * Provides guidance on the use of the namespace, including the handling of formatting characters, use of upper vs. lower case, etc.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $usage
+     * @param string $usage
      * @return self
      */
-    public function setUsage(\TKusy\Hl7FhirR4\StringType $usage)
+    public function setUsage($usage)
     {
         $this->usage = $usage;
         return $this;

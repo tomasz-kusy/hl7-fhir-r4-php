@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstanceReferenceInformationType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         gene:
             expose: true
             access_type: public_method

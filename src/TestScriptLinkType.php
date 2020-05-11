@@ -21,7 +21,7 @@ class TestScriptLinkType extends BackboneElementType
     /**
      * Short description of the link.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -56,7 +56,7 @@ class TestScriptLinkType extends BackboneElementType
      *
      * Short description of the link.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -68,10 +68,10 @@ class TestScriptLinkType extends BackboneElementType
      *
      * Short description of the link.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

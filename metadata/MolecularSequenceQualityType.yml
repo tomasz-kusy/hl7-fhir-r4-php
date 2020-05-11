@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getStart
                 setter: setStart
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         end:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getEnd
                 setter: setEnd
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         score:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getTruthTP
                 setter: setTruthTP
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         queryTP:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getQueryTP
                 setter: setQueryTP
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         truthFN:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getTruthFN
                 setter: setTruthFN
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         queryFP:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getQueryFP
                 setter: setQueryFP
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         gtFP:
             expose: true
             access_type: public_method
@@ -120,7 +120,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getGtFP
                 setter: setGtFP
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         precision:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getPrecision
                 setter: setPrecision
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         recall:
             expose: true
             access_type: public_method
@@ -142,7 +142,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getRecall
                 setter: setRecall
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         fScore:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ TKusy\Hl7FhirR4\MolecularSequenceQualityType:
             accessor:
                 getter: getFScore
                 setter: setFScore
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         roc:
             expose: true
             access_type: public_method

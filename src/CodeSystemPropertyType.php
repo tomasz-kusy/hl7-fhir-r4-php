@@ -28,7 +28,7 @@ class CodeSystemPropertyType extends BackboneElementType
     /**
      * A description of the property- why it is defined, and how its value might be used.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -96,7 +96,7 @@ class CodeSystemPropertyType extends BackboneElementType
      *
      * A description of the property- why it is defined, and how its value might be used.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -108,10 +108,10 @@ class CodeSystemPropertyType extends BackboneElementType
      *
      * A description of the property- why it is defined, and how its value might be used.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

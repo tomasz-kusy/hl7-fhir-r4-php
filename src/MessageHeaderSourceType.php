@@ -14,21 +14,21 @@ class MessageHeaderSourceType extends BackboneElementType
     /**
      * Human-readable name for the source system.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * May include configuration or other information useful in debugging.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $software
+     * @var string $software
      */
     private $software = null;
 
     /**
      * Can convey versions of multiple systems in situations where a message passes through multiple hands.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
@@ -51,7 +51,7 @@ class MessageHeaderSourceType extends BackboneElementType
      *
      * Human-readable name for the source system.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -63,10 +63,10 @@ class MessageHeaderSourceType extends BackboneElementType
      *
      * Human-readable name for the source system.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -77,7 +77,7 @@ class MessageHeaderSourceType extends BackboneElementType
      *
      * May include configuration or other information useful in debugging.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSoftware()
     {
@@ -89,10 +89,10 @@ class MessageHeaderSourceType extends BackboneElementType
      *
      * May include configuration or other information useful in debugging.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $software
+     * @param string $software
      * @return self
      */
-    public function setSoftware(\TKusy\Hl7FhirR4\StringType $software)
+    public function setSoftware($software)
     {
         $this->software = $software;
         return $this;
@@ -103,7 +103,7 @@ class MessageHeaderSourceType extends BackboneElementType
      *
      * Can convey versions of multiple systems in situations where a message passes through multiple hands.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -115,10 +115,10 @@ class MessageHeaderSourceType extends BackboneElementType
      *
      * Can convey versions of multiple systems in situations where a message passes through multiple hands.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;

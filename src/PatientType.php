@@ -26,7 +26,7 @@ class PatientType extends DomainResourceType
      *
      * Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $active
+     * @var bool $active
      */
     private $active = null;
 
@@ -61,7 +61,7 @@ class PatientType extends DomainResourceType
     /**
      * Indicates if the individual is deceased or not. (choose any one of deceased*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $deceasedBoolean
+     * @var bool $deceasedBoolean
      */
     private $deceasedBoolean = null;
 
@@ -89,14 +89,14 @@ class PatientType extends DomainResourceType
     /**
      * Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). (choose any one of multipleBirth*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $multipleBirthBoolean
+     * @var bool $multipleBirthBoolean
      */
     private $multipleBirthBoolean = null;
 
     /**
      * Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). (choose any one of multipleBirth*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $multipleBirthInteger
+     * @var \integer $multipleBirthInteger
      */
     private $multipleBirthInteger = null;
 
@@ -218,7 +218,7 @@ class PatientType extends DomainResourceType
      *
      * Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getActive()
     {
@@ -235,10 +235,10 @@ class PatientType extends DomainResourceType
      *
      * Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $active
+     * @param bool $active
      * @return self
      */
-    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
+    public function setActive($active)
     {
         $this->active = $active;
         return $this;
@@ -433,7 +433,7 @@ class PatientType extends DomainResourceType
      *
      * Indicates if the individual is deceased or not. (choose any one of deceased*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getDeceasedBoolean()
     {
@@ -445,10 +445,10 @@ class PatientType extends DomainResourceType
      *
      * Indicates if the individual is deceased or not. (choose any one of deceased*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $deceasedBoolean
+     * @param bool $deceasedBoolean
      * @return self
      */
-    public function setDeceasedBoolean(\TKusy\Hl7FhirR4\BooleanType $deceasedBoolean)
+    public function setDeceasedBoolean($deceasedBoolean)
     {
         $this->deceasedBoolean = $deceasedBoolean;
         return $this;
@@ -577,7 +577,7 @@ class PatientType extends DomainResourceType
      *
      * Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). (choose any one of multipleBirth*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getMultipleBirthBoolean()
     {
@@ -589,10 +589,10 @@ class PatientType extends DomainResourceType
      *
      * Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). (choose any one of multipleBirth*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $multipleBirthBoolean
+     * @param bool $multipleBirthBoolean
      * @return self
      */
-    public function setMultipleBirthBoolean(\TKusy\Hl7FhirR4\BooleanType $multipleBirthBoolean)
+    public function setMultipleBirthBoolean($multipleBirthBoolean)
     {
         $this->multipleBirthBoolean = $multipleBirthBoolean;
         return $this;
@@ -603,7 +603,7 @@ class PatientType extends DomainResourceType
      *
      * Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). (choose any one of multipleBirth*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getMultipleBirthInteger()
     {
@@ -615,10 +615,10 @@ class PatientType extends DomainResourceType
      *
      * Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). (choose any one of multipleBirth*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $multipleBirthInteger
+     * @param \integer $multipleBirthInteger
      * @return self
      */
-    public function setMultipleBirthInteger(\TKusy\Hl7FhirR4\IntegerType $multipleBirthInteger)
+    public function setMultipleBirthInteger(\integer $multipleBirthInteger)
     {
         $this->multipleBirthInteger = $multipleBirthInteger;
         return $this;

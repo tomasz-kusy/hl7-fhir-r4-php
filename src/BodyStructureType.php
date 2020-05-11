@@ -21,7 +21,7 @@ class BodyStructureType extends DomainResourceType
     /**
      * Whether this body site is in active use.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $active
+     * @var bool $active
      */
     private $active = null;
 
@@ -49,7 +49,7 @@ class BodyStructureType extends DomainResourceType
     /**
      * A summary, characterization or explanation of the body structure.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -138,7 +138,7 @@ class BodyStructureType extends DomainResourceType
      *
      * Whether this body site is in active use.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getActive()
     {
@@ -150,10 +150,10 @@ class BodyStructureType extends DomainResourceType
      *
      * Whether this body site is in active use.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $active
+     * @param bool $active
      * @return self
      */
-    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
+    public function setActive($active)
     {
         $this->active = $active;
         return $this;
@@ -282,7 +282,7 @@ class BodyStructureType extends DomainResourceType
      *
      * A summary, characterization or explanation of the body structure.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -294,10 +294,10 @@ class BodyStructureType extends DomainResourceType
      *
      * A summary, characterization or explanation of the body structure.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

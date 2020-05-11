@@ -49,14 +49,14 @@ class TimingRepeatType extends BackboneElementType
     /**
      * How long this thing happens for when it happens. If durationMax is present, this element indicates the lower bound of the allowed range of the duration.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $duration
+     * @var float $duration
      */
     private $duration = null;
 
     /**
      * If present, indicates that the duration is a range - so to perform the action between [duration] and [durationMax] time length.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $durationMax
+     * @var float $durationMax
      */
     private $durationMax = null;
 
@@ -84,14 +84,14 @@ class TimingRepeatType extends BackboneElementType
     /**
      * Indicates the duration of time over which repetitions are to occur; e.g. to express "3 times per day", 3 would be the frequency and "1 day" would be the period. If periodMax is present, this element indicates the lower bound of the allowed range of the period length.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $period
+     * @var float $period
      */
     private $period = null;
 
     /**
      * If present, indicates that the period is a range from [period] to [periodMax], allowing expressing concepts such as "do this once every 3-5 days.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $periodMax
+     * @var float $periodMax
      */
     private $periodMax = null;
 
@@ -265,7 +265,7 @@ class TimingRepeatType extends BackboneElementType
      *
      * How long this thing happens for when it happens. If durationMax is present, this element indicates the lower bound of the allowed range of the duration.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getDuration()
     {
@@ -277,10 +277,10 @@ class TimingRepeatType extends BackboneElementType
      *
      * How long this thing happens for when it happens. If durationMax is present, this element indicates the lower bound of the allowed range of the duration.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $duration
+     * @param float $duration
      * @return self
      */
-    public function setDuration(\TKusy\Hl7FhirR4\DecimalType $duration)
+    public function setDuration($duration)
     {
         $this->duration = $duration;
         return $this;
@@ -291,7 +291,7 @@ class TimingRepeatType extends BackboneElementType
      *
      * If present, indicates that the duration is a range - so to perform the action between [duration] and [durationMax] time length.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getDurationMax()
     {
@@ -303,10 +303,10 @@ class TimingRepeatType extends BackboneElementType
      *
      * If present, indicates that the duration is a range - so to perform the action between [duration] and [durationMax] time length.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $durationMax
+     * @param float $durationMax
      * @return self
      */
-    public function setDurationMax(\TKusy\Hl7FhirR4\DecimalType $durationMax)
+    public function setDurationMax($durationMax)
     {
         $this->durationMax = $durationMax;
         return $this;
@@ -395,7 +395,7 @@ class TimingRepeatType extends BackboneElementType
      *
      * Indicates the duration of time over which repetitions are to occur; e.g. to express "3 times per day", 3 would be the frequency and "1 day" would be the period. If periodMax is present, this element indicates the lower bound of the allowed range of the period length.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getPeriod()
     {
@@ -407,10 +407,10 @@ class TimingRepeatType extends BackboneElementType
      *
      * Indicates the duration of time over which repetitions are to occur; e.g. to express "3 times per day", 3 would be the frequency and "1 day" would be the period. If periodMax is present, this element indicates the lower bound of the allowed range of the period length.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $period
+     * @param float $period
      * @return self
      */
-    public function setPeriod(\TKusy\Hl7FhirR4\DecimalType $period)
+    public function setPeriod($period)
     {
         $this->period = $period;
         return $this;
@@ -421,7 +421,7 @@ class TimingRepeatType extends BackboneElementType
      *
      * If present, indicates that the period is a range from [period] to [periodMax], allowing expressing concepts such as "do this once every 3-5 days.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getPeriodMax()
     {
@@ -433,10 +433,10 @@ class TimingRepeatType extends BackboneElementType
      *
      * If present, indicates that the period is a range from [period] to [periodMax], allowing expressing concepts such as "do this once every 3-5 days.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $periodMax
+     * @param float $periodMax
      * @return self
      */
-    public function setPeriodMax(\TKusy\Hl7FhirR4\DecimalType $periodMax)
+    public function setPeriodMax($periodMax)
     {
         $this->periodMax = $periodMax;
         return $this;

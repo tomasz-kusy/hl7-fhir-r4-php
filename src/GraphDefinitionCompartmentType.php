@@ -35,14 +35,14 @@ class GraphDefinitionCompartmentType extends BackboneElementType
     /**
      * Custom rule, as a FHIRPath expression.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $expression
+     * @var string $expression
      */
     private $expression = null;
 
     /**
      * Documentation for FHIRPath expression.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -129,7 +129,7 @@ class GraphDefinitionCompartmentType extends BackboneElementType
      *
      * Custom rule, as a FHIRPath expression.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getExpression()
     {
@@ -141,10 +141,10 @@ class GraphDefinitionCompartmentType extends BackboneElementType
      *
      * Custom rule, as a FHIRPath expression.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $expression
+     * @param string $expression
      * @return self
      */
-    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
+    public function setExpression($expression)
     {
         $this->expression = $expression;
         return $this;
@@ -155,7 +155,7 @@ class GraphDefinitionCompartmentType extends BackboneElementType
      *
      * Documentation for FHIRPath expression.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -167,10 +167,10 @@ class GraphDefinitionCompartmentType extends BackboneElementType
      *
      * Documentation for FHIRPath expression.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

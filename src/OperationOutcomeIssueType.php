@@ -35,7 +35,7 @@ class OperationOutcomeIssueType extends BackboneElementType
     /**
      * Additional diagnostic information about the issue.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $diagnostics
+     * @var string $diagnostics
      */
     private $diagnostics = null;
 
@@ -44,14 +44,14 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * For resource issues, this will be a simple XPath limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised. For HTTP errors, will be "http." + the parameter name.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $location
+     * @var string[] $location
      */
     private $location = null;
 
     /**
      * A [simple subset of FHIRPath](fhirpath.html#simple) limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $expression
+     * @var string[] $expression
      */
     private $expression = null;
 
@@ -138,7 +138,7 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * Additional diagnostic information about the issue.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDiagnostics()
     {
@@ -150,10 +150,10 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * Additional diagnostic information about the issue.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $diagnostics
+     * @param string $diagnostics
      * @return self
      */
-    public function setDiagnostics(\TKusy\Hl7FhirR4\StringType $diagnostics)
+    public function setDiagnostics($diagnostics)
     {
         $this->diagnostics = $diagnostics;
         return $this;
@@ -167,9 +167,9 @@ class OperationOutcomeIssueType extends BackboneElementType
      * For resource issues, this will be a simple XPath limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised. For HTTP errors, will be "http." + the parameter name.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $location
+     * @param string $location
      */
-    public function addToLocation(\TKusy\Hl7FhirR4\StringType $location)
+    public function addToLocation($location)
     {
         $this->location[] = $location;
         return $this;
@@ -212,7 +212,7 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * For resource issues, this will be a simple XPath limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised. For HTTP errors, will be "http." + the parameter name.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getLocation()
     {
@@ -226,7 +226,7 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * For resource issues, this will be a simple XPath limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised. For HTTP errors, will be "http." + the parameter name.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $location
+     * @param string[] $location
      * @return self
      */
     public function setLocation(array $location)
@@ -241,9 +241,9 @@ class OperationOutcomeIssueType extends BackboneElementType
      * A [simple subset of FHIRPath](fhirpath.html#simple) limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $expression
+     * @param string $expression
      */
-    public function addToExpression(\TKusy\Hl7FhirR4\StringType $expression)
+    public function addToExpression($expression)
     {
         $this->expression[] = $expression;
         return $this;
@@ -280,7 +280,7 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * A [simple subset of FHIRPath](fhirpath.html#simple) limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getExpression()
     {
@@ -292,7 +292,7 @@ class OperationOutcomeIssueType extends BackboneElementType
      *
      * A [simple subset of FHIRPath](fhirpath.html#simple) limited to element names, repetition indicators and the default child accessor that identifies one of the elements in the resource that caused this issue to be raised.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $expression
+     * @param string[] $expression
      * @return self
      */
     public function setExpression(array $expression)

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\EffectEvidenceSynthesisEffectEstimateType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\EffectEvidenceSynthesisEffectEstimateType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         unitOfMeasure:
             expose: true
             access_type: public_method

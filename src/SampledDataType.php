@@ -21,28 +21,28 @@ class SampledDataType extends ElementType
     /**
      * The length of time between sampling times, measured in milliseconds.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $period
+     * @var float $period
      */
     private $period = null;
 
     /**
      * A correction factor that is applied to the sampled data points before they are added to the origin.
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $factor
+     * @var float $factor
      */
     private $factor = null;
 
     /**
      * The lower limit of detection of the measured points. This is needed if any of the data points have the value "L" (lower than detection limit).
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $lowerLimit
+     * @var float $lowerLimit
      */
     private $lowerLimit = null;
 
     /**
      * The upper limit of detection of the measured points. This is needed if any of the data points have the value "U" (higher than detection limit).
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $upperLimit
+     * @var float $upperLimit
      */
     private $upperLimit = null;
 
@@ -91,7 +91,7 @@ class SampledDataType extends ElementType
      *
      * The length of time between sampling times, measured in milliseconds.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getPeriod()
     {
@@ -103,10 +103,10 @@ class SampledDataType extends ElementType
      *
      * The length of time between sampling times, measured in milliseconds.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $period
+     * @param float $period
      * @return self
      */
-    public function setPeriod(\TKusy\Hl7FhirR4\DecimalType $period)
+    public function setPeriod($period)
     {
         $this->period = $period;
         return $this;
@@ -117,7 +117,7 @@ class SampledDataType extends ElementType
      *
      * A correction factor that is applied to the sampled data points before they are added to the origin.
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getFactor()
     {
@@ -129,10 +129,10 @@ class SampledDataType extends ElementType
      *
      * A correction factor that is applied to the sampled data points before they are added to the origin.
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $factor
+     * @param float $factor
      * @return self
      */
-    public function setFactor(\TKusy\Hl7FhirR4\DecimalType $factor)
+    public function setFactor($factor)
     {
         $this->factor = $factor;
         return $this;
@@ -143,7 +143,7 @@ class SampledDataType extends ElementType
      *
      * The lower limit of detection of the measured points. This is needed if any of the data points have the value "L" (lower than detection limit).
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getLowerLimit()
     {
@@ -155,10 +155,10 @@ class SampledDataType extends ElementType
      *
      * The lower limit of detection of the measured points. This is needed if any of the data points have the value "L" (lower than detection limit).
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $lowerLimit
+     * @param float $lowerLimit
      * @return self
      */
-    public function setLowerLimit(\TKusy\Hl7FhirR4\DecimalType $lowerLimit)
+    public function setLowerLimit($lowerLimit)
     {
         $this->lowerLimit = $lowerLimit;
         return $this;
@@ -169,7 +169,7 @@ class SampledDataType extends ElementType
      *
      * The upper limit of detection of the measured points. This is needed if any of the data points have the value "U" (higher than detection limit).
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getUpperLimit()
     {
@@ -181,10 +181,10 @@ class SampledDataType extends ElementType
      *
      * The upper limit of detection of the measured points. This is needed if any of the data points have the value "U" (higher than detection limit).
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $upperLimit
+     * @param float $upperLimit
      * @return self
      */
-    public function setUpperLimit(\TKusy\Hl7FhirR4\DecimalType $upperLimit)
+    public function setUpperLimit($upperLimit)
     {
         $this->upperLimit = $upperLimit;
         return $this;

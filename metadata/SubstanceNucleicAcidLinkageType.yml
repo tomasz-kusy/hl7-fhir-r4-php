@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidLinkageType:
             accessor:
                 getter: getConnectivity
                 setter: setConnectivity
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         identifier:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidLinkageType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         residueSite:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ TKusy\Hl7FhirR4\SubstanceNucleicAcidLinkageType:
             accessor:
                 getter: getResidueSite
                 setter: setResidueSite
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

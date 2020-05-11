@@ -21,7 +21,7 @@ class ContactPointType extends ElementType
     /**
      * The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
@@ -77,7 +77,7 @@ class ContactPointType extends ElementType
      *
      * The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -89,10 +89,10 @@ class ContactPointType extends ElementType
      *
      * The actual contact point details, in a form that is meaningful to the designated communication system (i.e. phone number or email address).
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;

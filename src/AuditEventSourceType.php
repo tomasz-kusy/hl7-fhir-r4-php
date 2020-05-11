@@ -14,7 +14,7 @@ class AuditEventSourceType extends BackboneElementType
     /**
      * Logical source location within the healthcare enterprise network. For example, a hospital or other provider location within a multi-entity provider group.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $site
+     * @var string $site
      */
     private $site = null;
 
@@ -37,7 +37,7 @@ class AuditEventSourceType extends BackboneElementType
      *
      * Logical source location within the healthcare enterprise network. For example, a hospital or other provider location within a multi-entity provider group.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSite()
     {
@@ -49,10 +49,10 @@ class AuditEventSourceType extends BackboneElementType
      *
      * Logical source location within the healthcare enterprise network. For example, a hospital or other provider location within a multi-entity provider group.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $site
+     * @param string $site
      * @return self
      */
-    public function setSite(\TKusy\Hl7FhirR4\StringType $site)
+    public function setSite($site)
     {
         $this->site = $site;
         return $this;

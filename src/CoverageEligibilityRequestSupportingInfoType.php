@@ -28,7 +28,7 @@ class CoverageEligibilityRequestSupportingInfoType extends BackboneElementType
     /**
      * The supporting materials are applicable for all detail items, product/servce categories and specific billing codes.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $appliesToAll
+     * @var bool $appliesToAll
      */
     private $appliesToAll = null;
 
@@ -89,7 +89,7 @@ class CoverageEligibilityRequestSupportingInfoType extends BackboneElementType
      *
      * The supporting materials are applicable for all detail items, product/servce categories and specific billing codes.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAppliesToAll()
     {
@@ -101,10 +101,10 @@ class CoverageEligibilityRequestSupportingInfoType extends BackboneElementType
      *
      * The supporting materials are applicable for all detail items, product/servce categories and specific billing codes.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $appliesToAll
+     * @param bool $appliesToAll
      * @return self
      */
-    public function setAppliesToAll(\TKusy\Hl7FhirR4\BooleanType $appliesToAll)
+    public function setAppliesToAll($appliesToAll)
     {
         $this->appliesToAll = $appliesToAll;
         return $this;

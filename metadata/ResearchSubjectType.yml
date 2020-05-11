@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             accessor:
                 getter: getAssignedArm
                 setter: setAssignedArm
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         actualArm:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\ResearchSubjectType:
             accessor:
                 getter: getActualArm
                 setter: setActualArm
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         consent:
             expose: true
             access_type: public_method

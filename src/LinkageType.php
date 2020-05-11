@@ -14,7 +14,7 @@ class LinkageType extends DomainResourceType
     /**
      * Indicates whether the asserted set of linkages are considered to be "in effect".
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $active
+     * @var bool $active
      */
     private $active = null;
 
@@ -37,7 +37,7 @@ class LinkageType extends DomainResourceType
      *
      * Indicates whether the asserted set of linkages are considered to be "in effect".
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getActive()
     {
@@ -49,10 +49,10 @@ class LinkageType extends DomainResourceType
      *
      * Indicates whether the asserted set of linkages are considered to be "in effect".
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $active
+     * @param bool $active
      * @return self
      */
-    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
+    public function setActive($active)
     {
         $this->active = $active;
         return $this;

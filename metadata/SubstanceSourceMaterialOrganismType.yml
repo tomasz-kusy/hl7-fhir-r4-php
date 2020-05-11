@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\SubstanceSourceMaterialOrganismType:
             accessor:
                 getter: getIntraspecificDescription
                 setter: setIntraspecificDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         author:
             expose: true
             access_type: public_method

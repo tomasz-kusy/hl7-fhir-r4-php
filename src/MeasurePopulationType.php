@@ -21,7 +21,7 @@ class MeasurePopulationType extends BackboneElementType
     /**
      * The human readable description of this population criteria.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -63,7 +63,7 @@ class MeasurePopulationType extends BackboneElementType
      *
      * The human readable description of this population criteria.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -75,10 +75,10 @@ class MeasurePopulationType extends BackboneElementType
      *
      * The human readable description of this population criteria.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

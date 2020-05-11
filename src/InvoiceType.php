@@ -28,7 +28,7 @@ class InvoiceType extends DomainResourceType
     /**
      * In case of Invoice cancellation a reason must be given (entered in error, superseded by corrected invoice etc.).
      *
-     * @var \TKusy\Hl7FhirR4\StringType $cancelledReason
+     * @var string $cancelledReason
      */
     private $cancelledReason = null;
 
@@ -220,7 +220,7 @@ class InvoiceType extends DomainResourceType
      *
      * In case of Invoice cancellation a reason must be given (entered in error, superseded by corrected invoice etc.).
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getCancelledReason()
     {
@@ -232,10 +232,10 @@ class InvoiceType extends DomainResourceType
      *
      * In case of Invoice cancellation a reason must be given (entered in error, superseded by corrected invoice etc.).
      *
-     * @param \TKusy\Hl7FhirR4\StringType $cancelledReason
+     * @param string $cancelledReason
      * @return self
      */
-    public function setCancelledReason(\TKusy\Hl7FhirR4\StringType $cancelledReason)
+    public function setCancelledReason($cancelledReason)
     {
         $this->cancelledReason = $cancelledReason;
         return $this;

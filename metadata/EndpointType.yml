@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\EndpointType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         managingOrganization:
             expose: true
             access_type: public_method
@@ -140,4 +140,4 @@ TKusy\Hl7FhirR4\EndpointType:
                 inline: true
                 entry_name: header
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>

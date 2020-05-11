@@ -14,7 +14,7 @@ class ExpressionType extends ElementType
     /**
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -35,7 +35,7 @@ class ExpressionType extends ElementType
     /**
      * An expression in the specified language that returns a value.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $expression
+     * @var string $expression
      */
     private $expression = null;
 
@@ -51,7 +51,7 @@ class ExpressionType extends ElementType
      *
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -63,10 +63,10 @@ class ExpressionType extends ElementType
      *
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -129,7 +129,7 @@ class ExpressionType extends ElementType
      *
      * An expression in the specified language that returns a value.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getExpression()
     {
@@ -141,10 +141,10 @@ class ExpressionType extends ElementType
      *
      * An expression in the specified language that returns a value.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $expression
+     * @param string $expression
      * @return self
      */
-    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
+    public function setExpression($expression)
     {
         $this->expression = $expression;
         return $this;

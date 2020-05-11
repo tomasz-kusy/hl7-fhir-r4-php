@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         name:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         title:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getTitle
                 setter: setTitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         subtitle:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getSubtitle
                 setter: setSubtitle
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getExperimental
                 setter: setExperimental
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         subjectCodeableConcept:
             expose: true
             access_type: public_method
@@ -146,7 +146,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getPublisher
                 setter: setPublisher
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         contact:
             expose: true
             access_type: public_method
@@ -224,7 +224,7 @@ TKusy\Hl7FhirR4\PlanDefinitionType:
             accessor:
                 getter: getUsage
                 setter: setUsage
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         copyright:
             expose: true
             access_type: public_method

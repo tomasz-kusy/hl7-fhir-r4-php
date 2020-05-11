@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\AuditEventEntityType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         query:
             expose: true
             access_type: public_method

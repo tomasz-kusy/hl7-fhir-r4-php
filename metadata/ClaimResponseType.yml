@@ -135,7 +135,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             accessor:
                 getter: getDisposition
                 setter: setDisposition
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         preAuthRef:
             expose: true
             access_type: public_method
@@ -146,7 +146,7 @@ TKusy\Hl7FhirR4\ClaimResponseType:
             accessor:
                 getter: getPreAuthRef
                 setter: setPreAuthRef
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         preAuthPeriod:
             expose: true
             access_type: public_method

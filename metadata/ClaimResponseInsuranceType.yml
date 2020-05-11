@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             accessor:
                 getter: getFocal
                 setter: setFocal
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         coverage:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ClaimResponseInsuranceType:
             accessor:
                 getter: getBusinessArrangement
                 setter: setBusinessArrangement
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         claimResponse:
             expose: true
             access_type: public_method

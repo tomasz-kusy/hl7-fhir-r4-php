@@ -28,28 +28,28 @@ class EventDefinitionType extends DomainResourceType
     /**
      * The identifier that is used to identify this version of the event definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the event definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $version
+     * @var string $version
      */
     private $version = null;
 
     /**
      * A natural language name identifying the event definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * A short, descriptive, user-friendly title for the event definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
     /**
      * An explanatory or alternate title for the event definition giving additional information about its content.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $subtitle
+     * @var string $subtitle
      */
     private $subtitle = null;
 
@@ -63,7 +63,7 @@ class EventDefinitionType extends DomainResourceType
     /**
      * A Boolean value to indicate that this event definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $experimental
+     * @var bool $experimental
      */
     private $experimental = null;
 
@@ -91,7 +91,7 @@ class EventDefinitionType extends DomainResourceType
     /**
      * The name of the organization or individual that published the event definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $publisher
+     * @var string $publisher
      */
     private $publisher = null;
 
@@ -133,7 +133,7 @@ class EventDefinitionType extends DomainResourceType
     /**
      * A detailed description of how the event definition is used from a clinical perspective.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $usage
+     * @var string $usage
      */
     private $usage = null;
 
@@ -311,7 +311,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the event definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the event definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVersion()
     {
@@ -323,10 +323,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * The identifier that is used to identify this version of the event definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the event definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      * @return self
      */
-    public function setVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function setVersion($version)
     {
         $this->version = $version;
         return $this;
@@ -337,7 +337,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the event definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -349,10 +349,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * A natural language name identifying the event definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -363,7 +363,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the event definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -375,10 +375,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * A short, descriptive, user-friendly title for the event definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;
@@ -389,7 +389,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * An explanatory or alternate title for the event definition giving additional information about its content.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSubtitle()
     {
@@ -401,10 +401,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * An explanatory or alternate title for the event definition giving additional information about its content.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $subtitle
+     * @param string $subtitle
      * @return self
      */
-    public function setSubtitle(\TKusy\Hl7FhirR4\StringType $subtitle)
+    public function setSubtitle($subtitle)
     {
         $this->subtitle = $subtitle;
         return $this;
@@ -441,7 +441,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this event definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getExperimental()
     {
@@ -453,10 +453,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * A Boolean value to indicate that this event definition is authored for testing purposes (or education/evaluation/marketing) and is not intended to be used for genuine usage.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $experimental
+     * @param bool $experimental
      * @return self
      */
-    public function setExperimental(\TKusy\Hl7FhirR4\BooleanType $experimental)
+    public function setExperimental($experimental)
     {
         $this->experimental = $experimental;
         return $this;
@@ -545,7 +545,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the event definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPublisher()
     {
@@ -557,10 +557,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * The name of the organization or individual that published the event definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $publisher
+     * @param string $publisher
      * @return self
      */
-    public function setPublisher(\TKusy\Hl7FhirR4\StringType $publisher)
+    public function setPublisher($publisher)
     {
         $this->publisher = $publisher;
         return $this;
@@ -821,7 +821,7 @@ class EventDefinitionType extends DomainResourceType
      *
      * A detailed description of how the event definition is used from a clinical perspective.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getUsage()
     {
@@ -833,10 +833,10 @@ class EventDefinitionType extends DomainResourceType
      *
      * A detailed description of how the event definition is used from a clinical perspective.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $usage
+     * @param string $usage
      * @return self
      */
-    public function setUsage(\TKusy\Hl7FhirR4\StringType $usage)
+    public function setUsage($usage)
     {
         $this->usage = $usage;
         return $this;

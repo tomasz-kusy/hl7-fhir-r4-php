@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MoneyType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         currency:
             expose: true
             access_type: public_method

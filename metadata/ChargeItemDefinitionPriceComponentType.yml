@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ChargeItemDefinitionPriceComponentType:
             accessor:
                 getter: getFactor
                 setter: setFactor
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         amount:
             expose: true
             access_type: public_method

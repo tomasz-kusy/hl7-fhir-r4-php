@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         temperature:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductStorageType:
             accessor:
                 getter: getTemperature
                 setter: setTemperature
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         scale:
             expose: true
             access_type: public_method

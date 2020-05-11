@@ -10,4 +10,4 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesTranslationType:
             accessor:
                 getter: getNeedsMap
                 setter: setNeedsMap
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool

@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         morphology:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ TKusy\Hl7FhirR4\BodyStructureType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         image:
             expose: true
             access_type: public_method

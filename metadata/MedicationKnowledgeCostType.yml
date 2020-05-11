@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeCostType:
             accessor:
                 getter: getSource
                 setter: setSource
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         cost:
             expose: true
             access_type: public_method

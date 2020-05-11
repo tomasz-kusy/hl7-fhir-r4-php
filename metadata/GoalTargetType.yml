@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\GoalTargetType:
             accessor:
                 getter: getDetailString
                 setter: setDetailString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         detailBoolean:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\GoalTargetType:
             accessor:
                 getter: getDetailBoolean
                 setter: setDetailBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         detailInteger:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\GoalTargetType:
             accessor:
                 getter: getDetailInteger
                 setter: setDetailInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         detailRatio:
             expose: true
             access_type: public_method

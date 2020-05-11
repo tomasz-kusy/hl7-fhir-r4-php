@@ -28,7 +28,7 @@ class ClaimCareTeamType extends BackboneElementType
     /**
      * The party who is billing and/or responsible for the claimed products or services.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $responsible
+     * @var bool $responsible
      */
     private $responsible = null;
 
@@ -103,7 +103,7 @@ class ClaimCareTeamType extends BackboneElementType
      *
      * The party who is billing and/or responsible for the claimed products or services.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getResponsible()
     {
@@ -115,10 +115,10 @@ class ClaimCareTeamType extends BackboneElementType
      *
      * The party who is billing and/or responsible for the claimed products or services.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $responsible
+     * @param bool $responsible
      * @return self
      */
-    public function setResponsible(\TKusy\Hl7FhirR4\BooleanType $responsible)
+    public function setResponsible($responsible)
     {
         $this->responsible = $responsible;
         return $this;

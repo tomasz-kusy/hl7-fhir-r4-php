@@ -14,7 +14,7 @@ class MedicinalProductNamePartType extends BackboneElementType
     /**
      * A fragment of a product name.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $part
+     * @var string $part
      */
     private $part = null;
 
@@ -30,7 +30,7 @@ class MedicinalProductNamePartType extends BackboneElementType
      *
      * A fragment of a product name.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPart()
     {
@@ -42,10 +42,10 @@ class MedicinalProductNamePartType extends BackboneElementType
      *
      * A fragment of a product name.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $part
+     * @param string $part
      * @return self
      */
-    public function setPart(\TKusy\Hl7FhirR4\StringType $part)
+    public function setPart($part)
     {
         $this->part = $part;
         return $this;

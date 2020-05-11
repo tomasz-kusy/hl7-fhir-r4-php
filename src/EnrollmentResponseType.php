@@ -42,7 +42,7 @@ class EnrollmentResponseType extends DomainResourceType
     /**
      * A description of the status of the adjudication.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $disposition
+     * @var string $disposition
      */
     private $disposition = null;
 
@@ -216,7 +216,7 @@ class EnrollmentResponseType extends DomainResourceType
      *
      * A description of the status of the adjudication.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisposition()
     {
@@ -228,10 +228,10 @@ class EnrollmentResponseType extends DomainResourceType
      *
      * A description of the status of the adjudication.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $disposition
+     * @param string $disposition
      * @return self
      */
-    public function setDisposition(\TKusy\Hl7FhirR4\StringType $disposition)
+    public function setDisposition($disposition)
     {
         $this->disposition = $disposition;
         return $this;

@@ -49,14 +49,14 @@ class ResearchSubjectType extends DomainResourceType
     /**
      * The name of the arm in the study the subject is expected to follow as part of this study.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $assignedArm
+     * @var string $assignedArm
      */
     private $assignedArm = null;
 
     /**
      * The name of the arm in the study the subject actually followed as part of this study.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $actualArm
+     * @var string $actualArm
      */
     private $actualArm = null;
 
@@ -242,7 +242,7 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject is expected to follow as part of this study.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAssignedArm()
     {
@@ -254,10 +254,10 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject is expected to follow as part of this study.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $assignedArm
+     * @param string $assignedArm
      * @return self
      */
-    public function setAssignedArm(\TKusy\Hl7FhirR4\StringType $assignedArm)
+    public function setAssignedArm($assignedArm)
     {
         $this->assignedArm = $assignedArm;
         return $this;
@@ -268,7 +268,7 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject actually followed as part of this study.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getActualArm()
     {
@@ -280,10 +280,10 @@ class ResearchSubjectType extends DomainResourceType
      *
      * The name of the arm in the study the subject actually followed as part of this study.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $actualArm
+     * @param string $actualArm
      * @return self
      */
-    public function setActualArm(\TKusy\Hl7FhirR4\StringType $actualArm)
+    public function setActualArm($actualArm)
     {
         $this->actualArm = $actualArm;
         return $this;

@@ -21,7 +21,7 @@ class MeasureGroupType extends BackboneElementType
     /**
      * The human readable description of this population group.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -70,7 +70,7 @@ class MeasureGroupType extends BackboneElementType
      *
      * The human readable description of this population group.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -82,10 +82,10 @@ class MeasureGroupType extends BackboneElementType
      *
      * The human readable description of this population group.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

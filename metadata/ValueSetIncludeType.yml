@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ValueSetIncludeType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         concept:
             expose: true
             access_type: public_method

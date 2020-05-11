@@ -14,7 +14,7 @@ class ExampleScenarioProcessType extends BackboneElementType
     /**
      * The diagram title of the group of operations.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
@@ -51,7 +51,7 @@ class ExampleScenarioProcessType extends BackboneElementType
      *
      * The diagram title of the group of operations.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -63,10 +63,10 @@ class ExampleScenarioProcessType extends BackboneElementType
      *
      * The diagram title of the group of operations.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;

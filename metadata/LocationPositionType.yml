@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\LocationPositionType:
             accessor:
                 getter: getLongitude
                 setter: setLongitude
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         latitude:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\LocationPositionType:
             accessor:
                 getter: getLatitude
                 setter: setLatitude
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         altitude:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\LocationPositionType:
             accessor:
                 getter: getAltitude
                 setter: setAltitude
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float

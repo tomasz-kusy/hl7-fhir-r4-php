@@ -21,7 +21,7 @@ class VerificationResultValidatorType extends BackboneElementType
     /**
      * A digital identity certificate associated with the validator.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $identityCertificate
+     * @var string $identityCertificate
      */
     private $identityCertificate = null;
 
@@ -63,7 +63,7 @@ class VerificationResultValidatorType extends BackboneElementType
      *
      * A digital identity certificate associated with the validator.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getIdentityCertificate()
     {
@@ -75,10 +75,10 @@ class VerificationResultValidatorType extends BackboneElementType
      *
      * A digital identity certificate associated with the validator.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $identityCertificate
+     * @param string $identityCertificate
      * @return self
      */
-    public function setIdentityCertificate(\TKusy\Hl7FhirR4\StringType $identityCertificate)
+    public function setIdentityCertificate($identityCertificate)
     {
         $this->identityCertificate = $identityCertificate;
         return $this;

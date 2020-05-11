@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\MedicinalProductPharmaceuticalWithdrawalPeriodType:
             accessor:
                 getter: getSupportingInformation
                 setter: setSupportingInformation
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

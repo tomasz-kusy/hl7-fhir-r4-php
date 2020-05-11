@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationCodeType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         source:
             expose: true
             access_type: public_method

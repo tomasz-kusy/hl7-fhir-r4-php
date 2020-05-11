@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\CodeSystemProperty1Type:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         valueInteger:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\CodeSystemProperty1Type:
             accessor:
                 getter: getValueInteger
                 setter: setValueInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         valueBoolean:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\CodeSystemProperty1Type:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         valueDateTime:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ TKusy\Hl7FhirR4\CodeSystemProperty1Type:
             accessor:
                 getter: getValueDecimal
                 setter: setValueDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float

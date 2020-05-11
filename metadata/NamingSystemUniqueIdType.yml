@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         preferred:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             accessor:
                 getter: getPreferred
                 setter: setPreferred
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         comment:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\NamingSystemUniqueIdType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         period:
             expose: true
             access_type: public_method

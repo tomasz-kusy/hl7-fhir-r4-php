@@ -21,7 +21,7 @@ class ListEntryType extends BackboneElementType
     /**
      * True if this item is marked as deleted in the list.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $deleted
+     * @var bool $deleted
      */
     private $deleted = null;
 
@@ -70,7 +70,7 @@ class ListEntryType extends BackboneElementType
      *
      * True if this item is marked as deleted in the list.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getDeleted()
     {
@@ -82,10 +82,10 @@ class ListEntryType extends BackboneElementType
      *
      * True if this item is marked as deleted in the list.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $deleted
+     * @param bool $deleted
      * @return self
      */
-    public function setDeleted(\TKusy\Hl7FhirR4\BooleanType $deleted)
+    public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
         return $this;

@@ -14,7 +14,7 @@ class DataRequirementSortType extends ElementType
     /**
      * The attribute of the sort. The specified path must be resolvable from the type of the required data. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements. Note that the index must be an integer constant.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $path
+     * @var string $path
      */
     private $path = null;
 
@@ -30,7 +30,7 @@ class DataRequirementSortType extends ElementType
      *
      * The attribute of the sort. The specified path must be resolvable from the type of the required data. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements. Note that the index must be an integer constant.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPath()
     {
@@ -42,10 +42,10 @@ class DataRequirementSortType extends ElementType
      *
      * The attribute of the sort. The specified path must be resolvable from the type of the required data. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements. Note that the index must be an integer constant.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $path
+     * @param string $path
      * @return self
      */
-    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
+    public function setPath($path)
     {
         $this->path = $path;
         return $this;

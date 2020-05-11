@@ -125,7 +125,7 @@ TKusy\Hl7FhirR4\SlotType:
             accessor:
                 getter: getOverbooked
                 setter: setOverbooked
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         comment:
             expose: true
             access_type: public_method
@@ -136,4 +136,4 @@ TKusy\Hl7FhirR4\SlotType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

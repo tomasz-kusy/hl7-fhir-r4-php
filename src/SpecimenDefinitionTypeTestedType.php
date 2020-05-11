@@ -14,7 +14,7 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
     /**
      * Primary of secondary specimen.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $isDerived
+     * @var bool $isDerived
      */
     private $isDerived = null;
 
@@ -42,7 +42,7 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
     /**
      * Requirements for delivery and special handling of this kind of conditioned specimen.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $requirement
+     * @var string $requirement
      */
     private $requirement = null;
 
@@ -72,7 +72,7 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
      *
      * Primary of secondary specimen.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getIsDerived()
     {
@@ -84,10 +84,10 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
      *
      * Primary of secondary specimen.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $isDerived
+     * @param bool $isDerived
      * @return self
      */
-    public function setIsDerived(\TKusy\Hl7FhirR4\BooleanType $isDerived)
+    public function setIsDerived($isDerived)
     {
         $this->isDerived = $isDerived;
         return $this;
@@ -176,7 +176,7 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
      *
      * Requirements for delivery and special handling of this kind of conditioned specimen.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getRequirement()
     {
@@ -188,10 +188,10 @@ class SpecimenDefinitionTypeTestedType extends BackboneElementType
      *
      * Requirements for delivery and special handling of this kind of conditioned specimen.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $requirement
+     * @param string $requirement
      * @return self
      */
-    public function setRequirement(\TKusy\Hl7FhirR4\StringType $requirement)
+    public function setRequirement($requirement)
     {
         $this->requirement = $requirement;
         return $this;

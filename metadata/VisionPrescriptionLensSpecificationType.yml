@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getSphere
                 setter: setSphere
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         cylinder:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getCylinder
                 setter: setCylinder
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         axis:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getAxis
                 setter: setAxis
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         prism:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getAdd
                 setter: setAdd
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         power:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getPower
                 setter: setPower
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         backCurve:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getBackCurve
                 setter: setBackCurve
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         diameter:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getDiameter
                 setter: setDiameter
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         duration:
             expose: true
             access_type: public_method
@@ -135,7 +135,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getColor
                 setter: setColor
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         brand:
             expose: true
             access_type: public_method
@@ -146,7 +146,7 @@ TKusy\Hl7FhirR4\VisionPrescriptionLensSpecificationType:
             accessor:
                 getter: getBrand
                 setter: setBrand
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         note:
             expose: true
             access_type: public_method

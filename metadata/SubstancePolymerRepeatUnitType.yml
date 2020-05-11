@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\SubstancePolymerRepeatUnitType:
             accessor:
                 getter: getRepeatUnit
                 setter: setRepeatUnit
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         amount:
             expose: true
             access_type: public_method

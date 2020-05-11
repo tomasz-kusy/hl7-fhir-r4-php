@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             accessor:
                 getter: getCoordinateSystem
                 setter: setCoordinateSystem
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         patient:
             expose: true
             access_type: public_method
@@ -128,7 +128,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             accessor:
                 getter: getObservedSeq
                 setter: setObservedSeq
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         quality:
             expose: true
             access_type: public_method
@@ -154,7 +154,7 @@ TKusy\Hl7FhirR4\MolecularSequenceType:
             accessor:
                 getter: getReadCoverage
                 setter: setReadCoverage
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         repository:
             expose: true
             access_type: public_method

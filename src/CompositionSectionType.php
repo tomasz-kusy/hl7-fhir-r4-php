@@ -14,7 +14,7 @@ class CompositionSectionType extends BackboneElementType
     /**
      * The label for this particular section. This will be part of the rendered content for the document, and is often used to build a table of contents.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
@@ -86,7 +86,7 @@ class CompositionSectionType extends BackboneElementType
      *
      * The label for this particular section. This will be part of the rendered content for the document, and is often used to build a table of contents.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -98,10 +98,10 @@ class CompositionSectionType extends BackboneElementType
      *
      * The label for this particular section. This will be part of the rendered content for the document, and is often used to build a table of contents.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;

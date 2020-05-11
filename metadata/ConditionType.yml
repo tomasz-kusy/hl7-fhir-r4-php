@@ -165,7 +165,7 @@ TKusy\Hl7FhirR4\ConditionType:
             accessor:
                 getter: getOnsetString
                 setter: setOnsetString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         abatementDateTime:
             expose: true
             access_type: public_method
@@ -220,7 +220,7 @@ TKusy\Hl7FhirR4\ConditionType:
             accessor:
                 getter: getAbatementString
                 setter: setAbatementString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         recordedDate:
             expose: true
             access_type: public_method

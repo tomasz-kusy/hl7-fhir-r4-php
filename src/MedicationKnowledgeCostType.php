@@ -21,7 +21,7 @@ class MedicationKnowledgeCostType extends BackboneElementType
     /**
      * The source or owner that assigns the price to the medication.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $source
+     * @var string $source
      */
     private $source = null;
 
@@ -63,7 +63,7 @@ class MedicationKnowledgeCostType extends BackboneElementType
      *
      * The source or owner that assigns the price to the medication.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getSource()
     {
@@ -75,10 +75,10 @@ class MedicationKnowledgeCostType extends BackboneElementType
      *
      * The source or owner that assigns the price to the medication.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $source
+     * @param string $source
      * @return self
      */
-    public function setSource(\TKusy\Hl7FhirR4\StringType $source)
+    public function setSource($source)
     {
         $this->source = $source;
         return $this;

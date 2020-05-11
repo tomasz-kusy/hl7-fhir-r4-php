@@ -14,14 +14,14 @@ class MolecularSequenceInnerType extends BackboneElementType
     /**
      * Structural variant inner start. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $start
+     * @var \integer $start
      */
     private $start = null;
 
     /**
      * Structural variant inner end. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $end
+     * @var \integer $end
      */
     private $end = null;
 
@@ -30,7 +30,7 @@ class MolecularSequenceInnerType extends BackboneElementType
      *
      * Structural variant inner start. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getStart()
     {
@@ -42,10 +42,10 @@ class MolecularSequenceInnerType extends BackboneElementType
      *
      * Structural variant inner start. If the coordinate system is either 0-based or 1-based, then start position is inclusive.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $start
+     * @param \integer $start
      * @return self
      */
-    public function setStart(\TKusy\Hl7FhirR4\IntegerType $start)
+    public function setStart(\integer $start)
     {
         $this->start = $start;
         return $this;
@@ -56,7 +56,7 @@ class MolecularSequenceInnerType extends BackboneElementType
      *
      * Structural variant inner end. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getEnd()
     {
@@ -68,10 +68,10 @@ class MolecularSequenceInnerType extends BackboneElementType
      *
      * Structural variant inner end. If the coordinate system is 0-based then end is exclusive and does not include the last position. If the coordinate system is 1-base, then end is inclusive and includes the last position.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $end
+     * @param \integer $end
      * @return self
      */
-    public function setEnd(\TKusy\Hl7FhirR4\IntegerType $end)
+    public function setEnd(\integer $end)
     {
         $this->end = $end;
         return $this;

@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\TestScriptLinkType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

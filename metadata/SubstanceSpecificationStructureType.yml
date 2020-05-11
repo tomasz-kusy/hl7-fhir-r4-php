@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             accessor:
                 getter: getMolecularFormula
                 setter: setMolecularFormula
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         molecularFormulaByMoiety:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\SubstanceSpecificationStructureType:
             accessor:
                 getter: getMolecularFormulaByMoiety
                 setter: setMolecularFormulaByMoiety
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         isotope:
             expose: true
             access_type: public_method

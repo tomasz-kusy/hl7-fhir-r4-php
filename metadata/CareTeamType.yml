@@ -51,7 +51,7 @@ TKusy\Hl7FhirR4\CareTeamType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         subject:
             expose: true
             access_type: public_method

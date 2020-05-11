@@ -84,7 +84,7 @@ class DetectedIssueType extends DomainResourceType
     /**
      * A textual explanation of the detected issue.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $detail
+     * @var string $detail
      */
     private $detail = null;
 
@@ -487,7 +487,7 @@ class DetectedIssueType extends DomainResourceType
      *
      * A textual explanation of the detected issue.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDetail()
     {
@@ -499,10 +499,10 @@ class DetectedIssueType extends DomainResourceType
      *
      * A textual explanation of the detected issue.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $detail
+     * @param string $detail
      * @return self
      */
-    public function setDetail(\TKusy\Hl7FhirR4\StringType $detail)
+    public function setDetail($detail)
     {
         $this->detail = $detail;
         return $this;

@@ -14,7 +14,7 @@ class MoneyType extends ElementType
     /**
      * Numerical value (with implicit precision).
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $value
+     * @var float $value
      */
     private $value = null;
 
@@ -30,7 +30,7 @@ class MoneyType extends ElementType
      *
      * Numerical value (with implicit precision).
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getValue()
     {
@@ -42,10 +42,10 @@ class MoneyType extends ElementType
      *
      * Numerical value (with implicit precision).
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $value
+     * @param float $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\DecimalType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;

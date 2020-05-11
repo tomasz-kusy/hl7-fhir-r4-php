@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             accessor:
                 getter: getCode
                 setter: setCode
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         isDefault:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             accessor:
                 getter: getIsDefault
                 setter: setIsDefault
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         compositional:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\TerminologyCapabilitiesVersionType:
             accessor:
                 getter: getCompositional
                 setter: setCompositional
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         language:
             expose: true
             access_type: public_method

@@ -15,7 +15,7 @@ class BiologicallyDerivedProductProcessingType extends BackboneElementType
     /**
      * Description of of processing.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -52,7 +52,7 @@ class BiologicallyDerivedProductProcessingType extends BackboneElementType
      *
      * Description of of processing.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -64,10 +64,10 @@ class BiologicallyDerivedProductProcessingType extends BackboneElementType
      *
      * Description of of processing.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

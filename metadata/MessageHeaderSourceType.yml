@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\MessageHeaderSourceType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         software:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\MessageHeaderSourceType:
             accessor:
                 getter: getSoftware
                 setter: setSoftware
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         version:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MessageHeaderSourceType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         contact:
             expose: true
             access_type: public_method

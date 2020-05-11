@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\AccountType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         subject:
             expose: true
             access_type: public_method
@@ -110,7 +110,7 @@ TKusy\Hl7FhirR4\AccountType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         guarantor:
             expose: true
             access_type: public_method

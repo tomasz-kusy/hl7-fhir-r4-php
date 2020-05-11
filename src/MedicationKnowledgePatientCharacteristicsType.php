@@ -28,7 +28,7 @@ class MedicationKnowledgePatientCharacteristicsType extends BackboneElementType
     /**
      * The specific characteristic (e.g. height, weight, gender, etc.).
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $value
+     * @var string[] $value
      */
     private $value = null;
 
@@ -90,9 +90,9 @@ class MedicationKnowledgePatientCharacteristicsType extends BackboneElementType
      * The specific characteristic (e.g. height, weight, gender, etc.).
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      */
-    public function addToValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function addToValue($value)
     {
         $this->value[] = $value;
         return $this;
@@ -129,7 +129,7 @@ class MedicationKnowledgePatientCharacteristicsType extends BackboneElementType
      *
      * The specific characteristic (e.g. height, weight, gender, etc.).
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getValue()
     {
@@ -141,7 +141,7 @@ class MedicationKnowledgePatientCharacteristicsType extends BackboneElementType
      *
      * The specific characteristic (e.g. height, weight, gender, etc.).
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $value
+     * @param string[] $value
      * @return self
      */
     public function setValue(array $value)

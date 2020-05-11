@@ -21,7 +21,7 @@ class ClaimResponseInsuranceType extends BackboneElementType
     /**
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $focal
+     * @var bool $focal
      */
     private $focal = null;
 
@@ -35,7 +35,7 @@ class ClaimResponseInsuranceType extends BackboneElementType
     /**
      * A business agreement number established between the provider and the insurer for special business processing purposes.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $businessArrangement
+     * @var string $businessArrangement
      */
     private $businessArrangement = null;
 
@@ -77,7 +77,7 @@ class ClaimResponseInsuranceType extends BackboneElementType
      *
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getFocal()
     {
@@ -89,10 +89,10 @@ class ClaimResponseInsuranceType extends BackboneElementType
      *
      * A flag to indicate that this Coverage is to be used for adjudication of this claim when set to true.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $focal
+     * @param bool $focal
      * @return self
      */
-    public function setFocal(\TKusy\Hl7FhirR4\BooleanType $focal)
+    public function setFocal($focal)
     {
         $this->focal = $focal;
         return $this;
@@ -129,7 +129,7 @@ class ClaimResponseInsuranceType extends BackboneElementType
      *
      * A business agreement number established between the provider and the insurer for special business processing purposes.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getBusinessArrangement()
     {
@@ -141,10 +141,10 @@ class ClaimResponseInsuranceType extends BackboneElementType
      *
      * A business agreement number established between the provider and the insurer for special business processing purposes.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $businessArrangement
+     * @param string $businessArrangement
      * @return self
      */
-    public function setBusinessArrangement(\TKusy\Hl7FhirR4\StringType $businessArrangement)
+    public function setBusinessArrangement($businessArrangement)
     {
         $this->businessArrangement = $businessArrangement;
         return $this;

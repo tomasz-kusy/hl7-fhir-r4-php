@@ -14,7 +14,7 @@ class MessageHeaderDestinationType extends BackboneElementType
     /**
      * Human-readable name for the target system.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -44,7 +44,7 @@ class MessageHeaderDestinationType extends BackboneElementType
      *
      * Human-readable name for the target system.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -56,10 +56,10 @@ class MessageHeaderDestinationType extends BackboneElementType
      *
      * Human-readable name for the target system.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;

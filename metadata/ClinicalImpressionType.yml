@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         subject:
             expose: true
             access_type: public_method
@@ -191,7 +191,7 @@ TKusy\Hl7FhirR4\ClinicalImpressionType:
             accessor:
                 getter: getSummary
                 setter: setSummary
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         finding:
             expose: true
             access_type: public_method

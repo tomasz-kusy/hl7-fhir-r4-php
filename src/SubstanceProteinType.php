@@ -21,14 +21,14 @@ class SubstanceProteinType extends DomainResourceType
     /**
      * Number of linear sequences of amino acids linked through peptide bonds. The number of subunits constituting the SubstanceProtein shall be described. It is possible that the number of subunits can be variable.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $numberOfSubunits
+     * @var \integer $numberOfSubunits
      */
     private $numberOfSubunits = null;
 
     /**
      * The disulphide bond between two cysteine residues either on the same subunit or on two different subunits shall be described. The position of the disulfide bonds in the SubstanceProtein shall be listed in increasing order of subunit number and position within subunit followed by the abbreviation of the amino acids involved. The disulfide linkage positions shall actually contain the amino acid Cysteine at the respective positions.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $disulfideLinkage
+     * @var string[] $disulfideLinkage
      */
     private $disulfideLinkage = null;
 
@@ -70,7 +70,7 @@ class SubstanceProteinType extends DomainResourceType
      *
      * Number of linear sequences of amino acids linked through peptide bonds. The number of subunits constituting the SubstanceProtein shall be described. It is possible that the number of subunits can be variable.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getNumberOfSubunits()
     {
@@ -82,10 +82,10 @@ class SubstanceProteinType extends DomainResourceType
      *
      * Number of linear sequences of amino acids linked through peptide bonds. The number of subunits constituting the SubstanceProtein shall be described. It is possible that the number of subunits can be variable.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $numberOfSubunits
+     * @param \integer $numberOfSubunits
      * @return self
      */
-    public function setNumberOfSubunits(\TKusy\Hl7FhirR4\IntegerType $numberOfSubunits)
+    public function setNumberOfSubunits(\integer $numberOfSubunits)
     {
         $this->numberOfSubunits = $numberOfSubunits;
         return $this;
@@ -97,9 +97,9 @@ class SubstanceProteinType extends DomainResourceType
      * The disulphide bond between two cysteine residues either on the same subunit or on two different subunits shall be described. The position of the disulfide bonds in the SubstanceProtein shall be listed in increasing order of subunit number and position within subunit followed by the abbreviation of the amino acids involved. The disulfide linkage positions shall actually contain the amino acid Cysteine at the respective positions.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $disulfideLinkage
+     * @param string $disulfideLinkage
      */
-    public function addToDisulfideLinkage(\TKusy\Hl7FhirR4\StringType $disulfideLinkage)
+    public function addToDisulfideLinkage($disulfideLinkage)
     {
         $this->disulfideLinkage[] = $disulfideLinkage;
         return $this;
@@ -136,7 +136,7 @@ class SubstanceProteinType extends DomainResourceType
      *
      * The disulphide bond between two cysteine residues either on the same subunit or on two different subunits shall be described. The position of the disulfide bonds in the SubstanceProtein shall be listed in increasing order of subunit number and position within subunit followed by the abbreviation of the amino acids involved. The disulfide linkage positions shall actually contain the amino acid Cysteine at the respective positions.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getDisulfideLinkage()
     {
@@ -148,7 +148,7 @@ class SubstanceProteinType extends DomainResourceType
      *
      * The disulphide bond between two cysteine residues either on the same subunit or on two different subunits shall be described. The position of the disulfide bonds in the SubstanceProtein shall be listed in increasing order of subunit number and position within subunit followed by the abbreviation of the amino acids involved. The disulfide linkage positions shall actually contain the amino acid Cysteine at the respective positions.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $disulfideLinkage
+     * @param string[] $disulfideLinkage
      * @return self
      */
     public function setDisulfideLinkage(array $disulfideLinkage)

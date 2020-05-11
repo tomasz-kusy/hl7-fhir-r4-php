@@ -77,7 +77,7 @@ TKusy\Hl7FhirR4\DeviceType:
             accessor:
                 getter: getDistinctIdentifier
                 setter: setDistinctIdentifier
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         manufacturer:
             expose: true
             access_type: public_method
@@ -88,7 +88,7 @@ TKusy\Hl7FhirR4\DeviceType:
             accessor:
                 getter: getManufacturer
                 setter: setManufacturer
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         manufactureDate:
             expose: true
             access_type: public_method
@@ -121,7 +121,7 @@ TKusy\Hl7FhirR4\DeviceType:
             accessor:
                 getter: getLotNumber
                 setter: setLotNumber
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         serialNumber:
             expose: true
             access_type: public_method
@@ -132,7 +132,7 @@ TKusy\Hl7FhirR4\DeviceType:
             accessor:
                 getter: getSerialNumber
                 setter: setSerialNumber
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         deviceName:
             expose: true
             access_type: public_method
@@ -158,7 +158,7 @@ TKusy\Hl7FhirR4\DeviceType:
             accessor:
                 getter: getModelNumber
                 setter: setModelNumber
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         partNumber:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ TKusy\Hl7FhirR4\DeviceType:
             accessor:
                 getter: getPartNumber
                 setter: setPartNumber
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method

@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitFinancialType:
             accessor:
                 getter: getAllowedString
                 setter: setAllowedString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         allowedMoney:
             expose: true
             access_type: public_method

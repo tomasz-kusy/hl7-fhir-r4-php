@@ -21,14 +21,14 @@ class CoverageClassType extends BackboneElementType
     /**
      * The alphanumeric string value associated with the insurer issued label.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
     /**
      * A short description for the class.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -63,7 +63,7 @@ class CoverageClassType extends BackboneElementType
      *
      * The alphanumeric string value associated with the insurer issued label.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -75,10 +75,10 @@ class CoverageClassType extends BackboneElementType
      *
      * The alphanumeric string value associated with the insurer issued label.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;
@@ -89,7 +89,7 @@ class CoverageClassType extends BackboneElementType
      *
      * A short description for the class.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -101,10 +101,10 @@ class CoverageClassType extends BackboneElementType
      *
      * A short description for the class.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;

@@ -14,21 +14,21 @@ class LocationPositionType extends BackboneElementType
     /**
      * Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML (see notes below).
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $longitude
+     * @var float $longitude
      */
     private $longitude = null;
 
     /**
      * Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML (see notes below).
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $latitude
+     * @var float $latitude
      */
     private $latitude = null;
 
     /**
      * Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below).
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $altitude
+     * @var float $altitude
      */
     private $altitude = null;
 
@@ -37,7 +37,7 @@ class LocationPositionType extends BackboneElementType
      *
      * Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML (see notes below).
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getLongitude()
     {
@@ -49,10 +49,10 @@ class LocationPositionType extends BackboneElementType
      *
      * Longitude. The value domain and the interpretation are the same as for the text of the longitude element in KML (see notes below).
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $longitude
+     * @param float $longitude
      * @return self
      */
-    public function setLongitude(\TKusy\Hl7FhirR4\DecimalType $longitude)
+    public function setLongitude($longitude)
     {
         $this->longitude = $longitude;
         return $this;
@@ -63,7 +63,7 @@ class LocationPositionType extends BackboneElementType
      *
      * Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML (see notes below).
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getLatitude()
     {
@@ -75,10 +75,10 @@ class LocationPositionType extends BackboneElementType
      *
      * Latitude. The value domain and the interpretation are the same as for the text of the latitude element in KML (see notes below).
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $latitude
+     * @param float $latitude
      * @return self
      */
-    public function setLatitude(\TKusy\Hl7FhirR4\DecimalType $latitude)
+    public function setLatitude($latitude)
     {
         $this->latitude = $latitude;
         return $this;
@@ -89,7 +89,7 @@ class LocationPositionType extends BackboneElementType
      *
      * Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below).
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getAltitude()
     {
@@ -101,10 +101,10 @@ class LocationPositionType extends BackboneElementType
      *
      * Altitude. The value domain and the interpretation are the same as for the text of the altitude element in KML (see notes below).
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $altitude
+     * @param float $altitude
      * @return self
      */
-    public function setAltitude(\TKusy\Hl7FhirR4\DecimalType $altitude)
+    public function setAltitude($altitude)
     {
         $this->altitude = $altitude;
         return $this;

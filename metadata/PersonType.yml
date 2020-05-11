@@ -114,7 +114,7 @@ TKusy\Hl7FhirR4\PersonType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         link:
             expose: true
             access_type: public_method

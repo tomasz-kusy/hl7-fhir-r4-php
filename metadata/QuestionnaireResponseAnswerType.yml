@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         valueDecimal:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             accessor:
                 getter: getValueDecimal
                 setter: setValueDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         valueInteger:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             accessor:
                 getter: getValueInteger
                 setter: setValueInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         valueDate:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\QuestionnaireResponseAnswerType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         valueUri:
             expose: true
             access_type: public_method

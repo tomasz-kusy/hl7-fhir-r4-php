@@ -73,7 +73,7 @@ TKusy\Hl7FhirR4\BiologicallyDerivedProductType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         parent:
             expose: true
             access_type: public_method

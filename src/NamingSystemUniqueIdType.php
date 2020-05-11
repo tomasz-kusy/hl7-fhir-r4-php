@@ -21,21 +21,21 @@ class NamingSystemUniqueIdType extends BackboneElementType
     /**
      * The string that should be sent over the wire to identify the code system or identifier system.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
     /**
      * Indicates whether this identifier is the "preferred" identifier of this type.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $preferred
+     * @var bool $preferred
      */
     private $preferred = null;
 
     /**
      * Notes about the past or intended usage of this identifier.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -77,7 +77,7 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * The string that should be sent over the wire to identify the code system or identifier system.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -89,10 +89,10 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * The string that should be sent over the wire to identify the code system or identifier system.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;
@@ -103,7 +103,7 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * Indicates whether this identifier is the "preferred" identifier of this type.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getPreferred()
     {
@@ -115,10 +115,10 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * Indicates whether this identifier is the "preferred" identifier of this type.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $preferred
+     * @param bool $preferred
      * @return self
      */
-    public function setPreferred(\TKusy\Hl7FhirR4\BooleanType $preferred)
+    public function setPreferred($preferred)
     {
         $this->preferred = $preferred;
         return $this;
@@ -129,7 +129,7 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * Notes about the past or intended usage of this identifier.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -141,10 +141,10 @@ class NamingSystemUniqueIdType extends BackboneElementType
      *
      * Notes about the past or intended usage of this identifier.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

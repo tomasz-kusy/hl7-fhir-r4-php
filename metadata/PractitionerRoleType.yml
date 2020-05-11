@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\PractitionerRoleType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         period:
             expose: true
             access_type: public_method
@@ -174,7 +174,7 @@ TKusy\Hl7FhirR4\PractitionerRoleType:
             accessor:
                 getter: getAvailabilityExceptions
                 setter: setAvailabilityExceptions
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         endpoint:
             expose: true
             access_type: public_method

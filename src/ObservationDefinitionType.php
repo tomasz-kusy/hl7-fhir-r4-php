@@ -42,7 +42,7 @@ class ObservationDefinitionType extends DomainResourceType
     /**
      * Multiple results allowed for observations conforming to this ObservationDefinition.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $multipleResultsAllowed
+     * @var bool $multipleResultsAllowed
      */
     private $multipleResultsAllowed = null;
 
@@ -56,7 +56,7 @@ class ObservationDefinitionType extends DomainResourceType
     /**
      * The preferred name to be used when reporting the results of observations conforming to this ObservationDefinition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $preferredReportName
+     * @var string $preferredReportName
      */
     private $preferredReportName = null;
 
@@ -331,7 +331,7 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * Multiple results allowed for observations conforming to this ObservationDefinition.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getMultipleResultsAllowed()
     {
@@ -343,10 +343,10 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * Multiple results allowed for observations conforming to this ObservationDefinition.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $multipleResultsAllowed
+     * @param bool $multipleResultsAllowed
      * @return self
      */
-    public function setMultipleResultsAllowed(\TKusy\Hl7FhirR4\BooleanType $multipleResultsAllowed)
+    public function setMultipleResultsAllowed($multipleResultsAllowed)
     {
         $this->multipleResultsAllowed = $multipleResultsAllowed;
         return $this;
@@ -383,7 +383,7 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * The preferred name to be used when reporting the results of observations conforming to this ObservationDefinition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPreferredReportName()
     {
@@ -395,10 +395,10 @@ class ObservationDefinitionType extends DomainResourceType
      *
      * The preferred name to be used when reporting the results of observations conforming to this ObservationDefinition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $preferredReportName
+     * @param string $preferredReportName
      * @return self
      */
-    public function setPreferredReportName(\TKusy\Hl7FhirR4\StringType $preferredReportName)
+    public function setPreferredReportName($preferredReportName)
     {
         $this->preferredReportName = $preferredReportName;
         return $this;

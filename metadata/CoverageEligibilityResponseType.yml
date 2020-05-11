@@ -128,7 +128,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseType:
             accessor:
                 getter: getDisposition
                 setter: setDisposition
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         insurer:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseType:
             accessor:
                 getter: getPreAuthRef
                 setter: setPreAuthRef
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         form:
             expose: true
             access_type: public_method

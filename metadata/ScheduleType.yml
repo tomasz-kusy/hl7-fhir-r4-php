@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\ScheduleType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         serviceCategory:
             expose: true
             access_type: public_method
@@ -107,4 +107,4 @@ TKusy\Hl7FhirR4\ScheduleType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

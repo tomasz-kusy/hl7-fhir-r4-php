@@ -63,7 +63,7 @@ class AppointmentResponseType extends DomainResourceType
     /**
      * Additional comments about the appointment.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -334,7 +334,7 @@ class AppointmentResponseType extends DomainResourceType
      *
      * Additional comments about the appointment.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -346,10 +346,10 @@ class AppointmentResponseType extends DomainResourceType
      *
      * Additional comments about the appointment.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

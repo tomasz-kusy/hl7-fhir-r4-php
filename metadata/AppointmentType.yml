@@ -144,7 +144,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         supportingInformation:
             expose: true
             access_type: public_method
@@ -229,7 +229,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         patientInstruction:
             expose: true
             access_type: public_method
@@ -240,7 +240,7 @@ TKusy\Hl7FhirR4\AppointmentType:
             accessor:
                 getter: getPatientInstruction
                 setter: setPatientInstruction
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         basedOn:
             expose: true
             access_type: public_method

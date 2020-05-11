@@ -14,21 +14,21 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
     /**
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
     /**
      * The media type of the language for the expression, e.g. "text/cql" for Clinical Query Language expressions or "text/fhirpath" for FHIRPath expressions.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $language
+     * @var string $language
      */
     private $language = null;
 
     /**
      * An expression that returns true or false, indicating whether the condition is satisfied. When using FHIRPath expressions, the %context environment variable must be replaced at runtime with the ChargeItem resource to which this definition is applied.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $expression
+     * @var string $expression
      */
     private $expression = null;
 
@@ -37,7 +37,7 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
      *
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -49,10 +49,10 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
      *
      * A brief, natural language description of the condition that effectively communicates the intended semantics.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -63,7 +63,7 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
      *
      * The media type of the language for the expression, e.g. "text/cql" for Clinical Query Language expressions or "text/fhirpath" for FHIRPath expressions.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getLanguage()
     {
@@ -75,10 +75,10 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
      *
      * The media type of the language for the expression, e.g. "text/cql" for Clinical Query Language expressions or "text/fhirpath" for FHIRPath expressions.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $language
+     * @param string $language
      * @return self
      */
-    public function setLanguage(\TKusy\Hl7FhirR4\StringType $language)
+    public function setLanguage($language)
     {
         $this->language = $language;
         return $this;
@@ -89,7 +89,7 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
      *
      * An expression that returns true or false, indicating whether the condition is satisfied. When using FHIRPath expressions, the %context environment variable must be replaced at runtime with the ChargeItem resource to which this definition is applied.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getExpression()
     {
@@ -101,10 +101,10 @@ class ChargeItemDefinitionApplicabilityType extends BackboneElementType
      *
      * An expression that returns true or false, indicating whether the condition is satisfied. When using FHIRPath expressions, the %context environment variable must be replaced at runtime with the ChargeItem resource to which this definition is applied.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $expression
+     * @param string $expression
      * @return self
      */
-    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
+    public function setExpression($expression)
     {
         $this->expression = $expression;
         return $this;

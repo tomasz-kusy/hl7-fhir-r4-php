@@ -14,14 +14,14 @@ class TestScriptTestType extends BackboneElementType
     /**
      * The name of this test used for tracking/logging purposes by test engines.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * A short description of the test used by test engines for tracking and reporting purposes.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -37,7 +37,7 @@ class TestScriptTestType extends BackboneElementType
      *
      * The name of this test used for tracking/logging purposes by test engines.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -49,10 +49,10 @@ class TestScriptTestType extends BackboneElementType
      *
      * The name of this test used for tracking/logging purposes by test engines.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -63,7 +63,7 @@ class TestScriptTestType extends BackboneElementType
      *
      * A short description of the test used by test engines for tracking and reporting purposes.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -75,10 +75,10 @@ class TestScriptTestType extends BackboneElementType
      *
      * A short description of the test used by test engines for tracking and reporting purposes.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

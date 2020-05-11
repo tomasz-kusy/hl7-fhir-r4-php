@@ -63,7 +63,7 @@ class FamilyMemberHistoryType extends DomainResourceType
     /**
      * This will either be a name or a description; e.g. "Aunt Susan", "my cousin with the red hair".
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -98,7 +98,7 @@ class FamilyMemberHistoryType extends DomainResourceType
     /**
      * The actual or approximate date of birth of the relative. (choose any one of born*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $bornString
+     * @var string $bornString
      */
     private $bornString = null;
 
@@ -119,21 +119,21 @@ class FamilyMemberHistoryType extends DomainResourceType
     /**
      * The age of the relative at the time the family member history is recorded. (choose any one of age*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $ageString
+     * @var string $ageString
      */
     private $ageString = null;
 
     /**
      * If true, indicates that the age value specified is an estimated value.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $estimatedAge
+     * @var bool $estimatedAge
      */
     private $estimatedAge = null;
 
     /**
      * Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record. (choose any one of deceased*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $deceasedBoolean
+     * @var bool $deceasedBoolean
      */
     private $deceasedBoolean = null;
 
@@ -161,7 +161,7 @@ class FamilyMemberHistoryType extends DomainResourceType
     /**
      * Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record. (choose any one of deceased*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $deceasedString
+     * @var string $deceasedString
      */
     private $deceasedString = null;
 
@@ -500,7 +500,7 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * This will either be a name or a description; e.g. "Aunt Susan", "my cousin with the red hair".
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -512,10 +512,10 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * This will either be a name or a description; e.g. "Aunt Susan", "my cousin with the red hair".
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -630,7 +630,7 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * The actual or approximate date of birth of the relative. (choose any one of born*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getBornString()
     {
@@ -642,10 +642,10 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * The actual or approximate date of birth of the relative. (choose any one of born*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $bornString
+     * @param string $bornString
      * @return self
      */
-    public function setBornString(\TKusy\Hl7FhirR4\StringType $bornString)
+    public function setBornString($bornString)
     {
         $this->bornString = $bornString;
         return $this;
@@ -708,7 +708,7 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * The age of the relative at the time the family member history is recorded. (choose any one of age*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAgeString()
     {
@@ -720,10 +720,10 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * The age of the relative at the time the family member history is recorded. (choose any one of age*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $ageString
+     * @param string $ageString
      * @return self
      */
-    public function setAgeString(\TKusy\Hl7FhirR4\StringType $ageString)
+    public function setAgeString($ageString)
     {
         $this->ageString = $ageString;
         return $this;
@@ -734,7 +734,7 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * If true, indicates that the age value specified is an estimated value.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getEstimatedAge()
     {
@@ -746,10 +746,10 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * If true, indicates that the age value specified is an estimated value.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $estimatedAge
+     * @param bool $estimatedAge
      * @return self
      */
-    public function setEstimatedAge(\TKusy\Hl7FhirR4\BooleanType $estimatedAge)
+    public function setEstimatedAge($estimatedAge)
     {
         $this->estimatedAge = $estimatedAge;
         return $this;
@@ -760,7 +760,7 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record. (choose any one of deceased*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getDeceasedBoolean()
     {
@@ -772,10 +772,10 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record. (choose any one of deceased*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $deceasedBoolean
+     * @param bool $deceasedBoolean
      * @return self
      */
-    public function setDeceasedBoolean(\TKusy\Hl7FhirR4\BooleanType $deceasedBoolean)
+    public function setDeceasedBoolean($deceasedBoolean)
     {
         $this->deceasedBoolean = $deceasedBoolean;
         return $this;
@@ -864,7 +864,7 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record. (choose any one of deceased*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDeceasedString()
     {
@@ -876,10 +876,10 @@ class FamilyMemberHistoryType extends DomainResourceType
      *
      * Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record. (choose any one of deceased*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $deceasedString
+     * @param string $deceasedString
      * @return self
      */
-    public function setDeceasedString(\TKusy\Hl7FhirR4\StringType $deceasedString)
+    public function setDeceasedString($deceasedString)
     {
         $this->deceasedString = $deceasedString;
         return $this;

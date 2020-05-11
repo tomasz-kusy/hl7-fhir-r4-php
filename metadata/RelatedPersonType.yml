@@ -25,7 +25,7 @@ TKusy\Hl7FhirR4\RelatedPersonType:
             accessor:
                 getter: getActive
                 setter: setActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         patient:
             expose: true
             access_type: public_method

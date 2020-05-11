@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\InvoiceType:
             accessor:
                 getter: getCancelledReason
                 setter: setCancelledReason
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method

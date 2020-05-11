@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             accessor:
                 getter: getAmountString
                 setter: setAmountString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         amountType:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\SubstanceAmountType:
             accessor:
                 getter: getAmountText
                 setter: setAmountText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         referenceRange:
             expose: true
             access_type: public_method

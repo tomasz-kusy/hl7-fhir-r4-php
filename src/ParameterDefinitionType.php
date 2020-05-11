@@ -28,21 +28,21 @@ class ParameterDefinitionType extends ElementType
     /**
      * The minimum number of times this parameter SHALL appear in the request or response.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $min
+     * @var \integer $min
      */
     private $min = null;
 
     /**
      * The maximum number of times this element is permitted to appear in the request or response.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $max
+     * @var string $max
      */
     private $max = null;
 
     /**
      * A brief discussion of what the parameter is for and how it is used by the module.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $documentation
+     * @var string $documentation
      */
     private $documentation = null;
 
@@ -117,7 +117,7 @@ class ParameterDefinitionType extends ElementType
      *
      * The minimum number of times this parameter SHALL appear in the request or response.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getMin()
     {
@@ -129,10 +129,10 @@ class ParameterDefinitionType extends ElementType
      *
      * The minimum number of times this parameter SHALL appear in the request or response.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $min
+     * @param \integer $min
      * @return self
      */
-    public function setMin(\TKusy\Hl7FhirR4\IntegerType $min)
+    public function setMin(\integer $min)
     {
         $this->min = $min;
         return $this;
@@ -143,7 +143,7 @@ class ParameterDefinitionType extends ElementType
      *
      * The maximum number of times this element is permitted to appear in the request or response.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getMax()
     {
@@ -155,10 +155,10 @@ class ParameterDefinitionType extends ElementType
      *
      * The maximum number of times this element is permitted to appear in the request or response.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $max
+     * @param string $max
      * @return self
      */
-    public function setMax(\TKusy\Hl7FhirR4\StringType $max)
+    public function setMax($max)
     {
         $this->max = $max;
         return $this;
@@ -169,7 +169,7 @@ class ParameterDefinitionType extends ElementType
      *
      * A brief discussion of what the parameter is for and how it is used by the module.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDocumentation()
     {
@@ -181,10 +181,10 @@ class ParameterDefinitionType extends ElementType
      *
      * A brief discussion of what the parameter is for and how it is used by the module.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $documentation
+     * @param string $documentation
      * @return self
      */
-    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
+    public function setDocumentation($documentation)
     {
         $this->documentation = $documentation;
         return $this;

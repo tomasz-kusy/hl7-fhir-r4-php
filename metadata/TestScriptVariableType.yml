@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         defaultValue:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getDefaultValue
                 setter: setDefaultValue
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         expression:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getExpression
                 setter: setExpression
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         headerField:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getHeaderField
                 setter: setHeaderField
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         hint:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getHint
                 setter: setHint
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         path:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\TestScriptVariableType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         sourceId:
             expose: true
             access_type: public_method

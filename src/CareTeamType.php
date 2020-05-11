@@ -35,7 +35,7 @@ class CareTeamType extends DomainResourceType
     /**
      * A label for human use intended to distinguish like teams. E.g. the "red" vs. "green" trauma teams.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -265,7 +265,7 @@ class CareTeamType extends DomainResourceType
      *
      * A label for human use intended to distinguish like teams. E.g. the "red" vs. "green" trauma teams.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -277,10 +277,10 @@ class CareTeamType extends DomainResourceType
      *
      * A label for human use intended to distinguish like teams. E.g. the "red" vs. "green" trauma teams.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;

@@ -28,7 +28,7 @@ class DeviceDefinitionType extends DomainResourceType
     /**
      * A name of the manufacturer. (choose any one of manufacturer*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $manufacturerString
+     * @var string $manufacturerString
      */
     private $manufacturerString = null;
 
@@ -49,7 +49,7 @@ class DeviceDefinitionType extends DomainResourceType
     /**
      * The model number for the device.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $modelNumber
+     * @var string $modelNumber
      */
     private $modelNumber = null;
 
@@ -70,7 +70,7 @@ class DeviceDefinitionType extends DomainResourceType
     /**
      * The available versions of the device, e.g., software versions.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $version
+     * @var string[] $version
      */
     private $version = null;
 
@@ -309,7 +309,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * A name of the manufacturer. (choose any one of manufacturer*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getManufacturerString()
     {
@@ -321,10 +321,10 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * A name of the manufacturer. (choose any one of manufacturer*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $manufacturerString
+     * @param string $manufacturerString
      * @return self
      */
-    public function setManufacturerString(\TKusy\Hl7FhirR4\StringType $manufacturerString)
+    public function setManufacturerString($manufacturerString)
     {
         $this->manufacturerString = $manufacturerString;
         return $this;
@@ -427,7 +427,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * The model number for the device.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getModelNumber()
     {
@@ -439,10 +439,10 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * The model number for the device.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $modelNumber
+     * @param string $modelNumber
      * @return self
      */
-    public function setModelNumber(\TKusy\Hl7FhirR4\StringType $modelNumber)
+    public function setModelNumber($modelNumber)
     {
         $this->modelNumber = $modelNumber;
         return $this;
@@ -546,9 +546,9 @@ class DeviceDefinitionType extends DomainResourceType
      * The available versions of the device, e.g., software versions.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $version
+     * @param string $version
      */
-    public function addToVersion(\TKusy\Hl7FhirR4\StringType $version)
+    public function addToVersion($version)
     {
         $this->version[] = $version;
         return $this;
@@ -585,7 +585,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * The available versions of the device, e.g., software versions.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getVersion()
     {
@@ -597,7 +597,7 @@ class DeviceDefinitionType extends DomainResourceType
      *
      * The available versions of the device, e.g., software versions.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $version
+     * @param string[] $version
      * @return self
      */
     public function setVersion(array $version)

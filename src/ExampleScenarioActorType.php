@@ -14,7 +14,7 @@ class ExampleScenarioActorType extends BackboneElementType
     /**
      * ID or acronym of actor.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $actorId
+     * @var string $actorId
      */
     private $actorId = null;
 
@@ -28,7 +28,7 @@ class ExampleScenarioActorType extends BackboneElementType
     /**
      * The name of the actor as shown in the page.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
@@ -44,7 +44,7 @@ class ExampleScenarioActorType extends BackboneElementType
      *
      * ID or acronym of actor.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getActorId()
     {
@@ -56,10 +56,10 @@ class ExampleScenarioActorType extends BackboneElementType
      *
      * ID or acronym of actor.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $actorId
+     * @param string $actorId
      * @return self
      */
-    public function setActorId(\TKusy\Hl7FhirR4\StringType $actorId)
+    public function setActorId($actorId)
     {
         $this->actorId = $actorId;
         return $this;
@@ -96,7 +96,7 @@ class ExampleScenarioActorType extends BackboneElementType
      *
      * The name of the actor as shown in the page.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -108,10 +108,10 @@ class ExampleScenarioActorType extends BackboneElementType
      *
      * The name of the actor as shown in the page.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         unitOfMeasure:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             accessor:
                 getter: getDenominatorCount
                 setter: setDenominatorCount
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         numeratorCount:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\RiskEvidenceSynthesisRiskEstimateType:
             accessor:
                 getter: getNumeratorCount
                 setter: setNumeratorCount
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         precisionEstimate:
             expose: true
             access_type: public_method

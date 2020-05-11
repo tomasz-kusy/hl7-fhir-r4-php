@@ -140,7 +140,7 @@ class ImagingStudyType extends DomainResourceType
     /**
      * The Imaging Manager description of the study. Institution-generated description or classification of the Study (component) performed.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -984,7 +984,7 @@ class ImagingStudyType extends DomainResourceType
      *
      * The Imaging Manager description of the study. Institution-generated description or classification of the Study (component) performed.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -996,10 +996,10 @@ class ImagingStudyType extends DomainResourceType
      *
      * The Imaging Manager description of the study. Institution-generated description or classification of the Study (component) performed.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

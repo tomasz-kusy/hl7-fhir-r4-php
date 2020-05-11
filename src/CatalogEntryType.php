@@ -28,7 +28,7 @@ class CatalogEntryType extends DomainResourceType
     /**
      * Whether the entry represents an orderable item.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $orderable
+     * @var bool $orderable
      */
     private $orderable = null;
 
@@ -199,7 +199,7 @@ class CatalogEntryType extends DomainResourceType
      *
      * Whether the entry represents an orderable item.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getOrderable()
     {
@@ -211,10 +211,10 @@ class CatalogEntryType extends DomainResourceType
      *
      * Whether the entry represents an orderable item.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $orderable
+     * @param bool $orderable
      * @return self
      */
-    public function setOrderable(\TKusy\Hl7FhirR4\BooleanType $orderable)
+    public function setOrderable($orderable)
     {
         $this->orderable = $orderable;
         return $this;

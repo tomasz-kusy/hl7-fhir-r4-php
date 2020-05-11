@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\DeviceDefinitionSpecializationType:
             accessor:
                 getter: getSystemType
                 setter: setSystemType
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         version:
             expose: true
             access_type: public_method
@@ -21,4 +21,4 @@ TKusy\Hl7FhirR4\DeviceDefinitionSpecializationType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

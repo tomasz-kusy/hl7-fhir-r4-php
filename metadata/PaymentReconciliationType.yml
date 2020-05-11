@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\PaymentReconciliationType:
             accessor:
                 getter: getDisposition
                 setter: setDisposition
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         paymentDate:
             expose: true
             access_type: public_method

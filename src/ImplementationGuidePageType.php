@@ -28,7 +28,7 @@ class ImplementationGuidePageType extends BackboneElementType
     /**
      * A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
@@ -103,7 +103,7 @@ class ImplementationGuidePageType extends BackboneElementType
      *
      * A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -115,10 +115,10 @@ class ImplementationGuidePageType extends BackboneElementType
      *
      * A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;

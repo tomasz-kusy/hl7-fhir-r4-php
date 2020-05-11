@@ -14,21 +14,21 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
     /**
      * For version-less code systems, there should be a single version with no identifier.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $code
+     * @var string $code
      */
     private $code = null;
 
     /**
      * If this is the default version for this code system.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $isDefault
+     * @var bool $isDefault
      */
     private $isDefault = null;
 
     /**
      * If the compositional grammar defined by the code system is supported.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $compositional
+     * @var bool $compositional
      */
     private $compositional = null;
 
@@ -58,7 +58,7 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * For version-less code systems, there should be a single version with no identifier.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getCode()
     {
@@ -70,10 +70,10 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * For version-less code systems, there should be a single version with no identifier.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $code
+     * @param string $code
      * @return self
      */
-    public function setCode(\TKusy\Hl7FhirR4\StringType $code)
+    public function setCode($code)
     {
         $this->code = $code;
         return $this;
@@ -84,7 +84,7 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * If this is the default version for this code system.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getIsDefault()
     {
@@ -96,10 +96,10 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * If this is the default version for this code system.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $isDefault
+     * @param bool $isDefault
      * @return self
      */
-    public function setIsDefault(\TKusy\Hl7FhirR4\BooleanType $isDefault)
+    public function setIsDefault($isDefault)
     {
         $this->isDefault = $isDefault;
         return $this;
@@ -110,7 +110,7 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * If the compositional grammar defined by the code system is supported.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getCompositional()
     {
@@ -122,10 +122,10 @@ class TerminologyCapabilitiesVersionType extends BackboneElementType
      *
      * If the compositional grammar defined by the code system is supported.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $compositional
+     * @param bool $compositional
      * @return self
      */
-    public function setCompositional(\TKusy\Hl7FhirR4\BooleanType $compositional)
+    public function setCompositional($compositional)
     {
         $this->compositional = $compositional;
         return $this;

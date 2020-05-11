@@ -14,49 +14,49 @@ class TestScriptVariableType extends BackboneElementType
     /**
      * Descriptive name for this variable.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * A default, hard-coded, or user-defined value for this variable.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $defaultValue
+     * @var string $defaultValue
      */
     private $defaultValue = null;
 
     /**
      * A free text natural language description of the variable and its purpose.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
     /**
      * The FHIRPath expression to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $expression
+     * @var string $expression
      */
     private $expression = null;
 
     /**
      * Will be used to grab the HTTP header field value from the headers that sourceId is pointing to.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $headerField
+     * @var string $headerField
      */
     private $headerField = null;
 
     /**
      * Displayable text string with hint help information to the user when entering a default value.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $hint
+     * @var string $hint
      */
     private $hint = null;
 
     /**
      * XPath or JSONPath to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $path
+     * @var string $path
      */
     private $path = null;
 
@@ -72,7 +72,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * Descriptive name for this variable.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -84,10 +84,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * Descriptive name for this variable.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -98,7 +98,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * A default, hard-coded, or user-defined value for this variable.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDefaultValue()
     {
@@ -110,10 +110,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * A default, hard-coded, or user-defined value for this variable.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $defaultValue
+     * @param string $defaultValue
      * @return self
      */
-    public function setDefaultValue(\TKusy\Hl7FhirR4\StringType $defaultValue)
+    public function setDefaultValue($defaultValue)
     {
         $this->defaultValue = $defaultValue;
         return $this;
@@ -124,7 +124,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * A free text natural language description of the variable and its purpose.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -136,10 +136,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * A free text natural language description of the variable and its purpose.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -150,7 +150,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * The FHIRPath expression to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getExpression()
     {
@@ -162,10 +162,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * The FHIRPath expression to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $expression
+     * @param string $expression
      * @return self
      */
-    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
+    public function setExpression($expression)
     {
         $this->expression = $expression;
         return $this;
@@ -176,7 +176,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * Will be used to grab the HTTP header field value from the headers that sourceId is pointing to.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getHeaderField()
     {
@@ -188,10 +188,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * Will be used to grab the HTTP header field value from the headers that sourceId is pointing to.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $headerField
+     * @param string $headerField
      * @return self
      */
-    public function setHeaderField(\TKusy\Hl7FhirR4\StringType $headerField)
+    public function setHeaderField($headerField)
     {
         $this->headerField = $headerField;
         return $this;
@@ -202,7 +202,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * Displayable text string with hint help information to the user when entering a default value.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getHint()
     {
@@ -214,10 +214,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * Displayable text string with hint help information to the user when entering a default value.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $hint
+     * @param string $hint
      * @return self
      */
-    public function setHint(\TKusy\Hl7FhirR4\StringType $hint)
+    public function setHint($hint)
     {
         $this->hint = $hint;
         return $this;
@@ -228,7 +228,7 @@ class TestScriptVariableType extends BackboneElementType
      *
      * XPath or JSONPath to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPath()
     {
@@ -240,10 +240,10 @@ class TestScriptVariableType extends BackboneElementType
      *
      * XPath or JSONPath to evaluate against the fixture body. When variables are defined, only one of either expression, headerField or path must be specified.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $path
+     * @param string $path
      * @return self
      */
-    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
+    public function setPath($path)
     {
         $this->path = $path;
         return $this;

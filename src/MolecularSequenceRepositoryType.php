@@ -28,28 +28,28 @@ class MolecularSequenceRepositoryType extends BackboneElementType
     /**
      * URI of an external repository which contains further details about the genetics data.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * Id of the variant in this external repository. The server will understand how to use this id to call for more info about datasets in external repository.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $datasetId
+     * @var string $datasetId
      */
     private $datasetId = null;
 
     /**
      * Id of the variantset in this external repository. The server will understand how to use this id to call for more info about variantsets in external repository.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $variantsetId
+     * @var string $variantsetId
      */
     private $variantsetId = null;
 
     /**
      * Id of the read in this external repository.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $readsetId
+     * @var string $readsetId
      */
     private $readsetId = null;
 
@@ -110,7 +110,7 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * URI of an external repository which contains further details about the genetics data.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -122,10 +122,10 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * URI of an external repository which contains further details about the genetics data.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -136,7 +136,7 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Id of the variant in this external repository. The server will understand how to use this id to call for more info about datasets in external repository.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDatasetId()
     {
@@ -148,10 +148,10 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Id of the variant in this external repository. The server will understand how to use this id to call for more info about datasets in external repository.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $datasetId
+     * @param string $datasetId
      * @return self
      */
-    public function setDatasetId(\TKusy\Hl7FhirR4\StringType $datasetId)
+    public function setDatasetId($datasetId)
     {
         $this->datasetId = $datasetId;
         return $this;
@@ -162,7 +162,7 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Id of the variantset in this external repository. The server will understand how to use this id to call for more info about variantsets in external repository.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getVariantsetId()
     {
@@ -174,10 +174,10 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Id of the variantset in this external repository. The server will understand how to use this id to call for more info about variantsets in external repository.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $variantsetId
+     * @param string $variantsetId
      * @return self
      */
-    public function setVariantsetId(\TKusy\Hl7FhirR4\StringType $variantsetId)
+    public function setVariantsetId($variantsetId)
     {
         $this->variantsetId = $variantsetId;
         return $this;
@@ -188,7 +188,7 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Id of the read in this external repository.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getReadsetId()
     {
@@ -200,10 +200,10 @@ class MolecularSequenceRepositoryType extends BackboneElementType
      *
      * Id of the read in this external repository.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $readsetId
+     * @param string $readsetId
      * @return self
      */
-    public function setReadsetId(\TKusy\Hl7FhirR4\StringType $readsetId)
+    public function setReadsetId($readsetId)
     {
         $this->readsetId = $readsetId;
         return $this;

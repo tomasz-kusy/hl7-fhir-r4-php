@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         representation:
             expose: true
             access_type: public_method
@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getSliceName
                 setter: setSliceName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         sliceIsConstraining:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getSliceIsConstraining
                 setter: setSliceIsConstraining
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         label:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getLabel
                 setter: setLabel
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         code:
             expose: true
             access_type: public_method
@@ -95,7 +95,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getShort
                 setter: setShort
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         definition:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
                 inline: true
                 entry_name: alias
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         min:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMax
                 setter: setMax
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         base:
             expose: true
             access_type: public_method
@@ -224,7 +224,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getDefaultValueBoolean
                 setter: setDefaultValueBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         defaultValueCanonical:
             expose: true
             access_type: public_method
@@ -279,7 +279,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getDefaultValueDecimal
                 setter: setDefaultValueDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         defaultValueId:
             expose: true
             access_type: public_method
@@ -312,7 +312,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getDefaultValueInteger
                 setter: setDefaultValueInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         defaultValueMarkdown:
             expose: true
             access_type: public_method
@@ -356,7 +356,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getDefaultValueString
                 setter: setDefaultValueString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         defaultValueTime:
             expose: true
             access_type: public_method
@@ -774,7 +774,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getOrderMeaning
                 setter: setOrderMeaning
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         fixedBase64Binary:
             expose: true
             access_type: public_method
@@ -796,7 +796,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getFixedBoolean
                 setter: setFixedBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         fixedCanonical:
             expose: true
             access_type: public_method
@@ -851,7 +851,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getFixedDecimal
                 setter: setFixedDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         fixedId:
             expose: true
             access_type: public_method
@@ -884,7 +884,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getFixedInteger
                 setter: setFixedInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         fixedMarkdown:
             expose: true
             access_type: public_method
@@ -928,7 +928,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getFixedString
                 setter: setFixedString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         fixedTime:
             expose: true
             access_type: public_method
@@ -1346,7 +1346,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getPatternBoolean
                 setter: setPatternBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         patternCanonical:
             expose: true
             access_type: public_method
@@ -1401,7 +1401,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getPatternDecimal
                 setter: setPatternDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         patternId:
             expose: true
             access_type: public_method
@@ -1434,7 +1434,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getPatternInteger
                 setter: setPatternInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         patternMarkdown:
             expose: true
             access_type: public_method
@@ -1478,7 +1478,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getPatternString
                 setter: setPatternString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         patternTime:
             expose: true
             access_type: public_method
@@ -1944,7 +1944,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMinValueDecimal
                 setter: setMinValueDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         minValueInteger:
             expose: true
             access_type: public_method
@@ -1955,7 +1955,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMinValueInteger
                 setter: setMinValueInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         minValuePositiveInt:
             expose: true
             access_type: public_method
@@ -2043,7 +2043,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMaxValueDecimal
                 setter: setMaxValueDecimal
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         maxValueInteger:
             expose: true
             access_type: public_method
@@ -2054,7 +2054,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMaxValueInteger
                 setter: setMaxValueInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         maxValuePositiveInt:
             expose: true
             access_type: public_method
@@ -2098,7 +2098,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMaxLength
                 setter: setMaxLength
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         condition:
             expose: true
             access_type: public_method
@@ -2139,7 +2139,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getMustSupport
                 setter: setMustSupport
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         isModifier:
             expose: true
             access_type: public_method
@@ -2150,7 +2150,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getIsModifier
                 setter: setIsModifier
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         isModifierReason:
             expose: true
             access_type: public_method
@@ -2161,7 +2161,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getIsModifierReason
                 setter: setIsModifierReason
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         isSummary:
             expose: true
             access_type: public_method
@@ -2172,7 +2172,7 @@ TKusy\Hl7FhirR4\ElementDefinitionType:
             accessor:
                 getter: getIsSummary
                 setter: setIsSummary
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         binding:
             expose: true
             access_type: public_method

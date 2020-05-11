@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ListEntryType:
             accessor:
                 getter: getDeleted
                 setter: setDeleted
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         date:
             expose: true
             access_type: public_method

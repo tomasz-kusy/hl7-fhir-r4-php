@@ -35,7 +35,7 @@ class IdentifierType extends ElementType
     /**
      * The portion of the identifier typically relevant to the user and which is unique within the context of the system.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
@@ -136,7 +136,7 @@ class IdentifierType extends ElementType
      *
      * The portion of the identifier typically relevant to the user and which is unique within the context of the system.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -148,10 +148,10 @@ class IdentifierType extends ElementType
      *
      * The portion of the identifier typically relevant to the user and which is unique within the context of the system.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;

@@ -35,21 +35,21 @@ class AuditEventAgentType extends BackboneElementType
     /**
      * Alternative agent Identifier. For a human, this should be a user identifier text string from authentication system. This identifier would be one known to a common authentication system (e.g. single sign-on), if available.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $altId
+     * @var string $altId
      */
     private $altId = null;
 
     /**
      * Human-meaningful name for the agent.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * Indicator that the user is or is not the requestor, or initiator, for the event being audited.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $requestor
+     * @var bool $requestor
      */
     private $requestor = null;
 
@@ -211,7 +211,7 @@ class AuditEventAgentType extends BackboneElementType
      *
      * Alternative agent Identifier. For a human, this should be a user identifier text string from authentication system. This identifier would be one known to a common authentication system (e.g. single sign-on), if available.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAltId()
     {
@@ -223,10 +223,10 @@ class AuditEventAgentType extends BackboneElementType
      *
      * Alternative agent Identifier. For a human, this should be a user identifier text string from authentication system. This identifier would be one known to a common authentication system (e.g. single sign-on), if available.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $altId
+     * @param string $altId
      * @return self
      */
-    public function setAltId(\TKusy\Hl7FhirR4\StringType $altId)
+    public function setAltId($altId)
     {
         $this->altId = $altId;
         return $this;
@@ -237,7 +237,7 @@ class AuditEventAgentType extends BackboneElementType
      *
      * Human-meaningful name for the agent.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -249,10 +249,10 @@ class AuditEventAgentType extends BackboneElementType
      *
      * Human-meaningful name for the agent.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -263,7 +263,7 @@ class AuditEventAgentType extends BackboneElementType
      *
      * Indicator that the user is or is not the requestor, or initiator, for the event being audited.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getRequestor()
     {
@@ -275,10 +275,10 @@ class AuditEventAgentType extends BackboneElementType
      *
      * Indicator that the user is or is not the requestor, or initiator, for the event being audited.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $requestor
+     * @param bool $requestor
      * @return self
      */
-    public function setRequestor(\TKusy\Hl7FhirR4\BooleanType $requestor)
+    public function setRequestor($requestor)
     {
         $this->requestor = $requestor;
         return $this;

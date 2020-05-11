@@ -28,21 +28,21 @@ class ImplementationGuideResourceType extends BackboneElementType
     /**
      * A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
      *
-     * @var \TKusy\Hl7FhirR4\StringType $name
+     * @var string $name
      */
     private $name = null;
 
     /**
      * A description of the reason that a resource has been included in the implementation guide.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
     /**
      * If true or a reference, indicates the resource is an example instance. If a reference is present, indicates that the example is an example of the specified profile. (choose any one of example*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $exampleBoolean
+     * @var bool $exampleBoolean
      */
     private $exampleBoolean = null;
 
@@ -157,7 +157,7 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getName()
     {
@@ -169,10 +169,10 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
      *
-     * @param \TKusy\Hl7FhirR4\StringType $name
+     * @param string $name
      * @return self
      */
-    public function setName(\TKusy\Hl7FhirR4\StringType $name)
+    public function setName($name)
     {
         $this->name = $name;
         return $this;
@@ -183,7 +183,7 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * A description of the reason that a resource has been included in the implementation guide.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -195,10 +195,10 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * A description of the reason that a resource has been included in the implementation guide.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -209,7 +209,7 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * If true or a reference, indicates the resource is an example instance. If a reference is present, indicates that the example is an example of the specified profile. (choose any one of example*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getExampleBoolean()
     {
@@ -221,10 +221,10 @@ class ImplementationGuideResourceType extends BackboneElementType
      *
      * If true or a reference, indicates the resource is an example instance. If a reference is present, indicates that the example is an example of the specified profile. (choose any one of example*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $exampleBoolean
+     * @param bool $exampleBoolean
      * @return self
      */
-    public function setExampleBoolean(\TKusy\Hl7FhirR4\BooleanType $exampleBoolean)
+    public function setExampleBoolean($exampleBoolean)
     {
         $this->exampleBoolean = $exampleBoolean;
         return $this;

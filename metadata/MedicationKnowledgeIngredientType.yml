@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\MedicationKnowledgeIngredientType:
             accessor:
                 getter: getIsActive
                 setter: setIsActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         strength:
             expose: true
             access_type: public_method

@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getNumber
                 setter: setNumber
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         type:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getType
                 setter: setType
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         name:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         initiator:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getInitiator
                 setter: setInitiator
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         receiver:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getReceiver
                 setter: setReceiver
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         description:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getInitiatorActive
                 setter: setInitiatorActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         receiverActive:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ TKusy\Hl7FhirR4\ExampleScenarioOperationType:
             accessor:
                 getter: getReceiverActive
                 setter: setReceiverActive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         request:
             expose: true
             access_type: public_method

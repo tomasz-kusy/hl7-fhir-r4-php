@@ -21,7 +21,7 @@ class LocationHoursOfOperationType extends BackboneElementType
     /**
      * The Location is open all day.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $allDay
+     * @var bool $allDay
      */
     private $allDay = null;
 
@@ -110,7 +110,7 @@ class LocationHoursOfOperationType extends BackboneElementType
      *
      * The Location is open all day.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAllDay()
     {
@@ -122,10 +122,10 @@ class LocationHoursOfOperationType extends BackboneElementType
      *
      * The Location is open all day.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $allDay
+     * @param bool $allDay
      * @return self
      */
-    public function setAllDay(\TKusy\Hl7FhirR4\BooleanType $allDay)
+    public function setAllDay($allDay)
     {
         $this->allDay = $allDay;
         return $this;

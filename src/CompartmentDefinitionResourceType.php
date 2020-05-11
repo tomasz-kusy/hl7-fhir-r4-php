@@ -21,14 +21,14 @@ class CompartmentDefinitionResourceType extends BackboneElementType
     /**
      * The name of a search parameter that represents the link to the compartment. More than one may be listed because a resource may be linked to a compartment in more than one way,.
      *
-     * @var \TKusy\Hl7FhirR4\StringType[] $param
+     * @var string[] $param
      */
     private $param = null;
 
     /**
      * Additional documentation about the resource and compartment.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $documentation
+     * @var string $documentation
      */
     private $documentation = null;
 
@@ -64,9 +64,9 @@ class CompartmentDefinitionResourceType extends BackboneElementType
      * The name of a search parameter that represents the link to the compartment. More than one may be listed because a resource may be linked to a compartment in more than one way,.
      *
      * @return self
-     * @param \TKusy\Hl7FhirR4\StringType $param
+     * @param string $param
      */
-    public function addToParam(\TKusy\Hl7FhirR4\StringType $param)
+    public function addToParam($param)
     {
         $this->param[] = $param;
         return $this;
@@ -103,7 +103,7 @@ class CompartmentDefinitionResourceType extends BackboneElementType
      *
      * The name of a search parameter that represents the link to the compartment. More than one may be listed because a resource may be linked to a compartment in more than one way,.
      *
-     * @return \TKusy\Hl7FhirR4\StringType[]
+     * @return string[]
      */
     public function getParam()
     {
@@ -115,7 +115,7 @@ class CompartmentDefinitionResourceType extends BackboneElementType
      *
      * The name of a search parameter that represents the link to the compartment. More than one may be listed because a resource may be linked to a compartment in more than one way,.
      *
-     * @param \TKusy\Hl7FhirR4\StringType[] $param
+     * @param string[] $param
      * @return self
      */
     public function setParam(array $param)
@@ -129,7 +129,7 @@ class CompartmentDefinitionResourceType extends BackboneElementType
      *
      * Additional documentation about the resource and compartment.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDocumentation()
     {
@@ -141,10 +141,10 @@ class CompartmentDefinitionResourceType extends BackboneElementType
      *
      * Additional documentation about the resource and compartment.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $documentation
+     * @param string $documentation
      * @return self
      */
-    public function setDocumentation(\TKusy\Hl7FhirR4\StringType $documentation)
+    public function setDocumentation($documentation)
     {
         $this->documentation = $documentation;
         return $this;

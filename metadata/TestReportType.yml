@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\TestReportType:
             accessor:
                 getter: getName
                 setter: setName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         status:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\TestReportType:
             accessor:
                 getter: getScore
                 setter: setScore
-            type: TKusy\Hl7FhirR4\DecimalType
+            type: float
         tester:
             expose: true
             access_type: public_method
@@ -76,7 +76,7 @@ TKusy\Hl7FhirR4\TestReportType:
             accessor:
                 getter: getTester
                 setter: setTester
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         issued:
             expose: true
             access_type: public_method

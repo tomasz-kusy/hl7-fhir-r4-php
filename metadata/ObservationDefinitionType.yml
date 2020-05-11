@@ -66,7 +66,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             accessor:
                 getter: getMultipleResultsAllowed
                 setter: setMultipleResultsAllowed
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         method:
             expose: true
             access_type: public_method
@@ -88,7 +88,7 @@ TKusy\Hl7FhirR4\ObservationDefinitionType:
             accessor:
                 getter: getPreferredReportName
                 setter: setPreferredReportName
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         quantitativeDetails:
             expose: true
             access_type: public_method

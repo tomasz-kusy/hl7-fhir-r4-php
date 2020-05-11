@@ -35,7 +35,7 @@ class InsurancePlanGeneralCostType extends BackboneElementType
     /**
      * Additional information about the general costs associated with this plan.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $comment
+     * @var string $comment
      */
     private $comment = null;
 
@@ -122,7 +122,7 @@ class InsurancePlanGeneralCostType extends BackboneElementType
      *
      * Additional information about the general costs associated with this plan.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getComment()
     {
@@ -134,10 +134,10 @@ class InsurancePlanGeneralCostType extends BackboneElementType
      *
      * Additional information about the general costs associated with this plan.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $comment
+     * @param string $comment
      * @return self
      */
-    public function setComment(\TKusy\Hl7FhirR4\StringType $comment)
+    public function setComment($comment)
     {
         $this->comment = $comment;
         return $this;

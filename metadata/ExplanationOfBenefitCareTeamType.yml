@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\ExplanationOfBenefitCareTeamType:
             accessor:
                 getter: getResponsible
                 setter: setResponsible
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         role:
             expose: true
             access_type: public_method

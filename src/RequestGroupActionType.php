@@ -14,28 +14,28 @@ class RequestGroupActionType extends BackboneElementType
     /**
      * A user-visible prefix for the action.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $prefix
+     * @var string $prefix
      */
     private $prefix = null;
 
     /**
      * The title of the action displayed to a user.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $title
+     * @var string $title
      */
     private $title = null;
 
     /**
      * A short description of the action used to provide a summary to display to the user.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
     /**
      * A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $textEquivalent
+     * @var string $textEquivalent
      */
     private $textEquivalent = null;
 
@@ -184,7 +184,7 @@ class RequestGroupActionType extends BackboneElementType
      *
      * A user-visible prefix for the action.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPrefix()
     {
@@ -196,10 +196,10 @@ class RequestGroupActionType extends BackboneElementType
      *
      * A user-visible prefix for the action.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $prefix
+     * @param string $prefix
      * @return self
      */
-    public function setPrefix(\TKusy\Hl7FhirR4\StringType $prefix)
+    public function setPrefix($prefix)
     {
         $this->prefix = $prefix;
         return $this;
@@ -210,7 +210,7 @@ class RequestGroupActionType extends BackboneElementType
      *
      * The title of the action displayed to a user.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTitle()
     {
@@ -222,10 +222,10 @@ class RequestGroupActionType extends BackboneElementType
      *
      * The title of the action displayed to a user.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $title
+     * @param string $title
      * @return self
      */
-    public function setTitle(\TKusy\Hl7FhirR4\StringType $title)
+    public function setTitle($title)
     {
         $this->title = $title;
         return $this;
@@ -236,7 +236,7 @@ class RequestGroupActionType extends BackboneElementType
      *
      * A short description of the action used to provide a summary to display to the user.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -248,10 +248,10 @@ class RequestGroupActionType extends BackboneElementType
      *
      * A short description of the action used to provide a summary to display to the user.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -262,7 +262,7 @@ class RequestGroupActionType extends BackboneElementType
      *
      * A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getTextEquivalent()
     {
@@ -274,10 +274,10 @@ class RequestGroupActionType extends BackboneElementType
      *
      * A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $textEquivalent
+     * @param string $textEquivalent
      * @return self
      */
-    public function setTextEquivalent(\TKusy\Hl7FhirR4\StringType $textEquivalent)
+    public function setTextEquivalent($textEquivalent)
     {
         $this->textEquivalent = $textEquivalent;
         return $this;

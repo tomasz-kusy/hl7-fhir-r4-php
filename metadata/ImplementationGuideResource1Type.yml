@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ImplementationGuideResource1Type:
             accessor:
                 getter: getExampleBoolean
                 setter: setExampleBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         exampleCanonical:
             expose: true
             access_type: public_method

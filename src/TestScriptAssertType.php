@@ -14,14 +14,14 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The label would be used for tracking/logging purposes by test engines.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $label
+     * @var string $label
      */
     private $label = null;
 
     /**
      * The description would be used by test engines for tracking and reporting purposes.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -35,21 +35,21 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * Id of the source fixture used as the contents to be evaluated by either the "source/expression" or "sourceId/path" definition.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $compareToSourceId
+     * @var string $compareToSourceId
      */
     private $compareToSourceId = null;
 
     /**
      * The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $compareToSourceExpression
+     * @var string $compareToSourceExpression
      */
     private $compareToSourceExpression = null;
 
     /**
      * XPath or JSONPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $compareToSourcePath
+     * @var string $compareToSourcePath
      */
     private $compareToSourcePath = null;
 
@@ -63,28 +63,28 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The FHIRPath expression to be evaluated against the request or response message contents - HTTP headers and payload.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $expression
+     * @var string $expression
      */
     private $expression = null;
 
     /**
      * The HTTP header field name e.g. 'Location'.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $headerField
+     * @var string $headerField
      */
     private $headerField = null;
 
     /**
      * The ID of a fixture. Asserts that the response contains at a minimum the fixture specified by minimumId.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $minimumId
+     * @var string $minimumId
      */
     private $minimumId = null;
 
     /**
      * Whether or not the test execution performs validation on the bundle navigation links.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $navigationLinks
+     * @var bool $navigationLinks
      */
     private $navigationLinks = null;
 
@@ -98,7 +98,7 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The XPath or JSONPath expression to be evaluated against the fixture representing the response received from server.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $path
+     * @var string $path
      */
     private $path = null;
 
@@ -112,7 +112,7 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The value to use in a comparison against the request URL path string.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $requestURL
+     * @var string $requestURL
      */
     private $requestURL = null;
 
@@ -133,7 +133,7 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The value of the HTTP response code to be tested.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $responseCode
+     * @var string $responseCode
      */
     private $responseCode = null;
 
@@ -154,14 +154,14 @@ class TestScriptAssertType extends BackboneElementType
     /**
      * The value to compare to.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
     /**
      * Whether or not the test execution will produce a warning only on error for this assert.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $warningOnly
+     * @var bool $warningOnly
      */
     private $warningOnly = null;
 
@@ -170,7 +170,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The label would be used for tracking/logging purposes by test engines.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getLabel()
     {
@@ -182,10 +182,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The label would be used for tracking/logging purposes by test engines.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $label
+     * @param string $label
      * @return self
      */
-    public function setLabel(\TKusy\Hl7FhirR4\StringType $label)
+    public function setLabel($label)
     {
         $this->label = $label;
         return $this;
@@ -196,7 +196,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The description would be used by test engines for tracking and reporting purposes.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -208,10 +208,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The description would be used by test engines for tracking and reporting purposes.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;
@@ -248,7 +248,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * Id of the source fixture used as the contents to be evaluated by either the "source/expression" or "sourceId/path" definition.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getCompareToSourceId()
     {
@@ -260,10 +260,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * Id of the source fixture used as the contents to be evaluated by either the "source/expression" or "sourceId/path" definition.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $compareToSourceId
+     * @param string $compareToSourceId
      * @return self
      */
-    public function setCompareToSourceId(\TKusy\Hl7FhirR4\StringType $compareToSourceId)
+    public function setCompareToSourceId($compareToSourceId)
     {
         $this->compareToSourceId = $compareToSourceId;
         return $this;
@@ -274,7 +274,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getCompareToSourceExpression()
     {
@@ -286,10 +286,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The FHIRPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $compareToSourceExpression
+     * @param string $compareToSourceExpression
      * @return self
      */
-    public function setCompareToSourceExpression(\TKusy\Hl7FhirR4\StringType $compareToSourceExpression)
+    public function setCompareToSourceExpression($compareToSourceExpression)
     {
         $this->compareToSourceExpression = $compareToSourceExpression;
         return $this;
@@ -300,7 +300,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * XPath or JSONPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getCompareToSourcePath()
     {
@@ -312,10 +312,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * XPath or JSONPath expression to evaluate against the source fixture. When compareToSourceId is defined, either compareToSourceExpression or compareToSourcePath must be defined, but not both.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $compareToSourcePath
+     * @param string $compareToSourcePath
      * @return self
      */
-    public function setCompareToSourcePath(\TKusy\Hl7FhirR4\StringType $compareToSourcePath)
+    public function setCompareToSourcePath($compareToSourcePath)
     {
         $this->compareToSourcePath = $compareToSourcePath;
         return $this;
@@ -352,7 +352,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The FHIRPath expression to be evaluated against the request or response message contents - HTTP headers and payload.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getExpression()
     {
@@ -364,10 +364,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The FHIRPath expression to be evaluated against the request or response message contents - HTTP headers and payload.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $expression
+     * @param string $expression
      * @return self
      */
-    public function setExpression(\TKusy\Hl7FhirR4\StringType $expression)
+    public function setExpression($expression)
     {
         $this->expression = $expression;
         return $this;
@@ -378,7 +378,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The HTTP header field name e.g. 'Location'.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getHeaderField()
     {
@@ -390,10 +390,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The HTTP header field name e.g. 'Location'.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $headerField
+     * @param string $headerField
      * @return self
      */
-    public function setHeaderField(\TKusy\Hl7FhirR4\StringType $headerField)
+    public function setHeaderField($headerField)
     {
         $this->headerField = $headerField;
         return $this;
@@ -404,7 +404,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The ID of a fixture. Asserts that the response contains at a minimum the fixture specified by minimumId.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getMinimumId()
     {
@@ -416,10 +416,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The ID of a fixture. Asserts that the response contains at a minimum the fixture specified by minimumId.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $minimumId
+     * @param string $minimumId
      * @return self
      */
-    public function setMinimumId(\TKusy\Hl7FhirR4\StringType $minimumId)
+    public function setMinimumId($minimumId)
     {
         $this->minimumId = $minimumId;
         return $this;
@@ -430,7 +430,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * Whether or not the test execution performs validation on the bundle navigation links.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getNavigationLinks()
     {
@@ -442,10 +442,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * Whether or not the test execution performs validation on the bundle navigation links.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $navigationLinks
+     * @param bool $navigationLinks
      * @return self
      */
-    public function setNavigationLinks(\TKusy\Hl7FhirR4\BooleanType $navigationLinks)
+    public function setNavigationLinks($navigationLinks)
     {
         $this->navigationLinks = $navigationLinks;
         return $this;
@@ -482,7 +482,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The XPath or JSONPath expression to be evaluated against the fixture representing the response received from server.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getPath()
     {
@@ -494,10 +494,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The XPath or JSONPath expression to be evaluated against the fixture representing the response received from server.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $path
+     * @param string $path
      * @return self
      */
-    public function setPath(\TKusy\Hl7FhirR4\StringType $path)
+    public function setPath($path)
     {
         $this->path = $path;
         return $this;
@@ -534,7 +534,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The value to use in a comparison against the request URL path string.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getRequestURL()
     {
@@ -546,10 +546,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The value to use in a comparison against the request URL path string.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $requestURL
+     * @param string $requestURL
      * @return self
      */
-    public function setRequestURL(\TKusy\Hl7FhirR4\StringType $requestURL)
+    public function setRequestURL($requestURL)
     {
         $this->requestURL = $requestURL;
         return $this;
@@ -612,7 +612,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The value of the HTTP response code to be tested.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getResponseCode()
     {
@@ -624,10 +624,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The value of the HTTP response code to be tested.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $responseCode
+     * @param string $responseCode
      * @return self
      */
-    public function setResponseCode(\TKusy\Hl7FhirR4\StringType $responseCode)
+    public function setResponseCode($responseCode)
     {
         $this->responseCode = $responseCode;
         return $this;
@@ -690,7 +690,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The value to compare to.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -702,10 +702,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * The value to compare to.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;
@@ -716,7 +716,7 @@ class TestScriptAssertType extends BackboneElementType
      *
      * Whether or not the test execution will produce a warning only on error for this assert.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getWarningOnly()
     {
@@ -728,10 +728,10 @@ class TestScriptAssertType extends BackboneElementType
      *
      * Whether or not the test execution will produce a warning only on error for this assert.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $warningOnly
+     * @param bool $warningOnly
      * @return self
      */
-    public function setWarningOnly(\TKusy\Hl7FhirR4\BooleanType $warningOnly)
+    public function setWarningOnly($warningOnly)
     {
         $this->warningOnly = $warningOnly;
         return $this;

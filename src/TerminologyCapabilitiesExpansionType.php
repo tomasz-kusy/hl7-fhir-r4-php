@@ -14,21 +14,21 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
     /**
      * Whether the server can return nested value sets.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $hierarchical
+     * @var bool $hierarchical
      */
     private $hierarchical = null;
 
     /**
      * Whether the server supports paging on expansion.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $paging
+     * @var bool $paging
      */
     private $paging = null;
 
     /**
      * Allow request for incomplete expansions?
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $incomplete
+     * @var bool $incomplete
      */
     private $incomplete = null;
 
@@ -51,7 +51,7 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * Whether the server can return nested value sets.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getHierarchical()
     {
@@ -63,10 +63,10 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * Whether the server can return nested value sets.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $hierarchical
+     * @param bool $hierarchical
      * @return self
      */
-    public function setHierarchical(\TKusy\Hl7FhirR4\BooleanType $hierarchical)
+    public function setHierarchical($hierarchical)
     {
         $this->hierarchical = $hierarchical;
         return $this;
@@ -77,7 +77,7 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * Whether the server supports paging on expansion.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getPaging()
     {
@@ -89,10 +89,10 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * Whether the server supports paging on expansion.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $paging
+     * @param bool $paging
      * @return self
      */
-    public function setPaging(\TKusy\Hl7FhirR4\BooleanType $paging)
+    public function setPaging($paging)
     {
         $this->paging = $paging;
         return $this;
@@ -103,7 +103,7 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * Allow request for incomplete expansions?
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getIncomplete()
     {
@@ -115,10 +115,10 @@ class TerminologyCapabilitiesExpansionType extends BackboneElementType
      *
      * Allow request for incomplete expansions?
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $incomplete
+     * @param bool $incomplete
      * @return self
      */
-    public function setIncomplete(\TKusy\Hl7FhirR4\BooleanType $incomplete)
+    public function setIncomplete($incomplete)
     {
         $this->incomplete = $incomplete;
         return $this;

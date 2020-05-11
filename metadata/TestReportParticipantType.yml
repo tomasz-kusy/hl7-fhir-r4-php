@@ -32,4 +32,4 @@ TKusy\Hl7FhirR4\TestReportParticipantType:
             accessor:
                 getter: getDisplay
                 setter: setDisplay
-            type: TKusy\Hl7FhirR4\StringType
+            type: string

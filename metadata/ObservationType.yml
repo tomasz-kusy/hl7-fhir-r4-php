@@ -221,7 +221,7 @@ TKusy\Hl7FhirR4\ObservationType:
             accessor:
                 getter: getValueString
                 setter: setValueString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         valueBoolean:
             expose: true
             access_type: public_method
@@ -232,7 +232,7 @@ TKusy\Hl7FhirR4\ObservationType:
             accessor:
                 getter: getValueBoolean
                 setter: setValueBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         valueInteger:
             expose: true
             access_type: public_method
@@ -243,7 +243,7 @@ TKusy\Hl7FhirR4\ObservationType:
             accessor:
                 getter: getValueInteger
                 setter: setValueInteger
-            type: TKusy\Hl7FhirR4\IntegerType
+            type: integer
         valueRange:
             expose: true
             access_type: public_method

@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\ValueSetComposeType:
             accessor:
                 getter: getInactive
                 setter: setInactive
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         include:
             expose: true
             access_type: public_method

@@ -144,7 +144,7 @@ TKusy\Hl7FhirR4\ServiceRequestType:
             accessor:
                 getter: getDoNotPerform
                 setter: setDoNotPerform
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         code:
             expose: true
             access_type: public_method
@@ -269,7 +269,7 @@ TKusy\Hl7FhirR4\ServiceRequestType:
             accessor:
                 getter: getAsNeededBoolean
                 setter: setAsNeededBoolean
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         asNeededCodeableConcept:
             expose: true
             access_type: public_method
@@ -474,7 +474,7 @@ TKusy\Hl7FhirR4\ServiceRequestType:
             accessor:
                 getter: getPatientInstruction
                 setter: setPatientInstruction
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         relevantHistory:
             expose: true
             access_type: public_method

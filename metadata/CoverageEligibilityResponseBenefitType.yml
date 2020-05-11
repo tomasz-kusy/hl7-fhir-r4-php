@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseBenefitType:
             accessor:
                 getter: getAllowedString
                 setter: setAllowedString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         allowedMoney:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ TKusy\Hl7FhirR4\CoverageEligibilityResponseBenefitType:
             accessor:
                 getter: getUsedString
                 setter: setUsedString
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         usedMoney:
             expose: true
             access_type: public_method

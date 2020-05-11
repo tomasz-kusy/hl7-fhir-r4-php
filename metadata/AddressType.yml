@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\AddressType:
             accessor:
                 getter: getText
                 setter: setText
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         line:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ TKusy\Hl7FhirR4\AddressType:
                 inline: true
                 entry_name: line
                 namespace: 'http://hl7.org/fhir'
-            type: array<TKusy\Hl7FhirR4\StringType>
+            type: array<string>
         city:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ TKusy\Hl7FhirR4\AddressType:
             accessor:
                 getter: getCity
                 setter: setCity
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         district:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ TKusy\Hl7FhirR4\AddressType:
             accessor:
                 getter: getDistrict
                 setter: setDistrict
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         state:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ TKusy\Hl7FhirR4\AddressType:
             accessor:
                 getter: getState
                 setter: setState
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         postalCode:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ TKusy\Hl7FhirR4\AddressType:
             accessor:
                 getter: getPostalCode
                 setter: setPostalCode
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         country:
             expose: true
             access_type: public_method
@@ -102,7 +102,7 @@ TKusy\Hl7FhirR4\AddressType:
             accessor:
                 getter: getCountry
                 setter: setCountry
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         period:
             expose: true
             access_type: public_method

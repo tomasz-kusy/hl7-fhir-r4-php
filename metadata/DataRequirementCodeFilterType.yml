@@ -10,7 +10,7 @@ TKusy\Hl7FhirR4\DataRequirementCodeFilterType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         searchParam:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ TKusy\Hl7FhirR4\DataRequirementCodeFilterType:
             accessor:
                 getter: getSearchParam
                 setter: setSearchParam
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         valueSet:
             expose: true
             access_type: public_method

@@ -21,14 +21,14 @@ class RelatedArtifactType extends ElementType
     /**
      * A short label that can be used to reference the citation from elsewhere in the containing artifact, such as a footnote index.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $label
+     * @var string $label
      */
     private $label = null;
 
     /**
      * A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $display
+     * @var string $display
      */
     private $display = null;
 
@@ -91,7 +91,7 @@ class RelatedArtifactType extends ElementType
      *
      * A short label that can be used to reference the citation from elsewhere in the containing artifact, such as a footnote index.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getLabel()
     {
@@ -103,10 +103,10 @@ class RelatedArtifactType extends ElementType
      *
      * A short label that can be used to reference the citation from elsewhere in the containing artifact, such as a footnote index.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $label
+     * @param string $label
      * @return self
      */
-    public function setLabel(\TKusy\Hl7FhirR4\StringType $label)
+    public function setLabel($label)
     {
         $this->label = $label;
         return $this;
@@ -117,7 +117,7 @@ class RelatedArtifactType extends ElementType
      *
      * A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDisplay()
     {
@@ -129,10 +129,10 @@ class RelatedArtifactType extends ElementType
      *
      * A brief description of the document or knowledge resource being referenced, suitable for display to a consumer.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $display
+     * @param string $display
      * @return self
      */
-    public function setDisplay(\TKusy\Hl7FhirR4\StringType $display)
+    public function setDisplay($display)
     {
         $this->display = $display;
         return $this;

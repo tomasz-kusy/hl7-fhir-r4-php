@@ -36,7 +36,7 @@ TKusy\Hl7FhirR4\MeasureSupplementalDataType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: TKusy\Hl7FhirR4\StringType
+            type: string
         criteria:
             expose: true
             access_type: public_method

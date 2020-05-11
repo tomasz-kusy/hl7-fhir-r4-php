@@ -32,7 +32,7 @@ TKusy\Hl7FhirR4\SubstancePolymerStartingMaterialType:
             accessor:
                 getter: getIsDefining
                 setter: setIsDefining
-            type: TKusy\Hl7FhirR4\BooleanType
+            type: bool
         amount:
             expose: true
             access_type: public_method

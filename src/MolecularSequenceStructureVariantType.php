@@ -21,14 +21,14 @@ class MolecularSequenceStructureVariantType extends BackboneElementType
     /**
      * Used to indicate if the outer and inner start-end values have the same meaning.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $exact
+     * @var bool $exact
      */
     private $exact = null;
 
     /**
      * Length of the variant chromosome.
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $length
+     * @var \integer $length
      */
     private $length = null;
 
@@ -77,7 +77,7 @@ class MolecularSequenceStructureVariantType extends BackboneElementType
      *
      * Used to indicate if the outer and inner start-end values have the same meaning.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getExact()
     {
@@ -89,10 +89,10 @@ class MolecularSequenceStructureVariantType extends BackboneElementType
      *
      * Used to indicate if the outer and inner start-end values have the same meaning.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $exact
+     * @param bool $exact
      * @return self
      */
-    public function setExact(\TKusy\Hl7FhirR4\BooleanType $exact)
+    public function setExact($exact)
     {
         $this->exact = $exact;
         return $this;
@@ -103,7 +103,7 @@ class MolecularSequenceStructureVariantType extends BackboneElementType
      *
      * Length of the variant chromosome.
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getLength()
     {
@@ -115,10 +115,10 @@ class MolecularSequenceStructureVariantType extends BackboneElementType
      *
      * Length of the variant chromosome.
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $length
+     * @param \integer $length
      * @return self
      */
-    public function setLength(\TKusy\Hl7FhirR4\IntegerType $length)
+    public function setLength(\integer $length)
     {
         $this->length = $length;
         return $this;

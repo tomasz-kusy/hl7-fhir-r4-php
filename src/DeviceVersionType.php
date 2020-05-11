@@ -28,7 +28,7 @@ class DeviceVersionType extends BackboneElementType
     /**
      * The version text.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $value
+     * @var string $value
      */
     private $value = null;
 
@@ -89,7 +89,7 @@ class DeviceVersionType extends BackboneElementType
      *
      * The version text.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getValue()
     {
@@ -101,10 +101,10 @@ class DeviceVersionType extends BackboneElementType
      *
      * The version text.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $value
+     * @param string $value
      * @return self
      */
-    public function setValue(\TKusy\Hl7FhirR4\StringType $value)
+    public function setValue($value)
     {
         $this->value = $value;
         return $this;

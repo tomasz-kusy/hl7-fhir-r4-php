@@ -28,7 +28,7 @@ class ContractContextType extends BackboneElementType
     /**
      * Context description.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $text
+     * @var string $text
      */
     private $text = null;
 
@@ -129,7 +129,7 @@ class ContractContextType extends BackboneElementType
      *
      * Context description.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getText()
     {
@@ -141,10 +141,10 @@ class ContractContextType extends BackboneElementType
      *
      * Context description.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $text
+     * @param string $text
      * @return self
      */
-    public function setText(\TKusy\Hl7FhirR4\StringType $text)
+    public function setText($text)
     {
         $this->text = $text;
         return $this;

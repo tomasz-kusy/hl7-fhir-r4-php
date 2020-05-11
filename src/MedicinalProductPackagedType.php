@@ -28,7 +28,7 @@ class MedicinalProductPackagedType extends DomainResourceType
     /**
      * Textual description.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $description
+     * @var string $description
      */
     private $description = null;
 
@@ -211,7 +211,7 @@ class MedicinalProductPackagedType extends DomainResourceType
      *
      * Textual description.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getDescription()
     {
@@ -223,10 +223,10 @@ class MedicinalProductPackagedType extends DomainResourceType
      *
      * Textual description.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $description
+     * @param string $description
      * @return self
      */
-    public function setDescription(\TKusy\Hl7FhirR4\StringType $description)
+    public function setDescription($description)
     {
         $this->description = $description;
         return $this;

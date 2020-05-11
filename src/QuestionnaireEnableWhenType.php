@@ -14,7 +14,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
     /**
      * The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $question
+     * @var string $question
      */
     private $question = null;
 
@@ -28,21 +28,21 @@ class QuestionnaireEnableWhenType extends BackboneElementType
     /**
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $answerBoolean
+     * @var bool $answerBoolean
      */
     private $answerBoolean = null;
 
     /**
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\DecimalType $answerDecimal
+     * @var float $answerDecimal
      */
     private $answerDecimal = null;
 
     /**
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\IntegerType $answerInteger
+     * @var \integer $answerInteger
      */
     private $answerInteger = null;
 
@@ -70,7 +70,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
     /**
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @var \TKusy\Hl7FhirR4\StringType $answerString
+     * @var string $answerString
      */
     private $answerString = null;
 
@@ -100,7 +100,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getQuestion()
     {
@@ -112,10 +112,10 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * The linkId for the question whose answer (or lack of answer) governs whether this item is enabled.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $question
+     * @param string $question
      * @return self
      */
-    public function setQuestion(\TKusy\Hl7FhirR4\StringType $question)
+    public function setQuestion($question)
     {
         $this->question = $question;
         return $this;
@@ -152,7 +152,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getAnswerBoolean()
     {
@@ -164,10 +164,10 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $answerBoolean
+     * @param bool $answerBoolean
      * @return self
      */
-    public function setAnswerBoolean(\TKusy\Hl7FhirR4\BooleanType $answerBoolean)
+    public function setAnswerBoolean($answerBoolean)
     {
         $this->answerBoolean = $answerBoolean;
         return $this;
@@ -178,7 +178,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\DecimalType
+     * @return float
      */
     public function getAnswerDecimal()
     {
@@ -190,10 +190,10 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\DecimalType $answerDecimal
+     * @param float $answerDecimal
      * @return self
      */
-    public function setAnswerDecimal(\TKusy\Hl7FhirR4\DecimalType $answerDecimal)
+    public function setAnswerDecimal($answerDecimal)
     {
         $this->answerDecimal = $answerDecimal;
         return $this;
@@ -204,7 +204,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\IntegerType
+     * @return \integer
      */
     public function getAnswerInteger()
     {
@@ -216,10 +216,10 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\IntegerType $answerInteger
+     * @param \integer $answerInteger
      * @return self
      */
-    public function setAnswerInteger(\TKusy\Hl7FhirR4\IntegerType $answerInteger)
+    public function setAnswerInteger(\integer $answerInteger)
     {
         $this->answerInteger = $answerInteger;
         return $this;
@@ -308,7 +308,7 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAnswerString()
     {
@@ -320,10 +320,10 @@ class QuestionnaireEnableWhenType extends BackboneElementType
      *
      * A value that the referenced question is tested using the specified operator in order for the item to be enabled. (choose any one of answer*, but only one)
      *
-     * @param \TKusy\Hl7FhirR4\StringType $answerString
+     * @param string $answerString
      * @return self
      */
-    public function setAnswerString(\TKusy\Hl7FhirR4\StringType $answerString)
+    public function setAnswerString($answerString)
     {
         $this->answerString = $answerString;
         return $this;

@@ -21,7 +21,7 @@ class PractitionerRoleType extends DomainResourceType
     /**
      * Whether this practitioner role record is in active use.
      *
-     * @var \TKusy\Hl7FhirR4\BooleanType $active
+     * @var bool $active
      */
     private $active = null;
 
@@ -98,7 +98,7 @@ class PractitionerRoleType extends DomainResourceType
     /**
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
      *
-     * @var \TKusy\Hl7FhirR4\StringType $availabilityExceptions
+     * @var string $availabilityExceptions
      */
     private $availabilityExceptions = null;
 
@@ -180,7 +180,7 @@ class PractitionerRoleType extends DomainResourceType
      *
      * Whether this practitioner role record is in active use.
      *
-     * @return \TKusy\Hl7FhirR4\BooleanType
+     * @return bool
      */
     public function getActive()
     {
@@ -192,10 +192,10 @@ class PractitionerRoleType extends DomainResourceType
      *
      * Whether this practitioner role record is in active use.
      *
-     * @param \TKusy\Hl7FhirR4\BooleanType $active
+     * @param bool $active
      * @return self
      */
-    public function setActive(\TKusy\Hl7FhirR4\BooleanType $active)
+    public function setActive($active)
     {
         $this->active = $active;
         return $this;
@@ -746,7 +746,7 @@ class PractitionerRoleType extends DomainResourceType
      *
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
      *
-     * @return \TKusy\Hl7FhirR4\StringType
+     * @return string
      */
     public function getAvailabilityExceptions()
     {
@@ -758,10 +758,10 @@ class PractitionerRoleType extends DomainResourceType
      *
      * A description of site availability exceptions, e.g. public holiday availability. Succinctly describing all possible exceptions to normal site availability as details in the available Times and not available Times.
      *
-     * @param \TKusy\Hl7FhirR4\StringType $availabilityExceptions
+     * @param string $availabilityExceptions
      * @return self
      */
-    public function setAvailabilityExceptions(\TKusy\Hl7FhirR4\StringType $availabilityExceptions)
+    public function setAvailabilityExceptions($availabilityExceptions)
     {
         $this->availabilityExceptions = $availabilityExceptions;
         return $this;
