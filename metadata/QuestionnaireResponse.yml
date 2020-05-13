@@ -1,3 +1,0 @@
-TKusy\Hl7FhirR4\QuestionnaireResponse:
-    xml_root_name: QuestionnaireResponse
-    xml_root_namespace: 'http://hl7.org/fhir'

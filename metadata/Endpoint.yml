@@ -1,3 +1,0 @@
-TKusy\Hl7FhirR4\Endpoint:
-    xml_root_name: Endpoint
-    xml_root_namespace: 'http://hl7.org/fhir'

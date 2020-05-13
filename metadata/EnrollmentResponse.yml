@@ -1,3 +1,0 @@
-TKusy\Hl7FhirR4\EnrollmentResponse:
-    xml_root_name: EnrollmentResponse
-    xml_root_namespace: 'http://hl7.org/fhir'

@@ -1,3 +1,0 @@
-TKusy\Hl7FhirR4\ExplanationOfBenefit:
-    xml_root_name: ExplanationOfBenefit
-    xml_root_namespace: 'http://hl7.org/fhir'

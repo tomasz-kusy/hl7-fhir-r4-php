@@ -1,3 +1,0 @@
-TKusy\Hl7FhirR4\CommunicationRequest:
-    xml_root_name: CommunicationRequest
-    xml_root_namespace: 'http://hl7.org/fhir'
