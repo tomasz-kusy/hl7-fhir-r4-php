@@ -1,6 +1,6 @@
 <?php
 
-namespace TKusy\HL7Fhir;
+namespace TKusy\Hl7Fhir;
 
 use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\BaseTypesHandler;
 use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\XmlSchemaDateHandler;
