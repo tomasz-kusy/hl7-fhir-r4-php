@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R4\MedicinalProduct:
+    xml_root_name: MedicinalProduct
+    xml_root_namespace: 'http://hl7.org/fhir'

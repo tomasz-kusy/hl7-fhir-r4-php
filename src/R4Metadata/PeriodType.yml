@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\PeriodType:
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: TKusy\Hl7Fhir\R4\DateTimeType

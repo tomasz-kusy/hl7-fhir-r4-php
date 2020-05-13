@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPharmaceuticalWithdrawalPeriodType:
+    properties:
+        tissue:
+            expose: true
+            access_type: public_method
+            serialized_name: tissue
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTissue
+                setter: setTissue
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        supportingInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: supportingInformation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportingInformation
+                setter: setSupportingInformation
+            type: TKusy\Hl7Fhir\R4\StringType

@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\TestReportAction1Type:
+    properties:
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: operation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            type: TKusy\Hl7Fhir\R4\TestReportOperationType
+        assert:
+            expose: true
+            access_type: public_method
+            serialized_name: assert
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssert
+                setter: setAssert
+            type: TKusy\Hl7Fhir\R4\TestReportAssertType

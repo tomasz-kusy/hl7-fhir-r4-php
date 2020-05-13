@@ -17,7 +17,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "TKusy\\Hl7Fhir\\": "src/"
+      "TKusy\\Hl7Fhir\\": "src"
     }
   },
   "require": {

@@ -1,0 +1,87 @@
+TKusy\Hl7Fhir\R4\TestScriptCapabilityType:
+    properties:
+        required:
+            expose: true
+            access_type: public_method
+            serialized_name: required
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequired
+                setter: setRequired
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        validated:
+            expose: true
+            access_type: public_method
+            serialized_name: validated
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidated
+                setter: setValidated
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        origin:
+            expose: true
+            access_type: public_method
+            serialized_name: origin
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrigin
+                setter: setOrigin
+            xml_list:
+                inline: true
+                entry_name: origin
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IntegerType>
+        destination:
+            expose: true
+            access_type: public_method
+            serialized_name: destination
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDestination
+                setter: setDestination
+            type: TKusy\Hl7Fhir\R4\IntegerType
+        link:
+            expose: true
+            access_type: public_method
+            serialized_name: link
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLink
+                setter: setLink
+            xml_list:
+                inline: true
+                entry_name: link
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\UriType>
+        capabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: capabilities
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCapabilities
+                setter: setCapabilities
+            type: TKusy\Hl7Fhir\R4\CanonicalType

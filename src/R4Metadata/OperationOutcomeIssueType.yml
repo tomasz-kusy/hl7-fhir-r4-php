@@ -1,0 +1,76 @@
+TKusy\Hl7Fhir\R4\OperationOutcomeIssueType:
+    properties:
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: severity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: TKusy\Hl7Fhir\R4\IssueSeverityType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\IssueTypeType
+        details:
+            expose: true
+            access_type: public_method
+            serialized_name: details
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetails
+                setter: setDetails
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        diagnostics:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnostics
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnostics
+                setter: setDiagnostics
+            type: TKusy\Hl7Fhir\R4\StringType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_list:
+                inline: true
+                entry_name: location
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: expression
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            xml_list:
+                inline: true
+                entry_name: expression
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>

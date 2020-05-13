@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R4\InsurancePlanCostType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        applicability:
+            expose: true
+            access_type: public_method
+            serialized_name: applicability
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApplicability
+                setter: setApplicability
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        qualifiers:
+            expose: true
+            access_type: public_method
+            serialized_name: qualifiers
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualifiers
+                setter: setQualifiers
+            xml_list:
+                inline: true
+                entry_name: qualifiers
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R4\QuantityType

@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R4\MedicationAdministrationDosageType:
+    properties:
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R4\StringType
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: site
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSite
+                setter: setSite
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        route:
+            expose: true
+            access_type: public_method
+            serialized_name: route
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRoute
+                setter: setRoute
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        dose:
+            expose: true
+            access_type: public_method
+            serialized_name: dose
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDose
+                setter: setDose
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        rateRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: rateRatio
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRateRatio
+                setter: setRateRatio
+            type: TKusy\Hl7Fhir\R4\RatioType
+        rateQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: rateQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRateQuantity
+                setter: setRateQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType

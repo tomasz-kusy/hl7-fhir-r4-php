@@ -1,0 +1,58 @@
+TKusy\Hl7Fhir\R4\DomainResourceType:
+    properties:
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R4\NarrativeType
+        contained:
+            expose: true
+            access_type: public_method
+            serialized_name: contained
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContained
+                setter: setContained
+            xml_list:
+                inline: true
+                entry_name: contained
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ResourceContainerType>
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: extension
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            xml_list:
+                inline: true
+                entry_name: extension
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ExtensionType>
+        modifierExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: modifierExtension
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModifierExtension
+                setter: setModifierExtension
+            xml_list:
+                inline: true
+                entry_name: modifierExtension
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ExtensionType>

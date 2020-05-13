@@ -1,0 +1,147 @@
+TKusy\Hl7Fhir\R4\ProvenanceType:
+    properties:
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_list:
+                inline: true
+                entry_name: target
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        occurredPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: occurredPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurredPeriod
+                setter: setOccurredPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        occurredDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: occurredDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurredDateTime
+                setter: setOccurredDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        recorded:
+            expose: true
+            access_type: public_method
+            serialized_name: recorded
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecorded
+                setter: setRecorded
+            type: TKusy\Hl7Fhir\R4\InstantType
+        policy:
+            expose: true
+            access_type: public_method
+            serialized_name: policy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPolicy
+                setter: setPolicy
+            xml_list:
+                inline: true
+                entry_name: policy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\UriType>
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            xml_list:
+                inline: true
+                entry_name: reason
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        activity:
+            expose: true
+            access_type: public_method
+            serialized_name: activity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActivity
+                setter: setActivity
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        agent:
+            expose: true
+            access_type: public_method
+            serialized_name: agent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgent
+                setter: setAgent
+            xml_list:
+                inline: true
+                entry_name: agent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ProvenanceAgentType>
+        entity:
+            expose: true
+            access_type: public_method
+            serialized_name: entity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntity
+                setter: setEntity
+            xml_list:
+                inline: true
+                entry_name: entity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ProvenanceEntityType>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: signature
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: signature
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SignatureType>

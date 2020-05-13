@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementInteraction1Type:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\SystemRestfulInteractionType
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R4\MarkdownType

@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R4\Goal:
+    xml_root_name: Goal
+    xml_root_namespace: 'http://hl7.org/fhir'

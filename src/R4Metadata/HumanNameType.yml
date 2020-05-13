@@ -1,0 +1,91 @@
+TKusy\Hl7Fhir\R4\HumanNameType:
+    properties:
+        use:
+            expose: true
+            access_type: public_method
+            serialized_name: use
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUse
+                setter: setUse
+            type: TKusy\Hl7Fhir\R4\NameUseType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R4\StringType
+        family:
+            expose: true
+            access_type: public_method
+            serialized_name: family
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFamily
+                setter: setFamily
+            type: TKusy\Hl7Fhir\R4\StringType
+        given:
+            expose: true
+            access_type: public_method
+            serialized_name: given
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGiven
+                setter: setGiven
+            xml_list:
+                inline: true
+                entry_name: given
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        prefix:
+            expose: true
+            access_type: public_method
+            serialized_name: prefix
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrefix
+                setter: setPrefix
+            xml_list:
+                inline: true
+                entry_name: prefix
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        suffix:
+            expose: true
+            access_type: public_method
+            serialized_name: suffix
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSuffix
+                setter: setSuffix
+            xml_list:
+                inline: true
+                entry_name: suffix
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType

@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationProcedureType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        datePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: datePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDatePeriod
+                setter: setDatePeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        dateDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: dateDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDateDateTime
+                setter: setDateDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        application:
+            expose: true
+            access_type: public_method
+            serialized_name: application
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApplication
+                setter: setApplication
+            xml_list:
+                inline: true
+                entry_name: application
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationProcedureType>

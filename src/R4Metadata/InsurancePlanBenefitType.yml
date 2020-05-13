@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R4\InsurancePlanBenefitType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        requirement:
+            expose: true
+            access_type: public_method
+            serialized_name: requirement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequirement
+                setter: setRequirement
+            type: TKusy\Hl7Fhir\R4\StringType
+        limit:
+            expose: true
+            access_type: public_method
+            serialized_name: limit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLimit
+                setter: setLimit
+            xml_list:
+                inline: true
+                entry_name: limit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\InsurancePlanLimitType>

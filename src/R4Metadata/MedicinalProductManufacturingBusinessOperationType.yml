@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R4\MedicinalProductManufacturingBusinessOperationType:
+    properties:
+        operationType:
+            expose: true
+            access_type: public_method
+            serialized_name: operationType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperationType
+                setter: setOperationType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        authorisationReferenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: authorisationReferenceNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthorisationReferenceNumber
+                setter: setAuthorisationReferenceNumber
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: effectiveDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        confidentialityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: confidentialityIndicator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConfidentialityIndicator
+                setter: setConfidentialityIndicator
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        manufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturer
+                setter: setManufacturer
+            xml_list:
+                inline: true
+                entry_name: manufacturer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        regulator:
+            expose: true
+            access_type: public_method
+            serialized_name: regulator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegulator
+                setter: setRegulator
+            type: TKusy\Hl7Fhir\R4\ReferenceType

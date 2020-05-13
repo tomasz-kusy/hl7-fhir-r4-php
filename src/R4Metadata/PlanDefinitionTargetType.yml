@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R4\PlanDefinitionTargetType:
+    properties:
+        measure:
+            expose: true
+            access_type: public_method
+            serialized_name: measure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasure
+                setter: setMeasure
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        detailQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: detailQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailQuantity
+                setter: setDetailQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        detailRange:
+            expose: true
+            access_type: public_method
+            serialized_name: detailRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailRange
+                setter: setDetailRange
+            type: TKusy\Hl7Fhir\R4\RangeType
+        detailCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: detailCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailCodeableConcept
+                setter: setDetailCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        due:
+            expose: true
+            access_type: public_method
+            serialized_name: due
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDue
+                setter: setDue
+            type: TKusy\Hl7Fhir\R4\DurationType

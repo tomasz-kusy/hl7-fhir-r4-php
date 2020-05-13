@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R4\ImmunizationEvaluation:
+    xml_root_name: ImmunizationEvaluation
+    xml_root_namespace: 'http://hl7.org/fhir'

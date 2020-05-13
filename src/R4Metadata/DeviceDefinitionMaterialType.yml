@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\DeviceDefinitionMaterialType:
+    properties:
+        substance:
+            expose: true
+            access_type: public_method
+            serialized_name: substance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstance
+                setter: setSubstance
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        alternate:
+            expose: true
+            access_type: public_method
+            serialized_name: alternate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAlternate
+                setter: setAlternate
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        allergenicIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: allergenicIndicator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllergenicIndicator
+                setter: setAllergenicIndicator
+            type: TKusy\Hl7Fhir\R4\BooleanType

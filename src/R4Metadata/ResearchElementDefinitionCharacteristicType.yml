@@ -1,0 +1,237 @@
+TKusy\Hl7Fhir\R4\ResearchElementDefinitionCharacteristicType:
+    properties:
+        definitionCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionCodeableConcept
+                setter: setDefinitionCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        definitionCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionCanonical
+                setter: setDefinitionCanonical
+            type: TKusy\Hl7Fhir\R4\CanonicalType
+        definitionExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionExpression
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionExpression
+                setter: setDefinitionExpression
+            type: TKusy\Hl7Fhir\R4\ExpressionType
+        definitionDataRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionDataRequirement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinitionDataRequirement
+                setter: setDefinitionDataRequirement
+            type: TKusy\Hl7Fhir\R4\DataRequirementType
+        usageContext:
+            expose: true
+            access_type: public_method
+            serialized_name: usageContext
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsageContext
+                setter: setUsageContext
+            xml_list:
+                inline: true
+                entry_name: usageContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\UsageContextType>
+        exclude:
+            expose: true
+            access_type: public_method
+            serialized_name: exclude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExclude
+                setter: setExclude
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        unitOfMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: unitOfMeasure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitOfMeasure
+                setter: setUnitOfMeasure
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        studyEffectiveDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectiveDescription
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectiveDescription
+                setter: setStudyEffectiveDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        studyEffectiveDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectiveDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectiveDateTime
+                setter: setStudyEffectiveDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        studyEffectivePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectivePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectivePeriod
+                setter: setStudyEffectivePeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        studyEffectiveDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectiveDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectiveDuration
+                setter: setStudyEffectiveDuration
+            type: TKusy\Hl7Fhir\R4\DurationType
+        studyEffectiveTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectiveTiming
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectiveTiming
+                setter: setStudyEffectiveTiming
+            type: TKusy\Hl7Fhir\R4\TimingType
+        studyEffectiveTimeFromStart:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectiveTimeFromStart
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectiveTimeFromStart
+                setter: setStudyEffectiveTimeFromStart
+            type: TKusy\Hl7Fhir\R4\DurationType
+        studyEffectiveGroupMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: studyEffectiveGroupMeasure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudyEffectiveGroupMeasure
+                setter: setStudyEffectiveGroupMeasure
+            type: TKusy\Hl7Fhir\R4\GroupMeasureType
+        participantEffectiveDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveDescription
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveDescription
+                setter: setParticipantEffectiveDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        participantEffectiveDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveDateTime
+                setter: setParticipantEffectiveDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        participantEffectivePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectivePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectivePeriod
+                setter: setParticipantEffectivePeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        participantEffectiveDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveDuration
+                setter: setParticipantEffectiveDuration
+            type: TKusy\Hl7Fhir\R4\DurationType
+        participantEffectiveTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveTiming
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveTiming
+                setter: setParticipantEffectiveTiming
+            type: TKusy\Hl7Fhir\R4\TimingType
+        participantEffectiveTimeFromStart:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveTimeFromStart
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveTimeFromStart
+                setter: setParticipantEffectiveTimeFromStart
+            type: TKusy\Hl7Fhir\R4\DurationType
+        participantEffectiveGroupMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: participantEffectiveGroupMeasure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantEffectiveGroupMeasure
+                setter: setParticipantEffectiveGroupMeasure
+            type: TKusy\Hl7Fhir\R4\GroupMeasureType

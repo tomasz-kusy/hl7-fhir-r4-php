@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIndicationOtherTherapyType:
+    properties:
+        therapyRelationshipType:
+            expose: true
+            access_type: public_method
+            serialized_name: therapyRelationshipType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTherapyRelationshipType
+                setter: setTherapyRelationshipType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        medicationCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: medicationCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMedicationCodeableConcept
+                setter: setMedicationCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        medicationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: medicationReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMedicationReference
+                setter: setMedicationReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType

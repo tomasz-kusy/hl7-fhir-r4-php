@@ -1,0 +1,83 @@
+TKusy\Hl7Fhir\R4\SignatureType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodingType>
+        when:
+            expose: true
+            access_type: public_method
+            serialized_name: when
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWhen
+                setter: setWhen
+            type: TKusy\Hl7Fhir\R4\InstantType
+        who:
+            expose: true
+            access_type: public_method
+            serialized_name: who
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWho
+                setter: setWho
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        onBehalfOf:
+            expose: true
+            access_type: public_method
+            serialized_name: onBehalfOf
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOnBehalfOf
+                setter: setOnBehalfOf
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        targetFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: targetFormat
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetFormat
+                setter: setTargetFormat
+            type: TKusy\Hl7Fhir\R4\CodeType
+        sigFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: sigFormat
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSigFormat
+                setter: setSigFormat
+            type: TKusy\Hl7Fhir\R4\CodeType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            type: TKusy\Hl7Fhir\R4\Base64BinaryType

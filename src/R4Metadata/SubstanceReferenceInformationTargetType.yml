@@ -1,0 +1,116 @@
+TKusy\Hl7Fhir\R4\SubstanceReferenceInformationTargetType:
+    properties:
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        interaction:
+            expose: true
+            access_type: public_method
+            serialized_name: interaction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInteraction
+                setter: setInteraction
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        organism:
+            expose: true
+            access_type: public_method
+            serialized_name: organism
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganism
+                setter: setOrganism
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        organismType:
+            expose: true
+            access_type: public_method
+            serialized_name: organismType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganismType
+                setter: setOrganismType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        amountQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: amountQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountQuantity
+                setter: setAmountQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        amountRange:
+            expose: true
+            access_type: public_method
+            serialized_name: amountRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountRange
+                setter: setAmountRange
+            type: TKusy\Hl7Fhir\R4\RangeType
+        amountString:
+            expose: true
+            access_type: public_method
+            serialized_name: amountString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountString
+                setter: setAmountString
+            type: TKusy\Hl7Fhir\R4\StringType
+        amountType:
+            expose: true
+            access_type: public_method
+            serialized_name: amountType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountType
+                setter: setAmountType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>

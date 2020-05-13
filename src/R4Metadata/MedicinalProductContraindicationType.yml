@@ -1,0 +1,99 @@
+TKusy\Hl7Fhir\R4\MedicinalProductContraindicationType:
+    properties:
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            xml_list:
+                inline: true
+                entry_name: subject
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        disease:
+            expose: true
+            access_type: public_method
+            serialized_name: disease
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisease
+                setter: setDisease
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        diseaseStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: diseaseStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiseaseStatus
+                setter: setDiseaseStatus
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        comorbidity:
+            expose: true
+            access_type: public_method
+            serialized_name: comorbidity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComorbidity
+                setter: setComorbidity
+            xml_list:
+                inline: true
+                entry_name: comorbidity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        therapeuticIndication:
+            expose: true
+            access_type: public_method
+            serialized_name: therapeuticIndication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTherapeuticIndication
+                setter: setTherapeuticIndication
+            xml_list:
+                inline: true
+                entry_name: therapeuticIndication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        otherTherapy:
+            expose: true
+            access_type: public_method
+            serialized_name: otherTherapy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOtherTherapy
+                setter: setOtherTherapy
+            xml_list:
+                inline: true
+                entry_name: otherTherapy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductContraindicationOtherTherapyType>
+        population:
+            expose: true
+            access_type: public_method
+            serialized_name: population
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPopulation
+                setter: setPopulation
+            xml_list:
+                inline: true
+                entry_name: population
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\PopulationType>

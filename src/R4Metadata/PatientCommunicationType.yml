@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\PatientCommunicationType:
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        preferred:
+            expose: true
+            access_type: public_method
+            serialized_name: preferred
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreferred
+                setter: setPreferred
+            type: TKusy\Hl7Fhir\R4\BooleanType

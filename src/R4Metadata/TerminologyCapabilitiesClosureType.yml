@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\TerminologyCapabilitiesClosureType:
+    properties:
+        translation:
+            expose: true
+            access_type: public_method
+            serialized_name: translation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTranslation
+                setter: setTranslation
+            type: TKusy\Hl7Fhir\R4\BooleanType

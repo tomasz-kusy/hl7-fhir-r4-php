@@ -1,0 +1,347 @@
+TKusy\Hl7Fhir\R4\DeviceRequestType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IdentifierType>
+        instantiatesCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: instantiatesCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstantiatesCanonical
+                setter: setInstantiatesCanonical
+            xml_list:
+                inline: true
+                entry_name: instantiatesCanonical
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CanonicalType>
+        instantiatesUri:
+            expose: true
+            access_type: public_method
+            serialized_name: instantiatesUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstantiatesUri
+                setter: setInstantiatesUri
+            xml_list:
+                inline: true
+                entry_name: instantiatesUri
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\UriType>
+        basedOn:
+            expose: true
+            access_type: public_method
+            serialized_name: basedOn
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBasedOn
+                setter: setBasedOn
+            xml_list:
+                inline: true
+                entry_name: basedOn
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        priorRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: priorRequest
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPriorRequest
+                setter: setPriorRequest
+            xml_list:
+                inline: true
+                entry_name: priorRequest
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        groupIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: groupIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGroupIdentifier
+                setter: setGroupIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\RequestStatusType
+        intent:
+            expose: true
+            access_type: public_method
+            serialized_name: intent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntent
+                setter: setIntent
+            type: TKusy\Hl7Fhir\R4\RequestIntentType
+        priority:
+            expose: true
+            access_type: public_method
+            serialized_name: priority
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPriority
+                setter: setPriority
+            type: TKusy\Hl7Fhir\R4\RequestPriorityType
+        codeReference:
+            expose: true
+            access_type: public_method
+            serialized_name: codeReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCodeReference
+                setter: setCodeReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        codeCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: codeCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCodeCodeableConcept
+                setter: setCodeCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        parameter:
+            expose: true
+            access_type: public_method
+            serialized_name: parameter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParameter
+                setter: setParameter
+            xml_list:
+                inline: true
+                entry_name: parameter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DeviceRequestParameterType>
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        encounter:
+            expose: true
+            access_type: public_method
+            serialized_name: encounter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEncounter
+                setter: setEncounter
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        occurrenceDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceDateTime
+                setter: setOccurrenceDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        occurrencePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrencePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrencePeriod
+                setter: setOccurrencePeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        occurrenceTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceTiming
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceTiming
+                setter: setOccurrenceTiming
+            type: TKusy\Hl7Fhir\R4\TimingType
+        authoredOn:
+            expose: true
+            access_type: public_method
+            serialized_name: authoredOn
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthoredOn
+                setter: setAuthoredOn
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        requester:
+            expose: true
+            access_type: public_method
+            serialized_name: requester
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequester
+                setter: setRequester
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        performerType:
+            expose: true
+            access_type: public_method
+            serialized_name: performerType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPerformerType
+                setter: setPerformerType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        performer:
+            expose: true
+            access_type: public_method
+            serialized_name: performer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPerformer
+                setter: setPerformer
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        reasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: reasonCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReasonCode
+                setter: setReasonCode
+            xml_list:
+                inline: true
+                entry_name: reasonCode
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        reasonReference:
+            expose: true
+            access_type: public_method
+            serialized_name: reasonReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReasonReference
+                setter: setReasonReference
+            xml_list:
+                inline: true
+                entry_name: reasonReference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        insurance:
+            expose: true
+            access_type: public_method
+            serialized_name: insurance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurance
+                setter: setInsurance
+            xml_list:
+                inline: true
+                entry_name: insurance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        supportingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: supportingInfo
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportingInfo
+                setter: setSupportingInfo
+            xml_list:
+                inline: true
+                entry_name: supportingInfo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\AnnotationType>
+        relevantHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: relevantHistory
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelevantHistory
+                setter: setRelevantHistory
+            xml_list:
+                inline: true
+                entry_name: relevantHistory
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>

@@ -1,0 +1,94 @@
+TKusy\Hl7Fhir\R4\ResearchSubjectType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\ResearchSubjectStatusType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        study:
+            expose: true
+            access_type: public_method
+            serialized_name: study
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudy
+                setter: setStudy
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        individual:
+            expose: true
+            access_type: public_method
+            serialized_name: individual
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIndividual
+                setter: setIndividual
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        assignedArm:
+            expose: true
+            access_type: public_method
+            serialized_name: assignedArm
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssignedArm
+                setter: setAssignedArm
+            type: TKusy\Hl7Fhir\R4\StringType
+        actualArm:
+            expose: true
+            access_type: public_method
+            serialized_name: actualArm
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActualArm
+                setter: setActualArm
+            type: TKusy\Hl7Fhir\R4\StringType
+        consent:
+            expose: true
+            access_type: public_method
+            serialized_name: consent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConsent
+                setter: setConsent
+            type: TKusy\Hl7Fhir\R4\ReferenceType

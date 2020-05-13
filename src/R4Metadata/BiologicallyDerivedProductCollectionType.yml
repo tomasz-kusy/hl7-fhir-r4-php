@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductCollectionType:
+    properties:
+        collector:
+            expose: true
+            access_type: public_method
+            serialized_name: collector
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCollector
+                setter: setCollector
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        collectedDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: collectedDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCollectedDateTime
+                setter: setCollectedDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        collectedPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: collectedPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCollectedPeriod
+                setter: setCollectedPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType

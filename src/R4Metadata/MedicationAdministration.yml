@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R4\MedicationAdministration:
+    xml_root_name: MedicationAdministration
+    xml_root_namespace: 'http://hl7.org/fhir'

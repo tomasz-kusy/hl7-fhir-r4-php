@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\MedicationBatchType:
+    properties:
+        lotNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: lotNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLotNumber
+                setter: setLotNumber
+            type: TKusy\Hl7Fhir\R4\StringType
+        expirationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: expirationDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpirationDate
+                setter: setExpirationDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType

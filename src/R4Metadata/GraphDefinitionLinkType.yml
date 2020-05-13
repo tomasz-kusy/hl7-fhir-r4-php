@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R4\GraphDefinitionLinkType:
+    properties:
+        path:
+            expose: true
+            access_type: public_method
+            serialized_name: path
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPath
+                setter: setPath
+            type: TKusy\Hl7Fhir\R4\StringType
+        sliceName:
+            expose: true
+            access_type: public_method
+            serialized_name: sliceName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSliceName
+                setter: setSliceName
+            type: TKusy\Hl7Fhir\R4\StringType
+        min:
+            expose: true
+            access_type: public_method
+            serialized_name: min
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMin
+                setter: setMin
+            type: TKusy\Hl7Fhir\R4\IntegerType
+        max:
+            expose: true
+            access_type: public_method
+            serialized_name: max
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMax
+                setter: setMax
+            type: TKusy\Hl7Fhir\R4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_list:
+                inline: true
+                entry_name: target
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\GraphDefinitionTargetType>

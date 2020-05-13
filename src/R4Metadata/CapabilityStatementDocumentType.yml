@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementDocumentType:
+    properties:
+        mode:
+            expose: true
+            access_type: public_method
+            serialized_name: mode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMode
+                setter: setMode
+            type: TKusy\Hl7Fhir\R4\DocumentModeType
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R4\MarkdownType
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            type: TKusy\Hl7Fhir\R4\CanonicalType

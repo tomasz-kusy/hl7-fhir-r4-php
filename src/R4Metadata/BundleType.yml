@@ -1,0 +1,87 @@
+TKusy\Hl7Fhir\R4\BundleType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\BundleTypeType
+        timestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: timestamp
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimestamp
+                setter: setTimestamp
+            type: TKusy\Hl7Fhir\R4\InstantType
+        total:
+            expose: true
+            access_type: public_method
+            serialized_name: total
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTotal
+                setter: setTotal
+            type: TKusy\Hl7Fhir\R4\UnsignedIntType
+        link:
+            expose: true
+            access_type: public_method
+            serialized_name: link
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLink
+                setter: setLink
+            xml_list:
+                inline: true
+                entry_name: link
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\BundleLinkType>
+        entry:
+            expose: true
+            access_type: public_method
+            serialized_name: entry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntry
+                setter: setEntry
+            xml_list:
+                inline: true
+                entry_name: entry
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\BundleEntryType>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: signature
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: TKusy\Hl7Fhir\R4\SignatureType

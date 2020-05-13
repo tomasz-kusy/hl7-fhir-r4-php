@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\SubstancePolymerDegreeOfPolymerisationType:
+    properties:
+        degree:
+            expose: true
+            access_type: public_method
+            serialized_name: degree
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDegree
+                setter: setDegree
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R4\SubstanceAmountType

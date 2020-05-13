@@ -1,0 +1,161 @@
+TKusy\Hl7Fhir\R4\ObservationDefinitionType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IdentifierType>
+        permittedDataType:
+            expose: true
+            access_type: public_method
+            serialized_name: permittedDataType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPermittedDataType
+                setter: setPermittedDataType
+            xml_list:
+                inline: true
+                entry_name: permittedDataType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ObservationDataTypeType>
+        multipleResultsAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: multipleResultsAllowed
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMultipleResultsAllowed
+                setter: setMultipleResultsAllowed
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        preferredReportName:
+            expose: true
+            access_type: public_method
+            serialized_name: preferredReportName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreferredReportName
+                setter: setPreferredReportName
+            type: TKusy\Hl7Fhir\R4\StringType
+        quantitativeDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: quantitativeDetails
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantitativeDetails
+                setter: setQuantitativeDetails
+            type: TKusy\Hl7Fhir\R4\ObservationDefinitionQuantitativeDetailsType
+        qualifiedInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: qualifiedInterval
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualifiedInterval
+                setter: setQualifiedInterval
+            xml_list:
+                inline: true
+                entry_name: qualifiedInterval
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ObservationDefinitionQualifiedIntervalType>
+        validCodedValueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: validCodedValueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidCodedValueSet
+                setter: setValidCodedValueSet
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        normalCodedValueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: normalCodedValueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNormalCodedValueSet
+                setter: setNormalCodedValueSet
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        abnormalCodedValueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: abnormalCodedValueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAbnormalCodedValueSet
+                setter: setAbnormalCodedValueSet
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        criticalCodedValueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: criticalCodedValueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCriticalCodedValueSet
+                setter: setCriticalCodedValueSet
+            type: TKusy\Hl7Fhir\R4\ReferenceType

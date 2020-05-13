@@ -1,0 +1,217 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementResourceType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeType
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            type: TKusy\Hl7Fhir\R4\CanonicalType
+        supportedProfile:
+            expose: true
+            access_type: public_method
+            serialized_name: supportedProfile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportedProfile
+                setter: setSupportedProfile
+            xml_list:
+                inline: true
+                entry_name: supportedProfile
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CanonicalType>
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R4\MarkdownType
+        interaction:
+            expose: true
+            access_type: public_method
+            serialized_name: interaction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInteraction
+                setter: setInteraction
+            xml_list:
+                inline: true
+                entry_name: interaction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CapabilityStatementInteractionType>
+        versioning:
+            expose: true
+            access_type: public_method
+            serialized_name: versioning
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersioning
+                setter: setVersioning
+            type: TKusy\Hl7Fhir\R4\ResourceVersionPolicyType
+        readHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: readHistory
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReadHistory
+                setter: setReadHistory
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        updateCreate:
+            expose: true
+            access_type: public_method
+            serialized_name: updateCreate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUpdateCreate
+                setter: setUpdateCreate
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        conditionalCreate:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionalCreate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConditionalCreate
+                setter: setConditionalCreate
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        conditionalRead:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionalRead
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConditionalRead
+                setter: setConditionalRead
+            type: TKusy\Hl7Fhir\R4\ConditionalReadStatusType
+        conditionalUpdate:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionalUpdate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConditionalUpdate
+                setter: setConditionalUpdate
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        conditionalDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionalDelete
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConditionalDelete
+                setter: setConditionalDelete
+            type: TKusy\Hl7Fhir\R4\ConditionalDeleteStatusType
+        referencePolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePolicy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferencePolicy
+                setter: setReferencePolicy
+            xml_list:
+                inline: true
+                entry_name: referencePolicy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceHandlingPolicyType>
+        searchInclude:
+            expose: true
+            access_type: public_method
+            serialized_name: searchInclude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearchInclude
+                setter: setSearchInclude
+            xml_list:
+                inline: true
+                entry_name: searchInclude
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        searchRevInclude:
+            expose: true
+            access_type: public_method
+            serialized_name: searchRevInclude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearchRevInclude
+                setter: setSearchRevInclude
+            xml_list:
+                inline: true
+                entry_name: searchRevInclude
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        searchParam:
+            expose: true
+            access_type: public_method
+            serialized_name: searchParam
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearchParam
+                setter: setSearchParam
+            xml_list:
+                inline: true
+                entry_name: searchParam
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CapabilityStatementSearchParamType>
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: operation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            xml_list:
+                inline: true
+                entry_name: operation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CapabilityStatementOperationType>

@@ -1,0 +1,121 @@
+TKusy\Hl7Fhir\R4\DataRequirementType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeType
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            xml_list:
+                inline: true
+                entry_name: profile
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CanonicalType>
+        subjectCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectCodeableConcept
+                setter: setSubjectCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        subjectReference:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectReference
+                setter: setSubjectReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        mustSupport:
+            expose: true
+            access_type: public_method
+            serialized_name: mustSupport
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMustSupport
+                setter: setMustSupport
+            xml_list:
+                inline: true
+                entry_name: mustSupport
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        codeFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: codeFilter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCodeFilter
+                setter: setCodeFilter
+            xml_list:
+                inline: true
+                entry_name: codeFilter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DataRequirementCodeFilterType>
+        dateFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: dateFilter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDateFilter
+                setter: setDateFilter
+            xml_list:
+                inline: true
+                entry_name: dateFilter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DataRequirementDateFilterType>
+        limit:
+            expose: true
+            access_type: public_method
+            serialized_name: limit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLimit
+                setter: setLimit
+            type: TKusy\Hl7Fhir\R4\PositiveIntType
+        sort:
+            expose: true
+            access_type: public_method
+            serialized_name: sort
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSort
+                setter: setSort
+            xml_list:
+                inline: true
+                entry_name: sort
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DataRequirementSortType>

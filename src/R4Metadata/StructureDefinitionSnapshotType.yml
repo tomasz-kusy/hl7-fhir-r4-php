@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\StructureDefinitionSnapshotType:
+    properties:
+        element:
+            expose: true
+            access_type: public_method
+            serialized_name: element
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getElement
+                setter: setElement
+            xml_list:
+                inline: true
+                entry_name: element
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ElementDefinitionType>

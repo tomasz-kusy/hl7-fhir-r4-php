@@ -1,0 +1,179 @@
+TKusy\Hl7Fhir\R4\PaymentReconciliationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\FinancialResourceStatusCodesType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        paymentIssuer:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentIssuer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentIssuer
+                setter: setPaymentIssuer
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        requestor:
+            expose: true
+            access_type: public_method
+            serialized_name: requestor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequestor
+                setter: setRequestor
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7Fhir\R4\RemittanceOutcomeType
+        disposition:
+            expose: true
+            access_type: public_method
+            serialized_name: disposition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisposition
+                setter: setDisposition
+            type: TKusy\Hl7Fhir\R4\StringType
+        paymentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentDate
+                setter: setPaymentDate
+            type: TKusy\Hl7Fhir\R4\DateType
+        paymentAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentAmount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentAmount
+                setter: setPaymentAmount
+            type: TKusy\Hl7Fhir\R4\MoneyType
+        paymentIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentIdentifier
+                setter: setPaymentIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: detail
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            xml_list:
+                inline: true
+                entry_name: detail
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\PaymentReconciliationDetailType>
+        formCode:
+            expose: true
+            access_type: public_method
+            serialized_name: formCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFormCode
+                setter: setFormCode
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        processNote:
+            expose: true
+            access_type: public_method
+            serialized_name: processNote
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcessNote
+                setter: setProcessNote
+            xml_list:
+                inline: true
+                entry_name: processNote
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\PaymentReconciliationProcessNoteType>

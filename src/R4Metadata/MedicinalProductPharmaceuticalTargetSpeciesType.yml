@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPharmaceuticalTargetSpeciesType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        withdrawalPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: withdrawalPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWithdrawalPeriod
+                setter: setWithdrawalPeriod
+            xml_list:
+                inline: true
+                entry_name: withdrawalPeriod
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductPharmaceuticalWithdrawalPeriodType>

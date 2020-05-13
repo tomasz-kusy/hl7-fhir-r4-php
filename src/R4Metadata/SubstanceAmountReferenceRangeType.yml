@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\SubstanceAmountReferenceRangeType:
+    properties:
+        lowLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: lowLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLowLimit
+                setter: setLowLimit
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        highLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: highLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHighLimit
+                setter: setHighLimit
+            type: TKusy\Hl7Fhir\R4\QuantityType

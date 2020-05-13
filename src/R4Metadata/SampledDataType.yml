@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R4\SampledDataType:
+    properties:
+        origin:
+            expose: true
+            access_type: public_method
+            serialized_name: origin
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrigin
+                setter: setOrigin
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        factor:
+            expose: true
+            access_type: public_method
+            serialized_name: factor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFactor
+                setter: setFactor
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        lowerLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: lowerLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLowerLimit
+                setter: setLowerLimit
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        upperLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: upperLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUpperLimit
+                setter: setUpperLimit
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        dimensions:
+            expose: true
+            access_type: public_method
+            serialized_name: dimensions
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDimensions
+                setter: setDimensions
+            type: TKusy\Hl7Fhir\R4\PositiveIntType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            type: TKusy\Hl7Fhir\R4\SampledDataDataTypeType

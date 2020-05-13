@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\SubstancePolymerMonomerSetType:
+    properties:
+        ratioType:
+            expose: true
+            access_type: public_method
+            serialized_name: ratioType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRatioType
+                setter: setRatioType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        startingMaterial:
+            expose: true
+            access_type: public_method
+            serialized_name: startingMaterial
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStartingMaterial
+                setter: setStartingMaterial
+            xml_list:
+                inline: true
+                entry_name: startingMaterial
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstancePolymerStartingMaterialType>

@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeMedicineClassificationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        classification:
+            expose: true
+            access_type: public_method
+            serialized_name: classification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassification
+                setter: setClassification
+            xml_list:
+                inline: true
+                entry_name: classification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>

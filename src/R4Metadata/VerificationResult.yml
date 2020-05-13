@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R4\VerificationResult:
+    xml_root_name: VerificationResult
+    xml_root_namespace: 'http://hl7.org/fhir'

@@ -1,0 +1,98 @@
+TKusy\Hl7Fhir\R4\ValueSetContainsType:
+    properties:
+        system:
+            expose: true
+            access_type: public_method
+            serialized_name: system
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSystem
+                setter: setSystem
+            type: TKusy\Hl7Fhir\R4\UriType
+        abstract:
+            expose: true
+            access_type: public_method
+            serialized_name: abstract
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAbstract
+                setter: setAbstract
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        inactive:
+            expose: true
+            access_type: public_method
+            serialized_name: inactive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInactive
+                setter: setInactive
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7Fhir\R4\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\CodeType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7Fhir\R4\StringType
+        designation:
+            expose: true
+            access_type: public_method
+            serialized_name: designation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDesignation
+                setter: setDesignation
+            xml_list:
+                inline: true
+                entry_name: designation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ValueSetDesignationType>
+        contains:
+            expose: true
+            access_type: public_method
+            serialized_name: contains
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContains
+                setter: setContains
+            xml_list:
+                inline: true
+                entry_name: contains
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ValueSetContainsType>

@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationIsotopeType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        substitution:
+            expose: true
+            access_type: public_method
+            serialized_name: substitution
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstitution
+                setter: setSubstitution
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        halfLife:
+            expose: true
+            access_type: public_method
+            serialized_name: halfLife
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHalfLife
+                setter: setHalfLife
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        molecularWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularWeight
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularWeight
+                setter: setMolecularWeight
+            type: TKusy\Hl7Fhir\R4\SubstanceSpecificationMolecularWeightType

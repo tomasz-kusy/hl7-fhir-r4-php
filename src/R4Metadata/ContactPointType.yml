@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R4\ContactPointType:
+    properties:
+        system:
+            expose: true
+            access_type: public_method
+            serialized_name: system
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSystem
+                setter: setSystem
+            type: TKusy\Hl7Fhir\R4\ContactPointSystemType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R4\StringType
+        use:
+            expose: true
+            access_type: public_method
+            serialized_name: use
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUse
+                setter: setUse
+            type: TKusy\Hl7Fhir\R4\ContactPointUseType
+        rank:
+            expose: true
+            access_type: public_method
+            serialized_name: rank
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRank
+                setter: setRank
+            type: TKusy\Hl7Fhir\R4\PositiveIntType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType

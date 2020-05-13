@@ -1,0 +1,113 @@
+TKusy\Hl7Fhir\R4\EncounterHospitalizationType:
+    properties:
+        preAdmissionIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: preAdmissionIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreAdmissionIdentifier
+                setter: setPreAdmissionIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        origin:
+            expose: true
+            access_type: public_method
+            serialized_name: origin
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrigin
+                setter: setOrigin
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        admitSource:
+            expose: true
+            access_type: public_method
+            serialized_name: admitSource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdmitSource
+                setter: setAdmitSource
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        reAdmission:
+            expose: true
+            access_type: public_method
+            serialized_name: reAdmission
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReAdmission
+                setter: setReAdmission
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        dietPreference:
+            expose: true
+            access_type: public_method
+            serialized_name: dietPreference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDietPreference
+                setter: setDietPreference
+            xml_list:
+                inline: true
+                entry_name: dietPreference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        specialCourtesy:
+            expose: true
+            access_type: public_method
+            serialized_name: specialCourtesy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecialCourtesy
+                setter: setSpecialCourtesy
+            xml_list:
+                inline: true
+                entry_name: specialCourtesy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        specialArrangement:
+            expose: true
+            access_type: public_method
+            serialized_name: specialArrangement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecialArrangement
+                setter: setSpecialArrangement
+            xml_list:
+                inline: true
+                entry_name: specialArrangement
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        destination:
+            expose: true
+            access_type: public_method
+            serialized_name: destination
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDestination
+                setter: setDestination
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        dischargeDisposition:
+            expose: true
+            access_type: public_method
+            serialized_name: dischargeDisposition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDischargeDisposition
+                setter: setDischargeDisposition
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType

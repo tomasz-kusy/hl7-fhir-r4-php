@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\LocationPositionType:
+    properties:
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: longitude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: latitude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        altitude:
+            expose: true
+            access_type: public_method
+            serialized_name: altitude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAltitude
+                setter: setAltitude
+            type: TKusy\Hl7Fhir\R4\DecimalType

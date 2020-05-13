@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R4\ClaimCareTeamType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7Fhir\R4\PositiveIntType
+        provider:
+            expose: true
+            access_type: public_method
+            serialized_name: provider
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProvider
+                setter: setProvider
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        responsible:
+            expose: true
+            access_type: public_method
+            serialized_name: responsible
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResponsible
+                setter: setResponsible
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        qualification:
+            expose: true
+            access_type: public_method
+            serialized_name: qualification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualification
+                setter: setQualification
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType

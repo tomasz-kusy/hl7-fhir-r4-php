@@ -1,0 +1,94 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitBenefitBalanceType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        excluded:
+            expose: true
+            access_type: public_method
+            serialized_name: excluded
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExcluded
+                setter: setExcluded
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R4\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        network:
+            expose: true
+            access_type: public_method
+            serialized_name: network
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNetwork
+                setter: setNetwork
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: unit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        term:
+            expose: true
+            access_type: public_method
+            serialized_name: term
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTerm
+                setter: setTerm
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        financial:
+            expose: true
+            access_type: public_method
+            serialized_name: financial
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFinancial
+                setter: setFinancial
+            xml_list:
+                inline: true
+                entry_name: financial
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ExplanationOfBenefitFinancialType>

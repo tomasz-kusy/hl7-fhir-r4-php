@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R4\ClaimDiagnosisType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7Fhir\R4\PositiveIntType
+        diagnosisCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosisCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnosisCodeableConcept
+                setter: setDiagnosisCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        diagnosisReference:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosisReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnosisReference
+                setter: setDiagnosisReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        onAdmission:
+            expose: true
+            access_type: public_method
+            serialized_name: onAdmission
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOnAdmission
+                setter: setOnAdmission
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        packageCode:
+            expose: true
+            access_type: public_method
+            serialized_name: packageCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackageCode
+                setter: setPackageCode
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType

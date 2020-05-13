@@ -1,0 +1,94 @@
+TKusy\Hl7Fhir\R4\ObservationDefinitionQualifiedIntervalType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R4\ObservationRangeCategoryType
+        range:
+            expose: true
+            access_type: public_method
+            serialized_name: range
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRange
+                setter: setRange
+            type: TKusy\Hl7Fhir\R4\RangeType
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: context
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContext
+                setter: setContext
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        appliesTo:
+            expose: true
+            access_type: public_method
+            serialized_name: appliesTo
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAppliesTo
+                setter: setAppliesTo
+            xml_list:
+                inline: true
+                entry_name: appliesTo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        gender:
+            expose: true
+            access_type: public_method
+            serialized_name: gender
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGender
+                setter: setGender
+            type: TKusy\Hl7Fhir\R4\AdministrativeGenderType
+        age:
+            expose: true
+            access_type: public_method
+            serialized_name: age
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAge
+                setter: setAge
+            type: TKusy\Hl7Fhir\R4\RangeType
+        gestationalAge:
+            expose: true
+            access_type: public_method
+            serialized_name: gestationalAge
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGestationalAge
+                setter: setGestationalAge
+            type: TKusy\Hl7Fhir\R4\RangeType
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: TKusy\Hl7Fhir\R4\StringType

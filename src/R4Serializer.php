@@ -9,7 +9,7 @@ use JMS\Serializer\SerializerBuilder;
 
 class R4Serializer
 {
-    public function getSerializerBuilder()
+    public static function getSerializerBuilder()
     {
         $serializerBuilder = SerializerBuilder::create();
         $serializerBuilder->addMetadataDir(__DIR__ . '/R4Metadata', 'TKusy\Hl7Fhir\R4');

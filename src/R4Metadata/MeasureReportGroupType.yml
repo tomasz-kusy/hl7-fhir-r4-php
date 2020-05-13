@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R4\MeasureReportGroupType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        population:
+            expose: true
+            access_type: public_method
+            serialized_name: population
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPopulation
+                setter: setPopulation
+            xml_list:
+                inline: true
+                entry_name: population
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MeasureReportPopulationType>
+        measureScore:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScore
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScore
+                setter: setMeasureScore
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        stratifier:
+            expose: true
+            access_type: public_method
+            serialized_name: stratifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStratifier
+                setter: setStratifier
+            xml_list:
+                inline: true
+                entry_name: stratifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MeasureReportStratifierType>

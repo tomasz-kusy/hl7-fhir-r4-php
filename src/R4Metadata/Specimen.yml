@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R4\Specimen:
+    xml_root_name: Specimen
+    xml_root_namespace: 'http://hl7.org/fhir'

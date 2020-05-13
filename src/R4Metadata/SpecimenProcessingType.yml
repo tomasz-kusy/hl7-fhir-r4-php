@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R4\SpecimenProcessingType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        procedure:
+            expose: true
+            access_type: public_method
+            serialized_name: procedure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcedure
+                setter: setProcedure
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        additive:
+            expose: true
+            access_type: public_method
+            serialized_name: additive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditive
+                setter: setAdditive
+            xml_list:
+                inline: true
+                entry_name: additive
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        timeDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: timeDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimeDateTime
+                setter: setTimeDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        timePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: timePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimePeriod
+                setter: setTimePeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType

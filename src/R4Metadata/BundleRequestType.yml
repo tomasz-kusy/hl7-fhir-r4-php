@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R4\BundleRequestType:
+    properties:
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7Fhir\R4\HTTPVerbType
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7Fhir\R4\UriType
+        ifNoneMatch:
+            expose: true
+            access_type: public_method
+            serialized_name: ifNoneMatch
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIfNoneMatch
+                setter: setIfNoneMatch
+            type: TKusy\Hl7Fhir\R4\StringType
+        ifModifiedSince:
+            expose: true
+            access_type: public_method
+            serialized_name: ifModifiedSince
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIfModifiedSince
+                setter: setIfModifiedSince
+            type: TKusy\Hl7Fhir\R4\InstantType
+        ifMatch:
+            expose: true
+            access_type: public_method
+            serialized_name: ifMatch
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIfMatch
+                setter: setIfMatch
+            type: TKusy\Hl7Fhir\R4\StringType
+        ifNoneExist:
+            expose: true
+            access_type: public_method
+            serialized_name: ifNoneExist
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIfNoneExist
+                setter: setIfNoneExist
+            type: TKusy\Hl7Fhir\R4\StringType

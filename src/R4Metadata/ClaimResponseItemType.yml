@@ -1,0 +1,58 @@
+TKusy\Hl7Fhir\R4\ClaimResponseItemType:
+    properties:
+        itemSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: itemSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemSequence
+                setter: setItemSequence
+            type: TKusy\Hl7Fhir\R4\PositiveIntType
+        noteNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: noteNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNoteNumber
+                setter: setNoteNumber
+            xml_list:
+                inline: true
+                entry_name: noteNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\PositiveIntType>
+        adjudication:
+            expose: true
+            access_type: public_method
+            serialized_name: adjudication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdjudication
+                setter: setAdjudication
+            xml_list:
+                inline: true
+                entry_name: adjudication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ClaimResponseAdjudicationType>
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: detail
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            xml_list:
+                inline: true
+                entry_name: detail
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ClaimResponseDetailType>

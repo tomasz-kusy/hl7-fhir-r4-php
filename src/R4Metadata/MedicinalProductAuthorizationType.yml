@@ -1,0 +1,194 @@
+TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IdentifierType>
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            xml_list:
+                inline: true
+                entry_name: country
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        jurisdiction:
+            expose: true
+            access_type: public_method
+            serialized_name: jurisdiction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJurisdiction
+                setter: setJurisdiction
+            xml_list:
+                inline: true
+                entry_name: jurisdiction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        statusDate:
+            expose: true
+            access_type: public_method
+            serialized_name: statusDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatusDate
+                setter: setStatusDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        restoreDate:
+            expose: true
+            access_type: public_method
+            serialized_name: restoreDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRestoreDate
+                setter: setRestoreDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: validityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        dataExclusivityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: dataExclusivityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDataExclusivityPeriod
+                setter: setDataExclusivityPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        dateOfFirstAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: dateOfFirstAuthorization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDateOfFirstAuthorization
+                setter: setDateOfFirstAuthorization
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        internationalBirthDate:
+            expose: true
+            access_type: public_method
+            serialized_name: internationalBirthDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInternationalBirthDate
+                setter: setInternationalBirthDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        legalBasis:
+            expose: true
+            access_type: public_method
+            serialized_name: legalBasis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLegalBasis
+                setter: setLegalBasis
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        jurisdictionalAuthorization:
+            expose: true
+            access_type: public_method
+            serialized_name: jurisdictionalAuthorization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJurisdictionalAuthorization
+                setter: setJurisdictionalAuthorization
+            xml_list:
+                inline: true
+                entry_name: jurisdictionalAuthorization
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationJurisdictionalAuthorizationType>
+        holder:
+            expose: true
+            access_type: public_method
+            serialized_name: holder
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHolder
+                setter: setHolder
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        regulator:
+            expose: true
+            access_type: public_method
+            serialized_name: regulator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegulator
+                setter: setRegulator
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        procedure:
+            expose: true
+            access_type: public_method
+            serialized_name: procedure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcedure
+                setter: setProcedure
+            type: TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationProcedureType

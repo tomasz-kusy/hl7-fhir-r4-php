@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R4\CodeSystemConceptType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\CodeType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7Fhir\R4\StringType
+        definition:
+            expose: true
+            access_type: public_method
+            serialized_name: definition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinition
+                setter: setDefinition
+            type: TKusy\Hl7Fhir\R4\StringType
+        designation:
+            expose: true
+            access_type: public_method
+            serialized_name: designation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDesignation
+                setter: setDesignation
+            xml_list:
+                inline: true
+                entry_name: designation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeSystemDesignationType>
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeSystemProperty1Type>
+        concept:
+            expose: true
+            access_type: public_method
+            serialized_name: concept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcept
+                setter: setConcept
+            xml_list:
+                inline: true
+                entry_name: concept
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeSystemConceptType>

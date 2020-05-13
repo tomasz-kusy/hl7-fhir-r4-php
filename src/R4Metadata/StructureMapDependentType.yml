@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\StructureMapDependentType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R4\IdType
+        variable:
+            expose: true
+            access_type: public_method
+            serialized_name: variable
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVariable
+                setter: setVariable
+            xml_list:
+                inline: true
+                entry_name: variable
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>

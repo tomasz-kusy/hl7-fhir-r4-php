@@ -1,0 +1,43 @@
+TKusy\Hl7Fhir\R4\MedicinalProductNameType:
+    properties:
+        productName:
+            expose: true
+            access_type: public_method
+            serialized_name: productName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductName
+                setter: setProductName
+            type: TKusy\Hl7Fhir\R4\StringType
+        namePart:
+            expose: true
+            access_type: public_method
+            serialized_name: namePart
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNamePart
+                setter: setNamePart
+            xml_list:
+                inline: true
+                entry_name: namePart
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductNamePartType>
+        countryLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: countryLanguage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountryLanguage
+                setter: setCountryLanguage
+            xml_list:
+                inline: true
+                entry_name: countryLanguage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductCountryLanguageType>

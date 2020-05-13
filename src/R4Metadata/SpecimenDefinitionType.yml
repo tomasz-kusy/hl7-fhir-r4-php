@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R4\SpecimenDefinitionType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        typeCollected:
+            expose: true
+            access_type: public_method
+            serialized_name: typeCollected
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTypeCollected
+                setter: setTypeCollected
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        patientPreparation:
+            expose: true
+            access_type: public_method
+            serialized_name: patientPreparation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatientPreparation
+                setter: setPatientPreparation
+            xml_list:
+                inline: true
+                entry_name: patientPreparation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        timeAspect:
+            expose: true
+            access_type: public_method
+            serialized_name: timeAspect
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimeAspect
+                setter: setTimeAspect
+            type: TKusy\Hl7Fhir\R4\StringType
+        collection:
+            expose: true
+            access_type: public_method
+            serialized_name: collection
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCollection
+                setter: setCollection
+            xml_list:
+                inline: true
+                entry_name: collection
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        typeTested:
+            expose: true
+            access_type: public_method
+            serialized_name: typeTested
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTypeTested
+                setter: setTypeTested
+            xml_list:
+                inline: true
+                entry_name: typeTested
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SpecimenDefinitionTypeTestedType>

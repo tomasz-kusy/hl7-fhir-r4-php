@@ -1,0 +1,134 @@
+TKusy\Hl7Fhir\R4\QuestionnaireEnableWhenType:
+    properties:
+        question:
+            expose: true
+            access_type: public_method
+            serialized_name: question
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuestion
+                setter: setQuestion
+            type: TKusy\Hl7Fhir\R4\StringType
+        operator:
+            expose: true
+            access_type: public_method
+            serialized_name: operator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperator
+                setter: setOperator
+            type: TKusy\Hl7Fhir\R4\QuestionnaireItemOperatorType
+        answerBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: answerBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerBoolean
+                setter: setAnswerBoolean
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        answerDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: answerDecimal
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerDecimal
+                setter: setAnswerDecimal
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        answerInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: answerInteger
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerInteger
+                setter: setAnswerInteger
+            type: TKusy\Hl7Fhir\R4\IntegerType
+        answerDate:
+            expose: true
+            access_type: public_method
+            serialized_name: answerDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerDate
+                setter: setAnswerDate
+            type: TKusy\Hl7Fhir\R4\DateType
+        answerDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: answerDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerDateTime
+                setter: setAnswerDateTime
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        answerTime:
+            expose: true
+            access_type: public_method
+            serialized_name: answerTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerTime
+                setter: setAnswerTime
+            type: TKusy\Hl7Fhir\R4\TimeType
+        answerString:
+            expose: true
+            access_type: public_method
+            serialized_name: answerString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerString
+                setter: setAnswerString
+            type: TKusy\Hl7Fhir\R4\StringType
+        answerCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: answerCoding
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerCoding
+                setter: setAnswerCoding
+            type: TKusy\Hl7Fhir\R4\CodingType
+        answerQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: answerQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerQuantity
+                setter: setAnswerQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        answerReference:
+            expose: true
+            access_type: public_method
+            serialized_name: answerReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAnswerReference
+                setter: setAnswerReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType

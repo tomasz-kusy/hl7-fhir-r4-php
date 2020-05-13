@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationPropertyType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        parameters:
+            expose: true
+            access_type: public_method
+            serialized_name: parameters
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParameters
+                setter: setParameters
+            type: TKusy\Hl7Fhir\R4\StringType
+        definingSubstanceReference:
+            expose: true
+            access_type: public_method
+            serialized_name: definingSubstanceReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefiningSubstanceReference
+                setter: setDefiningSubstanceReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        definingSubstanceCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: definingSubstanceCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefiningSubstanceCodeableConcept
+                setter: setDefiningSubstanceCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        amountQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: amountQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountQuantity
+                setter: setAmountQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        amountString:
+            expose: true
+            access_type: public_method
+            serialized_name: amountString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountString
+                setter: setAmountString
+            type: TKusy\Hl7Fhir\R4\StringType

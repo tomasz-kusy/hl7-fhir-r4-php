@@ -1,0 +1,87 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIngredientStrengthType:
+    properties:
+        presentation:
+            expose: true
+            access_type: public_method
+            serialized_name: presentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentation
+                setter: setPresentation
+            type: TKusy\Hl7Fhir\R4\RatioType
+        presentationLowLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: presentationLowLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentationLowLimit
+                setter: setPresentationLowLimit
+            type: TKusy\Hl7Fhir\R4\RatioType
+        concentration:
+            expose: true
+            access_type: public_method
+            serialized_name: concentration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcentration
+                setter: setConcentration
+            type: TKusy\Hl7Fhir\R4\RatioType
+        concentrationLowLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: concentrationLowLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcentrationLowLimit
+                setter: setConcentrationLowLimit
+            type: TKusy\Hl7Fhir\R4\RatioType
+        measurementPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementPoint
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasurementPoint
+                setter: setMeasurementPoint
+            type: TKusy\Hl7Fhir\R4\StringType
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            xml_list:
+                inline: true
+                entry_name: country
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        referenceStrength:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceStrength
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceStrength
+                setter: setReferenceStrength
+            xml_list:
+                inline: true
+                entry_name: referenceStrength
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\MedicinalProductIngredientReferenceStrengthType>

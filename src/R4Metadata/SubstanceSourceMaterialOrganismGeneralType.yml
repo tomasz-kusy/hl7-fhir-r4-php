@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R4\SubstanceSourceMaterialOrganismGeneralType:
+    properties:
+        kingdom:
+            expose: true
+            access_type: public_method
+            serialized_name: kingdom
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKingdom
+                setter: setKingdom
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        phylum:
+            expose: true
+            access_type: public_method
+            serialized_name: phylum
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPhylum
+                setter: setPhylum
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        order:
+            expose: true
+            access_type: public_method
+            serialized_name: order
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrder
+                setter: setOrder
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType

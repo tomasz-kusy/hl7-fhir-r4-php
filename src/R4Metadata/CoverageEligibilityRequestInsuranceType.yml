@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\CoverageEligibilityRequestInsuranceType:
+    properties:
+        focal:
+            expose: true
+            access_type: public_method
+            serialized_name: focal
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFocal
+                setter: setFocal
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        coverage:
+            expose: true
+            access_type: public_method
+            serialized_name: coverage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoverage
+                setter: setCoverage
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        businessArrangement:
+            expose: true
+            access_type: public_method
+            serialized_name: businessArrangement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBusinessArrangement
+                setter: setBusinessArrangement
+            type: TKusy\Hl7Fhir\R4\StringType

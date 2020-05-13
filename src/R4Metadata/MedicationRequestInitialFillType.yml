@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\MedicationRequestInitialFillType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            type: TKusy\Hl7Fhir\R4\DurationType

@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\MedicationRequestSubstitutionType:
+    properties:
+        allowedBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: allowedBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllowedBoolean
+                setter: setAllowedBoolean
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        allowedCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: allowedCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllowedCodeableConcept
+                setter: setAllowedCodeableConcept
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType

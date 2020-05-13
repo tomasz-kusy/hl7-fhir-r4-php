@@ -1,0 +1,91 @@
+TKusy\Hl7Fhir\R4\VerificationResultPrimarySourceType:
+    properties:
+        who:
+            expose: true
+            access_type: public_method
+            serialized_name: who
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWho
+                setter: setWho
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        communicationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: communicationMethod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCommunicationMethod
+                setter: setCommunicationMethod
+            xml_list:
+                inline: true
+                entry_name: communicationMethod
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        validationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: validationStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidationStatus
+                setter: setValidationStatus
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        validationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: validationDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidationDate
+                setter: setValidationDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        canPushUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: canPushUpdates
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCanPushUpdates
+                setter: setCanPushUpdates
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        pushTypeAvailable:
+            expose: true
+            access_type: public_method
+            serialized_name: pushTypeAvailable
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPushTypeAvailable
+                setter: setPushTypeAvailable
+            xml_list:
+                inline: true
+                entry_name: pushTypeAvailable
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>

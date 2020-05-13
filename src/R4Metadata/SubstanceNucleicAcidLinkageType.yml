@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R4\SubstanceNucleicAcidLinkageType:
+    properties:
+        connectivity:
+            expose: true
+            access_type: public_method
+            serialized_name: connectivity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConnectivity
+                setter: setConnectivity
+            type: TKusy\Hl7Fhir\R4\StringType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R4\StringType
+        residueSite:
+            expose: true
+            access_type: public_method
+            serialized_name: residueSite
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResidueSite
+                setter: setResidueSite
+            type: TKusy\Hl7Fhir\R4\StringType

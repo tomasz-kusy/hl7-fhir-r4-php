@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\PractitionerRoleNotAvailableType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        during:
+            expose: true
+            access_type: public_method
+            serialized_name: during
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDuring
+                setter: setDuring
+            type: TKusy\Hl7Fhir\R4\PeriodType

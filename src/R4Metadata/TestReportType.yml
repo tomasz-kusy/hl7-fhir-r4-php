@@ -1,0 +1,142 @@
+TKusy\Hl7Fhir\R4\TestReportType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R4\StringType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\TestReportStatusType
+        testScript:
+            expose: true
+            access_type: public_method
+            serialized_name: testScript
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTestScript
+                setter: setTestScript
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        result:
+            expose: true
+            access_type: public_method
+            serialized_name: result
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResult
+                setter: setResult
+            type: TKusy\Hl7Fhir\R4\TestReportResultType
+        score:
+            expose: true
+            access_type: public_method
+            serialized_name: score
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScore
+                setter: setScore
+            type: TKusy\Hl7Fhir\R4\DecimalType
+        tester:
+            expose: true
+            access_type: public_method
+            serialized_name: tester
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTester
+                setter: setTester
+            type: TKusy\Hl7Fhir\R4\StringType
+        issued:
+            expose: true
+            access_type: public_method
+            serialized_name: issued
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIssued
+                setter: setIssued
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        participant:
+            expose: true
+            access_type: public_method
+            serialized_name: participant
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipant
+                setter: setParticipant
+            xml_list:
+                inline: true
+                entry_name: participant
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\TestReportParticipantType>
+        setup:
+            expose: true
+            access_type: public_method
+            serialized_name: setup
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSetup
+                setter: setSetup
+            type: TKusy\Hl7Fhir\R4\TestReportSetupType
+        test:
+            expose: true
+            access_type: public_method
+            serialized_name: test
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTest
+                setter: setTest
+            xml_list:
+                inline: true
+                entry_name: test
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\TestReportTestType>
+        teardown:
+            expose: true
+            access_type: public_method
+            serialized_name: teardown
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTeardown
+                setter: setTeardown
+            type: TKusy\Hl7Fhir\R4\TestReportTeardownType

@@ -1,0 +1,316 @@
+TKusy\Hl7Fhir\R4\FamilyMemberHistoryType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IdentifierType>
+        instantiatesCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: instantiatesCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstantiatesCanonical
+                setter: setInstantiatesCanonical
+            xml_list:
+                inline: true
+                entry_name: instantiatesCanonical
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CanonicalType>
+        instantiatesUri:
+            expose: true
+            access_type: public_method
+            serialized_name: instantiatesUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstantiatesUri
+                setter: setInstantiatesUri
+            xml_list:
+                inline: true
+                entry_name: instantiatesUri
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\UriType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\FamilyHistoryStatusType
+        dataAbsentReason:
+            expose: true
+            access_type: public_method
+            serialized_name: dataAbsentReason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDataAbsentReason
+                setter: setDataAbsentReason
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R4\StringType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        sex:
+            expose: true
+            access_type: public_method
+            serialized_name: sex
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSex
+                setter: setSex
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        bornPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: bornPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBornPeriod
+                setter: setBornPeriod
+            type: TKusy\Hl7Fhir\R4\PeriodType
+        bornDate:
+            expose: true
+            access_type: public_method
+            serialized_name: bornDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBornDate
+                setter: setBornDate
+            type: TKusy\Hl7Fhir\R4\DateType
+        bornString:
+            expose: true
+            access_type: public_method
+            serialized_name: bornString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBornString
+                setter: setBornString
+            type: TKusy\Hl7Fhir\R4\StringType
+        ageAge:
+            expose: true
+            access_type: public_method
+            serialized_name: ageAge
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgeAge
+                setter: setAgeAge
+            type: TKusy\Hl7Fhir\R4\AgeType
+        ageRange:
+            expose: true
+            access_type: public_method
+            serialized_name: ageRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgeRange
+                setter: setAgeRange
+            type: TKusy\Hl7Fhir\R4\RangeType
+        ageString:
+            expose: true
+            access_type: public_method
+            serialized_name: ageString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgeString
+                setter: setAgeString
+            type: TKusy\Hl7Fhir\R4\StringType
+        estimatedAge:
+            expose: true
+            access_type: public_method
+            serialized_name: estimatedAge
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEstimatedAge
+                setter: setEstimatedAge
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        deceasedBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedBoolean
+                setter: setDeceasedBoolean
+            type: TKusy\Hl7Fhir\R4\BooleanType
+        deceasedAge:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedAge
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedAge
+                setter: setDeceasedAge
+            type: TKusy\Hl7Fhir\R4\AgeType
+        deceasedRange:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedRange
+                setter: setDeceasedRange
+            type: TKusy\Hl7Fhir\R4\RangeType
+        deceasedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedDate
+                setter: setDeceasedDate
+            type: TKusy\Hl7Fhir\R4\DateType
+        deceasedString:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedString
+                setter: setDeceasedString
+            type: TKusy\Hl7Fhir\R4\StringType
+        reasonCode:
+            expose: true
+            access_type: public_method
+            serialized_name: reasonCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReasonCode
+                setter: setReasonCode
+            xml_list:
+                inline: true
+                entry_name: reasonCode
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        reasonReference:
+            expose: true
+            access_type: public_method
+            serialized_name: reasonReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReasonReference
+                setter: setReasonReference
+            xml_list:
+                inline: true
+                entry_name: reasonReference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\AnnotationType>
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            xml_list:
+                inline: true
+                entry_name: condition
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\FamilyMemberHistoryConditionType>

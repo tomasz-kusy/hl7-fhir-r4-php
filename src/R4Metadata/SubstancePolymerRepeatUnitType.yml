@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R4\SubstancePolymerRepeatUnitType:
+    properties:
+        orientationOfPolymerisation:
+            expose: true
+            access_type: public_method
+            serialized_name: orientationOfPolymerisation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrientationOfPolymerisation
+                setter: setOrientationOfPolymerisation
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        repeatUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: repeatUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepeatUnit
+                setter: setRepeatUnit
+            type: TKusy\Hl7Fhir\R4\StringType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R4\SubstanceAmountType
+        degreeOfPolymerisation:
+            expose: true
+            access_type: public_method
+            serialized_name: degreeOfPolymerisation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDegreeOfPolymerisation
+                setter: setDegreeOfPolymerisation
+            xml_list:
+                inline: true
+                entry_name: degreeOfPolymerisation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstancePolymerDegreeOfPolymerisationType>
+        structuralRepresentation:
+            expose: true
+            access_type: public_method
+            serialized_name: structuralRepresentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStructuralRepresentation
+                setter: setStructuralRepresentation
+            xml_list:
+                inline: true
+                entry_name: structuralRepresentation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstancePolymerStructuralRepresentationType>

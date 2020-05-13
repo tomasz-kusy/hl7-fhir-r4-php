@@ -1,0 +1,107 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceRocType:
+    properties:
+        score:
+            expose: true
+            access_type: public_method
+            serialized_name: score
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScore
+                setter: setScore
+            xml_list:
+                inline: true
+                entry_name: score
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IntegerType>
+        numTP:
+            expose: true
+            access_type: public_method
+            serialized_name: numTP
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumTP
+                setter: setNumTP
+            xml_list:
+                inline: true
+                entry_name: numTP
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IntegerType>
+        numFP:
+            expose: true
+            access_type: public_method
+            serialized_name: numFP
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumFP
+                setter: setNumFP
+            xml_list:
+                inline: true
+                entry_name: numFP
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IntegerType>
+        numFN:
+            expose: true
+            access_type: public_method
+            serialized_name: numFN
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumFN
+                setter: setNumFN
+            xml_list:
+                inline: true
+                entry_name: numFN
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\IntegerType>
+        precision:
+            expose: true
+            access_type: public_method
+            serialized_name: precision
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrecision
+                setter: setPrecision
+            xml_list:
+                inline: true
+                entry_name: precision
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DecimalType>
+        sensitivity:
+            expose: true
+            access_type: public_method
+            serialized_name: sensitivity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSensitivity
+                setter: setSensitivity
+            xml_list:
+                inline: true
+                entry_name: sensitivity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DecimalType>
+        fMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: fMeasure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFMeasure
+                setter: setFMeasure
+            xml_list:
+                inline: true
+                entry_name: fMeasure
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\DecimalType>

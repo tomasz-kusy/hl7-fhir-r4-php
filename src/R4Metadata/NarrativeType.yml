@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\NarrativeType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\NarrativeStatusType
+        div:
+            expose: true
+            access_type: public_method
+            serialized_name: div
+            xml_element:
+                cdata: false
+                namespace: 'http://www.w3.org/1999/xhtml'
+            accessor:
+                getter: getDiv
+                setter: setDiv
+            type: TKusy\FhirXhtml\Div

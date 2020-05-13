@@ -1,0 +1,239 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        domain:
+            expose: true
+            access_type: public_method
+            serialized_name: domain
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDomain
+                setter: setDomain
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R4\StringType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R4\StringType
+        moiety:
+            expose: true
+            access_type: public_method
+            serialized_name: moiety
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMoiety
+                setter: setMoiety
+            xml_list:
+                inline: true
+                entry_name: moiety
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstanceSpecificationMoietyType>
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstanceSpecificationPropertyType>
+        referenceInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceInformation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceInformation
+                setter: setReferenceInformation
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        structure:
+            expose: true
+            access_type: public_method
+            serialized_name: structure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStructure
+                setter: setStructure
+            type: TKusy\Hl7Fhir\R4\SubstanceSpecificationStructureType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_list:
+                inline: true
+                entry_name: code
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstanceSpecificationCodeType>
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            xml_list:
+                inline: true
+                entry_name: name
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstanceSpecificationNameType>
+        molecularWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularWeight
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularWeight
+                setter: setMolecularWeight
+            xml_list:
+                inline: true
+                entry_name: molecularWeight
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstanceSpecificationMolecularWeightType>
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            xml_list:
+                inline: true
+                entry_name: relationship
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\SubstanceSpecificationRelationshipType>
+        nucleicAcid:
+            expose: true
+            access_type: public_method
+            serialized_name: nucleicAcid
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNucleicAcid
+                setter: setNucleicAcid
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        polymer:
+            expose: true
+            access_type: public_method
+            serialized_name: polymer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPolymer
+                setter: setPolymer
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        protein:
+            expose: true
+            access_type: public_method
+            serialized_name: protein
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProtein
+                setter: setProtein
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        sourceMaterial:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceMaterial
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceMaterial
+                setter: setSourceMaterial
+            type: TKusy\Hl7Fhir\R4\ReferenceType

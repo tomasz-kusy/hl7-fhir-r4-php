@@ -1,0 +1,176 @@
+TKusy\Hl7Fhir\R4\VerificationResultType:
+    properties:
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_list:
+                inline: true
+                entry_name: target
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\ReferenceType>
+        targetLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: targetLocation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetLocation
+                setter: setTargetLocation
+            xml_list:
+                inline: true
+                entry_name: targetLocation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\StringType>
+        need:
+            expose: true
+            access_type: public_method
+            serialized_name: need
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNeed
+                setter: setNeed
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R4\StatusType
+        statusDate:
+            expose: true
+            access_type: public_method
+            serialized_name: statusDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatusDate
+                setter: setStatusDate
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        validationType:
+            expose: true
+            access_type: public_method
+            serialized_name: validationType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidationType
+                setter: setValidationType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        validationProcess:
+            expose: true
+            access_type: public_method
+            serialized_name: validationProcess
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidationProcess
+                setter: setValidationProcess
+            xml_list:
+                inline: true
+                entry_name: validationProcess
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
+        frequency:
+            expose: true
+            access_type: public_method
+            serialized_name: frequency
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFrequency
+                setter: setFrequency
+            type: TKusy\Hl7Fhir\R4\TimingType
+        lastPerformed:
+            expose: true
+            access_type: public_method
+            serialized_name: lastPerformed
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLastPerformed
+                setter: setLastPerformed
+            type: TKusy\Hl7Fhir\R4\DateTimeType
+        nextScheduled:
+            expose: true
+            access_type: public_method
+            serialized_name: nextScheduled
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNextScheduled
+                setter: setNextScheduled
+            type: TKusy\Hl7Fhir\R4\DateType
+        failureAction:
+            expose: true
+            access_type: public_method
+            serialized_name: failureAction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFailureAction
+                setter: setFailureAction
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        primarySource:
+            expose: true
+            access_type: public_method
+            serialized_name: primarySource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrimarySource
+                setter: setPrimarySource
+            xml_list:
+                inline: true
+                entry_name: primarySource
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\VerificationResultPrimarySourceType>
+        attestation:
+            expose: true
+            access_type: public_method
+            serialized_name: attestation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttestation
+                setter: setAttestation
+            type: TKusy\Hl7Fhir\R4\VerificationResultAttestationType
+        validator:
+            expose: true
+            access_type: public_method
+            serialized_name: validator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidator
+                setter: setValidator
+            xml_list:
+                inline: true
+                entry_name: validator
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\VerificationResultValidatorType>

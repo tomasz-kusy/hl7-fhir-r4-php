@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R4\SubstanceAmountType:
+    properties:
+        amountQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: amountQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountQuantity
+                setter: setAmountQuantity
+            type: TKusy\Hl7Fhir\R4\QuantityType
+        amountRange:
+            expose: true
+            access_type: public_method
+            serialized_name: amountRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountRange
+                setter: setAmountRange
+            type: TKusy\Hl7Fhir\R4\RangeType
+        amountString:
+            expose: true
+            access_type: public_method
+            serialized_name: amountString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountString
+                setter: setAmountString
+            type: TKusy\Hl7Fhir\R4\StringType
+        amountType:
+            expose: true
+            access_type: public_method
+            serialized_name: amountType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountType
+                setter: setAmountType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        amountText:
+            expose: true
+            access_type: public_method
+            serialized_name: amountText
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountText
+                setter: setAmountText
+            type: TKusy\Hl7Fhir\R4\StringType
+        referenceRange:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceRange
+                setter: setReferenceRange
+            type: TKusy\Hl7Fhir\R4\SubstanceAmountReferenceRangeType

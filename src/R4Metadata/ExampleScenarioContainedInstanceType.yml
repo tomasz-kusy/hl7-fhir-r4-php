@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\ExampleScenarioContainedInstanceType:
+    properties:
+        resourceId:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResourceId
+                setter: setResourceId
+            type: TKusy\Hl7Fhir\R4\StringType
+        versionId:
+            expose: true
+            access_type: public_method
+            serialized_name: versionId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersionId
+                setter: setVersionId
+            type: TKusy\Hl7Fhir\R4\StringType

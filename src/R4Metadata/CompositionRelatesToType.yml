@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\CompositionRelatesToType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R4\DocumentRelationshipTypeType
+        targetIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: targetIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetIdentifier
+                setter: setTargetIdentifier
+            type: TKusy\Hl7Fhir\R4\IdentifierType
+        targetReference:
+            expose: true
+            access_type: public_method
+            serialized_name: targetReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetReference
+                setter: setTargetReference
+            type: TKusy\Hl7Fhir\R4\ReferenceType

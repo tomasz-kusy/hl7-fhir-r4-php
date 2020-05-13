@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitRelatedType:
+    properties:
+        claim:
+            expose: true
+            access_type: public_method
+            serialized_name: claim
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClaim
+                setter: setClaim
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: TKusy\Hl7Fhir\R4\IdentifierType

@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\CodeableConceptType:
+    properties:
+        coding:
+            expose: true
+            access_type: public_method
+            serialized_name: coding
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoding
+                setter: setCoding
+            xml_list:
+                inline: true
+                entry_name: coding
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R4\CodingType>
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R4\StringType

@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitFinancialType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R4\CodeableConceptType
+        allowedUnsignedInt:
+            expose: true
+            access_type: public_method
+            serialized_name: allowedUnsignedInt
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllowedUnsignedInt
+                setter: setAllowedUnsignedInt
+            type: TKusy\Hl7Fhir\R4\UnsignedIntType
+        allowedString:
+            expose: true
+            access_type: public_method
+            serialized_name: allowedString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllowedString
+                setter: setAllowedString
+            type: TKusy\Hl7Fhir\R4\StringType
+        allowedMoney:
+            expose: true
+            access_type: public_method
+            serialized_name: allowedMoney
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllowedMoney
+                setter: setAllowedMoney
+            type: TKusy\Hl7Fhir\R4\MoneyType
+        usedUnsignedInt:
+            expose: true
+            access_type: public_method
+            serialized_name: usedUnsignedInt
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsedUnsignedInt
+                setter: setUsedUnsignedInt
+            type: TKusy\Hl7Fhir\R4\UnsignedIntType
+        usedMoney:
+            expose: true
+            access_type: public_method
+            serialized_name: usedMoney
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsedMoney
+                setter: setUsedMoney
+            type: TKusy\Hl7Fhir\R4\MoneyType

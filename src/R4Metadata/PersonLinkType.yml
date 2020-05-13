@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\PersonLinkType:
+    properties:
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            type: TKusy\Hl7Fhir\R4\ReferenceType
+        assurance:
+            expose: true
+            access_type: public_method
+            serialized_name: assurance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssurance
+                setter: setAssurance
+            type: TKusy\Hl7Fhir\R4\IdentityAssuranceLevelType
