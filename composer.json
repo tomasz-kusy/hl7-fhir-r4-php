@@ -21,6 +21,7 @@
     }
   },
   "require": {
-    "tomasz-kusy/fhir-xhtml-php": "dev-master"
+    "tomasz-kusy/fhir-xhtml-php": "dev-master",
+    "goetas-webservices/xsd2php-runtime": "^0.2"
   }
 }
