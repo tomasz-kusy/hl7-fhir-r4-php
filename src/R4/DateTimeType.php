@@ -12,14 +12,14 @@ class DateTimeType extends ElementType
 {
 
     /**
-     * @var \GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime $value
+     * @var \DateTime $value
      */
     private $value = null;
 
     /**
      * Gets as value
      *
-     * @return \GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+     * @return \DateTime
      */
     public function getValue()
     {
@@ -29,10 +29,10 @@ class DateTimeType extends ElementType
     /**
      * Sets a new value
      *
-     * @param \GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime $value
+     * @param \DateTime $value
      * @return self
      */
-    public function setValue(\GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime $value)
+    public function setValue(\DateTime $value)
     {
         $this->value = $value;
         return $this;
