@@ -8,4 +8,4 @@ TKusy\Hl7Fhir\R4\DateTimeType:
                 getter: getValue
                 setter: setValue
             xml_attribute: true
-            type: int
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
