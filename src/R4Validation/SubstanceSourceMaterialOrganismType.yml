@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\SubstanceSourceMaterialOrganismType:
+    properties:
+        family:
+            -
+                Valid: null
+        genus:
+            -
+                Valid: null
+        species:
+            -
+                Valid: null
+        intraspecificType:
+            -
+                Valid: null
+        intraspecificDescription:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        hybrid:
+            -
+                Valid: null
+        organismGeneral:
+            -
+                Valid: null

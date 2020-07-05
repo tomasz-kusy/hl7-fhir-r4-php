@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\PlanDefinitionTargetType:
+    properties:
+        measure:
+            -
+                Valid: null
+        detailQuantity:
+            -
+                Valid: null
+        detailRange:
+            -
+                Valid: null
+        detailCodeableConcept:
+            -
+                Valid: null
+        due:
+            -
+                Valid: null

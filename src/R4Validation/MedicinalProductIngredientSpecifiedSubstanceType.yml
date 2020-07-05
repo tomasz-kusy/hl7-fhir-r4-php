@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIngredientSpecifiedSubstanceType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        group:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        confidentiality:
+            -
+                Valid: null
+        strength:
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\MeasureReportStratumType:
+    properties:
+        value:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null
+        measureScore:
+            -
+                Valid: null

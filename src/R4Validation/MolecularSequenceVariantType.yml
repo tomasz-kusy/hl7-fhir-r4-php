@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceVariantType:
+    properties:
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        observedAllele:
+            -
+                Valid: null
+        referenceAllele:
+            -
+                Valid: null
+        cigar:
+            -
+                Valid: null
+        variantPointer:
+            -
+                Valid: null

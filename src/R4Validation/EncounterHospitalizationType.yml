@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\EncounterHospitalizationType:
+    properties:
+        preAdmissionIdentifier:
+            -
+                Valid: null
+        origin:
+            -
+                Valid: null
+        admitSource:
+            -
+                Valid: null
+        reAdmission:
+            -
+                Valid: null
+        dietPreference:
+            -
+                Valid: null
+        specialCourtesy:
+            -
+                Valid: null
+        specialArrangement:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        dischargeDisposition:
+            -
+                Valid: null

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ClaimResponseErrorType:
+    properties:
+        itemSequence:
+            -
+                Valid: null
+        detailSequence:
+            -
+                Valid: null
+        subDetailSequence:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

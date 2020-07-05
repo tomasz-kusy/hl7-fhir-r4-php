@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ImplementationGuideDependsOnType:
+    properties:
+        uri:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        packageId:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null

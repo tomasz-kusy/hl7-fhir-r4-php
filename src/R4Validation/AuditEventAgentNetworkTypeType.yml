@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\AuditEventAgentNetworkTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - '1'
+                        - '2'
+                        - '3'
+                        - '4'
+                        - '5'
+                    groups:
+                        - xsd_rules

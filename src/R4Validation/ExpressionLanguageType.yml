@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ExpressionLanguageType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - text/cql
+                        - text/fhirpath
+                        - application/x-fhir-query
+                    groups:
+                        - xsd_rules

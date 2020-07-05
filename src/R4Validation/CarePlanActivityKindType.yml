@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\CarePlanActivityKindType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - Appointment
+                        - CommunicationRequest
+                        - DeviceRequest
+                        - MedicationRequest
+                        - NutritionOrder
+                        - Task
+                        - ServiceRequest
+                        - VisionPrescription
+                    groups:
+                        - xsd_rules

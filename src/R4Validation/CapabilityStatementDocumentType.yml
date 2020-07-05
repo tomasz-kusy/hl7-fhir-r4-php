@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementDocumentType:
+    properties:
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        profile:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

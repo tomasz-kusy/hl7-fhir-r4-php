@@ -1,0 +1,51 @@
+TKusy\Hl7Fhir\R4\EndpointType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        connectionType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        managingOrganization:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        payloadType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        payloadMimeType:
+            -
+                Valid: null
+        address:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        header:
+            -
+                Valid: null

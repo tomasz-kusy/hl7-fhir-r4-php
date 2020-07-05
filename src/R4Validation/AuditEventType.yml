@@ -1,0 +1,51 @@
+TKusy\Hl7Fhir\R4\AuditEventType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subtype:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        recorded:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        outcomeDesc:
+            -
+                Valid: null
+        purposeOfEvent:
+            -
+                Valid: null
+        agent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        source:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        entity:
+            -
+                Valid: null

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ListEntryType:
+    properties:
+        flag:
+            -
+                Valid: null
+        deleted:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        item:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

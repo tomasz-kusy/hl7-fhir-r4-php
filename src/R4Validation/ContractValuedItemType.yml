@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R4\ContractValuedItemType:
+    properties:
+        entityCodeableConcept:
+            -
+                Valid: null
+        entityReference:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        effectiveTime:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        points:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        payment:
+            -
+                Valid: null
+        paymentDate:
+            -
+                Valid: null
+        responsible:
+            -
+                Valid: null
+        recipient:
+            -
+                Valid: null
+        linkId:
+            -
+                Valid: null
+        securityLabelNumber:
+            -
+                Valid: null

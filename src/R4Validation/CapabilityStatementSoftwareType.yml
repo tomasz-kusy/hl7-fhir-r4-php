@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementSoftwareType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        releaseDate:
+            -
+                Valid: null

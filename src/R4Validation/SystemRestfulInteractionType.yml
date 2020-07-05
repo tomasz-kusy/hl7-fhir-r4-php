@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\SystemRestfulInteractionType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - transaction
+                        - batch
+                        - search-system
+                        - history-system
+                    groups:
+                        - xsd_rules

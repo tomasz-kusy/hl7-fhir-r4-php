@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIngredientStrengthType:
+    properties:
+        presentation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        presentationLowLimit:
+            -
+                Valid: null
+        concentration:
+            -
+                Valid: null
+        concentrationLowLimit:
+            -
+                Valid: null
+        measurementPoint:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null
+        referenceStrength:
+            -
+                Valid: null

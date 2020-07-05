@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R4\ImplementationGuidePageType:
+    properties:
+        nameUrl:
+            -
+                Valid: null
+        nameReference:
+            -
+                Valid: null
+        title:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        generation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        page:
+            -
+                Valid: null

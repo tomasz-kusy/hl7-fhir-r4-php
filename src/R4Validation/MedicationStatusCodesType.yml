@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\MedicationStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - inactive
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

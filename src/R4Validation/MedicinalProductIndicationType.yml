@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIndicationType:
+    properties:
+        subject:
+            -
+                Valid: null
+        diseaseSymptomProcedure:
+            -
+                Valid: null
+        diseaseStatus:
+            -
+                Valid: null
+        comorbidity:
+            -
+                Valid: null
+        intendedEffect:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null
+        otherTherapy:
+            -
+                Valid: null
+        undesirableEffect:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null

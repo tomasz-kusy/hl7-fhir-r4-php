@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationIsotopeType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        substitution:
+            -
+                Valid: null
+        halfLife:
+            -
+                Valid: null
+        molecularWeight:
+            -
+                Valid: null

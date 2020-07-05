@@ -1,0 +1,45 @@
+TKusy\Hl7Fhir\R4\DetectedIssueType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        severity:
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        identifiedDateTime:
+            -
+                Valid: null
+        identifiedPeriod:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        implicated:
+            -
+                Valid: null
+        evidence:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        mitigation:
+            -
+                Valid: null

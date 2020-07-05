@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ValueSetConceptType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        designation:
+            -
+                Valid: null

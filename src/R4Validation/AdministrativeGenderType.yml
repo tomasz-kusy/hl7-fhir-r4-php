@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\AdministrativeGenderType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - male
+                        - female
+                        - other
+                        - unknown
+                    groups:
+                        - xsd_rules

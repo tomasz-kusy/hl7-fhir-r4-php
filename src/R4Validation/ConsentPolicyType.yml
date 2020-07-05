@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\ConsentPolicyType:
+    properties:
+        authority:
+            -
+                Valid: null
+        uri:
+            -
+                Valid: null

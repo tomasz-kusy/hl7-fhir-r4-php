@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R4\CoverageEligibilityResponseBenefitType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        allowedUnsignedInt:
+            -
+                Valid: null
+        allowedString:
+            -
+                Valid: null
+        allowedMoney:
+            -
+                Valid: null
+        usedUnsignedInt:
+            -
+                Valid: null
+        usedString:
+            -
+                Valid: null
+        usedMoney:
+            -
+                Valid: null

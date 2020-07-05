@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\ExampleScenarioActorTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - person
+                        - entity
+                    groups:
+                        - xsd_rules

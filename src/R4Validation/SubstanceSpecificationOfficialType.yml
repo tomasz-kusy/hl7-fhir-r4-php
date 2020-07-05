@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationOfficialType:
+    properties:
+        authority:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null

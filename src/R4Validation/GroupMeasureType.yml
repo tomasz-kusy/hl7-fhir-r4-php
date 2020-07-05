@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\GroupMeasureType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - mean
+                        - median
+                        - mean-of-mean
+                        - mean-of-median
+                        - median-of-mean
+                        - median-of-median
+                    groups:
+                        - xsd_rules

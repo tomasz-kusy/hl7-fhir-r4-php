@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitFinancialType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        allowedUnsignedInt:
+            -
+                Valid: null
+        allowedString:
+            -
+                Valid: null
+        allowedMoney:
+            -
+                Valid: null
+        usedUnsignedInt:
+            -
+                Valid: null
+        usedMoney:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ConceptMapGroupUnmappedModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - provided
+                        - fixed
+                        - other-map
+                    groups:
+                        - xsd_rules

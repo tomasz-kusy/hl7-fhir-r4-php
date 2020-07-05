@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\CodeSystemContentModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - not-present
+                        - example
+                        - fragment
+                        - complete
+                        - supplement
+                    groups:
+                        - xsd_rules

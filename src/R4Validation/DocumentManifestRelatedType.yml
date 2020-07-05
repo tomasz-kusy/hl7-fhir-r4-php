@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\DocumentManifestRelatedType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        ref:
+            -
+                Valid: null

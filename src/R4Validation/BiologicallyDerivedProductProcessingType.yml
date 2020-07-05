@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductProcessingType:
+    properties:
+        description:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null
+        additive:
+            -
+                Valid: null
+        timeDateTime:
+            -
+                Valid: null
+        timePeriod:
+            -
+                Valid: null

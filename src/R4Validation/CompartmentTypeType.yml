@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\CompartmentTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - Patient
+                        - Encounter
+                        - RelatedPerson
+                        - Practitioner
+                        - Device
+                    groups:
+                        - xsd_rules

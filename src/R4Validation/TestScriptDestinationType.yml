@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\TestScriptDestinationType:
+    properties:
+        index:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

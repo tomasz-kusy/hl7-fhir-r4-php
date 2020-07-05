@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIndicationOtherTherapyType:
+    properties:
+        therapyRelationshipType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        medicationCodeableConcept:
+            -
+                Valid: null
+        medicationReference:
+            -
+                Valid: null

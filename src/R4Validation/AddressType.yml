@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R4\AddressType:
+    properties:
+        use:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        line:
+            -
+                Valid: null
+        city:
+            -
+                Valid: null
+        district:
+            -
+                Valid: null
+        state:
+            -
+                Valid: null
+        postalCode:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

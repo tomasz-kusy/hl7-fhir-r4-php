@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R4\ContractAssetType:
+    properties:
+        scope:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        typeReference:
+            -
+                Valid: null
+        subtype:
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        periodType:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        usePeriod:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        linkId:
+            -
+                Valid: null
+        answer:
+            -
+                Valid: null
+        securityLabelNumber:
+            -
+                Valid: null
+        valuedItem:
+            -
+                Valid: null

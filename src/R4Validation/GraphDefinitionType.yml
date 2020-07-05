@@ -1,0 +1,59 @@
+TKusy\Hl7Fhir\R4\GraphDefinitionType:
+    properties:
+        url:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        start:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null

@@ -1,0 +1,106 @@
+TKusy\Hl7Fhir\R4\ProcedureType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        performedDateTime:
+            -
+                Valid: null
+        performedPeriod:
+            -
+                Valid: null
+        performedString:
+            -
+                Valid: null
+        performedAge:
+            -
+                Valid: null
+        performedRange:
+            -
+                Valid: null
+        recorder:
+            -
+                Valid: null
+        asserter:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        report:
+            -
+                Valid: null
+        complication:
+            -
+                Valid: null
+        complicationDetail:
+            -
+                Valid: null
+        followUp:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        focalDevice:
+            -
+                Valid: null
+        usedReference:
+            -
+                Valid: null
+        usedCode:
+            -
+                Valid: null

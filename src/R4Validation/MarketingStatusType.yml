@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\MarketingStatusType:
+    properties:
+        country:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        dateRange:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        restoreDate:
+            -
+                Valid: null

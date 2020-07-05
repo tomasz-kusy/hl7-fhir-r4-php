@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\ImplementationGuideTemplateType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        source:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        scope:
+            -
+                Valid: null

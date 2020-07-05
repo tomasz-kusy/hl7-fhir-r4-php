@@ -1,0 +1,121 @@
+TKusy\Hl7Fhir\R4\EffectEvidenceSynthesisType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        topic:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        editor:
+            -
+                Valid: null
+        reviewer:
+            -
+                Valid: null
+        endorser:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        synthesisType:
+            -
+                Valid: null
+        studyType:
+            -
+                Valid: null
+        population:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        exposure:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        exposureAlternative:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        outcome:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sampleSize:
+            -
+                Valid: null
+        resultsByExposure:
+            -
+                Valid: null
+        effectEstimate:
+            -
+                Valid: null
+        certainty:
+            -
+                Valid: null

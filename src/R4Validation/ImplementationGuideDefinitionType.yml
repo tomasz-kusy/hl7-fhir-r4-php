@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\ImplementationGuideDefinitionType:
+    properties:
+        grouping:
+            -
+                Valid: null
+        resource:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        page:
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null
+        template:
+            -
+                Valid: null

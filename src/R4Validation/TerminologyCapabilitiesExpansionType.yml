@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\TerminologyCapabilitiesExpansionType:
+    properties:
+        hierarchical:
+            -
+                Valid: null
+        paging:
+            -
+                Valid: null
+        incomplete:
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null
+        textFilter:
+            -
+                Valid: null

@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\RiskEvidenceSynthesisRiskEstimateType:
+    properties:
+        description:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        unitOfMeasure:
+            -
+                Valid: null
+        denominatorCount:
+            -
+                Valid: null
+        numeratorCount:
+            -
+                Valid: null
+        precisionEstimate:
+            -
+                Valid: null

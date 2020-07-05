@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\BundleLinkType:
+    properties:
+        relation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

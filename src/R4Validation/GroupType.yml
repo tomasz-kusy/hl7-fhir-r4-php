@@ -1,0 +1,40 @@
+TKusy\Hl7Fhir\R4\GroupType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        actual:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        managingEntity:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        member:
+            -
+                Valid: null

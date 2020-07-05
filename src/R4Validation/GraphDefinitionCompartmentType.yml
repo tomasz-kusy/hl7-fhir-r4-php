@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\GraphDefinitionCompartmentType:
+    properties:
+        use:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

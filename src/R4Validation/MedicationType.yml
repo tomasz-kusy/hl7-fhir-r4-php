@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\MedicationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        form:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        batch:
+            -
+                Valid: null

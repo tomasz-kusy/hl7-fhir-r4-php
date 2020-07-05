@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeCostType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        cost:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

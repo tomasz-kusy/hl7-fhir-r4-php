@@ -1,0 +1,31 @@
+TKusy\Hl7Fhir\R4\MedicinalProductManufacturedType:
+    properties:
+        manufacturedDoseForm:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        unitOfPresentation:
+            -
+                Valid: null
+        quantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        physicalCharacteristics:
+            -
+                Valid: null
+        otherCharacteristics:
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\ObservationDataTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - Quantity
+                        - CodeableConcept
+                        - string
+                        - boolean
+                        - integer
+                        - Range
+                        - Ratio
+                        - SampledData
+                        - time
+                        - dateTime
+                        - Period
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,76 @@
+TKusy\Hl7Fhir\R4\AppointmentType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        cancelationReason:
+            -
+                Valid: null
+        serviceCategory:
+            -
+                Valid: null
+        serviceType:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null
+        appointmentType:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        minutesDuration:
+            -
+                Valid: null
+        slot:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        patientInstruction:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        participant:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        requestedPeriod:
+            -
+                Valid: null

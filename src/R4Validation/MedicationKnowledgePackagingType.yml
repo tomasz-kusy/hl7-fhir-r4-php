@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgePackagingType:
+    properties:
+        type:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null

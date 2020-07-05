@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\SortDirectionType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - ascending
+                        - descending
+                    groups:
+                        - xsd_rules

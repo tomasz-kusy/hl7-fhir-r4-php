@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\MedicationIngredientType:
+    properties:
+        itemCodeableConcept:
+            -
+                Valid: null
+        itemReference:
+            -
+                Valid: null
+        isActive:
+            -
+                Valid: null
+        strength:
+            -
+                Valid: null

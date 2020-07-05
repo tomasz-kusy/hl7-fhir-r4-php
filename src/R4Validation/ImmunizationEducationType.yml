@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ImmunizationEducationType:
+    properties:
+        documentType:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        publicationDate:
+            -
+                Valid: null
+        presentationDate:
+            -
+                Valid: null

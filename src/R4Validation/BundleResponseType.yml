@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\BundleResponseType:
+    properties:
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        etag:
+            -
+                Valid: null
+        lastModified:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ClaimAccidentType:
+    properties:
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        locationAddress:
+            -
+                Valid: null
+        locationReference:
+            -
+                Valid: null

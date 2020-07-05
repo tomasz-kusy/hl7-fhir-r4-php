@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\NamingSystemIdentifierTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - oid
+                        - uuid
+                        - uri
+                        - other
+                    groups:
+                        - xsd_rules

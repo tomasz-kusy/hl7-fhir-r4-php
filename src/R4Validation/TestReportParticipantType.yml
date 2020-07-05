@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\TestReportParticipantType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        uri:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        display:
+            -
+                Valid: null

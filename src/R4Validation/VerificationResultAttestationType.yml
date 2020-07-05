@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\VerificationResultAttestationType:
+    properties:
+        who:
+            -
+                Valid: null
+        onBehalfOf:
+            -
+                Valid: null
+        communicationMethod:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        sourceIdentityCertificate:
+            -
+                Valid: null
+        proxyIdentityCertificate:
+            -
+                Valid: null
+        proxySignature:
+            -
+                Valid: null
+        sourceSignature:
+            -
+                Valid: null

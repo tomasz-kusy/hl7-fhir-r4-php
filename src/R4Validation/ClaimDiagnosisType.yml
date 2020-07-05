@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\ClaimDiagnosisType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        diagnosisCodeableConcept:
+            -
+                Valid: null
+        diagnosisReference:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        onAdmission:
+            -
+                Valid: null
+        packageCode:
+            -
+                Valid: null

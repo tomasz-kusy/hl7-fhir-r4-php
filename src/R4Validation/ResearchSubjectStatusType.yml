@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\ResearchSubjectStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - candidate
+                        - eligible
+                        - follow-up
+                        - ineligible
+                        - not-registered
+                        - off-study
+                        - on-study
+                        - on-study-intervention
+                        - on-study-observation
+                        - pending-on-study
+                        - potential-candidate
+                        - screening
+                        - withdrawn
+                    groups:
+                        - xsd_rules

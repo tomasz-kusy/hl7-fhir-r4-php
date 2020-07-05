@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\TerminologyCapabilitiesFilterType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        op:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\ParticipationStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - accepted
+                        - declined
+                        - tentative
+                        - needs-action
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceStructureVariantType:
+    properties:
+        variantType:
+            -
+                Valid: null
+        exact:
+            -
+                Valid: null
+        length:
+            -
+                Valid: null
+        outer:
+            -
+                Valid: null
+        inner:
+            -
+                Valid: null

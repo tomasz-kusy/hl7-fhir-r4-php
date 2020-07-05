@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\RiskEvidenceSynthesisPrecisionEstimateType:
+    properties:
+        type:
+            -
+                Valid: null
+        level:
+            -
+                Valid: null
+        from:
+            -
+                Valid: null
+        to:
+            -
+                Valid: null

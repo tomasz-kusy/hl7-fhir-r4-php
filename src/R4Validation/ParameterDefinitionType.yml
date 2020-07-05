@@ -1,0 +1,31 @@
+TKusy\Hl7Fhir\R4\ParameterDefinitionType:
+    properties:
+        name:
+            -
+                Valid: null
+        use:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        min:
+            -
+                Valid: null
+        max:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\AssertionOperatorTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - equals
+                        - notEquals
+                        - in
+                        - notIn
+                        - greaterThan
+                        - lessThan
+                        - empty
+                        - notEmpty
+                        - contains
+                        - notContains
+                        - eval
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\GraphDefinitionLinkType:
+    properties:
+        path:
+            -
+                Valid: null
+        sliceName:
+            -
+                Valid: null
+        min:
+            -
+                Valid: null
+        max:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null

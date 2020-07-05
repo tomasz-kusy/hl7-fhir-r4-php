@@ -1,0 +1,33 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitDetail1Type:
+    properties:
+        productOrService:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null
+        subDetail:
+            -
+                Valid: null

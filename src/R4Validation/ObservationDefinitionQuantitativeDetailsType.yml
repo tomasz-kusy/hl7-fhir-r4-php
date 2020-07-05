@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ObservationDefinitionQuantitativeDetailsType:
+    properties:
+        customaryUnit:
+            -
+                Valid: null
+        unit:
+            -
+                Valid: null
+        conversionFactor:
+            -
+                Valid: null
+        decimalPrecision:
+            -
+                Valid: null

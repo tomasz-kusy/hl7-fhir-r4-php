@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\InsurancePlanGeneralCostType:
+    properties:
+        type:
+            -
+                Valid: null
+        groupSize:
+            -
+                Valid: null
+        cost:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R4\VisionPrescriptionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        dateWritten:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        prescriber:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        lensSpecification:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,91 @@
+TKusy\Hl7Fhir\R4\DeviceRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        priorRequest:
+            -
+                Valid: null
+        groupIdentifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        codeReference:
+            -
+                Valid: null
+        codeCodeableConcept:
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        performerType:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        relevantHistory:
+            -
+                Valid: null

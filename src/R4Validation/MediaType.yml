@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R4\MediaType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        modality:
+            -
+                Valid: null
+        view:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        createdDateTime:
+            -
+                Valid: null
+        createdPeriod:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        operator:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        deviceName:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        height:
+            -
+                Valid: null
+        width:
+            -
+                Valid: null
+        frames:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null
+        content:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

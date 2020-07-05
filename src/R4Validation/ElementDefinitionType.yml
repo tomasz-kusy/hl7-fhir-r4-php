@@ -1,0 +1,597 @@
+TKusy\Hl7Fhir\R4\ElementDefinitionType:
+    properties:
+        path:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        representation:
+            -
+                Valid: null
+        sliceName:
+            -
+                Valid: null
+        sliceIsConstraining:
+            -
+                Valid: null
+        label:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        slicing:
+            -
+                Valid: null
+        short:
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        requirements:
+            -
+                Valid: null
+        alias:
+            -
+                Valid: null
+        min:
+            -
+                Valid: null
+        max:
+            -
+                Valid: null
+        base:
+            -
+                Valid: null
+        contentReference:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        defaultValueBase64Binary:
+            -
+                Valid: null
+        defaultValueBoolean:
+            -
+                Valid: null
+        defaultValueCanonical:
+            -
+                Valid: null
+        defaultValueCode:
+            -
+                Valid: null
+        defaultValueDate:
+            -
+                Valid: null
+        defaultValueDateTime:
+            -
+                Valid: null
+        defaultValueDecimal:
+            -
+                Valid: null
+        defaultValueId:
+            -
+                Valid: null
+        defaultValueInstant:
+            -
+                Valid: null
+        defaultValueInteger:
+            -
+                Valid: null
+        defaultValueMarkdown:
+            -
+                Valid: null
+        defaultValueOid:
+            -
+                Valid: null
+        defaultValuePositiveInt:
+            -
+                Valid: null
+        defaultValueString:
+            -
+                Valid: null
+        defaultValueTime:
+            -
+                Valid: null
+        defaultValueUnsignedInt:
+            -
+                Valid: null
+        defaultValueUri:
+            -
+                Valid: null
+        defaultValueUrl:
+            -
+                Valid: null
+        defaultValueUuid:
+            -
+                Valid: null
+        defaultValueAddress:
+            -
+                Valid: null
+        defaultValueAge:
+            -
+                Valid: null
+        defaultValueAnnotation:
+            -
+                Valid: null
+        defaultValueAttachment:
+            -
+                Valid: null
+        defaultValueCodeableConcept:
+            -
+                Valid: null
+        defaultValueCoding:
+            -
+                Valid: null
+        defaultValueContactPoint:
+            -
+                Valid: null
+        defaultValueCount:
+            -
+                Valid: null
+        defaultValueDistance:
+            -
+                Valid: null
+        defaultValueDuration:
+            -
+                Valid: null
+        defaultValueHumanName:
+            -
+                Valid: null
+        defaultValueIdentifier:
+            -
+                Valid: null
+        defaultValueMoney:
+            -
+                Valid: null
+        defaultValuePeriod:
+            -
+                Valid: null
+        defaultValueQuantity:
+            -
+                Valid: null
+        defaultValueRange:
+            -
+                Valid: null
+        defaultValueRatio:
+            -
+                Valid: null
+        defaultValueReference:
+            -
+                Valid: null
+        defaultValueSampledData:
+            -
+                Valid: null
+        defaultValueSignature:
+            -
+                Valid: null
+        defaultValueTiming:
+            -
+                Valid: null
+        defaultValueContactDetail:
+            -
+                Valid: null
+        defaultValueContributor:
+            -
+                Valid: null
+        defaultValueDataRequirement:
+            -
+                Valid: null
+        defaultValueExpression:
+            -
+                Valid: null
+        defaultValueParameterDefinition:
+            -
+                Valid: null
+        defaultValueRelatedArtifact:
+            -
+                Valid: null
+        defaultValueTriggerDefinition:
+            -
+                Valid: null
+        defaultValueUsageContext:
+            -
+                Valid: null
+        defaultValueDosage:
+            -
+                Valid: null
+        defaultValueMeta:
+            -
+                Valid: null
+        meaningWhenMissing:
+            -
+                Valid: null
+        orderMeaning:
+            -
+                Valid: null
+        fixedBase64Binary:
+            -
+                Valid: null
+        fixedBoolean:
+            -
+                Valid: null
+        fixedCanonical:
+            -
+                Valid: null
+        fixedCode:
+            -
+                Valid: null
+        fixedDate:
+            -
+                Valid: null
+        fixedDateTime:
+            -
+                Valid: null
+        fixedDecimal:
+            -
+                Valid: null
+        fixedId:
+            -
+                Valid: null
+        fixedInstant:
+            -
+                Valid: null
+        fixedInteger:
+            -
+                Valid: null
+        fixedMarkdown:
+            -
+                Valid: null
+        fixedOid:
+            -
+                Valid: null
+        fixedPositiveInt:
+            -
+                Valid: null
+        fixedString:
+            -
+                Valid: null
+        fixedTime:
+            -
+                Valid: null
+        fixedUnsignedInt:
+            -
+                Valid: null
+        fixedUri:
+            -
+                Valid: null
+        fixedUrl:
+            -
+                Valid: null
+        fixedUuid:
+            -
+                Valid: null
+        fixedAddress:
+            -
+                Valid: null
+        fixedAge:
+            -
+                Valid: null
+        fixedAnnotation:
+            -
+                Valid: null
+        fixedAttachment:
+            -
+                Valid: null
+        fixedCodeableConcept:
+            -
+                Valid: null
+        fixedCoding:
+            -
+                Valid: null
+        fixedContactPoint:
+            -
+                Valid: null
+        fixedCount:
+            -
+                Valid: null
+        fixedDistance:
+            -
+                Valid: null
+        fixedDuration:
+            -
+                Valid: null
+        fixedHumanName:
+            -
+                Valid: null
+        fixedIdentifier:
+            -
+                Valid: null
+        fixedMoney:
+            -
+                Valid: null
+        fixedPeriod:
+            -
+                Valid: null
+        fixedQuantity:
+            -
+                Valid: null
+        fixedRange:
+            -
+                Valid: null
+        fixedRatio:
+            -
+                Valid: null
+        fixedReference:
+            -
+                Valid: null
+        fixedSampledData:
+            -
+                Valid: null
+        fixedSignature:
+            -
+                Valid: null
+        fixedTiming:
+            -
+                Valid: null
+        fixedContactDetail:
+            -
+                Valid: null
+        fixedContributor:
+            -
+                Valid: null
+        fixedDataRequirement:
+            -
+                Valid: null
+        fixedExpression:
+            -
+                Valid: null
+        fixedParameterDefinition:
+            -
+                Valid: null
+        fixedRelatedArtifact:
+            -
+                Valid: null
+        fixedTriggerDefinition:
+            -
+                Valid: null
+        fixedUsageContext:
+            -
+                Valid: null
+        fixedDosage:
+            -
+                Valid: null
+        fixedMeta:
+            -
+                Valid: null
+        patternBase64Binary:
+            -
+                Valid: null
+        patternBoolean:
+            -
+                Valid: null
+        patternCanonical:
+            -
+                Valid: null
+        patternCode:
+            -
+                Valid: null
+        patternDate:
+            -
+                Valid: null
+        patternDateTime:
+            -
+                Valid: null
+        patternDecimal:
+            -
+                Valid: null
+        patternId:
+            -
+                Valid: null
+        patternInstant:
+            -
+                Valid: null
+        patternInteger:
+            -
+                Valid: null
+        patternMarkdown:
+            -
+                Valid: null
+        patternOid:
+            -
+                Valid: null
+        patternPositiveInt:
+            -
+                Valid: null
+        patternString:
+            -
+                Valid: null
+        patternTime:
+            -
+                Valid: null
+        patternUnsignedInt:
+            -
+                Valid: null
+        patternUri:
+            -
+                Valid: null
+        patternUrl:
+            -
+                Valid: null
+        patternUuid:
+            -
+                Valid: null
+        patternAddress:
+            -
+                Valid: null
+        patternAge:
+            -
+                Valid: null
+        patternAnnotation:
+            -
+                Valid: null
+        patternAttachment:
+            -
+                Valid: null
+        patternCodeableConcept:
+            -
+                Valid: null
+        patternCoding:
+            -
+                Valid: null
+        patternContactPoint:
+            -
+                Valid: null
+        patternCount:
+            -
+                Valid: null
+        patternDistance:
+            -
+                Valid: null
+        patternDuration:
+            -
+                Valid: null
+        patternHumanName:
+            -
+                Valid: null
+        patternIdentifier:
+            -
+                Valid: null
+        patternMoney:
+            -
+                Valid: null
+        patternPeriod:
+            -
+                Valid: null
+        patternQuantity:
+            -
+                Valid: null
+        patternRange:
+            -
+                Valid: null
+        patternRatio:
+            -
+                Valid: null
+        patternReference:
+            -
+                Valid: null
+        patternSampledData:
+            -
+                Valid: null
+        patternSignature:
+            -
+                Valid: null
+        patternTiming:
+            -
+                Valid: null
+        patternContactDetail:
+            -
+                Valid: null
+        patternContributor:
+            -
+                Valid: null
+        patternDataRequirement:
+            -
+                Valid: null
+        patternExpression:
+            -
+                Valid: null
+        patternParameterDefinition:
+            -
+                Valid: null
+        patternRelatedArtifact:
+            -
+                Valid: null
+        patternTriggerDefinition:
+            -
+                Valid: null
+        patternUsageContext:
+            -
+                Valid: null
+        patternDosage:
+            -
+                Valid: null
+        patternMeta:
+            -
+                Valid: null
+        example:
+            -
+                Valid: null
+        minValueDate:
+            -
+                Valid: null
+        minValueDateTime:
+            -
+                Valid: null
+        minValueInstant:
+            -
+                Valid: null
+        minValueTime:
+            -
+                Valid: null
+        minValueDecimal:
+            -
+                Valid: null
+        minValueInteger:
+            -
+                Valid: null
+        minValuePositiveInt:
+            -
+                Valid: null
+        minValueUnsignedInt:
+            -
+                Valid: null
+        minValueQuantity:
+            -
+                Valid: null
+        maxValueDate:
+            -
+                Valid: null
+        maxValueDateTime:
+            -
+                Valid: null
+        maxValueInstant:
+            -
+                Valid: null
+        maxValueTime:
+            -
+                Valid: null
+        maxValueDecimal:
+            -
+                Valid: null
+        maxValueInteger:
+            -
+                Valid: null
+        maxValuePositiveInt:
+            -
+                Valid: null
+        maxValueUnsignedInt:
+            -
+                Valid: null
+        maxValueQuantity:
+            -
+                Valid: null
+        maxLength:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        constraint:
+            -
+                Valid: null
+        mustSupport:
+            -
+                Valid: null
+        isModifier:
+            -
+                Valid: null
+        isModifierReason:
+            -
+                Valid: null
+        isSummary:
+            -
+                Valid: null
+        binding:
+            -
+                Valid: null
+        mapping:
+            -
+                Valid: null

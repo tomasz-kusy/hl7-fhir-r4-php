@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R4\CoverageEligibilityRequestItemType:
+    properties:
+        supportingInfoSequence:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        productOrService:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        facility:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

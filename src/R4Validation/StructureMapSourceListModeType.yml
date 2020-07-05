@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\StructureMapSourceListModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - first
+                        - not_first
+                        - last
+                        - not_last
+                        - only_one
+                    groups:
+                        - xsd_rules

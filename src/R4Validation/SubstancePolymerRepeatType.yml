@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\SubstancePolymerRepeatType:
+    properties:
+        numberOfUnits:
+            -
+                Valid: null
+        averageMolecularFormula:
+            -
+                Valid: null
+        repeatUnitAmountType:
+            -
+                Valid: null
+        repeatUnit:
+            -
+                Valid: null

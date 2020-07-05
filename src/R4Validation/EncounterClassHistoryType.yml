@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\EncounterClassHistoryType:
+    properties:
+        class:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

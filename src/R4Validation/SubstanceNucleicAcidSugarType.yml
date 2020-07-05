@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\SubstanceNucleicAcidSugarType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        residueSite:
+            -
+                Valid: null

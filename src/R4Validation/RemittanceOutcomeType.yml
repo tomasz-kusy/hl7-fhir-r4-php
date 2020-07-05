@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\RemittanceOutcomeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - queued
+                        - complete
+                        - error
+                        - partial
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R4\SubscriptionType:
+    properties:
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        reason:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        criteria:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        error:
+            -
+                Valid: null
+        channel:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

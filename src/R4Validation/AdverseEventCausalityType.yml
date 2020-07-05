@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\AdverseEventCausalityType:
+    properties:
+        assessment:
+            -
+                Valid: null
+        productRelatedness:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null

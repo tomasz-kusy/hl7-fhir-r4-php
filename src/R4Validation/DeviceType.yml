@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R4\DeviceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        udiCarrier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        distinctIdentifier:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        manufactureDate:
+            -
+                Valid: null
+        expirationDate:
+            -
+                Valid: null
+        lotNumber:
+            -
+                Valid: null
+        serialNumber:
+            -
+                Valid: null
+        deviceName:
+            -
+                Valid: null
+        modelNumber:
+            -
+                Valid: null
+        partNumber:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        specialization:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        safety:
+            -
+                Valid: null
+        parent:
+            -
+                Valid: null

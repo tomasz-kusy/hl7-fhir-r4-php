@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\PropertyTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - code
+                        - Coding
+                        - string
+                        - integer
+                        - boolean
+                        - dateTime
+                        - decimal
+                    groups:
+                        - xsd_rules

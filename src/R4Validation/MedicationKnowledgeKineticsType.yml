@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeKineticsType:
+    properties:
+        areaUnderCurve:
+            -
+                Valid: null
+        lethalDose50:
+            -
+                Valid: null
+        halfLifePeriod:
+            -
+                Valid: null

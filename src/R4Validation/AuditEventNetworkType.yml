@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\AuditEventNetworkType:
+    properties:
+        address:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null

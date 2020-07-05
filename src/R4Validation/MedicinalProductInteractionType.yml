@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\MedicinalProductInteractionType:
+    properties:
+        subject:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        interactant:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        effect:
+            -
+                Valid: null
+        incidence:
+            -
+                Valid: null
+        management:
+            -
+                Valid: null

@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\SubscriptionChannelTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - rest-hook
+                        - websocket
+                        - email
+                        - sms
+                        - message
+                    groups:
+                        - xsd_rules

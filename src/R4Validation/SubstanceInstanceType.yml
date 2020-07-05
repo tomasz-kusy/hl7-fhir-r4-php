@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\SubstanceInstanceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        expiry:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null

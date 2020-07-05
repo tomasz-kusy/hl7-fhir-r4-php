@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\EncounterLocationType:
+    properties:
+        location:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        physicalType:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R4\OrganizationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        alias:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null

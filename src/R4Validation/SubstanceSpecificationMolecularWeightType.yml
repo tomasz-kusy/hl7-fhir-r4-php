@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationMolecularWeightType:
+    properties:
+        method:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

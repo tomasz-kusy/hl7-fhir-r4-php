@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\SubstanceReferenceInformationClassificationType:
+    properties:
+        domain:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        subtype:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

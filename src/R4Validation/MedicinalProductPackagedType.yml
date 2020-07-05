@@ -1,0 +1,33 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPackagedType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        legalStatusOfSupply:
+            -
+                Valid: null
+        marketingStatus:
+            -
+                Valid: null
+        marketingAuthorization:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        batchIdentifier:
+            -
+                Valid: null
+        packageItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

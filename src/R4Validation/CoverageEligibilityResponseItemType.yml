@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R4\CoverageEligibilityResponseItemType:
+    properties:
+        category:
+            -
+                Valid: null
+        productOrService:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        excluded:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        unit:
+            -
+                Valid: null
+        term:
+            -
+                Valid: null
+        benefit:
+            -
+                Valid: null
+        authorizationRequired:
+            -
+                Valid: null
+        authorizationSupporting:
+            -
+                Valid: null
+        authorizationUrl:
+            -
+                Valid: null

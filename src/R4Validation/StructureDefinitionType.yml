@@ -1,0 +1,107 @@
+TKusy\Hl7Fhir\R4\StructureDefinitionType:
+    properties:
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        keyword:
+            -
+                Valid: null
+        fhirVersion:
+            -
+                Valid: null
+        mapping:
+            -
+                Valid: null
+        kind:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        abstract:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        contextInvariant:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        baseDefinition:
+            -
+                Valid: null
+        derivation:
+            -
+                Valid: null
+        snapshot:
+            -
+                Valid: null
+        differential:
+            -
+                Valid: null

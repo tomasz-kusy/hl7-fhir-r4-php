@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\SubstanceSourceMaterialOrganismGeneralType:
+    properties:
+        kingdom:
+            -
+                Valid: null
+        phylum:
+            -
+                Valid: null
+        class:
+            -
+                Valid: null
+        order:
+            -
+                Valid: null

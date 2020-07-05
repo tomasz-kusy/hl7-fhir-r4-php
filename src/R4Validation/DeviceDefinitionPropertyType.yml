@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\DeviceDefinitionPropertyType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueCode:
+            -
+                Valid: null

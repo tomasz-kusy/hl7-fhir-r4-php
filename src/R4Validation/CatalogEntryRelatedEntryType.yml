@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\CatalogEntryRelatedEntryType:
+    properties:
+        relationtype:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        item:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

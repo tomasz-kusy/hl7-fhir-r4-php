@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceReferenceSeqType:
+    properties:
+        chromosome:
+            -
+                Valid: null
+        genomeBuild:
+            -
+                Valid: null
+        orientation:
+            -
+                Valid: null
+        referenceSeqId:
+            -
+                Valid: null
+        referenceSeqPointer:
+            -
+                Valid: null
+        referenceSeqString:
+            -
+                Valid: null
+        strand:
+            -
+                Valid: null
+        windowStart:
+            -
+                Valid: null
+        windowEnd:
+            -
+                Valid: null

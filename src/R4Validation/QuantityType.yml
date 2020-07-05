@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\QuantityType:
+    properties:
+        value:
+            -
+                Valid: null
+        comparator:
+            -
+                Valid: null
+        unit:
+            -
+                Valid: null
+        system:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null

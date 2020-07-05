@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\MedicationRequestSubstitutionType:
+    properties:
+        allowedBoolean:
+            -
+                Valid: null
+        allowedCodeableConcept:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null

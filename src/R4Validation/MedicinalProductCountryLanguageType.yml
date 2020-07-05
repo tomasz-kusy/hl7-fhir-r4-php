@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\MedicinalProductCountryLanguageType:
+    properties:
+        country:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        language:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

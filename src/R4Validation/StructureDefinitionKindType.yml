@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\StructureDefinitionKindType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - primitive-type
+                        - complex-type
+                        - resource
+                        - logical
+                    groups:
+                        - xsd_rules

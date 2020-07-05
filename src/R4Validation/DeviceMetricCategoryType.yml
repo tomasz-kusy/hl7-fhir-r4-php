@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\DeviceMetricCategoryType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - measurement
+                        - setting
+                        - calculation
+                        - unspecified
+                    groups:
+                        - xsd_rules

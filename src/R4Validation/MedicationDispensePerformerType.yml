@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\MedicationDispensePerformerType:
+    properties:
+        function:
+            -
+                Valid: null
+        actor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\CarePlanIntentType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - proposal
+                        - plan
+                        - order
+                        - option
+                    groups:
+                        - xsd_rules

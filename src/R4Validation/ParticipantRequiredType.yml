@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ParticipantRequiredType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - required
+                        - optional
+                        - information-only
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\CareTeamStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - proposed
+                        - active
+                        - suspended
+                        - inactive
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\SpecimenContainedPreferenceType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preferred
+                        - alternate
+                    groups:
+                        - xsd_rules

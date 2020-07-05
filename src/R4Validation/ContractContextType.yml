@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ContractContextType:
+    properties:
+        reference:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null

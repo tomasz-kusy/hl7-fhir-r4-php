@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R4\TestScriptVariableType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        defaultValue:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null
+        headerField:
+            -
+                Valid: null
+        hint:
+            -
+                Valid: null
+        path:
+            -
+                Valid: null
+        sourceId:
+            -
+                Valid: null

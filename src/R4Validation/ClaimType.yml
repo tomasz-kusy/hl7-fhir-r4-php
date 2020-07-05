@@ -1,0 +1,115 @@
+TKusy\Hl7Fhir\R4\ClaimType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subType:
+            -
+                Valid: null
+        use:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        billablePeriod:
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        enterer:
+            -
+                Valid: null
+        insurer:
+            -
+                Valid: null
+        provider:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fundsReserve:
+            -
+                Valid: null
+        related:
+            -
+                Valid: null
+        prescription:
+            -
+                Valid: null
+        originalPrescription:
+            -
+                Valid: null
+        payee:
+            -
+                Valid: null
+        referral:
+            -
+                Valid: null
+        facility:
+            -
+                Valid: null
+        careTeam:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null
+        insurance:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        accident:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null

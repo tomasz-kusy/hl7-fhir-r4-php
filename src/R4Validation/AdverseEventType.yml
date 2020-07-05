@@ -1,0 +1,70 @@
+TKusy\Hl7Fhir\R4\AdverseEventType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        actuality:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        detected:
+            -
+                Valid: null
+        recordedDate:
+            -
+                Valid: null
+        resultingCondition:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        seriousness:
+            -
+                Valid: null
+        severity:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        recorder:
+            -
+                Valid: null
+        contributor:
+            -
+                Valid: null
+        suspectEntity:
+            -
+                Valid: null
+        subjectMedicalHistory:
+            -
+                Valid: null
+        referenceDocument:
+            -
+                Valid: null
+        study:
+            -
+                Valid: null

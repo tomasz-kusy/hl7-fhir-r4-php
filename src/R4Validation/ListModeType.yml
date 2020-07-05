@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ListModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - working
+                        - snapshot
+                        - changes
+                    groups:
+                        - xsd_rules

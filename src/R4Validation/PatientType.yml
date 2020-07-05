@@ -1,0 +1,56 @@
+TKusy\Hl7Fhir\R4\PatientType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        birthDate:
+            -
+                Valid: null
+        deceasedBoolean:
+            -
+                Valid: null
+        deceasedDateTime:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        maritalStatus:
+            -
+                Valid: null
+        multipleBirthBoolean:
+            -
+                Valid: null
+        multipleBirthInteger:
+            -
+                Valid: null
+        photo:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null
+        generalPractitioner:
+            -
+                Valid: null
+        managingOrganization:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null

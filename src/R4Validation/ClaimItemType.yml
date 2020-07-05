@@ -1,0 +1,82 @@
+TKusy\Hl7Fhir\R4\ClaimItemType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        careTeamSequence:
+            -
+                Valid: null
+        diagnosisSequence:
+            -
+                Valid: null
+        procedureSequence:
+            -
+                Valid: null
+        informationSequence:
+            -
+                Valid: null
+        revenue:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        productOrService:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        programCode:
+            -
+                Valid: null
+        servicedDate:
+            -
+                Valid: null
+        servicedPeriod:
+            -
+                Valid: null
+        locationCodeableConcept:
+            -
+                Valid: null
+        locationAddress:
+            -
+                Valid: null
+        locationReference:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        udi:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        subSite:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

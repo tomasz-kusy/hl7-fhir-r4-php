@@ -1,0 +1,48 @@
+TKusy\Hl7Fhir\R4\ImmunizationRecommendationRecommendationType:
+    properties:
+        vaccineCode:
+            -
+                Valid: null
+        targetDisease:
+            -
+                Valid: null
+        contraindicatedVaccineCode:
+            -
+                Valid: null
+        forecastStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        forecastReason:
+            -
+                Valid: null
+        dateCriterion:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        series:
+            -
+                Valid: null
+        doseNumberPositiveInt:
+            -
+                Valid: null
+        doseNumberString:
+            -
+                Valid: null
+        seriesDosesPositiveInt:
+            -
+                Valid: null
+        seriesDosesString:
+            -
+                Valid: null
+        supportingImmunization:
+            -
+                Valid: null
+        supportingPatientInformation:
+            -
+                Valid: null

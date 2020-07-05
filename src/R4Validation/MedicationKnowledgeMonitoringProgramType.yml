@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeMonitoringProgramType:
+    properties:
+        type:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null

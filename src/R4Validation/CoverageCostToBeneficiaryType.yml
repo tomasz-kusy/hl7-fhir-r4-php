@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\CoverageCostToBeneficiaryType:
+    properties:
+        type:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueMoney:
+            -
+                Valid: null
+        exception:
+            -
+                Valid: null

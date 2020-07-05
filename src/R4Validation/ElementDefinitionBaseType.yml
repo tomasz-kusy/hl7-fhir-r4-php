@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\ElementDefinitionBaseType:
+    properties:
+        path:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        min:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        max:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

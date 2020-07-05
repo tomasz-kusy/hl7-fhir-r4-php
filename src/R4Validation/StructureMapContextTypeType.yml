@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\StructureMapContextTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - type
+                        - variable
+                    groups:
+                        - xsd_rules

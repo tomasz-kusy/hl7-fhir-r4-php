@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\AllergyIntoleranceSeverityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - mild
+                        - moderate
+                        - severe
+                    groups:
+                        - xsd_rules

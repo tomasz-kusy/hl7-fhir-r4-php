@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\TestReportActionResultType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - pass
+                        - skip
+                        - fail
+                        - warning
+                        - error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\CommunicationRequestPayloadType:
+    properties:
+        contentString:
+            -
+                Valid: null
+        contentAttachment:
+            -
+                Valid: null
+        contentReference:
+            -
+                Valid: null

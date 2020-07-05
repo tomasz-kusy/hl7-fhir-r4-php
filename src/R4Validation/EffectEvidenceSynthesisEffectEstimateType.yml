@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\EffectEvidenceSynthesisEffectEstimateType:
+    properties:
+        description:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        variantState:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        unitOfMeasure:
+            -
+                Valid: null
+        precisionEstimate:
+            -
+                Valid: null

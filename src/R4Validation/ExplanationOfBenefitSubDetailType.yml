@@ -1,0 +1,49 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitSubDetailType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        revenue:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        productOrService:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        programCode:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        udi:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null

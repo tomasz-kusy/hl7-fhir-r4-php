@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\GuideParameterCodeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - apply
+                        - path-resource
+                        - path-pages
+                        - path-tx-cache
+                        - expansion-parameter
+                        - rule-broken-links
+                        - generate-xml
+                        - generate-json
+                        - generate-turtle
+                        - html-template
+                    groups:
+                        - xsd_rules

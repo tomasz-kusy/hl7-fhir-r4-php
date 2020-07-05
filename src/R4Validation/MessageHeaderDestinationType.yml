@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\MessageHeaderDestinationType:
+    properties:
+        name:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        endpoint:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null

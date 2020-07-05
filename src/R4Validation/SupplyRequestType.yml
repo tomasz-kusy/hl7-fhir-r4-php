@@ -1,0 +1,60 @@
+TKusy\Hl7Fhir\R4\SupplyRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        itemCodeableConcept:
+            -
+                Valid: null
+        itemReference:
+            -
+                Valid: null
+        quantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        supplier:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        deliverFrom:
+            -
+                Valid: null
+        deliverTo:
+            -
+                Valid: null

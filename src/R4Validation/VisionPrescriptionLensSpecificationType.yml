@@ -1,0 +1,52 @@
+TKusy\Hl7Fhir\R4\VisionPrescriptionLensSpecificationType:
+    properties:
+        product:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        eye:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sphere:
+            -
+                Valid: null
+        cylinder:
+            -
+                Valid: null
+        axis:
+            -
+                Valid: null
+        prism:
+            -
+                Valid: null
+        add:
+            -
+                Valid: null
+        power:
+            -
+                Valid: null
+        backCurve:
+            -
+                Valid: null
+        diameter:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null
+        color:
+            -
+                Valid: null
+        brand:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

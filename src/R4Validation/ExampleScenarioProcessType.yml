@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\ExampleScenarioProcessType:
+    properties:
+        title:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        preConditions:
+            -
+                Valid: null
+        postConditions:
+            -
+                Valid: null
+        step:
+            -
+                Valid: null

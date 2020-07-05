@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\DocumentRelationshipTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - replaces
+                        - transforms
+                        - signs
+                        - appends
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\LinkTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - replaced-by
+                        - replaces
+                        - refer
+                        - seealso
+                    groups:
+                        - xsd_rules

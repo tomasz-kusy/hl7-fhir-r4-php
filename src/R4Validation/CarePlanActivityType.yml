@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\CarePlanActivityType:
+    properties:
+        outcomeCodeableConcept:
+            -
+                Valid: null
+        outcomeReference:
+            -
+                Valid: null
+        progress:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\CodeSystemFilterType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        operator:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,51 @@
+TKusy\Hl7Fhir\R4\MeasureReportType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        measure:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        reporter:
+            -
+                Valid: null
+        period:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        improvementNotation:
+            -
+                Valid: null
+        group:
+            -
+                Valid: null
+        evaluatedResource:
+            -
+                Valid: null

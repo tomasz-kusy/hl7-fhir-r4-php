@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\ContributorType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null

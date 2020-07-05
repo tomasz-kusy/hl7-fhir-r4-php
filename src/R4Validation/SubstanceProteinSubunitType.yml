@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\SubstanceProteinSubunitType:
+    properties:
+        subunit:
+            -
+                Valid: null
+        sequence:
+            -
+                Valid: null
+        length:
+            -
+                Valid: null
+        sequenceAttachment:
+            -
+                Valid: null
+        nTerminalModificationId:
+            -
+                Valid: null
+        nTerminalModification:
+            -
+                Valid: null
+        cTerminalModificationId:
+            -
+                Valid: null
+        cTerminalModification:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgePatientCharacteristicsType:
+    properties:
+        characteristicCodeableConcept:
+            -
+                Valid: null
+        characteristicQuantity:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null

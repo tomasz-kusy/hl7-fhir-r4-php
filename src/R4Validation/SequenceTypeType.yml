@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\SequenceTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - aa
+                        - dna
+                        - rna
+                    groups:
+                        - xsd_rules

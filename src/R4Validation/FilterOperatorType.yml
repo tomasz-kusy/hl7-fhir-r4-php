@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\FilterOperatorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - '='
+                        - is-a
+                        - descendent-of
+                        - is-not-a
+                        - regex
+                        - in
+                        - not-in
+                        - generalizes
+                        - exists
+                    groups:
+                        - xsd_rules

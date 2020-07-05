@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\XPathUsageTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - normal
+                        - phonetic
+                        - nearby
+                        - distance
+                        - other
+                    groups:
+                        - xsd_rules

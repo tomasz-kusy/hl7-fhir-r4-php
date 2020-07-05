@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\AppointmentStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - proposed
+                        - pending
+                        - booked
+                        - arrived
+                        - fulfilled
+                        - cancelled
+                        - noshow
+                        - entered-in-error
+                        - checked-in
+                        - waitlist
+                    groups:
+                        - xsd_rules

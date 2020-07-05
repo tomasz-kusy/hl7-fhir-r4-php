@@ -1,0 +1,66 @@
+TKusy\Hl7Fhir\R4\CarePlanDetailType:
+    properties:
+        kind:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        goal:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        doNotPerform:
+            -
+                Valid: null
+        scheduledTiming:
+            -
+                Valid: null
+        scheduledPeriod:
+            -
+                Valid: null
+        scheduledString:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        productCodeableConcept:
+            -
+                Valid: null
+        productReference:
+            -
+                Valid: null
+        dailyAmount:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

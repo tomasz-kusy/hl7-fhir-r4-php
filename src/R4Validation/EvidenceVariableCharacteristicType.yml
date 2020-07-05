@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R4\EvidenceVariableCharacteristicType:
+    properties:
+        description:
+            -
+                Valid: null
+        definitionReference:
+            -
+                Valid: null
+        definitionCanonical:
+            -
+                Valid: null
+        definitionCodeableConcept:
+            -
+                Valid: null
+        definitionExpression:
+            -
+                Valid: null
+        definitionDataRequirement:
+            -
+                Valid: null
+        definitionTriggerDefinition:
+            -
+                Valid: null
+        usageContext:
+            -
+                Valid: null
+        exclude:
+            -
+                Valid: null
+        participantEffectiveDateTime:
+            -
+                Valid: null
+        participantEffectivePeriod:
+            -
+                Valid: null
+        participantEffectiveDuration:
+            -
+                Valid: null
+        participantEffectiveTiming:
+            -
+                Valid: null
+        timeFromStart:
+            -
+                Valid: null
+        groupMeasure:
+            -
+                Valid: null

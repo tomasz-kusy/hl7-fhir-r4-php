@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\AttachmentType:
+    properties:
+        contentType:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        size:
+            -
+                Valid: null
+        hash:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        creation:
+            -
+                Valid: null

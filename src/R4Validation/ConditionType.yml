@@ -1,0 +1,81 @@
+TKusy\Hl7Fhir\R4\ConditionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        clinicalStatus:
+            -
+                Valid: null
+        verificationStatus:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        severity:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        onsetDateTime:
+            -
+                Valid: null
+        onsetAge:
+            -
+                Valid: null
+        onsetPeriod:
+            -
+                Valid: null
+        onsetRange:
+            -
+                Valid: null
+        onsetString:
+            -
+                Valid: null
+        abatementDateTime:
+            -
+                Valid: null
+        abatementAge:
+            -
+                Valid: null
+        abatementPeriod:
+            -
+                Valid: null
+        abatementRange:
+            -
+                Valid: null
+        abatementString:
+            -
+                Valid: null
+        recordedDate:
+            -
+                Valid: null
+        recorder:
+            -
+                Valid: null
+        asserter:
+            -
+                Valid: null
+        stage:
+            -
+                Valid: null
+        evidence:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

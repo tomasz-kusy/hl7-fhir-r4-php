@@ -1,0 +1,37 @@
+TKusy\Hl7Fhir\R4\ClaimResponseDetail1Type:
+    properties:
+        productOrService:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        adjudication:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subDetail:
+            -
+                Valid: null

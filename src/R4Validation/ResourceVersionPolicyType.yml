@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ResourceVersionPolicyType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - no-version
+                        - versioned
+                        - versioned-update
+                    groups:
+                        - xsd_rules

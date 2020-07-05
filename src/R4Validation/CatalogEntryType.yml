@@ -1,0 +1,49 @@
+TKusy\Hl7Fhir\R4\CatalogEntryType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        orderable:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        referencedItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        additionalIdentifier:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        validityPeriod:
+            -
+                Valid: null
+        validTo:
+            -
+                Valid: null
+        lastUpdated:
+            -
+                Valid: null
+        additionalCharacteristic:
+            -
+                Valid: null
+        additionalClassification:
+            -
+                Valid: null
+        relatedEntry:
+            -
+                Valid: null

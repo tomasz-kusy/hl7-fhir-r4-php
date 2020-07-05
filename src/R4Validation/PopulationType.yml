@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\PopulationType:
+    properties:
+        ageRange:
+            -
+                Valid: null
+        ageCodeableConcept:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        race:
+            -
+                Valid: null
+        physiologicalCondition:
+            -
+                Valid: null

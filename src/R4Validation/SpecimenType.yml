@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R4\SpecimenType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        accessionIdentifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        receivedTime:
+            -
+                Valid: null
+        parent:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        collection:
+            -
+                Valid: null
+        processing:
+            -
+                Valid: null
+        container:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

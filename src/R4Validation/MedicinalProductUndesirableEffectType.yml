@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\MedicinalProductUndesirableEffectType:
+    properties:
+        subject:
+            -
+                Valid: null
+        symptomConditionEffect:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        frequencyOfOccurrence:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null

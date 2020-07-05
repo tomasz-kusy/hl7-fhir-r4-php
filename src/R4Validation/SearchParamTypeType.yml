@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\SearchParamTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - number
+                        - date
+                        - string
+                        - token
+                        - reference
+                        - composite
+                        - quantity
+                        - uri
+                        - special
+                    groups:
+                        - xsd_rules

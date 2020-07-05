@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - available
+                        - unavailable
+                    groups:
+                        - xsd_rules

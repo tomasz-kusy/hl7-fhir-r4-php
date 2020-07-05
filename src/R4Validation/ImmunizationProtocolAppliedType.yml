@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\ImmunizationProtocolAppliedType:
+    properties:
+        series:
+            -
+                Valid: null
+        authority:
+            -
+                Valid: null
+        targetDisease:
+            -
+                Valid: null
+        doseNumberPositiveInt:
+            -
+                Valid: null
+        doseNumberString:
+            -
+                Valid: null
+        seriesDosesPositiveInt:
+            -
+                Valid: null
+        seriesDosesString:
+            -
+                Valid: null

@@ -1,0 +1,34 @@
+TKusy\Hl7Fhir\R4\EventTimingType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - MORN
+                        - MORN.early
+                        - MORN.late
+                        - NOON
+                        - AFT
+                        - AFT.early
+                        - AFT.late
+                        - EVE
+                        - EVE.early
+                        - EVE.late
+                        - NIGHT
+                        - PHS
+                        - HS
+                        - WAKE
+                        - C
+                        - CM
+                        - CD
+                        - CV
+                        - AC
+                        - ACM
+                        - ACD
+                        - ACV
+                        - PC
+                        - PCM
+                        - PCD
+                        - PCV
+                    groups:
+                        - xsd_rules

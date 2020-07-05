@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPharmaceuticalTargetSpeciesType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        withdrawalPeriod:
+            -
+                Valid: null

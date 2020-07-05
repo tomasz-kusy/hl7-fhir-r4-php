@@ -1,0 +1,102 @@
+TKusy\Hl7Fhir\R4\PlanDefinitionType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        subtitle:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        subjectCodeableConcept:
+            -
+                Valid: null
+        subjectReference:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        usage:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        topic:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        editor:
+            -
+                Valid: null
+        reviewer:
+            -
+                Valid: null
+        endorser:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        library:
+            -
+                Valid: null
+        goal:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null

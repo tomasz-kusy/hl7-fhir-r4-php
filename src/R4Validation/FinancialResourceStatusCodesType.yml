@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\FinancialResourceStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - cancelled
+                        - draft
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

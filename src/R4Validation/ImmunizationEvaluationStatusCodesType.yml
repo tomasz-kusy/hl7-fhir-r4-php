@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\ImmunizationEvaluationStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - completed
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

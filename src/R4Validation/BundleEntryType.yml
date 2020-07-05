@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\BundleEntryType:
+    properties:
+        link:
+            -
+                Valid: null
+        fullUrl:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        search:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null

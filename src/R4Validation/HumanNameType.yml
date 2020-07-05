@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\HumanNameType:
+    properties:
+        use:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        family:
+            -
+                Valid: null
+        given:
+            -
+                Valid: null
+        prefix:
+            -
+                Valid: null
+        suffix:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

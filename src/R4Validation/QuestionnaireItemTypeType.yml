@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\QuestionnaireItemTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - group
+                        - display
+                        - boolean
+                        - decimal
+                        - integer
+                        - date
+                        - dateTime
+                        - time
+                        - string
+                        - text
+                        - url
+                        - choice
+                        - open-choice
+                        - attachment
+                        - reference
+                        - quantity
+                    groups:
+                        - xsd_rules

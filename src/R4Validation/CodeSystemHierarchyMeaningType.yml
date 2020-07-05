@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\CodeSystemHierarchyMeaningType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - grouped-by
+                        - is-a
+                        - part-of
+                        - classified-with
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\CodeSystemConceptType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        designation:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        concept:
+            -
+                Valid: null

@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeDrugCharacteristicType:
+    properties:
+        type:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueBase64Binary:
+            -
+                Valid: null

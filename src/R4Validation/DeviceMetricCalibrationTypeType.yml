@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\DeviceMetricCalibrationTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - unspecified
+                        - offset
+                        - gain
+                        - two-point
+                    groups:
+                        - xsd_rules

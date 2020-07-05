@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R4\TestScriptAssertType:
+    properties:
+        label:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        direction:
+            -
+                Valid: null
+        compareToSourceId:
+            -
+                Valid: null
+        compareToSourceExpression:
+            -
+                Valid: null
+        compareToSourcePath:
+            -
+                Valid: null
+        contentType:
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null
+        headerField:
+            -
+                Valid: null
+        minimumId:
+            -
+                Valid: null
+        navigationLinks:
+            -
+                Valid: null
+        operator:
+            -
+                Valid: null
+        path:
+            -
+                Valid: null
+        requestMethod:
+            -
+                Valid: null
+        requestURL:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null
+        responseCode:
+            -
+                Valid: null
+        sourceId:
+            -
+                Valid: null
+        validateProfileId:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        warningOnly:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

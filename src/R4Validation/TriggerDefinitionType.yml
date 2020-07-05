@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R4\TriggerDefinitionType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        timingTiming:
+            -
+                Valid: null
+        timingReference:
+            -
+                Valid: null
+        timingDate:
+            -
+                Valid: null
+        timingDateTime:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null

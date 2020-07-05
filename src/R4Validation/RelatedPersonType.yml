@@ -1,0 +1,42 @@
+TKusy\Hl7Fhir\R4\RelatedPersonType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        birthDate:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        photo:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null

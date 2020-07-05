@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ResearchElementTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - population
+                        - exposure
+                        - outcome
+                    groups:
+                        - xsd_rules

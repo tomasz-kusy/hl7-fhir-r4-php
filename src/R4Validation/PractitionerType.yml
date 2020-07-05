@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R4\PractitionerType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        birthDate:
+            -
+                Valid: null
+        photo:
+            -
+                Valid: null
+        qualification:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null

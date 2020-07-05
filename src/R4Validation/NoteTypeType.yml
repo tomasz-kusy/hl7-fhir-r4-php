@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\NoteTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - display
+                        - print
+                        - printoper
+                    groups:
+                        - xsd_rules

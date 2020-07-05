@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\ConceptMapDependsOnType:
+    properties:
+        property:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        system:
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        display:
+            -
+                Valid: null

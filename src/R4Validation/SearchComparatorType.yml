@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\SearchComparatorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - eq
+                        - ne
+                        - gt
+                        - lt
+                        - ge
+                        - le
+                        - sa
+                        - eb
+                        - ap
+                    groups:
+                        - xsd_rules

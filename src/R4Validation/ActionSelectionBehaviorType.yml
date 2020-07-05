@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ActionSelectionBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - any
+                        - all
+                        - all-or-none
+                        - exactly-one
+                        - at-most-one
+                        - one-or-more
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\MeasureStratifierType:
+    properties:
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        criteria:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

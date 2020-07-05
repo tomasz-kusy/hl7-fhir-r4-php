@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\AdverseEventSuspectEntityType:
+    properties:
+        instance:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        causality:
+            -
+                Valid: null

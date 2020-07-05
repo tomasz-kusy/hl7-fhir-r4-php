@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\ObservationDefinitionQualifiedIntervalType:
+    properties:
+        category:
+            -
+                Valid: null
+        range:
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        appliesTo:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        age:
+            -
+                Valid: null
+        gestationalAge:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null

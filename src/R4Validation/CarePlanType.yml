@@ -1,0 +1,83 @@
+TKusy\Hl7Fhir\R4\CarePlanType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        replaces:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        contributor:
+            -
+                Valid: null
+        careTeam:
+            -
+                Valid: null
+        addresses:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        goal:
+            -
+                Valid: null
+        activity:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

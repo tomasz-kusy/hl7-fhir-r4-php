@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\TaskIntentType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - unknown
+                        - proposal
+                        - plan
+                        - order
+                        - original-order
+                        - reflex-order
+                        - filler-order
+                        - instance-order
+                        - option
+                    groups:
+                        - xsd_rules

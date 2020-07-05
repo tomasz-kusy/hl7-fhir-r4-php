@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceRepositoryType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        datasetId:
+            -
+                Valid: null
+        variantsetId:
+            -
+                Valid: null
+        readsetId:
+            -
+                Valid: null

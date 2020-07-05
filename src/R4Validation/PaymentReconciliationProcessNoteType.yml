@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\PaymentReconciliationProcessNoteType:
+    properties:
+        type:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null

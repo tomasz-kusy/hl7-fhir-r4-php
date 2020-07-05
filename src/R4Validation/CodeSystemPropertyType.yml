@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\CodeSystemPropertyType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        uri:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

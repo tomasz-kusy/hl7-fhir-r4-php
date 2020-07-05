@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\SpecimenContainerType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        capacity:
+            -
+                Valid: null
+        specimenQuantity:
+            -
+                Valid: null
+        additiveCodeableConcept:
+            -
+                Valid: null
+        additiveReference:
+            -
+                Valid: null

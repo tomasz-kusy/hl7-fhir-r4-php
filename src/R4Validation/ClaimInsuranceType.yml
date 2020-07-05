@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\ClaimInsuranceType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        focal:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        businessArrangement:
+            -
+                Valid: null
+        preAuthRef:
+            -
+                Valid: null
+        claimResponse:
+            -
+                Valid: null

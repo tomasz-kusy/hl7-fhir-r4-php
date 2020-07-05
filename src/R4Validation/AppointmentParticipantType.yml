@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\AppointmentParticipantType:
+    properties:
+        type:
+            -
+                Valid: null
+        actor:
+            -
+                Valid: null
+        required:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

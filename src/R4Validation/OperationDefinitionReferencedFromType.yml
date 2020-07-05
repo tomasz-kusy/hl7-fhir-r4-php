@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\OperationDefinitionReferencedFromType:
+    properties:
+        source:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sourceId:
+            -
+                Valid: null

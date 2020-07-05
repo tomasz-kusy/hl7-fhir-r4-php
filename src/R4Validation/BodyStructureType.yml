@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R4\BodyStructureType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        morphology:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        locationQualifier:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        image:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

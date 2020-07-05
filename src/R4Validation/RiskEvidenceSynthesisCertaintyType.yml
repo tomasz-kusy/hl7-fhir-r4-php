@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\RiskEvidenceSynthesisCertaintyType:
+    properties:
+        rating:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        certaintySubcomponent:
+            -
+                Valid: null

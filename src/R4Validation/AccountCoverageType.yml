@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\AccountCoverageType:
+    properties:
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null

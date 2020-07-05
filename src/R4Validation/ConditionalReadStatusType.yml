@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\ConditionalReadStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - not-supported
+                        - modified-since
+                        - not-match
+                        - full-support
+                    groups:
+                        - xsd_rules

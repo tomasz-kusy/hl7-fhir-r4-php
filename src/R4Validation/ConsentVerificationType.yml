@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ConsentVerificationType:
+    properties:
+        verified:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        verifiedWith:
+            -
+                Valid: null
+        verificationDate:
+            -
+                Valid: null

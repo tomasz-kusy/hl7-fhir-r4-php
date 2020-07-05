@@ -1,0 +1,38 @@
+TKusy\Hl7Fhir\R4\QuestionnaireInitialType:
+    properties:
+        valueBoolean:
+            -
+                Valid: null
+        valueDecimal:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueUri:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueCoding:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null

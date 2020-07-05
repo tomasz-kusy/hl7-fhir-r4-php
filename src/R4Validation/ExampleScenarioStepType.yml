@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ExampleScenarioStepType:
+    properties:
+        process:
+            -
+                Valid: null
+        pause:
+            -
+                Valid: null
+        operation:
+            -
+                Valid: null
+        alternative:
+            -
+                Valid: null

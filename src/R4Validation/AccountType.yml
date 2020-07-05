@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R4\AccountType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        servicePeriod:
+            -
+                Valid: null
+        coverage:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        guarantor:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null

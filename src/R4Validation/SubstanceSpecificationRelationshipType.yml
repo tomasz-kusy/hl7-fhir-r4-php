@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationRelationshipType:
+    properties:
+        substanceReference:
+            -
+                Valid: null
+        substanceCodeableConcept:
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        isDefining:
+            -
+                Valid: null
+        amountQuantity:
+            -
+                Valid: null
+        amountRange:
+            -
+                Valid: null
+        amountRatio:
+            -
+                Valid: null
+        amountString:
+            -
+                Valid: null
+        amountRatioLowLimit:
+            -
+                Valid: null
+        amountType:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\ProvenanceEntityType:
+    properties:
+        role:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        what:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        agent:
+            -
+                Valid: null

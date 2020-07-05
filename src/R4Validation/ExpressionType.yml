@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\ExpressionType:
+    properties:
+        description:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        language:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null

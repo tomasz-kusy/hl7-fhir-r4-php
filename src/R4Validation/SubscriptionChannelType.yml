@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\SubscriptionChannelType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        payload:
+            -
+                Valid: null
+        header:
+            -
+                Valid: null

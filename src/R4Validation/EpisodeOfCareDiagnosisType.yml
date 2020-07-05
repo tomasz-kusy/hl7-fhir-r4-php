@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\EpisodeOfCareDiagnosisType:
+    properties:
+        condition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        rank:
+            -
+                Valid: null

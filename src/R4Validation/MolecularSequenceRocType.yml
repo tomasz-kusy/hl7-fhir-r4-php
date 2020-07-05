@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceRocType:
+    properties:
+        score:
+            -
+                Valid: null
+        numTP:
+            -
+                Valid: null
+        numFP:
+            -
+                Valid: null
+        numFN:
+            -
+                Valid: null
+        precision:
+            -
+                Valid: null
+        sensitivity:
+            -
+                Valid: null
+        fMeasure:
+            -
+                Valid: null

@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R4\CareTeamType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        managingOrganization:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

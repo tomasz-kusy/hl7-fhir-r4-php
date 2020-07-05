@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\ResearchStudyObjectiveType:
+    properties:
+        name:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null

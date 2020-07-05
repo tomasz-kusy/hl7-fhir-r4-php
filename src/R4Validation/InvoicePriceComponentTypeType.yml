@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\InvoicePriceComponentTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - base
+                        - surcharge
+                        - deduction
+                        - discount
+                        - tax
+                        - informational
+                    groups:
+                        - xsd_rules

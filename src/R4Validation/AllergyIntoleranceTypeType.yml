@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\AllergyIntoleranceTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - allergy
+                        - intolerance
+                    groups:
+                        - xsd_rules

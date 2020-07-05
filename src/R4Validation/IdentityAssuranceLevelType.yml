@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\IdentityAssuranceLevelType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - level1
+                        - level2
+                        - level3
+                        - level4
+                    groups:
+                        - xsd_rules

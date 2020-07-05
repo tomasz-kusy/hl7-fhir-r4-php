@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\InsurancePlanCostType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        applicability:
+            -
+                Valid: null
+        qualifiers:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null

@@ -1,0 +1,5 @@
+TKusy\Hl7Fhir\R4\ParametersType:
+    properties:
+        parameter:
+            -
+                Valid: null

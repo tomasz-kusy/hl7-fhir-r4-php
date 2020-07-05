@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\PractitionerRoleAvailableTimeType:
+    properties:
+        daysOfWeek:
+            -
+                Valid: null
+        allDay:
+            -
+                Valid: null
+        availableStartTime:
+            -
+                Valid: null
+        availableEndTime:
+            -
+                Valid: null

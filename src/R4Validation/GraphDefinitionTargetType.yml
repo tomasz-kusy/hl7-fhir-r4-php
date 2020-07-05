@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\GraphDefinitionTargetType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        params:
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        compartment:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null

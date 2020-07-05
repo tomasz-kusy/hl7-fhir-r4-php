@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\TestScriptRequestMethodCodeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - delete
+                        - get
+                        - options
+                        - patch
+                        - post
+                        - put
+                        - head
+                    groups:
+                        - xsd_rules

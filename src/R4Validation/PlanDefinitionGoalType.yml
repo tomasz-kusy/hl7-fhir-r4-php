@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R4\PlanDefinitionGoalType:
+    properties:
+        category:
+            -
+                Valid: null
+        description:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        start:
+            -
+                Valid: null
+        addresses:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null

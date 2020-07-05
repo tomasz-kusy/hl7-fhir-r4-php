@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitProcessNoteType:
+    properties:
+        number:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null

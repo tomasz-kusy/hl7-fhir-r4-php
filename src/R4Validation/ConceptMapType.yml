@@ -1,0 +1,66 @@
+TKusy\Hl7Fhir\R4\ConceptMapType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        sourceUri:
+            -
+                Valid: null
+        sourceCanonical:
+            -
+                Valid: null
+        targetUri:
+            -
+                Valid: null
+        targetCanonical:
+            -
+                Valid: null
+        group:
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPharmaceuticalCharacteristicsType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        status:
+            -
+                Valid: null

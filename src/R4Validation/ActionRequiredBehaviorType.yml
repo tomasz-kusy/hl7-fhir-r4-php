@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ActionRequiredBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - must
+                        - could
+                        - must-unless-documented
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ReferenceType:
+    properties:
+        reference:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null

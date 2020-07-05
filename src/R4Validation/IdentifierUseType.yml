@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\IdentifierUseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - usual
+                        - official
+                        - temp
+                        - secondary
+                        - old
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ElementDefinitionSlicingType:
+    properties:
+        discriminator:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        ordered:
+            -
+                Valid: null
+        rules:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

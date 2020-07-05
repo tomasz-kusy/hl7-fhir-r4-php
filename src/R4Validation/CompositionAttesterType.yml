@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\CompositionAttesterType:
+    properties:
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        time:
+            -
+                Valid: null
+        party:
+            -
+                Valid: null

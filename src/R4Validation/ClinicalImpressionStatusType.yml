@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ClinicalImpressionStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-progress
+                        - completed
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\MedicinalProductNamePartType:
+    properties:
+        part:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\EventStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preparation
+                        - in-progress
+                        - not-done
+                        - on-hold
+                        - stopped
+                        - completed
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

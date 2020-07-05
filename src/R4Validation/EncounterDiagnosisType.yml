@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\EncounterDiagnosisType:
+    properties:
+        condition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        use:
+            -
+                Valid: null
+        rank:
+            -
+                Valid: null

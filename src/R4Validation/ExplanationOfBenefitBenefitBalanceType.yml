@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitBenefitBalanceType:
+    properties:
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        excluded:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        unit:
+            -
+                Valid: null
+        term:
+            -
+                Valid: null
+        financial:
+            -
+                Valid: null

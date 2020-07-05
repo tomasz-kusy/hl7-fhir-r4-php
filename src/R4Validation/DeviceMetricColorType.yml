@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\DeviceMetricColorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - black
+                        - red
+                        - green
+                        - yellow
+                        - blue
+                        - magenta
+                        - cyan
+                        - white
+                    groups:
+                        - xsd_rules

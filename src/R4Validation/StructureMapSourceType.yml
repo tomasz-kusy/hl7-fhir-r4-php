@@ -1,0 +1,186 @@
+TKusy\Hl7Fhir\R4\StructureMapSourceType:
+    properties:
+        context:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        min:
+            -
+                Valid: null
+        max:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        defaultValueBase64Binary:
+            -
+                Valid: null
+        defaultValueBoolean:
+            -
+                Valid: null
+        defaultValueCanonical:
+            -
+                Valid: null
+        defaultValueCode:
+            -
+                Valid: null
+        defaultValueDate:
+            -
+                Valid: null
+        defaultValueDateTime:
+            -
+                Valid: null
+        defaultValueDecimal:
+            -
+                Valid: null
+        defaultValueId:
+            -
+                Valid: null
+        defaultValueInstant:
+            -
+                Valid: null
+        defaultValueInteger:
+            -
+                Valid: null
+        defaultValueMarkdown:
+            -
+                Valid: null
+        defaultValueOid:
+            -
+                Valid: null
+        defaultValuePositiveInt:
+            -
+                Valid: null
+        defaultValueString:
+            -
+                Valid: null
+        defaultValueTime:
+            -
+                Valid: null
+        defaultValueUnsignedInt:
+            -
+                Valid: null
+        defaultValueUri:
+            -
+                Valid: null
+        defaultValueUrl:
+            -
+                Valid: null
+        defaultValueUuid:
+            -
+                Valid: null
+        defaultValueAddress:
+            -
+                Valid: null
+        defaultValueAge:
+            -
+                Valid: null
+        defaultValueAnnotation:
+            -
+                Valid: null
+        defaultValueAttachment:
+            -
+                Valid: null
+        defaultValueCodeableConcept:
+            -
+                Valid: null
+        defaultValueCoding:
+            -
+                Valid: null
+        defaultValueContactPoint:
+            -
+                Valid: null
+        defaultValueCount:
+            -
+                Valid: null
+        defaultValueDistance:
+            -
+                Valid: null
+        defaultValueDuration:
+            -
+                Valid: null
+        defaultValueHumanName:
+            -
+                Valid: null
+        defaultValueIdentifier:
+            -
+                Valid: null
+        defaultValueMoney:
+            -
+                Valid: null
+        defaultValuePeriod:
+            -
+                Valid: null
+        defaultValueQuantity:
+            -
+                Valid: null
+        defaultValueRange:
+            -
+                Valid: null
+        defaultValueRatio:
+            -
+                Valid: null
+        defaultValueReference:
+            -
+                Valid: null
+        defaultValueSampledData:
+            -
+                Valid: null
+        defaultValueSignature:
+            -
+                Valid: null
+        defaultValueTiming:
+            -
+                Valid: null
+        defaultValueContactDetail:
+            -
+                Valid: null
+        defaultValueContributor:
+            -
+                Valid: null
+        defaultValueDataRequirement:
+            -
+                Valid: null
+        defaultValueExpression:
+            -
+                Valid: null
+        defaultValueParameterDefinition:
+            -
+                Valid: null
+        defaultValueRelatedArtifact:
+            -
+                Valid: null
+        defaultValueTriggerDefinition:
+            -
+                Valid: null
+        defaultValueUsageContext:
+            -
+                Valid: null
+        defaultValueDosage:
+            -
+                Valid: null
+        defaultValueMeta:
+            -
+                Valid: null
+        element:
+            -
+                Valid: null
+        listMode:
+            -
+                Valid: null
+        variable:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        check:
+            -
+                Valid: null
+        logMessage:
+            -
+                Valid: null

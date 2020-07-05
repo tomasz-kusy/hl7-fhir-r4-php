@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R4\BundleType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        timestamp:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null
+        entry:
+            -
+                Valid: null
+        signature:
+            -
+                Valid: null

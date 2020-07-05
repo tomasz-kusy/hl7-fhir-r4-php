@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\EndpointStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - suspended
+                        - error
+                        - 'off'
+                        - entered-in-error
+                        - test
+                    groups:
+                        - xsd_rules

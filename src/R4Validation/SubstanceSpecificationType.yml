@@ -1,0 +1,59 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        domain:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        moiety:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        referenceInformation:
+            -
+                Valid: null
+        structure:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        molecularWeight:
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        nucleicAcid:
+            -
+                Valid: null
+        polymer:
+            -
+                Valid: null
+        protein:
+            -
+                Valid: null
+        sourceMaterial:
+            -
+                Valid: null

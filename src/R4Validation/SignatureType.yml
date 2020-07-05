@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\SignatureType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        when:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        who:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        onBehalfOf:
+            -
+                Valid: null
+        targetFormat:
+            -
+                Valid: null
+        sigFormat:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null

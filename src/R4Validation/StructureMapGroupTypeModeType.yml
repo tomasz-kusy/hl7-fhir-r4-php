@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\StructureMapGroupTypeModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - none
+                        - types
+                        - type-and-types
+                    groups:
+                        - xsd_rules

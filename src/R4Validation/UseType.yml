@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\UseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - claim
+                        - preauthorization
+                        - predetermination
+                    groups:
+                        - xsd_rules

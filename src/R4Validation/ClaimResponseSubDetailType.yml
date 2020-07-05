@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ClaimResponseSubDetailType:
+    properties:
+        subDetailSequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null

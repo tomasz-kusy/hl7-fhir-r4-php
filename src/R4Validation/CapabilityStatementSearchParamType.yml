@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementSearchParamType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null

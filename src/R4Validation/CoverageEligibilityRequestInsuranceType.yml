@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\CoverageEligibilityRequestInsuranceType:
+    properties:
+        focal:
+            -
+                Valid: null
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        businessArrangement:
+            -
+                Valid: null

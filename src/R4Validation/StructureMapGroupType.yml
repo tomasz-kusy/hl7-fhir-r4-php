@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R4\StructureMapGroupType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        extends:
+            -
+                Valid: null
+        typeMode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        input:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

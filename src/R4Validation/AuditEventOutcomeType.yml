@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\AuditEventOutcomeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - '0'
+                        - '4'
+                        - '8'
+                        - '12'
+                    groups:
+                        - xsd_rules

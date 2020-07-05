@@ -1,0 +1,70 @@
+TKusy\Hl7Fhir\R4\ImagingStudyType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        modality:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        started:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        referrer:
+            -
+                Valid: null
+        interpreter:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        numberOfSeries:
+            -
+                Valid: null
+        numberOfInstances:
+            -
+                Valid: null
+        procedureReference:
+            -
+                Valid: null
+        procedureCode:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        series:
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\InvoiceLineItemType:
+    properties:
+        sequence:
+            -
+                Valid: null
+        chargeItemReference:
+            -
+                Valid: null
+        chargeItemCodeableConcept:
+            -
+                Valid: null
+        priceComponent:
+            -
+                Valid: null

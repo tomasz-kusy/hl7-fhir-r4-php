@@ -1,0 +1,73 @@
+TKusy\Hl7Fhir\R4\MedicationAdministrationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiates:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        medicationCodeableConcept:
+            -
+                Valid: null
+        medicationReference:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        effectiveDateTime:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        dosage:
+            -
+                Valid: null
+        eventHistory:
+            -
+                Valid: null

@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitProcedureType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        procedureCodeableConcept:
+            -
+                Valid: null
+        procedureReference:
+            -
+                Valid: null
+        udi:
+            -
+                Valid: null

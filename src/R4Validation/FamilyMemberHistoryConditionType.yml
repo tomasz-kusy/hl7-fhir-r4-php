@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R4\FamilyMemberHistoryConditionType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        contributedToDeath:
+            -
+                Valid: null
+        onsetAge:
+            -
+                Valid: null
+        onsetRange:
+            -
+                Valid: null
+        onsetPeriod:
+            -
+                Valid: null
+        onsetString:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

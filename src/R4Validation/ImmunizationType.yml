@@ -1,0 +1,101 @@
+TKusy\Hl7Fhir\R4\ImmunizationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        vaccineCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrenceString:
+            -
+                Valid: null
+        recorded:
+            -
+                Valid: null
+        primarySource:
+            -
+                Valid: null
+        reportOrigin:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        lotNumber:
+            -
+                Valid: null
+        expirationDate:
+            -
+                Valid: null
+        site:
+            -
+                Valid: null
+        route:
+            -
+                Valid: null
+        doseQuantity:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        isSubpotent:
+            -
+                Valid: null
+        subpotentReason:
+            -
+                Valid: null
+        education:
+            -
+                Valid: null
+        programEligibility:
+            -
+                Valid: null
+        fundingSource:
+            -
+                Valid: null
+        reaction:
+            -
+                Valid: null
+        protocolApplied:
+            -
+                Valid: null

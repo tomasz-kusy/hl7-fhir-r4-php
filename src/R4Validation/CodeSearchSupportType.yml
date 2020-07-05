@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\CodeSearchSupportType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - explicit
+                        - all
+                    groups:
+                        - xsd_rules

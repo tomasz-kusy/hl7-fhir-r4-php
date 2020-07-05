@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        restoreDate:
+            -
+                Valid: null
+        validityPeriod:
+            -
+                Valid: null
+        dataExclusivityPeriod:
+            -
+                Valid: null
+        dateOfFirstAuthorization:
+            -
+                Valid: null
+        internationalBirthDate:
+            -
+                Valid: null
+        legalBasis:
+            -
+                Valid: null
+        jurisdictionalAuthorization:
+            -
+                Valid: null
+        holder:
+            -
+                Valid: null
+        regulator:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null

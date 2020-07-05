@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\DaysOfWeekType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - mon
+                        - tue
+                        - wed
+                        - thu
+                        - fri
+                        - sat
+                        - sun
+                    groups:
+                        - xsd_rules

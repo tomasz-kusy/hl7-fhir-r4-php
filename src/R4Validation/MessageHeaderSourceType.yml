@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\MessageHeaderSourceType:
+    properties:
+        name:
+            -
+                Valid: null
+        software:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        endpoint:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

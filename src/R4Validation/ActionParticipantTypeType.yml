@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\ActionParticipantTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - patient
+                        - practitioner
+                        - related-person
+                        - device
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ConceptMapElementType:
+    properties:
+        code:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null

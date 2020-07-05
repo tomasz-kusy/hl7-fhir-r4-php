@@ -1,0 +1,66 @@
+TKusy\Hl7Fhir\R4\MedicinalProductType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        domain:
+            -
+                Valid: null
+        combinedPharmaceuticalDoseForm:
+            -
+                Valid: null
+        legalStatusOfSupply:
+            -
+                Valid: null
+        additionalMonitoringIndicator:
+            -
+                Valid: null
+        specialMeasures:
+            -
+                Valid: null
+        paediatricUseIndicator:
+            -
+                Valid: null
+        productClassification:
+            -
+                Valid: null
+        marketingStatus:
+            -
+                Valid: null
+        pharmaceuticalProduct:
+            -
+                Valid: null
+        packagedMedicinalProduct:
+            -
+                Valid: null
+        attachedDocument:
+            -
+                Valid: null
+        masterFile:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        clinicalTrial:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        crossReference:
+            -
+                Valid: null
+        manufacturingBusinessOperation:
+            -
+                Valid: null
+        specialDesignation:
+            -
+                Valid: null

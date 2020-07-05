@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\TestScriptLinkType:
+    properties:
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

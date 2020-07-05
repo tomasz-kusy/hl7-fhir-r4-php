@@ -1,0 +1,33 @@
+TKusy\Hl7Fhir\R4\DataRequirementType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        subjectCodeableConcept:
+            -
+                Valid: null
+        subjectReference:
+            -
+                Valid: null
+        mustSupport:
+            -
+                Valid: null
+        codeFilter:
+            -
+                Valid: null
+        dateFilter:
+            -
+                Valid: null
+        limit:
+            -
+                Valid: null
+        sort:
+            -
+                Valid: null

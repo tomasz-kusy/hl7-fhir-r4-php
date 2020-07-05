@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitAdjudicationType:
+    properties:
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null

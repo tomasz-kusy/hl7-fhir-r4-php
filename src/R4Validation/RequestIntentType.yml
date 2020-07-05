@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\RequestIntentType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - proposal
+                        - plan
+                        - directive
+                        - order
+                        - original-order
+                        - reflex-order
+                        - filler-order
+                        - instance-order
+                        - option
+                    groups:
+                        - xsd_rules

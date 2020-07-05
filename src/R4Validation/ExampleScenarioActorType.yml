@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\ExampleScenarioActorType:
+    properties:
+        actorId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

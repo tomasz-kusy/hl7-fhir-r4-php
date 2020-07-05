@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\PractitionerQualificationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        issuer:
+            -
+                Valid: null

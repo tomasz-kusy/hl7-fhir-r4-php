@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\PublicationStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - draft
+                        - active
+                        - retired
+                        - unknown
+                    groups:
+                        - xsd_rules

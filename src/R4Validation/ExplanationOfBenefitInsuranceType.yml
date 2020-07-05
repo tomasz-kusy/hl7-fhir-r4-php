@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitInsuranceType:
+    properties:
+        focal:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        preAuthRef:
+            -
+                Valid: null

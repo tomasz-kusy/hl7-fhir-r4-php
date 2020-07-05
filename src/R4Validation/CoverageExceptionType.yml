@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\CoverageExceptionType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

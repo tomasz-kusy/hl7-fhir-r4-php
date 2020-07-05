@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\TestReportStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - completed
+                        - in-progress
+                        - waiting
+                        - stopped
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

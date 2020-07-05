@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R4\SubstanceSourceMaterialType:
+    properties:
+        sourceMaterialClass:
+            -
+                Valid: null
+        sourceMaterialType:
+            -
+                Valid: null
+        sourceMaterialState:
+            -
+                Valid: null
+        organismId:
+            -
+                Valid: null
+        organismName:
+            -
+                Valid: null
+        parentSubstanceId:
+            -
+                Valid: null
+        parentSubstanceName:
+            -
+                Valid: null
+        countryOfOrigin:
+            -
+                Valid: null
+        geographicalLocation:
+            -
+                Valid: null
+        developmentStage:
+            -
+                Valid: null
+        fractionDescription:
+            -
+                Valid: null
+        organism:
+            -
+                Valid: null
+        partDescription:
+            -
+                Valid: null

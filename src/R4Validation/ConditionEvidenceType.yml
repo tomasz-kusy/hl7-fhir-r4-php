@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\ConditionEvidenceType:
+    properties:
+        code:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

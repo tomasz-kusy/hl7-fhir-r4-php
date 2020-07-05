@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationPropertyType:
+    properties:
+        category:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        parameters:
+            -
+                Valid: null
+        definingSubstanceReference:
+            -
+                Valid: null
+        definingSubstanceCodeableConcept:
+            -
+                Valid: null
+        amountQuantity:
+            -
+                Valid: null
+        amountString:
+            -
+                Valid: null

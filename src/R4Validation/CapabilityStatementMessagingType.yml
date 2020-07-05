@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementMessagingType:
+    properties:
+        endpoint:
+            -
+                Valid: null
+        reliableCache:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        supportedMessage:
+            -
+                Valid: null

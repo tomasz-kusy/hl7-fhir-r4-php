@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\TaskRestrictionType:
+    properties:
+        repetitions:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        recipient:
+            -
+                Valid: null

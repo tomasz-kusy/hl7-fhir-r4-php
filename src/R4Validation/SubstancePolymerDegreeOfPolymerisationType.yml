@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\SubstancePolymerDegreeOfPolymerisationType:
+    properties:
+        degree:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationJurisdictionalAuthorizationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        legalStatusOfSupply:
+            -
+                Valid: null
+        validityPeriod:
+            -
+                Valid: null

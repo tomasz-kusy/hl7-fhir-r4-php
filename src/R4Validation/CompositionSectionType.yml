@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R4\CompositionSectionType:
+    properties:
+        title:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        mode:
+            -
+                Valid: null
+        orderedBy:
+            -
+                Valid: null
+        entry:
+            -
+                Valid: null
+        emptyReason:
+            -
+                Valid: null
+        section:
+            -
+                Valid: null

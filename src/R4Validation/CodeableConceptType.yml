@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\CodeableConceptType:
+    properties:
+        coding:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null

@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\QuestionnaireItemOperatorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - exists
+                        - '='
+                        - '!='
+                        - '>'
+                        - '<'
+                        - '>='
+                        - '<='
+                    groups:
+                        - xsd_rules

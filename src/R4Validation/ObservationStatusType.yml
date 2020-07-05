@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\ObservationStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - registered
+                        - preliminary
+                        - final
+                        - amended
+                        - corrected
+                        - cancelled
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

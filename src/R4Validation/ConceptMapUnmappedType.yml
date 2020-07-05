@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ConceptMapUnmappedType:
+    properties:
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null

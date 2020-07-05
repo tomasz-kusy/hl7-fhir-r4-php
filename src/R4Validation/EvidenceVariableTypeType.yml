@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\EvidenceVariableTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - dichotomous
+                        - continuous
+                        - descriptive
+                    groups:
+                        - xsd_rules

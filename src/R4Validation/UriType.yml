@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\UriType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~\S*~'
+                    groups:
+                        - xsd_rules

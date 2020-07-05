@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\TestScriptFixtureType:
+    properties:
+        autocreate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        autodelete:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null

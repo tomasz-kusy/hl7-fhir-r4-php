@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\MedicationRequestIntentType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - proposal
+                        - plan
+                        - order
+                        - original-order
+                        - reflex-order
+                        - filler-order
+                        - instance-order
+                        - option
+                    groups:
+                        - xsd_rules

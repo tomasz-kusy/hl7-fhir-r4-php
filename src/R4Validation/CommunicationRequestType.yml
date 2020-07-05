@@ -1,0 +1,75 @@
+TKusy\Hl7Fhir\R4\CommunicationRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        replaces:
+            -
+                Valid: null
+        groupIdentifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        doNotPerform:
+            -
+                Valid: null
+        medium:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        about:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        payload:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        recipient:
+            -
+                Valid: null
+        sender:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

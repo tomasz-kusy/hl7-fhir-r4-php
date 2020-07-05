@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\MeasureReportTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - individual
+                        - subject-list
+                        - summary
+                        - data-collection
+                    groups:
+                        - xsd_rules

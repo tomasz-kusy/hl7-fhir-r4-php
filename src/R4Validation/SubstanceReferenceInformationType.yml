@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\SubstanceReferenceInformationType:
+    properties:
+        comment:
+            -
+                Valid: null
+        gene:
+            -
+                Valid: null
+        geneElement:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null

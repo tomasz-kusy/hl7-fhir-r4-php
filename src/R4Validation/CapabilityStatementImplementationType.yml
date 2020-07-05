@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementImplementationType:
+    properties:
+        description:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        custodian:
+            -
+                Valid: null

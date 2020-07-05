@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\NarrativeStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - generated
+                        - extensions
+                        - additional
+                        - empty
+                    groups:
+                        - xsd_rules

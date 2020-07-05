@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\RiskEvidenceSynthesisSampleSizeType:
+    properties:
+        description:
+            -
+                Valid: null
+        numberOfStudies:
+            -
+                Valid: null
+        numberOfParticipants:
+            -
+                Valid: null

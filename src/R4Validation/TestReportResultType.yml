@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\TestReportResultType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - pass
+                        - fail
+                        - pending
+                    groups:
+                        - xsd_rules

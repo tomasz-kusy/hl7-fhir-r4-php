@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\GroupTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - person
+                        - animal
+                        - practitioner
+                        - device
+                        - medication
+                        - substance
+                    groups:
+                        - xsd_rules

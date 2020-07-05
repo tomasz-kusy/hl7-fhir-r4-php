@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\BooleanType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: ~true|false~
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitAccidentType:
+    properties:
+        date:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        locationAddress:
+            -
+                Valid: null
+        locationReference:
+            -
+                Valid: null

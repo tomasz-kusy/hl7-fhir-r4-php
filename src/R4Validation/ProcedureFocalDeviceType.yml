@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\ProcedureFocalDeviceType:
+    properties:
+        action:
+            -
+                Valid: null
+        manipulated:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

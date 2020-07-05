@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationMoietyType:
+    properties:
+        role:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        stereochemistry:
+            -
+                Valid: null
+        opticalActivity:
+            -
+                Valid: null
+        molecularFormula:
+            -
+                Valid: null
+        amountQuantity:
+            -
+                Valid: null
+        amountString:
+            -
+                Valid: null

@@ -1,0 +1,86 @@
+TKusy\Hl7Fhir\R4\TestScriptType:
+    properties:
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        origin:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        metadata:
+            -
+                Valid: null
+        fixture:
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        variable:
+            -
+                Valid: null
+        setup:
+            -
+                Valid: null
+        test:
+            -
+                Valid: null
+        teardown:
+            -
+                Valid: null

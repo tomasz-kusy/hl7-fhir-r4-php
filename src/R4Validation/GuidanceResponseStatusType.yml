@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\GuidanceResponseStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - success
+                        - data-requested
+                        - data-required
+                        - in-progress
+                        - failure
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

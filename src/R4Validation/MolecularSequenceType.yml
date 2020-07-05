@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        coordinateSystem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        referenceSeq:
+            -
+                Valid: null
+        variant:
+            -
+                Valid: null
+        observedSeq:
+            -
+                Valid: null
+        quality:
+            -
+                Valid: null
+        readCoverage:
+            -
+                Valid: null
+        repository:
+            -
+                Valid: null
+        pointer:
+            -
+                Valid: null
+        structureVariant:
+            -
+                Valid: null

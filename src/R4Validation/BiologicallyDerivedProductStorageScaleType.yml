@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductStorageScaleType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - farenheit
+                        - celsius
+                        - kelvin
+                    groups:
+                        - xsd_rules

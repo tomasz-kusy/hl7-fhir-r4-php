@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\TerminologyCapabilitiesValidateCodeType:
+    properties:
+        translations:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

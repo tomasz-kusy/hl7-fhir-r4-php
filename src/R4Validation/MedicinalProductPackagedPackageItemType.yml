@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPackagedPackageItemType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        quantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        material:
+            -
+                Valid: null
+        alternateMaterial:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        manufacturedItem:
+            -
+                Valid: null
+        packageItem:
+            -
+                Valid: null
+        physicalCharacteristics:
+            -
+                Valid: null
+        otherCharacteristics:
+            -
+                Valid: null
+        shelfLifeStorage:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null

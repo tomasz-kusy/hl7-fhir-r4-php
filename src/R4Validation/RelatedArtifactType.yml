@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R4\RelatedArtifactType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        label:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        citation:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        document:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null

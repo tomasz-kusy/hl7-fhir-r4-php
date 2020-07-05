@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\MedicationDispenseSubstitutionType:
+    properties:
+        wasSubstituted:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        responsibleParty:
+            -
+                Valid: null

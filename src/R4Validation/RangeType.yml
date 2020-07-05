@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\RangeType:
+    properties:
+        low:
+            -
+                Valid: null
+        high:
+            -
+                Valid: null

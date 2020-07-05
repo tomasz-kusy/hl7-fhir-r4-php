@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\ElementDefinitionMappingType:
+    properties:
+        identity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        map:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\ContributorTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - author
+                        - editor
+                        - reviewer
+                        - endorser
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\DocumentReferenceContextType:
+    properties:
+        encounter:
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        facilityType:
+            -
+                Valid: null
+        practiceSetting:
+            -
+                Valid: null
+        sourcePatientInfo:
+            -
+                Valid: null
+        related:
+            -
+                Valid: null

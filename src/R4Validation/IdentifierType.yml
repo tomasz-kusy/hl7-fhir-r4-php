@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\IdentifierType:
+    properties:
+        use:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        system:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        assigner:
+            -
+                Valid: null

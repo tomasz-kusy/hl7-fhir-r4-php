@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\AssertionResponseTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - okay
+                        - created
+                        - noContent
+                        - notModified
+                        - bad
+                        - forbidden
+                        - notFound
+                        - methodNotAllowed
+                        - conflict
+                        - gone
+                        - preconditionFailed
+                        - unprocessable
+                    groups:
+                        - xsd_rules

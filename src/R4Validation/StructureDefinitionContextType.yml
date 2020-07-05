@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\StructureDefinitionContextType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

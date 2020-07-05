@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\StatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - attested
+                        - validated
+                        - in-process
+                        - req-revalid
+                        - val-fail
+                        - reval-fail
+                    groups:
+                        - xsd_rules

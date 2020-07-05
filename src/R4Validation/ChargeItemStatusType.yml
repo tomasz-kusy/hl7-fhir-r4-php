@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ChargeItemStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - planned
+                        - billable
+                        - not-billable
+                        - aborted
+                        - billed
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

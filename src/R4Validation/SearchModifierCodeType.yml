@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\SearchModifierCodeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - missing
+                        - exact
+                        - contains
+                        - not
+                        - text
+                        - in
+                        - not-in
+                        - below
+                        - above
+                        - type
+                        - identifier
+                        - ofType
+                    groups:
+                        - xsd_rules

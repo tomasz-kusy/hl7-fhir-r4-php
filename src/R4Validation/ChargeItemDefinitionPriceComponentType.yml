@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ChargeItemDefinitionPriceComponentType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

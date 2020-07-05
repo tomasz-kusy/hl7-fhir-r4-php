@@ -1,0 +1,69 @@
+TKusy\Hl7Fhir\R4\NutritionOrderType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        instantiates:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        dateTime:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        orderer:
+            -
+                Valid: null
+        allergyIntolerance:
+            -
+                Valid: null
+        foodPreferenceModifier:
+            -
+                Valid: null
+        excludeFoodModifier:
+            -
+                Valid: null
+        oralDiet:
+            -
+                Valid: null
+        supplement:
+            -
+                Valid: null
+        enteralFormula:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

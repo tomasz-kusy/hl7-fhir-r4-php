@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\ProdCharacteristicType:
+    properties:
+        height:
+            -
+                Valid: null
+        width:
+            -
+                Valid: null
+        depth:
+            -
+                Valid: null
+        weight:
+            -
+                Valid: null
+        nominalVolume:
+            -
+                Valid: null
+        externalDiameter:
+            -
+                Valid: null
+        shape:
+            -
+                Valid: null
+        color:
+            -
+                Valid: null
+        imprint:
+            -
+                Valid: null
+        image:
+            -
+                Valid: null
+        scoring:
+            -
+                Valid: null

@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\AuditEventEntityType:
+    properties:
+        what:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        lifecycle:
+            -
+                Valid: null
+        securityLabel:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        query:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

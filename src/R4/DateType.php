@@ -12,14 +12,14 @@ class DateType extends ElementType
 {
 
     /**
-     * @var int $value
+     * @var \DateTime $value
      */
     private $value = null;
 
     /**
      * Gets as value
      *
-     * @return int
+     * @return \DateTime
      */
     public function getValue()
     {
@@ -29,10 +29,10 @@ class DateType extends ElementType
     /**
      * Sets a new value
      *
-     * @param int $value
+     * @param \DateTime $value
      * @return self
      */
-    public function setValue($value)
+    public function setValue(\DateTime $value)
     {
         $this->value = $value;
         return $this;

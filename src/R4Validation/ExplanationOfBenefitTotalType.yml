@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\ExplanationOfBenefitTotalType:
+    properties:
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

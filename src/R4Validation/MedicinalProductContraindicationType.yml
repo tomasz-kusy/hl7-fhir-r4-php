@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\MedicinalProductContraindicationType:
+    properties:
+        subject:
+            -
+                Valid: null
+        disease:
+            -
+                Valid: null
+        diseaseStatus:
+            -
+                Valid: null
+        comorbidity:
+            -
+                Valid: null
+        therapeuticIndication:
+            -
+                Valid: null
+        otherTherapy:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null

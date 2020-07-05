@@ -1,0 +1,78 @@
+TKusy\Hl7Fhir\R4\ResearchStudyType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        protocol:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        primaryPurposeType:
+            -
+                Valid: null
+        phase:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        keyword:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        enrollment:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        sponsor:
+            -
+                Valid: null
+        principalInvestigator:
+            -
+                Valid: null
+        site:
+            -
+                Valid: null
+        reasonStopped:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        arm:
+            -
+                Valid: null
+        objective:
+            -
+                Valid: null

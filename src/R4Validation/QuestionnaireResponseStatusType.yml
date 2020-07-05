@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\QuestionnaireResponseStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-progress
+                        - completed
+                        - amended
+                        - entered-in-error
+                        - stopped
+                    groups:
+                        - xsd_rules

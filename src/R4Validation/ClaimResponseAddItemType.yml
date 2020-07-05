@@ -1,0 +1,73 @@
+TKusy\Hl7Fhir\R4\ClaimResponseAddItemType:
+    properties:
+        itemSequence:
+            -
+                Valid: null
+        detailSequence:
+            -
+                Valid: null
+        subdetailSequence:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        productOrService:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        programCode:
+            -
+                Valid: null
+        servicedDate:
+            -
+                Valid: null
+        servicedPeriod:
+            -
+                Valid: null
+        locationCodeableConcept:
+            -
+                Valid: null
+        locationAddress:
+            -
+                Valid: null
+        locationReference:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        subSite:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        adjudication:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

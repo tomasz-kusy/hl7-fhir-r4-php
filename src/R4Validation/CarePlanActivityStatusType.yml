@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\CarePlanActivityStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - not-started
+                        - scheduled
+                        - in-progress
+                        - on-hold
+                        - completed
+                        - cancelled
+                        - stopped
+                        - unknown
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R4\DocumentManifestType:
+    properties:
+        masterIdentifier:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        recipient:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        content:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        related:
+            -
+                Valid: null

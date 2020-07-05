@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\RequestGroupConditionType:
+    properties:
+        kind:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null

@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\MedicinalProductSpecialDesignationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        intendedUse:
+            -
+                Valid: null
+        indicationCodeableConcept:
+            -
+                Valid: null
+        indicationReference:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        species:
+            -
+                Valid: null

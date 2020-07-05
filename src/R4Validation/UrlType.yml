@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\UrlType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~\S*~'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules

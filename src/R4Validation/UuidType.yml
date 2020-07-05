@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\UuidType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}~'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules

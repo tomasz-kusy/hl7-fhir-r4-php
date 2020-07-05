@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\MarkdownType:
+    properties:
+        value:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Regex:
+                    pattern: '~[ \r\n\t\S]+~'
+                    groups:
+                        - xsd_rules

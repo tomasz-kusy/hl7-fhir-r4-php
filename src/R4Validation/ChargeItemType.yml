@@ -1,0 +1,101 @@
+TKusy\Hl7Fhir\R4\ChargeItemType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        definitionUri:
+            -
+                Valid: null
+        definitionCanonical:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        performingOrganization:
+            -
+                Valid: null
+        requestingOrganization:
+            -
+                Valid: null
+        costCenter:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        bodysite:
+            -
+                Valid: null
+        factorOverride:
+            -
+                Valid: null
+        priceOverride:
+            -
+                Valid: null
+        overrideReason:
+            -
+                Valid: null
+        enterer:
+            -
+                Valid: null
+        enteredDate:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        service:
+            -
+                Valid: null
+        productReference:
+            -
+                Valid: null
+        productCodeableConcept:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null

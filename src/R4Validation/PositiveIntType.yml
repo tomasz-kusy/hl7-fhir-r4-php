@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\PositiveIntType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~[1-9][0-9]*~'
+                    groups:
+                        - xsd_rules

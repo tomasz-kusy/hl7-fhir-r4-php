@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R4\SupplyDeliveryType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        suppliedItem:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        supplier:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null

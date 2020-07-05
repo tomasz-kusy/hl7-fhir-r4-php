@@ -1,0 +1,51 @@
+TKusy\Hl7Fhir\R4\MolecularSequenceQualityType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        standardSequence:
+            -
+                Valid: null
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        score:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        truthTP:
+            -
+                Valid: null
+        queryTP:
+            -
+                Valid: null
+        truthFN:
+            -
+                Valid: null
+        queryFP:
+            -
+                Valid: null
+        gtFP:
+            -
+                Valid: null
+        precision:
+            -
+                Valid: null
+        recall:
+            -
+                Valid: null
+        fScore:
+            -
+                Valid: null
+        roc:
+            -
+                Valid: null

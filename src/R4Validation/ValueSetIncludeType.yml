@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R4\ValueSetIncludeType:
+    properties:
+        system:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        concept:
+            -
+                Valid: null
+        filter:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null

@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\TestScriptRequestHeaderType:
+    properties:
+        field:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

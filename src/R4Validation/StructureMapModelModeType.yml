@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\StructureMapModelModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - source
+                        - queried
+                        - target
+                        - produced
+                    groups:
+                        - xsd_rules

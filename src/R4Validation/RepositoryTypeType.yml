@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\RepositoryTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - directlink
+                        - openapi
+                        - login
+                        - oauth
+                        - other
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\ClaimResponsePaymentType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        adjustment:
+            -
+                Valid: null
+        adjustmentReason:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null

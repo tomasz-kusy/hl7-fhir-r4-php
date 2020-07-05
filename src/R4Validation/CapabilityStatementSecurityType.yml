@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementSecurityType:
+    properties:
+        cors:
+            -
+                Valid: null
+        service:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

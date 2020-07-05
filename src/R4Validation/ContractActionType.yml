@@ -1,0 +1,83 @@
+TKusy\Hl7Fhir\R4\ContractActionType:
+    properties:
+        doNotPerform:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        linkId:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        contextLinkId:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        requesterLinkId:
+            -
+                Valid: null
+        performerType:
+            -
+                Valid: null
+        performerRole:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        performerLinkId:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        reasonLinkId:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        securityLabelNumber:
+            -
+                Valid: null

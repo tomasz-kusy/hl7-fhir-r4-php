@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\TestReportAction2Type:
+    properties:
+        operation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

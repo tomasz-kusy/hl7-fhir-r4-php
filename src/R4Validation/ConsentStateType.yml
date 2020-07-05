@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\ConsentStateType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - draft
+                        - proposed
+                        - active
+                        - rejected
+                        - inactive
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

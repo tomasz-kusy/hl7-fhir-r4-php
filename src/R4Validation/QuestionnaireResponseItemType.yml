@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\QuestionnaireResponseItemType:
+    properties:
+        linkId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        answer:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null

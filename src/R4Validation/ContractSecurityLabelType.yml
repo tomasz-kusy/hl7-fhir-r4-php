@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ContractSecurityLabelType:
+    properties:
+        number:
+            -
+                Valid: null
+        classification:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        control:
+            -
+                Valid: null

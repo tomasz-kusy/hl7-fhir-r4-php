@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\RelatedArtifactTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - documentation
+                        - justification
+                        - citation
+                        - predecessor
+                        - successor
+                        - derived-from
+                        - depends-on
+                        - composed-of
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\OperationOutcomeType:
+    properties:
+        issue:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

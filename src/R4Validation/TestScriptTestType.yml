@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\TestScriptTestType:
+    properties:
+        name:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        action:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

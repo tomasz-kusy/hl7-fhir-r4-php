@@ -1,0 +1,116 @@
+TKusy\Hl7Fhir\R4\MedicationRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        doNotPerform:
+            -
+                Valid: null
+        reportedBoolean:
+            -
+                Valid: null
+        reportedReference:
+            -
+                Valid: null
+        medicationCodeableConcept:
+            -
+                Valid: null
+        medicationReference:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        performerType:
+            -
+                Valid: null
+        recorder:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        groupIdentifier:
+            -
+                Valid: null
+        courseOfTherapyType:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        dosageInstruction:
+            -
+                Valid: null
+        dispenseRequest:
+            -
+                Valid: null
+        substitution:
+            -
+                Valid: null
+        priorPrescription:
+            -
+                Valid: null
+        detectedIssue:
+            -
+                Valid: null
+        eventHistory:
+            -
+                Valid: null

@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\SubstanceAmountType:
+    properties:
+        amountQuantity:
+            -
+                Valid: null
+        amountRange:
+            -
+                Valid: null
+        amountString:
+            -
+                Valid: null
+        amountType:
+            -
+                Valid: null
+        amountText:
+            -
+                Valid: null
+        referenceRange:
+            -
+                Valid: null

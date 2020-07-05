@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\MedicinalProductManufacturingBusinessOperationType:
+    properties:
+        operationType:
+            -
+                Valid: null
+        authorisationReferenceNumber:
+            -
+                Valid: null
+        effectiveDate:
+            -
+                Valid: null
+        confidentialityIndicator:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        regulator:
+            -
+                Valid: null

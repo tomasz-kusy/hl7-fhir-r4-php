@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\TerminologyCapabilitiesTranslationType:
+    properties:
+        needsMap:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

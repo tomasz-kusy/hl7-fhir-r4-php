@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\DeviceNameTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - udi-label-name
+                        - user-friendly-name
+                        - patient-reported-name
+                        - manufacturer-name
+                        - model-name
+                        - other
+                    groups:
+                        - xsd_rules

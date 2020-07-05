@@ -1,0 +1,107 @@
+TKusy\Hl7Fhir\R4\ContractType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        legalState:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        contentDerivative:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        applies:
+            -
+                Valid: null
+        expirationType:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        authority:
+            -
+                Valid: null
+        domain:
+            -
+                Valid: null
+        site:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        subtitle:
+            -
+                Valid: null
+        alias:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        scope:
+            -
+                Valid: null
+        topicCodeableConcept:
+            -
+                Valid: null
+        topicReference:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subType:
+            -
+                Valid: null
+        contentDefinition:
+            -
+                Valid: null
+        term:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        relevantHistory:
+            -
+                Valid: null
+        signer:
+            -
+                Valid: null
+        friendly:
+            -
+                Valid: null
+        legal:
+            -
+                Valid: null
+        rule:
+            -
+                Valid: null
+        legallyBindingAttachment:
+            -
+                Valid: null
+        legallyBindingReference:
+            -
+                Valid: null

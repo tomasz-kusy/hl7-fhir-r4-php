@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\CompositionAttestationModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - personal
+                        - professional
+                        - legal
+                        - official
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R4\MessageHeaderResponseType:
+    properties:
+        identifier:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        details:
+            -
+                Valid: null

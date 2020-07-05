@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\SubscriptionStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - requested
+                        - active
+                        - error
+                        - 'off'
+                    groups:
+                        - xsd_rules

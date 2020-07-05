@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ObservationRangeCategoryType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - reference
+                        - critical
+                        - absolute
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\QualityTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - indel
+                        - snp
+                        - unknown
+                    groups:
+                        - xsd_rules

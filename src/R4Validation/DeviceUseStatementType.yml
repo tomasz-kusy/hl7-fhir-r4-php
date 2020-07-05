@@ -1,0 +1,59 @@
+TKusy\Hl7Fhir\R4\DeviceUseStatementType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        timingTiming:
+            -
+                Valid: null
+        timingPeriod:
+            -
+                Valid: null
+        timingDateTime:
+            -
+                Valid: null
+        recordedOn:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        device:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\CatalogEntryRelationTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - triggers
+                        - is-replaced-by
+                    groups:
+                        - xsd_rules

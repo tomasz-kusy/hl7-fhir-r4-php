@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\EpisodeOfCareStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - planned
+                        - waitlist
+                        - active
+                        - onhold
+                        - finished
+                        - cancelled
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

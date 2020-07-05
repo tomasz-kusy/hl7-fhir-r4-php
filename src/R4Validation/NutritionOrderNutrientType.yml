@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\NutritionOrderNutrientType:
+    properties:
+        modifier:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPackagedBatchIdentifierType:
+    properties:
+        outerPackaging:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        immediatePackaging:
+            -
+                Valid: null

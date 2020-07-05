@@ -1,0 +1,34 @@
+TKusy\Hl7Fhir\R4\AppointmentResponseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        appointment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        participantType:
+            -
+                Valid: null
+        actor:
+            -
+                Valid: null
+        participantStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

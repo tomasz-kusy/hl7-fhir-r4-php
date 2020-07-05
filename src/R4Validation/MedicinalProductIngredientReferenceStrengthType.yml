@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIngredientReferenceStrengthType:
+    properties:
+        substance:
+            -
+                Valid: null
+        strength:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        strengthLowLimit:
+            -
+                Valid: null
+        measurementPoint:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null

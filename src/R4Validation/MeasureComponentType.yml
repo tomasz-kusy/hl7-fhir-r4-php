@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\MeasureComponentType:
+    properties:
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        criteria:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

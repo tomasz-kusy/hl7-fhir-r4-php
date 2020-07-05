@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductCategoryType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - organ
+                        - tissue
+                        - fluid
+                        - cells
+                        - biologicalAgent
+                    groups:
+                        - xsd_rules

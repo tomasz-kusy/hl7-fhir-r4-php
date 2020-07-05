@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ElementType:
+    properties:
+        id:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+        extension:
+            -
+                Valid: null

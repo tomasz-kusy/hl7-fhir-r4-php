@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeScheduleType:
+    properties:
+        schedule:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

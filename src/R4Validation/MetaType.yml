@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\MetaType:
+    properties:
+        versionId:
+            -
+                Valid: null
+        lastUpdated:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        security:
+            -
+                Valid: null
+        tag:
+            -
+                Valid: null

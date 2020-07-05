@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\LocationHoursOfOperationType:
+    properties:
+        daysOfWeek:
+            -
+                Valid: null
+        allDay:
+            -
+                Valid: null
+        openingTime:
+            -
+                Valid: null
+        closingTime:
+            -
+                Valid: null

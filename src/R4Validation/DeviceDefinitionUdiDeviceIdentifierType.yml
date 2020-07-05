@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\DeviceDefinitionUdiDeviceIdentifierType:
+    properties:
+        deviceIdentifier:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        issuer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        jurisdiction:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

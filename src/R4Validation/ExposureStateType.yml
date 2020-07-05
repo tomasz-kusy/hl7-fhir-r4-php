@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\ExposureStateType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - exposure
+                        - exposure-alternative
+                    groups:
+                        - xsd_rules

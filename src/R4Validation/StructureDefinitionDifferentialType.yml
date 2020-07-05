@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\StructureDefinitionDifferentialType:
+    properties:
+        element:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

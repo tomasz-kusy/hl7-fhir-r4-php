@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R4\ConsentProvisionType:
+    properties:
+        type:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        actor:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null
+        securityLabel:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        class:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        dataPeriod:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null
+        provision:
+            -
+                Valid: null

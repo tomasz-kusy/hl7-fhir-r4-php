@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ListStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - current
+                        - retired
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

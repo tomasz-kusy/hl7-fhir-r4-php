@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductManipulationType:
+    properties:
+        description:
+            -
+                Valid: null
+        timeDateTime:
+            -
+                Valid: null
+        timePeriod:
+            -
+                Valid: null

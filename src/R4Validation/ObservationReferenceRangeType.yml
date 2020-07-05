@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\ObservationReferenceRangeType:
+    properties:
+        low:
+            -
+                Valid: null
+        high:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        appliesTo:
+            -
+                Valid: null
+        age:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null

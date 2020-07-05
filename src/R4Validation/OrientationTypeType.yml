@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\OrientationTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - sense
+                        - antisense
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\ConceptMapEquivalenceType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - relatedto
+                        - equivalent
+                        - equal
+                        - wider
+                        - subsumes
+                        - narrower
+                        - specializes
+                        - inexact
+                        - unmatched
+                        - disjoint
+                    groups:
+                        - xsd_rules

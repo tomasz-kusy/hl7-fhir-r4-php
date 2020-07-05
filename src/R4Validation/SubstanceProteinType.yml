@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\SubstanceProteinType:
+    properties:
+        sequenceType:
+            -
+                Valid: null
+        numberOfSubunits:
+            -
+                Valid: null
+        disulfideLinkage:
+            -
+                Valid: null
+        subunit:
+            -
+                Valid: null

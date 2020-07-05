@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\CodeType:
+    properties:
+        value:
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Regex:
+                    pattern: '~[^\s]+(\s[^\s]+)*~'
+                    groups:
+                        - xsd_rules

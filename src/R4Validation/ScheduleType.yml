@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R4\ScheduleType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        serviceCategory:
+            -
+                Valid: null
+        serviceType:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null
+        actor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        planningHorizon:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

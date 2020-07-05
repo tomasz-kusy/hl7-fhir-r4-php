@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ClinicalImpressionFindingType:
+    properties:
+        itemCodeableConcept:
+            -
+                Valid: null
+        itemReference:
+            -
+                Valid: null
+        basis:
+            -
+                Valid: null

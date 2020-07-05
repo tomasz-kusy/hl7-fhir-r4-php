@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\UnitsOfTimeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - s
+                        - min
+                        - h
+                        - d
+                        - wk
+                        - mo
+                        - a
+                    groups:
+                        - xsd_rules

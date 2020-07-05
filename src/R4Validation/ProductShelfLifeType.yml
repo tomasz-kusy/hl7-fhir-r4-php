@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\ProductShelfLifeType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        specialPrecautionsForStorage:
+            -
+                Valid: null

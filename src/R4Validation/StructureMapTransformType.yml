@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R4\StructureMapTransformType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - create
+                        - copy
+                        - truncate
+                        - escape
+                        - cast
+                        - append
+                        - translate
+                        - reference
+                        - dateOp
+                        - uuid
+                        - pointer
+                        - evaluate
+                        - cc
+                        - c
+                        - qty
+                        - id
+                        - cp
+                    groups:
+                        - xsd_rules

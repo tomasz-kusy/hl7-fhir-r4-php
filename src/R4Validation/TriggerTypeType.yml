@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R4\TriggerTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - named-event
+                        - periodic
+                        - data-changed
+                        - data-added
+                        - data-modified
+                        - data-removed
+                        - data-accessed
+                        - data-access-ended
+                    groups:
+                        - xsd_rules

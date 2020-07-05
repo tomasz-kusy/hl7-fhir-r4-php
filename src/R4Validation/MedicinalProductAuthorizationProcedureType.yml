@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\MedicinalProductAuthorizationProcedureType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        datePeriod:
+            -
+                Valid: null
+        dateDateTime:
+            -
+                Valid: null
+        application:
+            -
+                Valid: null

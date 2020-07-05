@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\MeasureReportPopulationType:
+    properties:
+        code:
+            -
+                Valid: null
+        count:
+            -
+                Valid: null
+        subjectResults:
+            -
+                Valid: null

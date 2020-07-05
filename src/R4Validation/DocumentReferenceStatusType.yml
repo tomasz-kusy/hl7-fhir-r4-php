@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\DocumentReferenceStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - current
+                        - superseded
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

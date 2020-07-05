@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\DeviceUdiCarrierType:
+    properties:
+        deviceIdentifier:
+            -
+                Valid: null
+        issuer:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        carrierAIDC:
+            -
+                Valid: null
+        carrierHRF:
+            -
+                Valid: null
+        entryType:
+            -
+                Valid: null

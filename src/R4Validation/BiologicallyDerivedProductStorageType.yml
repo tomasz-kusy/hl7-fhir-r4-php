@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\BiologicallyDerivedProductStorageType:
+    properties:
+        description:
+            -
+                Valid: null
+        temperature:
+            -
+                Valid: null
+        scale:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null

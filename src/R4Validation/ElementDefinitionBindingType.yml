@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ElementDefinitionBindingType:
+    properties:
+        strength:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null

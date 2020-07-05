@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\GraphCompartmentUseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - condition
+                        - requirement
+                    groups:
+                        - xsd_rules

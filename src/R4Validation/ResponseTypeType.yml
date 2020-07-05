@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ResponseTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - ok
+                        - transient-error
+                        - fatal-error
+                    groups:
+                        - xsd_rules

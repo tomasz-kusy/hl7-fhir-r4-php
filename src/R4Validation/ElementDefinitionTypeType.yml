@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R4\ElementDefinitionTypeType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        targetProfile:
+            -
+                Valid: null
+        aggregation:
+            -
+                Valid: null
+        versioning:
+            -
+                Valid: null

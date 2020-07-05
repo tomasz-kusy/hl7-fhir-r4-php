@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\LinkageType:
+    properties:
+        active:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        item:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

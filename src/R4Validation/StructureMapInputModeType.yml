@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R4\StructureMapInputModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - source
+                        - target
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,108 @@
+TKusy\Hl7Fhir\R4\SearchParameterType:
+    properties:
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        base:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null
+        xpath:
+            -
+                Valid: null
+        xpathUsage:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        multipleOr:
+            -
+                Valid: null
+        multipleAnd:
+            -
+                Valid: null
+        comparator:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        chain:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

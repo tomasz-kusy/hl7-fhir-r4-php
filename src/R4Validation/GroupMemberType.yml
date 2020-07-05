@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\GroupMemberType:
+    properties:
+        entity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        inactive:
+            -
+                Valid: null

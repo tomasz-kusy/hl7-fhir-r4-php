@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R4\EnrollmentResponseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        disposition:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        requestProvider:
+            -
+                Valid: null

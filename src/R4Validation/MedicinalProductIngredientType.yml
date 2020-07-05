@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R4\MedicinalProductIngredientType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        role:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        allergenicIndicator:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        specifiedSubstance:
+            -
+                Valid: null
+        substance:
+            -
+                Valid: null

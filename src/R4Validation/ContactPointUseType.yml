@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R4\ContactPointUseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - home
+                        - work
+                        - temp
+                        - old
+                        - mobile
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R4\AllergyIntoleranceReactionType:
+    properties:
+        substance:
+            -
+                Valid: null
+        manifestation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        onset:
+            -
+                Valid: null
+        severity:
+            -
+                Valid: null
+        exposureRoute:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R4\EffectEvidenceSynthesisResultsByExposureType:
+    properties:
+        description:
+            -
+                Valid: null
+        exposureState:
+            -
+                Valid: null
+        variantState:
+            -
+                Valid: null
+        riskEvidenceSynthesis:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

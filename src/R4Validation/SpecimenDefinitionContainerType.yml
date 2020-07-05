@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R4\SpecimenDefinitionContainerType:
+    properties:
+        material:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        cap:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        capacity:
+            -
+                Valid: null
+        minimumVolumeQuantity:
+            -
+                Valid: null
+        minimumVolumeString:
+            -
+                Valid: null
+        additive:
+            -
+                Valid: null
+        preparation:
+            -
+                Valid: null

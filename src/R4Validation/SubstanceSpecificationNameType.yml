@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationNameType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        preferred:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        domain:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        synonym:
+            -
+                Valid: null
+        translation:
+            -
+                Valid: null
+        official:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

@@ -1,0 +1,31 @@
+TKusy\Hl7Fhir\R4\MedicinalProductPharmaceuticalType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        administrableDoseForm:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        unitOfPresentation:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        characteristics:
+            -
+                Valid: null
+        routeOfAdministration:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

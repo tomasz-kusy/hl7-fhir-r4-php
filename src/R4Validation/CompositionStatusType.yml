@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\CompositionStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preliminary
+                        - final
+                        - amended
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

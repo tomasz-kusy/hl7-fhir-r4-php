@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\MedicationKnowledgeAdministrationGuidelinesType:
+    properties:
+        dosage:
+            -
+                Valid: null
+        indicationCodeableConcept:
+            -
+                Valid: null
+        indicationReference:
+            -
+                Valid: null
+        patientCharacteristics:
+            -
+                Valid: null

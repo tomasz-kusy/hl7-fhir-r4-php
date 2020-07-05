@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R4\InsurancePlanType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        alias:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        ownedBy:
+            -
+                Valid: null
+        administeredBy:
+            -
+                Valid: null
+        coverageArea:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        coverage:
+            -
+                Valid: null
+        plan:
+            -
+                Valid: null

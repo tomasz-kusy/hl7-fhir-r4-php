@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R4\CoverageEligibilityResponseErrorType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

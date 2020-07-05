@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\AllergyIntoleranceCriticalityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - low
+                        - high
+                        - unable-to-assess
+                    groups:
+                        - xsd_rules

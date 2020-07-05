@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\TerminologyCapabilitiesCodeSystemType:
+    properties:
+        uri:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        subsumption:
+            -
+                Valid: null

@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R4\CoverageType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        policyHolder:
+            -
+                Valid: null
+        subscriber:
+            -
+                Valid: null
+        subscriberId:
+            -
+                Valid: null
+        beneficiary:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        dependent:
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        payor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        class:
+            -
+                Valid: null
+        order:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        costToBeneficiary:
+            -
+                Valid: null
+        subrogation:
+            -
+                Valid: null
+        contract:
+            -
+                Valid: null

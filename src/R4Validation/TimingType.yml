@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\TimingType:
+    properties:
+        event:
+            -
+                Valid: null
+        repeat:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null

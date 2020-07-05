@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\MeasureGroupType:
+    properties:
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null
+        stratifier:
+            -
+                Valid: null

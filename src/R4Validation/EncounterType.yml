@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R4\EncounterType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusHistory:
+            -
+                Valid: null
+        class:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        classHistory:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        serviceType:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        episodeOfCare:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        appointment:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        length:
+            -
+                Valid: null
+        reasonCode:
+            -
+                Valid: null
+        reasonReference:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        hospitalization:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        serviceProvider:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null

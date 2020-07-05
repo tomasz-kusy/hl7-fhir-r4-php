@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\ResearchStudyArmType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null

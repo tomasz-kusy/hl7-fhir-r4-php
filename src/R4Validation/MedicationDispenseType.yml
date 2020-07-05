@@ -1,0 +1,84 @@
+TKusy\Hl7Fhir\R4\MedicationDispenseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReasonCodeableConcept:
+            -
+                Valid: null
+        statusReasonReference:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        medicationCodeableConcept:
+            -
+                Valid: null
+        medicationReference:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        authorizingPrescription:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        daysSupply:
+            -
+                Valid: null
+        whenPrepared:
+            -
+                Valid: null
+        whenHandedOver:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        dosageInstruction:
+            -
+                Valid: null
+        substitution:
+            -
+                Valid: null
+        detectedIssue:
+            -
+                Valid: null
+        eventHistory:
+            -
+                Valid: null

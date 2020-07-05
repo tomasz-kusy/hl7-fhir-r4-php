@@ -1,0 +1,100 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementType:
+    properties:
+        url:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        kind:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        instantiates:
+            -
+                Valid: null
+        imports:
+            -
+                Valid: null
+        software:
+            -
+                Valid: null
+        implementation:
+            -
+                Valid: null
+        fhirVersion:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        format:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patchFormat:
+            -
+                Valid: null
+        implementationGuide:
+            -
+                Valid: null
+        rest:
+            -
+                Valid: null
+        messaging:
+            -
+                Valid: null
+        document:
+            -
+                Valid: null

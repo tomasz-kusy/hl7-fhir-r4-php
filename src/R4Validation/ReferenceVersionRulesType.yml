@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ReferenceVersionRulesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - either
+                        - independent
+                        - specific
+                    groups:
+                        - xsd_rules

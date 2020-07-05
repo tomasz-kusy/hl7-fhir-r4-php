@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R4\PlanDefinitionRelatedActionType:
+    properties:
+        actionId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        relationship:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        offsetDuration:
+            -
+                Valid: null
+        offsetRange:
+            -
+                Valid: null

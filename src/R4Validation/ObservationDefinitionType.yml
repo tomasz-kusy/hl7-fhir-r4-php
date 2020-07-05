@@ -1,0 +1,45 @@
+TKusy\Hl7Fhir\R4\ObservationDefinitionType:
+    properties:
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        permittedDataType:
+            -
+                Valid: null
+        multipleResultsAllowed:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        preferredReportName:
+            -
+                Valid: null
+        quantitativeDetails:
+            -
+                Valid: null
+        qualifiedInterval:
+            -
+                Valid: null
+        validCodedValueSet:
+            -
+                Valid: null
+        normalCodedValueSet:
+            -
+                Valid: null
+        abnormalCodedValueSet:
+            -
+                Valid: null
+        criticalCodedValueSet:
+            -
+                Valid: null

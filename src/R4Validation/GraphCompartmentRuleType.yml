@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\GraphCompartmentRuleType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - identical
+                        - matching
+                        - different
+                        - custom
+                    groups:
+                        - xsd_rules

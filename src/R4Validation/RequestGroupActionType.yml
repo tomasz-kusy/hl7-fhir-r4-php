@@ -1,0 +1,74 @@
+TKusy\Hl7Fhir\R4\RequestGroupActionType:
+    properties:
+        prefix:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        textEquivalent:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        relatedAction:
+            -
+                Valid: null
+        timingDateTime:
+            -
+                Valid: null
+        timingAge:
+            -
+                Valid: null
+        timingPeriod:
+            -
+                Valid: null
+        timingDuration:
+            -
+                Valid: null
+        timingRange:
+            -
+                Valid: null
+        timingTiming:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        groupingBehavior:
+            -
+                Valid: null
+        selectionBehavior:
+            -
+                Valid: null
+        requiredBehavior:
+            -
+                Valid: null
+        precheckBehavior:
+            -
+                Valid: null
+        cardinalityBehavior:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null

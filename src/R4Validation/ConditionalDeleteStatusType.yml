@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ConditionalDeleteStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - not-supported
+                        - single
+                        - multiple
+                    groups:
+                        - xsd_rules

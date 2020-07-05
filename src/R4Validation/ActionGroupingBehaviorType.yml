@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ActionGroupingBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - visual-group
+                        - logical-group
+                        - sentence-group
+                    groups:
+                        - xsd_rules

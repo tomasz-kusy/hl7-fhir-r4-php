@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\SubstanceSpecificationRepresentationType:
+    properties:
+        type:
+            -
+                Valid: null
+        representation:
+            -
+                Valid: null
+        attachment:
+            -
+                Valid: null

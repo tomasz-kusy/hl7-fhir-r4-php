@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\StructureMapRuleType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        source:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        rule:
+            -
+                Valid: null
+        dependent:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null

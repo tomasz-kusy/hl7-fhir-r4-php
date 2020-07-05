@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\BindingStrengthType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - required
+                        - extensible
+                        - preferred
+                        - example
+                    groups:
+                        - xsd_rules

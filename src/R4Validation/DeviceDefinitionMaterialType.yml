@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\DeviceDefinitionMaterialType:
+    properties:
+        substance:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        alternate:
+            -
+                Valid: null
+        allergenicIndicator:
+            -
+                Valid: null

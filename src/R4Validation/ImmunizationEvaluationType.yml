@@ -1,0 +1,67 @@
+TKusy\Hl7Fhir\R4\ImmunizationEvaluationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        authority:
+            -
+                Valid: null
+        targetDisease:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        immunizationEvent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        doseStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        doseStatusReason:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        series:
+            -
+                Valid: null
+        doseNumberPositiveInt:
+            -
+                Valid: null
+        doseNumberString:
+            -
+                Valid: null
+        seriesDosesPositiveInt:
+            -
+                Valid: null
+        seriesDosesString:
+            -
+                Valid: null

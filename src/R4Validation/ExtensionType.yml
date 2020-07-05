@@ -1,0 +1,162 @@
+TKusy\Hl7Fhir\R4\ExtensionType:
+    properties:
+        url:
+            -
+                Regex:
+                    pattern: '~\S*~'
+                    groups:
+                        - xsd_rules
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+        valueBase64Binary:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueCanonical:
+            -
+                Valid: null
+        valueCode:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valueDecimal:
+            -
+                Valid: null
+        valueId:
+            -
+                Valid: null
+        valueInstant:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueMarkdown:
+            -
+                Valid: null
+        valueOid:
+            -
+                Valid: null
+        valuePositiveInt:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueUnsignedInt:
+            -
+                Valid: null
+        valueUri:
+            -
+                Valid: null
+        valueUrl:
+            -
+                Valid: null
+        valueUuid:
+            -
+                Valid: null
+        valueAddress:
+            -
+                Valid: null
+        valueAge:
+            -
+                Valid: null
+        valueAnnotation:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueCoding:
+            -
+                Valid: null
+        valueContactPoint:
+            -
+                Valid: null
+        valueCount:
+            -
+                Valid: null
+        valueDistance:
+            -
+                Valid: null
+        valueDuration:
+            -
+                Valid: null
+        valueHumanName:
+            -
+                Valid: null
+        valueIdentifier:
+            -
+                Valid: null
+        valueMoney:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        valueSampledData:
+            -
+                Valid: null
+        valueSignature:
+            -
+                Valid: null
+        valueTiming:
+            -
+                Valid: null
+        valueContactDetail:
+            -
+                Valid: null
+        valueContributor:
+            -
+                Valid: null
+        valueDataRequirement:
+            -
+                Valid: null
+        valueExpression:
+            -
+                Valid: null
+        valueParameterDefinition:
+            -
+                Valid: null
+        valueRelatedArtifact:
+            -
+                Valid: null
+        valueTriggerDefinition:
+            -
+                Valid: null
+        valueUsageContext:
+            -
+                Valid: null
+        valueDosage:
+            -
+                Valid: null
+        valueMeta:
+            -
+                Valid: null

@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R4\ResearchElementDefinitionCharacteristicType:
+    properties:
+        definitionCodeableConcept:
+            -
+                Valid: null
+        definitionCanonical:
+            -
+                Valid: null
+        definitionExpression:
+            -
+                Valid: null
+        definitionDataRequirement:
+            -
+                Valid: null
+        usageContext:
+            -
+                Valid: null
+        exclude:
+            -
+                Valid: null
+        unitOfMeasure:
+            -
+                Valid: null
+        studyEffectiveDescription:
+            -
+                Valid: null
+        studyEffectiveDateTime:
+            -
+                Valid: null
+        studyEffectivePeriod:
+            -
+                Valid: null
+        studyEffectiveDuration:
+            -
+                Valid: null
+        studyEffectiveTiming:
+            -
+                Valid: null
+        studyEffectiveTimeFromStart:
+            -
+                Valid: null
+        studyEffectiveGroupMeasure:
+            -
+                Valid: null
+        participantEffectiveDescription:
+            -
+                Valid: null
+        participantEffectiveDateTime:
+            -
+                Valid: null
+        participantEffectivePeriod:
+            -
+                Valid: null
+        participantEffectiveDuration:
+            -
+                Valid: null
+        participantEffectiveTiming:
+            -
+                Valid: null
+        participantEffectiveTimeFromStart:
+            -
+                Valid: null
+        participantEffectiveGroupMeasure:
+            -
+                Valid: null

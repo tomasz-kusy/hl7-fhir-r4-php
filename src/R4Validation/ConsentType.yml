@@ -1,0 +1,56 @@
+TKusy\Hl7Fhir\R4\ConsentType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        scope:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        dateTime:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        sourceAttachment:
+            -
+                Valid: null
+        sourceReference:
+            -
+                Valid: null
+        policy:
+            -
+                Valid: null
+        policyRule:
+            -
+                Valid: null
+        verification:
+            -
+                Valid: null
+        provision:
+            -
+                Valid: null

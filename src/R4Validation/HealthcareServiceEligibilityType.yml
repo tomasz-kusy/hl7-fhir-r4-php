@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R4\HealthcareServiceEligibilityType:
+    properties:
+        code:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

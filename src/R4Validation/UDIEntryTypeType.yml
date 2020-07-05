@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\UDIEntryTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - barcode
+                        - rfid
+                        - manual
+                        - card
+                        - self-reported
+                        - unknown
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,63 @@
+TKusy\Hl7Fhir\R4\PaymentReconciliationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        paymentIssuer:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        requestor:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        disposition:
+            -
+                Valid: null
+        paymentDate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        paymentAmount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        paymentIdentifier:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null
+        formCode:
+            -
+                Valid: null
+        processNote:
+            -
+                Valid: null

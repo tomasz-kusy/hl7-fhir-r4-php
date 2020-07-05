@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R4\PaymentReconciliationDetailType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        predecessor:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        submitter:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        responsible:
+            -
+                Valid: null
+        payee:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\SpecimenDefinitionHandlingType:
+    properties:
+        temperatureQualifier:
+            -
+                Valid: null
+        temperatureRange:
+            -
+                Valid: null
+        maxDuration:
+            -
+                Valid: null
+        instruction:
+            -
+                Valid: null

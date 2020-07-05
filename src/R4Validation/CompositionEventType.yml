@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\CompositionEventType:
+    properties:
+        code:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

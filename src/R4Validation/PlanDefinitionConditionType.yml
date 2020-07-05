@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R4\PlanDefinitionConditionType:
+    properties:
+        kind:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null

@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R4\CapabilityStatementResourceType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        supportedProfile:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        interaction:
+            -
+                Valid: null
+        versioning:
+            -
+                Valid: null
+        readHistory:
+            -
+                Valid: null
+        updateCreate:
+            -
+                Valid: null
+        conditionalCreate:
+            -
+                Valid: null
+        conditionalRead:
+            -
+                Valid: null
+        conditionalUpdate:
+            -
+                Valid: null
+        conditionalDelete:
+            -
+                Valid: null
+        referencePolicy:
+            -
+                Valid: null
+        searchInclude:
+            -
+                Valid: null
+        searchRevInclude:
+            -
+                Valid: null
+        searchParam:
+            -
+                Valid: null
+        operation:
+            -
+                Valid: null

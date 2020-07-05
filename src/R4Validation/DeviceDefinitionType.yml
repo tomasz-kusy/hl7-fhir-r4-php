@@ -1,0 +1,71 @@
+TKusy\Hl7Fhir\R4\DeviceDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        udiDeviceIdentifier:
+            -
+                Valid: null
+        manufacturerString:
+            -
+                Valid: null
+        manufacturerReference:
+            -
+                Valid: null
+        deviceName:
+            -
+                Valid: null
+        modelNumber:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        specialization:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        safety:
+            -
+                Valid: null
+        shelfLifeStorage:
+            -
+                Valid: null
+        physicalCharacteristics:
+            -
+                Valid: null
+        languageCode:
+            -
+                Valid: null
+        capability:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        onlineInformation:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        parentDevice:
+            -
+                Valid: null
+        material:
+            -
+                Valid: null

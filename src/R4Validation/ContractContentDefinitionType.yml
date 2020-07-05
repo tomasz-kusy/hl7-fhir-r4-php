@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R4\ContractContentDefinitionType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subType:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        publicationDate:
+            -
+                Valid: null
+        publicationStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null

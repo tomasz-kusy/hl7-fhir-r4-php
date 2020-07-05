@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R4\ChargeItemDefinitionApplicabilityType:
+    properties:
+        description:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null

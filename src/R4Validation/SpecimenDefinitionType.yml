@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R4\SpecimenDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        typeCollected:
+            -
+                Valid: null
+        patientPreparation:
+            -
+                Valid: null
+        timeAspect:
+            -
+                Valid: null
+        collection:
+            -
+                Valid: null
+        typeTested:
+            -
+                Valid: null

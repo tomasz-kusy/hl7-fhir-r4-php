@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\InsurancePlanBenefitType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        requirement:
+            -
+                Valid: null
+        limit:
+            -
+                Valid: null

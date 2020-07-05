@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R4\AuditEventAgentType:
+    properties:
+        type:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        who:
+            -
+                Valid: null
+        altId:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        requestor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        policy:
+            -
+                Valid: null
+        media:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        purposeOfUse:
+            -
+                Valid: null

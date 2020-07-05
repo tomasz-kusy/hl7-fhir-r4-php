@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R4\ProvenanceType:
+    properties:
+        target:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        occurredPeriod:
+            -
+                Valid: null
+        occurredDateTime:
+            -
+                Valid: null
+        recorded:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        policy:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        activity:
+            -
+                Valid: null
+        agent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        entity:
+            -
+                Valid: null
+        signature:
+            -
+                Valid: null

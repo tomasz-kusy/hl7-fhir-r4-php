@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R4\InsurancePlanContactType:
+    properties:
+        purpose:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null

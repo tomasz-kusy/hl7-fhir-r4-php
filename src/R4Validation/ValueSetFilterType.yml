@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R4\ValueSetFilterType:
+    properties:
+        property:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        op:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R4\VerificationResultValidatorType:
+    properties:
+        organization:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        identityCertificate:
+            -
+                Valid: null
+        attestationSignature:
+            -
+                Valid: null
