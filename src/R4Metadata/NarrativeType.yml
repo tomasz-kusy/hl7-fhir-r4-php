@@ -21,4 +21,4 @@ TKusy\Hl7Fhir\R4\NarrativeType:
             accessor:
                 getter: getDiv
                 setter: setDiv
-            type: TKusy\FhirXhtml\Div
+            type: string
