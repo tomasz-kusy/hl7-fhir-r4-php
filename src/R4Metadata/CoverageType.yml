@@ -16,6 +16,7 @@ TKusy\Hl7Fhir\R4\CoverageType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\IdentifierType>
         status:
+            groups: ['PLEntitlementEWUS', 'PLEntitlementOS', 'PLEntitlementEKUZ', 'PLEntitlementOTHER', 'Default']
             expose: true
             access_type: public_method
             serialized_name: status
@@ -27,6 +28,7 @@ TKusy\Hl7Fhir\R4\CoverageType:
                 setter: setStatus
             type: TKusy\Hl7Fhir\R4\FinancialResourceStatusCodesType
         type:
+            groups: ['PLEntitlementEWUS', 'PLEntitlementOS', 'PLEntitlementEKUZ', 'PLEntitlementOTHER', 'Default']
             expose: true
             access_type: public_method
             serialized_name: type
@@ -71,6 +73,7 @@ TKusy\Hl7Fhir\R4\CoverageType:
                 setter: setSubscriberId
             type: TKusy\Hl7Fhir\R4\StringType
         beneficiary:
+            groups: ['PLEntitlementEWUS', 'PLEntitlementOS', 'PLEntitlementEKUZ', 'PLEntitlementOTHER', 'Default']
             expose: true
             access_type: public_method
             serialized_name: beneficiary
@@ -104,6 +107,7 @@ TKusy\Hl7Fhir\R4\CoverageType:
                 setter: setRelationship
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         period:
+            groups: ['PLEntitlementEWUS', 'PLEntitlementEKUZ', 'PLEntitlementOTHER', 'Default']
             expose: true
             access_type: public_method
             serialized_name: period
@@ -115,6 +119,7 @@ TKusy\Hl7Fhir\R4\CoverageType:
                 setter: setPeriod
             type: TKusy\Hl7Fhir\R4\PeriodType
         payor:
+            groups: ['PLEntitlementEWUS', 'PLEntitlementOS', 'PLEntitlementEKUZ', 'PLEntitlementOTHER', 'Default']
             expose: true
             access_type: public_method
             serialized_name: payor
@@ -130,6 +135,7 @@ TKusy\Hl7Fhir\R4\CoverageType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         class:
+            groups: ['PLEntitlementEWUS', 'PLEntitlementOS', 'PLEntitlementEKUZ', 'PLEntitlementOTHER', 'Default']
             expose: true
             access_type: public_method
             serialized_name: class

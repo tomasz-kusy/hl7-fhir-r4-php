@@ -12,6 +12,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceReactionType:
                 setter: setSubstance
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         manifestation:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: manifestation

@@ -171,6 +171,7 @@ TKusy\Hl7Fhir\R4\DeviceType:
                 setter: setPartNumber
             type: TKusy\Hl7Fhir\R4\StringType
         type:
+            groups: ['PLMedicalDevice', 'Default']
             expose: true
             access_type: public_method
             serialized_name: type
@@ -227,6 +228,7 @@ TKusy\Hl7Fhir\R4\DeviceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\DevicePropertyType>
         patient:
+            groups: ['PLMedicalDevice', 'Default']
             expose: true
             access_type: public_method
             serialized_name: patient

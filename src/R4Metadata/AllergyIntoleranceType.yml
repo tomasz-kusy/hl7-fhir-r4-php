@@ -16,6 +16,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\IdentifierType>
         clinicalStatus:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: clinicalStatus
@@ -38,6 +39,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setVerificationStatus
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         type:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: type
@@ -49,6 +51,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setType
             type: TKusy\Hl7Fhir\R4\AllergyIntoleranceTypeType
         category:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: category
@@ -75,6 +78,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setCriticality
             type: TKusy\Hl7Fhir\R4\AllergyIntoleranceCriticalityType
         code:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: code
@@ -86,6 +90,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setCode
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         patient:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: patient
@@ -97,6 +102,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setPatient
             type: TKusy\Hl7Fhir\R4\ReferenceType
         encounter:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: encounter
@@ -163,6 +169,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setOnsetString
             type: TKusy\Hl7Fhir\R4\StringType
         recordedDate:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: recordedDate
@@ -174,6 +181,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setRecordedDate
             type: TKusy\Hl7Fhir\R4\DateTimeType
         recorder:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: recorder
@@ -207,6 +215,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 setter: setLastOccurrence
             type: TKusy\Hl7Fhir\R4\DateTimeType
         note:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: note
@@ -222,6 +231,7 @@ TKusy\Hl7Fhir\R4\AllergyIntoleranceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\AnnotationType>
         reaction:
+            groups: ['PLAllergy', 'Default']
             expose: true
             access_type: public_method
             serialized_name: reaction

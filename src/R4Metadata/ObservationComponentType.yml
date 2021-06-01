@@ -1,6 +1,7 @@
 TKusy\Hl7Fhir\R4\ObservationComponentType:
     properties:
         code:
+            groups: ['PLPregnancyHistory', 'Default']
             expose: true
             access_type: public_method
             serialized_name: code
@@ -111,6 +112,7 @@ TKusy\Hl7Fhir\R4\ObservationComponentType:
                 setter: setValueTime
             type: TKusy\Hl7Fhir\R4\TimeType
         valueDateTime:
+            groups: ['PLPregnancyHistory', 'Default']
             expose: true
             access_type: public_method
             serialized_name: valueDateTime

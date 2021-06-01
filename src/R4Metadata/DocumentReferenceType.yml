@@ -1,6 +1,7 @@
 TKusy\Hl7Fhir\R4\DocumentReferenceType:
     properties:
         masterIdentifier:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: masterIdentifier
@@ -27,6 +28,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\IdentifierType>
         status:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: status
@@ -38,6 +40,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 setter: setStatus
             type: TKusy\Hl7Fhir\R4\DocumentReferenceStatusType
         docStatus:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: docStatus
@@ -49,6 +52,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 setter: setDocStatus
             type: TKusy\Hl7Fhir\R4\CompositionStatusType
         type:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: type
@@ -60,6 +64,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 setter: setType
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         category:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: category
@@ -75,6 +80,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
         subject:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: subject
@@ -123,6 +129,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 setter: setAuthenticator
             type: TKusy\Hl7Fhir\R4\ReferenceType
         custodian:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: custodian
@@ -175,6 +182,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
         content:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: content
@@ -190,6 +198,7 @@ TKusy\Hl7Fhir\R4\DocumentReferenceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\DocumentReferenceContentType>
         context:
+            groups: ['PLDocumentReference', 'Default']
             expose: true
             access_type: public_method
             serialized_name: context

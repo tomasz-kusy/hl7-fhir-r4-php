@@ -16,6 +16,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\IdentifierType>
         clinicalStatus:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: clinicalStatus
@@ -27,6 +28,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setClinicalStatus
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         verificationStatus:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: verificationStatus
@@ -38,6 +40,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setVerificationStatus
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         category:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: category
@@ -64,6 +67,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setSeverity
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         code:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: code
@@ -75,6 +79,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setCode
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         bodySite:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: bodySite
@@ -90,6 +95,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
         subject:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: subject
@@ -101,6 +107,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setSubject
             type: TKusy\Hl7Fhir\R4\ReferenceType
         encounter:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: encounter
@@ -222,6 +229,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setAbatementString
             type: TKusy\Hl7Fhir\R4\StringType
         recordedDate:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: recordedDate
@@ -244,6 +252,7 @@ TKusy\Hl7Fhir\R4\ConditionType:
                 setter: setRecorder
             type: TKusy\Hl7Fhir\R4\ReferenceType
         asserter:
+            groups: ['PLMedicalEventDiagnosis', 'Default']
             expose: true
             access_type: public_method
             serialized_name: asserter

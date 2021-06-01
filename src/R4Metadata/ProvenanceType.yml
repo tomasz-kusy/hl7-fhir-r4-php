@@ -1,6 +1,7 @@
 TKusy\Hl7Fhir\R4\ProvenanceType:
     properties:
         target:
+            groups: ['PLMedicalEventProvenance', 'PLPractitionerSignature', 'Default']
             expose: true
             access_type: public_method
             serialized_name: target
@@ -38,6 +39,7 @@ TKusy\Hl7Fhir\R4\ProvenanceType:
                 setter: setOccurredDateTime
             type: TKusy\Hl7Fhir\R4\DateTimeType
         recorded:
+            groups: ['PLMedicalEventProvenance', 'PLPractitionerSignature', 'Default']
             expose: true
             access_type: public_method
             serialized_name: recorded
@@ -101,6 +103,7 @@ TKusy\Hl7Fhir\R4\ProvenanceType:
                 setter: setActivity
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         agent:
+            groups: ['PLMedicalEventProvenance', 'PLPractitionerSignature', 'Default']
             expose: true
             access_type: public_method
             serialized_name: agent
@@ -131,6 +134,7 @@ TKusy\Hl7Fhir\R4\ProvenanceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ProvenanceEntityType>
         signature:
+            groups: ['PLMedicalEventProvenance', 'PLPractitionerSignature', 'Default']
             expose: true
             access_type: public_method
             serialized_name: signature

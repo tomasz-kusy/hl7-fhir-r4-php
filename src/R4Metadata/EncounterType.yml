@@ -1,6 +1,8 @@
 TKusy\Hl7Fhir\R4\EncounterType:
     properties:
         identifier:
+            groups: ['PLMedicalEvent', 'Default']
+            exclude_if: "PLidentifiers(object, context, property_metadata)"
             expose: true
             access_type: public_method
             serialized_name: identifier
@@ -16,6 +18,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\IdentifierType>
         status:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: status
@@ -27,6 +30,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 setter: setStatus
             type: TKusy\Hl7Fhir\R4\EncounterStatusType
         statusHistory:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: statusHistory
@@ -42,6 +46,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\EncounterStatusHistoryType>
         class:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: class
@@ -105,6 +110,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 setter: setPriority
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         subject:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: subject
@@ -116,6 +122,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 setter: setSubject
             type: TKusy\Hl7Fhir\R4\ReferenceType
         episodeOfCare:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: episodeOfCare
@@ -131,6 +138,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         basedOn:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: basedOn
@@ -146,6 +154,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         participant:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: participant
@@ -176,6 +185,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         period:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: period
@@ -269,6 +279,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 setter: setHospitalization
             type: TKusy\Hl7Fhir\R4\EncounterHospitalizationType
         location:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: location
@@ -284,6 +295,7 @@ TKusy\Hl7Fhir\R4\EncounterType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\EncounterLocationType>
         serviceProvider:
+            groups: ['PLMedicalEvent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: serviceProvider

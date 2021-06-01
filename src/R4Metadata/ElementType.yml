@@ -10,6 +10,7 @@ TKusy\Hl7Fhir\R4\ElementType:
             xml_attribute: true
             type: string
         extension:
+            exclude_if: "checkExtension(object, context, property_metadata)"
             expose: true
             access_type: public_method
             serialized_name: extension

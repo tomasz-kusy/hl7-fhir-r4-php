@@ -1,6 +1,7 @@
 TKusy\Hl7Fhir\R4\ResourceType:
     properties:
         id:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: id
@@ -12,6 +13,7 @@ TKusy\Hl7Fhir\R4\ResourceType:
                 setter: setId
             type: TKusy\Hl7Fhir\R4\IdType
         meta:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: meta
@@ -23,6 +25,7 @@ TKusy\Hl7Fhir\R4\ResourceType:
                 setter: setMeta
             type: TKusy\Hl7Fhir\R4\MetaType
         implicitRules:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: implicitRules

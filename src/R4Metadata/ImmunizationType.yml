@@ -16,6 +16,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\IdentifierType>
         status:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: status
@@ -27,6 +28,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setStatus
             type: TKusy\Hl7Fhir\R4\ImmunizationStatusCodesType
         statusReason:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: statusReason
@@ -38,6 +40,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setStatusReason
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         vaccineCode:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: vaccineCode
@@ -49,6 +52,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setVaccineCode
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         patient:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: patient
@@ -60,6 +64,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setPatient
             type: TKusy\Hl7Fhir\R4\ReferenceType
         encounter:
+            groups: ['PLImmunizationCurrent', 'Default']
             expose: true
             access_type: public_method
             serialized_name: encounter
@@ -71,6 +76,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setEncounter
             type: TKusy\Hl7Fhir\R4\ReferenceType
         occurrenceDateTime:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: occurrenceDateTime
@@ -82,6 +88,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setOccurrenceDateTime
             type: TKusy\Hl7Fhir\R4\DateTimeType
         occurrenceString:
+            groups: ['PLImmunizationHistorical', 'Default']
             expose: true
             access_type: public_method
             serialized_name: occurrenceString
@@ -93,6 +100,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setOccurrenceString
             type: TKusy\Hl7Fhir\R4\StringType
         recorded:
+            groups: ['PLImmunizationHistorical', 'Default' ]
             expose: true
             access_type: public_method
             serialized_name: recorded
@@ -115,6 +123,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setPrimarySource
             type: TKusy\Hl7Fhir\R4\BooleanType
         reportOrigin:
+            groups: [ 'PLImmunizationHistorical', 'Default' ]
             expose: true
             access_type: public_method
             serialized_name: reportOrigin
@@ -126,6 +135,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setReportOrigin
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         location:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: location
@@ -137,6 +147,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setLocation
             type: TKusy\Hl7Fhir\R4\ReferenceType
         manufacturer:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: manufacturer
@@ -148,6 +159,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setManufacturer
             type: TKusy\Hl7Fhir\R4\ReferenceType
         lotNumber:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: lotNumber
@@ -170,6 +182,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setExpirationDate
             type: TKusy\Hl7Fhir\R4\DateType
         site:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: site
@@ -181,6 +194,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setSite
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         route:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: route
@@ -192,6 +206,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setRoute
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         doseQuantity:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: doseQuantity
@@ -203,6 +218,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 setter: setDoseQuantity
             type: TKusy\Hl7Fhir\R4\QuantityType
         performer:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: performer
@@ -218,6 +234,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ImmunizationPerformerType>
         note:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: note
@@ -319,6 +336,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
         fundingSource:
+            groups: [ 'PLImmunizationCurrent', 'PLImmunizationSimple', 'Default' ]
             expose: true
             access_type: public_method
             serialized_name: fundingSource
@@ -345,6 +363,7 @@ TKusy\Hl7Fhir\R4\ImmunizationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ImmunizationReactionType>
         protocolApplied:
+            groups: ['PLImmunizationCurrent', 'PLImmunizationHistorical', 'PLImmunizationSimple', 'Default']
             expose: true
             access_type: public_method
             serialized_name: protocolApplied

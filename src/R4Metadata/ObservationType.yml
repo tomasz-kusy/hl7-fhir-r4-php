@@ -1,6 +1,7 @@
 TKusy\Hl7Fhir\R4\ObservationType:
     properties:
         identifier:
+            groups: ['PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: identifier
@@ -46,6 +47,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         status:
+            groups: ['PLBloodGroup', 'PLPregnancyHistory', 'PLAnthropometricMeasurements', 'PLSmokingStatus', 'PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: status
@@ -72,6 +74,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
         code:
+            groups: ['PLBloodGroup', 'PLPregnancyHistory', 'PLAnthropometricMeasurements', 'PLSmokingStatus', 'PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: code
@@ -83,6 +86,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 setter: setCode
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         subject:
+            groups: ['PLBloodGroup', 'PLPregnancyHistory', 'PLAnthropometricMeasurements', 'PLSmokingStatus', 'PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: subject
@@ -109,6 +113,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         encounter:
+            groups: ['PLBloodGroup', 'PLAnthropometricMeasurements', 'PLSmokingStatus', 'Default']
             expose: true
             access_type: public_method
             serialized_name: encounter
@@ -120,6 +125,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 setter: setEncounter
             type: TKusy\Hl7Fhir\R4\ReferenceType
         effectiveDateTime:
+            groups: ['PLBloodGroup', 'Default']
             expose: true
             access_type: public_method
             serialized_name: effectiveDateTime
@@ -164,6 +170,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 setter: setEffectiveInstant
             type: TKusy\Hl7Fhir\R4\InstantType
         issued:
+            groups: ['PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: issued
@@ -175,6 +182,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 setter: setIssued
             type: TKusy\Hl7Fhir\R4\InstantType
         performer:
+            groups: ['PLBloodGroup', 'PLPregnancyHistory', 'PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: performer
@@ -190,6 +198,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         valueQuantity:
+            groups: ['PLAnthropometricMeasurements', 'Default']
             expose: true
             access_type: public_method
             serialized_name: valueQuantity
@@ -201,6 +210,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 setter: setValueQuantity
             type: TKusy\Hl7Fhir\R4\QuantityType
         valueCodeableConcept:
+            groups: ['PLBloodGroup', 'PLSmokingStatus', 'PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: valueCodeableConcept
@@ -337,6 +347,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CodeableConceptType>
         note:
+            groups: ['PLMedicalCertificate', 'Default']
             expose: true
             access_type: public_method
             serialized_name: note
@@ -363,6 +374,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 setter: setBodySite
             type: TKusy\Hl7Fhir\R4\CodeableConceptType
         method:
+            groups: ['PLPregnancyHistory', 'Default']
             expose: true
             access_type: public_method
             serialized_name: method
@@ -426,6 +438,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         derivedFrom:
+            groups: ['PLBloodGroup', 'Default']
             expose: true
             access_type: public_method
             serialized_name: derivedFrom
@@ -441,6 +454,7 @@ TKusy\Hl7Fhir\R4\ObservationType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ReferenceType>
         component:
+            groups: ['PLPregnancyHistory', 'Default']
             expose: true
             access_type: public_method
             serialized_name: component

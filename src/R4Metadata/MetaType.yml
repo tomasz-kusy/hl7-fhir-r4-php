@@ -1,6 +1,7 @@
 TKusy\Hl7Fhir\R4\MetaType:
     properties:
         versionId:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: versionId
@@ -12,6 +13,7 @@ TKusy\Hl7Fhir\R4\MetaType:
                 setter: setVersionId
             type: TKusy\Hl7Fhir\R4\IdType
         lastUpdated:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: lastUpdated
@@ -23,6 +25,7 @@ TKusy\Hl7Fhir\R4\MetaType:
                 setter: setLastUpdated
             type: TKusy\Hl7Fhir\R4\InstantType
         source:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: source
@@ -34,6 +37,7 @@ TKusy\Hl7Fhir\R4\MetaType:
                 setter: setSource
             type: TKusy\Hl7Fhir\R4\UriType
         profile:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: profile
@@ -49,6 +53,7 @@ TKusy\Hl7Fhir\R4\MetaType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\CanonicalType>
         security:
+            groups: ['PL', 'Default']
             expose: true
             access_type: public_method
             serialized_name: security

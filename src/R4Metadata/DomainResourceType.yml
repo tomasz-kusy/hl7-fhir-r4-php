@@ -27,6 +27,7 @@ TKusy\Hl7Fhir\R4\DomainResourceType:
                 namespace: 'http://hl7.org/fhir'
             type: array<TKusy\Hl7Fhir\R4\ResourceContainerType>
         extension:
+            exclude_if: "checkExtension(object, context, property_metadata)"
             expose: true
             access_type: public_method
             serialized_name: extension
