@@ -2,7 +2,7 @@ TKusy\Hl7Fhir\R4\PatientType:
     properties:
         identifier:
             groups: ['PLPatient', 'Default']
-            exclude_if: "notPesel(object, context, property_metadata)"
+            exclude_if: "PLidentifiers(object, context, property_metadata)"
             expose: true
             access_type: public_method
             serialized_name: identifier
