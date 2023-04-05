@@ -1,0 +1,101 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionMoietyType:
+    properties:
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        stereochemistry:
+            expose: true
+            access_type: public_method
+            serialized_name: stereochemistry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStereochemistry
+                setter: setStereochemistry
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        opticalActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: opticalActivity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOpticalActivity
+                setter: setOpticalActivity
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        molecularFormula:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularFormula
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularFormula
+                setter: setMolecularFormula
+            type: TKusy\Hl7Fhir\R5\StringType
+        amountQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: amountQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountQuantity
+                setter: setAmountQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        amountString:
+            expose: true
+            access_type: public_method
+            serialized_name: amountString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmountString
+                setter: setAmountString
+            type: TKusy\Hl7Fhir\R5\StringType
+        measurementType:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasurementType
+                setter: setMeasurementType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

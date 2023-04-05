@@ -1,0 +1,116 @@
+TKusy\Hl7Fhir\R5\TriggerDefinitionType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\TriggerTypeType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        subscriptionTopic:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionTopic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubscriptionTopic
+                setter: setSubscriptionTopic
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        timingTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: timingTiming
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimingTiming
+                setter: setTimingTiming
+            type: TKusy\Hl7Fhir\R5\TimingType
+        timingReference:
+            expose: true
+            access_type: public_method
+            serialized_name: timingReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimingReference
+                setter: setTimingReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        timingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: timingDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimingDate
+                setter: setTimingDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        timingDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: timingDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimingDateTime
+                setter: setTimingDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            xml_list:
+                inline: true
+                entry_name: data
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DataRequirementType>
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: TKusy\Hl7Fhir\R5\ExpressionType

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\CitationSummaryType:
+    properties:
+        style:
+            -
+                Valid: null
+        text:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

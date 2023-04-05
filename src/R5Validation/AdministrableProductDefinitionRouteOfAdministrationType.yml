@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R5\AdministrableProductDefinitionRouteOfAdministrationType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        firstDose:
+            -
+                Valid: null
+        maxSingleDose:
+            -
+                Valid: null
+        maxDosePerDay:
+            -
+                Valid: null
+        maxDosePerTreatmentPeriod:
+            -
+                Valid: null
+        maxTreatmentPeriod:
+            -
+                Valid: null
+        targetSpecies:
+            -
+                Valid: null

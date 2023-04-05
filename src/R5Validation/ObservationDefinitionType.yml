@@ -1,0 +1,124 @@
+TKusy\Hl7Fhir\R5\ObservationDefinitionType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        versionAlgorithmString:
+            -
+                Valid: null
+        versionAlgorithmCoding:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        copyrightLabel:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        derivedFromCanonical:
+            -
+                Valid: null
+        derivedFromUri:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        performerType:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        permittedDataType:
+            -
+                Valid: null
+        multipleResultsAllowed:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        preferredReportName:
+            -
+                Valid: null
+        permittedUnit:
+            -
+                Valid: null
+        qualifiedValue:
+            -
+                Valid: null
+        hasMember:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

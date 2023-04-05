@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\InventoryReportInventoryListingType:
+    properties:
+        location:
+            -
+                Valid: null
+        itemStatus:
+            -
+                Valid: null
+        countingDateTime:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null

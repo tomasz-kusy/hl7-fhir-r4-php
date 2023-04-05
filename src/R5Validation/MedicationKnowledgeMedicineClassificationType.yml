@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeMedicineClassificationType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sourceString:
+            -
+                Valid: null
+        sourceUri:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null

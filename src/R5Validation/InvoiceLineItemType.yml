@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\InvoiceLineItemType:
+    properties:
+        sequence:
+            -
+                Valid: null
+        servicedDate:
+            -
+                Valid: null
+        servicedPeriod:
+            -
+                Valid: null
+        chargeItemReference:
+            -
+                Valid: null
+        chargeItemCodeableConcept:
+            -
+                Valid: null
+        priceComponent:
+            -
+                Valid: null

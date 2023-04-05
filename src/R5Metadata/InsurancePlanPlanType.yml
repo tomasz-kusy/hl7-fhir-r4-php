@@ -1,0 +1,88 @@
+TKusy\Hl7Fhir\R5\InsurancePlanPlanType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        coverageArea:
+            expose: true
+            access_type: public_method
+            serialized_name: coverageArea
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoverageArea
+                setter: setCoverageArea
+            xml_list:
+                inline: true
+                entry_name: coverageArea
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        network:
+            expose: true
+            access_type: public_method
+            serialized_name: network
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNetwork
+                setter: setNetwork
+            xml_list:
+                inline: true
+                entry_name: network
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        generalCost:
+            expose: true
+            access_type: public_method
+            serialized_name: generalCost
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeneralCost
+                setter: setGeneralCost
+            xml_list:
+                inline: true
+                entry_name: generalCost
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\InsurancePlanGeneralCostType>
+        specificCost:
+            expose: true
+            access_type: public_method
+            serialized_name: specificCost
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecificCost
+                setter: setSpecificCost
+            xml_list:
+                inline: true
+                entry_name: specificCost
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\InsurancePlanSpecificCostType>

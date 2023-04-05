@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionIndicationType:
+    properties:
+        diseaseSymptomProcedure:
+            -
+                Valid: null
+        diseaseStatus:
+            -
+                Valid: null
+        comorbidity:
+            -
+                Valid: null
+        intendedEffect:
+            -
+                Valid: null
+        durationRange:
+            -
+                Valid: null
+        durationString:
+            -
+                Valid: null
+        undesirableEffect:
+            -
+                Valid: null
+        applicability:
+            -
+                Valid: null
+        otherTherapy:
+            -
+                Valid: null

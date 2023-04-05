@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\AvailabilityType:
+    properties:
+        availableTime:
+            expose: true
+            access_type: public_method
+            serialized_name: availableTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAvailableTime
+                setter: setAvailableTime
+            xml_list:
+                inline: true
+                entry_name: availableTime
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AvailabilityAvailableTimeType>
+        notAvailableTime:
+            expose: true
+            access_type: public_method
+            serialized_name: notAvailableTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNotAvailableTime
+                setter: setNotAvailableTime
+            xml_list:
+                inline: true
+                entry_name: notAvailableTime
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AvailabilityNotAvailableTimeType>

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\LocationPositionType:
+    properties:
+        longitude:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        latitude:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        altitude:
+            -
+                Valid: null

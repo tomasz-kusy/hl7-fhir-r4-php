@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitBodySiteType:
+    properties:
+        site:
+            expose: true
+            access_type: public_method
+            serialized_name: site
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSite
+                setter: setSite
+            xml_list:
+                inline: true
+                entry_name: site
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        subSite:
+            expose: true
+            access_type: public_method
+            serialized_name: subSite
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubSite
+                setter: setSubSite
+            xml_list:
+                inline: true
+                entry_name: subSite
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

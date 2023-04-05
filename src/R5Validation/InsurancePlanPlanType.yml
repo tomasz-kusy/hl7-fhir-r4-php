@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\InsurancePlanPlanType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        coverageArea:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        generalCost:
+            -
+                Valid: null
+        specificCost:
+            -
+                Valid: null

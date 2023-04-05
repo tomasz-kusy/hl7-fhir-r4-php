@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\MessageSignificanceCategoryType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - consequence
+                        - currency
+                        - notification
+                    groups:
+                        - xsd_rules

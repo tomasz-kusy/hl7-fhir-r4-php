@@ -1,0 +1,95 @@
+TKusy\Hl7Fhir\R5\MedicationDispenseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        notPerformedReason:
+            -
+                Valid: null
+        statusChanged:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        medication:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        authorizingPrescription:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        daysSupply:
+            -
+                Valid: null
+        recorded:
+            -
+                Valid: null
+        whenPrepared:
+            -
+                Valid: null
+        whenHandedOver:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        renderedDosageInstruction:
+            -
+                Valid: null
+        dosageInstruction:
+            -
+                Valid: null
+        substitution:
+            -
+                Valid: null
+        eventHistory:
+            -
+                Valid: null

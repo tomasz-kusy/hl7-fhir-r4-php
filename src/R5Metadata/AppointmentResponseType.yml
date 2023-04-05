@@ -1,0 +1,142 @@
+TKusy\Hl7Fhir\R5\AppointmentResponseType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        appointment:
+            expose: true
+            access_type: public_method
+            serialized_name: appointment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAppointment
+                setter: setAppointment
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        proposedNewTime:
+            expose: true
+            access_type: public_method
+            serialized_name: proposedNewTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProposedNewTime
+                setter: setProposedNewTime
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: TKusy\Hl7Fhir\R5\InstantType
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: TKusy\Hl7Fhir\R5\InstantType
+        participantType:
+            expose: true
+            access_type: public_method
+            serialized_name: participantType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantType
+                setter: setParticipantType
+            xml_list:
+                inline: true
+                entry_name: participantType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: actor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActor
+                setter: setActor
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        participantStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: participantStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipantStatus
+                setter: setParticipantStatus
+            type: TKusy\Hl7Fhir\R5\AppointmentResponseStatusType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        recurring:
+            expose: true
+            access_type: public_method
+            serialized_name: recurring
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecurring
+                setter: setRecurring
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        occurrenceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceDate
+                setter: setOccurrenceDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        recurrenceId:
+            expose: true
+            access_type: public_method
+            serialized_name: recurrenceId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecurrenceId
+                setter: setRecurrenceId
+            type: TKusy\Hl7Fhir\R5\PositiveIntType

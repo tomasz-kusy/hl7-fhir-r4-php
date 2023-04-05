@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R5\CommunicationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        inResponseTo:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        medium:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        topic:
+            -
+                Valid: null
+        about:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        sent:
+            -
+                Valid: null
+        received:
+            -
+                Valid: null
+        recipient:
+            -
+                Valid: null
+        sender:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        payload:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

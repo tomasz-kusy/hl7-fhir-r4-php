@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\MolecularSequenceRelativeType:
+    properties:
+        coordinateSystem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ordinalPosition:
+            -
+                Valid: null
+        sequenceRange:
+            -
+                Valid: null
+        startingSequence:
+            -
+                Valid: null
+        edit:
+            -
+                Valid: null

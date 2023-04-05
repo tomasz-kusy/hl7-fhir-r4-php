@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\MeasureReportStratifierType:
+    properties:
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        stratum:
+            expose: true
+            access_type: public_method
+            serialized_name: stratum
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStratum
+                setter: setStratum
+            xml_list:
+                inline: true
+                entry_name: stratum
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MeasureReportStratumType>

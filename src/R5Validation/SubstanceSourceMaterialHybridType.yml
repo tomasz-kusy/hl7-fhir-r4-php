@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SubstanceSourceMaterialHybridType:
+    properties:
+        maternalOrganismId:
+            -
+                Valid: null
+        maternalOrganismName:
+            -
+                Valid: null
+        paternalOrganismId:
+            -
+                Valid: null
+        paternalOrganismName:
+            -
+                Valid: null
+        hybridType:
+            -
+                Valid: null

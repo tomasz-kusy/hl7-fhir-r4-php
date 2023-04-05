@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\AgeUnitsType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - min
+                        - h
+                        - d
+                        - wk
+                        - mo
+                        - a
+                    groups:
+                        - xsd_rules

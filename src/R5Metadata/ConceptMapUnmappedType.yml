@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R5\ConceptMapUnmappedType:
+    properties:
+        mode:
+            expose: true
+            access_type: public_method
+            serialized_name: mode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMode
+                setter: setMode
+            type: TKusy\Hl7Fhir\R5\ConceptMapGroupUnmappedModeType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSet
+                setter: setValueSet
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7Fhir\R5\ConceptMapRelationshipType
+        otherMap:
+            expose: true
+            access_type: public_method
+            serialized_name: otherMap
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOtherMap
+                setter: setOtherMap
+            type: TKusy\Hl7Fhir\R5\CanonicalType

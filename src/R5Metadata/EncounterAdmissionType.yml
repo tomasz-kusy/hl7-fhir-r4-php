@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R5\EncounterAdmissionType:
+    properties:
+        preAdmissionIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: preAdmissionIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreAdmissionIdentifier
+                setter: setPreAdmissionIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        origin:
+            expose: true
+            access_type: public_method
+            serialized_name: origin
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrigin
+                setter: setOrigin
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        admitSource:
+            expose: true
+            access_type: public_method
+            serialized_name: admitSource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdmitSource
+                setter: setAdmitSource
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        reAdmission:
+            expose: true
+            access_type: public_method
+            serialized_name: reAdmission
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReAdmission
+                setter: setReAdmission
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        destination:
+            expose: true
+            access_type: public_method
+            serialized_name: destination
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDestination
+                setter: setDestination
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        dischargeDisposition:
+            expose: true
+            access_type: public_method
+            serialized_name: dischargeDisposition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDischargeDisposition
+                setter: setDischargeDisposition
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

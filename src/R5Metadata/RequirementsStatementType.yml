@@ -1,0 +1,128 @@
+TKusy\Hl7Fhir\R5\RequirementsStatementType:
+    properties:
+        key:
+            expose: true
+            access_type: public_method
+            serialized_name: key
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKey
+                setter: setKey
+            type: TKusy\Hl7Fhir\R5\IdType
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: label
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: TKusy\Hl7Fhir\R5\StringType
+        conformance:
+            expose: true
+            access_type: public_method
+            serialized_name: conformance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConformance
+                setter: setConformance
+            xml_list:
+                inline: true
+                entry_name: conformance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ConformanceExpectationType>
+        conditionality:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionality
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConditionality
+                setter: setConditionality
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        requirement:
+            expose: true
+            access_type: public_method
+            serialized_name: requirement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequirement
+                setter: setRequirement
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        derivedFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: derivedFrom
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDerivedFrom
+                setter: setDerivedFrom
+            type: TKusy\Hl7Fhir\R5\StringType
+        parent:
+            expose: true
+            access_type: public_method
+            serialized_name: parent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParent
+                setter: setParent
+            type: TKusy\Hl7Fhir\R5\StringType
+        satisfiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: satisfiedBy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSatisfiedBy
+                setter: setSatisfiedBy
+            xml_list:
+                inline: true
+                entry_name: satisfiedBy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UrlType>
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReference
+                setter: setReference
+            xml_list:
+                inline: true
+                entry_name: reference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UrlType>
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

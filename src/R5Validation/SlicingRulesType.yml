@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SlicingRulesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - closed
+                        - open
+                        - openAtEnd
+                    groups:
+                        - xsd_rules

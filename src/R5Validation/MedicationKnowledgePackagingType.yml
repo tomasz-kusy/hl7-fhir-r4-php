@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgePackagingType:
+    properties:
+        cost:
+            -
+                Valid: null
+        packagedProduct:
+            -
+                Valid: null

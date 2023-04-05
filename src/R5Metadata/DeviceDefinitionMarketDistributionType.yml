@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionMarketDistributionType:
+    properties:
+        marketPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: marketPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMarketPeriod
+                setter: setMarketPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        subJurisdiction:
+            expose: true
+            access_type: public_method
+            serialized_name: subJurisdiction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubJurisdiction
+                setter: setSubJurisdiction
+            type: TKusy\Hl7Fhir\R5\UriType

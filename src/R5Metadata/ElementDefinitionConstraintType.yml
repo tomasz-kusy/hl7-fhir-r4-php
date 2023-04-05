@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionConstraintType:
+    properties:
+        key:
+            expose: true
+            access_type: public_method
+            serialized_name: key
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKey
+                setter: setKey
+            type: TKusy\Hl7Fhir\R5\IdType
+        requirements:
+            expose: true
+            access_type: public_method
+            serialized_name: requirements
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequirements
+                setter: setRequirements
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: severity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: TKusy\Hl7Fhir\R5\ConstraintSeverityType
+        suppress:
+            expose: true
+            access_type: public_method
+            serialized_name: suppress
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSuppress
+                setter: setSuppress
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        human:
+            expose: true
+            access_type: public_method
+            serialized_name: human
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHuman
+                setter: setHuman
+            type: TKusy\Hl7Fhir\R5\StringType
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: expression
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            type: TKusy\Hl7Fhir\R5\StringType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: TKusy\Hl7Fhir\R5\CanonicalType

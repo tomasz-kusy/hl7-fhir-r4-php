@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\StructureMapConstType:
+    properties:
+        name:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null

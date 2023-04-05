@@ -1,0 +1,56 @@
+TKusy\Hl7Fhir\R5\GenomicStudyAnalysisType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        methodType:
+            -
+                Valid: null
+        changeType:
+            -
+                Valid: null
+        genomeBuild:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        protocolPerformed:
+            -
+                Valid: null
+        regionsStudied:
+            -
+                Valid: null
+        regionsCalled:
+            -
+                Valid: null
+        input:
+            -
+                Valid: null
+        output:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null

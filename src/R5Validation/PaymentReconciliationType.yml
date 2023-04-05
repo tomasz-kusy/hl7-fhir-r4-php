@@ -1,0 +1,109 @@
+TKusy\Hl7Fhir\R5\PaymentReconciliationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        kind:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        enterer:
+            -
+                Valid: null
+        issuerType:
+            -
+                Valid: null
+        paymentIssuer:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        requestor:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        disposition:
+            -
+                Valid: null
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        cardBrand:
+            -
+                Valid: null
+        accountNumber:
+            -
+                Valid: null
+        expirationDate:
+            -
+                Valid: null
+        processor:
+            -
+                Valid: null
+        referenceNumber:
+            -
+                Valid: null
+        authorization:
+            -
+                Valid: null
+        tenderedAmount:
+            -
+                Valid: null
+        returnedAmount:
+            -
+                Valid: null
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        paymentIdentifier:
+            -
+                Valid: null
+        allocation:
+            -
+                Valid: null
+        formCode:
+            -
+                Valid: null
+        processNote:
+            -
+                Valid: null

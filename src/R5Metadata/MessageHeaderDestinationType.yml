@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\MessageHeaderDestinationType:
+    properties:
+        endpointUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: endpointUrl
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpointUrl
+                setter: setEndpointUrl
+            type: TKusy\Hl7Fhir\R5\UrlType
+        endpointReference:
+            expose: true
+            access_type: public_method
+            serialized_name: endpointReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpointReference
+                setter: setEndpointReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        receiver:
+            expose: true
+            access_type: public_method
+            serialized_name: receiver
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReceiver
+                setter: setReceiver
+            type: TKusy\Hl7Fhir\R5\ReferenceType

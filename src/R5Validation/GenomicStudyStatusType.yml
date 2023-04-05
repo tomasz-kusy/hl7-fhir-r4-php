@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\GenomicStudyStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - registered
+                        - available
+                        - cancelled
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

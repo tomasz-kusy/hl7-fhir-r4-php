@@ -1,0 +1,165 @@
+TKusy\Hl7Fhir\R5\OperationDefinitionParameterType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\CodeType
+        use:
+            expose: true
+            access_type: public_method
+            serialized_name: use
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUse
+                setter: setUse
+            type: TKusy\Hl7Fhir\R5\OperationParameterUseType
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: scope
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScope
+                setter: setScope
+            xml_list:
+                inline: true
+                entry_name: scope
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\OperationParameterScopeType>
+        min:
+            expose: true
+            access_type: public_method
+            serialized_name: min
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMin
+                setter: setMin
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        max:
+            expose: true
+            access_type: public_method
+            serialized_name: max
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMax
+                setter: setMax
+            type: TKusy\Hl7Fhir\R5\StringType
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\FHIRTypesType
+        allowedType:
+            expose: true
+            access_type: public_method
+            serialized_name: allowedType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllowedType
+                setter: setAllowedType
+            xml_list:
+                inline: true
+                entry_name: allowedType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\FHIRTypesType>
+        targetProfile:
+            expose: true
+            access_type: public_method
+            serialized_name: targetProfile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetProfile
+                setter: setTargetProfile
+            xml_list:
+                inline: true
+                entry_name: targetProfile
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CanonicalType>
+        searchType:
+            expose: true
+            access_type: public_method
+            serialized_name: searchType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearchType
+                setter: setSearchType
+            type: TKusy\Hl7Fhir\R5\SearchParamTypeType
+        binding:
+            expose: true
+            access_type: public_method
+            serialized_name: binding
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBinding
+                setter: setBinding
+            type: TKusy\Hl7Fhir\R5\OperationDefinitionBindingType
+        referencedFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: referencedFrom
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferencedFrom
+                setter: setReferencedFrom
+            xml_list:
+                inline: true
+                entry_name: referencedFrom
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\OperationDefinitionReferencedFromType>
+        part:
+            expose: true
+            access_type: public_method
+            serialized_name: part
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPart
+                setter: setPart
+            xml_list:
+                inline: true
+                entry_name: part
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\OperationDefinitionParameterType>

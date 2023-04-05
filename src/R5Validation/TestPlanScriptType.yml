@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\TestPlanScriptType:
+    properties:
+        language:
+            -
+                Valid: null
+        sourceString:
+            -
+                Valid: null
+        sourceReference:
+            -
+                Valid: null

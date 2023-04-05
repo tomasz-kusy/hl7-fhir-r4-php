@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\ValueSetDesignationType:
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7Fhir\R5\CodeType
+        use:
+            expose: true
+            access_type: public_method
+            serialized_name: use
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUse
+                setter: setUse
+            type: TKusy\Hl7Fhir\R5\CodingType
+        additionalUse:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalUse
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditionalUse
+                setter: setAdditionalUse
+            xml_list:
+                inline: true
+                entry_name: additionalUse
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodingType>
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R5\StringType

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\EvidenceReportCharacteristicType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        exclude:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

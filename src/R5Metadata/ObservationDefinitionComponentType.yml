@@ -1,0 +1,58 @@
+TKusy\Hl7Fhir\R5\ObservationDefinitionComponentType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        permittedDataType:
+            expose: true
+            access_type: public_method
+            serialized_name: permittedDataType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPermittedDataType
+                setter: setPermittedDataType
+            xml_list:
+                inline: true
+                entry_name: permittedDataType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ObservationDataTypeType>
+        permittedUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: permittedUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPermittedUnit
+                setter: setPermittedUnit
+            xml_list:
+                inline: true
+                entry_name: permittedUnit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodingType>
+        qualifiedValue:
+            expose: true
+            access_type: public_method
+            serialized_name: qualifiedValue
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualifiedValue
+                setter: setQualifiedValue
+            xml_list:
+                inline: true
+                entry_name: qualifiedValue
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ObservationDefinitionQualifiedValueType>

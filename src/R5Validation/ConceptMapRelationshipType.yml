@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\ConceptMapRelationshipType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - related-to
+                        - equivalent
+                        - source-is-narrower-than-target
+                        - source-is-broader-than-target
+                        - not-related-to
+                    groups:
+                        - xsd_rules

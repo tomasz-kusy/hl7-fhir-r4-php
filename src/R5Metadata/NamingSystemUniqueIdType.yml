@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R5\NamingSystemUniqueIdType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\NamingSystemIdentifierTypeType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R5\StringType
+        preferred:
+            expose: true
+            access_type: public_method
+            serialized_name: preferred
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreferred
+                setter: setPreferred
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R5\StringType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        authoritative:
+            expose: true
+            access_type: public_method
+            serialized_name: authoritative
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthoritative
+                setter: setAuthoritative
+            type: TKusy\Hl7Fhir\R5\BooleanType

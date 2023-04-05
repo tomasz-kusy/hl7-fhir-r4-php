@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\NutritionProductInstanceType:
+    properties:
+        quantity:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        lotNumber:
+            -
+                Valid: null
+        expiry:
+            -
+                Valid: null
+        useBy:
+            -
+                Valid: null
+        biologicalSourceEvent:
+            -
+                Valid: null

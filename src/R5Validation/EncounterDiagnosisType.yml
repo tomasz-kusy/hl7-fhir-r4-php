@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\EncounterDiagnosisType:
+    properties:
+        condition:
+            -
+                Valid: null
+        use:
+            -
+                Valid: null

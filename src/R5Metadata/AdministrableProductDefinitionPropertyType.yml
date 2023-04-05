@@ -1,0 +1,101 @@
+TKusy\Hl7Fhir\R5\AdministrableProductDefinitionPropertyType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCodeableConcept
+                setter: setValueCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDate
+                setter: setValueDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueMarkdown:
+            expose: true
+            access_type: public_method
+            serialized_name: valueMarkdown
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueMarkdown
+                setter: setValueMarkdown
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        valueAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAttachment
+                setter: setValueAttachment
+            type: TKusy\Hl7Fhir\R5\AttachmentType
+        valueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: valueReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueReference
+                setter: setValueReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

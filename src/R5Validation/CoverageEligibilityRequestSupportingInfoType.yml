@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityRequestSupportingInfoType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        information:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        appliesToAll:
+            -
+                Valid: null

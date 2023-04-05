@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\TransportStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-progress
+                        - completed
+                        - abandoned
+                        - cancelled
+                        - planned
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

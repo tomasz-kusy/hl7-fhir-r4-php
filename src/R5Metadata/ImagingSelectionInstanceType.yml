@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionInstanceType:
+    properties:
+        uid:
+            expose: true
+            access_type: public_method
+            serialized_name: uid
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUid
+                setter: setUid
+            type: TKusy\Hl7Fhir\R5\IdType
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        sopClass:
+            expose: true
+            access_type: public_method
+            serialized_name: sopClass
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSopClass
+                setter: setSopClass
+            type: TKusy\Hl7Fhir\R5\CodingType
+        subset:
+            expose: true
+            access_type: public_method
+            serialized_name: subset
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubset
+                setter: setSubset
+            xml_list:
+                inline: true
+                entry_name: subset
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        imageRegion2D:
+            expose: true
+            access_type: public_method
+            serialized_name: imageRegion2D
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImageRegion2D
+                setter: setImageRegion2D
+            xml_list:
+                inline: true
+                entry_name: imageRegion2D
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImagingSelectionImageRegion2DType>
+        imageRegion3D:
+            expose: true
+            access_type: public_method
+            serialized_name: imageRegion3D
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImageRegion3D
+                setter: setImageRegion3D
+            xml_list:
+                inline: true
+                entry_name: imageRegion3D
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImagingSelectionImageRegion3DType>

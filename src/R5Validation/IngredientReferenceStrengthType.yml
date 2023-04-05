@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\IngredientReferenceStrengthType:
+    properties:
+        substance:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        strengthRatio:
+            -
+                Valid: null
+        strengthRatioRange:
+            -
+                Valid: null
+        strengthQuantity:
+            -
+                Valid: null
+        measurementPoint:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null

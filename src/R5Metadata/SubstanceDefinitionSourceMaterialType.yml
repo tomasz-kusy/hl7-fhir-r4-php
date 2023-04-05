@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionSourceMaterialType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        genus:
+            expose: true
+            access_type: public_method
+            serialized_name: genus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGenus
+                setter: setGenus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        species:
+            expose: true
+            access_type: public_method
+            serialized_name: species
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecies
+                setter: setSpecies
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        part:
+            expose: true
+            access_type: public_method
+            serialized_name: part
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPart
+                setter: setPart
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        countryOfOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: countryOfOrigin
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountryOfOrigin
+                setter: setCountryOfOrigin
+            xml_list:
+                inline: true
+                entry_name: countryOfOrigin
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

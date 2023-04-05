@@ -1,0 +1,88 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionComponentType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        function:
+            expose: true
+            access_type: public_method
+            serialized_name: function
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFunction
+                setter: setFunction
+            xml_list:
+                inline: true
+                entry_name: function
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_list:
+                inline: true
+                entry_name: amount
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\QuantityType>
+        constituent:
+            expose: true
+            access_type: public_method
+            serialized_name: constituent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConstituent
+                setter: setConstituent
+            xml_list:
+                inline: true
+                entry_name: constituent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionConstituentType>
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionPropertyType>
+        component:
+            expose: true
+            access_type: public_method
+            serialized_name: component
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComponent
+                setter: setComponent
+            xml_list:
+                inline: true
+                entry_name: component
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionComponentType>

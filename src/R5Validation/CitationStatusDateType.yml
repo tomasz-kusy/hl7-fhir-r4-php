@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\CitationStatusDateType:
+    properties:
+        activity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        actual:
+            -
+                Valid: null
+        period:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

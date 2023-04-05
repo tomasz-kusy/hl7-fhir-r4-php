@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\ServiceRequestPatientInstructionType:
+    properties:
+        instructionMarkdown:
+            -
+                Valid: null
+        instructionReference:
+            -
+                Valid: null

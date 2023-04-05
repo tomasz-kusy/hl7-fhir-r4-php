@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\MeasurePopulationType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        criteria:
+            -
+                Valid: null
+        groupDefinition:
+            -
+                Valid: null
+        inputPopulationId:
+            -
+                Valid: null
+        aggregateMethod:
+            -
+                Valid: null

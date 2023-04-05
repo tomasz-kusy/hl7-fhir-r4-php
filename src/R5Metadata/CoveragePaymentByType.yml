@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\CoveragePaymentByType:
+    properties:
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: party
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        responsibility:
+            expose: true
+            access_type: public_method
+            serialized_name: responsibility
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResponsibility
+                setter: setResponsibility
+            type: TKusy\Hl7Fhir\R5\StringType

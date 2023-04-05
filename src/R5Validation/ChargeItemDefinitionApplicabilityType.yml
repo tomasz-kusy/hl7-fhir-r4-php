@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ChargeItemDefinitionApplicabilityType:
+    properties:
+        condition:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null

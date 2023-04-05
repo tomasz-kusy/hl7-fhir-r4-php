@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\BodyStructureIncludedStructureType:
+    properties:
+        structure:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        laterality:
+            -
+                Valid: null
+        bodyLandmarkOrientation:
+            -
+                Valid: null
+        spatialReference:
+            -
+                Valid: null
+        qualifier:
+            -
+                Valid: null

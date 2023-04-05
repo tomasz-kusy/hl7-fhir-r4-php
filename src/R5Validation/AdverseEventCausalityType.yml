@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\AdverseEventCausalityType:
+    properties:
+        assessmentMethod:
+            -
+                Valid: null
+        entityRelatedness:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null

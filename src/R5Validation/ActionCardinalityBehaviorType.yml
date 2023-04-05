@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\ActionCardinalityBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - single
+                        - multiple
+                    groups:
+                        - xsd_rules

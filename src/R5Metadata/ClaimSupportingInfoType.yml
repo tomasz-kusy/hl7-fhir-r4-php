@@ -1,0 +1,134 @@
+TKusy\Hl7Fhir\R5\ClaimSupportingInfoType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        timingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: timingDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimingDate
+                setter: setTimingDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        timingPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: timingPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimingPeriod
+                setter: setTimingPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAttachment
+                setter: setValueAttachment
+            type: TKusy\Hl7Fhir\R5\AttachmentType
+        valueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: valueReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueReference
+                setter: setValueReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        valueIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: valueIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueIdentifier
+                setter: setValueIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

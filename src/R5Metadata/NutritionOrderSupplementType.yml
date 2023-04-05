@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\NutritionOrderSupplementType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        productName:
+            expose: true
+            access_type: public_method
+            serialized_name: productName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductName
+                setter: setProductName
+            type: TKusy\Hl7Fhir\R5\StringType
+        schedule:
+            expose: true
+            access_type: public_method
+            serialized_name: schedule
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSchedule
+                setter: setSchedule
+            type: TKusy\Hl7Fhir\R5\NutritionOrderSchedule1Type
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        instruction:
+            expose: true
+            access_type: public_method
+            serialized_name: instruction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstruction
+                setter: setInstruction
+            type: TKusy\Hl7Fhir\R5\StringType

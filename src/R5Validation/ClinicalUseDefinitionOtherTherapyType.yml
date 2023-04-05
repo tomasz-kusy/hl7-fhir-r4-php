@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionOtherTherapyType:
+    properties:
+        relationshipType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        treatment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

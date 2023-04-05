@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R5\CitationCitedArtifactType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        relatedIdentifier:
+            -
+                Valid: null
+        dateAccessed:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        currentState:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        abstract:
+            -
+                Valid: null
+        part:
+            -
+                Valid: null
+        relatesTo:
+            -
+                Valid: null
+        publicationForm:
+            -
+                Valid: null
+        webLocation:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        contributorship:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

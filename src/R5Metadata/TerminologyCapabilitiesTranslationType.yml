@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\TerminologyCapabilitiesTranslationType:
+    properties:
+        needsMap:
+            expose: true
+            access_type: public_method
+            serialized_name: needsMap
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNeedsMap
+                setter: setNeedsMap
+            type: TKusy\Hl7Fhir\R5\BooleanType

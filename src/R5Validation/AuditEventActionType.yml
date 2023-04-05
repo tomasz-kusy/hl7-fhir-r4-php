@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\AuditEventActionType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - C
+                        - R
+                        - U
+                        - D
+                        - E
+                    groups:
+                        - xsd_rules

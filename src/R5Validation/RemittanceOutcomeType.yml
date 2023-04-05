@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\RemittanceOutcomeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - complete
+                        - error
+                        - partial
+                    groups:
+                        - xsd_rules

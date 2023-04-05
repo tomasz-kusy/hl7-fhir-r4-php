@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionContactType:
+    properties:
+        type:
+            -
+                Valid: null
+        contact:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

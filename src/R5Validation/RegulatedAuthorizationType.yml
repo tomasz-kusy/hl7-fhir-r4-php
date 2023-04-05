@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R5\RegulatedAuthorizationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        region:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        validityPeriod:
+            -
+                Valid: null
+        indication:
+            -
+                Valid: null
+        intendedUse:
+            -
+                Valid: null
+        basis:
+            -
+                Valid: null
+        holder:
+            -
+                Valid: null
+        regulator:
+            -
+                Valid: null
+        attachedDocument:
+            -
+                Valid: null
+        case:
+            -
+                Valid: null

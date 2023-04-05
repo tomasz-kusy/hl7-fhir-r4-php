@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R5\DefinitionResourceTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - ActivityDefinition
+                        - ChargeItemDefinition
+                        - ClinicalUseDefinition
+                        - EventDefinition
+                        - Measure
+                        - MessageDefinition
+                        - ObservationDefinition
+                        - OperationDefinition
+                        - PlanDefinition
+                        - Questionnaire
+                        - Requirements
+                        - SubscriptionTopic
+                        - TestPlan
+                        - TestScript
+                    groups:
+                        - xsd_rules

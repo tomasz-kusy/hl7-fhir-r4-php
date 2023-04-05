@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionInstanceType:
+    properties:
+        uid:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        number:
+            -
+                Valid: null
+        sopClass:
+            -
+                Valid: null
+        subset:
+            -
+                Valid: null
+        imageRegion2D:
+            -
+                Valid: null
+        imageRegion3D:
+            -
+                Valid: null

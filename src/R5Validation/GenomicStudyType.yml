@@ -1,0 +1,55 @@
+TKusy\Hl7Fhir\R5\GenomicStudyType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        startDate:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        referrer:
+            -
+                Valid: null
+        interpreter:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        analysis:
+            -
+                Valid: null

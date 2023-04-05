@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\ExampleScenarioStepType:
+    properties:
+        number:
+            -
+                Valid: null
+        process:
+            -
+                Valid: null
+        workflow:
+            -
+                Valid: null
+        operation:
+            -
+                Valid: null
+        alternative:
+            -
+                Valid: null
+        pause:
+            -
+                Valid: null

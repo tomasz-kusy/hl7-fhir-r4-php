@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionClassificationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        justification:
+            expose: true
+            access_type: public_method
+            serialized_name: justification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJustification
+                setter: setJustification
+            xml_list:
+                inline: true
+                entry_name: justification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\RelatedArtifactType>

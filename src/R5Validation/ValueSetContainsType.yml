@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\ValueSetContainsType:
+    properties:
+        system:
+            -
+                Valid: null
+        abstract:
+            -
+                Valid: null
+        inactive:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        designation:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        contains:
+            -
+                Valid: null

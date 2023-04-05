@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionRelationshipType:
+    properties:
+        substanceDefinitionReference:
+            -
+                Valid: null
+        substanceDefinitionCodeableConcept:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        isDefining:
+            -
+                Valid: null
+        amountQuantity:
+            -
+                Valid: null
+        amountRatio:
+            -
+                Valid: null
+        amountString:
+            -
+                Valid: null
+        ratioHighLimitAmount:
+            -
+                Valid: null
+        comparator:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

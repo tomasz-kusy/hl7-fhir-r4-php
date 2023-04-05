@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerRepeatUnitType:
+    properties:
+        unit:
+            -
+                Valid: null
+        orientation:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        degreeOfPolymerisation:
+            -
+                Valid: null
+        structuralRepresentation:
+            -
+                Valid: null

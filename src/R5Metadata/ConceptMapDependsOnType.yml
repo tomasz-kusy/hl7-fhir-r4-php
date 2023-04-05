@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R5\ConceptMapDependsOnType:
+    properties:
+        attribute:
+            expose: true
+            access_type: public_method
+            serialized_name: attribute
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttribute
+                setter: setAttribute
+            type: TKusy\Hl7Fhir\R5\CodeType
+        valueCode:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCode
+                setter: setValueCode
+            type: TKusy\Hl7Fhir\R5\CodeType
+        valueCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCoding
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCoding
+                setter: setValueCoding
+            type: TKusy\Hl7Fhir\R5\CodingType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSet
+                setter: setValueSet
+            type: TKusy\Hl7Fhir\R5\CanonicalType

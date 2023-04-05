@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R5\NutritionProductType:
+    properties:
+        code:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        nutrient:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        knownAllergen:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        instance:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

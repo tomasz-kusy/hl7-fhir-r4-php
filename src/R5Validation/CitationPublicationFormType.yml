@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R5\CitationPublicationFormType:
+    properties:
+        publishedIn:
+            -
+                Valid: null
+        citedMedium:
+            -
+                Valid: null
+        volume:
+            -
+                Valid: null
+        issue:
+            -
+                Valid: null
+        articleDate:
+            -
+                Valid: null
+        publicationDateText:
+            -
+                Valid: null
+        publicationDateSeason:
+            -
+                Valid: null
+        lastRevisionDate:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        accessionNumber:
+            -
+                Valid: null
+        pageString:
+            -
+                Valid: null
+        firstPage:
+            -
+                Valid: null
+        lastPage:
+            -
+                Valid: null
+        pageCount:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null

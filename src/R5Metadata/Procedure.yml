@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\Procedure:
+    xml_root_name: Procedure
+    xml_root_namespace: 'http://hl7.org/fhir'

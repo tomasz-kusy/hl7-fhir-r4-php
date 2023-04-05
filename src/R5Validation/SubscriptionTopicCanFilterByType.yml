@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicCanFilterByType:
+    properties:
+        description:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        filterParameter:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        filterDefinition:
+            -
+                Valid: null
+        comparator:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null

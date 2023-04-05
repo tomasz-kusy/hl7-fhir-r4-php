@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\EvidenceStatisticType:
+    properties:
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        statisticType:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        numberOfEvents:
+            -
+                Valid: null
+        numberAffected:
+            -
+                Valid: null
+        sampleSize:
+            -
+                Valid: null
+        attributeEstimate:
+            -
+                Valid: null
+        modelCharacteristic:
+            -
+                Valid: null

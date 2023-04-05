@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionImageRegion2DType:
+    properties:
+        regionType:
+            expose: true
+            access_type: public_method
+            serialized_name: regionType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegionType
+                setter: setRegionType
+            type: TKusy\Hl7Fhir\R5\ImagingSelectionDGraphicTypeType
+        coordinate:
+            expose: true
+            access_type: public_method
+            serialized_name: coordinate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoordinate
+                setter: setCoordinate
+            xml_list:
+                inline: true
+                entry_name: coordinate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DecimalType>

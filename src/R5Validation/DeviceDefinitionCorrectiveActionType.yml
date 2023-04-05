@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionCorrectiveActionType:
+    properties:
+        recall:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        scope:
+            -
+                Valid: null
+        period:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

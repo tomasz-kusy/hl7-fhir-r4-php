@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\CitationStatusDate1Type:
+    properties:
+        activity:
+            expose: true
+            access_type: public_method
+            serialized_name: activity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActivity
+                setter: setActivity
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        actual:
+            expose: true
+            access_type: public_method
+            serialized_name: actual
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActual
+                setter: setActual
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType

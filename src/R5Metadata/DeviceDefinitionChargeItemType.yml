@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionChargeItemType:
+    properties:
+        chargeItemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeItemCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getChargeItemCode
+                setter: setChargeItemCode
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: count
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCount
+                setter: setCount
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        effectivePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: effectivePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEffectivePeriod
+                setter: setEffectivePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        useContext:
+            expose: true
+            access_type: public_method
+            serialized_name: useContext
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUseContext
+                setter: setUseContext
+            xml_list:
+                inline: true
+                entry_name: useContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UsageContextType>

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\CompositionStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - registered
+                        - partial
+                        - preliminary
+                        - final
+                        - amended
+                        - corrected
+                        - appended
+                        - cancelled
+                        - entered-in-error
+                        - deprecated
+                        - unknown
+                    groups:
+                        - xsd_rules

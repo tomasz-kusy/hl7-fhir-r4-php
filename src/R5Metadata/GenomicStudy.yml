@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\GenomicStudy:
+    xml_root_name: GenomicStudy
+    xml_root_namespace: 'http://hl7.org/fhir'

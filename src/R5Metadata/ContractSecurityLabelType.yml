@@ -1,0 +1,58 @@
+TKusy\Hl7Fhir\R5\ContractSecurityLabelType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_list:
+                inline: true
+                entry_name: number
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UnsignedIntType>
+        classification:
+            expose: true
+            access_type: public_method
+            serialized_name: classification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassification
+                setter: setClassification
+            type: TKusy\Hl7Fhir\R5\CodingType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodingType>
+        control:
+            expose: true
+            access_type: public_method
+            serialized_name: control
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getControl
+                setter: setControl
+            xml_list:
+                inline: true
+                entry_name: control
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodingType>

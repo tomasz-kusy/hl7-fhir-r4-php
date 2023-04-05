@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\OperationParameterScopeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - instance
+                        - type
+                        - system
+                    groups:
+                        - xsd_rules

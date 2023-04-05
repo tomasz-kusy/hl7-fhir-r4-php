@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\DeviceCorrectiveActionScopeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - model
+                        - lot-numbers
+                        - serial-numbers
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,38 @@
+TKusy\Hl7Fhir\R5\ObservationDefinitionQualifiedValueType:
+    properties:
+        context:
+            -
+                Valid: null
+        appliesTo:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        age:
+            -
+                Valid: null
+        gestationalAge:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        rangeCategory:
+            -
+                Valid: null
+        range:
+            -
+                Valid: null
+        validCodedValueSet:
+            -
+                Valid: null
+        normalCodedValueSet:
+            -
+                Valid: null
+        abnormalCodedValueSet:
+            -
+                Valid: null
+        criticalCodedValueSet:
+            -
+                Valid: null

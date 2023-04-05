@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\TriggeredBytypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - reflex
+                        - repeat
+                        - re-run
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\AdministrableProductDefinition:
+    xml_root_name: AdministrableProductDefinition
+    xml_root_namespace: 'http://hl7.org/fhir'

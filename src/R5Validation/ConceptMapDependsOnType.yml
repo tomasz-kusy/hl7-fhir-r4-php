@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R5\ConceptMapDependsOnType:
+    properties:
+        attribute:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCode:
+            -
+                Valid: null
+        valueCoding:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null

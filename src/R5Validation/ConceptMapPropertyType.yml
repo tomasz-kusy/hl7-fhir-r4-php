@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R5\ConceptMapPropertyType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        uri:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        system:
+            -
+                Valid: null

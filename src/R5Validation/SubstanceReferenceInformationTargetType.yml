@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\SubstanceReferenceInformationTargetType:
+    properties:
+        target:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        interaction:
+            -
+                Valid: null
+        organism:
+            -
+                Valid: null
+        organismType:
+            -
+                Valid: null
+        amountQuantity:
+            -
+                Valid: null
+        amountRange:
+            -
+                Valid: null
+        amountString:
+            -
+                Valid: null
+        amountType:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

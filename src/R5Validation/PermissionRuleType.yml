@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\PermissionRuleType:
+    properties:
+        type:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null
+        activity:
+            -
+                Valid: null
+        limit:
+            -
+                Valid: null

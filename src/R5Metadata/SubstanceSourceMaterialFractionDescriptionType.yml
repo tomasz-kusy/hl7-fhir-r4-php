@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\SubstanceSourceMaterialFractionDescriptionType:
+    properties:
+        fraction:
+            expose: true
+            access_type: public_method
+            serialized_name: fraction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFraction
+                setter: setFraction
+            type: TKusy\Hl7Fhir\R5\StringType
+        materialType:
+            expose: true
+            access_type: public_method
+            serialized_name: materialType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaterialType
+                setter: setMaterialType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

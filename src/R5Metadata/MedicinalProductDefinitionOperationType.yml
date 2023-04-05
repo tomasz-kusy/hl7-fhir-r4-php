@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionOperationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: effectiveDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        organization:
+            expose: true
+            access_type: public_method
+            serialized_name: organization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganization
+                setter: setOrganization
+            xml_list:
+                inline: true
+                entry_name: organization
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        confidentialityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: confidentialityIndicator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConfidentialityIndicator
+                setter: setConfidentialityIndicator
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

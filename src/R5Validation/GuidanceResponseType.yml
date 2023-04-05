@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\GuidanceResponseType:
+    properties:
+        requestIdentifier:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        moduleUri:
+            -
+                Valid: null
+        moduleCanonical:
+            -
+                Valid: null
+        moduleCodeableConcept:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        evaluationMessage:
+            -
+                Valid: null
+        outputParameters:
+            -
+                Valid: null
+        result:
+            -
+                Valid: null
+        dataRequirement:
+            -
+                Valid: null

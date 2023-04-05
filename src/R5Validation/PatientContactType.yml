@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\PatientContactType:
+    properties:
+        relationship:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

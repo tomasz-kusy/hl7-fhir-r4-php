@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\TestPlanAssertionType:
+    properties:
+        type:
+            -
+                Valid: null
+        object:
+            -
+                Valid: null
+        result:
+            -
+                Valid: null

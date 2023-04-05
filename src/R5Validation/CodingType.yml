@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\CodingType:
+    properties:
+        system:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        userSelected:
+            -
+                Valid: null

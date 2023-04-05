@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\SpecimenDefinitionAdditiveType:
+    properties:
+        additiveCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: additiveCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditiveCodeableConcept
+                setter: setAdditiveCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        additiveReference:
+            expose: true
+            access_type: public_method
+            serialized_name: additiveReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditiveReference
+                setter: setAdditiveReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

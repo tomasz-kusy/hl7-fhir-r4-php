@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ProcedurePerformerType:
+    properties:
+        function:
+            -
+                Valid: null
+        actor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        onBehalfOf:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

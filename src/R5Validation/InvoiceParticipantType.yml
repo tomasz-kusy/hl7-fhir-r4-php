@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\InvoiceParticipantType:
+    properties:
+        role:
+            -
+                Valid: null
+        actor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

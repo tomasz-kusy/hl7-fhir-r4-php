@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\GroupMembershipBasisType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - definitional
+                        - enumerated
+                    groups:
+                        - xsd_rules

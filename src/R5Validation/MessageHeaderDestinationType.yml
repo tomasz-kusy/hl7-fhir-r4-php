@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\MessageHeaderDestinationType:
+    properties:
+        endpointUrl:
+            -
+                Valid: null
+        endpointReference:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null

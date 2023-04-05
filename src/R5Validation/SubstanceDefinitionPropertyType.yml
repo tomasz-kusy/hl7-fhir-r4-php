@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionPropertyType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null

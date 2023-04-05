@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\ImmunizationRecommendationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        authority:
+            -
+                Valid: null
+        recommendation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

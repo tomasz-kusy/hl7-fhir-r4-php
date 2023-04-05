@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\MolecularSequenceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        literal:
+            -
+                Valid: null
+        formatted:
+            -
+                Valid: null
+        relative:
+            -
+                Valid: null

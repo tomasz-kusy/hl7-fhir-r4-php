@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentInformationTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - comment
+                        - classifier
+                        - rating
+                        - container
+                        - response
+                        - change-request
+                    groups:
+                        - xsd_rules

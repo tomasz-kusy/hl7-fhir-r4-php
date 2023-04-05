@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\CitationAbstractType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        copyright:
+            expose: true
+            access_type: public_method
+            serialized_name: copyright
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopyright
+                setter: setCopyright
+            type: TKusy\Hl7Fhir\R5\MarkdownType

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\FormularyItemType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null

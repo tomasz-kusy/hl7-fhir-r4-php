@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\ObservationComponentType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueSampledData:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        dataAbsentReason:
+            -
+                Valid: null
+        interpretation:
+            -
+                Valid: null
+        referenceRange:
+            -
+                Valid: null

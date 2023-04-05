@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ImmunizationProgramEligibilityType:
+    properties:
+        program:
+            expose: true
+            access_type: public_method
+            serialized_name: program
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProgram
+                setter: setProgram
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        programStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: programStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProgramStatus
+                setter: setProgramStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

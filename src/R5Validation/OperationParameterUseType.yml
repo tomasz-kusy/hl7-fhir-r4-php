@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\OperationParameterUseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in
+                        - out
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgePatientCharacteristicType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionUndesirableEffectType:
+    properties:
+        symptomConditionEffect:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        frequencyOfOccurrence:
+            -
+                Valid: null

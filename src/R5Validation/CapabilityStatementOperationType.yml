@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\CapabilityStatementOperationType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        definition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null

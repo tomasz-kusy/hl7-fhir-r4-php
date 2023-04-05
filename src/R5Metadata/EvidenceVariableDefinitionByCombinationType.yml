@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableDefinitionByCombinationType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CharacteristicCombinationType
+        threshold:
+            expose: true
+            access_type: public_method
+            serialized_name: threshold
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getThreshold
+                setter: setThreshold
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        characteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: characteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCharacteristic
+                setter: setCharacteristic
+            xml_list:
+                inline: true
+                entry_name: characteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\EvidenceVariableCharacteristicType>

@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\TestScriptOperationType:
+    properties:
+        type:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        label:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        accept:
+            -
+                Valid: null
+        contentType:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        encodeRequestUrl:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        origin:
+            -
+                Valid: null
+        params:
+            -
+                Valid: null
+        requestHeader:
+            -
+                Valid: null
+        requestId:
+            -
+                Valid: null
+        responseId:
+            -
+                Valid: null
+        sourceId:
+            -
+                Valid: null
+        targetId:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null

@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\EvidenceSampleSizeType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>
+        numberOfStudies:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfStudies
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfStudies
+                setter: setNumberOfStudies
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        numberOfParticipants:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfParticipants
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfParticipants
+                setter: setNumberOfParticipants
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        knownDataCount:
+            expose: true
+            access_type: public_method
+            serialized_name: knownDataCount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKnownDataCount
+                setter: setKnownDataCount
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType

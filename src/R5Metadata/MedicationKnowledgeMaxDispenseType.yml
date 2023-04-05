@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeMaxDispenseType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\DurationType

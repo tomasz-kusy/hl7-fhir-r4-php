@@ -1,0 +1,37 @@
+TKusy\Hl7Fhir\R5\SubstanceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instance:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        expiry:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null

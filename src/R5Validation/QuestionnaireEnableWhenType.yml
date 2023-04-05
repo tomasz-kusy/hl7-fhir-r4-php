@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\QuestionnaireEnableWhenType:
+    properties:
+        question:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        operator:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        answerBoolean:
+            -
+                Valid: null
+        answerDecimal:
+            -
+                Valid: null
+        answerInteger:
+            -
+                Valid: null
+        answerDate:
+            -
+                Valid: null
+        answerDateTime:
+            -
+                Valid: null
+        answerTime:
+            -
+                Valid: null
+        answerString:
+            -
+                Valid: null
+        answerCoding:
+            -
+                Valid: null
+        answerQuantity:
+            -
+                Valid: null
+        answerReference:
+            -
+                Valid: null

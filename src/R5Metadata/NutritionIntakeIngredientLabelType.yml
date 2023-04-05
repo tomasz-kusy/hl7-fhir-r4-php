@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\NutritionIntakeIngredientLabelType:
+    properties:
+        nutrient:
+            expose: true
+            access_type: public_method
+            serialized_name: nutrient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNutrient
+                setter: setNutrient
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R5\QuantityType

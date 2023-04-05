@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R5\DataRequirementValueFilterType:
+    properties:
+        path:
+            expose: true
+            access_type: public_method
+            serialized_name: path
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPath
+                setter: setPath
+            type: TKusy\Hl7Fhir\R5\StringType
+        searchParam:
+            expose: true
+            access_type: public_method
+            serialized_name: searchParam
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSearchParam
+                setter: setSearchParam
+            type: TKusy\Hl7Fhir\R5\StringType
+        comparator:
+            expose: true
+            access_type: public_method
+            serialized_name: comparator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComparator
+                setter: setComparator
+            type: TKusy\Hl7Fhir\R5\CodeType
+        valueDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDateTime
+                setter: setValueDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        valuePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: valuePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValuePeriod
+                setter: setValuePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        valueDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDuration
+                setter: setValueDuration
+            type: TKusy\Hl7Fhir\R5\DurationType

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\CarePlanActivityType:
+    properties:
+        performedActivity:
+            -
+                Valid: null
+        progress:
+            -
+                Valid: null
+        plannedActivityReference:
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\NutritionOrderAdministrationType:
+    properties:
+        schedule:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        rateQuantity:
+            -
+                Valid: null
+        rateRatio:
+            -
+                Valid: null

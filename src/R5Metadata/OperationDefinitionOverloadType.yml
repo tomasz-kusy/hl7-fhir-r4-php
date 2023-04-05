@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\OperationDefinitionOverloadType:
+    properties:
+        parameterName:
+            expose: true
+            access_type: public_method
+            serialized_name: parameterName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParameterName
+                setter: setParameterName
+            xml_list:
+                inline: true
+                entry_name: parameterName
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R5\StringType

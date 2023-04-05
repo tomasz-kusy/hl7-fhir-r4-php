@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\ContractOfferType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        party:
+            -
+                Valid: null
+        topic:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        decision:
+            -
+                Valid: null
+        decisionMode:
+            -
+                Valid: null
+        answer:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        linkId:
+            -
+                Valid: null
+        securityLabelNumber:
+            -
+                Valid: null

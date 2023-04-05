@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\PaymentNoticeType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reporter:
+            -
+                Valid: null
+        payment:
+            -
+                Valid: null
+        paymentDate:
+            -
+                Valid: null
+        payee:
+            -
+                Valid: null
+        recipient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        paymentStatus:
+            -
+                Valid: null

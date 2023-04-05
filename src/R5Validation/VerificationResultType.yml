@@ -1,0 +1,48 @@
+TKusy\Hl7Fhir\R5\VerificationResultType:
+    properties:
+        target:
+            -
+                Valid: null
+        targetLocation:
+            -
+                Valid: null
+        need:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        validationType:
+            -
+                Valid: null
+        validationProcess:
+            -
+                Valid: null
+        frequency:
+            -
+                Valid: null
+        lastPerformed:
+            -
+                Valid: null
+        nextScheduled:
+            -
+                Valid: null
+        failureAction:
+            -
+                Valid: null
+        primarySource:
+            -
+                Valid: null
+        attestation:
+            -
+                Valid: null
+        validator:
+            -
+                Valid: null

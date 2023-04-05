@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\PlanDefinitionOutputType:
+    properties:
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        requirement:
+            expose: true
+            access_type: public_method
+            serialized_name: requirement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequirement
+                setter: setRequirement
+            type: TKusy\Hl7Fhir\R5\DataRequirementType
+        relatedData:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedData
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedData
+                setter: setRelatedData
+            type: TKusy\Hl7Fhir\R5\StringType

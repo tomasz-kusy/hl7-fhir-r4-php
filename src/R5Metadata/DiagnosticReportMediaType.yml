@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\DiagnosticReportMediaType:
+    properties:
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R5\StringType
+        link:
+            expose: true
+            access_type: public_method
+            serialized_name: link
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLink
+                setter: setLink
+            type: TKusy\Hl7Fhir\R5\ReferenceType

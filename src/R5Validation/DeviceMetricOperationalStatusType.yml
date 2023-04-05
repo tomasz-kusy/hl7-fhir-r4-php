@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\DeviceMetricOperationalStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - 'on'
+                        - 'off'
+                        - standby
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

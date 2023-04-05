@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\DocumentReferenceProfileType:
+    properties:
+        valueCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCoding
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCoding
+                setter: setValueCoding
+            type: TKusy\Hl7Fhir\R5\CodingType
+        valueUri:
+            expose: true
+            access_type: public_method
+            serialized_name: valueUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueUri
+                setter: setValueUri
+            type: TKusy\Hl7Fhir\R5\UriType
+        valueCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCanonical
+                setter: setValueCanonical
+            type: TKusy\Hl7Fhir\R5\CanonicalType

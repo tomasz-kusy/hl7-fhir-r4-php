@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\DeviceUdiCarrierType:
+    properties:
+        deviceIdentifier:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        issuer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        carrierAIDC:
+            -
+                Valid: null
+        carrierHRF:
+            -
+                Valid: null
+        entryType:
+            -
+                Valid: null

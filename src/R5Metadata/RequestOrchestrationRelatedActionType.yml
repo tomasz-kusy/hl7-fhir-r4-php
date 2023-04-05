@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\RequestOrchestrationRelatedActionType:
+    properties:
+        targetId:
+            expose: true
+            access_type: public_method
+            serialized_name: targetId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetId
+                setter: setTargetId
+            type: TKusy\Hl7Fhir\R5\IdType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7Fhir\R5\ActionRelationshipTypeType
+        endRelationship:
+            expose: true
+            access_type: public_method
+            serialized_name: endRelationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndRelationship
+                setter: setEndRelationship
+            type: TKusy\Hl7Fhir\R5\ActionRelationshipTypeType
+        offsetDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffsetDuration
+                setter: setOffsetDuration
+            type: TKusy\Hl7Fhir\R5\DurationType
+        offsetRange:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffsetRange
+                setter: setOffsetRange
+            type: TKusy\Hl7Fhir\R5\RangeType

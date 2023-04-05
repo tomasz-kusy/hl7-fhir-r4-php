@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SubstanceIngredientType:
+    properties:
+        quantity:
+            -
+                Valid: null
+        substanceCodeableConcept:
+            -
+                Valid: null
+        substanceReference:
+            -
+                Valid: null

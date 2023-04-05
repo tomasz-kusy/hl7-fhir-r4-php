@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        citeAsReference:
+            -
+                Valid: null
+        citeAsMarkdown:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        artifactReference:
+            -
+                Valid: null
+        artifactCanonical:
+            -
+                Valid: null
+        artifactUri:
+            -
+                Valid: null
+        content:
+            -
+                Valid: null
+        workflowStatus:
+            -
+                Valid: null
+        disposition:
+            -
+                Valid: null

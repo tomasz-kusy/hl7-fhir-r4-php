@@ -1,0 +1,49 @@
+TKusy\Hl7Fhir\R5\EpisodeOfCareType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusHistory:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        managingOrganization:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        referralRequest:
+            -
+                Valid: null
+        careManager:
+            -
+                Valid: null
+        careTeam:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null

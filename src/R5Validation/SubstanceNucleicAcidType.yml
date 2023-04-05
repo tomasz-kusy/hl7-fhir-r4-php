@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SubstanceNucleicAcidType:
+    properties:
+        sequenceType:
+            -
+                Valid: null
+        numberOfSubunits:
+            -
+                Valid: null
+        areaOfHybridisation:
+            -
+                Valid: null
+        oligoNucleotideType:
+            -
+                Valid: null
+        subunit:
+            -
+                Valid: null

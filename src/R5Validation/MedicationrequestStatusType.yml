@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\MedicationrequestStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - on-hold
+                        - ended
+                        - stopped
+                        - completed
+                        - cancelled
+                        - entered-in-error
+                        - draft
+                        - unknown
+                    groups:
+                        - xsd_rules

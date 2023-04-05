@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\DeviceMetricCalibrationType:
+    properties:
+        type:
+            -
+                Valid: null
+        state:
+            -
+                Valid: null
+        time:
+            -
+                Valid: null

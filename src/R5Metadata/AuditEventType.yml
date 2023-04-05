@@ -1,0 +1,187 @@
+TKusy\Hl7Fhir\R5\AuditEventType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        action:
+            expose: true
+            access_type: public_method
+            serialized_name: action
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAction
+                setter: setAction
+            type: TKusy\Hl7Fhir\R5\AuditEventActionType
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: severity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: TKusy\Hl7Fhir\R5\AuditEventSeverityType
+        occurredPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: occurredPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurredPeriod
+                setter: setOccurredPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        occurredDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: occurredDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurredDateTime
+                setter: setOccurredDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        recorded:
+            expose: true
+            access_type: public_method
+            serialized_name: recorded
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecorded
+                setter: setRecorded
+            type: TKusy\Hl7Fhir\R5\InstantType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7Fhir\R5\AuditEventOutcomeType
+        authorization:
+            expose: true
+            access_type: public_method
+            serialized_name: authorization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthorization
+                setter: setAuthorization
+            xml_list:
+                inline: true
+                entry_name: authorization
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        basedOn:
+            expose: true
+            access_type: public_method
+            serialized_name: basedOn
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBasedOn
+                setter: setBasedOn
+            xml_list:
+                inline: true
+                entry_name: basedOn
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        encounter:
+            expose: true
+            access_type: public_method
+            serialized_name: encounter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEncounter
+                setter: setEncounter
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        agent:
+            expose: true
+            access_type: public_method
+            serialized_name: agent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAgent
+                setter: setAgent
+            xml_list:
+                inline: true
+                entry_name: agent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AuditEventAgentType>
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: TKusy\Hl7Fhir\R5\AuditEventSourceType
+        entity:
+            expose: true
+            access_type: public_method
+            serialized_name: entity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntity
+                setter: setEntity
+            xml_list:
+                inline: true
+                entry_name: entity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AuditEventEntityType>

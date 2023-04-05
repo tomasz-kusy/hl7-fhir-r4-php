@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\TestReportAssertType:
+    properties:
+        result:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        message:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null
+        requirement:
+            -
+                Valid: null

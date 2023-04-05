@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionRepresentationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        representation:
+            expose: true
+            access_type: public_method
+            serialized_name: representation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepresentation
+                setter: setRepresentation
+            type: TKusy\Hl7Fhir\R5\StringType
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        document:
+            expose: true
+            access_type: public_method
+            serialized_name: document
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocument
+                setter: setDocument
+            type: TKusy\Hl7Fhir\R5\ReferenceType

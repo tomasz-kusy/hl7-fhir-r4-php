@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\CitationPublishedInType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        publisher:
+            expose: true
+            access_type: public_method
+            serialized_name: publisher
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublisher
+                setter: setPublisher
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        publisherLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: publisherLocation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublisherLocation
+                setter: setPublisherLocation
+            type: TKusy\Hl7Fhir\R5\StringType

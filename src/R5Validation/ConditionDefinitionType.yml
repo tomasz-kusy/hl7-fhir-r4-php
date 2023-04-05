@@ -1,0 +1,100 @@
+TKusy\Hl7Fhir\R5\ConditionDefinitionType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        versionAlgorithmString:
+            -
+                Valid: null
+        versionAlgorithmCoding:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        subtitle:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        severity:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        stage:
+            -
+                Valid: null
+        hasSeverity:
+            -
+                Valid: null
+        hasBodySite:
+            -
+                Valid: null
+        hasStage:
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        observation:
+            -
+                Valid: null
+        medication:
+            -
+                Valid: null
+        precondition:
+            -
+                Valid: null
+        team:
+            -
+                Valid: null
+        questionnaire:
+            -
+                Valid: null
+        plan:
+            -
+                Valid: null

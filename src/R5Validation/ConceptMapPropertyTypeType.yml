@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\ConceptMapPropertyTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - Coding
+                        - string
+                        - integer
+                        - boolean
+                        - dateTime
+                        - decimal
+                        - code
+                    groups:
+                        - xsd_rules

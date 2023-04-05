@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\ActionRelationshipTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - before
+                        - before-start
+                        - before-end
+                        - concurrent
+                        - concurrent-with-start
+                        - concurrent-with-end
+                        - after
+                        - after-start
+                        - after-end
+                    groups:
+                        - xsd_rules

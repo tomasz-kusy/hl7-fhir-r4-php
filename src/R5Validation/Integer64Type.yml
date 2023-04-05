@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\Integer64Type:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~[0]|[-+]?[1-9][0-9]*~'
+                    groups:
+                        - xsd_rules

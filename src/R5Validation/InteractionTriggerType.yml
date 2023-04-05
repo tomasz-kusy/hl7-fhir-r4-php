@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\InteractionTriggerType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - create
+                        - update
+                        - delete
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\DiagnosticReportStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - registered
+                        - partial
+                        - preliminary
+                        - modified
+                        - final
+                        - amended
+                        - corrected
+                        - appended
+                        - cancelled
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

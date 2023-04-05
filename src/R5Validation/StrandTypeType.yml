@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\StrandTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - watson
+                        - crick
+                    groups:
+                        - xsd_rules

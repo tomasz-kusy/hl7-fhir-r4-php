@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\GroupTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - person
+                        - animal
+                        - practitioner
+                        - device
+                        - careteam
+                        - healthcareservice
+                        - location
+                        - organization
+                        - relatedperson
+                        - specimen
+                    groups:
+                        - xsd_rules

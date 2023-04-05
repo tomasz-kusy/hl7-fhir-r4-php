@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SubscriptionPayloadContentType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - empty
+                        - id-only
+                        - full-resource
+                    groups:
+                        - xsd_rules

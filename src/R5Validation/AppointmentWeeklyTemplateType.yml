@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\AppointmentWeeklyTemplateType:
+    properties:
+        monday:
+            -
+                Valid: null
+        tuesday:
+            -
+                Valid: null
+        wednesday:
+            -
+                Valid: null
+        thursday:
+            -
+                Valid: null
+        friday:
+            -
+                Valid: null
+        saturday:
+            -
+                Valid: null
+        sunday:
+            -
+                Valid: null
+        weekInterval:
+            -
+                Valid: null

@@ -1,0 +1,172 @@
+TKusy\Hl7Fhir\R5\MeasureGroupType:
+    properties:
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        subjectCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectCodeableConcept
+                setter: setSubjectCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        subjectReference:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectReference
+                setter: setSubjectReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        basis:
+            expose: true
+            access_type: public_method
+            serialized_name: basis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBasis
+                setter: setBasis
+            type: TKusy\Hl7Fhir\R5\FHIRTypesType
+        scoring:
+            expose: true
+            access_type: public_method
+            serialized_name: scoring
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScoring
+                setter: setScoring
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        scoringUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: scoringUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScoringUnit
+                setter: setScoringUnit
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        rateAggregation:
+            expose: true
+            access_type: public_method
+            serialized_name: rateAggregation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRateAggregation
+                setter: setRateAggregation
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        improvementNotation:
+            expose: true
+            access_type: public_method
+            serialized_name: improvementNotation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImprovementNotation
+                setter: setImprovementNotation
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        library:
+            expose: true
+            access_type: public_method
+            serialized_name: library
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLibrary
+                setter: setLibrary
+            xml_list:
+                inline: true
+                entry_name: library
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CanonicalType>
+        population:
+            expose: true
+            access_type: public_method
+            serialized_name: population
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPopulation
+                setter: setPopulation
+            xml_list:
+                inline: true
+                entry_name: population
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MeasurePopulationType>
+        stratifier:
+            expose: true
+            access_type: public_method
+            serialized_name: stratifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStratifier
+                setter: setStratifier
+            xml_list:
+                inline: true
+                entry_name: stratifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MeasureStratifierType>

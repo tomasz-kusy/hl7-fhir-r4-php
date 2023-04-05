@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\IngredientType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        for:
+            -
+                Valid: null
+        role:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        function:
+            -
+                Valid: null
+        group:
+            -
+                Valid: null
+        allergenicIndicator:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        substance:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

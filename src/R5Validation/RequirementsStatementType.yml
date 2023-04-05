@@ -1,0 +1,40 @@
+TKusy\Hl7Fhir\R5\RequirementsStatementType:
+    properties:
+        key:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        label:
+            -
+                Valid: null
+        conformance:
+            -
+                Valid: null
+        conditionality:
+            -
+                Valid: null
+        requirement:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        parent:
+            -
+                Valid: null
+        satisfiedBy:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

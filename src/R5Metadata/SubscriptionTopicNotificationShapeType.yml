@@ -1,0 +1,43 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicNotificationShapeType:
+    properties:
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            type: TKusy\Hl7Fhir\R5\UriType
+        include:
+            expose: true
+            access_type: public_method
+            serialized_name: include
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInclude
+                setter: setInclude
+            xml_list:
+                inline: true
+                entry_name: include
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        revInclude:
+            expose: true
+            access_type: public_method
+            serialized_name: revInclude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRevInclude
+                setter: setRevInclude
+            xml_list:
+                inline: true
+                entry_name: revInclude
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeRegulatoryType:
+    properties:
+        regulatoryAuthority:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        substitution:
+            -
+                Valid: null
+        schedule:
+            -
+                Valid: null
+        maxDispense:
+            -
+                Valid: null

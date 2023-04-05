@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\VerificationResultPrimarySourceType:
+    properties:
+        who:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        communicationMethod:
+            -
+                Valid: null
+        validationStatus:
+            -
+                Valid: null
+        validationDate:
+            -
+                Valid: null
+        canPushUpdates:
+            -
+                Valid: null
+        pushTypeAvailable:
+            -
+                Valid: null

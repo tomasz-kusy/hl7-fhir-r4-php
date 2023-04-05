@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\HTTPVerbType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - GET
+                        - HEAD
+                        - POST
+                        - PUT
+                        - DELETE
+                        - PATCH
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,124 @@
+TKusy\Hl7Fhir\R5\EvidenceStatisticType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>
+        statisticType:
+            expose: true
+            access_type: public_method
+            serialized_name: statisticType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatisticType
+                setter: setStatisticType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        numberOfEvents:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfEvents
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfEvents
+                setter: setNumberOfEvents
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        numberAffected:
+            expose: true
+            access_type: public_method
+            serialized_name: numberAffected
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberAffected
+                setter: setNumberAffected
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        sampleSize:
+            expose: true
+            access_type: public_method
+            serialized_name: sampleSize
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSampleSize
+                setter: setSampleSize
+            type: TKusy\Hl7Fhir\R5\EvidenceSampleSizeType
+        attributeEstimate:
+            expose: true
+            access_type: public_method
+            serialized_name: attributeEstimate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttributeEstimate
+                setter: setAttributeEstimate
+            xml_list:
+                inline: true
+                entry_name: attributeEstimate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\EvidenceAttributeEstimateType>
+        modelCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: modelCharacteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModelCharacteristic
+                setter: setModelCharacteristic
+            xml_list:
+                inline: true
+                entry_name: modelCharacteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\EvidenceModelCharacteristicType>

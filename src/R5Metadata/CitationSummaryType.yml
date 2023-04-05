@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\CitationSummaryType:
+    properties:
+        style:
+            expose: true
+            access_type: public_method
+            serialized_name: style
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStyle
+                setter: setStyle
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R5\MarkdownType

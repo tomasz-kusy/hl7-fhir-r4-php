@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\PermissionActivityType:
+    properties:
+        actor:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null

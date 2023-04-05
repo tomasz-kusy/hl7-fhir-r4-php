@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\ServiceRequestParameterType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null

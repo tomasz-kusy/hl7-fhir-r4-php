@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\AccountGuarantorType:
+    properties:
+        party:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        onHold:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

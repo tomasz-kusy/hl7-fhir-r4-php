@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\BundleTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - document
+                        - message
+                        - transaction
+                        - transaction-response
+                        - batch
+                        - batch-response
+                        - history
+                        - searchset
+                        - collection
+                        - subscription-notification
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\EncounterHistoryLocationType:
+    properties:
+        location:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        form:
+            -
+                Valid: null

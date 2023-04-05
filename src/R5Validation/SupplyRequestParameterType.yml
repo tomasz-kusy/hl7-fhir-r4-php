@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SupplyRequestParameterType:
+    properties:
+        code:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null

@@ -1,0 +1,113 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionIndicationType:
+    properties:
+        diseaseSymptomProcedure:
+            expose: true
+            access_type: public_method
+            serialized_name: diseaseSymptomProcedure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiseaseSymptomProcedure
+                setter: setDiseaseSymptomProcedure
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        diseaseStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: diseaseStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiseaseStatus
+                setter: setDiseaseStatus
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        comorbidity:
+            expose: true
+            access_type: public_method
+            serialized_name: comorbidity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComorbidity
+                setter: setComorbidity
+            xml_list:
+                inline: true
+                entry_name: comorbidity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        intendedEffect:
+            expose: true
+            access_type: public_method
+            serialized_name: intendedEffect
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntendedEffect
+                setter: setIntendedEffect
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        durationRange:
+            expose: true
+            access_type: public_method
+            serialized_name: durationRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDurationRange
+                setter: setDurationRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        durationString:
+            expose: true
+            access_type: public_method
+            serialized_name: durationString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDurationString
+                setter: setDurationString
+            type: TKusy\Hl7Fhir\R5\StringType
+        undesirableEffect:
+            expose: true
+            access_type: public_method
+            serialized_name: undesirableEffect
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUndesirableEffect
+                setter: setUndesirableEffect
+            xml_list:
+                inline: true
+                entry_name: undesirableEffect
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        applicability:
+            expose: true
+            access_type: public_method
+            serialized_name: applicability
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApplicability
+                setter: setApplicability
+            type: TKusy\Hl7Fhir\R5\ExpressionType
+        otherTherapy:
+            expose: true
+            access_type: public_method
+            serialized_name: otherTherapy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOtherTherapy
+                setter: setOtherTherapy
+            xml_list:
+                inline: true
+                entry_name: otherTherapy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ClinicalUseDefinitionOtherTherapyType>

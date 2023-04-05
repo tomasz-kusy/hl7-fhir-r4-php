@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\DeviceUsageAdherenceType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reason:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,164 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        citeAsReference:
+            expose: true
+            access_type: public_method
+            serialized_name: citeAsReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCiteAsReference
+                setter: setCiteAsReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        citeAsMarkdown:
+            expose: true
+            access_type: public_method
+            serialized_name: citeAsMarkdown
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCiteAsMarkdown
+                setter: setCiteAsMarkdown
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        copyright:
+            expose: true
+            access_type: public_method
+            serialized_name: copyright
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopyright
+                setter: setCopyright
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        approvalDate:
+            expose: true
+            access_type: public_method
+            serialized_name: approvalDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApprovalDate
+                setter: setApprovalDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        lastReviewDate:
+            expose: true
+            access_type: public_method
+            serialized_name: lastReviewDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLastReviewDate
+                setter: setLastReviewDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        artifactReference:
+            expose: true
+            access_type: public_method
+            serialized_name: artifactReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getArtifactReference
+                setter: setArtifactReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        artifactCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: artifactCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getArtifactCanonical
+                setter: setArtifactCanonical
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        artifactUri:
+            expose: true
+            access_type: public_method
+            serialized_name: artifactUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getArtifactUri
+                setter: setArtifactUri
+            type: TKusy\Hl7Fhir\R5\UriType
+        content:
+            expose: true
+            access_type: public_method
+            serialized_name: content
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContent
+                setter: setContent
+            xml_list:
+                inline: true
+                entry_name: content
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ArtifactAssessmentContentType>
+        workflowStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: workflowStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWorkflowStatus
+                setter: setWorkflowStatus
+            type: TKusy\Hl7Fhir\R5\ArtifactAssessmentWorkflowStatusType
+        disposition:
+            expose: true
+            access_type: public_method
+            serialized_name: disposition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisposition
+                setter: setDisposition
+            type: TKusy\Hl7Fhir\R5\ArtifactAssessmentDispositionType

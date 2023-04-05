@@ -1,0 +1,95 @@
+TKusy\Hl7Fhir\R5\FamilyMemberHistoryType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        dataAbsentReason:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        relationship:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sex:
+            -
+                Valid: null
+        bornPeriod:
+            -
+                Valid: null
+        bornDate:
+            -
+                Valid: null
+        bornString:
+            -
+                Valid: null
+        ageAge:
+            -
+                Valid: null
+        ageRange:
+            -
+                Valid: null
+        ageString:
+            -
+                Valid: null
+        estimatedAge:
+            -
+                Valid: null
+        deceasedBoolean:
+            -
+                Valid: null
+        deceasedAge:
+            -
+                Valid: null
+        deceasedRange:
+            -
+                Valid: null
+        deceasedDate:
+            -
+                Valid: null
+        deceasedString:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null

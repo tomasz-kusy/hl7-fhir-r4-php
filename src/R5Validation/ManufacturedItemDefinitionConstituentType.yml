@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionConstituentType:
+    properties:
+        amount:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        function:
+            -
+                Valid: null
+        hasIngredient:
+            -
+                Valid: null

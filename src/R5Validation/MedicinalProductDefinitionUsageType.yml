@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionUsageType:
+    properties:
+        country:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        language:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

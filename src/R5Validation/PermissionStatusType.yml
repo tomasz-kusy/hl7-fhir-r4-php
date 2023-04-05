@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\PermissionStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - entered-in-error
+                        - draft
+                        - rejected
+                    groups:
+                        - xsd_rules

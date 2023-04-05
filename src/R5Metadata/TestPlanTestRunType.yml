@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\TestPlanTestRunType:
+    properties:
+        narrative:
+            expose: true
+            access_type: public_method
+            serialized_name: narrative
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNarrative
+                setter: setNarrative
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        script:
+            expose: true
+            access_type: public_method
+            serialized_name: script
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScript
+                setter: setScript
+            type: TKusy\Hl7Fhir\R5\TestPlanScriptType

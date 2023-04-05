@@ -1,0 +1,112 @@
+TKusy\Hl7Fhir\R5\SampledDataType:
+    properties:
+        origin:
+            expose: true
+            access_type: public_method
+            serialized_name: origin
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrigin
+                setter: setOrigin
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        interval:
+            expose: true
+            access_type: public_method
+            serialized_name: interval
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInterval
+                setter: setInterval
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        intervalUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: intervalUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntervalUnit
+                setter: setIntervalUnit
+            type: TKusy\Hl7Fhir\R5\CodeType
+        factor:
+            expose: true
+            access_type: public_method
+            serialized_name: factor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFactor
+                setter: setFactor
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        lowerLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: lowerLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLowerLimit
+                setter: setLowerLimit
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        upperLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: upperLimit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUpperLimit
+                setter: setUpperLimit
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        dimensions:
+            expose: true
+            access_type: public_method
+            serialized_name: dimensions
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDimensions
+                setter: setDimensions
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        codeMap:
+            expose: true
+            access_type: public_method
+            serialized_name: codeMap
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCodeMap
+                setter: setCodeMap
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        offsets:
+            expose: true
+            access_type: public_method
+            serialized_name: offsets
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffsets
+                setter: setOffsets
+            type: TKusy\Hl7Fhir\R5\StringType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            type: TKusy\Hl7Fhir\R5\SampledDataDataTypeType

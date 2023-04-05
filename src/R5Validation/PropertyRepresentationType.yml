@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\PropertyRepresentationType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - xmlAttr
+                        - xmlText
+                        - typeAttr
+                        - cdaText
+                        - xhtml
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionPropertyType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null

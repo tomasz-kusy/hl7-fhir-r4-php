@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\ContractResourceStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - amended
+                        - appended
+                        - cancelled
+                        - disputed
+                        - entered-in-error
+                        - executable
+                        - executed
+                        - negotiable
+                        - offered
+                        - policy
+                        - rejected
+                        - renewed
+                        - revoked
+                        - resolved
+                        - terminated
+                    groups:
+                        - xsd_rules

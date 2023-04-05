@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\CoverageCostToBeneficiaryType:
+    properties:
+        type:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        unit:
+            -
+                Valid: null
+        term:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueMoney:
+            -
+                Valid: null
+        exception:
+            -
+                Valid: null

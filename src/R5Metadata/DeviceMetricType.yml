@@ -1,0 +1,109 @@
+TKusy\Hl7Fhir\R5\DeviceMetricType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: unit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        operationalStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: operationalStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperationalStatus
+                setter: setOperationalStatus
+            type: TKusy\Hl7Fhir\R5\DeviceMetricOperationalStatusType
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: color
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getColor
+                setter: setColor
+            type: TKusy\Hl7Fhir\R5\ColorCodesOrRGBType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R5\DeviceMetricCategoryType
+        measurementFrequency:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementFrequency
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasurementFrequency
+                setter: setMeasurementFrequency
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        calibration:
+            expose: true
+            access_type: public_method
+            serialized_name: calibration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCalibration
+                setter: setCalibration
+            xml_list:
+                inline: true
+                entry_name: calibration
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DeviceMetricCalibrationType>

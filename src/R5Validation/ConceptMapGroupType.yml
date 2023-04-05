@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ConceptMapGroupType:
+    properties:
+        source:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        element:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        unmapped:
+            -
+                Valid: null

@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\RiskAssessmentPredictionType:
+    properties:
+        outcome:
+            -
+                Valid: null
+        probabilityDecimal:
+            -
+                Valid: null
+        probabilityRange:
+            -
+                Valid: null
+        qualitativeRisk:
+            -
+                Valid: null
+        relativeRisk:
+            -
+                Valid: null
+        whenPeriod:
+            -
+                Valid: null
+        whenRange:
+            -
+                Valid: null
+        rationale:
+            -
+                Valid: null

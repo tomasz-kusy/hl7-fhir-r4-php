@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\CitationEntryType:
+    properties:
+        contributor:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        forenameInitials:
+            -
+                Valid: null
+        affiliation:
+            -
+                Valid: null
+        contributionType:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        contributionInstance:
+            -
+                Valid: null
+        correspondingContact:
+            -
+                Valid: null
+        rankingOrder:
+            -
+                Valid: null

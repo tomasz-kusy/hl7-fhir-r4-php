@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\InvoiceStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - draft
+                        - issued
+                        - balanced
+                        - cancelled
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionOtherTherapyType:
+    properties:
+        relationshipType:
+            expose: true
+            access_type: public_method
+            serialized_name: relationshipType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationshipType
+                setter: setRelationshipType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        treatment:
+            expose: true
+            access_type: public_method
+            serialized_name: treatment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTreatment
+                setter: setTreatment
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType

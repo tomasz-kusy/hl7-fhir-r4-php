@@ -1,0 +1,106 @@
+TKusy\Hl7Fhir\R5\AppointmentType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        cancellationReason:
+            -
+                Valid: null
+        class:
+            -
+                Valid: null
+        serviceCategory:
+            -
+                Valid: null
+        serviceType:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null
+        appointmentType:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        replaces:
+            -
+                Valid: null
+        virtualService:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        previousAppointment:
+            -
+                Valid: null
+        originatingAppointment:
+            -
+                Valid: null
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        minutesDuration:
+            -
+                Valid: null
+        requestedPeriod:
+            -
+                Valid: null
+        slot:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        cancellationDate:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        patientInstruction:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        participant:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        recurrenceId:
+            -
+                Valid: null
+        occurrenceChanged:
+            -
+                Valid: null
+        recurrenceTemplate:
+            -
+                Valid: null

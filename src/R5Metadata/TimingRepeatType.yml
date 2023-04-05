@@ -1,0 +1,201 @@
+TKusy\Hl7Fhir\R5\TimingRepeatType:
+    properties:
+        boundsDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: boundsDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBoundsDuration
+                setter: setBoundsDuration
+            type: TKusy\Hl7Fhir\R5\DurationType
+        boundsRange:
+            expose: true
+            access_type: public_method
+            serialized_name: boundsRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBoundsRange
+                setter: setBoundsRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        boundsPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: boundsPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBoundsPeriod
+                setter: setBoundsPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: count
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCount
+                setter: setCount
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        countMax:
+            expose: true
+            access_type: public_method
+            serialized_name: countMax
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountMax
+                setter: setCountMax
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        durationMax:
+            expose: true
+            access_type: public_method
+            serialized_name: durationMax
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDurationMax
+                setter: setDurationMax
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        durationUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: durationUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDurationUnit
+                setter: setDurationUnit
+            type: TKusy\Hl7Fhir\R5\UnitsOfTimeType
+        frequency:
+            expose: true
+            access_type: public_method
+            serialized_name: frequency
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFrequency
+                setter: setFrequency
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        frequencyMax:
+            expose: true
+            access_type: public_method
+            serialized_name: frequencyMax
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFrequencyMax
+                setter: setFrequencyMax
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        periodMax:
+            expose: true
+            access_type: public_method
+            serialized_name: periodMax
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriodMax
+                setter: setPeriodMax
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        periodUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: periodUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriodUnit
+                setter: setPeriodUnit
+            type: TKusy\Hl7Fhir\R5\UnitsOfTimeType
+        dayOfWeek:
+            expose: true
+            access_type: public_method
+            serialized_name: dayOfWeek
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDayOfWeek
+                setter: setDayOfWeek
+            xml_list:
+                inline: true
+                entry_name: dayOfWeek
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeType>
+        timeOfDay:
+            expose: true
+            access_type: public_method
+            serialized_name: timeOfDay
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimeOfDay
+                setter: setTimeOfDay
+            xml_list:
+                inline: true
+                entry_name: timeOfDay
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TimeType>
+        when:
+            expose: true
+            access_type: public_method
+            serialized_name: when
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWhen
+                setter: setWhen
+            xml_list:
+                inline: true
+                entry_name: when
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\EventTimingType>
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: offset
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType

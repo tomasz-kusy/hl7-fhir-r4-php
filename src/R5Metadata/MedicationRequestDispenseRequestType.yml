@@ -1,0 +1,105 @@
+TKusy\Hl7Fhir\R5\MedicationRequestDispenseRequestType:
+    properties:
+        initialFill:
+            expose: true
+            access_type: public_method
+            serialized_name: initialFill
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInitialFill
+                setter: setInitialFill
+            type: TKusy\Hl7Fhir\R5\MedicationRequestInitialFillType
+        dispenseInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: dispenseInterval
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDispenseInterval
+                setter: setDispenseInterval
+            type: TKusy\Hl7Fhir\R5\DurationType
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: validityPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        numberOfRepeatsAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfRepeatsAllowed
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfRepeatsAllowed
+                setter: setNumberOfRepeatsAllowed
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        expectedSupplyDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: expectedSupplyDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpectedSupplyDuration
+                setter: setExpectedSupplyDuration
+            type: TKusy\Hl7Fhir\R5\DurationType
+        dispenser:
+            expose: true
+            access_type: public_method
+            serialized_name: dispenser
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDispenser
+                setter: setDispenser
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        dispenserInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: dispenserInstruction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDispenserInstruction
+                setter: setDispenserInstruction
+            xml_list:
+                inline: true
+                entry_name: dispenserInstruction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>
+        doseAdministrationAid:
+            expose: true
+            access_type: public_method
+            serialized_name: doseAdministrationAid
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseAdministrationAid
+                setter: setDoseAdministrationAid
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

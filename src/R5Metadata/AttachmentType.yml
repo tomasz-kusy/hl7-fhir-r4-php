@@ -1,0 +1,145 @@
+TKusy\Hl7Fhir\R5\AttachmentType:
+    properties:
+        contentType:
+            expose: true
+            access_type: public_method
+            serialized_name: contentType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentType
+                setter: setContentType
+            type: TKusy\Hl7Fhir\R5\CodeType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7Fhir\R5\CodeType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            type: TKusy\Hl7Fhir\R5\Base64BinaryType
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7Fhir\R5\UrlType
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: size
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSize
+                setter: setSize
+            type: TKusy\Hl7Fhir\R5\Integer64Type
+        hash:
+            expose: true
+            access_type: public_method
+            serialized_name: hash
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHash
+                setter: setHash
+            type: TKusy\Hl7Fhir\R5\Base64BinaryType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        creation:
+            expose: true
+            access_type: public_method
+            serialized_name: creation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreation
+                setter: setCreation
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        frames:
+            expose: true
+            access_type: public_method
+            serialized_name: frames
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFrames
+                setter: setFrames
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        pages:
+            expose: true
+            access_type: public_method
+            serialized_name: pages
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPages
+                setter: setPages
+            type: TKusy\Hl7Fhir\R5\PositiveIntType

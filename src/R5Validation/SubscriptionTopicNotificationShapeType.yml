@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicNotificationShapeType:
+    properties:
+        resource:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        include:
+            -
+                Valid: null
+        revInclude:
+            -
+                Valid: null

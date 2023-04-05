@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\PersonType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        gender:
+            -
+                Valid: null
+        birthDate:
+            -
+                Valid: null
+        deceasedBoolean:
+            -
+                Valid: null
+        deceasedDateTime:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        maritalStatus:
+            -
+                Valid: null
+        photo:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null
+        managingOrganization:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null

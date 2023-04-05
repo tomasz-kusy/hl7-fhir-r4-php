@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\TerminologyCapabilitiesVersionType:
+    properties:
+        code:
+            -
+                Valid: null
+        isDefault:
+            -
+                Valid: null
+        compositional:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        filter:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null

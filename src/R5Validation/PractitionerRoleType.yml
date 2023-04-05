@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\PractitionerRoleType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        practitioner:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        healthcareService:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null
+        availability:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null

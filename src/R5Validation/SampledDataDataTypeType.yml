@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\SampledDataDataTypeType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~((-{0,1}\d*\.{0,1}\d+)|[EUL])( ((-{0,1}\d*\.{0,1}\d+)|[EUL]))*~'
+                    groups:
+                        - xsd_rules

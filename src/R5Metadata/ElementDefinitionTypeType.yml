@@ -1,0 +1,69 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionTypeType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\UriType
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            xml_list:
+                inline: true
+                entry_name: profile
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CanonicalType>
+        targetProfile:
+            expose: true
+            access_type: public_method
+            serialized_name: targetProfile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetProfile
+                setter: setTargetProfile
+            xml_list:
+                inline: true
+                entry_name: targetProfile
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CanonicalType>
+        aggregation:
+            expose: true
+            access_type: public_method
+            serialized_name: aggregation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAggregation
+                setter: setAggregation
+            xml_list:
+                inline: true
+                entry_name: aggregation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AggregationModeType>
+        versioning:
+            expose: true
+            access_type: public_method
+            serialized_name: versioning
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersioning
+                setter: setVersioning
+            type: TKusy\Hl7Fhir\R5\ReferenceVersionRulesType

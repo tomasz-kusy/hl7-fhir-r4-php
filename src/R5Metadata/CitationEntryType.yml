@@ -1,0 +1,102 @@
+TKusy\Hl7Fhir\R5\CitationEntryType:
+    properties:
+        contributor:
+            expose: true
+            access_type: public_method
+            serialized_name: contributor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContributor
+                setter: setContributor
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        forenameInitials:
+            expose: true
+            access_type: public_method
+            serialized_name: forenameInitials
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getForenameInitials
+                setter: setForenameInitials
+            type: TKusy\Hl7Fhir\R5\StringType
+        affiliation:
+            expose: true
+            access_type: public_method
+            serialized_name: affiliation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAffiliation
+                setter: setAffiliation
+            xml_list:
+                inline: true
+                entry_name: affiliation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        contributionType:
+            expose: true
+            access_type: public_method
+            serialized_name: contributionType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContributionType
+                setter: setContributionType
+            xml_list:
+                inline: true
+                entry_name: contributionType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        contributionInstance:
+            expose: true
+            access_type: public_method
+            serialized_name: contributionInstance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContributionInstance
+                setter: setContributionInstance
+            xml_list:
+                inline: true
+                entry_name: contributionInstance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CitationContributionInstanceType>
+        correspondingContact:
+            expose: true
+            access_type: public_method
+            serialized_name: correspondingContact
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCorrespondingContact
+                setter: setCorrespondingContact
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        rankingOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: rankingOrder
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRankingOrder
+                setter: setRankingOrder
+            type: TKusy\Hl7Fhir\R5\PositiveIntType

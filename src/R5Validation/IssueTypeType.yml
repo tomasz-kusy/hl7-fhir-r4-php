@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R5\IssueTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - invalid
+                        - structure
+                        - required
+                        - value
+                        - invariant
+                        - security
+                        - login
+                        - unknown
+                        - expired
+                        - forbidden
+                        - suppressed
+                        - processing
+                        - not-supported
+                        - duplicate
+                        - multiple-matches
+                        - not-found
+                        - deleted
+                        - too-long
+                        - code-invalid
+                        - extension
+                        - too-costly
+                        - business-rule
+                        - conflict
+                        - limited-filter
+                        - transient
+                        - lock-error
+                        - no-store
+                        - exception
+                        - timeout
+                        - incomplete
+                        - throttled
+                        - informational
+                        - success
+                    groups:
+                        - xsd_rules

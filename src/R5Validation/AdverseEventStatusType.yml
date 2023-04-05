@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\AdverseEventStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-progress
+                        - completed
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

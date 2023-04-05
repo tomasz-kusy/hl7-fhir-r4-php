@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitReviewOutcomeType:
+    properties:
+        decision:
+            expose: true
+            access_type: public_method
+            serialized_name: decision
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDecision
+                setter: setDecision
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            xml_list:
+                inline: true
+                entry_name: reason
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        preAuthRef:
+            expose: true
+            access_type: public_method
+            serialized_name: preAuthRef
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreAuthRef
+                setter: setPreAuthRef
+            type: TKusy\Hl7Fhir\R5\StringType
+        preAuthPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: preAuthPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreAuthPeriod
+                setter: setPreAuthPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType

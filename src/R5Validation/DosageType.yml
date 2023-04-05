@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\DosageType:
+    properties:
+        sequence:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        additionalInstruction:
+            -
+                Valid: null
+        patientInstruction:
+            -
+                Valid: null
+        timing:
+            -
+                Valid: null
+        asNeeded:
+            -
+                Valid: null
+        asNeededFor:
+            -
+                Valid: null
+        site:
+            -
+                Valid: null
+        route:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        doseAndRate:
+            -
+                Valid: null
+        maxDosePerPeriod:
+            -
+                Valid: null
+        maxDosePerAdministration:
+            -
+                Valid: null
+        maxDosePerLifetime:
+            -
+                Valid: null

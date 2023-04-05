@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\IngredientStrengthType:
+    properties:
+        presentationRatio:
+            -
+                Valid: null
+        presentationRatioRange:
+            -
+                Valid: null
+        presentationCodeableConcept:
+            -
+                Valid: null
+        presentationQuantity:
+            -
+                Valid: null
+        textPresentation:
+            -
+                Valid: null
+        concentrationRatio:
+            -
+                Valid: null
+        concentrationRatioRange:
+            -
+                Valid: null
+        concentrationCodeableConcept:
+            -
+                Valid: null
+        concentrationQuantity:
+            -
+                Valid: null
+        textConcentration:
+            -
+                Valid: null
+        basis:
+            -
+                Valid: null
+        measurementPoint:
+            -
+                Valid: null
+        country:
+            -
+                Valid: null
+        referenceStrength:
+            -
+                Valid: null

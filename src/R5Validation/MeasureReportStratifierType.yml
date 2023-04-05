@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\MeasureReportStratifierType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        stratum:
+            -
+                Valid: null

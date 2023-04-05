@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\MessageheaderResponseRequestType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - always
+                        - on-error
+                        - never
+                        - on-success
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideResourceType:
+    properties:
+        reference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        fhirVersion:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        isExample:
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        groupingId:
+            -
+                Valid: null

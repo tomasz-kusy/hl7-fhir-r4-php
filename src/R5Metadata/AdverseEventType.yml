@@ -1,0 +1,336 @@
+TKusy\Hl7Fhir\R5\AdverseEventType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\AdverseEventStatusType
+        actuality:
+            expose: true
+            access_type: public_method
+            serialized_name: actuality
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActuality
+                setter: setActuality
+            type: TKusy\Hl7Fhir\R5\AdverseEventActualityType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        encounter:
+            expose: true
+            access_type: public_method
+            serialized_name: encounter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEncounter
+                setter: setEncounter
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        occurrenceDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceDateTime
+                setter: setOccurrenceDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        occurrencePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrencePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrencePeriod
+                setter: setOccurrencePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        occurrenceTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceTiming
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceTiming
+                setter: setOccurrenceTiming
+            type: TKusy\Hl7Fhir\R5\TimingType
+        detected:
+            expose: true
+            access_type: public_method
+            serialized_name: detected
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetected
+                setter: setDetected
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        recordedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: recordedDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecordedDate
+                setter: setRecordedDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        resultingEffect:
+            expose: true
+            access_type: public_method
+            serialized_name: resultingEffect
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResultingEffect
+                setter: setResultingEffect
+            xml_list:
+                inline: true
+                entry_name: resultingEffect
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        seriousness:
+            expose: true
+            access_type: public_method
+            serialized_name: seriousness
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeriousness
+                setter: setSeriousness
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            xml_list:
+                inline: true
+                entry_name: outcome
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        recorder:
+            expose: true
+            access_type: public_method
+            serialized_name: recorder
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecorder
+                setter: setRecorder
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        participant:
+            expose: true
+            access_type: public_method
+            serialized_name: participant
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParticipant
+                setter: setParticipant
+            xml_list:
+                inline: true
+                entry_name: participant
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AdverseEventParticipantType>
+        study:
+            expose: true
+            access_type: public_method
+            serialized_name: study
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudy
+                setter: setStudy
+            xml_list:
+                inline: true
+                entry_name: study
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        expectedInResearchStudy:
+            expose: true
+            access_type: public_method
+            serialized_name: expectedInResearchStudy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpectedInResearchStudy
+                setter: setExpectedInResearchStudy
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        suspectEntity:
+            expose: true
+            access_type: public_method
+            serialized_name: suspectEntity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSuspectEntity
+                setter: setSuspectEntity
+            xml_list:
+                inline: true
+                entry_name: suspectEntity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AdverseEventSuspectEntityType>
+        contributingFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: contributingFactor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContributingFactor
+                setter: setContributingFactor
+            xml_list:
+                inline: true
+                entry_name: contributingFactor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AdverseEventContributingFactorType>
+        preventiveAction:
+            expose: true
+            access_type: public_method
+            serialized_name: preventiveAction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreventiveAction
+                setter: setPreventiveAction
+            xml_list:
+                inline: true
+                entry_name: preventiveAction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AdverseEventPreventiveActionType>
+        mitigatingAction:
+            expose: true
+            access_type: public_method
+            serialized_name: mitigatingAction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMitigatingAction
+                setter: setMitigatingAction
+            xml_list:
+                inline: true
+                entry_name: mitigatingAction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AdverseEventMitigatingActionType>
+        supportingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: supportingInfo
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportingInfo
+                setter: setSupportingInfo
+            xml_list:
+                inline: true
+                entry_name: supportingInfo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AdverseEventSupportingInfoType>
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>

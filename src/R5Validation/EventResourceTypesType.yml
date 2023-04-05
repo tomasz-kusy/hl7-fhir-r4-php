@@ -1,0 +1,51 @@
+TKusy\Hl7Fhir\R5\EventResourceTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - AdverseEvent
+                        - AuditEvent
+                        - ChargeItem
+                        - ClaimResponse
+                        - ClinicalImpression
+                        - Communication
+                        - Composition
+                        - Consent
+                        - Contract
+                        - Coverage
+                        - CoverageEligibilityResponse
+                        - DetectedIssue
+                        - DeviceDispense
+                        - DeviceUsage
+                        - DiagnosticReport
+                        - DocumentReference
+                        - Encounter
+                        - EnrollmentResponse
+                        - EpisodeOfCare
+                        - ExplanationOfBenefit
+                        - FamilyMemberHistory
+                        - GenomicStudy
+                        - GuidanceResponse
+                        - ImagingSelection
+                        - ImagingStudy
+                        - Immunization
+                        - ImmunizationEvaluation
+                        - InventoryReport
+                        - Invoice
+                        - MedicationAdministration
+                        - MedicationDispense
+                        - MedicationStatement
+                        - MessageHeader
+                        - NutritionIntake
+                        - Observation
+                        - PaymentNotice
+                        - PaymentReconciliation
+                        - Procedure
+                        - Provenance
+                        - QuestionnaireResponse
+                        - RiskAssessment
+                        - SupplyDelivery
+                        - Transport
+                    groups:
+                        - xsd_rules

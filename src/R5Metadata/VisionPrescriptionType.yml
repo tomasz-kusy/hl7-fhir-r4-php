@@ -1,0 +1,98 @@
+TKusy\Hl7Fhir\R5\VisionPrescriptionType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\FinancialResourceStatusCodesType
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        encounter:
+            expose: true
+            access_type: public_method
+            serialized_name: encounter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEncounter
+                setter: setEncounter
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        dateWritten:
+            expose: true
+            access_type: public_method
+            serialized_name: dateWritten
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDateWritten
+                setter: setDateWritten
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        prescriber:
+            expose: true
+            access_type: public_method
+            serialized_name: prescriber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrescriber
+                setter: setPrescriber
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        lensSpecification:
+            expose: true
+            access_type: public_method
+            serialized_name: lensSpecification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLensSpecification
+                setter: setLensSpecification
+            xml_list:
+                inline: true
+                entry_name: lensSpecification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\VisionPrescriptionLensSpecificationType>

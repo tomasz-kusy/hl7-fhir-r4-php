@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\DocumentReferenceProfileType:
+    properties:
+        valueCoding:
+            -
+                Valid: null
+        valueUri:
+            -
+                Valid: null
+        valueCanonical:
+            -
+                Valid: null

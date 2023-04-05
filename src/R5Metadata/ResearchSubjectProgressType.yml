@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R5\ResearchSubjectProgressType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        subjectState:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectState
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectState
+                setter: setSubjectState
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        milestone:
+            expose: true
+            access_type: public_method
+            serialized_name: milestone
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMilestone
+                setter: setMilestone
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        startDate:
+            expose: true
+            access_type: public_method
+            serialized_name: startDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStartDate
+                setter: setStartDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: endDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType

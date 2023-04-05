@@ -1,0 +1,52 @@
+TKusy\Hl7Fhir\R5\ProvenanceType:
+    properties:
+        target:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        occurredPeriod:
+            -
+                Valid: null
+        occurredDateTime:
+            -
+                Valid: null
+        recorded:
+            -
+                Valid: null
+        policy:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        authorization:
+            -
+                Valid: null
+        activity:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        agent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        entity:
+            -
+                Valid: null
+        signature:
+            -
+                Valid: null

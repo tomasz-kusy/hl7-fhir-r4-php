@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityResponseEventType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        whenDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: whenDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWhenDateTime
+                setter: setWhenDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        whenPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: whenPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWhenPeriod
+                setter: setWhenPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ClaimPayeeType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        party:
+            -
+                Valid: null

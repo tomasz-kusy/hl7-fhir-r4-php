@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R5\MessageDefinitionFocusType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        min:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        max:
+            -
+                Valid: null

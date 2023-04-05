@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ClaimRelatedType:
+    properties:
+        claim:
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null

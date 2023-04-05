@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ProcedurePerformerType:
+    properties:
+        function:
+            expose: true
+            access_type: public_method
+            serialized_name: function
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFunction
+                setter: setFunction
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: actor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActor
+                setter: setActor
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        onBehalfOf:
+            expose: true
+            access_type: public_method
+            serialized_name: onBehalfOf
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOnBehalfOf
+                setter: setOnBehalfOf
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType

@@ -1,0 +1,123 @@
+TKusy\Hl7Fhir\R5\StructureMapSourceType:
+    properties:
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: context
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContext
+                setter: setContext
+            type: TKusy\Hl7Fhir\R5\IdType
+        min:
+            expose: true
+            access_type: public_method
+            serialized_name: min
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMin
+                setter: setMin
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        max:
+            expose: true
+            access_type: public_method
+            serialized_name: max
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMax
+                setter: setMax
+            type: TKusy\Hl7Fhir\R5\StringType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\StringType
+        defaultValue:
+            expose: true
+            access_type: public_method
+            serialized_name: defaultValue
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefaultValue
+                setter: setDefaultValue
+            type: TKusy\Hl7Fhir\R5\StringType
+        element:
+            expose: true
+            access_type: public_method
+            serialized_name: element
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getElement
+                setter: setElement
+            type: TKusy\Hl7Fhir\R5\StringType
+        listMode:
+            expose: true
+            access_type: public_method
+            serialized_name: listMode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getListMode
+                setter: setListMode
+            type: TKusy\Hl7Fhir\R5\StructureMapSourceListModeType
+        variable:
+            expose: true
+            access_type: public_method
+            serialized_name: variable
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVariable
+                setter: setVariable
+            type: TKusy\Hl7Fhir\R5\IdType
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: TKusy\Hl7Fhir\R5\StringType
+        check:
+            expose: true
+            access_type: public_method
+            serialized_name: check
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCheck
+                setter: setCheck
+            type: TKusy\Hl7Fhir\R5\StringType
+        logMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: logMessage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLogMessage
+                setter: setLogMessage
+            type: TKusy\Hl7Fhir\R5\StringType

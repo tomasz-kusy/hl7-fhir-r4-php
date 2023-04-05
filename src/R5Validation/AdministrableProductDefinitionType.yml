@@ -1,0 +1,43 @@
+TKusy\Hl7Fhir\R5\AdministrableProductDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        formOf:
+            -
+                Valid: null
+        administrableDoseForm:
+            -
+                Valid: null
+        unitOfPresentation:
+            -
+                Valid: null
+        producedFrom:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        routeOfAdministration:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

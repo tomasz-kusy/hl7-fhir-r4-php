@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionBindingType:
+    properties:
+        strength:
+            expose: true
+            access_type: public_method
+            serialized_name: strength
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrength
+                setter: setStrength
+            type: TKusy\Hl7Fhir\R5\BindingStrengthType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        valueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSet
+                setter: setValueSet
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        additional:
+            expose: true
+            access_type: public_method
+            serialized_name: additional
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditional
+                setter: setAdditional
+            xml_list:
+                inline: true
+                entry_name: additional
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ElementDefinitionAdditionalType>

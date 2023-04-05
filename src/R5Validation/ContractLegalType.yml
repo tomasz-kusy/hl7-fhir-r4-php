@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\ContractLegalType:
+    properties:
+        contentAttachment:
+            -
+                Valid: null
+        contentReference:
+            -
+                Valid: null

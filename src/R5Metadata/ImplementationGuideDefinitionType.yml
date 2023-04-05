@@ -1,0 +1,73 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideDefinitionType:
+    properties:
+        grouping:
+            expose: true
+            access_type: public_method
+            serialized_name: grouping
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGrouping
+                setter: setGrouping
+            xml_list:
+                inline: true
+                entry_name: grouping
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImplementationGuideGroupingType>
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            xml_list:
+                inline: true
+                entry_name: resource
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImplementationGuideResourceType>
+        page:
+            expose: true
+            access_type: public_method
+            serialized_name: page
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPage
+                setter: setPage
+            type: TKusy\Hl7Fhir\R5\ImplementationGuidePageType
+        parameter:
+            expose: true
+            access_type: public_method
+            serialized_name: parameter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParameter
+                setter: setParameter
+            xml_list:
+                inline: true
+                entry_name: parameter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImplementationGuideParameterType>
+        template:
+            expose: true
+            access_type: public_method
+            serialized_name: template
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTemplate
+                setter: setTemplate
+            xml_list:
+                inline: true
+                entry_name: template
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImplementationGuideTemplateType>

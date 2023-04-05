@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\BundleResponseType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\StringType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\UriType
+        etag:
+            expose: true
+            access_type: public_method
+            serialized_name: etag
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEtag
+                setter: setEtag
+            type: TKusy\Hl7Fhir\R5\StringType
+        lastModified:
+            expose: true
+            access_type: public_method
+            serialized_name: lastModified
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLastModified
+                setter: setLastModified
+            type: TKusy\Hl7Fhir\R5\InstantType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7Fhir\R5\ResourceContainerType

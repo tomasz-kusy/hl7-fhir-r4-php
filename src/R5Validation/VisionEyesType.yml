@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\VisionEyesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - right
+                        - left
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ClaimAccidentType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        locationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: locationAddress
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocationAddress
+                setter: setLocationAddress
+            type: TKusy\Hl7Fhir\R5\AddressType
+        locationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: locationReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocationReference
+                setter: setLocationReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

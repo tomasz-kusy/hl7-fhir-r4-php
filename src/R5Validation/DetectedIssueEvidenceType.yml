@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\DetectedIssueEvidenceType:
+    properties:
+        code:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

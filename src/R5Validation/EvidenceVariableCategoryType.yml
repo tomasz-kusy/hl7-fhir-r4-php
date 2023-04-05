@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableCategoryType:
+    properties:
+        name:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null

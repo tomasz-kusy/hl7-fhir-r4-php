@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\ResearchStudyAssociatedPartyType:
+    properties:
+        name:
+            -
+                Valid: null
+        role:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        classifier:
+            -
+                Valid: null
+        party:
+            -
+                Valid: null

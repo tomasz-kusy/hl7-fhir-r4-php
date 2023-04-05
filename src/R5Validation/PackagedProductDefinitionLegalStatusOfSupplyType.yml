@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\PackagedProductDefinitionLegalStatusOfSupplyType:
+    properties:
+        code:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null

@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ClaimSupportingInfoType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        timingDate:
+            -
+                Valid: null
+        timingPeriod:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        valueIdentifier:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null

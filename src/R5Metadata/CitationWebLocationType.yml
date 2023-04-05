@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\CitationWebLocationType:
+    properties:
+        classifier:
+            expose: true
+            access_type: public_method
+            serialized_name: classifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassifier
+                setter: setClassifier
+            xml_list:
+                inline: true
+                entry_name: classifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7Fhir\R5\UriType

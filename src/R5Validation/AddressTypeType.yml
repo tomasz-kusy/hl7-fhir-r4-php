@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\AddressTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - postal
+                        - physical
+                        - both
+                    groups:
+                        - xsd_rules

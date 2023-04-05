@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\TestReportType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        testScript:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        result:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        score:
+            -
+                Valid: null
+        tester:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        setup:
+            -
+                Valid: null
+        test:
+            -
+                Valid: null
+        teardown:
+            -
+                Valid: null

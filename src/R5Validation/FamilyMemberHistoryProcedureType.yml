@@ -1,0 +1,33 @@
+TKusy\Hl7Fhir\R5\FamilyMemberHistoryProcedureType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        contributedToDeath:
+            -
+                Valid: null
+        performedAge:
+            -
+                Valid: null
+        performedRange:
+            -
+                Valid: null
+        performedPeriod:
+            -
+                Valid: null
+        performedString:
+            -
+                Valid: null
+        performedDateTime:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

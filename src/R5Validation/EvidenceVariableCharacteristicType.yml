@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableCharacteristicType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        exclude:
+            -
+                Valid: null
+        definitionReference:
+            -
+                Valid: null
+        definitionCanonical:
+            -
+                Valid: null
+        definitionCodeableConcept:
+            -
+                Valid: null
+        definitionExpression:
+            -
+                Valid: null
+        definitionId:
+            -
+                Valid: null
+        definitionByTypeAndValue:
+            -
+                Valid: null
+        definitionByCombination:
+            -
+                Valid: null
+        instancesQuantity:
+            -
+                Valid: null
+        instancesRange:
+            -
+                Valid: null
+        durationQuantity:
+            -
+                Valid: null
+        durationRange:
+            -
+                Valid: null
+        timeFromEvent:
+            -
+                Valid: null

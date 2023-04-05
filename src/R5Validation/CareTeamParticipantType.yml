@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\CareTeamParticipantType:
+    properties:
+        role:
+            -
+                Valid: null
+        member:
+            -
+                Valid: null
+        onBehalfOf:
+            -
+                Valid: null
+        coveragePeriod:
+            -
+                Valid: null
+        coverageTiming:
+            -
+                Valid: null

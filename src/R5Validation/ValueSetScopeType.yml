@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\ValueSetScopeType:
+    properties:
+        inclusionCriteria:
+            -
+                Valid: null
+        exclusionCriteria:
+            -
+                Valid: null

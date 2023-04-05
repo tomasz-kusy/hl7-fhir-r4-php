@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityRequestDiagnosisType:
+    properties:
+        diagnosisCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosisCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnosisCodeableConcept
+                setter: setDiagnosisCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        diagnosisReference:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosisReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnosisReference
+                setter: setDiagnosisReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

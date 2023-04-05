@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeDosingGuidelineType:
+    properties:
+        treatmentIntent:
+            expose: true
+            access_type: public_method
+            serialized_name: treatmentIntent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTreatmentIntent
+                setter: setTreatmentIntent
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        dosage:
+            expose: true
+            access_type: public_method
+            serialized_name: dosage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDosage
+                setter: setDosage
+            xml_list:
+                inline: true
+                entry_name: dosage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationKnowledgeDosageType>
+        administrationTreatment:
+            expose: true
+            access_type: public_method
+            serialized_name: administrationTreatment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdministrationTreatment
+                setter: setAdministrationTreatment
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        patientCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: patientCharacteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatientCharacteristic
+                setter: setPatientCharacteristic
+            xml_list:
+                inline: true
+                entry_name: patientCharacteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationKnowledgePatientCharacteristicType>

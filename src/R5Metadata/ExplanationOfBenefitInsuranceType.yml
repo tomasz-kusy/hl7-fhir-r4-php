@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitInsuranceType:
+    properties:
+        focal:
+            expose: true
+            access_type: public_method
+            serialized_name: focal
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFocal
+                setter: setFocal
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        coverage:
+            expose: true
+            access_type: public_method
+            serialized_name: coverage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoverage
+                setter: setCoverage
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        preAuthRef:
+            expose: true
+            access_type: public_method
+            serialized_name: preAuthRef
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreAuthRef
+                setter: setPreAuthRef
+            xml_list:
+                inline: true
+                entry_name: preAuthRef
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>

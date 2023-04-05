@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\EvidenceModelCharacteristicType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        variable:
+            -
+                Valid: null
+        attributeEstimate:
+            -
+                Valid: null

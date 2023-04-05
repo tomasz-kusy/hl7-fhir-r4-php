@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\PermissionResourceType:
+    properties:
+        meaning:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

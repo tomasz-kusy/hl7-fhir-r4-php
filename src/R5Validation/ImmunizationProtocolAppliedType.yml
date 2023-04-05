@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\ImmunizationProtocolAppliedType:
+    properties:
+        series:
+            -
+                Valid: null
+        authority:
+            -
+                Valid: null
+        targetDisease:
+            -
+                Valid: null
+        doseNumber:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        seriesDoses:
+            -
+                Valid: null

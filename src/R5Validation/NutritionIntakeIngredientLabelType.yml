@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\NutritionIntakeIngredientLabelType:
+    properties:
+        nutrient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

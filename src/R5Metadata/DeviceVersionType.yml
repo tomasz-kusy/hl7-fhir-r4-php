@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\DeviceVersionType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        component:
+            expose: true
+            access_type: public_method
+            serialized_name: component
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComponent
+                setter: setComponent
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        installDate:
+            expose: true
+            access_type: public_method
+            serialized_name: installDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstallDate
+                setter: setInstallDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R5\StringType

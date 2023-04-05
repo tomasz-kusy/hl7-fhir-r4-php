@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\DeviceUsageStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - completed
+                        - not-done
+                        - entered-in-error
+                        - intended
+                        - stopped
+                        - on-hold
+                    groups:
+                        - xsd_rules

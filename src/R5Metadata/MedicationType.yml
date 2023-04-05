@@ -1,0 +1,109 @@
+TKusy\Hl7Fhir\R5\MedicationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\MedicationStatusCodesType
+        marketingAuthorizationHolder:
+            expose: true
+            access_type: public_method
+            serialized_name: marketingAuthorizationHolder
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMarketingAuthorizationHolder
+                setter: setMarketingAuthorizationHolder
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        doseForm:
+            expose: true
+            access_type: public_method
+            serialized_name: doseForm
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseForm
+                setter: setDoseForm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        totalVolume:
+            expose: true
+            access_type: public_method
+            serialized_name: totalVolume
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTotalVolume
+                setter: setTotalVolume
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        ingredient:
+            expose: true
+            access_type: public_method
+            serialized_name: ingredient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIngredient
+                setter: setIngredient
+            xml_list:
+                inline: true
+                entry_name: ingredient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationIngredientType>
+        batch:
+            expose: true
+            access_type: public_method
+            serialized_name: batch
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBatch
+                setter: setBatch
+            type: TKusy\Hl7Fhir\R5\MedicationBatchType
+        definition:
+            expose: true
+            access_type: public_method
+            serialized_name: definition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinition
+                setter: setDefinition
+            type: TKusy\Hl7Fhir\R5\ReferenceType

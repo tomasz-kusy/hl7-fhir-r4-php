@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R5\TestScriptAction2Type:
+    properties:
+        operation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

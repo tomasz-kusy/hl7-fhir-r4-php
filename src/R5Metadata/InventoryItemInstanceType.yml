@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\InventoryItemInstanceType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        lotNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: lotNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLotNumber
+                setter: setLotNumber
+            type: TKusy\Hl7Fhir\R5\StringType
+        expiry:
+            expose: true
+            access_type: public_method
+            serialized_name: expiry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpiry
+                setter: setExpiry
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType

@@ -1,0 +1,107 @@
+TKusy\Hl7Fhir\R5\PlanDefinitionActionType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        prefix:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        textEquivalent:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        goalId:
+            -
+                Valid: null
+        subjectCodeableConcept:
+            -
+                Valid: null
+        subjectReference:
+            -
+                Valid: null
+        subjectCanonical:
+            -
+                Valid: null
+        trigger:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        input:
+            -
+                Valid: null
+        output:
+            -
+                Valid: null
+        relatedAction:
+            -
+                Valid: null
+        timingAge:
+            -
+                Valid: null
+        timingDuration:
+            -
+                Valid: null
+        timingRange:
+            -
+                Valid: null
+        timingTiming:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        groupingBehavior:
+            -
+                Valid: null
+        selectionBehavior:
+            -
+                Valid: null
+        requiredBehavior:
+            -
+                Valid: null
+        precheckBehavior:
+            -
+                Valid: null
+        cardinalityBehavior:
+            -
+                Valid: null
+        definitionCanonical:
+            -
+                Valid: null
+        definitionUri:
+            -
+                Valid: null
+        transform:
+            -
+                Valid: null
+        dynamicValue:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null

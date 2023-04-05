@@ -1,0 +1,128 @@
+TKusy\Hl7Fhir\R5\ServiceRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        replaces:
+            -
+                Valid: null
+        requisition:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        doNotPerform:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        orderDetail:
+            -
+                Valid: null
+        quantityQuantity:
+            -
+                Valid: null
+        quantityRatio:
+            -
+                Valid: null
+        quantityRange:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        asNeededBoolean:
+            -
+                Valid: null
+        asNeededCodeableConcept:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        performerType:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        bodyStructure:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        patientInstruction:
+            -
+                Valid: null
+        relevantHistory:
+            -
+                Valid: null

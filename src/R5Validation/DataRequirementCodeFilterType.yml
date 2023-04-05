@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\DataRequirementCodeFilterType:
+    properties:
+        path:
+            -
+                Valid: null
+        searchParam:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null

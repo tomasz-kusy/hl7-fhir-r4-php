@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\IssueSeverityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - fatal
+                        - error
+                        - warning
+                        - information
+                        - success
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,31 @@
+TKusy\Hl7Fhir\R5\PermissionType:
+    properties:
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        asserter:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        validity:
+            -
+                Valid: null
+        justification:
+            -
+                Valid: null
+        combining:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        rule:
+            -
+                Valid: null

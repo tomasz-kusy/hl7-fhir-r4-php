@@ -1,0 +1,53 @@
+TKusy\Hl7Fhir\R5\TimingRepeatType:
+    properties:
+        boundsDuration:
+            -
+                Valid: null
+        boundsRange:
+            -
+                Valid: null
+        boundsPeriod:
+            -
+                Valid: null
+        count:
+            -
+                Valid: null
+        countMax:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null
+        durationMax:
+            -
+                Valid: null
+        durationUnit:
+            -
+                Valid: null
+        frequency:
+            -
+                Valid: null
+        frequencyMax:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        periodMax:
+            -
+                Valid: null
+        periodUnit:
+            -
+                Valid: null
+        dayOfWeek:
+            -
+                Valid: null
+        timeOfDay:
+            -
+                Valid: null
+        when:
+            -
+                Valid: null
+        offset:
+            -
+                Valid: null

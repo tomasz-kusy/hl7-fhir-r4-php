@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SubstanceReferenceInformationGeneType:
+    properties:
+        geneSequenceOrigin:
+            -
+                Valid: null
+        gene:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

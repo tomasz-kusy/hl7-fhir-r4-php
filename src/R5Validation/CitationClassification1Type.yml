@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\CitationClassification1Type:
+    properties:
+        type:
+            -
+                Valid: null
+        classifier:
+            -
+                Valid: null
+        artifactAssessment:
+            -
+                Valid: null

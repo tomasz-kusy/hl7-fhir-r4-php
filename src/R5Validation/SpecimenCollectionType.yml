@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\SpecimenCollectionType:
+    properties:
+        collector:
+            -
+                Valid: null
+        collectedDateTime:
+            -
+                Valid: null
+        collectedPeriod:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        fastingStatusCodeableConcept:
+            -
+                Valid: null
+        fastingStatusDuration:
+            -
+                Valid: null

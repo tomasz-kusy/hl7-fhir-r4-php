@@ -1,0 +1,83 @@
+TKusy\Hl7Fhir\R5\NutritionProductInstanceType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        lotNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: lotNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLotNumber
+                setter: setLotNumber
+            type: TKusy\Hl7Fhir\R5\StringType
+        expiry:
+            expose: true
+            access_type: public_method
+            serialized_name: expiry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpiry
+                setter: setExpiry
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        useBy:
+            expose: true
+            access_type: public_method
+            serialized_name: useBy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUseBy
+                setter: setUseBy
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        biologicalSourceEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: biologicalSourceEvent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBiologicalSourceEvent
+                setter: setBiologicalSourceEvent
+            type: TKusy\Hl7Fhir\R5\IdentifierType

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\CapabilityStatementRestType:
+    properties:
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        security:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        interaction:
+            -
+                Valid: null
+        searchParam:
+            -
+                Valid: null
+        operation:
+            -
+                Valid: null
+        compartment:
+            -
+                Valid: null

@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\EncounterLocationType:
+    properties:
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\EncounterLocationStatusType
+        form:
+            expose: true
+            access_type: public_method
+            serialized_name: form
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getForm
+                setter: setForm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType

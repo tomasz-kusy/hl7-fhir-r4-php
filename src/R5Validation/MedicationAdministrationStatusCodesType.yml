@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\MedicationAdministrationStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-progress
+                        - not-done
+                        - on-hold
+                        - completed
+                        - entered-in-error
+                        - stopped
+                        - unknown
+                    groups:
+                        - xsd_rules

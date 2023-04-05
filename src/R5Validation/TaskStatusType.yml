@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\TaskStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - draft
+                        - requested
+                        - received
+                        - accepted
+                        - rejected
+                        - ready
+                        - cancelled
+                        - in-progress
+                        - on-hold
+                        - failed
+                        - completed
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

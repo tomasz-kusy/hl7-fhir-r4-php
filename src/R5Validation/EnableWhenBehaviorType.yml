@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\EnableWhenBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - all
+                        - any
+                    groups:
+                        - xsd_rules

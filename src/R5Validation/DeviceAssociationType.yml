@@ -1,0 +1,37 @@
+TKusy\Hl7Fhir\R5\DeviceAssociationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        device:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        bodyStructure:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        operation:
+            -
+                Valid: null

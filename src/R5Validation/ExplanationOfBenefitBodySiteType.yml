@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitBodySiteType:
+    properties:
+        site:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subSite:
+            -
+                Valid: null

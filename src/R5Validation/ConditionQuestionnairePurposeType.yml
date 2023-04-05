@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ConditionQuestionnairePurposeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preadmit
+                        - diff-diagnosis
+                        - outcome
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\MolecularSequenceStartingSequenceType:
+    properties:
+        genomeAssembly:
+            -
+                Valid: null
+        chromosome:
+            -
+                Valid: null
+        sequenceCodeableConcept:
+            -
+                Valid: null
+        sequenceString:
+            -
+                Valid: null
+        sequenceReference:
+            -
+                Valid: null
+        windowStart:
+            -
+                Valid: null
+        windowEnd:
+            -
+                Valid: null
+        orientation:
+            -
+                Valid: null
+        strand:
+            -
+                Valid: null

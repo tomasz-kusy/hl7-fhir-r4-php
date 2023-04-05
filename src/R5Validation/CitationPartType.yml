@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\CitationPartType:
+    properties:
+        type:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        baseCitation:
+            -
+                Valid: null

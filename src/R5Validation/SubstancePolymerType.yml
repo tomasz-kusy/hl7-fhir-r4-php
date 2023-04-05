@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        class:
+            -
+                Valid: null
+        geometry:
+            -
+                Valid: null
+        copolymerConnectivity:
+            -
+                Valid: null
+        modification:
+            -
+                Valid: null
+        monomerSet:
+            -
+                Valid: null
+        repeat:
+            -
+                Valid: null

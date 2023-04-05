@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\MedicationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        marketingAuthorizationHolder:
+            -
+                Valid: null
+        doseForm:
+            -
+                Valid: null
+        totalVolume:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        batch:
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null

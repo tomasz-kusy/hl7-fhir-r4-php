@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\QuestionnaireAnswerOptionType:
+    properties:
+        valueInteger:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueCoding:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        initialSelected:
+            -
+                Valid: null

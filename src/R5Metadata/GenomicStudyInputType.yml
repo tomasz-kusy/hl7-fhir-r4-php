@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\GenomicStudyInputType:
+    properties:
+        file:
+            expose: true
+            access_type: public_method
+            serialized_name: file
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFile
+                setter: setFile
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        generatedByIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: generatedByIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeneratedByIdentifier
+                setter: setGeneratedByIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        generatedByReference:
+            expose: true
+            access_type: public_method
+            serialized_name: generatedByReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeneratedByReference
+                setter: setGeneratedByReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

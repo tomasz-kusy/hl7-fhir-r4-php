@@ -1,0 +1,199 @@
+TKusy\Hl7Fhir\R5\PackagedProductDefinitionType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        packageFor:
+            expose: true
+            access_type: public_method
+            serialized_name: packageFor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackageFor
+                setter: setPackageFor
+            xml_list:
+                inline: true
+                entry_name: packageFor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        statusDate:
+            expose: true
+            access_type: public_method
+            serialized_name: statusDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatusDate
+                setter: setStatusDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        containedItemQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: containedItemQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContainedItemQuantity
+                setter: setContainedItemQuantity
+            xml_list:
+                inline: true
+                entry_name: containedItemQuantity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\QuantityType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        legalStatusOfSupply:
+            expose: true
+            access_type: public_method
+            serialized_name: legalStatusOfSupply
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLegalStatusOfSupply
+                setter: setLegalStatusOfSupply
+            xml_list:
+                inline: true
+                entry_name: legalStatusOfSupply
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PackagedProductDefinitionLegalStatusOfSupplyType>
+        marketingStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: marketingStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMarketingStatus
+                setter: setMarketingStatus
+            xml_list:
+                inline: true
+                entry_name: marketingStatus
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MarketingStatusType>
+        copackagedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: copackagedIndicator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopackagedIndicator
+                setter: setCopackagedIndicator
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        manufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturer
+                setter: setManufacturer
+            xml_list:
+                inline: true
+                entry_name: manufacturer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        attachedDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: attachedDocument
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttachedDocument
+                setter: setAttachedDocument
+            xml_list:
+                inline: true
+                entry_name: attachedDocument
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        packaging:
+            expose: true
+            access_type: public_method
+            serialized_name: packaging
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackaging
+                setter: setPackaging
+            type: TKusy\Hl7Fhir\R5\PackagedProductDefinitionPackagingType
+        characteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: characteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCharacteristic
+                setter: setCharacteristic
+            xml_list:
+                inline: true
+                entry_name: characteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PackagedProductDefinitionPropertyType>

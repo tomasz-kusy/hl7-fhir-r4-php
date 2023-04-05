@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R5\PackagedProductDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        packageFor:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        containedItemQuantity:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        legalStatusOfSupply:
+            -
+                Valid: null
+        marketingStatus:
+            -
+                Valid: null
+        copackagedIndicator:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        attachedDocument:
+            -
+                Valid: null
+        packaging:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null

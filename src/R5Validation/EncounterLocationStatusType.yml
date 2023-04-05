@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\EncounterLocationStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - planned
+                        - active
+                        - reserved
+                        - completed
+                    groups:
+                        - xsd_rules

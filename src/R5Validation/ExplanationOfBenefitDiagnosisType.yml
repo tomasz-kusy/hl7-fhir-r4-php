@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitDiagnosisType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        diagnosisCodeableConcept:
+            -
+                Valid: null
+        diagnosisReference:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        onAdmission:
+            -
+                Valid: null

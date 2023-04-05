@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\AppointmentResponseStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - accepted
+                        - declined
+                        - tentative
+                        - needs-action
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

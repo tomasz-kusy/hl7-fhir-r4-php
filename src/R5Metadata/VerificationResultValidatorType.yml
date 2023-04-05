@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\VerificationResultValidatorType:
+    properties:
+        organization:
+            expose: true
+            access_type: public_method
+            serialized_name: organization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganization
+                setter: setOrganization
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        identityCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: identityCertificate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentityCertificate
+                setter: setIdentityCertificate
+            type: TKusy\Hl7Fhir\R5\StringType
+        attestationSignature:
+            expose: true
+            access_type: public_method
+            serialized_name: attestationSignature
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAttestationSignature
+                setter: setAttestationSignature
+            type: TKusy\Hl7Fhir\R5\SignatureType

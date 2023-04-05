@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\AllergyIntoleranceCategoryType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - food
+                        - medication
+                        - environment
+                        - biologic
+                    groups:
+                        - xsd_rules

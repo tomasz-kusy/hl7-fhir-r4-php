@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionDGraphicTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - point
+                        - multipoint
+                        - polyline
+                        - polygon
+                        - ellipse
+                        - ellipsoid
+                    groups:
+                        - xsd_rules

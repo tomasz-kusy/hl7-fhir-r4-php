@@ -1,0 +1,63 @@
+TKusy\Hl7Fhir\R5\AllergyIntoleranceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        clinicalStatus:
+            -
+                Valid: null
+        verificationStatus:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        criticality:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        onsetDateTime:
+            -
+                Valid: null
+        onsetAge:
+            -
+                Valid: null
+        onsetPeriod:
+            -
+                Valid: null
+        onsetRange:
+            -
+                Valid: null
+        onsetString:
+            -
+                Valid: null
+        recordedDate:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        lastOccurrence:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        reaction:
+            -
+                Valid: null

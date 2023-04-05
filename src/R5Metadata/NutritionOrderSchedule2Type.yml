@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\NutritionOrderSchedule2Type:
+    properties:
+        timing:
+            expose: true
+            access_type: public_method
+            serialized_name: timing
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTiming
+                setter: setTiming
+            xml_list:
+                inline: true
+                entry_name: timing
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TimingType>
+        asNeeded:
+            expose: true
+            access_type: public_method
+            serialized_name: asNeeded
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAsNeeded
+                setter: setAsNeeded
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        asNeededFor:
+            expose: true
+            access_type: public_method
+            serialized_name: asNeededFor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAsNeededFor
+                setter: setAsNeededFor
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

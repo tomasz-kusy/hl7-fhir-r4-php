@@ -1,0 +1,31 @@
+TKusy\Hl7Fhir\R5\SubscriptionStatusType:
+    properties:
+        status:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        eventsSinceSubscriptionStart:
+            -
+                Valid: null
+        notificationEvent:
+            -
+                Valid: null
+        subscription:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        topic:
+            -
+                Valid: null
+        error:
+            -
+                Valid: null

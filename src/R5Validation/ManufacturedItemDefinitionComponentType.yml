@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionComponentType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        function:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        constituent:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

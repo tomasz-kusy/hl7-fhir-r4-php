@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\AppointmentResponseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        appointment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        proposedNewTime:
+            -
+                Valid: null
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        participantType:
+            -
+                Valid: null
+        actor:
+            -
+                Valid: null
+        participantStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        recurring:
+            -
+                Valid: null
+        occurrenceDate:
+            -
+                Valid: null
+        recurrenceId:
+            -
+                Valid: null

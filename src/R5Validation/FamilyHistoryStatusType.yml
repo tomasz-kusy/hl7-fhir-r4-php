@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\FamilyHistoryStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - partial
+                        - completed
+                        - entered-in-error
+                        - health-unknown
+                    groups:
+                        - xsd_rules

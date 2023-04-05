@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\ConsentProvisionTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - deny
+                        - permit
+                    groups:
+                        - xsd_rules

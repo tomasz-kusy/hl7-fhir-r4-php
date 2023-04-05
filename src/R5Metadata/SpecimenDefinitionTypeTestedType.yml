@@ -1,0 +1,124 @@
+TKusy\Hl7Fhir\R5\SpecimenDefinitionTypeTestedType:
+    properties:
+        isDerived:
+            expose: true
+            access_type: public_method
+            serialized_name: isDerived
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsDerived
+                setter: setIsDerived
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        preference:
+            expose: true
+            access_type: public_method
+            serialized_name: preference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreference
+                setter: setPreference
+            type: TKusy\Hl7Fhir\R5\SpecimenContainedPreferenceType
+        container:
+            expose: true
+            access_type: public_method
+            serialized_name: container
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContainer
+                setter: setContainer
+            type: TKusy\Hl7Fhir\R5\SpecimenDefinitionContainerType
+        requirement:
+            expose: true
+            access_type: public_method
+            serialized_name: requirement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequirement
+                setter: setRequirement
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        retentionTime:
+            expose: true
+            access_type: public_method
+            serialized_name: retentionTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRetentionTime
+                setter: setRetentionTime
+            type: TKusy\Hl7Fhir\R5\DurationType
+        singleUse:
+            expose: true
+            access_type: public_method
+            serialized_name: singleUse
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSingleUse
+                setter: setSingleUse
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        rejectionCriterion:
+            expose: true
+            access_type: public_method
+            serialized_name: rejectionCriterion
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRejectionCriterion
+                setter: setRejectionCriterion
+            xml_list:
+                inline: true
+                entry_name: rejectionCriterion
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        handling:
+            expose: true
+            access_type: public_method
+            serialized_name: handling
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHandling
+                setter: setHandling
+            xml_list:
+                inline: true
+                entry_name: handling
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SpecimenDefinitionHandlingType>
+        testingDestination:
+            expose: true
+            access_type: public_method
+            serialized_name: testingDestination
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTestingDestination
+                setter: setTestingDestination
+            xml_list:
+                inline: true
+                entry_name: testingDestination
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

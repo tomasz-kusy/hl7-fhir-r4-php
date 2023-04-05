@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R5\NutritionIntakeConsumedItemType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        nutritionProduct:
+            expose: true
+            access_type: public_method
+            serialized_name: nutritionProduct
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNutritionProduct
+                setter: setNutritionProduct
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        schedule:
+            expose: true
+            access_type: public_method
+            serialized_name: schedule
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSchedule
+                setter: setSchedule
+            type: TKusy\Hl7Fhir\R5\TimingType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        rate:
+            expose: true
+            access_type: public_method
+            serialized_name: rate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRate
+                setter: setRate
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        notConsumed:
+            expose: true
+            access_type: public_method
+            serialized_name: notConsumed
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNotConsumed
+                setter: setNotConsumed
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        notConsumedReason:
+            expose: true
+            access_type: public_method
+            serialized_name: notConsumedReason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNotConsumedReason
+                setter: setNotConsumedReason
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

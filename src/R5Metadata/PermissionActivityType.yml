@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R5\PermissionActivityType:
+    properties:
+        actor:
+            expose: true
+            access_type: public_method
+            serialized_name: actor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActor
+                setter: setActor
+            xml_list:
+                inline: true
+                entry_name: actor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        action:
+            expose: true
+            access_type: public_method
+            serialized_name: action
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAction
+                setter: setAction
+            xml_list:
+                inline: true
+                entry_name: action
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            xml_list:
+                inline: true
+                entry_name: purpose
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

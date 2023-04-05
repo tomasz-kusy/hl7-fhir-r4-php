@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\ContactDetailType:
+    properties:
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null

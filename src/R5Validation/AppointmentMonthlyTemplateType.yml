@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\AppointmentMonthlyTemplateType:
+    properties:
+        dayOfMonth:
+            -
+                Valid: null
+        nthWeekOfMonth:
+            -
+                Valid: null
+        dayOfWeek:
+            -
+                Valid: null
+        monthInterval:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

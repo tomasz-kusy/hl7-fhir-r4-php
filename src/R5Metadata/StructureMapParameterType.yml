@@ -1,0 +1,90 @@
+TKusy\Hl7Fhir\R5\StructureMapParameterType:
+    properties:
+        valueId:
+            expose: true
+            access_type: public_method
+            serialized_name: valueId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueId
+                setter: setValueId
+            type: TKusy\Hl7Fhir\R5\IdType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInteger
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInteger
+                setter: setValueInteger
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        valueDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDecimal
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDecimal
+                setter: setValueDecimal
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        valueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDate
+                setter: setValueDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        valueTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueTime
+                setter: setValueTime
+            type: TKusy\Hl7Fhir\R5\TimeType
+        valueDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDateTime
+                setter: setValueDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType

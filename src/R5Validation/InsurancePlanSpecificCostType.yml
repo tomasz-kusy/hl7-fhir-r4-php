@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\InsurancePlanSpecificCostType:
+    properties:
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        benefit:
+            -
+                Valid: null

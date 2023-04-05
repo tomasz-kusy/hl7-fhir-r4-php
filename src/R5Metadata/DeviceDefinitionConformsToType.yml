@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionConformsToType:
+    properties:
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        specification:
+            expose: true
+            access_type: public_method
+            serialized_name: specification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecification
+                setter: setSpecification
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_list:
+                inline: true
+                entry_name: version
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            xml_list:
+                inline: true
+                entry_name: source
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\RelatedArtifactType>

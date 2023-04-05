@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityRequestDiagnosisType:
+    properties:
+        diagnosisCodeableConcept:
+            -
+                Valid: null
+        diagnosisReference:
+            -
+                Valid: null

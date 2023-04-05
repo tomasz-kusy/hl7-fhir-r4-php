@@ -1,0 +1,64 @@
+TKusy\Hl7Fhir\R5\RequestOrchestrationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        replaces:
+            -
+                Valid: null
+        groupIdentifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        goal:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null

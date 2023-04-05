@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\ConceptMapElementType:
+    properties:
+        code:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null
+        noMap:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null

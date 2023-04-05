@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableDefinitionType:
+    properties:
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        variableRole:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        observed:
+            -
+                Valid: null
+        intended:
+            -
+                Valid: null
+        directnessMatch:
+            -
+                Valid: null

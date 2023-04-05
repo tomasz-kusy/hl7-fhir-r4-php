@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionType:
+    properties:
+        description:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        udiDeviceIdentifier:
+            -
+                Valid: null
+        regulatoryIdentifier:
+            -
+                Valid: null
+        partNumber:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        deviceName:
+            -
+                Valid: null
+        modelNumber:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        conformsTo:
+            -
+                Valid: null
+        hasPart:
+            -
+                Valid: null
+        packaging:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        safety:
+            -
+                Valid: null
+        shelfLifeStorage:
+            -
+                Valid: null
+        languageCode:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        material:
+            -
+                Valid: null
+        productionIdentifierInUDI:
+            -
+                Valid: null
+        guideline:
+            -
+                Valid: null
+        correctiveAction:
+            -
+                Valid: null
+        chargeItem:
+            -
+                Valid: null

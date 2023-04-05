@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionInteractionType:
+    properties:
+        interactant:
+            expose: true
+            access_type: public_method
+            serialized_name: interactant
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInteractant
+                setter: setInteractant
+            xml_list:
+                inline: true
+                entry_name: interactant
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ClinicalUseDefinitionInteractantType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        effect:
+            expose: true
+            access_type: public_method
+            serialized_name: effect
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEffect
+                setter: setEffect
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        incidence:
+            expose: true
+            access_type: public_method
+            serialized_name: incidence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIncidence
+                setter: setIncidence
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        management:
+            expose: true
+            access_type: public_method
+            serialized_name: management
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManagement
+                setter: setManagement
+            xml_list:
+                inline: true
+                entry_name: management
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

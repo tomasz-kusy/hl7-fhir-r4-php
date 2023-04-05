@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\MedicationRequestDispenseRequestType:
+    properties:
+        initialFill:
+            -
+                Valid: null
+        dispenseInterval:
+            -
+                Valid: null
+        validityPeriod:
+            -
+                Valid: null
+        numberOfRepeatsAllowed:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        expectedSupplyDuration:
+            -
+                Valid: null
+        dispenser:
+            -
+                Valid: null
+        dispenserInstruction:
+            -
+                Valid: null
+        doseAdministrationAid:
+            -
+                Valid: null

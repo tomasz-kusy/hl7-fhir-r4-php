@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\MedicationAdministrationDosageType:
+    properties:
+        text:
+            -
+                Valid: null
+        site:
+            -
+                Valid: null
+        route:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        dose:
+            -
+                Valid: null
+        rateRatio:
+            -
+                Valid: null
+        rateQuantity:
+            -
+                Valid: null

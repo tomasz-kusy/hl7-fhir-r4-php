@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinition:
+    xml_root_name: SubstanceDefinition
+    xml_root_namespace: 'http://hl7.org/fhir'

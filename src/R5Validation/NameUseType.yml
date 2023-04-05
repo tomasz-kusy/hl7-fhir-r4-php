@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\NameUseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - usual
+                        - official
+                        - temp
+                        - nickname
+                        - anonymous
+                        - old
+                        - maiden
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionHasPartType:
+    properties:
+        reference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        count:
+            -
+                Valid: null

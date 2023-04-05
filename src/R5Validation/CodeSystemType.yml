@@ -1,0 +1,124 @@
+TKusy\Hl7Fhir\R5\CodeSystemType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        versionAlgorithmString:
+            -
+                Valid: null
+        versionAlgorithmCoding:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        copyrightLabel:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        topic:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        editor:
+            -
+                Valid: null
+        reviewer:
+            -
+                Valid: null
+        endorser:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        caseSensitive:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null
+        hierarchyMeaning:
+            -
+                Valid: null
+        compositional:
+            -
+                Valid: null
+        versionNeeded:
+            -
+                Valid: null
+        content:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        supplements:
+            -
+                Valid: null
+        count:
+            -
+                Valid: null
+        filter:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        concept:
+            -
+                Valid: null

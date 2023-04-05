@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\InventoryItemAssociationType:
+    properties:
+        associationType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        relatedItem:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        quantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

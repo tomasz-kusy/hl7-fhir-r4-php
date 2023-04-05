@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ValueSetPropertyType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        uri:
+            -
+                Valid: null

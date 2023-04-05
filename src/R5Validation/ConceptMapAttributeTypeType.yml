@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\ConceptMapAttributeTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - code
+                        - Coding
+                        - string
+                        - boolean
+                        - Quantity
+                    groups:
+                        - xsd_rules

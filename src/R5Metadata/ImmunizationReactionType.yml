@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\ImmunizationReactionType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        manifestation:
+            expose: true
+            access_type: public_method
+            serialized_name: manifestation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManifestation
+                setter: setManifestation
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        reported:
+            expose: true
+            access_type: public_method
+            serialized_name: reported
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReported
+                setter: setReported
+            type: TKusy\Hl7Fhir\R5\BooleanType

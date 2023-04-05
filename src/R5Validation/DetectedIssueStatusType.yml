@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\DetectedIssueStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preliminary
+                        - final
+                        - entered-in-error
+                        - mitigated
+                    groups:
+                        - xsd_rules

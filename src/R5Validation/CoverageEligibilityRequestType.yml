@@ -1,0 +1,70 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        purpose:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        servicedDate:
+            -
+                Valid: null
+        servicedPeriod:
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        enterer:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        insurer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        facility:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null

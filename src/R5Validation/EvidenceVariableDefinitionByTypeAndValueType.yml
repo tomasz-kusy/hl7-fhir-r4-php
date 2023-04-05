@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableDefinitionByTypeAndValueType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        valueId:
+            -
+                Valid: null
+        offset:
+            -
+                Valid: null

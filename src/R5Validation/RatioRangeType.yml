@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\RatioRangeType:
+    properties:
+        lowNumerator:
+            -
+                Valid: null
+        highNumerator:
+            -
+                Valid: null
+        denominator:
+            -
+                Valid: null

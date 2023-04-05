@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\TypeDerivationRuleType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - specialization
+                        - constraint
+                    groups:
+                        - xsd_rules

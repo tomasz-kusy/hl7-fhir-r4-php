@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\Invoice:
+    xml_root_name: Invoice
+    xml_root_namespace: 'http://hl7.org/fhir'

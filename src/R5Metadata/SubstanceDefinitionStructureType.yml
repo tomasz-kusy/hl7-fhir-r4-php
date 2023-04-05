@@ -1,0 +1,102 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionStructureType:
+    properties:
+        stereochemistry:
+            expose: true
+            access_type: public_method
+            serialized_name: stereochemistry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStereochemistry
+                setter: setStereochemistry
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        opticalActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: opticalActivity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOpticalActivity
+                setter: setOpticalActivity
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        molecularFormula:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularFormula
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularFormula
+                setter: setMolecularFormula
+            type: TKusy\Hl7Fhir\R5\StringType
+        molecularFormulaByMoiety:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularFormulaByMoiety
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularFormulaByMoiety
+                setter: setMolecularFormulaByMoiety
+            type: TKusy\Hl7Fhir\R5\StringType
+        molecularWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: molecularWeight
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMolecularWeight
+                setter: setMolecularWeight
+            type: TKusy\Hl7Fhir\R5\SubstanceDefinitionMolecularWeightType
+        technique:
+            expose: true
+            access_type: public_method
+            serialized_name: technique
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTechnique
+                setter: setTechnique
+            xml_list:
+                inline: true
+                entry_name: technique
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        sourceDocument:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceDocument
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceDocument
+                setter: setSourceDocument
+            xml_list:
+                inline: true
+                entry_name: sourceDocument
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        representation:
+            expose: true
+            access_type: public_method
+            serialized_name: representation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepresentation
+                setter: setRepresentation
+            xml_list:
+                inline: true
+                entry_name: representation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SubstanceDefinitionRepresentationType>

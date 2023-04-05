@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\ContactPointType:
+    properties:
+        system:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null
+        use:
+            -
+                Valid: null
+        rank:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\ContractSignerType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        party:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        signature:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

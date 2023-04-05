@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\EncounterStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - planned
+                        - in-progress
+                        - on-hold
+                        - discharged
+                        - completed
+                        - cancelled
+                        - discontinued
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

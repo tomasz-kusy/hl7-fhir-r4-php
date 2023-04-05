@@ -1,0 +1,136 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\PublicationStatusType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        manufacturedDoseForm:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturedDoseForm
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturedDoseForm
+                setter: setManufacturedDoseForm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        unitOfPresentation:
+            expose: true
+            access_type: public_method
+            serialized_name: unitOfPresentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitOfPresentation
+                setter: setUnitOfPresentation
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        manufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: manufacturer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManufacturer
+                setter: setManufacturer
+            xml_list:
+                inline: true
+                entry_name: manufacturer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        marketingStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: marketingStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMarketingStatus
+                setter: setMarketingStatus
+            xml_list:
+                inline: true
+                entry_name: marketingStatus
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MarketingStatusType>
+        ingredient:
+            expose: true
+            access_type: public_method
+            serialized_name: ingredient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIngredient
+                setter: setIngredient
+            xml_list:
+                inline: true
+                entry_name: ingredient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionPropertyType>
+        component:
+            expose: true
+            access_type: public_method
+            serialized_name: component
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComponent
+                setter: setComponent
+            xml_list:
+                inline: true
+                entry_name: component
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionComponentType>

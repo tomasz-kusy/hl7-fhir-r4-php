@@ -1,0 +1,91 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClass
+                setter: setClass
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        geometry:
+            expose: true
+            access_type: public_method
+            serialized_name: geometry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeometry
+                setter: setGeometry
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        copolymerConnectivity:
+            expose: true
+            access_type: public_method
+            serialized_name: copolymerConnectivity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopolymerConnectivity
+                setter: setCopolymerConnectivity
+            xml_list:
+                inline: true
+                entry_name: copolymerConnectivity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        modification:
+            expose: true
+            access_type: public_method
+            serialized_name: modification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModification
+                setter: setModification
+            type: TKusy\Hl7Fhir\R5\StringType
+        monomerSet:
+            expose: true
+            access_type: public_method
+            serialized_name: monomerSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMonomerSet
+                setter: setMonomerSet
+            xml_list:
+                inline: true
+                entry_name: monomerSet
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SubstancePolymerMonomerSetType>
+        repeat:
+            expose: true
+            access_type: public_method
+            serialized_name: repeat
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepeat
+                setter: setRepeat
+            xml_list:
+                inline: true
+                entry_name: repeat
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SubstancePolymerRepeatType>

@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityResponseInsuranceType:
+    properties:
+        coverage:
+            expose: true
+            access_type: public_method
+            serialized_name: coverage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoverage
+                setter: setCoverage
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        inforce:
+            expose: true
+            access_type: public_method
+            serialized_name: inforce
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInforce
+                setter: setInforce
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        benefitPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: benefitPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBenefitPeriod
+                setter: setBenefitPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: item
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItem
+                setter: setItem
+            xml_list:
+                inline: true
+                entry_name: item
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CoverageEligibilityResponseItemType>

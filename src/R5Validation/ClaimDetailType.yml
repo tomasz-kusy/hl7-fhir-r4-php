@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\ClaimDetailType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        traceNumber:
+            -
+                Valid: null
+        revenue:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        productOrService:
+            -
+                Valid: null
+        productOrServiceEnd:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        programCode:
+            -
+                Valid: null
+        patientPaid:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        tax:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        udi:
+            -
+                Valid: null
+        subDetail:
+            -
+                Valid: null

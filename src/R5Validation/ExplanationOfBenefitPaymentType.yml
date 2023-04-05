@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitPaymentType:
+    properties:
+        type:
+            -
+                Valid: null
+        adjustment:
+            -
+                Valid: null
+        adjustmentReason:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null

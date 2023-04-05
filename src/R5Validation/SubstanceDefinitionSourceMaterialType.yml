@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionSourceMaterialType:
+    properties:
+        type:
+            -
+                Valid: null
+        genus:
+            -
+                Valid: null
+        species:
+            -
+                Valid: null
+        part:
+            -
+                Valid: null
+        countryOfOrigin:
+            -
+                Valid: null

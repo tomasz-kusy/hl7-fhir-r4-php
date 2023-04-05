@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\AppointmentMonthlyTemplateType:
+    properties:
+        dayOfMonth:
+            expose: true
+            access_type: public_method
+            serialized_name: dayOfMonth
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDayOfMonth
+                setter: setDayOfMonth
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        nthWeekOfMonth:
+            expose: true
+            access_type: public_method
+            serialized_name: nthWeekOfMonth
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNthWeekOfMonth
+                setter: setNthWeekOfMonth
+            type: TKusy\Hl7Fhir\R5\CodingType
+        dayOfWeek:
+            expose: true
+            access_type: public_method
+            serialized_name: dayOfWeek
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDayOfWeek
+                setter: setDayOfWeek
+            type: TKusy\Hl7Fhir\R5\CodingType
+        monthInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: monthInterval
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMonthInterval
+                setter: setMonthInterval
+            type: TKusy\Hl7Fhir\R5\PositiveIntType

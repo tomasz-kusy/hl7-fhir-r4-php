@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\InventoryItemNameType:
+    properties:
+        nameType:
+            expose: true
+            access_type: public_method
+            serialized_name: nameType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNameType
+                setter: setNameType
+            type: TKusy\Hl7Fhir\R5\CodingType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7Fhir\R5\CommonLanguagesType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType

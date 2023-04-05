@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\KindType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - insurance
+                        - self-pay
+                        - other
+                    groups:
+                        - xsd_rules

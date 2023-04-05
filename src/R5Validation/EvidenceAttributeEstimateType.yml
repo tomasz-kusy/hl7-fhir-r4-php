@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\EvidenceAttributeEstimateType:
+    properties:
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        level:
+            -
+                Valid: null
+        range:
+            -
+                Valid: null
+        attributeEstimate:
+            -
+                Valid: null

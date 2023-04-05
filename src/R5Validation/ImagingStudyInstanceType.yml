@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R5\ImagingStudyInstanceType:
+    properties:
+        uid:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        sopClass:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        number:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null

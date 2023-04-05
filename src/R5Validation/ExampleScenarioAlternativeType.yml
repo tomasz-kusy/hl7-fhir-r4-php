@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\ExampleScenarioAlternativeType:
+    properties:
+        title:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        step:
+            -
+                Valid: null

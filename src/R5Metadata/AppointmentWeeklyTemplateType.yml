@@ -1,0 +1,90 @@
+TKusy\Hl7Fhir\R5\AppointmentWeeklyTemplateType:
+    properties:
+        monday:
+            expose: true
+            access_type: public_method
+            serialized_name: monday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMonday
+                setter: setMonday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        tuesday:
+            expose: true
+            access_type: public_method
+            serialized_name: tuesday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTuesday
+                setter: setTuesday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        wednesday:
+            expose: true
+            access_type: public_method
+            serialized_name: wednesday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWednesday
+                setter: setWednesday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        thursday:
+            expose: true
+            access_type: public_method
+            serialized_name: thursday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getThursday
+                setter: setThursday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        friday:
+            expose: true
+            access_type: public_method
+            serialized_name: friday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFriday
+                setter: setFriday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        saturday:
+            expose: true
+            access_type: public_method
+            serialized_name: saturday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSaturday
+                setter: setSaturday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        sunday:
+            expose: true
+            access_type: public_method
+            serialized_name: sunday
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSunday
+                setter: setSunday
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        weekInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: weekInterval
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWeekInterval
+                setter: setWeekInterval
+            type: TKusy\Hl7Fhir\R5\PositiveIntType

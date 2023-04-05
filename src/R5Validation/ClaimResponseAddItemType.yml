@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R5\ClaimResponseAddItemType:
+    properties:
+        itemSequence:
+            -
+                Valid: null
+        detailSequence:
+            -
+                Valid: null
+        subdetailSequence:
+            -
+                Valid: null
+        traceNumber:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        revenue:
+            -
+                Valid: null
+        productOrService:
+            -
+                Valid: null
+        productOrServiceEnd:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        programCode:
+            -
+                Valid: null
+        servicedDate:
+            -
+                Valid: null
+        servicedPeriod:
+            -
+                Valid: null
+        locationCodeableConcept:
+            -
+                Valid: null
+        locationAddress:
+            -
+                Valid: null
+        locationReference:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        tax:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        reviewOutcome:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

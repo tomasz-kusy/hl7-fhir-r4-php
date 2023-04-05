@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\DeviceMetricCalibrationStateType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - not-calibrated
+                        - calibration-required
+                        - calibrated
+                        - unspecified
+                    groups:
+                        - xsd_rules

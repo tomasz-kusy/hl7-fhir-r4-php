@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\TestReportAction1Type:
+    properties:
+        operation:
+            -
+                Valid: null
+        assert:
+            -
+                Valid: null

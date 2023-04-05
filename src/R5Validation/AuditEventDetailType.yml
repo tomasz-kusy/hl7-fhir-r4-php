@@ -1,0 +1,42 @@
+TKusy\Hl7Fhir\R5\AuditEventDetailType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null
+        valueBase64Binary:
+            -
+                Valid: null

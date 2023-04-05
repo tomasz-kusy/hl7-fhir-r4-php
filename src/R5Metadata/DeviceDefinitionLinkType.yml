@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionLinkType:
+    properties:
+        relation:
+            expose: true
+            access_type: public_method
+            serialized_name: relation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelation
+                setter: setRelation
+            type: TKusy\Hl7Fhir\R5\CodingType
+        relatedDevice:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedDevice
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedDevice
+                setter: setRelatedDevice
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType

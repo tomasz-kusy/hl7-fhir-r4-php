@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\OperationKindType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - operation
+                        - query
+                    groups:
+                        - xsd_rules

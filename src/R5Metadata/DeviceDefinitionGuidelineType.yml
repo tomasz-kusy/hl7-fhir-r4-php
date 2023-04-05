@@ -1,0 +1,99 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionGuidelineType:
+    properties:
+        useContext:
+            expose: true
+            access_type: public_method
+            serialized_name: useContext
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUseContext
+                setter: setUseContext
+            xml_list:
+                inline: true
+                entry_name: useContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UsageContextType>
+        usageInstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: usageInstruction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsageInstruction
+                setter: setUsageInstruction
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        relatedArtifact:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedArtifact
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedArtifact
+                setter: setRelatedArtifact
+            xml_list:
+                inline: true
+                entry_name: relatedArtifact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\RelatedArtifactType>
+        indication:
+            expose: true
+            access_type: public_method
+            serialized_name: indication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIndication
+                setter: setIndication
+            xml_list:
+                inline: true
+                entry_name: indication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        contraindication:
+            expose: true
+            access_type: public_method
+            serialized_name: contraindication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContraindication
+                setter: setContraindication
+            xml_list:
+                inline: true
+                entry_name: contraindication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        warning:
+            expose: true
+            access_type: public_method
+            serialized_name: warning
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWarning
+                setter: setWarning
+            xml_list:
+                inline: true
+                entry_name: warning
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        intendedUse:
+            expose: true
+            access_type: public_method
+            serialized_name: intendedUse
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntendedUse
+                setter: setIntendedUse
+            type: TKusy\Hl7Fhir\R5\StringType

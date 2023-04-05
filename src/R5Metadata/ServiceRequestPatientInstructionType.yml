@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ServiceRequestPatientInstructionType:
+    properties:
+        instructionMarkdown:
+            expose: true
+            access_type: public_method
+            serialized_name: instructionMarkdown
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstructionMarkdown
+                setter: setInstructionMarkdown
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        instructionReference:
+            expose: true
+            access_type: public_method
+            serialized_name: instructionReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstructionReference
+                setter: setInstructionReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

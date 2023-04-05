@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R5\AttachmentType:
+    properties:
+        contentType:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null
+        url:
+            -
+                Valid: null
+        size:
+            -
+                Valid: null
+        hash:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        creation:
+            -
+                Valid: null
+        height:
+            -
+                Valid: null
+        width:
+            -
+                Valid: null
+        frames:
+            -
+                Valid: null
+        duration:
+            -
+                Valid: null
+        pages:
+            -
+                Valid: null

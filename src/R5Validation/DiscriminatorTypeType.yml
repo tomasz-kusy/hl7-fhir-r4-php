@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\DiscriminatorTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - value
+                        - exists
+                        - pattern
+                        - type
+                        - profile
+                        - position
+                    groups:
+                        - xsd_rules

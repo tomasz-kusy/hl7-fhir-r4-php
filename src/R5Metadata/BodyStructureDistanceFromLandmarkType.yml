@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\BodyStructureDistanceFromLandmarkType:
+    properties:
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            xml_list:
+                inline: true
+                entry_name: device
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            xml_list:
+                inline: true
+                entry_name: value
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\QuantityType>

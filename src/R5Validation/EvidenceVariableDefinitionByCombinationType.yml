@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableDefinitionByCombinationType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        threshold:
+            -
+                Valid: null
+        characteristic:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

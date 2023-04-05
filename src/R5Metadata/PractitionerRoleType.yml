@@ -1,0 +1,196 @@
+TKusy\Hl7Fhir\R5\PractitionerRoleType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        practitioner:
+            expose: true
+            access_type: public_method
+            serialized_name: practitioner
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPractitioner
+                setter: setPractitioner
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        organization:
+            expose: true
+            access_type: public_method
+            serialized_name: organization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrganization
+                setter: setOrganization
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_list:
+                inline: true
+                entry_name: code
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        specialty:
+            expose: true
+            access_type: public_method
+            serialized_name: specialty
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecialty
+                setter: setSpecialty
+            xml_list:
+                inline: true
+                entry_name: specialty
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_list:
+                inline: true
+                entry_name: location
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        healthcareService:
+            expose: true
+            access_type: public_method
+            serialized_name: healthcareService
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHealthcareService
+                setter: setHealthcareService
+            xml_list:
+                inline: true
+                entry_name: healthcareService
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: contact
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContact
+                setter: setContact
+            xml_list:
+                inline: true
+                entry_name: contact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ExtendedContactDetailType>
+        characteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: characteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCharacteristic
+                setter: setCharacteristic
+            xml_list:
+                inline: true
+                entry_name: characteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        communication:
+            expose: true
+            access_type: public_method
+            serialized_name: communication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCommunication
+                setter: setCommunication
+            xml_list:
+                inline: true
+                entry_name: communication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        availability:
+            expose: true
+            access_type: public_method
+            serialized_name: availability
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAvailability
+                setter: setAvailability
+            xml_list:
+                inline: true
+                entry_name: availability
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AvailabilityType>
+        endpoint:
+            expose: true
+            access_type: public_method
+            serialized_name: endpoint
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpoint
+                setter: setEndpoint
+            xml_list:
+                inline: true
+                entry_name: endpoint
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ResearchStudyRecruitmentType:
+    properties:
+        targetNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: targetNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetNumber
+                setter: setTargetNumber
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        actualNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: actualNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActualNumber
+                setter: setActualNumber
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        eligibility:
+            expose: true
+            access_type: public_method
+            serialized_name: eligibility
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEligibility
+                setter: setEligibility
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        actualGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: actualGroup
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActualGroup
+                setter: setActualGroup
+            type: TKusy\Hl7Fhir\R5\ReferenceType

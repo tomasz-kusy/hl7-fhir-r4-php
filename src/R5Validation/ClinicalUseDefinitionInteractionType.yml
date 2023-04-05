@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionInteractionType:
+    properties:
+        interactant:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        effect:
+            -
+                Valid: null
+        incidence:
+            -
+                Valid: null
+        management:
+            -
+                Valid: null

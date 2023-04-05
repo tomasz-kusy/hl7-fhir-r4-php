@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\SpecimenContainerType:
+    properties:
+        device:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        specimenQuantity:
+            -
+                Valid: null

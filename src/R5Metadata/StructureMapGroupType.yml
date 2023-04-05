@@ -1,0 +1,76 @@
+TKusy\Hl7Fhir\R5\StructureMapGroupType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\IdType
+        extends:
+            expose: true
+            access_type: public_method
+            serialized_name: extends
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExtends
+                setter: setExtends
+            type: TKusy\Hl7Fhir\R5\IdType
+        typeMode:
+            expose: true
+            access_type: public_method
+            serialized_name: typeMode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTypeMode
+                setter: setTypeMode
+            type: TKusy\Hl7Fhir\R5\StructureMapGroupTypeModeType
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R5\StringType
+        input:
+            expose: true
+            access_type: public_method
+            serialized_name: input
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInput
+                setter: setInput
+            xml_list:
+                inline: true
+                entry_name: input
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StructureMapInputType>
+        rule:
+            expose: true
+            access_type: public_method
+            serialized_name: rule
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRule
+                setter: setRule
+            xml_list:
+                inline: true
+                entry_name: rule
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StructureMapRuleType>

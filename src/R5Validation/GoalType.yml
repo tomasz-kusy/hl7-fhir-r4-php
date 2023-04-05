@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R5\GoalType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        lifecycleStatus:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        achievementStatus:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        continuous:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        description:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        startDate:
+            -
+                Valid: null
+        startCodeableConcept:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        addresses:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null

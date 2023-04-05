@@ -1,0 +1,113 @@
+TKusy\Hl7Fhir\R5\ResearchSubjectType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\PublicationStatusType
+        progress:
+            expose: true
+            access_type: public_method
+            serialized_name: progress
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProgress
+                setter: setProgress
+            xml_list:
+                inline: true
+                entry_name: progress
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ResearchSubjectProgressType>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        study:
+            expose: true
+            access_type: public_method
+            serialized_name: study
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStudy
+                setter: setStudy
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        assignedComparisonGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: assignedComparisonGroup
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssignedComparisonGroup
+                setter: setAssignedComparisonGroup
+            type: TKusy\Hl7Fhir\R5\IdType
+        actualComparisonGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: actualComparisonGroup
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActualComparisonGroup
+                setter: setActualComparisonGroup
+            type: TKusy\Hl7Fhir\R5\IdType
+        consent:
+            expose: true
+            access_type: public_method
+            serialized_name: consent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConsent
+                setter: setConsent
+            xml_list:
+                inline: true
+                entry_name: consent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

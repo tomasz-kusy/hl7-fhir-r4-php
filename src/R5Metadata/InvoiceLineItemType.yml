@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R5\InvoiceLineItemType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        servicedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: servicedDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicedDate
+                setter: setServicedDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        servicedPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: servicedPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicedPeriod
+                setter: setServicedPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        chargeItemReference:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeItemReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getChargeItemReference
+                setter: setChargeItemReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        chargeItemCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeItemCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getChargeItemCodeableConcept
+                setter: setChargeItemCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        priceComponent:
+            expose: true
+            access_type: public_method
+            serialized_name: priceComponent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPriceComponent
+                setter: setPriceComponent
+            xml_list:
+                inline: true
+                entry_name: priceComponent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MonetaryComponentType>

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionCharacteristicType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueMarkdown:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null

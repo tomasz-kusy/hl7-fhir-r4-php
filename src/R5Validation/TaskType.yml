@@ -1,0 +1,109 @@
+TKusy\Hl7Fhir\R5\TaskType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        groupIdentifier:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        businessStatus:
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        doNotPerform:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        for:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        requestedPeriod:
+            -
+                Valid: null
+        executionPeriod:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        lastModified:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        requestedPerformer:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        relevantHistory:
+            -
+                Valid: null
+        restriction:
+            -
+                Valid: null
+        input:
+            -
+                Valid: null
+        output:
+            -
+                Valid: null

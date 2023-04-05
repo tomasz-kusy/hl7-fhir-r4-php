@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\AccountProcedureType:
+    properties:
+        sequence:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        dateOfService:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        packageCode:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null

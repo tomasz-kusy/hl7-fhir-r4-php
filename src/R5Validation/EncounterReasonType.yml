@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\EncounterReasonType:
+    properties:
+        use:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null

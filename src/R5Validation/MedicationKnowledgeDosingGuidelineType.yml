@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeDosingGuidelineType:
+    properties:
+        treatmentIntent:
+            -
+                Valid: null
+        dosage:
+            -
+                Valid: null
+        administrationTreatment:
+            -
+                Valid: null
+        patientCharacteristic:
+            -
+                Valid: null

@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\InventoryItemAssociationType:
+    properties:
+        associationType:
+            expose: true
+            access_type: public_method
+            serialized_name: associationType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssociationType
+                setter: setAssociationType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        relatedItem:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedItem
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedItem
+                setter: setRelatedItem
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\RatioType

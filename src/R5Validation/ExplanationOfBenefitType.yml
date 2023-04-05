@@ -1,0 +1,173 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        traceNumber:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subType:
+            -
+                Valid: null
+        use:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        billablePeriod:
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        enterer:
+            -
+                Valid: null
+        insurer:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        fundsReserveRequested:
+            -
+                Valid: null
+        fundsReserve:
+            -
+                Valid: null
+        related:
+            -
+                Valid: null
+        prescription:
+            -
+                Valid: null
+        originalPrescription:
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        payee:
+            -
+                Valid: null
+        referral:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        facility:
+            -
+                Valid: null
+        claim:
+            -
+                Valid: null
+        claimResponse:
+            -
+                Valid: null
+        outcome:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        decision:
+            -
+                Valid: null
+        disposition:
+            -
+                Valid: null
+        preAuthRef:
+            -
+                Valid: null
+        preAuthRefPeriod:
+            -
+                Valid: null
+        diagnosisRelatedGroup:
+            -
+                Valid: null
+        careTeam:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null
+        precedence:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        accident:
+            -
+                Valid: null
+        patientPaid:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null
+        addItem:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null
+        payment:
+            -
+                Valid: null
+        formCode:
+            -
+                Valid: null
+        form:
+            -
+                Valid: null
+        processNote:
+            -
+                Valid: null
+        benefitPeriod:
+            -
+                Valid: null
+        benefitBalance:
+            -
+                Valid: null

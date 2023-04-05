@@ -1,0 +1,40 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        manufacturedDoseForm:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        unitOfPresentation:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        marketingStatus:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

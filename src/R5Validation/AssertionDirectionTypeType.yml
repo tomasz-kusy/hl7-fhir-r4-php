@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\AssertionDirectionTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - response
+                        - request
+                    groups:
+                        - xsd_rules

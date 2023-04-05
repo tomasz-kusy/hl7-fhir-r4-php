@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\TestScriptRequirementType:
+    properties:
+        linkUri:
+            -
+                Valid: null
+        linkCanonical:
+            -
+                Valid: null

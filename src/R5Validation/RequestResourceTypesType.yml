@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R5\RequestResourceTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - Appointment
+                        - AppointmentResponse
+                        - CarePlan
+                        - Claim
+                        - CommunicationRequest
+                        - CoverageEligibilityRequest
+                        - DeviceRequest
+                        - EnrollmentRequest
+                        - ImmunizationRecommendation
+                        - MedicationRequest
+                        - NutritionOrder
+                        - RequestOrchestration
+                        - ServiceRequest
+                        - SupplyRequest
+                        - Task
+                        - Transport
+                        - VisionPrescription
+                    groups:
+                        - xsd_rules

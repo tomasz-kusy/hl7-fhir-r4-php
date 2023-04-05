@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\LocationModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - instance
+                        - kind
+                    groups:
+                        - xsd_rules

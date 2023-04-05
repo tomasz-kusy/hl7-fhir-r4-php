@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\GuidePageGenerationType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - html
+                        - markdown
+                        - xml
+                        - generated
+                    groups:
+                        - xsd_rules

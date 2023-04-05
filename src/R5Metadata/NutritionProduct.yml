@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\NutritionProduct:
+    xml_root_name: NutritionProduct
+    xml_root_namespace: 'http://hl7.org/fhir'

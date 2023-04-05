@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\SampledDataType:
+    properties:
+        origin:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        interval:
+            -
+                Valid: null
+        intervalUnit:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        lowerLimit:
+            -
+                Valid: null
+        upperLimit:
+            -
+                Valid: null
+        dimensions:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        codeMap:
+            -
+                Valid: null
+        offsets:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null

@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\SubstanceSourceMaterialPartDescriptionType:
+    properties:
+        part:
+            -
+                Valid: null
+        partLocation:
+            -
+                Valid: null

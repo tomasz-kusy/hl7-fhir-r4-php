@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\ContractPartyType:
+    properties:
+        reference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        role:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

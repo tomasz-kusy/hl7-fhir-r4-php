@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\RestfulCapabilityModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - client
+                        - server
+                    groups:
+                        - xsd_rules

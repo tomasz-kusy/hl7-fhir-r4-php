@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\ExtendedContactDetailType:
+    properties:
+        purpose:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        telecom:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

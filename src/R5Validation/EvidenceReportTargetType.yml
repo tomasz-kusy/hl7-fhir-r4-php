@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\EvidenceReportTargetType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null

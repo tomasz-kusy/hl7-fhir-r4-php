@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\CompartmentDefinitionResourceType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        param:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        startParam:
+            -
+                Valid: null
+        endParam:
+            -
+                Valid: null

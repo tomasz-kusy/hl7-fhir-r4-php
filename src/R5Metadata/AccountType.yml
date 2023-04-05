@@ -1,0 +1,221 @@
+TKusy\Hl7Fhir\R5\AccountType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\AccountStatusType
+        billingStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: billingStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBillingStatus
+                setter: setBillingStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            xml_list:
+                inline: true
+                entry_name: subject
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        servicePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: servicePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServicePeriod
+                setter: setServicePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        coverage:
+            expose: true
+            access_type: public_method
+            serialized_name: coverage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoverage
+                setter: setCoverage
+            xml_list:
+                inline: true
+                entry_name: coverage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AccountCoverageType>
+        owner:
+            expose: true
+            access_type: public_method
+            serialized_name: owner
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOwner
+                setter: setOwner
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        guarantor:
+            expose: true
+            access_type: public_method
+            serialized_name: guarantor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGuarantor
+                setter: setGuarantor
+            xml_list:
+                inline: true
+                entry_name: guarantor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AccountGuarantorType>
+        diagnosis:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiagnosis
+                setter: setDiagnosis
+            xml_list:
+                inline: true
+                entry_name: diagnosis
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AccountDiagnosisType>
+        procedure:
+            expose: true
+            access_type: public_method
+            serialized_name: procedure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcedure
+                setter: setProcedure
+            xml_list:
+                inline: true
+                entry_name: procedure
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AccountProcedureType>
+        relatedAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedAccount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedAccount
+                setter: setRelatedAccount
+            xml_list:
+                inline: true
+                entry_name: relatedAccount
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AccountRelatedAccountType>
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: currency
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        balance:
+            expose: true
+            access_type: public_method
+            serialized_name: balance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBalance
+                setter: setBalance
+            xml_list:
+                inline: true
+                entry_name: balance
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AccountBalanceType>
+        calculatedAt:
+            expose: true
+            access_type: public_method
+            serialized_name: calculatedAt
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCalculatedAt
+                setter: setCalculatedAt
+            type: TKusy\Hl7Fhir\R5\InstantType

@@ -1,0 +1,246 @@
+TKusy\Hl7Fhir\R5\CoverageType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\FinancialResourceStatusCodesType
+        kind:
+            expose: true
+            access_type: public_method
+            serialized_name: kind
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKind
+                setter: setKind
+            type: TKusy\Hl7Fhir\R5\KindType
+        paymentBy:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentBy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentBy
+                setter: setPaymentBy
+            xml_list:
+                inline: true
+                entry_name: paymentBy
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CoveragePaymentByType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        policyHolder:
+            expose: true
+            access_type: public_method
+            serialized_name: policyHolder
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPolicyHolder
+                setter: setPolicyHolder
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        subscriber:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubscriber
+                setter: setSubscriber
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        subscriberId:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriberId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubscriberId
+                setter: setSubscriberId
+            xml_list:
+                inline: true
+                entry_name: subscriberId
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        beneficiary:
+            expose: true
+            access_type: public_method
+            serialized_name: beneficiary
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBeneficiary
+                setter: setBeneficiary
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        dependent:
+            expose: true
+            access_type: public_method
+            serialized_name: dependent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDependent
+                setter: setDependent
+            type: TKusy\Hl7Fhir\R5\StringType
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        insurer:
+            expose: true
+            access_type: public_method
+            serialized_name: insurer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurer
+                setter: setInsurer
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClass
+                setter: setClass
+            xml_list:
+                inline: true
+                entry_name: class
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CoverageClassType>
+        order:
+            expose: true
+            access_type: public_method
+            serialized_name: order
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrder
+                setter: setOrder
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        network:
+            expose: true
+            access_type: public_method
+            serialized_name: network
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNetwork
+                setter: setNetwork
+            type: TKusy\Hl7Fhir\R5\StringType
+        costToBeneficiary:
+            expose: true
+            access_type: public_method
+            serialized_name: costToBeneficiary
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCostToBeneficiary
+                setter: setCostToBeneficiary
+            xml_list:
+                inline: true
+                entry_name: costToBeneficiary
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CoverageCostToBeneficiaryType>
+        subrogation:
+            expose: true
+            access_type: public_method
+            serialized_name: subrogation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubrogation
+                setter: setSubrogation
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        contract:
+            expose: true
+            access_type: public_method
+            serialized_name: contract
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContract
+                setter: setContract
+            xml_list:
+                inline: true
+                entry_name: contract
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        insurancePlan:
+            expose: true
+            access_type: public_method
+            serialized_name: insurancePlan
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInsurancePlan
+                setter: setInsurancePlan
+            type: TKusy\Hl7Fhir\R5\ReferenceType

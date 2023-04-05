@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ClaimResponseProcessNoteType:
+    properties:
+        number:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        text:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        language:
+            -
+                Valid: null

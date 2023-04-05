@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\MeasureReportGroupType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null
+        measureScoreQuantity:
+            -
+                Valid: null
+        measureScoreDateTime:
+            -
+                Valid: null
+        measureScoreCodeableConcept:
+            -
+                Valid: null
+        measureScorePeriod:
+            -
+                Valid: null
+        measureScoreRange:
+            -
+                Valid: null
+        measureScoreDuration:
+            -
+                Valid: null
+        stratifier:
+            -
+                Valid: null

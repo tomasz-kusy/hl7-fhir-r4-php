@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\SpecimenCombinedType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - grouped
+                        - pooled
+                    groups:
+                        - xsd_rules

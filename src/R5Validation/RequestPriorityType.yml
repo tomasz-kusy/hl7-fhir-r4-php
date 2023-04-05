@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\RequestPriorityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - routine
+                        - urgent
+                        - asap
+                        - stat
+                    groups:
+                        - xsd_rules

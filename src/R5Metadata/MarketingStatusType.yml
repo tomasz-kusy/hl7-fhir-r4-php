@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\MarketingStatusType:
+    properties:
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        jurisdiction:
+            expose: true
+            access_type: public_method
+            serialized_name: jurisdiction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJurisdiction
+                setter: setJurisdiction
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        dateRange:
+            expose: true
+            access_type: public_method
+            serialized_name: dateRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDateRange
+                setter: setDateRange
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        restoreDate:
+            expose: true
+            access_type: public_method
+            serialized_name: restoreDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRestoreDate
+                setter: setRestoreDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType

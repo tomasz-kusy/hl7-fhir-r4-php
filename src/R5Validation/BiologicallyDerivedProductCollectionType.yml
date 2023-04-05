@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\BiologicallyDerivedProductCollectionType:
+    properties:
+        collector:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        collectedDateTime:
+            -
+                Valid: null
+        collectedPeriod:
+            -
+                Valid: null

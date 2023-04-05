@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R5\NutritionProductCharacteristicType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueBase64Binary:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null

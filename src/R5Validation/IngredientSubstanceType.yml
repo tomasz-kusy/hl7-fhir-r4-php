@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\IngredientSubstanceType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        strength:
+            -
+                Valid: null

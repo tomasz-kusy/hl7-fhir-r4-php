@@ -1,0 +1,80 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionPackagingType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: count
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCount
+                setter: setCount
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        distributor:
+            expose: true
+            access_type: public_method
+            serialized_name: distributor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDistributor
+                setter: setDistributor
+            xml_list:
+                inline: true
+                entry_name: distributor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DeviceDefinitionDistributorType>
+        udiDeviceIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: udiDeviceIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUdiDeviceIdentifier
+                setter: setUdiDeviceIdentifier
+            xml_list:
+                inline: true
+                entry_name: udiDeviceIdentifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DeviceDefinitionUdiDeviceIdentifierType>
+        packaging:
+            expose: true
+            access_type: public_method
+            serialized_name: packaging
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackaging
+                setter: setPackaging
+            xml_list:
+                inline: true
+                entry_name: packaging
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DeviceDefinitionPackagingType>

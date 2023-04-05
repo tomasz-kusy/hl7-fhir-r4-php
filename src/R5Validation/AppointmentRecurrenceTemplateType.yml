@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R5\AppointmentRecurrenceTemplateType:
+    properties:
+        timezone:
+            -
+                Valid: null
+        recurrenceType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        lastOccurrenceDate:
+            -
+                Valid: null
+        occurrenceCount:
+            -
+                Valid: null
+        occurrenceDate:
+            -
+                Valid: null
+        weeklyTemplate:
+            -
+                Valid: null
+        monthlyTemplate:
+            -
+                Valid: null
+        yearlyTemplate:
+            -
+                Valid: null
+        excludingDate:
+            -
+                Valid: null
+        excludingRecurrenceId:
+            -
+                Valid: null

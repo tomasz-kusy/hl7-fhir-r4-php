@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\NutritionOrderEnteralFormulaType:
+    properties:
+        baseFormulaType:
+            -
+                Valid: null
+        baseFormulaProductName:
+            -
+                Valid: null
+        deliveryDevice:
+            -
+                Valid: null
+        additive:
+            -
+                Valid: null
+        caloricDensity:
+            -
+                Valid: null
+        routeOfAdministration:
+            -
+                Valid: null
+        administration:
+            -
+                Valid: null
+        maxVolumeToDeliver:
+            -
+                Valid: null
+        administrationInstruction:
+            -
+                Valid: null

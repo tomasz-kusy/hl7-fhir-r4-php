@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SpecimenProcessingType:
+    properties:
+        description:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        additive:
+            -
+                Valid: null
+        timeDateTime:
+            -
+                Valid: null
+        timePeriod:
+            -
+                Valid: null

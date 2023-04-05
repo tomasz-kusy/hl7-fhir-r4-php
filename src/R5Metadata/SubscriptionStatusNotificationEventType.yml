@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\SubscriptionStatusNotificationEventType:
+    properties:
+        eventNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: eventNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEventNumber
+                setter: setEventNumber
+            type: TKusy\Hl7Fhir\R5\Integer64Type
+        timestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: timestamp
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimestamp
+                setter: setTimestamp
+            type: TKusy\Hl7Fhir\R5\InstantType
+        focus:
+            expose: true
+            access_type: public_method
+            serialized_name: focus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFocus
+                setter: setFocus
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        additionalContext:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalContext
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditionalContext
+                setter: setAdditionalContext
+            xml_list:
+                inline: true
+                entry_name: additionalContext
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\DataRequirementValueFilterType:
+    properties:
+        path:
+            -
+                Valid: null
+        searchParam:
+            -
+                Valid: null
+        comparator:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null
+        valueDuration:
+            -
+                Valid: null

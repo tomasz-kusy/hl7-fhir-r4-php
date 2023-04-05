@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\NutritionOrderAdditiveType:
+    properties:
+        type:
+            -
+                Valid: null
+        productName:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null

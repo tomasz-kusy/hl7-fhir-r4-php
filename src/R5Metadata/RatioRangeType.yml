@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\RatioRangeType:
+    properties:
+        lowNumerator:
+            expose: true
+            access_type: public_method
+            serialized_name: lowNumerator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLowNumerator
+                setter: setLowNumerator
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        highNumerator:
+            expose: true
+            access_type: public_method
+            serialized_name: highNumerator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHighNumerator
+                setter: setHighNumerator
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        denominator:
+            expose: true
+            access_type: public_method
+            serialized_name: denominator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDenominator
+                setter: setDenominator
+            type: TKusy\Hl7Fhir\R5\QuantityType

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeEnvironmentalSettingType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null

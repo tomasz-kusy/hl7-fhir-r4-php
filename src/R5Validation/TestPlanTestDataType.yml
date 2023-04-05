@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\TestPlanTestDataType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        content:
+            -
+                Valid: null
+        sourceString:
+            -
+                Valid: null
+        sourceReference:
+            -
+                Valid: null

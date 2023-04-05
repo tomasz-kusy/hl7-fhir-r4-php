@@ -1,0 +1,33 @@
+TKusy\Hl7Fhir\R5\ExampleScenarioOperationType:
+    properties:
+        type:
+            -
+                Valid: null
+        title:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        initiator:
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        initiatorActive:
+            -
+                Valid: null
+        receiverActive:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null

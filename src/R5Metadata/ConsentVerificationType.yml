@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\ConsentVerificationType:
+    properties:
+        verified:
+            expose: true
+            access_type: public_method
+            serialized_name: verified
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVerified
+                setter: setVerified
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        verificationType:
+            expose: true
+            access_type: public_method
+            serialized_name: verificationType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVerificationType
+                setter: setVerificationType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        verifiedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: verifiedBy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVerifiedBy
+                setter: setVerifiedBy
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        verifiedWith:
+            expose: true
+            access_type: public_method
+            serialized_name: verifiedWith
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVerifiedWith
+                setter: setVerifiedWith
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        verificationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: verificationDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVerificationDate
+                setter: setVerificationDate
+            xml_list:
+                inline: true
+                entry_name: verificationDate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DateTimeType>

@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\BodyStructureDistanceFromLandmarkType:
+    properties:
+        device:
+            -
+                Valid: null
+        value:
+            -
+                Valid: null

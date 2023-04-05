@@ -1,0 +1,62 @@
+TKusy\Hl7Fhir\R5\BodyStructureBodyLandmarkOrientationType:
+    properties:
+        landmarkDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: landmarkDescription
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLandmarkDescription
+                setter: setLandmarkDescription
+            xml_list:
+                inline: true
+                entry_name: landmarkDescription
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        clockFacePosition:
+            expose: true
+            access_type: public_method
+            serialized_name: clockFacePosition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClockFacePosition
+                setter: setClockFacePosition
+            xml_list:
+                inline: true
+                entry_name: clockFacePosition
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        distanceFromLandmark:
+            expose: true
+            access_type: public_method
+            serialized_name: distanceFromLandmark
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDistanceFromLandmark
+                setter: setDistanceFromLandmark
+            xml_list:
+                inline: true
+                entry_name: distanceFromLandmark
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\BodyStructureDistanceFromLandmarkType>
+        surfaceOrientation:
+            expose: true
+            access_type: public_method
+            serialized_name: surfaceOrientation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSurfaceOrientation
+                setter: setSurfaceOrientation
+            xml_list:
+                inline: true
+                entry_name: surfaceOrientation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

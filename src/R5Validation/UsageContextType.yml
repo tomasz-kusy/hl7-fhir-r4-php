@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\UsageContextType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null

@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\PermissionDataType:
+    properties:
+        resource:
+            -
+                Valid: null
+        security:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null

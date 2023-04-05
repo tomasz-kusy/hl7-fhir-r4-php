@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\BinaryType:
+    properties:
+        contentType:
+            expose: true
+            access_type: public_method
+            serialized_name: contentType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentType
+                setter: setContentType
+            type: TKusy\Hl7Fhir\R5\CodeType
+        securityContext:
+            expose: true
+            access_type: public_method
+            serialized_name: securityContext
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSecurityContext
+                setter: setSecurityContext
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            type: TKusy\Hl7Fhir\R5\Base64BinaryType

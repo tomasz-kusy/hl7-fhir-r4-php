@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\EventCapabilityModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - sender
+                        - receiver
+                    groups:
+                        - xsd_rules

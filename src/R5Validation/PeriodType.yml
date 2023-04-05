@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\PeriodType:
+    properties:
+        start:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null

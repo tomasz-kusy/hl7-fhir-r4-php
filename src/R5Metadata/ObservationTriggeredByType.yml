@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\ObservationTriggeredByType:
+    properties:
+        observation:
+            expose: true
+            access_type: public_method
+            serialized_name: observation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getObservation
+                setter: setObservation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\TriggeredBytypeType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            type: TKusy\Hl7Fhir\R5\StringType

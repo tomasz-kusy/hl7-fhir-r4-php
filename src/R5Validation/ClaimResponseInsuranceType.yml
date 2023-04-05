@@ -1,0 +1,29 @@
+TKusy\Hl7Fhir\R5\ClaimResponseInsuranceType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        focal:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        businessArrangement:
+            -
+                Valid: null
+        claimResponse:
+            -
+                Valid: null

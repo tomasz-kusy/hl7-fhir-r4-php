@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\TestScriptScopeType:
+    properties:
+        artifact:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        conformance:
+            -
+                Valid: null
+        phase:
+            -
+                Valid: null

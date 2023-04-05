@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\DeviceAssociationOperationType:
+    properties:
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        operator:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

@@ -1,0 +1,116 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableDefinitionByTypeAndValueType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            xml_list:
+                inline: true
+                entry_name: method
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        valueCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCodeableConcept
+                setter: setValueCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueRange:
+            expose: true
+            access_type: public_method
+            serialized_name: valueRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueRange
+                setter: setValueRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        valueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: valueReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueReference
+                setter: setValueReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        valueId:
+            expose: true
+            access_type: public_method
+            serialized_name: valueId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueId
+                setter: setValueId
+            type: TKusy\Hl7Fhir\R5\IdType
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: offset
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

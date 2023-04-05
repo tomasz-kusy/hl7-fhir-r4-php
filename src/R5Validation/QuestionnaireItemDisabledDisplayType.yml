@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\QuestionnaireItemDisabledDisplayType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - hidden
+                        - protected
+                    groups:
+                        - xsd_rules

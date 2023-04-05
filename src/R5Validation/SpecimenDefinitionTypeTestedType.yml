@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R5\SpecimenDefinitionTypeTestedType:
+    properties:
+        isDerived:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        preference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        container:
+            -
+                Valid: null
+        requirement:
+            -
+                Valid: null
+        retentionTime:
+            -
+                Valid: null
+        singleUse:
+            -
+                Valid: null
+        rejectionCriterion:
+            -
+                Valid: null
+        handling:
+            -
+                Valid: null
+        testingDestination:
+            -
+                Valid: null

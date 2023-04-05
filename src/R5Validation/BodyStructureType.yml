@@ -1,0 +1,34 @@
+TKusy\Hl7Fhir\R5\BodyStructureType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        morphology:
+            -
+                Valid: null
+        includedStructure:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        excludedStructure:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        image:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

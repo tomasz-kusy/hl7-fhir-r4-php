@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\AvailabilityNotAvailableTimeType:
+    properties:
+        description:
+            -
+                Valid: null
+        during:
+            -
+                Valid: null

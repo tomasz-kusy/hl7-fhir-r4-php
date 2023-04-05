@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\InventoryItemInstanceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        lotNumber:
+            -
+                Valid: null
+        expiry:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null

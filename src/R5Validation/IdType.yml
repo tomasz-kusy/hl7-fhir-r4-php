@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\IdType:
+    properties:
+        value:
+            -
+                Regex:
+                    pattern: '~[A-Za-z0-9\-\.]{1,64}~'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    min: '1'
+                    groups:
+                        - xsd_rules
+            -
+                Length:
+                    max: '64'
+                    groups:
+                        - xsd_rules

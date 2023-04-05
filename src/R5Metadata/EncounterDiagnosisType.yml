@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\EncounterDiagnosisType:
+    properties:
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            xml_list:
+                inline: true
+                entry_name: condition
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        use:
+            expose: true
+            access_type: public_method
+            serialized_name: use
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUse
+                setter: setUse
+            xml_list:
+                inline: true
+                entry_name: use
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

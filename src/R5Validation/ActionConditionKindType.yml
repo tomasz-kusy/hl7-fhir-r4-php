@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ActionConditionKindType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - applicability
+                        - start
+                        - stop
+                    groups:
+                        - xsd_rules

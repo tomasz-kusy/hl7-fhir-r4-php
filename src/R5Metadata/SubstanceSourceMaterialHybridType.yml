@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\SubstanceSourceMaterialHybridType:
+    properties:
+        maternalOrganismId:
+            expose: true
+            access_type: public_method
+            serialized_name: maternalOrganismId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaternalOrganismId
+                setter: setMaternalOrganismId
+            type: TKusy\Hl7Fhir\R5\StringType
+        maternalOrganismName:
+            expose: true
+            access_type: public_method
+            serialized_name: maternalOrganismName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaternalOrganismName
+                setter: setMaternalOrganismName
+            type: TKusy\Hl7Fhir\R5\StringType
+        paternalOrganismId:
+            expose: true
+            access_type: public_method
+            serialized_name: paternalOrganismId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaternalOrganismId
+                setter: setPaternalOrganismId
+            type: TKusy\Hl7Fhir\R5\StringType
+        paternalOrganismName:
+            expose: true
+            access_type: public_method
+            serialized_name: paternalOrganismName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaternalOrganismName
+                setter: setPaternalOrganismName
+            type: TKusy\Hl7Fhir\R5\StringType
+        hybridType:
+            expose: true
+            access_type: public_method
+            serialized_name: hybridType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHybridType
+                setter: setHybridType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SearchEntryModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - match
+                        - include
+                        - outcome
+                    groups:
+                        - xsd_rules

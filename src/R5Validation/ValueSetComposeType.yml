@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\ValueSetComposeType:
+    properties:
+        lockedDate:
+            -
+                Valid: null
+        inactive:
+            -
+                Valid: null
+        include:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        exclude:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null

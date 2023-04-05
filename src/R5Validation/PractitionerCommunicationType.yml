@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\PractitionerCommunicationType:
+    properties:
+        language:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        preferred:
+            -
+                Valid: null

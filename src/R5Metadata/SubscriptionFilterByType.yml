@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\SubscriptionFilterByType:
+    properties:
+        resourceType:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResourceType
+                setter: setResourceType
+            type: TKusy\Hl7Fhir\R5\UriType
+        filterParameter:
+            expose: true
+            access_type: public_method
+            serialized_name: filterParameter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFilterParameter
+                setter: setFilterParameter
+            type: TKusy\Hl7Fhir\R5\StringType
+        comparator:
+            expose: true
+            access_type: public_method
+            serialized_name: comparator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComparator
+                setter: setComparator
+            type: TKusy\Hl7Fhir\R5\SearchComparatorType
+        modifier:
+            expose: true
+            access_type: public_method
+            serialized_name: modifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModifier
+                setter: setModifier
+            type: TKusy\Hl7Fhir\R5\SearchModifierCodeType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R5\StringType

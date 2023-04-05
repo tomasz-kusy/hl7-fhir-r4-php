@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionOperationType:
+    properties:
+        type:
+            -
+                Valid: null
+        effectiveDate:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        confidentialityIndicator:
+            -
+                Valid: null

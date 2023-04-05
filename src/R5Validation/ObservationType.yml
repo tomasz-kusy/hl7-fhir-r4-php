@@ -1,0 +1,139 @@
+TKusy\Hl7Fhir\R5\ObservationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesReference:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        triggeredBy:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        effectiveDateTime:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        effectiveTiming:
+            -
+                Valid: null
+        effectiveInstant:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueSampledData:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        dataAbsentReason:
+            -
+                Valid: null
+        interpretation:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        bodyStructure:
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        referenceRange:
+            -
+                Valid: null
+        hasMember:
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\AssertionManualCompletionTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - fail
+                        - pass
+                        - skip
+                        - stop
+                    groups:
+                        - xsd_rules

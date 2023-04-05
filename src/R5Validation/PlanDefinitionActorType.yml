@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\PlanDefinitionActorType:
+    properties:
+        title:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        option:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

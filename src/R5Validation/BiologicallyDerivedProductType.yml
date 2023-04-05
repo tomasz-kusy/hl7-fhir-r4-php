@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R5\BiologicallyDerivedProductType:
+    properties:
+        productCategory:
+            -
+                Valid: null
+        productCode:
+            -
+                Valid: null
+        parent:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        biologicalSourceEvent:
+            -
+                Valid: null
+        processingFacility:
+            -
+                Valid: null
+        division:
+            -
+                Valid: null
+        productStatus:
+            -
+                Valid: null
+        expirationDate:
+            -
+                Valid: null
+        collection:
+            -
+                Valid: null
+        storageTempRequirements:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null

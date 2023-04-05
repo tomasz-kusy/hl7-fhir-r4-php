@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R5\MeasureReportType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        dataUpdateType:
+            -
+                Valid: null
+        measure:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        reporter:
+            -
+                Valid: null
+        reportingVendor:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        period:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        inputParameters:
+            -
+                Valid: null
+        scoring:
+            -
+                Valid: null
+        improvementNotation:
+            -
+                Valid: null
+        group:
+            -
+                Valid: null
+        supplementalData:
+            -
+                Valid: null
+        evaluatedResource:
+            -
+                Valid: null

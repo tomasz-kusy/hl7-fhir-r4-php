@@ -1,0 +1,154 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\ClinicalUseDefinitionTypeType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            xml_list:
+                inline: true
+                entry_name: subject
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        contraindication:
+            expose: true
+            access_type: public_method
+            serialized_name: contraindication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContraindication
+                setter: setContraindication
+            type: TKusy\Hl7Fhir\R5\ClinicalUseDefinitionContraindicationType
+        indication:
+            expose: true
+            access_type: public_method
+            serialized_name: indication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIndication
+                setter: setIndication
+            type: TKusy\Hl7Fhir\R5\ClinicalUseDefinitionIndicationType
+        interaction:
+            expose: true
+            access_type: public_method
+            serialized_name: interaction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInteraction
+                setter: setInteraction
+            type: TKusy\Hl7Fhir\R5\ClinicalUseDefinitionInteractionType
+        population:
+            expose: true
+            access_type: public_method
+            serialized_name: population
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPopulation
+                setter: setPopulation
+            xml_list:
+                inline: true
+                entry_name: population
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        library:
+            expose: true
+            access_type: public_method
+            serialized_name: library
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLibrary
+                setter: setLibrary
+            xml_list:
+                inline: true
+                entry_name: library
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CanonicalType>
+        undesirableEffect:
+            expose: true
+            access_type: public_method
+            serialized_name: undesirableEffect
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUndesirableEffect
+                setter: setUndesirableEffect
+            type: TKusy\Hl7Fhir\R5\ClinicalUseDefinitionUndesirableEffectType
+        warning:
+            expose: true
+            access_type: public_method
+            serialized_name: warning
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWarning
+                setter: setWarning
+            type: TKusy\Hl7Fhir\R5\ClinicalUseDefinitionWarningType

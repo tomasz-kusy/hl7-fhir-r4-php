@@ -1,0 +1,102 @@
+TKusy\Hl7Fhir\R5\ResearchStudyType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        label:
+            -
+                Valid: null
+        protocol:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        primaryPurposeType:
+            -
+                Valid: null
+        phase:
+            -
+                Valid: null
+        studyDesign:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        keyword:
+            -
+                Valid: null
+        region:
+            -
+                Valid: null
+        descriptionSummary:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        site:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        classifier:
+            -
+                Valid: null
+        associatedParty:
+            -
+                Valid: null
+        progressStatus:
+            -
+                Valid: null
+        whyStopped:
+            -
+                Valid: null
+        recruitment:
+            -
+                Valid: null
+        comparisonGroup:
+            -
+                Valid: null
+        objective:
+            -
+                Valid: null
+        outcomeMeasure:
+            -
+                Valid: null
+        result:
+            -
+                Valid: null

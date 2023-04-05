@@ -1,0 +1,96 @@
+TKusy\Hl7Fhir\R5\SpecimenDefinitionType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        versionAlgorithmString:
+            -
+                Valid: null
+        versionAlgorithmCoding:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        derivedFromCanonical:
+            -
+                Valid: null
+        derivedFromUri:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        subjectCodeableConcept:
+            -
+                Valid: null
+        subjectReference:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        copyrightLabel:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        typeCollected:
+            -
+                Valid: null
+        patientPreparation:
+            -
+                Valid: null
+        timeAspect:
+            -
+                Valid: null
+        collection:
+            -
+                Valid: null
+        typeTested:
+            -
+                Valid: null

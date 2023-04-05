@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SubstanceReferenceInformationGeneElementType:
+    properties:
+        type:
+            -
+                Valid: null
+        element:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

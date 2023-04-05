@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R5\StructureMapStructureType:
+    properties:
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        alias:
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null

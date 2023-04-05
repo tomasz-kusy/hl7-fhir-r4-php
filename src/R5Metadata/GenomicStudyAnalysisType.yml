@@ -1,0 +1,248 @@
+TKusy\Hl7Fhir\R5\GenomicStudyAnalysisType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        methodType:
+            expose: true
+            access_type: public_method
+            serialized_name: methodType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethodType
+                setter: setMethodType
+            xml_list:
+                inline: true
+                entry_name: methodType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        changeType:
+            expose: true
+            access_type: public_method
+            serialized_name: changeType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getChangeType
+                setter: setChangeType
+            xml_list:
+                inline: true
+                entry_name: changeType
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        genomeBuild:
+            expose: true
+            access_type: public_method
+            serialized_name: genomeBuild
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGenomeBuild
+                setter: setGenomeBuild
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        instantiatesCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: instantiatesCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstantiatesCanonical
+                setter: setInstantiatesCanonical
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        instantiatesUri:
+            expose: true
+            access_type: public_method
+            serialized_name: instantiatesUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstantiatesUri
+                setter: setInstantiatesUri
+            type: TKusy\Hl7Fhir\R5\UriType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        focus:
+            expose: true
+            access_type: public_method
+            serialized_name: focus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFocus
+                setter: setFocus
+            xml_list:
+                inline: true
+                entry_name: focus
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        specimen:
+            expose: true
+            access_type: public_method
+            serialized_name: specimen
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecimen
+                setter: setSpecimen
+            xml_list:
+                inline: true
+                entry_name: specimen
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>
+        protocolPerformed:
+            expose: true
+            access_type: public_method
+            serialized_name: protocolPerformed
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProtocolPerformed
+                setter: setProtocolPerformed
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        regionsStudied:
+            expose: true
+            access_type: public_method
+            serialized_name: regionsStudied
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegionsStudied
+                setter: setRegionsStudied
+            xml_list:
+                inline: true
+                entry_name: regionsStudied
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        regionsCalled:
+            expose: true
+            access_type: public_method
+            serialized_name: regionsCalled
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegionsCalled
+                setter: setRegionsCalled
+            xml_list:
+                inline: true
+                entry_name: regionsCalled
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        input:
+            expose: true
+            access_type: public_method
+            serialized_name: input
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInput
+                setter: setInput
+            xml_list:
+                inline: true
+                entry_name: input
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\GenomicStudyInputType>
+        output:
+            expose: true
+            access_type: public_method
+            serialized_name: output
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutput
+                setter: setOutput
+            xml_list:
+                inline: true
+                entry_name: output
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\GenomicStudyOutputType>
+        performer:
+            expose: true
+            access_type: public_method
+            serialized_name: performer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPerformer
+                setter: setPerformer
+            xml_list:
+                inline: true
+                entry_name: performer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\GenomicStudyPerformerType>
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            xml_list:
+                inline: true
+                entry_name: device
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\GenomicStudyDeviceType>

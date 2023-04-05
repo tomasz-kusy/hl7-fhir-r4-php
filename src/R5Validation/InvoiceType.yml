@@ -1,0 +1,63 @@
+TKusy\Hl7Fhir\R5\InvoiceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        cancelledReason:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        recipient:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        creation:
+            -
+                Valid: null
+        periodDate:
+            -
+                Valid: null
+        periodPeriod:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        issuer:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        lineItem:
+            -
+                Valid: null
+        totalPriceComponent:
+            -
+                Valid: null
+        totalNet:
+            -
+                Valid: null
+        totalGross:
+            -
+                Valid: null
+        paymentTerms:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

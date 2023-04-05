@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\CriteriaNotExistsBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - test-passes
+                        - test-fails
+                    groups:
+                        - xsd_rules

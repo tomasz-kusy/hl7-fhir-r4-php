@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ResearchStudyOutcomeMeasureType:
+    properties:
+        name:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        reference:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\TestReportParticipantTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - test-engine
+                        - client
+                        - server
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\AccountStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - inactive
+                        - entered-in-error
+                        - on-hold
+                        - unknown
+                    groups:
+                        - xsd_rules

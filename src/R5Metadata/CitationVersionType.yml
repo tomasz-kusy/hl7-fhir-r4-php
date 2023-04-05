@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\CitationVersionType:
+    properties:
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: TKusy\Hl7Fhir\R5\StringType
+        baseCitation:
+            expose: true
+            access_type: public_method
+            serialized_name: baseCitation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBaseCitation
+                setter: setBaseCitation
+            type: TKusy\Hl7Fhir\R5\ReferenceType

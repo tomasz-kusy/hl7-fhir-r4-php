@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionRepresentationType:
+    properties:
+        type:
+            -
+                Valid: null
+        representation:
+            -
+                Valid: null
+        format:
+            -
+                Valid: null
+        document:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ImmunizationReactionType:
+    properties:
+        date:
+            -
+                Valid: null
+        manifestation:
+            -
+                Valid: null
+        reported:
+            -
+                Valid: null

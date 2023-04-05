@@ -1,0 +1,60 @@
+TKusy\Hl7Fhir\R5\ConsentType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        grantor:
+            -
+                Valid: null
+        grantee:
+            -
+                Valid: null
+        manager:
+            -
+                Valid: null
+        controller:
+            -
+                Valid: null
+        sourceAttachment:
+            -
+                Valid: null
+        sourceReference:
+            -
+                Valid: null
+        regulatoryBasis:
+            -
+                Valid: null
+        policyBasis:
+            -
+                Valid: null
+        policyText:
+            -
+                Valid: null
+        verification:
+            -
+                Valid: null
+        decision:
+            -
+                Valid: null
+        provision:
+            -
+                Valid: null

@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\ObservationTriggeredByType:
+    properties:
+        observation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null

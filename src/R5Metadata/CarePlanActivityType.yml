@@ -1,0 +1,43 @@
+TKusy\Hl7Fhir\R5\CarePlanActivityType:
+    properties:
+        performedActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: performedActivity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPerformedActivity
+                setter: setPerformedActivity
+            xml_list:
+                inline: true
+                entry_name: performedActivity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        progress:
+            expose: true
+            access_type: public_method
+            serialized_name: progress
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProgress
+                setter: setProgress
+            xml_list:
+                inline: true
+                entry_name: progress
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>
+        plannedActivityReference:
+            expose: true
+            access_type: public_method
+            serialized_name: plannedActivityReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPlannedActivityReference
+                setter: setPlannedActivityReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\DeviceConformsToType:
+    properties:
+        category:
+            -
+                Valid: null
+        specification:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        version:
+            -
+                Valid: null

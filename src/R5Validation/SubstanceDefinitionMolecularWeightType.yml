@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionMolecularWeightType:
+    properties:
+        method:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

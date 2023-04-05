@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\CitationTitleType:
+    properties:
+        type:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null
+        text:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

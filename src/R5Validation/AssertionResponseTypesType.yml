@@ -1,0 +1,52 @@
+TKusy\Hl7Fhir\R5\AssertionResponseTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - continue
+                        - switchingProtocols
+                        - okay
+                        - created
+                        - accepted
+                        - nonAuthoritativeInformation
+                        - noContent
+                        - resetContent
+                        - partialContent
+                        - multipleChoices
+                        - movedPermanently
+                        - found
+                        - seeOther
+                        - notModified
+                        - useProxy
+                        - temporaryRedirect
+                        - permanentRedirect
+                        - badRequest
+                        - unauthorized
+                        - paymentRequired
+                        - forbidden
+                        - notFound
+                        - methodNotAllowed
+                        - notAcceptable
+                        - proxyAuthenticationRequired
+                        - requestTimeout
+                        - conflict
+                        - gone
+                        - lengthRequired
+                        - preconditionFailed
+                        - contentTooLarge
+                        - uriTooLong
+                        - unsupportedMediaType
+                        - rangeNotSatisfiable
+                        - expectationFailed
+                        - misdirectedRequest
+                        - unprocessableContent
+                        - upgradeRequired
+                        - internalServerError
+                        - notImplemented
+                        - badGateway
+                        - serviceUnavailable
+                        - gatewayTimeout
+                        - httpVersionNotSupported
+                    groups:
+                        - xsd_rules

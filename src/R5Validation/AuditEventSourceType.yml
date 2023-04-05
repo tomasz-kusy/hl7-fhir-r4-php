@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\AuditEventSourceType:
+    properties:
+        site:
+            -
+                Valid: null
+        observer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null

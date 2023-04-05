@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\DeviceNameType:
+    properties:
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        display:
+            -
+                Valid: null

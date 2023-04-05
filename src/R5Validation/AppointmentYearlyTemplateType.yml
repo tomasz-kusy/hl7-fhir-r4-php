@@ -1,0 +1,9 @@
+TKusy\Hl7Fhir\R5\AppointmentYearlyTemplateType:
+    properties:
+        yearInterval:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

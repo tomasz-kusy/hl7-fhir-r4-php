@@ -1,0 +1,105 @@
+TKusy\Hl7Fhir\R5\SpecimenDefinitionContainerType:
+    properties:
+        material:
+            expose: true
+            access_type: public_method
+            serialized_name: material
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaterial
+                setter: setMaterial
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        cap:
+            expose: true
+            access_type: public_method
+            serialized_name: cap
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCap
+                setter: setCap
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        capacity:
+            expose: true
+            access_type: public_method
+            serialized_name: capacity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCapacity
+                setter: setCapacity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        minimumVolumeQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: minimumVolumeQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMinimumVolumeQuantity
+                setter: setMinimumVolumeQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        minimumVolumeString:
+            expose: true
+            access_type: public_method
+            serialized_name: minimumVolumeString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMinimumVolumeString
+                setter: setMinimumVolumeString
+            type: TKusy\Hl7Fhir\R5\StringType
+        additive:
+            expose: true
+            access_type: public_method
+            serialized_name: additive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditive
+                setter: setAdditive
+            xml_list:
+                inline: true
+                entry_name: additive
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SpecimenDefinitionAdditiveType>
+        preparation:
+            expose: true
+            access_type: public_method
+            serialized_name: preparation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPreparation
+                setter: setPreparation
+            type: TKusy\Hl7Fhir\R5\MarkdownType

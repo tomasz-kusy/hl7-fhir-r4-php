@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideDependsOnType:
+    properties:
+        uri:
+            expose: true
+            access_type: public_method
+            serialized_name: uri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUri
+                setter: setUri
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        packageId:
+            expose: true
+            access_type: public_method
+            serialized_name: packageId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPackageId
+                setter: setPackageId
+            type: TKusy\Hl7Fhir\R5\IdType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7Fhir\R5\StringType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            type: TKusy\Hl7Fhir\R5\MarkdownType

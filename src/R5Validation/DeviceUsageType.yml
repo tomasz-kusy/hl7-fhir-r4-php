@@ -1,0 +1,71 @@
+TKusy\Hl7Fhir\R5\DeviceUsageType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        timingTiming:
+            -
+                Valid: null
+        timingPeriod:
+            -
+                Valid: null
+        timingDateTime:
+            -
+                Valid: null
+        dateAsserted:
+            -
+                Valid: null
+        usageStatus:
+            -
+                Valid: null
+        usageReason:
+            -
+                Valid: null
+        adherence:
+            -
+                Valid: null
+        informationSource:
+            -
+                Valid: null
+        device:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\InventoryReportInventoryListingType:
+    properties:
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        itemStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: itemStatus
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemStatus
+                setter: setItemStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        countingDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: countingDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountingDateTime
+                setter: setCountingDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: item
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItem
+                setter: setItem
+            xml_list:
+                inline: true
+                entry_name: item
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\InventoryReportItemType>

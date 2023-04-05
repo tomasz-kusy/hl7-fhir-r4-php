@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\LinkageType:
+    properties:
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        author:
+            expose: true
+            access_type: public_method
+            serialized_name: author
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthor
+                setter: setAuthor
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: item
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItem
+                setter: setItem
+            xml_list:
+                inline: true
+                entry_name: item
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\LinkageItemType>

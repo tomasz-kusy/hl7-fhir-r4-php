@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ResearchStudyRecruitmentType:
+    properties:
+        targetNumber:
+            -
+                Valid: null
+        actualNumber:
+            -
+                Valid: null
+        eligibility:
+            -
+                Valid: null
+        actualGroup:
+            -
+                Valid: null

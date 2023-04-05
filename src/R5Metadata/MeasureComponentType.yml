@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\MeasureComponentType:
+    properties:
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        criteria:
+            expose: true
+            access_type: public_method
+            serialized_name: criteria
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCriteria
+                setter: setCriteria
+            type: TKusy\Hl7Fhir\R5\ExpressionType
+        groupDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: groupDefinition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGroupDefinition
+                setter: setGroupDefinition
+            type: TKusy\Hl7Fhir\R5\ReferenceType

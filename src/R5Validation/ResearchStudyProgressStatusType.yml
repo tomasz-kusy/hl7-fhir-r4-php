@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\ResearchStudyProgressStatusType:
+    properties:
+        state:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        actual:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null

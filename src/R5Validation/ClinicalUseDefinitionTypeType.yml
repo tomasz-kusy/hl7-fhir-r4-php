@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - indication
+                        - contraindication
+                        - interaction
+                        - undesirable-effect
+                        - warning
+                    groups:
+                        - xsd_rules

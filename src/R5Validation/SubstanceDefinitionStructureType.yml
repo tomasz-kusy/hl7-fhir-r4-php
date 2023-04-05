@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionStructureType:
+    properties:
+        stereochemistry:
+            -
+                Valid: null
+        opticalActivity:
+            -
+                Valid: null
+        molecularFormula:
+            -
+                Valid: null
+        molecularFormulaByMoiety:
+            -
+                Valid: null
+        molecularWeight:
+            -
+                Valid: null
+        technique:
+            -
+                Valid: null
+        sourceDocument:
+            -
+                Valid: null
+        representation:
+            -
+                Valid: null

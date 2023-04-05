@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\DosageDoseAndRateType:
+    properties:
+        type:
+            -
+                Valid: null
+        doseRange:
+            -
+                Valid: null
+        doseQuantity:
+            -
+                Valid: null
+        rateRatio:
+            -
+                Valid: null
+        rateRange:
+            -
+                Valid: null
+        rateQuantity:
+            -
+                Valid: null

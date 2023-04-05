@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\FormularyItem:
+    xml_root_name: FormularyItem
+    xml_root_namespace: 'http://hl7.org/fhir'

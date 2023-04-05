@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeMedicineClassificationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        sourceString:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceString
+                setter: setSourceString
+            type: TKusy\Hl7Fhir\R5\StringType
+        sourceUri:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceUri
+                setter: setSourceUri
+            type: TKusy\Hl7Fhir\R5\UriType
+        classification:
+            expose: true
+            access_type: public_method
+            serialized_name: classification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassification
+                setter: setClassification
+            xml_list:
+                inline: true
+                entry_name: classification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

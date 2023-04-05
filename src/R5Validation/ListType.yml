@@ -1,0 +1,49 @@
+TKusy\Hl7Fhir\R5\ListType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        orderedBy:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        entry:
+            -
+                Valid: null
+        emptyReason:
+            -
+                Valid: null

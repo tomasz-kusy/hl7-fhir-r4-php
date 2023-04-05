@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\QuantityComparatorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - '<'
+                        - '<='
+                        - '>='
+                        - '>'
+                        - ad
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,175 @@
+TKusy\Hl7Fhir\R5\ContractValuedItemType:
+    properties:
+        entityCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: entityCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntityCodeableConcept
+                setter: setEntityCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        entityReference:
+            expose: true
+            access_type: public_method
+            serialized_name: entityReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntityReference
+                setter: setEntityReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        effectiveTime:
+            expose: true
+            access_type: public_method
+            serialized_name: effectiveTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEffectiveTime
+                setter: setEffectiveTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        unitPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: unitPrice
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitPrice
+                setter: setUnitPrice
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        factor:
+            expose: true
+            access_type: public_method
+            serialized_name: factor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFactor
+                setter: setFactor
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        points:
+            expose: true
+            access_type: public_method
+            serialized_name: points
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPoints
+                setter: setPoints
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        net:
+            expose: true
+            access_type: public_method
+            serialized_name: net
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNet
+                setter: setNet
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        payment:
+            expose: true
+            access_type: public_method
+            serialized_name: payment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPayment
+                setter: setPayment
+            type: TKusy\Hl7Fhir\R5\StringType
+        paymentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentDate
+                setter: setPaymentDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        responsible:
+            expose: true
+            access_type: public_method
+            serialized_name: responsible
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResponsible
+                setter: setResponsible
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        recipient:
+            expose: true
+            access_type: public_method
+            serialized_name: recipient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecipient
+                setter: setRecipient
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            xml_list:
+                inline: true
+                entry_name: linkId
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        securityLabelNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: securityLabelNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSecurityLabelNumber
+                setter: setSecurityLabelNumber
+            xml_list:
+                inline: true
+                entry_name: securityLabelNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UnsignedIntType>

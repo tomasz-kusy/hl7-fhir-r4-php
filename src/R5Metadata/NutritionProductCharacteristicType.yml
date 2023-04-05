@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R5\NutritionProductCharacteristicType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCodeableConcept
+                setter: setValueCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueBase64Binary:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBase64Binary
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBase64Binary
+                setter: setValueBase64Binary
+            type: TKusy\Hl7Fhir\R5\Base64BinaryType
+        valueAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAttachment
+                setter: setValueAttachment
+            type: TKusy\Hl7Fhir\R5\AttachmentType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType

@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeCostType:
+    properties:
+        effectiveDate:
+            expose: true
+            access_type: public_method
+            serialized_name: effectiveDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEffectiveDate
+                setter: setEffectiveDate
+            xml_list:
+                inline: true
+                entry_name: effectiveDate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PeriodType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: source
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: TKusy\Hl7Fhir\R5\StringType
+        costMoney:
+            expose: true
+            access_type: public_method
+            serialized_name: costMoney
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCostMoney
+                setter: setCostMoney
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        costCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: costCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCostCodeableConcept
+                setter: setCostCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

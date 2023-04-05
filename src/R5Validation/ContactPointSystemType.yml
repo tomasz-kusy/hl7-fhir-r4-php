@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\ContactPointSystemType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - phone
+                        - fax
+                        - email
+                        - pager
+                        - url
+                        - sms
+                        - other
+                    groups:
+                        - xsd_rules

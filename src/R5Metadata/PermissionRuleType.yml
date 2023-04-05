@@ -1,0 +1,58 @@
+TKusy\Hl7Fhir\R5\PermissionRuleType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\ConsentProvisionTypeType
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getData
+                setter: setData
+            xml_list:
+                inline: true
+                entry_name: data
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PermissionDataType>
+        activity:
+            expose: true
+            access_type: public_method
+            serialized_name: activity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActivity
+                setter: setActivity
+            xml_list:
+                inline: true
+                entry_name: activity
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PermissionActivityType>
+        limit:
+            expose: true
+            access_type: public_method
+            serialized_name: limit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLimit
+                setter: setLimit
+            xml_list:
+                inline: true
+                entry_name: limit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

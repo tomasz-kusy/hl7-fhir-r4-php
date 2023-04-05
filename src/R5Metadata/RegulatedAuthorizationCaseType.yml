@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R5\RegulatedAuthorizationCaseType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        datePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: datePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDatePeriod
+                setter: setDatePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        dateDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: dateDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDateDateTime
+                setter: setDateDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        application:
+            expose: true
+            access_type: public_method
+            serialized_name: application
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApplication
+                setter: setApplication
+            xml_list:
+                inline: true
+                entry_name: application
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\RegulatedAuthorizationCaseType>

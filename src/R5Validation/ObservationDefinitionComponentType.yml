@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ObservationDefinitionComponentType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        permittedDataType:
+            -
+                Valid: null
+        permittedUnit:
+            -
+                Valid: null
+        qualifiedValue:
+            -
+                Valid: null

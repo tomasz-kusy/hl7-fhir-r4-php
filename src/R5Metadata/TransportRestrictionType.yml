@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\TransportRestrictionType:
+    properties:
+        repetitions:
+            expose: true
+            access_type: public_method
+            serialized_name: repetitions
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepetitions
+                setter: setRepetitions
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        recipient:
+            expose: true
+            access_type: public_method
+            serialized_name: recipient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecipient
+                setter: setRecipient
+            xml_list:
+                inline: true
+                entry_name: recipient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ServiceRequestOrderDetailType:
+    properties:
+        parameterFocus:
+            -
+                Valid: null
+        parameter:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

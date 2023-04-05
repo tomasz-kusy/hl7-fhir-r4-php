@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ClaimResponseItemType:
+    properties:
+        itemSequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        traceNumber:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        reviewOutcome:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null
+        detail:
+            -
+                Valid: null

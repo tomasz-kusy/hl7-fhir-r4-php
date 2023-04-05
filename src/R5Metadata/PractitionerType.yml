@@ -1,0 +1,162 @@
+TKusy\Hl7Fhir\R5\PractitionerType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            xml_list:
+                inline: true
+                entry_name: name
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\HumanNameType>
+        telecom:
+            expose: true
+            access_type: public_method
+            serialized_name: telecom
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTelecom
+                setter: setTelecom
+            xml_list:
+                inline: true
+                entry_name: telecom
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ContactPointType>
+        gender:
+            expose: true
+            access_type: public_method
+            serialized_name: gender
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGender
+                setter: setGender
+            type: TKusy\Hl7Fhir\R5\AdministrativeGenderType
+        birthDate:
+            expose: true
+            access_type: public_method
+            serialized_name: birthDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBirthDate
+                setter: setBirthDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        deceasedBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedBoolean
+                setter: setDeceasedBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        deceasedDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: deceasedDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDeceasedDateTime
+                setter: setDeceasedDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: address
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            xml_list:
+                inline: true
+                entry_name: address
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AddressType>
+        photo:
+            expose: true
+            access_type: public_method
+            serialized_name: photo
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPhoto
+                setter: setPhoto
+            xml_list:
+                inline: true
+                entry_name: photo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AttachmentType>
+        qualification:
+            expose: true
+            access_type: public_method
+            serialized_name: qualification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualification
+                setter: setQualification
+            xml_list:
+                inline: true
+                entry_name: qualification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PractitionerQualificationType>
+        communication:
+            expose: true
+            access_type: public_method
+            serialized_name: communication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCommunication
+                setter: setCommunication
+            xml_list:
+                inline: true
+                entry_name: communication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PractitionerCommunicationType>

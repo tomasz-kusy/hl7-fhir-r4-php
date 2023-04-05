@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\BodyStructureBodyLandmarkOrientationType:
+    properties:
+        landmarkDescription:
+            -
+                Valid: null
+        clockFacePosition:
+            -
+                Valid: null
+        distanceFromLandmark:
+            -
+                Valid: null
+        surfaceOrientation:
+            -
+                Valid: null

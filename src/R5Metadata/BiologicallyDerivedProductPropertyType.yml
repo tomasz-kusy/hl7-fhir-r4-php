@@ -1,0 +1,112 @@
+TKusy\Hl7Fhir\R5\BiologicallyDerivedProductPropertyType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInteger
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInteger
+                setter: setValueInteger
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        valueCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCodeableConcept
+                setter: setValueCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valuePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: valuePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValuePeriod
+                setter: setValuePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueRange:
+            expose: true
+            access_type: public_method
+            serialized_name: valueRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueRange
+                setter: setValueRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        valueRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: valueRatio
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueRatio
+                setter: setValueRatio
+            type: TKusy\Hl7Fhir\R5\RatioType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: valueAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueAttachment
+                setter: setValueAttachment
+            type: TKusy\Hl7Fhir\R5\AttachmentType

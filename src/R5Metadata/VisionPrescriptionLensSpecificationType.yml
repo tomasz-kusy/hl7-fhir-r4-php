@@ -1,0 +1,164 @@
+TKusy\Hl7Fhir\R5\VisionPrescriptionLensSpecificationType:
+    properties:
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: product
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        eye:
+            expose: true
+            access_type: public_method
+            serialized_name: eye
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEye
+                setter: setEye
+            type: TKusy\Hl7Fhir\R5\VisionEyesType
+        sphere:
+            expose: true
+            access_type: public_method
+            serialized_name: sphere
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSphere
+                setter: setSphere
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        cylinder:
+            expose: true
+            access_type: public_method
+            serialized_name: cylinder
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCylinder
+                setter: setCylinder
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        axis:
+            expose: true
+            access_type: public_method
+            serialized_name: axis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAxis
+                setter: setAxis
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        prism:
+            expose: true
+            access_type: public_method
+            serialized_name: prism
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrism
+                setter: setPrism
+            xml_list:
+                inline: true
+                entry_name: prism
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\VisionPrescriptionPrismType>
+        add:
+            expose: true
+            access_type: public_method
+            serialized_name: add
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdd
+                setter: setAdd
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        power:
+            expose: true
+            access_type: public_method
+            serialized_name: power
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPower
+                setter: setPower
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        backCurve:
+            expose: true
+            access_type: public_method
+            serialized_name: backCurve
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBackCurve
+                setter: setBackCurve
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        diameter:
+            expose: true
+            access_type: public_method
+            serialized_name: diameter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDiameter
+                setter: setDiameter
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: color
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getColor
+                setter: setColor
+            type: TKusy\Hl7Fhir\R5\StringType
+        brand:
+            expose: true
+            access_type: public_method
+            serialized_name: brand
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBrand
+                setter: setBrand
+            type: TKusy\Hl7Fhir\R5\StringType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>

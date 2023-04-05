@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\ActivityDefinitionParticipantType:
+    properties:
+        type:
+            -
+                Valid: null
+        typeCanonical:
+            -
+                Valid: null
+        typeReference:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        function:
+            -
+                Valid: null

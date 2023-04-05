@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\SpecimenType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        accessionIdentifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        receivedTime:
+            -
+                Valid: null
+        parent:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        combined:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        feature:
+            -
+                Valid: null
+        collection:
+            -
+                Valid: null
+        processing:
+            -
+                Valid: null
+        container:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

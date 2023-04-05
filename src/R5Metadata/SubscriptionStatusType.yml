@@ -1,0 +1,87 @@
+TKusy\Hl7Fhir\R5\SubscriptionStatusType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\SubscriptionStatusCodesType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\SubscriptionNotificationTypeType
+        eventsSinceSubscriptionStart:
+            expose: true
+            access_type: public_method
+            serialized_name: eventsSinceSubscriptionStart
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEventsSinceSubscriptionStart
+                setter: setEventsSinceSubscriptionStart
+            type: TKusy\Hl7Fhir\R5\Integer64Type
+        notificationEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: notificationEvent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNotificationEvent
+                setter: setNotificationEvent
+            xml_list:
+                inline: true
+                entry_name: notificationEvent
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SubscriptionStatusNotificationEventType>
+        subscription:
+            expose: true
+            access_type: public_method
+            serialized_name: subscription
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubscription
+                setter: setSubscription
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        topic:
+            expose: true
+            access_type: public_method
+            serialized_name: topic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTopic
+                setter: setTopic
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: error
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getError
+                setter: setError
+            xml_list:
+                inline: true
+                entry_name: error
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

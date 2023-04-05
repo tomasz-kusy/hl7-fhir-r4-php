@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\StructureMapSourceType:
+    properties:
+        context:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        min:
+            -
+                Valid: null
+        max:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        defaultValue:
+            -
+                Valid: null
+        element:
+            -
+                Valid: null
+        listMode:
+            -
+                Valid: null
+        variable:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        check:
+            -
+                Valid: null
+        logMessage:
+            -
+                Valid: null

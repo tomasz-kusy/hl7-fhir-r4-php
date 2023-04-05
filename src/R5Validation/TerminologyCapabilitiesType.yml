@@ -1,0 +1,98 @@
+TKusy\Hl7Fhir\R5\TerminologyCapabilitiesType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        versionAlgorithmString:
+            -
+                Valid: null
+        versionAlgorithmCoding:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        jurisdiction:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        copyrightLabel:
+            -
+                Valid: null
+        kind:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        software:
+            -
+                Valid: null
+        implementation:
+            -
+                Valid: null
+        lockedDate:
+            -
+                Valid: null
+        codeSystem:
+            -
+                Valid: null
+        expansion:
+            -
+                Valid: null
+        codeSearch:
+            -
+                Valid: null
+        validateCode:
+            -
+                Valid: null
+        translation:
+            -
+                Valid: null
+        closure:
+            -
+                Valid: null

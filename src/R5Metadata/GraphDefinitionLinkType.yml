@@ -1,0 +1,105 @@
+TKusy\Hl7Fhir\R5\GraphDefinitionLinkType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\StringType
+        min:
+            expose: true
+            access_type: public_method
+            serialized_name: min
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMin
+                setter: setMin
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        max:
+            expose: true
+            access_type: public_method
+            serialized_name: max
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMax
+                setter: setMax
+            type: TKusy\Hl7Fhir\R5\StringType
+        sourceId:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceId
+                setter: setSourceId
+            type: TKusy\Hl7Fhir\R5\IdType
+        path:
+            expose: true
+            access_type: public_method
+            serialized_name: path
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPath
+                setter: setPath
+            type: TKusy\Hl7Fhir\R5\StringType
+        sliceName:
+            expose: true
+            access_type: public_method
+            serialized_name: sliceName
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSliceName
+                setter: setSliceName
+            type: TKusy\Hl7Fhir\R5\StringType
+        targetId:
+            expose: true
+            access_type: public_method
+            serialized_name: targetId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetId
+                setter: setTargetId
+            type: TKusy\Hl7Fhir\R5\IdType
+        params:
+            expose: true
+            access_type: public_method
+            serialized_name: params
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParams
+                setter: setParams
+            type: TKusy\Hl7Fhir\R5\StringType
+        compartment:
+            expose: true
+            access_type: public_method
+            serialized_name: compartment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCompartment
+                setter: setCompartment
+            xml_list:
+                inline: true
+                entry_name: compartment
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\GraphDefinitionCompartmentType>

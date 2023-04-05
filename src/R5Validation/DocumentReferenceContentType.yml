@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\DocumentReferenceContentType:
+    properties:
+        attachment:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null

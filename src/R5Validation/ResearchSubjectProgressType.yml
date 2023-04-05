@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\ResearchSubjectProgressType:
+    properties:
+        type:
+            -
+                Valid: null
+        subjectState:
+            -
+                Valid: null
+        milestone:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        startDate:
+            -
+                Valid: null
+        endDate:
+            -
+                Valid: null

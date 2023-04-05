@@ -1,0 +1,27 @@
+TKusy\Hl7Fhir\R5\MeasureReportComponentType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null

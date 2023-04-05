@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\NamingSystemTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - codesystem
+                        - identifier
+                        - root
+                    groups:
+                        - xsd_rules

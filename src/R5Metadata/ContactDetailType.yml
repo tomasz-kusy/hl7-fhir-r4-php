@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\ContactDetailType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        telecom:
+            expose: true
+            access_type: public_method
+            serialized_name: telecom
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTelecom
+                setter: setTelecom
+            xml_list:
+                inline: true
+                entry_name: telecom
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ContactPointType>

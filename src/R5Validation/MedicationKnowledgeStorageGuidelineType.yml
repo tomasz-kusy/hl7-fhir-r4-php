@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeStorageGuidelineType:
+    properties:
+        reference:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        stabilityDuration:
+            -
+                Valid: null
+        environmentalSetting:
+            -
+                Valid: null

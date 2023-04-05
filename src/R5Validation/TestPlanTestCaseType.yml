@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\TestPlanTestCaseType:
+    properties:
+        sequence:
+            -
+                Valid: null
+        scope:
+            -
+                Valid: null
+        dependency:
+            -
+                Valid: null
+        testRun:
+            -
+                Valid: null
+        testData:
+            -
+                Valid: null
+        assertion:
+            -
+                Valid: null

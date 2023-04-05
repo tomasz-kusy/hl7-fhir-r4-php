@@ -1,0 +1,47 @@
+TKusy\Hl7Fhir\R5\PaymentReconciliationAllocationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        predecessor:
+            -
+                Valid: null
+        target:
+            -
+                Valid: null
+        targetItemString:
+            -
+                Valid: null
+        targetItemIdentifier:
+            -
+                Valid: null
+        targetItemPositiveInt:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        submitter:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        responsible:
+            -
+                Valid: null
+        payee:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

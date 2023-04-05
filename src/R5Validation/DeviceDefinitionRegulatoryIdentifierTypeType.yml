@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionRegulatoryIdentifierTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - basic
+                        - master
+                        - license
+                    groups:
+                        - xsd_rules

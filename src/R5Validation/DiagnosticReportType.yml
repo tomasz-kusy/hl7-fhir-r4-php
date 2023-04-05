@@ -1,0 +1,76 @@
+TKusy\Hl7Fhir\R5\DiagnosticReportType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        effectiveDateTime:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        resultsInterpreter:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        result:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        study:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        media:
+            -
+                Valid: null
+        composition:
+            -
+                Valid: null
+        conclusion:
+            -
+                Valid: null
+        conclusionCode:
+            -
+                Valid: null
+        presentedForm:
+            -
+                Valid: null

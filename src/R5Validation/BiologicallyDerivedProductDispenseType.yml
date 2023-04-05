@@ -1,0 +1,62 @@
+TKusy\Hl7Fhir\R5\BiologicallyDerivedProductDispenseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        originRelationshipType:
+            -
+                Valid: null
+        product:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        matchStatus:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        preparedDate:
+            -
+                Valid: null
+        whenHandedOver:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        usageInstruction:
+            -
+                Valid: null

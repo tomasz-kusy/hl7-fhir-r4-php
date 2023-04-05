@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R5\IngredientReferenceStrengthType:
+    properties:
+        substance:
+            expose: true
+            access_type: public_method
+            serialized_name: substance
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstance
+                setter: setSubstance
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        strengthRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: strengthRatio
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrengthRatio
+                setter: setStrengthRatio
+            type: TKusy\Hl7Fhir\R5\RatioType
+        strengthRatioRange:
+            expose: true
+            access_type: public_method
+            serialized_name: strengthRatioRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrengthRatioRange
+                setter: setStrengthRatioRange
+            type: TKusy\Hl7Fhir\R5\RatioRangeType
+        strengthQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: strengthQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrengthQuantity
+                setter: setStrengthQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        measurementPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementPoint
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasurementPoint
+                setter: setMeasurementPoint
+            type: TKusy\Hl7Fhir\R5\StringType
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            xml_list:
+                inline: true
+                entry_name: country
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

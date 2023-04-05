@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\TestPlanDependency1Type:
+    properties:
+        description:
+            -
+                Valid: null
+        predecessor:
+            -
+                Valid: null

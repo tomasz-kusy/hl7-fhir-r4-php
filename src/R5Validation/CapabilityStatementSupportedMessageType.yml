@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\CapabilityStatementSupportedMessageType:
+    properties:
+        mode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        definition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

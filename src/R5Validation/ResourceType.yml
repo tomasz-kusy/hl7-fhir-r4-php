@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ResourceType:
+    properties:
+        id:
+            -
+                Valid: null
+        meta:
+            -
+                Valid: null
+        implicitRules:
+            -
+                Valid: null
+        language:
+            -
+                Valid: null

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\ValueSetExpansionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        next:
+            -
+                Valid: null
+        timestamp:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        total:
+            -
+                Valid: null
+        offset:
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        contains:
+            -
+                Valid: null

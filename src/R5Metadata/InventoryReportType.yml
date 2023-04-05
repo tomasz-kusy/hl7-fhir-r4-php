@@ -1,0 +1,124 @@
+TKusy\Hl7Fhir\R5\InventoryReportType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\InventoryReportStatusType
+        countType:
+            expose: true
+            access_type: public_method
+            serialized_name: countType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountType
+                setter: setCountType
+            type: TKusy\Hl7Fhir\R5\InventoryCountTypeType
+        operationType:
+            expose: true
+            access_type: public_method
+            serialized_name: operationType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperationType
+                setter: setOperationType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        operationTypeReason:
+            expose: true
+            access_type: public_method
+            serialized_name: operationTypeReason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperationTypeReason
+                setter: setOperationTypeReason
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        reportedDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: reportedDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReportedDateTime
+                setter: setReportedDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        reporter:
+            expose: true
+            access_type: public_method
+            serialized_name: reporter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReporter
+                setter: setReporter
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        reportingPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: reportingPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReportingPeriod
+                setter: setReportingPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        inventoryListing:
+            expose: true
+            access_type: public_method
+            serialized_name: inventoryListing
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInventoryListing
+                setter: setInventoryListing
+            xml_list:
+                inline: true
+                entry_name: inventoryListing
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\InventoryReportInventoryListingType>
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>

@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\VerificationResultStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - attested
+                        - validated
+                        - in-process
+                        - req-revalid
+                        - val-fail
+                        - reval-fail
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionLinkType:
+    properties:
+        relation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        relatedDevice:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\CodingType:
+    properties:
+        system:
+            expose: true
+            access_type: public_method
+            serialized_name: system
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSystem
+                setter: setSystem
+            type: TKusy\Hl7Fhir\R5\UriType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7Fhir\R5\StringType
+        userSelected:
+            expose: true
+            access_type: public_method
+            serialized_name: userSelected
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUserSelected
+                setter: setUserSelected
+            type: TKusy\Hl7Fhir\R5\BooleanType

@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\MedicationIngredientType:
+    properties:
+        item:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        isActive:
+            -
+                Valid: null
+        strengthRatio:
+            -
+                Valid: null
+        strengthCodeableConcept:
+            -
+                Valid: null
+        strengthQuantity:
+            -
+                Valid: null

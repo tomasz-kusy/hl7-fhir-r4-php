@@ -1,0 +1,69 @@
+TKusy\Hl7Fhir\R5\ValueSetComposeType:
+    properties:
+        lockedDate:
+            expose: true
+            access_type: public_method
+            serialized_name: lockedDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLockedDate
+                setter: setLockedDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        inactive:
+            expose: true
+            access_type: public_method
+            serialized_name: inactive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInactive
+                setter: setInactive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        include:
+            expose: true
+            access_type: public_method
+            serialized_name: include
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInclude
+                setter: setInclude
+            xml_list:
+                inline: true
+                entry_name: include
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ValueSetIncludeType>
+        exclude:
+            expose: true
+            access_type: public_method
+            serialized_name: exclude
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExclude
+                setter: setExclude
+            xml_list:
+                inline: true
+                entry_name: exclude
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ValueSetIncludeType>
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>

@@ -1,0 +1,122 @@
+TKusy\Hl7Fhir\R5\ClaimResponseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        traceNumber:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subType:
+            -
+                Valid: null
+        use:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        patient:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        created:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        insurer:
+            -
+                Valid: null
+        requestor:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        outcome:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        decision:
+            -
+                Valid: null
+        disposition:
+            -
+                Valid: null
+        preAuthRef:
+            -
+                Valid: null
+        preAuthPeriod:
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        payeeType:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        diagnosisRelatedGroup:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null
+        addItem:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null
+        total:
+            -
+                Valid: null
+        payment:
+            -
+                Valid: null
+        fundsReserve:
+            -
+                Valid: null
+        formCode:
+            -
+                Valid: null
+        form:
+            -
+                Valid: null
+        processNote:
+            -
+                Valid: null
+        communicationRequest:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        error:
+            -
+                Valid: null

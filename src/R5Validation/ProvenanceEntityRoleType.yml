@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\ProvenanceEntityRoleType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - revision
+                        - quotation
+                        - source
+                        - instantiates
+                        - removal
+                    groups:
+                        - xsd_rules

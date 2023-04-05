@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\NutritionOrderSchedule1Type:
+    properties:
+        timing:
+            -
+                Valid: null
+        asNeeded:
+            -
+                Valid: null
+        asNeededFor:
+            -
+                Valid: null

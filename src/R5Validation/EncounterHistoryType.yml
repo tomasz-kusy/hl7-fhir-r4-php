@@ -1,0 +1,49 @@
+TKusy\Hl7Fhir\R5\EncounterHistoryType:
+    properties:
+        encounter:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        class:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        serviceType:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        subjectStatus:
+            -
+                Valid: null
+        actualPeriod:
+            -
+                Valid: null
+        plannedStartDate:
+            -
+                Valid: null
+        plannedEndDate:
+            -
+                Valid: null
+        length:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null

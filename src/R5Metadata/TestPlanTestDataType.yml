@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\TestPlanTestDataType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodingType
+        content:
+            expose: true
+            access_type: public_method
+            serialized_name: content
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContent
+                setter: setContent
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        sourceString:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceString
+                setter: setSourceString
+            type: TKusy\Hl7Fhir\R5\StringType
+        sourceReference:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceReference
+                setter: setSourceReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

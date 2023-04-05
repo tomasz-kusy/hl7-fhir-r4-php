@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\AddressUseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - home
+                        - work
+                        - temp
+                        - old
+                        - billing
+                    groups:
+                        - xsd_rules

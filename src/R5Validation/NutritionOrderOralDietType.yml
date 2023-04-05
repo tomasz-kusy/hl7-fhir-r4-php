@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\NutritionOrderOralDietType:
+    properties:
+        type:
+            -
+                Valid: null
+        schedule:
+            -
+                Valid: null
+        nutrient:
+            -
+                Valid: null
+        texture:
+            -
+                Valid: null
+        fluidConsistencyType:
+            -
+                Valid: null
+        instruction:
+            -
+                Valid: null

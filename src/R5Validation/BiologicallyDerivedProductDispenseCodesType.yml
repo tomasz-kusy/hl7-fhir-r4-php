@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\BiologicallyDerivedProductDispenseCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preparation
+                        - in-progress
+                        - allocated
+                        - issued
+                        - unfulfilled
+                        - returned
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

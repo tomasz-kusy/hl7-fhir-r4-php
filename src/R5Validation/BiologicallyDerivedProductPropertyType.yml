@@ -1,0 +1,36 @@
+TKusy\Hl7Fhir\R5\BiologicallyDerivedProductPropertyType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valuePeriod:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null

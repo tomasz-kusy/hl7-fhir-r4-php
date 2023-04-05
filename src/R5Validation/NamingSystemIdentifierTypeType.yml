@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\NamingSystemIdentifierTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - oid
+                        - uuid
+                        - uri
+                        - iri-stem
+                        - v2csmnemonic
+                        - other
+                    groups:
+                        - xsd_rules

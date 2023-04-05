@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\ClaimResponseErrorType:
+    properties:
+        itemSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: itemSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemSequence
+                setter: setItemSequence
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        detailSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: detailSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetailSequence
+                setter: setDetailSequence
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        subDetailSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: subDetailSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubDetailSequence
+                setter: setSubDetailSequence
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: expression
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            xml_list:
+                inline: true
+                entry_name: expression
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>

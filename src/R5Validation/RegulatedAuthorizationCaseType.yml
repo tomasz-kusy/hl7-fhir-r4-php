@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\RegulatedAuthorizationCaseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        datePeriod:
+            -
+                Valid: null
+        dateDateTime:
+            -
+                Valid: null
+        application:
+            -
+                Valid: null

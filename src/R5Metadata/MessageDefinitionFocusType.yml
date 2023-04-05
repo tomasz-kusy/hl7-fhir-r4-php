@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\MessageDefinitionFocusType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\ResourceTypeType
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        min:
+            expose: true
+            access_type: public_method
+            serialized_name: min
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMin
+                setter: setMin
+            type: TKusy\Hl7Fhir\R5\UnsignedIntType
+        max:
+            expose: true
+            access_type: public_method
+            serialized_name: max
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMax
+                setter: setMax
+            type: TKusy\Hl7Fhir\R5\StringType

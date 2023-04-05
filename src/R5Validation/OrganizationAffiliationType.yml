@@ -1,0 +1,38 @@
+TKusy\Hl7Fhir\R5\OrganizationAffiliationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        participatingOrganization:
+            -
+                Valid: null
+        network:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        healthcareService:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null

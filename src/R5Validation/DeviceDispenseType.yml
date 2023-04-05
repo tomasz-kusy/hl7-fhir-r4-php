@@ -1,0 +1,77 @@
+TKusy\Hl7Fhir\R5\DeviceDispenseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        device:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        receiver:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        preparedDate:
+            -
+                Valid: null
+        whenHandedOver:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        usageInstruction:
+            -
+                Valid: null
+        eventHistory:
+            -
+                Valid: null

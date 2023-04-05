@@ -1,0 +1,128 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentContentType:
+    properties:
+        informationType:
+            expose: true
+            access_type: public_method
+            serialized_name: informationType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInformationType
+                setter: setInformationType
+            type: TKusy\Hl7Fhir\R5\ArtifactAssessmentInformationTypeType
+        summary:
+            expose: true
+            access_type: public_method
+            serialized_name: summary
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSummary
+                setter: setSummary
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        classifier:
+            expose: true
+            access_type: public_method
+            serialized_name: classifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassifier
+                setter: setClassifier
+            xml_list:
+                inline: true
+                entry_name: classifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        author:
+            expose: true
+            access_type: public_method
+            serialized_name: author
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthor
+                setter: setAuthor
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        path:
+            expose: true
+            access_type: public_method
+            serialized_name: path
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPath
+                setter: setPath
+            xml_list:
+                inline: true
+                entry_name: path
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UriType>
+        relatedArtifact:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedArtifact
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelatedArtifact
+                setter: setRelatedArtifact
+            xml_list:
+                inline: true
+                entry_name: relatedArtifact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\RelatedArtifactType>
+        freeToShare:
+            expose: true
+            access_type: public_method
+            serialized_name: freeToShare
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFreeToShare
+                setter: setFreeToShare
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        component:
+            expose: true
+            access_type: public_method
+            serialized_name: component
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComponent
+                setter: setComponent
+            xml_list:
+                inline: true
+                entry_name: component
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ArtifactAssessmentContentType>

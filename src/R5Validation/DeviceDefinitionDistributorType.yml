@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionDistributorType:
+    properties:
+        name:
+            -
+                Valid: null
+        organizationReference:
+            -
+                Valid: null

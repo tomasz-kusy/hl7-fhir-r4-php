@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\TestReportAssertType:
+    properties:
+        result:
+            expose: true
+            access_type: public_method
+            serialized_name: result
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResult
+                setter: setResult
+            type: TKusy\Hl7Fhir\R5\TestReportActionResultType
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: message
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: detail
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            type: TKusy\Hl7Fhir\R5\StringType
+        requirement:
+            expose: true
+            access_type: public_method
+            serialized_name: requirement
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequirement
+                setter: setRequirement
+            xml_list:
+                inline: true
+                entry_name: requirement
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TestReportRequirementType>

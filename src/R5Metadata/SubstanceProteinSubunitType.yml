@@ -1,0 +1,90 @@
+TKusy\Hl7Fhir\R5\SubstanceProteinSubunitType:
+    properties:
+        subunit:
+            expose: true
+            access_type: public_method
+            serialized_name: subunit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubunit
+                setter: setSubunit
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7Fhir\R5\StringType
+        length:
+            expose: true
+            access_type: public_method
+            serialized_name: length
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLength
+                setter: setLength
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        sequenceAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: sequenceAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequenceAttachment
+                setter: setSequenceAttachment
+            type: TKusy\Hl7Fhir\R5\AttachmentType
+        nTerminalModificationId:
+            expose: true
+            access_type: public_method
+            serialized_name: nTerminalModificationId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNTerminalModificationId
+                setter: setNTerminalModificationId
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        nTerminalModification:
+            expose: true
+            access_type: public_method
+            serialized_name: nTerminalModification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNTerminalModification
+                setter: setNTerminalModification
+            type: TKusy\Hl7Fhir\R5\StringType
+        cTerminalModificationId:
+            expose: true
+            access_type: public_method
+            serialized_name: cTerminalModificationId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCTerminalModificationId
+                setter: setCTerminalModificationId
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        cTerminalModification:
+            expose: true
+            access_type: public_method
+            serialized_name: cTerminalModification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCTerminalModification
+                setter: setCTerminalModification
+            type: TKusy\Hl7Fhir\R5\StringType

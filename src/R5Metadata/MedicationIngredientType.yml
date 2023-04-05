@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\MedicationIngredientType:
+    properties:
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: item
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        isActive:
+            expose: true
+            access_type: public_method
+            serialized_name: isActive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsActive
+                setter: setIsActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        strengthRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: strengthRatio
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrengthRatio
+                setter: setStrengthRatio
+            type: TKusy\Hl7Fhir\R5\RatioType
+        strengthCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: strengthCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrengthCodeableConcept
+                setter: setStrengthCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        strengthQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: strengthQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrengthQuantity
+                setter: setStrengthQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType

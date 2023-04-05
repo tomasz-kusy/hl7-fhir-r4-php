@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\MedicationStatementStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - recorded
+                        - entered-in-error
+                        - draft
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,110 @@
+TKusy\Hl7Fhir\R5\TransportType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        groupIdentifier:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        intent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        for:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        completionTime:
+            -
+                Valid: null
+        authoredOn:
+            -
+                Valid: null
+        lastModified:
+            -
+                Valid: null
+        requester:
+            -
+                Valid: null
+        performerType:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        insurance:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        relevantHistory:
+            -
+                Valid: null
+        restriction:
+            -
+                Valid: null
+        input:
+            -
+                Valid: null
+        output:
+            -
+                Valid: null
+        requestedLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        currentLocation:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        history:
+            -
+                Valid: null

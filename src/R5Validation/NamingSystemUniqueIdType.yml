@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\NamingSystemUniqueIdType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        preferred:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        authoritative:
+            -
+                Valid: null

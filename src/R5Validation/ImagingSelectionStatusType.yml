@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - available
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

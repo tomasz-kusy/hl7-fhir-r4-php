@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\ProductShelfLifeType:
+    properties:
+        type:
+            -
+                Valid: null
+        periodDuration:
+            -
+                Valid: null
+        periodString:
+            -
+                Valid: null
+        specialPrecautionsForStorage:
+            -
+                Valid: null

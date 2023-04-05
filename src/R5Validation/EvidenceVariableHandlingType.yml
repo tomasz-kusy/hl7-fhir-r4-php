@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableHandlingType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - continuous
+                        - dichotomous
+                        - ordinal
+                        - polychotomous
+                    groups:
+                        - xsd_rules

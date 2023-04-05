@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\OperationOutcomeIssueType:
+    properties:
+        severity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        details:
+            -
+                Valid: null
+        diagnostics:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null

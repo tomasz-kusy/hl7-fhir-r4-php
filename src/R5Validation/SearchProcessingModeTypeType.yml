@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SearchProcessingModeTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - normal
+                        - phonetic
+                        - other
+                    groups:
+                        - xsd_rules

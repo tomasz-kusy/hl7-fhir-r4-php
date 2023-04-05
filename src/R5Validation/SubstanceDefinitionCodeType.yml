@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionCodeType:
+    properties:
+        code:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

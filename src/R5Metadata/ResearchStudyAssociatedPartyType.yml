@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R5\ResearchStudyAssociatedPartyType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            xml_list:
+                inline: true
+                entry_name: period
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PeriodType>
+        classifier:
+            expose: true
+            access_type: public_method
+            serialized_name: classifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getClassifier
+                setter: setClassifier
+            xml_list:
+                inline: true
+                entry_name: classifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: party
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: TKusy\Hl7Fhir\R5\ReferenceType

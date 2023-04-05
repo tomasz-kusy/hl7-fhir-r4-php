@@ -1,0 +1,64 @@
+TKusy\Hl7Fhir\R5\QuestionnaireItemType:
+    properties:
+        linkId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        prefix:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        enableWhen:
+            -
+                Valid: null
+        enableBehavior:
+            -
+                Valid: null
+        disabledDisplay:
+            -
+                Valid: null
+        required:
+            -
+                Valid: null
+        repeats:
+            -
+                Valid: null
+        readOnly:
+            -
+                Valid: null
+        maxLength:
+            -
+                Valid: null
+        answerConstraint:
+            -
+                Valid: null
+        answerValueSet:
+            -
+                Valid: null
+        answerOption:
+            -
+                Valid: null
+        initial:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null

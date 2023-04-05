@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\PermissionRuleCombiningType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - deny-overrides
+                        - permit-overrides
+                        - ordered-deny-overrides
+                        - ordered-permit-overrides
+                        - deny-unless-permit
+                        - permit-unless-deny
+                    groups:
+                        - xsd_rules

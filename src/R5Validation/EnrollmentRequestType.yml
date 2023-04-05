@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\EnrollmentRequestType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        insurer:
+            -
+                Valid: null
+        provider:
+            -
+                Valid: null
+        candidate:
+            -
+                Valid: null
+        coverage:
+            -
+                Valid: null

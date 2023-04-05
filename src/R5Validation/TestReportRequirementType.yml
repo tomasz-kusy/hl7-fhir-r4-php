@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\TestReportRequirementType:
+    properties:
+        linkUri:
+            -
+                Valid: null
+        linkCanonical:
+            -
+                Valid: null

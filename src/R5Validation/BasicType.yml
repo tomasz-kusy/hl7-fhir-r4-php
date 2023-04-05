@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\BasicType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        created:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null

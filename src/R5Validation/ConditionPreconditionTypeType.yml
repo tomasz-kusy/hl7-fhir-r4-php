@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\ConditionPreconditionTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - sensitive
+                        - specific
+                    groups:
+                        - xsd_rules

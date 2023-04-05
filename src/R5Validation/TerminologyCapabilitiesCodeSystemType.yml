@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\TerminologyCapabilitiesCodeSystemType:
+    properties:
+        uri:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        content:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subsumption:
+            -
+                Valid: null

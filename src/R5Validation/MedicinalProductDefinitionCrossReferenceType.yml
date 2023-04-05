@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionCrossReferenceType:
+    properties:
+        product:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null

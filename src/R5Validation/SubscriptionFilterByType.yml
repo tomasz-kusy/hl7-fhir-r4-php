@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R5\SubscriptionFilterByType:
+    properties:
+        resourceType:
+            -
+                Valid: null
+        filterParameter:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comparator:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

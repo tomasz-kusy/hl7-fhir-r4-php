@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\ClaimResponseDetail1Type:
+    properties:
+        traceNumber:
+            -
+                Valid: null
+        revenue:
+            -
+                Valid: null
+        productOrService:
+            -
+                Valid: null
+        productOrServiceEnd:
+            -
+                Valid: null
+        modifier:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        unitPrice:
+            -
+                Valid: null
+        factor:
+            -
+                Valid: null
+        tax:
+            -
+                Valid: null
+        net:
+            -
+                Valid: null
+        noteNumber:
+            -
+                Valid: null
+        reviewOutcome:
+            -
+                Valid: null
+        adjudication:
+            -
+                Valid: null
+        subDetail:
+            -
+                Valid: null

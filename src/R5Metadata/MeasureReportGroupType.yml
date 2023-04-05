@@ -1,0 +1,131 @@
+TKusy\Hl7Fhir\R5\MeasureReportGroupType:
+    properties:
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        population:
+            expose: true
+            access_type: public_method
+            serialized_name: population
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPopulation
+                setter: setPopulation
+            xml_list:
+                inline: true
+                entry_name: population
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MeasureReportPopulationType>
+        measureScoreQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScoreQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScoreQuantity
+                setter: setMeasureScoreQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        measureScoreDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScoreDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScoreDateTime
+                setter: setMeasureScoreDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        measureScoreCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScoreCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScoreCodeableConcept
+                setter: setMeasureScoreCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        measureScorePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScorePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScorePeriod
+                setter: setMeasureScorePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        measureScoreRange:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScoreRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScoreRange
+                setter: setMeasureScoreRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        measureScoreDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: measureScoreDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasureScoreDuration
+                setter: setMeasureScoreDuration
+            type: TKusy\Hl7Fhir\R5\DurationType
+        stratifier:
+            expose: true
+            access_type: public_method
+            serialized_name: stratifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStratifier
+                setter: setStratifier
+            xml_list:
+                inline: true
+                entry_name: stratifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MeasureReportStratifierType>

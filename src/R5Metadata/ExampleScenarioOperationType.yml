@@ -1,0 +1,101 @@
+TKusy\Hl7Fhir\R5\ExampleScenarioOperationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodingType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        initiator:
+            expose: true
+            access_type: public_method
+            serialized_name: initiator
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInitiator
+                setter: setInitiator
+            type: TKusy\Hl7Fhir\R5\StringType
+        receiver:
+            expose: true
+            access_type: public_method
+            serialized_name: receiver
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReceiver
+                setter: setReceiver
+            type: TKusy\Hl7Fhir\R5\StringType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        initiatorActive:
+            expose: true
+            access_type: public_method
+            serialized_name: initiatorActive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInitiatorActive
+                setter: setInitiatorActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        receiverActive:
+            expose: true
+            access_type: public_method
+            serialized_name: receiverActive
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReceiverActive
+                setter: setReceiverActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7Fhir\R5\ExampleScenarioContainedInstanceType
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: response
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: TKusy\Hl7Fhir\R5\ExampleScenarioContainedInstanceType

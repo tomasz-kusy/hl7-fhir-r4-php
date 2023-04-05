@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ProvenanceAgentType:
+    properties:
+        type:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        who:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        onBehalfOf:
+            -
+                Valid: null

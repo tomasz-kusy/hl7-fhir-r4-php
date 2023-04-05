@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideResource1Type:
+    properties:
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        isExample:
+            expose: true
+            access_type: public_method
+            serialized_name: isExample
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsExample
+                setter: setIsExample
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            xml_list:
+                inline: true
+                entry_name: profile
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CanonicalType>
+        relativePath:
+            expose: true
+            access_type: public_method
+            serialized_name: relativePath
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelativePath
+                setter: setRelativePath
+            type: TKusy\Hl7Fhir\R5\UrlType

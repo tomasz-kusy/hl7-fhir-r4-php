@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\AdministrableProductDefinitionWithdrawalPeriodType:
+    properties:
+        tissue:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null

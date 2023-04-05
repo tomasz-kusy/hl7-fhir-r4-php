@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\StructureMapTargetListModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - first
+                        - share
+                        - last
+                        - single
+                    groups:
+                        - xsd_rules

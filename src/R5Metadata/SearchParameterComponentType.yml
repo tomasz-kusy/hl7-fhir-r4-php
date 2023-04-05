@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\SearchParameterComponentType:
+    properties:
+        definition:
+            expose: true
+            access_type: public_method
+            serialized_name: definition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinition
+                setter: setDefinition
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: expression
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            type: TKusy\Hl7Fhir\R5\StringType

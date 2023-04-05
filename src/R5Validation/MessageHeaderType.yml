@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\MessageHeaderType:
+    properties:
+        eventCoding:
+            -
+                Valid: null
+        eventCanonical:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        sender:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        source:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        responsible:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        response:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        definition:
+            -
+                Valid: null

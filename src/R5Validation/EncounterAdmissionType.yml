@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\EncounterAdmissionType:
+    properties:
+        preAdmissionIdentifier:
+            -
+                Valid: null
+        origin:
+            -
+                Valid: null
+        admitSource:
+            -
+                Valid: null
+        reAdmission:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        dischargeDisposition:
+            -
+                Valid: null

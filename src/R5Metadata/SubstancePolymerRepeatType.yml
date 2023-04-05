@@ -1,0 +1,39 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerRepeatType:
+    properties:
+        averageMolecularFormula:
+            expose: true
+            access_type: public_method
+            serialized_name: averageMolecularFormula
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAverageMolecularFormula
+                setter: setAverageMolecularFormula
+            type: TKusy\Hl7Fhir\R5\StringType
+        repeatUnitAmountType:
+            expose: true
+            access_type: public_method
+            serialized_name: repeatUnitAmountType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepeatUnitAmountType
+                setter: setRepeatUnitAmountType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        repeatUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: repeatUnit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRepeatUnit
+                setter: setRepeatUnit
+            xml_list:
+                inline: true
+                entry_name: repeatUnit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SubstancePolymerRepeatUnitType>

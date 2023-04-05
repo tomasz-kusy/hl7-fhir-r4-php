@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicQueryCriteriaType:
+    properties:
+        previous:
+            -
+                Valid: null
+        resultForCreate:
+            -
+                Valid: null
+        current:
+            -
+                Valid: null
+        resultForDelete:
+            -
+                Valid: null
+        requireBoth:
+            -
+                Valid: null

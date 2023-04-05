@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\InventoryItemResponsibleOrganizationType:
+    properties:
+        role:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        organization:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

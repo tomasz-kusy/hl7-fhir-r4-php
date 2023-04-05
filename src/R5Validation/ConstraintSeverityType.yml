@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\ConstraintSeverityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - error
+                        - warning
+                    groups:
+                        - xsd_rules

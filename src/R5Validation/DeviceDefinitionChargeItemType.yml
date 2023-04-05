@@ -1,0 +1,22 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionChargeItemType:
+    properties:
+        chargeItemCode:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        count:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null

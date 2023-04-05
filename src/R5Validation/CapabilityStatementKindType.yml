@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\CapabilityStatementKindType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - instance
+                        - capability
+                        - requirements
+                    groups:
+                        - xsd_rules

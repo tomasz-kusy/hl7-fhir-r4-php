@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionCharacterizationType:
+    properties:
+        technique:
+            -
+                Valid: null
+        form:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        file:
+            -
+                Valid: null

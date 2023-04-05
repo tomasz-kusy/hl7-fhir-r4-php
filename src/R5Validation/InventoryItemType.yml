@@ -1,0 +1,48 @@
+TKusy\Hl7Fhir\R5\InventoryItemType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        responsibleOrganization:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        inventoryStatus:
+            -
+                Valid: null
+        baseUnit:
+            -
+                Valid: null
+        netContent:
+            -
+                Valid: null
+        association:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        instance:
+            -
+                Valid: null
+        productReference:
+            -
+                Valid: null

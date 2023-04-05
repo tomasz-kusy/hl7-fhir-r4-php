@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\ReportRelationshipTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - replaces
+                        - amends
+                        - appends
+                        - transforms
+                        - replacedWith
+                        - amendedWith
+                        - appendedWith
+                        - transformedWith
+                    groups:
+                        - xsd_rules

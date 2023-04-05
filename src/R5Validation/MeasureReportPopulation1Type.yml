@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\MeasureReportPopulation1Type:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        count:
+            -
+                Valid: null
+        subjectResults:
+            -
+                Valid: null
+        subjectReport:
+            -
+                Valid: null
+        subjects:
+            -
+                Valid: null

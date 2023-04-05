@@ -1,0 +1,71 @@
+TKusy\Hl7Fhir\R5\HealthcareServiceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        active:
+            -
+                Valid: null
+        providedBy:
+            -
+                Valid: null
+        offeredIn:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        extraDetails:
+            -
+                Valid: null
+        photo:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        coverageArea:
+            -
+                Valid: null
+        serviceProvisionCode:
+            -
+                Valid: null
+        eligibility:
+            -
+                Valid: null
+        program:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null
+        referralMethod:
+            -
+                Valid: null
+        appointmentRequired:
+            -
+                Valid: null
+        availability:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null

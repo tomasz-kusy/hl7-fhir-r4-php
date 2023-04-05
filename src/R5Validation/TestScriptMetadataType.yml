@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\TestScriptMetadataType:
+    properties:
+        link:
+            -
+                Valid: null
+        capability:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

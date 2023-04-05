@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerStartingMaterialType:
+    properties:
+        code:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        isDefining:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null

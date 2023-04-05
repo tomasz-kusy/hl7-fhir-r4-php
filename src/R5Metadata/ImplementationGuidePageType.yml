@@ -1,0 +1,83 @@
+TKusy\Hl7Fhir\R5\ImplementationGuidePageType:
+    properties:
+        sourceUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceUrl
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceUrl
+                setter: setSourceUrl
+            type: TKusy\Hl7Fhir\R5\UrlType
+        sourceString:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceString
+                setter: setSourceString
+            type: TKusy\Hl7Fhir\R5\StringType
+        sourceMarkdown:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceMarkdown
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceMarkdown
+                setter: setSourceMarkdown
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\UrlType
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: TKusy\Hl7Fhir\R5\StringType
+        generation:
+            expose: true
+            access_type: public_method
+            serialized_name: generation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGeneration
+                setter: setGeneration
+            type: TKusy\Hl7Fhir\R5\GuidePageGenerationType
+        page:
+            expose: true
+            access_type: public_method
+            serialized_name: page
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPage
+                setter: setPage
+            xml_list:
+                inline: true
+                entry_name: page
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ImplementationGuidePageType>

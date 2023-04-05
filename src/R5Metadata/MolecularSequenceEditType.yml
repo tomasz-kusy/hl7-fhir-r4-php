@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\MolecularSequenceEditType:
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        replacementSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: replacementSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReplacementSequence
+                setter: setReplacementSequence
+            type: TKusy\Hl7Fhir\R5\StringType
+        replacedSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: replacedSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReplacedSequence
+                setter: setReplacedSequence
+            type: TKusy\Hl7Fhir\R5\StringType

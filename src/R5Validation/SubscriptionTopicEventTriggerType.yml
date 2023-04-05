@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicEventTriggerType:
+    properties:
+        description:
+            -
+                Valid: null
+        event:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        resource:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

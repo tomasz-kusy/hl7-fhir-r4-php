@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\InventoryItemStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - inactive
+                        - entered-in-error
+                        - unknown
+                    groups:
+                        - xsd_rules

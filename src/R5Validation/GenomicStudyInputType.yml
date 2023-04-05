@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\GenomicStudyInputType:
+    properties:
+        file:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        generatedByIdentifier:
+            -
+                Valid: null
+        generatedByReference:
+            -
+                Valid: null

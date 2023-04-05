@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\MessageHeaderSourceType:
+    properties:
+        endpointUrl:
+            -
+                Valid: null
+        endpointReference:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        software:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null

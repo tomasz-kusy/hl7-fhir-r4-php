@@ -1,0 +1,303 @@
+TKusy\Hl7Fhir\R5\MedicationAdministrationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        basedOn:
+            expose: true
+            access_type: public_method
+            serialized_name: basedOn
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBasedOn
+                setter: setBasedOn
+            xml_list:
+                inline: true
+                entry_name: basedOn
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        partOf:
+            expose: true
+            access_type: public_method
+            serialized_name: partOf
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPartOf
+                setter: setPartOf
+            xml_list:
+                inline: true
+                entry_name: partOf
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\MedicationAdministrationStatusCodesType
+        statusReason:
+            expose: true
+            access_type: public_method
+            serialized_name: statusReason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatusReason
+                setter: setStatusReason
+            xml_list:
+                inline: true
+                entry_name: statusReason
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        medication:
+            expose: true
+            access_type: public_method
+            serialized_name: medication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMedication
+                setter: setMedication
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        encounter:
+            expose: true
+            access_type: public_method
+            serialized_name: encounter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEncounter
+                setter: setEncounter
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        supportingInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: supportingInformation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportingInformation
+                setter: setSupportingInformation
+            xml_list:
+                inline: true
+                entry_name: supportingInformation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        occurenceDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: occurenceDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurenceDateTime
+                setter: setOccurenceDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        occurencePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: occurencePeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurencePeriod
+                setter: setOccurencePeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        occurenceTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: occurenceTiming
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurenceTiming
+                setter: setOccurenceTiming
+            type: TKusy\Hl7Fhir\R5\TimingType
+        recorded:
+            expose: true
+            access_type: public_method
+            serialized_name: recorded
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecorded
+                setter: setRecorded
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        isSubPotent:
+            expose: true
+            access_type: public_method
+            serialized_name: isSubPotent
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIsSubPotent
+                setter: setIsSubPotent
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        subPotentReason:
+            expose: true
+            access_type: public_method
+            serialized_name: subPotentReason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubPotentReason
+                setter: setSubPotentReason
+            xml_list:
+                inline: true
+                entry_name: subPotentReason
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        performer:
+            expose: true
+            access_type: public_method
+            serialized_name: performer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPerformer
+                setter: setPerformer
+            xml_list:
+                inline: true
+                entry_name: performer
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationAdministrationPerformerType>
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: reason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReason
+                setter: setReason
+            xml_list:
+                inline: true
+                entry_name: reason
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            xml_list:
+                inline: true
+                entry_name: device
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: note
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: note
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AnnotationType>
+        dosage:
+            expose: true
+            access_type: public_method
+            serialized_name: dosage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDosage
+                setter: setDosage
+            type: TKusy\Hl7Fhir\R5\MedicationAdministrationDosageType
+        eventHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: eventHistory
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEventHistory
+                setter: setEventHistory
+            xml_list:
+                inline: true
+                entry_name: eventHistory
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

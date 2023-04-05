@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerDegreeOfPolymerisationType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        average:
+            expose: true
+            access_type: public_method
+            serialized_name: average
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAverage
+                setter: setAverage
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        low:
+            expose: true
+            access_type: public_method
+            serialized_name: low
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLow
+                setter: setLow
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        high:
+            expose: true
+            access_type: public_method
+            serialized_name: high
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHigh
+                setter: setHigh
+            type: TKusy\Hl7Fhir\R5\IntegerType

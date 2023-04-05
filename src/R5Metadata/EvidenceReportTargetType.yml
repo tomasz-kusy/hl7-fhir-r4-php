@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\EvidenceReportTargetType:
+    properties:
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: TKusy\Hl7Fhir\R5\UriType
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        display:
+            expose: true
+            access_type: public_method
+            serialized_name: display
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisplay
+                setter: setDisplay
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            type: TKusy\Hl7Fhir\R5\ReferenceType

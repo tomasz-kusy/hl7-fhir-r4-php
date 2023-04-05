@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionMarketDistributionType:
+    properties:
+        marketPeriod:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subJurisdiction:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

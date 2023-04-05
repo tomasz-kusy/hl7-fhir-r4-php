@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\AccountDiagnosisType:
+    properties:
+        sequence:
+            -
+                Valid: null
+        condition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        dateOfDiagnosis:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        onAdmission:
+            -
+                Valid: null
+        packageCode:
+            -
+                Valid: null

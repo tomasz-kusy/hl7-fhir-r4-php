@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ConformanceExpectationType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - SHALL
+                        - SHOULD
+                        - MAY
+                        - SHOULD-NOT
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\ReferenceHandlingPolicyType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - literal
+                        - logical
+                        - resolves
+                        - enforced
+                        - local
+                    groups:
+                        - xsd_rules

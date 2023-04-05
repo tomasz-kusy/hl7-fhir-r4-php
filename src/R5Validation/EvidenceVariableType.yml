@@ -1,0 +1,99 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        versionAlgorithmString:
+            -
+                Valid: null
+        versionAlgorithmCoding:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        shortTitle:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        experimental:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        purpose:
+            -
+                Valid: null
+        copyright:
+            -
+                Valid: null
+        copyrightLabel:
+            -
+                Valid: null
+        approvalDate:
+            -
+                Valid: null
+        lastReviewDate:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        editor:
+            -
+                Valid: null
+        reviewer:
+            -
+                Valid: null
+        endorser:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        actual:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        handling:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null

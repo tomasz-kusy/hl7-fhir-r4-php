@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\SubscriptionNotificationTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - handshake
+                        - heartbeat
+                        - event-notification
+                        - query-status
+                        - query-event
+                    groups:
+                        - xsd_rules

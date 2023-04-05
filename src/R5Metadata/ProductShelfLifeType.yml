@@ -1,0 +1,50 @@
+TKusy\Hl7Fhir\R5\ProductShelfLifeType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        periodDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: periodDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriodDuration
+                setter: setPeriodDuration
+            type: TKusy\Hl7Fhir\R5\DurationType
+        periodString:
+            expose: true
+            access_type: public_method
+            serialized_name: periodString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriodString
+                setter: setPeriodString
+            type: TKusy\Hl7Fhir\R5\StringType
+        specialPrecautionsForStorage:
+            expose: true
+            access_type: public_method
+            serialized_name: specialPrecautionsForStorage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecialPrecautionsForStorage
+                setter: setSpecialPrecautionsForStorage
+            xml_list:
+                inline: true
+                entry_name: specialPrecautionsForStorage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

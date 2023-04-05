@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\AnnotationType:
+    properties:
+        authorReference:
+            expose: true
+            access_type: public_method
+            serialized_name: authorReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthorReference
+                setter: setAuthorReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        authorString:
+            expose: true
+            access_type: public_method
+            serialized_name: authorString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthorString
+                setter: setAuthorString
+            type: TKusy\Hl7Fhir\R5\StringType
+        time:
+            expose: true
+            access_type: public_method
+            serialized_name: time
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTime
+                setter: setTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R5\MarkdownType

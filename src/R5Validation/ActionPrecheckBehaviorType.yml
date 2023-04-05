@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\ActionPrecheckBehaviorType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - 'yes'
+                        - 'no'
+                    groups:
+                        - xsd_rules

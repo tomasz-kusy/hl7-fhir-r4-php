@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\DeviceProductionIdentifierInUDIType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - lot-number
+                        - manufactured-date
+                        - serial-number
+                        - expiration-date
+                        - biological-source
+                        - software-version
+                    groups:
+                        - xsd_rules

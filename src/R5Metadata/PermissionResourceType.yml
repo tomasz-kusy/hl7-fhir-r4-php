@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\PermissionResourceType:
+    properties:
+        meaning:
+            expose: true
+            access_type: public_method
+            serialized_name: meaning
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeaning
+                setter: setMeaning
+            type: TKusy\Hl7Fhir\R5\ConsentDataMeaningType
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: reference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType

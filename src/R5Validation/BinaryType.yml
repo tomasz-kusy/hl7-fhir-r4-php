@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\BinaryType:
+    properties:
+        contentType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        securityContext:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null

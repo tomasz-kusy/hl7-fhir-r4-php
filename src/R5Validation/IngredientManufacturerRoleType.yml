@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\IngredientManufacturerRoleType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - allowed
+                        - possible
+                        - actual
+                    groups:
+                        - xsd_rules

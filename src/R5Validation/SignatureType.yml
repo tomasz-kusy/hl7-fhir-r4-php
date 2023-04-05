@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\SignatureType:
+    properties:
+        type:
+            -
+                Valid: null
+        when:
+            -
+                Valid: null
+        who:
+            -
+                Valid: null
+        onBehalfOf:
+            -
+                Valid: null
+        targetFormat:
+            -
+                Valid: null
+        sigFormat:
+            -
+                Valid: null
+        data:
+            -
+                Valid: null

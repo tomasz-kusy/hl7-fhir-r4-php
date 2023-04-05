@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionAdditionalType:
+    properties:
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            type: TKusy\Hl7Fhir\R5\CodeType
+        valueSet:
+            expose: true
+            access_type: public_method
+            serialized_name: valueSet
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueSet
+                setter: setValueSet
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        shortDoco:
+            expose: true
+            access_type: public_method
+            serialized_name: shortDoco
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getShortDoco
+                setter: setShortDoco
+            type: TKusy\Hl7Fhir\R5\StringType
+        usage:
+            expose: true
+            access_type: public_method
+            serialized_name: usage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUsage
+                setter: setUsage
+            xml_list:
+                inline: true
+                entry_name: usage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UsageContextType>
+        any:
+            expose: true
+            access_type: public_method
+            serialized_name: any
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAny
+                setter: setAny
+            type: TKusy\Hl7Fhir\R5\BooleanType

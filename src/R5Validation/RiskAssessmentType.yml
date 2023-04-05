@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\RiskAssessmentType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        parent:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        method:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        basis:
+            -
+                Valid: null
+        prediction:
+            -
+                Valid: null
+        mitigation:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

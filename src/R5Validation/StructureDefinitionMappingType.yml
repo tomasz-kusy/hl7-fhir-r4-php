@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\StructureDefinitionMappingType:
+    properties:
+        identity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        uri:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null

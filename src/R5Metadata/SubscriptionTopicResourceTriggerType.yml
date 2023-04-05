@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicResourceTriggerType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        resource:
+            expose: true
+            access_type: public_method
+            serialized_name: resource
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResource
+                setter: setResource
+            type: TKusy\Hl7Fhir\R5\UriType
+        supportedInteraction:
+            expose: true
+            access_type: public_method
+            serialized_name: supportedInteraction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSupportedInteraction
+                setter: setSupportedInteraction
+            xml_list:
+                inline: true
+                entry_name: supportedInteraction
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\InteractionTriggerType>
+        queryCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: queryCriteria
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQueryCriteria
+                setter: setQueryCriteria
+            type: TKusy\Hl7Fhir\R5\SubscriptionTopicQueryCriteriaType
+        fhirPathCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: fhirPathCriteria
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFhirPathCriteria
+                setter: setFhirPathCriteria
+            type: TKusy\Hl7Fhir\R5\StringType

@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\MeasureSupplementalDataType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        usage:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        criteria:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

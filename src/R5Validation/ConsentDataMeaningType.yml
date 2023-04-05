@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ConsentDataMeaningType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - instance
+                        - related
+                        - dependents
+                        - authoredby
+                    groups:
+                        - xsd_rules

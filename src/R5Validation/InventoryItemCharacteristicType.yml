@@ -1,0 +1,48 @@
+TKusy\Hl7Fhir\R5\InventoryItemCharacteristicType:
+    properties:
+        characteristicType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueDecimal:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueUrl:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueRatio:
+            -
+                Valid: null
+        valueAnnotation:
+            -
+                Valid: null
+        valueAddress:
+            -
+                Valid: null
+        valueDuration:
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null

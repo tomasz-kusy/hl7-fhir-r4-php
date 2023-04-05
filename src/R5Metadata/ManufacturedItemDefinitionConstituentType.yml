@@ -1,0 +1,62 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionConstituentType:
+    properties:
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            xml_list:
+                inline: true
+                entry_name: amount
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\QuantityType>
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_list:
+                inline: true
+                entry_name: location
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        function:
+            expose: true
+            access_type: public_method
+            serialized_name: function
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFunction
+                setter: setFunction
+            xml_list:
+                inline: true
+                entry_name: function
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        hasIngredient:
+            expose: true
+            access_type: public_method
+            serialized_name: hasIngredient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getHasIngredient
+                setter: setHasIngredient
+            xml_list:
+                inline: true
+                entry_name: hasIngredient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>

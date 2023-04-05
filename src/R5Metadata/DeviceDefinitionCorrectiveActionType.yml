@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionCorrectiveActionType:
+    properties:
+        recall:
+            expose: true
+            access_type: public_method
+            serialized_name: recall
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecall
+                setter: setRecall
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: scope
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScope
+                setter: setScope
+            type: TKusy\Hl7Fhir\R5\DeviceCorrectiveActionScopeType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType

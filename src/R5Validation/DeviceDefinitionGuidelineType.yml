@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionGuidelineType:
+    properties:
+        useContext:
+            -
+                Valid: null
+        usageInstruction:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        indication:
+            -
+                Valid: null
+        contraindication:
+            -
+                Valid: null
+        warning:
+            -
+                Valid: null
+        intendedUse:
+            -
+                Valid: null

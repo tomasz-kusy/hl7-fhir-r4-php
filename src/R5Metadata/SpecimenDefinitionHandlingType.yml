@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\SpecimenDefinitionHandlingType:
+    properties:
+        temperatureQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: temperatureQualifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTemperatureQualifier
+                setter: setTemperatureQualifier
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        temperatureRange:
+            expose: true
+            access_type: public_method
+            serialized_name: temperatureRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTemperatureRange
+                setter: setTemperatureRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        maxDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDuration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDuration
+                setter: setMaxDuration
+            type: TKusy\Hl7Fhir\R5\DurationType
+        instruction:
+            expose: true
+            access_type: public_method
+            serialized_name: instruction
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInstruction
+                setter: setInstruction
+            type: TKusy\Hl7Fhir\R5\MarkdownType

@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\AccountBalanceType:
+    properties:
+        aggregate:
+            expose: true
+            access_type: public_method
+            serialized_name: aggregate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAggregate
+                setter: setAggregate
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        term:
+            expose: true
+            access_type: public_method
+            serialized_name: term
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTerm
+                setter: setTerm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        estimate:
+            expose: true
+            access_type: public_method
+            serialized_name: estimate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEstimate
+                setter: setEstimate
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R5\MoneyType

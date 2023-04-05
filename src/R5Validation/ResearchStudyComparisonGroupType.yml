@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ResearchStudyComparisonGroupType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        intendedExposure:
+            -
+                Valid: null
+        observedGroup:
+            -
+                Valid: null

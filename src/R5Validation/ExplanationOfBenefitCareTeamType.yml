@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitCareTeamType:
+    properties:
+        sequence:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        provider:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        responsible:
+            -
+                Valid: null
+        role:
+            -
+                Valid: null
+        specialty:
+            -
+                Valid: null

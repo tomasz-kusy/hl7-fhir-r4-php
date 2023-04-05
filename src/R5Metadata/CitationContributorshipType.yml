@@ -1,0 +1,43 @@
+TKusy\Hl7Fhir\R5\CitationContributorshipType:
+    properties:
+        complete:
+            expose: true
+            access_type: public_method
+            serialized_name: complete
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComplete
+                setter: setComplete
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        entry:
+            expose: true
+            access_type: public_method
+            serialized_name: entry
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEntry
+                setter: setEntry
+            xml_list:
+                inline: true
+                entry_name: entry
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CitationEntryType>
+        summary:
+            expose: true
+            access_type: public_method
+            serialized_name: summary
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSummary
+                setter: setSummary
+            xml_list:
+                inline: true
+                entry_name: summary
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CitationSummary1Type>

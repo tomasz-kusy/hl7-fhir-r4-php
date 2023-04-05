@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityRequestEventType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        whenDateTime:
+            -
+                Valid: null
+        whenPeriod:
+            -
+                Valid: null

@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\SubmitDataUpdateTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - incremental
+                        - snapshot
+                    groups:
+                        - xsd_rules

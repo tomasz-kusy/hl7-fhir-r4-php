@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R5\ResearchSubjectType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        progress:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        study:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        assignedComparisonGroup:
+            -
+                Valid: null
+        actualComparisonGroup:
+            -
+                Valid: null
+        consent:
+            -
+                Valid: null

@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\AdverseEventActualityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - actual
+                        - potential
+                    groups:
+                        - xsd_rules

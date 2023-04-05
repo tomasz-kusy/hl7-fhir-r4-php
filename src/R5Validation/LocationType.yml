@@ -1,0 +1,56 @@
+TKusy\Hl7Fhir\R5\LocationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        operationalStatus:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        alias:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        mode:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        address:
+            -
+                Valid: null
+        form:
+            -
+                Valid: null
+        position:
+            -
+                Valid: null
+        managingOrganization:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null
+        hoursOfOperation:
+            -
+                Valid: null
+        virtualService:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null

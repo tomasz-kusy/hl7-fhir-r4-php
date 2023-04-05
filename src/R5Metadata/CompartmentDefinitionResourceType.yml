@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\CompartmentDefinitionResourceType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\ResourceTypeType
+        param:
+            expose: true
+            access_type: public_method
+            serialized_name: param
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParam
+                setter: setParam
+            xml_list:
+                inline: true
+                entry_name: param
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            type: TKusy\Hl7Fhir\R5\StringType
+        startParam:
+            expose: true
+            access_type: public_method
+            serialized_name: startParam
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStartParam
+                setter: setStartParam
+            type: TKusy\Hl7Fhir\R5\UriType
+        endParam:
+            expose: true
+            access_type: public_method
+            serialized_name: endParam
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndParam
+                setter: setEndParam
+            type: TKusy\Hl7Fhir\R5\UriType

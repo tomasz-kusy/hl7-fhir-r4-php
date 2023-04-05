@@ -1,0 +1,88 @@
+TKusy\Hl7Fhir\R5\TestPlanTestCaseType:
+    properties:
+        sequence:
+            expose: true
+            access_type: public_method
+            serialized_name: sequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequence
+                setter: setSequence
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        scope:
+            expose: true
+            access_type: public_method
+            serialized_name: scope
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getScope
+                setter: setScope
+            xml_list:
+                inline: true
+                entry_name: scope
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        dependency:
+            expose: true
+            access_type: public_method
+            serialized_name: dependency
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDependency
+                setter: setDependency
+            xml_list:
+                inline: true
+                entry_name: dependency
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TestPlanDependency1Type>
+        testRun:
+            expose: true
+            access_type: public_method
+            serialized_name: testRun
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTestRun
+                setter: setTestRun
+            xml_list:
+                inline: true
+                entry_name: testRun
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TestPlanTestRunType>
+        testData:
+            expose: true
+            access_type: public_method
+            serialized_name: testData
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTestData
+                setter: setTestData
+            xml_list:
+                inline: true
+                entry_name: testData
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TestPlanTestDataType>
+        assertion:
+            expose: true
+            access_type: public_method
+            serialized_name: assertion
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAssertion
+                setter: setAssertion
+            xml_list:
+                inline: true
+                entry_name: assertion
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\TestPlanAssertionType>

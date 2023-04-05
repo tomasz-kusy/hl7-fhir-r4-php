@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\DomainResourceType:
+    properties:
+        text:
+            -
+                Valid: null
+        contained:
+            -
+                Valid: null
+        extension:
+            -
+                Valid: null
+        modifierExtension:
+            -
+                Valid: null

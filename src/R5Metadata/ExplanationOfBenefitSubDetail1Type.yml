@@ -1,0 +1,172 @@
+TKusy\Hl7Fhir\R5\ExplanationOfBenefitSubDetail1Type:
+    properties:
+        traceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: traceNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTraceNumber
+                setter: setTraceNumber
+            xml_list:
+                inline: true
+                entry_name: traceNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        revenue:
+            expose: true
+            access_type: public_method
+            serialized_name: revenue
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRevenue
+                setter: setRevenue
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        productOrService:
+            expose: true
+            access_type: public_method
+            serialized_name: productOrService
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductOrService
+                setter: setProductOrService
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        productOrServiceEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: productOrServiceEnd
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProductOrServiceEnd
+                setter: setProductOrServiceEnd
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        modifier:
+            expose: true
+            access_type: public_method
+            serialized_name: modifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getModifier
+                setter: setModifier
+            xml_list:
+                inline: true
+                entry_name: modifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        patientPaid:
+            expose: true
+            access_type: public_method
+            serialized_name: patientPaid
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatientPaid
+                setter: setPatientPaid
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: quantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        unitPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: unitPrice
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnitPrice
+                setter: setUnitPrice
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        factor:
+            expose: true
+            access_type: public_method
+            serialized_name: factor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFactor
+                setter: setFactor
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        tax:
+            expose: true
+            access_type: public_method
+            serialized_name: tax
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTax
+                setter: setTax
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        net:
+            expose: true
+            access_type: public_method
+            serialized_name: net
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNet
+                setter: setNet
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        noteNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: noteNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNoteNumber
+                setter: setNoteNumber
+            xml_list:
+                inline: true
+                entry_name: noteNumber
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PositiveIntType>
+        reviewOutcome:
+            expose: true
+            access_type: public_method
+            serialized_name: reviewOutcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReviewOutcome
+                setter: setReviewOutcome
+            type: TKusy\Hl7Fhir\R5\ExplanationOfBenefitReviewOutcomeType
+        adjudication:
+            expose: true
+            access_type: public_method
+            serialized_name: adjudication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdjudication
+                setter: setAdjudication
+            xml_list:
+                inline: true
+                entry_name: adjudication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ExplanationOfBenefitAdjudicationType>

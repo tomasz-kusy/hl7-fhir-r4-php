@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionAdditionalType:
+    properties:
+        purpose:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueSet:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        shortDoco:
+            -
+                Valid: null
+        usage:
+            -
+                Valid: null
+        any:
+            -
+                Valid: null

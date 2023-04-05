@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\MeasureStratifierType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        criteria:
+            -
+                Valid: null
+        groupDefinition:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

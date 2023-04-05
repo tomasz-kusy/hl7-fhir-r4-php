@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\DeviceNameTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - registered-name
+                        - user-friendly-name
+                        - patient-reported-name
+                    groups:
+                        - xsd_rules

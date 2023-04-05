@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionImageRegion2DType:
+    properties:
+        regionType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        coordinate:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

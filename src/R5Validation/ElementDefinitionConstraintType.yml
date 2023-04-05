@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionConstraintType:
+    properties:
+        key:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        requirements:
+            -
+                Valid: null
+        severity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        suppress:
+            -
+                Valid: null
+        human:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null

@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\SubscriptionStatusNotificationEventType:
+    properties:
+        eventNumber:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        timestamp:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        additionalContext:
+            -
+                Valid: null

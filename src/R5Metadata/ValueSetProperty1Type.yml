@@ -1,0 +1,105 @@
+TKusy\Hl7Fhir\R5\ValueSetProperty1Type:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeType
+        valueCode:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCode
+                setter: setValueCode
+            type: TKusy\Hl7Fhir\R5\CodeType
+        valueCoding:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCoding
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueCoding
+                setter: setValueCoding
+            type: TKusy\Hl7Fhir\R5\CodingType
+        valueString:
+            expose: true
+            access_type: public_method
+            serialized_name: valueString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueString
+                setter: setValueString
+            type: TKusy\Hl7Fhir\R5\StringType
+        valueInteger:
+            expose: true
+            access_type: public_method
+            serialized_name: valueInteger
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueInteger
+                setter: setValueInteger
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        valueBoolean:
+            expose: true
+            access_type: public_method
+            serialized_name: valueBoolean
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueBoolean
+                setter: setValueBoolean
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        valueDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDateTime
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDateTime
+                setter: setValueDateTime
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        valueDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: valueDecimal
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueDecimal
+                setter: setValueDecimal
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        subProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: subProperty
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubProperty
+                setter: setSubProperty
+            xml_list:
+                inline: true
+                entry_name: subProperty
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ValueSetSubPropertyType>

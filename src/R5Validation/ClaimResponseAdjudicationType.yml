@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ClaimResponseAdjudicationType:
+    properties:
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null

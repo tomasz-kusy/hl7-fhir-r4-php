@@ -1,0 +1,319 @@
+TKusy\Hl7Fhir\R5\HealthcareServiceType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        providedBy:
+            expose: true
+            access_type: public_method
+            serialized_name: providedBy
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProvidedBy
+                setter: setProvidedBy
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        offeredIn:
+            expose: true
+            access_type: public_method
+            serialized_name: offeredIn
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOfferedIn
+                setter: setOfferedIn
+            xml_list:
+                inline: true
+                entry_name: offeredIn
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            xml_list:
+                inline: true
+                entry_name: type
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        specialty:
+            expose: true
+            access_type: public_method
+            serialized_name: specialty
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecialty
+                setter: setSpecialty
+            xml_list:
+                inline: true
+                entry_name: specialty
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_list:
+                inline: true
+                entry_name: location
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        extraDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: extraDetails
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExtraDetails
+                setter: setExtraDetails
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        photo:
+            expose: true
+            access_type: public_method
+            serialized_name: photo
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPhoto
+                setter: setPhoto
+            type: TKusy\Hl7Fhir\R5\AttachmentType
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: contact
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContact
+                setter: setContact
+            xml_list:
+                inline: true
+                entry_name: contact
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ExtendedContactDetailType>
+        coverageArea:
+            expose: true
+            access_type: public_method
+            serialized_name: coverageArea
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoverageArea
+                setter: setCoverageArea
+            xml_list:
+                inline: true
+                entry_name: coverageArea
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        serviceProvisionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: serviceProvisionCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getServiceProvisionCode
+                setter: setServiceProvisionCode
+            xml_list:
+                inline: true
+                entry_name: serviceProvisionCode
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        eligibility:
+            expose: true
+            access_type: public_method
+            serialized_name: eligibility
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEligibility
+                setter: setEligibility
+            xml_list:
+                inline: true
+                entry_name: eligibility
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\HealthcareServiceEligibilityType>
+        program:
+            expose: true
+            access_type: public_method
+            serialized_name: program
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProgram
+                setter: setProgram
+            xml_list:
+                inline: true
+                entry_name: program
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        characteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: characteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCharacteristic
+                setter: setCharacteristic
+            xml_list:
+                inline: true
+                entry_name: characteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        communication:
+            expose: true
+            access_type: public_method
+            serialized_name: communication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCommunication
+                setter: setCommunication
+            xml_list:
+                inline: true
+                entry_name: communication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        referralMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: referralMethod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferralMethod
+                setter: setReferralMethod
+            xml_list:
+                inline: true
+                entry_name: referralMethod
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        appointmentRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: appointmentRequired
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAppointmentRequired
+                setter: setAppointmentRequired
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        availability:
+            expose: true
+            access_type: public_method
+            serialized_name: availability
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAvailability
+                setter: setAvailability
+            xml_list:
+                inline: true
+                entry_name: availability
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AvailabilityType>
+        endpoint:
+            expose: true
+            access_type: public_method
+            serialized_name: endpoint
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpoint
+                setter: setEndpoint
+            xml_list:
+                inline: true
+                entry_name: endpoint
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>

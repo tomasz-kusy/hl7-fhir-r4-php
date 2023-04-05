@@ -1,0 +1,90 @@
+TKusy\Hl7Fhir\R5\EncounterType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        class:
+            -
+                Valid: null
+        priority:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        serviceType:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        subjectStatus:
+            -
+                Valid: null
+        episodeOfCare:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        careTeam:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        serviceProvider:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        appointment:
+            -
+                Valid: null
+        virtualService:
+            -
+                Valid: null
+        actualPeriod:
+            -
+                Valid: null
+        plannedStartDate:
+            -
+                Valid: null
+        plannedEndDate:
+            -
+                Valid: null
+        length:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        account:
+            -
+                Valid: null
+        dietPreference:
+            -
+                Valid: null
+        specialArrangement:
+            -
+                Valid: null
+        specialCourtesy:
+            -
+                Valid: null
+        admission:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null

@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\EligibilityRequestPurposeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - auth-requirements
+                        - benefits
+                        - discovery
+                        - validation
+                    groups:
+                        - xsd_rules

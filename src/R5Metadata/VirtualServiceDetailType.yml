@@ -1,0 +1,94 @@
+TKusy\Hl7Fhir\R5\VirtualServiceDetailType:
+    properties:
+        channelType:
+            expose: true
+            access_type: public_method
+            serialized_name: channelType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getChannelType
+                setter: setChannelType
+            type: TKusy\Hl7Fhir\R5\CodingType
+        addressUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: addressUrl
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddressUrl
+                setter: setAddressUrl
+            type: TKusy\Hl7Fhir\R5\UrlType
+        addressString:
+            expose: true
+            access_type: public_method
+            serialized_name: addressString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddressString
+                setter: setAddressString
+            type: TKusy\Hl7Fhir\R5\StringType
+        addressContactPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: addressContactPoint
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddressContactPoint
+                setter: setAddressContactPoint
+            type: TKusy\Hl7Fhir\R5\ContactPointType
+        addressExtendedContactDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: addressExtendedContactDetail
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAddressExtendedContactDetail
+                setter: setAddressExtendedContactDetail
+            type: TKusy\Hl7Fhir\R5\ExtendedContactDetailType
+        additionalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: additionalInfo
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAdditionalInfo
+                setter: setAdditionalInfo
+            xml_list:
+                inline: true
+                entry_name: additionalInfo
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\UrlType>
+        maxParticipants:
+            expose: true
+            access_type: public_method
+            serialized_name: maxParticipants
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxParticipants
+                setter: setMaxParticipants
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        sessionKey:
+            expose: true
+            access_type: public_method
+            serialized_name: sessionKey
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSessionKey
+                setter: setSessionKey
+            type: TKusy\Hl7Fhir\R5\StringType

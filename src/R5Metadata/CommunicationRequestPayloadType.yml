@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\CommunicationRequestPayloadType:
+    properties:
+        contentAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: contentAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentAttachment
+                setter: setContentAttachment
+            type: TKusy\Hl7Fhir\R5\AttachmentType
+        contentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: contentReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentReference
+                setter: setContentReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        contentCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: contentCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContentCodeableConcept
+                setter: setContentCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

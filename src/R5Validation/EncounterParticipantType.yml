@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\EncounterParticipantType:
+    properties:
+        type:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        actor:
+            -
+                Valid: null

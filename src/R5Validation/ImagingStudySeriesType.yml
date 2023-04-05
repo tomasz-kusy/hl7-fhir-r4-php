@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ImagingStudySeriesType:
+    properties:
+        uid:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        number:
+            -
+                Valid: null
+        modality:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        numberOfInstances:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        laterality:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        started:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        instance:
+            -
+                Valid: null

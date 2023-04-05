@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\InventoryReportType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        countType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        operationType:
+            -
+                Valid: null
+        operationTypeReason:
+            -
+                Valid: null
+        reportedDateTime:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        reporter:
+            -
+                Valid: null
+        reportingPeriod:
+            -
+                Valid: null
+        inventoryListing:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

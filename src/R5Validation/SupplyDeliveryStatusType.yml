@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\SupplyDeliveryStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-progress
+                        - completed
+                        - abandoned
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

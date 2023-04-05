@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\ImagingSelectionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        studyUid:
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        seriesUid:
+            -
+                Valid: null
+        seriesNumber:
+            -
+                Valid: null
+        frameOfReferenceUid:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        instance:
+            -
+                Valid: null

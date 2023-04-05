@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\DataRequirementSortType:
+    properties:
+        path:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        direction:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

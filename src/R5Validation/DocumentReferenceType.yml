@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R5\DocumentReferenceType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        docStatus:
+            -
+                Valid: null
+        modality:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        context:
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        facilityType:
+            -
+                Valid: null
+        practiceSetting:
+            -
+                Valid: null
+        period:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        attester:
+            -
+                Valid: null
+        custodian:
+            -
+                Valid: null
+        relatesTo:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        securityLabel:
+            -
+                Valid: null
+        content:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

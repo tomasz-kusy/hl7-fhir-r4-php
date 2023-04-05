@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideResource1Type:
+    properties:
+        reference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        isExample:
+            -
+                Valid: null
+        profile:
+            -
+                Valid: null
+        relativePath:
+            -
+                Valid: null

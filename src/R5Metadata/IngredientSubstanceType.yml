@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\IngredientSubstanceType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableReferenceType
+        strength:
+            expose: true
+            access_type: public_method
+            serialized_name: strength
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStrength
+                setter: setStrength
+            xml_list:
+                inline: true
+                entry_name: strength
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IngredientStrengthType>

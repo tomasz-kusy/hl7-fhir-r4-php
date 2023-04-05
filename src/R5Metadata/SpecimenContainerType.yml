@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\SpecimenContainerType:
+    properties:
+        device:
+            expose: true
+            access_type: public_method
+            serialized_name: device
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDevice
+                setter: setDevice
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        specimenQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: specimenQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpecimenQuantity
+                setter: setSpecimenQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType

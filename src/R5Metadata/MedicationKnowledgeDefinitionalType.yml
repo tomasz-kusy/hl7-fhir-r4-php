@@ -1,0 +1,73 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeDefinitionalType:
+    properties:
+        definition:
+            expose: true
+            access_type: public_method
+            serialized_name: definition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDefinition
+                setter: setDefinition
+            xml_list:
+                inline: true
+                entry_name: definition
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        doseForm:
+            expose: true
+            access_type: public_method
+            serialized_name: doseForm
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseForm
+                setter: setDoseForm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        intendedRoute:
+            expose: true
+            access_type: public_method
+            serialized_name: intendedRoute
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIntendedRoute
+                setter: setIntendedRoute
+            xml_list:
+                inline: true
+                entry_name: intendedRoute
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        ingredient:
+            expose: true
+            access_type: public_method
+            serialized_name: ingredient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIngredient
+                setter: setIngredient
+            xml_list:
+                inline: true
+                entry_name: ingredient
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationKnowledgeIngredientType>
+        drugCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: drugCharacteristic
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDrugCharacteristic
+                setter: setDrugCharacteristic
+            xml_list:
+                inline: true
+                entry_name: drugCharacteristic
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationKnowledgeDrugCharacteristicType>

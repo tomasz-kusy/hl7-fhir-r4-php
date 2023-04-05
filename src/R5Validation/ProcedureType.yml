@@ -1,0 +1,112 @@
+TKusy\Hl7Fhir\R5\ProcedureType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        instantiatesCanonical:
+            -
+                Valid: null
+        instantiatesUri:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceString:
+            -
+                Valid: null
+        occurrenceAge:
+            -
+                Valid: null
+        occurrenceRange:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        recorded:
+            -
+                Valid: null
+        recorder:
+            -
+                Valid: null
+        reportedBoolean:
+            -
+                Valid: null
+        reportedReference:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        bodySite:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        report:
+            -
+                Valid: null
+        complication:
+            -
+                Valid: null
+        followUp:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        focalDevice:
+            -
+                Valid: null
+        used:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null

@@ -1,0 +1,87 @@
+TKusy\Hl7Fhir\R5\StructureMapTargetType:
+    properties:
+        context:
+            expose: true
+            access_type: public_method
+            serialized_name: context
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContext
+                setter: setContext
+            type: TKusy\Hl7Fhir\R5\StringType
+        element:
+            expose: true
+            access_type: public_method
+            serialized_name: element
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getElement
+                setter: setElement
+            type: TKusy\Hl7Fhir\R5\StringType
+        variable:
+            expose: true
+            access_type: public_method
+            serialized_name: variable
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVariable
+                setter: setVariable
+            type: TKusy\Hl7Fhir\R5\IdType
+        listMode:
+            expose: true
+            access_type: public_method
+            serialized_name: listMode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getListMode
+                setter: setListMode
+            xml_list:
+                inline: true
+                entry_name: listMode
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StructureMapTargetListModeType>
+        listRuleId:
+            expose: true
+            access_type: public_method
+            serialized_name: listRuleId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getListRuleId
+                setter: setListRuleId
+            type: TKusy\Hl7Fhir\R5\IdType
+        transform:
+            expose: true
+            access_type: public_method
+            serialized_name: transform
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTransform
+                setter: setTransform
+            type: TKusy\Hl7Fhir\R5\StructureMapTransformType
+        parameter:
+            expose: true
+            access_type: public_method
+            serialized_name: parameter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getParameter
+                setter: setParameter
+            xml_list:
+                inline: true
+                entry_name: parameter
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StructureMapParameterType>

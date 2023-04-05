@@ -1,0 +1,42 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        contraindication:
+            -
+                Valid: null
+        indication:
+            -
+                Valid: null
+        interaction:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null
+        library:
+            -
+                Valid: null
+        undesirableEffect:
+            -
+                Valid: null
+        warning:
+            -
+                Valid: null

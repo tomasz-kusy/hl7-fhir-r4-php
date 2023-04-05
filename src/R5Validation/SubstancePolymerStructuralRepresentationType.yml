@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerStructuralRepresentationType:
+    properties:
+        type:
+            -
+                Valid: null
+        representation:
+            -
+                Valid: null
+        format:
+            -
+                Valid: null
+        attachment:
+            -
+                Valid: null

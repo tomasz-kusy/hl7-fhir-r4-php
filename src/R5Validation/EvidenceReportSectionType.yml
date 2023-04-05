@@ -1,0 +1,38 @@
+TKusy\Hl7Fhir\R5\EvidenceReportSectionType:
+    properties:
+        title:
+            -
+                Valid: null
+        focus:
+            -
+                Valid: null
+        focusReference:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        mode:
+            -
+                Valid: null
+        orderedBy:
+            -
+                Valid: null
+        entryClassifier:
+            -
+                Valid: null
+        entryReference:
+            -
+                Valid: null
+        entryQuantity:
+            -
+                Valid: null
+        emptyReason:
+            -
+                Valid: null
+        section:
+            -
+                Valid: null

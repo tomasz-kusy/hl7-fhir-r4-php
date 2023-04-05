@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\MeasureReportStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - complete
+                        - pending
+                        - error
+                    groups:
+                        - xsd_rules

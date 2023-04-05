@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\EvidenceSampleSizeType:
+    properties:
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        numberOfStudies:
+            -
+                Valid: null
+        numberOfParticipants:
+            -
+                Valid: null
+        knownDataCount:
+            -
+                Valid: null

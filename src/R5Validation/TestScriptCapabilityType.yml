@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\TestScriptCapabilityType:
+    properties:
+        required:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        validated:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        origin:
+            -
+                Valid: null
+        destination:
+            -
+                Valid: null
+        link:
+            -
+                Valid: null
+        capabilities:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

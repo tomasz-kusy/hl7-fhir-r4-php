@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\AdverseEventMitigatingActionType:
+    properties:
+        itemReference:
+            expose: true
+            access_type: public_method
+            serialized_name: itemReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemReference
+                setter: setItemReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        itemCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: itemCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getItemCodeableConcept
+                setter: setItemCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\ValueSetParameterType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueDecimal:
+            -
+                Valid: null
+        valueUri:
+            -
+                Valid: null
+        valueCode:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null

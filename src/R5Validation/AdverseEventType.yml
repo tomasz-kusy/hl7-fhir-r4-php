@@ -1,0 +1,92 @@
+TKusy\Hl7Fhir\R5\AdverseEventType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        actuality:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        occurrenceDateTime:
+            -
+                Valid: null
+        occurrencePeriod:
+            -
+                Valid: null
+        occurrenceTiming:
+            -
+                Valid: null
+        detected:
+            -
+                Valid: null
+        recordedDate:
+            -
+                Valid: null
+        resultingEffect:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        seriousness:
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        recorder:
+            -
+                Valid: null
+        participant:
+            -
+                Valid: null
+        study:
+            -
+                Valid: null
+        expectedInResearchStudy:
+            -
+                Valid: null
+        suspectEntity:
+            -
+                Valid: null
+        contributingFactor:
+            -
+                Valid: null
+        preventiveAction:
+            -
+                Valid: null
+        mitigatingAction:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

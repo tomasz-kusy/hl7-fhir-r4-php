@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\VirtualServiceDetailType:
+    properties:
+        channelType:
+            -
+                Valid: null
+        addressUrl:
+            -
+                Valid: null
+        addressString:
+            -
+                Valid: null
+        addressContactPoint:
+            -
+                Valid: null
+        addressExtendedContactDetail:
+            -
+                Valid: null
+        additionalInfo:
+            -
+                Valid: null
+        maxParticipants:
+            -
+                Valid: null
+        sessionKey:
+            -
+                Valid: null

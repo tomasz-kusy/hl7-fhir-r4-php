@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\VisionPrescriptionPrismType:
+    properties:
+        amount:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        base:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

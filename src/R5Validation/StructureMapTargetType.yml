@@ -1,0 +1,23 @@
+TKusy\Hl7Fhir\R5\StructureMapTargetType:
+    properties:
+        context:
+            -
+                Valid: null
+        element:
+            -
+                Valid: null
+        variable:
+            -
+                Valid: null
+        listMode:
+            -
+                Valid: null
+        listRuleId:
+            -
+                Valid: null
+        transform:
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null

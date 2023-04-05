@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\SearchParameterComponentType:
+    properties:
+        definition:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        expression:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

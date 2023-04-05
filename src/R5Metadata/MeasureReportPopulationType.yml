@@ -1,0 +1,72 @@
+TKusy\Hl7Fhir\R5\MeasureReportPopulationType:
+    properties:
+        linkId:
+            expose: true
+            access_type: public_method
+            serialized_name: linkId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkId
+                setter: setLinkId
+            type: TKusy\Hl7Fhir\R5\StringType
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: code
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        count:
+            expose: true
+            access_type: public_method
+            serialized_name: count
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCount
+                setter: setCount
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        subjectResults:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectResults
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectResults
+                setter: setSubjectResults
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        subjectReport:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectReport
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjectReport
+                setter: setSubjectReport
+            xml_list:
+                inline: true
+                entry_name: subjectReport
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        subjects:
+            expose: true
+            access_type: public_method
+            serialized_name: subjects
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubjects
+                setter: setSubjects
+            type: TKusy\Hl7Fhir\R5\ReferenceType

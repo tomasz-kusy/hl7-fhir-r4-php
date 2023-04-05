@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\ElementDefinitionMappingType:
+    properties:
+        identity:
+            expose: true
+            access_type: public_method
+            serialized_name: identity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentity
+                setter: setIdentity
+            type: TKusy\Hl7Fhir\R5\IdType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: TKusy\Hl7Fhir\R5\CodeType
+        map:
+            expose: true
+            access_type: public_method
+            serialized_name: map
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMap
+                setter: setMap
+            type: TKusy\Hl7Fhir\R5\StringType
+        comment:
+            expose: true
+            access_type: public_method
+            serialized_name: comment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getComment
+                setter: setComment
+            type: TKusy\Hl7Fhir\R5\MarkdownType

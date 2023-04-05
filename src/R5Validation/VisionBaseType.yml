@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\VisionBaseType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - up
+                        - down
+                        - in
+                        - out
+                    groups:
+                        - xsd_rules

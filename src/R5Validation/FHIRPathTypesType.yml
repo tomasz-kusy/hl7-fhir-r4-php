@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\FHIRPathTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - 'http://hl7.org/fhirpath/System.String'
+                        - 'http://hl7.org/fhirpath/System.Boolean'
+                        - 'http://hl7.org/fhirpath/System.Date'
+                        - 'http://hl7.org/fhirpath/System.DateTime'
+                        - 'http://hl7.org/fhirpath/System.Decimal'
+                        - 'http://hl7.org/fhirpath/System.Integer'
+                        - 'http://hl7.org/fhirpath/System.Time'
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\ValueSetScopeType:
+    properties:
+        inclusionCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: inclusionCriteria
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getInclusionCriteria
+                setter: setInclusionCriteria
+            type: TKusy\Hl7Fhir\R5\StringType
+        exclusionCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: exclusionCriteria
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExclusionCriteria
+                setter: setExclusionCriteria
+            type: TKusy\Hl7Fhir\R5\StringType

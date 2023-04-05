@@ -1,0 +1,70 @@
+TKusy\Hl7Fhir\R5\ClinicalImpressionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        effectiveDateTime:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        previous:
+            -
+                Valid: null
+        problem:
+            -
+                Valid: null
+        changePattern:
+            -
+                Valid: null
+        protocol:
+            -
+                Valid: null
+        summary:
+            -
+                Valid: null
+        finding:
+            -
+                Valid: null
+        prognosisCodeableConcept:
+            -
+                Valid: null
+        prognosisReference:
+            -
+                Valid: null
+        supportingInfo:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

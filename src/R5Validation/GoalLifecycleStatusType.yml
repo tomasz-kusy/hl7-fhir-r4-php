@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\GoalLifecycleStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - proposed
+                        - planned
+                        - accepted
+                        - active
+                        - on-hold
+                        - completed
+                        - cancelled
+                        - entered-in-error
+                        - rejected
+                    groups:
+                        - xsd_rules

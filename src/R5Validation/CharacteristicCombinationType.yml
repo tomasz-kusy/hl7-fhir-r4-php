@@ -1,0 +1,15 @@
+TKusy\Hl7Fhir\R5\CharacteristicCombinationType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - all-of
+                        - any-of
+                        - at-least
+                        - at-most
+                        - statistical
+                        - net-effect
+                        - dataset
+                    groups:
+                        - xsd_rules

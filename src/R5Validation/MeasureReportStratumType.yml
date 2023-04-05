@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R5\MeasureReportStratumType:
+    properties:
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueRange:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null
+        measureScoreQuantity:
+            -
+                Valid: null
+        measureScoreDateTime:
+            -
+                Valid: null
+        measureScoreCodeableConcept:
+            -
+                Valid: null
+        measureScorePeriod:
+            -
+                Valid: null
+        measureScoreRange:
+            -
+                Valid: null
+        measureScoreDuration:
+            -
+                Valid: null

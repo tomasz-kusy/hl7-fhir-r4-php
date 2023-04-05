@@ -1,0 +1,45 @@
+TKusy\Hl7Fhir\R5\ContractTermType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        issued:
+            -
+                Valid: null
+        applies:
+            -
+                Valid: null
+        topicCodeableConcept:
+            -
+                Valid: null
+        topicReference:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subType:
+            -
+                Valid: null
+        text:
+            -
+                Valid: null
+        securityLabel:
+            -
+                Valid: null
+        offer:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        asset:
+            -
+                Valid: null
+        action:
+            -
+                Valid: null
+        group:
+            -
+                Valid: null

@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\ConsentVerificationType:
+    properties:
+        verified:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        verificationType:
+            -
+                Valid: null
+        verifiedBy:
+            -
+                Valid: null
+        verifiedWith:
+            -
+                Valid: null
+        verificationDate:
+            -
+                Valid: null

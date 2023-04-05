@@ -1,0 +1,19 @@
+TKusy\Hl7Fhir\R5\InventoryReportItemType:
+    properties:
+        category:
+            -
+                Valid: null
+        quantity:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        item:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

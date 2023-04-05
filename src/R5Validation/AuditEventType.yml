@@ -1,0 +1,63 @@
+TKusy\Hl7Fhir\R5\AuditEventType:
+    properties:
+        category:
+            -
+                Valid: null
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        action:
+            -
+                Valid: null
+        severity:
+            -
+                Valid: null
+        occurredPeriod:
+            -
+                Valid: null
+        occurredDateTime:
+            -
+                Valid: null
+        recorded:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        outcome:
+            -
+                Valid: null
+        authorization:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        agent:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        source:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        entity:
+            -
+                Valid: null

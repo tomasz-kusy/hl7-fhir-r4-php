@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\ExtensionContextTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - fhirpath
+                        - element
+                        - extension
+                    groups:
+                        - xsd_rules

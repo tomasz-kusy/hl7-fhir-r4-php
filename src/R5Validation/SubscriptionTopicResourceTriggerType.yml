@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicResourceTriggerType:
+    properties:
+        description:
+            -
+                Valid: null
+        resource:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        supportedInteraction:
+            -
+                Valid: null
+        queryCriteria:
+            -
+                Valid: null
+        fhirPathCriteria:
+            -
+                Valid: null

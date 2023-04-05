@@ -1,0 +1,25 @@
+TKusy\Hl7Fhir\R5\RequestOrchestrationRelatedActionType:
+    properties:
+        targetId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        relationship:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        endRelationship:
+            -
+                Valid: null
+        offsetDuration:
+            -
+                Valid: null
+        offsetRange:
+            -
+                Valid: null

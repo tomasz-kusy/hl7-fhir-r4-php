@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\AccountType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        billingStatus:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        servicePeriod:
+            -
+                Valid: null
+        coverage:
+            -
+                Valid: null
+        owner:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        guarantor:
+            -
+                Valid: null
+        diagnosis:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null
+        relatedAccount:
+            -
+                Valid: null
+        currency:
+            -
+                Valid: null
+        balance:
+            -
+                Valid: null
+        calculatedAt:
+            -
+                Valid: null

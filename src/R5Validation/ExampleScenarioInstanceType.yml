@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\ExampleScenarioInstanceType:
+    properties:
+        key:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        structureType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        structureVersion:
+            -
+                Valid: null
+        structureProfileCanonical:
+            -
+                Valid: null
+        structureProfileUri:
+            -
+                Valid: null
+        title:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        content:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        containedInstance:
+            -
+                Valid: null

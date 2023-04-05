@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\CitationRelatesToType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        classifier:
+            -
+                Valid: null
+        label:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        citation:
+            -
+                Valid: null
+        document:
+            -
+                Valid: null
+        resource:
+            -
+                Valid: null
+        resourceReference:
+            -
+                Valid: null

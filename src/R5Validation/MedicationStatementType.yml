@@ -1,0 +1,71 @@
+TKusy\Hl7Fhir\R5\MedicationStatementType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        medication:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        effectiveDateTime:
+            -
+                Valid: null
+        effectivePeriod:
+            -
+                Valid: null
+        effectiveTiming:
+            -
+                Valid: null
+        dateAsserted:
+            -
+                Valid: null
+        informationSource:
+            -
+                Valid: null
+        derivedFrom:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        relatedClinicalInformation:
+            -
+                Valid: null
+        renderedDosageInstruction:
+            -
+                Valid: null
+        dosage:
+            -
+                Valid: null
+        adherence:
+            -
+                Valid: null

@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\CitationPublishedInType:
+    properties:
+        type:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        title:
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        publisherLocation:
+            -
+                Valid: null

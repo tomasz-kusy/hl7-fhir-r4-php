@@ -1,0 +1,93 @@
+TKusy\Hl7Fhir\R5\MedicinalProductDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        domain:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        statusDate:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        combinedPharmaceuticalDoseForm:
+            -
+                Valid: null
+        route:
+            -
+                Valid: null
+        indication:
+            -
+                Valid: null
+        legalStatusOfSupply:
+            -
+                Valid: null
+        additionalMonitoringIndicator:
+            -
+                Valid: null
+        specialMeasures:
+            -
+                Valid: null
+        pediatricUseIndicator:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        marketingStatus:
+            -
+                Valid: null
+        packagedMedicinalProduct:
+            -
+                Valid: null
+        comprisedOf:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        impurity:
+            -
+                Valid: null
+        attachedDocument:
+            -
+                Valid: null
+        masterFile:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        clinicalTrial:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        crossReference:
+            -
+                Valid: null
+        operation:
+            -
+                Valid: null
+        characteristic:
+            -
+                Valid: null

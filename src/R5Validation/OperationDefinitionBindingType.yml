@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\OperationDefinitionBindingType:
+    properties:
+        strength:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueSet:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

@@ -1,0 +1,37 @@
+TKusy\Hl7Fhir\R5\GraphDefinitionLinkType:
+    properties:
+        description:
+            -
+                Valid: null
+        min:
+            -
+                Valid: null
+        max:
+            -
+                Valid: null
+        sourceId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        path:
+            -
+                Valid: null
+        sliceName:
+            -
+                Valid: null
+        targetId:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        params:
+            -
+                Valid: null
+        compartment:
+            -
+                Valid: null

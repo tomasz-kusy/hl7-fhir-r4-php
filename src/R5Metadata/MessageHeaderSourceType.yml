@@ -1,0 +1,68 @@
+TKusy\Hl7Fhir\R5\MessageHeaderSourceType:
+    properties:
+        endpointUrl:
+            expose: true
+            access_type: public_method
+            serialized_name: endpointUrl
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpointUrl
+                setter: setEndpointUrl
+            type: TKusy\Hl7Fhir\R5\UrlType
+        endpointReference:
+            expose: true
+            access_type: public_method
+            serialized_name: endpointReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEndpointReference
+                setter: setEndpointReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getName
+                setter: setName
+            type: TKusy\Hl7Fhir\R5\StringType
+        software:
+            expose: true
+            access_type: public_method
+            serialized_name: software
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSoftware
+                setter: setSoftware
+            type: TKusy\Hl7Fhir\R5\StringType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: TKusy\Hl7Fhir\R5\StringType
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: contact
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: TKusy\Hl7Fhir\R5\ContactPointType

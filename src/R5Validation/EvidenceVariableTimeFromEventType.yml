@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\EvidenceVariableTimeFromEventType:
+    properties:
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        eventCodeableConcept:
+            -
+                Valid: null
+        eventReference:
+            -
+                Valid: null
+        eventDateTime:
+            -
+                Valid: null
+        eventId:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        range:
+            -
+                Valid: null

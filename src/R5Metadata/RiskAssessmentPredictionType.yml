@@ -1,0 +1,90 @@
+TKusy\Hl7Fhir\R5\RiskAssessmentPredictionType:
+    properties:
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        probabilityDecimal:
+            expose: true
+            access_type: public_method
+            serialized_name: probabilityDecimal
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProbabilityDecimal
+                setter: setProbabilityDecimal
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        probabilityRange:
+            expose: true
+            access_type: public_method
+            serialized_name: probabilityRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProbabilityRange
+                setter: setProbabilityRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        qualitativeRisk:
+            expose: true
+            access_type: public_method
+            serialized_name: qualitativeRisk
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualitativeRisk
+                setter: setQualitativeRisk
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        relativeRisk:
+            expose: true
+            access_type: public_method
+            serialized_name: relativeRisk
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRelativeRisk
+                setter: setRelativeRisk
+            type: TKusy\Hl7Fhir\R5\DecimalType
+        whenPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: whenPeriod
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWhenPeriod
+                setter: setWhenPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        whenRange:
+            expose: true
+            access_type: public_method
+            serialized_name: whenRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWhenRange
+                setter: setWhenRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        rationale:
+            expose: true
+            access_type: public_method
+            serialized_name: rationale
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRationale
+                setter: setRationale
+            type: TKusy\Hl7Fhir\R5\StringType

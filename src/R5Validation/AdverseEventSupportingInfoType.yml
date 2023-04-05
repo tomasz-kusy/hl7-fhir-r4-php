@@ -1,0 +1,8 @@
+TKusy\Hl7Fhir\R5\AdverseEventSupportingInfoType:
+    properties:
+        itemReference:
+            -
+                Valid: null
+        itemCodeableConcept:
+            -
+                Valid: null

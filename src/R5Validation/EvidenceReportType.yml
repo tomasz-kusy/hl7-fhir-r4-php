@@ -1,0 +1,67 @@
+TKusy\Hl7Fhir\R5\EvidenceReportType:
+    properties:
+        url:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        relatedIdentifier:
+            -
+                Valid: null
+        citeAsReference:
+            -
+                Valid: null
+        citeAsMarkdown:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        publisher:
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        editor:
+            -
+                Valid: null
+        reviewer:
+            -
+                Valid: null
+        endorser:
+            -
+                Valid: null
+        relatesTo:
+            -
+                Valid: null
+        section:
+            -
+                Valid: null

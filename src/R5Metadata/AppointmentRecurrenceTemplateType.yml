@@ -1,0 +1,124 @@
+TKusy\Hl7Fhir\R5\AppointmentRecurrenceTemplateType:
+    properties:
+        timezone:
+            expose: true
+            access_type: public_method
+            serialized_name: timezone
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTimezone
+                setter: setTimezone
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        recurrenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: recurrenceType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRecurrenceType
+                setter: setRecurrenceType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        lastOccurrenceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: lastOccurrenceDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLastOccurrenceDate
+                setter: setLastOccurrenceDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        occurrenceCount:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceCount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceCount
+                setter: setOccurrenceCount
+            type: TKusy\Hl7Fhir\R5\PositiveIntType
+        occurrenceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOccurrenceDate
+                setter: setOccurrenceDate
+            xml_list:
+                inline: true
+                entry_name: occurrenceDate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DateType>
+        weeklyTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: weeklyTemplate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getWeeklyTemplate
+                setter: setWeeklyTemplate
+            type: TKusy\Hl7Fhir\R5\AppointmentWeeklyTemplateType
+        monthlyTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: monthlyTemplate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMonthlyTemplate
+                setter: setMonthlyTemplate
+            type: TKusy\Hl7Fhir\R5\AppointmentMonthlyTemplateType
+        yearlyTemplate:
+            expose: true
+            access_type: public_method
+            serialized_name: yearlyTemplate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getYearlyTemplate
+                setter: setYearlyTemplate
+            type: TKusy\Hl7Fhir\R5\AppointmentYearlyTemplateType
+        excludingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: excludingDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExcludingDate
+                setter: setExcludingDate
+            xml_list:
+                inline: true
+                entry_name: excludingDate
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DateType>
+        excludingRecurrenceId:
+            expose: true
+            access_type: public_method
+            serialized_name: excludingRecurrenceId
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExcludingRecurrenceId
+                setter: setExcludingRecurrenceId
+            xml_list:
+                inline: true
+                entry_name: excludingRecurrenceId
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PositiveIntType>

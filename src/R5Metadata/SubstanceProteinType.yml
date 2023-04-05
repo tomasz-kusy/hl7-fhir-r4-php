@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\SubstanceProteinType:
+    properties:
+        sequenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: sequenceType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequenceType
+                setter: setSequenceType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        numberOfSubunits:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfSubunits
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNumberOfSubunits
+                setter: setNumberOfSubunits
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        disulfideLinkage:
+            expose: true
+            access_type: public_method
+            serialized_name: disulfideLinkage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisulfideLinkage
+                setter: setDisulfideLinkage
+            xml_list:
+                inline: true
+                entry_name: disulfideLinkage
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\StringType>
+        subunit:
+            expose: true
+            access_type: public_method
+            serialized_name: subunit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubunit
+                setter: setSubunit
+            xml_list:
+                inline: true
+                entry_name: subunit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\SubstanceProteinSubunitType>

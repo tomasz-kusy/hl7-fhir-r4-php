@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\SubscriptionTopicQueryCriteriaType:
+    properties:
+        previous:
+            expose: true
+            access_type: public_method
+            serialized_name: previous
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPrevious
+                setter: setPrevious
+            type: TKusy\Hl7Fhir\R5\StringType
+        resultForCreate:
+            expose: true
+            access_type: public_method
+            serialized_name: resultForCreate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResultForCreate
+                setter: setResultForCreate
+            type: TKusy\Hl7Fhir\R5\CriteriaNotExistsBehaviorType
+        current:
+            expose: true
+            access_type: public_method
+            serialized_name: current
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCurrent
+                setter: setCurrent
+            type: TKusy\Hl7Fhir\R5\StringType
+        resultForDelete:
+            expose: true
+            access_type: public_method
+            serialized_name: resultForDelete
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getResultForDelete
+                setter: setResultForDelete
+            type: TKusy\Hl7Fhir\R5\CriteriaNotExistsBehaviorType
+        requireBoth:
+            expose: true
+            access_type: public_method
+            serialized_name: requireBoth
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequireBoth
+                setter: setRequireBoth
+            type: TKusy\Hl7Fhir\R5\BooleanType

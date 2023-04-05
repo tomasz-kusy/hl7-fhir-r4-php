@@ -1,0 +1,65 @@
+TKusy\Hl7Fhir\R5\SubscriptionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        topic:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        contact:
+            -
+                Valid: null
+        end:
+            -
+                Valid: null
+        managingEntity:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        filterBy:
+            -
+                Valid: null
+        channelType:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        parameter:
+            -
+                Valid: null
+        heartbeatPeriod:
+            -
+                Valid: null
+        timeout:
+            -
+                Valid: null
+        contentType:
+            -
+                Valid: null
+        content:
+            -
+                Valid: null
+        maxCount:
+            -
+                Valid: null

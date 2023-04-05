@@ -1,0 +1,35 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionMolecularWeightType:
+    properties:
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R5\QuantityType

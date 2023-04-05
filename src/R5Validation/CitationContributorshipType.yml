@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\CitationContributorshipType:
+    properties:
+        complete:
+            -
+                Valid: null
+        entry:
+            -
+                Valid: null
+        summary:
+            -
+                Valid: null

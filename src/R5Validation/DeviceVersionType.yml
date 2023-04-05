@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\DeviceVersionType:
+    properties:
+        type:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null
+        installDate:
+            -
+                Valid: null
+        value:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

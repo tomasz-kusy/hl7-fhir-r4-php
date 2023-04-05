@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentWorkflowStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - submitted
+                        - triaged
+                        - waiting-for-input
+                        - resolved-no-change
+                        - resolved-change-required
+                        - deferred
+                        - duplicate
+                        - applied
+                        - published
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\DetectedIssueSeverityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - high
+                        - moderate
+                        - low
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\ManufacturedItemDefinitionPropertyType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCodeableConcept:
+            -
+                Valid: null
+        valueQuantity:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueMarkdown:
+            -
+                Valid: null
+        valueAttachment:
+            -
+                Valid: null
+        valueReference:
+            -
+                Valid: null

@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\AuditEventSeverityType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - emergency
+                        - alert
+                        - critical
+                        - error
+                        - warning
+                        - notice
+                        - informational
+                        - debug
+                    groups:
+                        - xsd_rules

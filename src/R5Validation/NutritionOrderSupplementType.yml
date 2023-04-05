@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\NutritionOrderSupplementType:
+    properties:
+        type:
+            -
+                Valid: null
+        productName:
+            -
+                Valid: null
+        schedule:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        instruction:
+            -
+                Valid: null

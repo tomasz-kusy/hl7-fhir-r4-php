@@ -1,0 +1,333 @@
+TKusy\Hl7Fhir\R5\PaymentReconciliationType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\FinancialResourceStatusCodesType
+        kind:
+            expose: true
+            access_type: public_method
+            serialized_name: kind
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getKind
+                setter: setKind
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        enterer:
+            expose: true
+            access_type: public_method
+            serialized_name: enterer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEnterer
+                setter: setEnterer
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        issuerType:
+            expose: true
+            access_type: public_method
+            serialized_name: issuerType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIssuerType
+                setter: setIssuerType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        paymentIssuer:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentIssuer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentIssuer
+                setter: setPaymentIssuer
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: request
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        requestor:
+            expose: true
+            access_type: public_method
+            serialized_name: requestor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRequestor
+                setter: setRequestor
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        outcome:
+            expose: true
+            access_type: public_method
+            serialized_name: outcome
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOutcome
+                setter: setOutcome
+            type: TKusy\Hl7Fhir\R5\PaymentOutcomeType
+        disposition:
+            expose: true
+            access_type: public_method
+            serialized_name: disposition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDisposition
+                setter: setDisposition
+            type: TKusy\Hl7Fhir\R5\StringType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        cardBrand:
+            expose: true
+            access_type: public_method
+            serialized_name: cardBrand
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCardBrand
+                setter: setCardBrand
+            type: TKusy\Hl7Fhir\R5\StringType
+        accountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: accountNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAccountNumber
+                setter: setAccountNumber
+            type: TKusy\Hl7Fhir\R5\StringType
+        expirationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: expirationDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExpirationDate
+                setter: setExpirationDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        processor:
+            expose: true
+            access_type: public_method
+            serialized_name: processor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcessor
+                setter: setProcessor
+            type: TKusy\Hl7Fhir\R5\StringType
+        referenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceNumber
+                setter: setReferenceNumber
+            type: TKusy\Hl7Fhir\R5\StringType
+        authorization:
+            expose: true
+            access_type: public_method
+            serialized_name: authorization
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthorization
+                setter: setAuthorization
+            type: TKusy\Hl7Fhir\R5\StringType
+        tenderedAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: tenderedAmount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTenderedAmount
+                setter: setTenderedAmount
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        returnedAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: returnedAmount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReturnedAmount
+                setter: setReturnedAmount
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        amount:
+            expose: true
+            access_type: public_method
+            serialized_name: amount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAmount
+                setter: setAmount
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        paymentIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: paymentIdentifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPaymentIdentifier
+                setter: setPaymentIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        allocation:
+            expose: true
+            access_type: public_method
+            serialized_name: allocation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAllocation
+                setter: setAllocation
+            xml_list:
+                inline: true
+                entry_name: allocation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PaymentReconciliationAllocationType>
+        formCode:
+            expose: true
+            access_type: public_method
+            serialized_name: formCode
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFormCode
+                setter: setFormCode
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        processNote:
+            expose: true
+            access_type: public_method
+            serialized_name: processNote
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProcessNote
+                setter: setProcessNote
+            xml_list:
+                inline: true
+                entry_name: processNote
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PaymentReconciliationProcessNoteType>

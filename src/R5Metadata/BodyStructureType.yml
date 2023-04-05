@@ -1,0 +1,106 @@
+TKusy\Hl7Fhir\R5\BodyStructureType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        active:
+            expose: true
+            access_type: public_method
+            serialized_name: active
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getActive
+                setter: setActive
+            type: TKusy\Hl7Fhir\R5\BooleanType
+        morphology:
+            expose: true
+            access_type: public_method
+            serialized_name: morphology
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMorphology
+                setter: setMorphology
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        includedStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: includedStructure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIncludedStructure
+                setter: setIncludedStructure
+            xml_list:
+                inline: true
+                entry_name: includedStructure
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\BodyStructureIncludedStructureType>
+        excludedStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: excludedStructure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getExcludedStructure
+                setter: setExcludedStructure
+            xml_list:
+                inline: true
+                entry_name: excludedStructure
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\BodyStructureIncludedStructureType>
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: TKusy\Hl7Fhir\R5\MarkdownType
+        image:
+            expose: true
+            access_type: public_method
+            serialized_name: image
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getImage
+                setter: setImage
+            xml_list:
+                inline: true
+                entry_name: image
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AttachmentType>
+        patient:
+            expose: true
+            access_type: public_method
+            serialized_name: patient
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPatient
+                setter: setPatient
+            type: TKusy\Hl7Fhir\R5\ReferenceType

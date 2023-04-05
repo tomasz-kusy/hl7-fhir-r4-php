@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\MolecularSequenceRelativeType:
+    properties:
+        coordinateSystem:
+            expose: true
+            access_type: public_method
+            serialized_name: coordinateSystem
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCoordinateSystem
+                setter: setCoordinateSystem
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        ordinalPosition:
+            expose: true
+            access_type: public_method
+            serialized_name: ordinalPosition
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOrdinalPosition
+                setter: setOrdinalPosition
+            type: TKusy\Hl7Fhir\R5\IntegerType
+        sequenceRange:
+            expose: true
+            access_type: public_method
+            serialized_name: sequenceRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSequenceRange
+                setter: setSequenceRange
+            type: TKusy\Hl7Fhir\R5\RangeType
+        startingSequence:
+            expose: true
+            access_type: public_method
+            serialized_name: startingSequence
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStartingSequence
+                setter: setStartingSequence
+            type: TKusy\Hl7Fhir\R5\MolecularSequenceStartingSequenceType
+        edit:
+            expose: true
+            access_type: public_method
+            serialized_name: edit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getEdit
+                setter: setEdit
+            xml_list:
+                inline: true
+                entry_name: edit
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MolecularSequenceEditType>

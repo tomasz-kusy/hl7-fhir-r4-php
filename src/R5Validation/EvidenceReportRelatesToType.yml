@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\EvidenceReportRelatesToType:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        target:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

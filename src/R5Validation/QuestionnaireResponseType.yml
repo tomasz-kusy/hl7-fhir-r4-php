@@ -1,0 +1,43 @@
+TKusy\Hl7Fhir\R5\QuestionnaireResponseType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        questionnaire:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        authored:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        source:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null

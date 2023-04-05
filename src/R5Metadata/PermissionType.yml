@@ -1,0 +1,87 @@
+TKusy\Hl7Fhir\R5\PermissionType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\PermissionStatusType
+        asserter:
+            expose: true
+            access_type: public_method
+            serialized_name: asserter
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAsserter
+                setter: setAsserter
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_list:
+                inline: true
+                entry_name: date
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\DateTimeType>
+        validity:
+            expose: true
+            access_type: public_method
+            serialized_name: validity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValidity
+                setter: setValidity
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        justification:
+            expose: true
+            access_type: public_method
+            serialized_name: justification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getJustification
+                setter: setJustification
+            type: TKusy\Hl7Fhir\R5\PermissionJustificationType
+        combining:
+            expose: true
+            access_type: public_method
+            serialized_name: combining
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCombining
+                setter: setCombining
+            type: TKusy\Hl7Fhir\R5\PermissionRuleCombiningType
+        rule:
+            expose: true
+            access_type: public_method
+            serialized_name: rule
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRule
+                setter: setRule
+            xml_list:
+                inline: true
+                entry_name: rule
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\PermissionRuleType>

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\LinkageTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - source
+                        - alternate
+                        - historical
+                    groups:
+                        - xsd_rules

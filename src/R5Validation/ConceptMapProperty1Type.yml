@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\ConceptMapProperty1Type:
+    properties:
+        code:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        valueCoding:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null
+        valueDecimal:
+            -
+                Valid: null
+        valueCode:
+            -
+                Valid: null

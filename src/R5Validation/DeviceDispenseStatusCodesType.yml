@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\DeviceDispenseStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - preparation
+                        - in-progress
+                        - cancelled
+                        - on-hold
+                        - completed
+                        - entered-in-error
+                        - stopped
+                        - declined
+                        - unknown
+                    groups:
+                        - xsd_rules

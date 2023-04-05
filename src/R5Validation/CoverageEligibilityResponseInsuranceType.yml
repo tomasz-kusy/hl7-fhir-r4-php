@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\CoverageEligibilityResponseInsuranceType:
+    properties:
+        coverage:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        inforce:
+            -
+                Valid: null
+        benefitPeriod:
+            -
+                Valid: null
+        item:
+            -
+                Valid: null

@@ -1,0 +1,3 @@
+TKusy\Hl7Fhir\R5\SubstancePolymer:
+    xml_root_name: SubstancePolymer
+    xml_root_namespace: 'http://hl7.org/fhir'

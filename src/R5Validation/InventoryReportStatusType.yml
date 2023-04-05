@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\InventoryReportStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - draft
+                        - requested
+                        - active
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

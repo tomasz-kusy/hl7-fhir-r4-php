@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\TestReportAction2Type:
+    properties:
+        operation:
+            expose: true
+            access_type: public_method
+            serialized_name: operation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOperation
+                setter: setOperation
+            type: TKusy\Hl7Fhir\R5\TestReportOperationType

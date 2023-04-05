@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\SpecimenStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - available
+                        - unavailable
+                        - unsatisfactory
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

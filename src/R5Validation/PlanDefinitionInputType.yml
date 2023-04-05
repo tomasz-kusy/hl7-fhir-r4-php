@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\PlanDefinitionInputType:
+    properties:
+        title:
+            -
+                Valid: null
+        requirement:
+            -
+                Valid: null
+        relatedData:
+            -
+                Valid: null

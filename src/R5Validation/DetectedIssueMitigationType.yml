@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\DetectedIssueMitigationType:
+    properties:
+        action:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        date:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null

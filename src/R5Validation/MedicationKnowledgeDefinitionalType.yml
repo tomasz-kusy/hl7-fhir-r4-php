@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeDefinitionalType:
+    properties:
+        definition:
+            -
+                Valid: null
+        doseForm:
+            -
+                Valid: null
+        intendedRoute:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        drugCharacteristic:
+            -
+                Valid: null

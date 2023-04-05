@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\RequestOrchestrationOutputType:
+    properties:
+        title:
+            -
+                Valid: null
+        requirement:
+            -
+                Valid: null
+        relatedData:
+            -
+                Valid: null

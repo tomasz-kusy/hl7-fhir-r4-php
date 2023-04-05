@@ -1,0 +1,54 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeRegulatoryType:
+    properties:
+        regulatoryAuthority:
+            expose: true
+            access_type: public_method
+            serialized_name: regulatoryAuthority
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegulatoryAuthority
+                setter: setRegulatoryAuthority
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        substitution:
+            expose: true
+            access_type: public_method
+            serialized_name: substitution
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubstitution
+                setter: setSubstitution
+            xml_list:
+                inline: true
+                entry_name: substitution
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationKnowledgeSubstitutionType>
+        schedule:
+            expose: true
+            access_type: public_method
+            serialized_name: schedule
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSchedule
+                setter: setSchedule
+            xml_list:
+                inline: true
+                entry_name: schedule
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        maxDispense:
+            expose: true
+            access_type: public_method
+            serialized_name: maxDispense
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMaxDispense
+                setter: setMaxDispense
+            type: TKusy\Hl7Fhir\R5\MedicationKnowledgeMaxDispenseType

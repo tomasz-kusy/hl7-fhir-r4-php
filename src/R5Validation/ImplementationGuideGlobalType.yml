@@ -1,0 +1,16 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideGlobalType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        profile:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

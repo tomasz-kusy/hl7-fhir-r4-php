@@ -1,0 +1,31 @@
+TKusy\Hl7Fhir\R5\NutritionIntakeConsumedItemType:
+    properties:
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        nutritionProduct:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        schedule:
+            -
+                Valid: null
+        amount:
+            -
+                Valid: null
+        rate:
+            -
+                Valid: null
+        notConsumed:
+            -
+                Valid: null
+        notConsumedReason:
+            -
+                Valid: null

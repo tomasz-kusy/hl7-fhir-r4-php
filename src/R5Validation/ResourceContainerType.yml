@@ -1,0 +1,476 @@
+TKusy\Hl7Fhir\R5\ResourceContainerType:
+    properties:
+        account:
+            -
+                Valid: null
+        activityDefinition:
+            -
+                Valid: null
+        actorDefinition:
+            -
+                Valid: null
+        administrableProductDefinition:
+            -
+                Valid: null
+        adverseEvent:
+            -
+                Valid: null
+        allergyIntolerance:
+            -
+                Valid: null
+        appointment:
+            -
+                Valid: null
+        appointmentResponse:
+            -
+                Valid: null
+        artifactAssessment:
+            -
+                Valid: null
+        auditEvent:
+            -
+                Valid: null
+        basic:
+            -
+                Valid: null
+        binary:
+            -
+                Valid: null
+        biologicallyDerivedProduct:
+            -
+                Valid: null
+        biologicallyDerivedProductDispense:
+            -
+                Valid: null
+        bodyStructure:
+            -
+                Valid: null
+        bundle:
+            -
+                Valid: null
+        capabilityStatement:
+            -
+                Valid: null
+        carePlan:
+            -
+                Valid: null
+        careTeam:
+            -
+                Valid: null
+        chargeItem:
+            -
+                Valid: null
+        chargeItemDefinition:
+            -
+                Valid: null
+        citation:
+            -
+                Valid: null
+        claim:
+            -
+                Valid: null
+        claimResponse:
+            -
+                Valid: null
+        clinicalImpression:
+            -
+                Valid: null
+        clinicalUseDefinition:
+            -
+                Valid: null
+        codeSystem:
+            -
+                Valid: null
+        communication:
+            -
+                Valid: null
+        communicationRequest:
+            -
+                Valid: null
+        compartmentDefinition:
+            -
+                Valid: null
+        composition:
+            -
+                Valid: null
+        conceptMap:
+            -
+                Valid: null
+        condition:
+            -
+                Valid: null
+        conditionDefinition:
+            -
+                Valid: null
+        consent:
+            -
+                Valid: null
+        contract:
+            -
+                Valid: null
+        coverage:
+            -
+                Valid: null
+        coverageEligibilityRequest:
+            -
+                Valid: null
+        coverageEligibilityResponse:
+            -
+                Valid: null
+        detectedIssue:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        deviceAssociation:
+            -
+                Valid: null
+        deviceDefinition:
+            -
+                Valid: null
+        deviceDispense:
+            -
+                Valid: null
+        deviceMetric:
+            -
+                Valid: null
+        deviceRequest:
+            -
+                Valid: null
+        deviceUsage:
+            -
+                Valid: null
+        diagnosticReport:
+            -
+                Valid: null
+        documentReference:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        encounterHistory:
+            -
+                Valid: null
+        endpoint:
+            -
+                Valid: null
+        enrollmentRequest:
+            -
+                Valid: null
+        enrollmentResponse:
+            -
+                Valid: null
+        episodeOfCare:
+            -
+                Valid: null
+        eventDefinition:
+            -
+                Valid: null
+        evidence:
+            -
+                Valid: null
+        evidenceReport:
+            -
+                Valid: null
+        evidenceVariable:
+            -
+                Valid: null
+        exampleScenario:
+            -
+                Valid: null
+        explanationOfBenefit:
+            -
+                Valid: null
+        familyMemberHistory:
+            -
+                Valid: null
+        flag:
+            -
+                Valid: null
+        formularyItem:
+            -
+                Valid: null
+        genomicStudy:
+            -
+                Valid: null
+        goal:
+            -
+                Valid: null
+        graphDefinition:
+            -
+                Valid: null
+        group:
+            -
+                Valid: null
+        guidanceResponse:
+            -
+                Valid: null
+        healthcareService:
+            -
+                Valid: null
+        imagingSelection:
+            -
+                Valid: null
+        imagingStudy:
+            -
+                Valid: null
+        immunization:
+            -
+                Valid: null
+        immunizationEvaluation:
+            -
+                Valid: null
+        immunizationRecommendation:
+            -
+                Valid: null
+        implementationGuide:
+            -
+                Valid: null
+        ingredient:
+            -
+                Valid: null
+        insurancePlan:
+            -
+                Valid: null
+        inventoryItem:
+            -
+                Valid: null
+        inventoryReport:
+            -
+                Valid: null
+        invoice:
+            -
+                Valid: null
+        library:
+            -
+                Valid: null
+        linkage:
+            -
+                Valid: null
+        list:
+            -
+                Valid: null
+        location:
+            -
+                Valid: null
+        manufacturedItemDefinition:
+            -
+                Valid: null
+        measure:
+            -
+                Valid: null
+        measureReport:
+            -
+                Valid: null
+        medication:
+            -
+                Valid: null
+        medicationAdministration:
+            -
+                Valid: null
+        medicationDispense:
+            -
+                Valid: null
+        medicationKnowledge:
+            -
+                Valid: null
+        medicationRequest:
+            -
+                Valid: null
+        medicationStatement:
+            -
+                Valid: null
+        medicinalProductDefinition:
+            -
+                Valid: null
+        messageDefinition:
+            -
+                Valid: null
+        messageHeader:
+            -
+                Valid: null
+        molecularSequence:
+            -
+                Valid: null
+        namingSystem:
+            -
+                Valid: null
+        nutritionIntake:
+            -
+                Valid: null
+        nutritionOrder:
+            -
+                Valid: null
+        nutritionProduct:
+            -
+                Valid: null
+        observation:
+            -
+                Valid: null
+        observationDefinition:
+            -
+                Valid: null
+        operationDefinition:
+            -
+                Valid: null
+        operationOutcome:
+            -
+                Valid: null
+        organization:
+            -
+                Valid: null
+        organizationAffiliation:
+            -
+                Valid: null
+        packagedProductDefinition:
+            -
+                Valid: null
+        patient:
+            -
+                Valid: null
+        paymentNotice:
+            -
+                Valid: null
+        paymentReconciliation:
+            -
+                Valid: null
+        permission:
+            -
+                Valid: null
+        person:
+            -
+                Valid: null
+        planDefinition:
+            -
+                Valid: null
+        practitioner:
+            -
+                Valid: null
+        practitionerRole:
+            -
+                Valid: null
+        procedure:
+            -
+                Valid: null
+        provenance:
+            -
+                Valid: null
+        questionnaire:
+            -
+                Valid: null
+        questionnaireResponse:
+            -
+                Valid: null
+        regulatedAuthorization:
+            -
+                Valid: null
+        relatedPerson:
+            -
+                Valid: null
+        requestOrchestration:
+            -
+                Valid: null
+        requirements:
+            -
+                Valid: null
+        researchStudy:
+            -
+                Valid: null
+        researchSubject:
+            -
+                Valid: null
+        riskAssessment:
+            -
+                Valid: null
+        schedule:
+            -
+                Valid: null
+        searchParameter:
+            -
+                Valid: null
+        serviceRequest:
+            -
+                Valid: null
+        slot:
+            -
+                Valid: null
+        specimen:
+            -
+                Valid: null
+        specimenDefinition:
+            -
+                Valid: null
+        structureDefinition:
+            -
+                Valid: null
+        structureMap:
+            -
+                Valid: null
+        subscription:
+            -
+                Valid: null
+        subscriptionStatus:
+            -
+                Valid: null
+        subscriptionTopic:
+            -
+                Valid: null
+        substance:
+            -
+                Valid: null
+        substanceDefinition:
+            -
+                Valid: null
+        substanceNucleicAcid:
+            -
+                Valid: null
+        substancePolymer:
+            -
+                Valid: null
+        substanceProtein:
+            -
+                Valid: null
+        substanceReferenceInformation:
+            -
+                Valid: null
+        substanceSourceMaterial:
+            -
+                Valid: null
+        supplyDelivery:
+            -
+                Valid: null
+        supplyRequest:
+            -
+                Valid: null
+        task:
+            -
+                Valid: null
+        terminologyCapabilities:
+            -
+                Valid: null
+        testPlan:
+            -
+                Valid: null
+        testReport:
+            -
+                Valid: null
+        testScript:
+            -
+                Valid: null
+        transport:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null
+        verificationResult:
+            -
+                Valid: null
+        visionPrescription:
+            -
+                Valid: null
+        parameters:
+            -
+                Valid: null

@@ -1,0 +1,17 @@
+TKusy\Hl7Fhir\R5\TypeRestfulInteractionType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - read
+                        - vread
+                        - update
+                        - patch
+                        - delete
+                        - history-instance
+                        - history-type
+                        - create
+                        - search-type
+                    groups:
+                        - xsd_rules

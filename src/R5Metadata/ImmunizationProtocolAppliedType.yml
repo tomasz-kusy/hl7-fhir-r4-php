@@ -1,0 +1,61 @@
+TKusy\Hl7Fhir\R5\ImmunizationProtocolAppliedType:
+    properties:
+        series:
+            expose: true
+            access_type: public_method
+            serialized_name: series
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeries
+                setter: setSeries
+            type: TKusy\Hl7Fhir\R5\StringType
+        authority:
+            expose: true
+            access_type: public_method
+            serialized_name: authority
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAuthority
+                setter: setAuthority
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        targetDisease:
+            expose: true
+            access_type: public_method
+            serialized_name: targetDisease
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTargetDisease
+                setter: setTargetDisease
+            xml_list:
+                inline: true
+                entry_name: targetDisease
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        doseNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: doseNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDoseNumber
+                setter: setDoseNumber
+            type: TKusy\Hl7Fhir\R5\StringType
+        seriesDoses:
+            expose: true
+            access_type: public_method
+            serialized_name: seriesDoses
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSeriesDoses
+                setter: setSeriesDoses
+            type: TKusy\Hl7Fhir\R5\StringType

@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentDispositionType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - unresolved
+                        - not-persuasive
+                        - persuasive
+                        - persuasive-with-modification
+                        - not-persuasive-with-modification
+                    groups:
+                        - xsd_rules

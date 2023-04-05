@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\AccountRelatedAccountType:
+    properties:
+        relationship:
+            -
+                Valid: null
+        account:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

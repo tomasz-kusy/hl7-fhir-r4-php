@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\DeviceDefinitionPackagingType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        count:
+            -
+                Valid: null
+        distributor:
+            -
+                Valid: null
+        udiDeviceIdentifier:
+            -
+                Valid: null
+        packaging:
+            -
+                Valid: null

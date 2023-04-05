@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\ParticipantResourceTypesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - CareTeam
+                        - Device
+                        - Group
+                        - HealthcareService
+                        - Location
+                        - Organization
+                        - Patient
+                        - Practitioner
+                        - PractitionerRole
+                        - RelatedPerson
+                    groups:
+                        - xsd_rules

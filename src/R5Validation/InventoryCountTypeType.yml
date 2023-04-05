@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\InventoryCountTypeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - snapshot
+                        - difference
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,164 @@
+TKusy\Hl7Fhir\R5\IngredientStrengthType:
+    properties:
+        presentationRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: presentationRatio
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentationRatio
+                setter: setPresentationRatio
+            type: TKusy\Hl7Fhir\R5\RatioType
+        presentationRatioRange:
+            expose: true
+            access_type: public_method
+            serialized_name: presentationRatioRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentationRatioRange
+                setter: setPresentationRatioRange
+            type: TKusy\Hl7Fhir\R5\RatioRangeType
+        presentationCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: presentationCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentationCodeableConcept
+                setter: setPresentationCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        presentationQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: presentationQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPresentationQuantity
+                setter: setPresentationQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        textPresentation:
+            expose: true
+            access_type: public_method
+            serialized_name: textPresentation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTextPresentation
+                setter: setTextPresentation
+            type: TKusy\Hl7Fhir\R5\StringType
+        concentrationRatio:
+            expose: true
+            access_type: public_method
+            serialized_name: concentrationRatio
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcentrationRatio
+                setter: setConcentrationRatio
+            type: TKusy\Hl7Fhir\R5\RatioType
+        concentrationRatioRange:
+            expose: true
+            access_type: public_method
+            serialized_name: concentrationRatioRange
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcentrationRatioRange
+                setter: setConcentrationRatioRange
+            type: TKusy\Hl7Fhir\R5\RatioRangeType
+        concentrationCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: concentrationCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcentrationCodeableConcept
+                setter: setConcentrationCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        concentrationQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: concentrationQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getConcentrationQuantity
+                setter: setConcentrationQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        textConcentration:
+            expose: true
+            access_type: public_method
+            serialized_name: textConcentration
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTextConcentration
+                setter: setTextConcentration
+            type: TKusy\Hl7Fhir\R5\StringType
+        basis:
+            expose: true
+            access_type: public_method
+            serialized_name: basis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBasis
+                setter: setBasis
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        measurementPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementPoint
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getMeasurementPoint
+                setter: setMeasurementPoint
+            type: TKusy\Hl7Fhir\R5\StringType
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            xml_list:
+                inline: true
+                entry_name: country
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        referenceStrength:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceStrength
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getReferenceStrength
+                setter: setReferenceStrength
+            xml_list:
+                inline: true
+                entry_name: referenceStrength
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IngredientReferenceStrengthType>

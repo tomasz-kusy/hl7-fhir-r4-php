@@ -1,0 +1,83 @@
+TKusy\Hl7Fhir\R5\MedicationAdministrationType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        basedOn:
+            -
+                Valid: null
+        partOf:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        statusReason:
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        medication:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        subject:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        supportingInformation:
+            -
+                Valid: null
+        occurenceDateTime:
+            -
+                Valid: null
+        occurencePeriod:
+            -
+                Valid: null
+        occurenceTiming:
+            -
+                Valid: null
+        recorded:
+            -
+                Valid: null
+        isSubPotent:
+            -
+                Valid: null
+        subPotentReason:
+            -
+                Valid: null
+        performer:
+            -
+                Valid: null
+        reason:
+            -
+                Valid: null
+        request:
+            -
+                Valid: null
+        device:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        dosage:
+            -
+                Valid: null
+        eventHistory:
+            -
+                Valid: null

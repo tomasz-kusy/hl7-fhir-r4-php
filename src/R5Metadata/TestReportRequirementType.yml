@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\TestReportRequirementType:
+    properties:
+        linkUri:
+            expose: true
+            access_type: public_method
+            serialized_name: linkUri
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkUri
+                setter: setLinkUri
+            type: TKusy\Hl7Fhir\R5\UriType
+        linkCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: linkCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLinkCanonical
+                setter: setLinkCanonical
+            type: TKusy\Hl7Fhir\R5\CanonicalType

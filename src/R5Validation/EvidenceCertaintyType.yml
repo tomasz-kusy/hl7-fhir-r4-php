@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\EvidenceCertaintyType:
+    properties:
+        description:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        rating:
+            -
+                Valid: null
+        rater:
+            -
+                Valid: null
+        subcomponent:
+            -
+                Valid: null

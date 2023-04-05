@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeIndicationGuidelineType:
+    properties:
+        indication:
+            expose: true
+            access_type: public_method
+            serialized_name: indication
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIndication
+                setter: setIndication
+            xml_list:
+                inline: true
+                entry_name: indication
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableReferenceType>
+        dosingGuideline:
+            expose: true
+            access_type: public_method
+            serialized_name: dosingGuideline
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDosingGuideline
+                setter: setDosingGuideline
+            xml_list:
+                inline: true
+                entry_name: dosingGuideline
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\MedicationKnowledgeDosingGuidelineType>

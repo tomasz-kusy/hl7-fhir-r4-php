@@ -1,0 +1,57 @@
+TKusy\Hl7Fhir\R5\OperationDefinitionParameterType:
+    properties:
+        name:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        use:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        scope:
+            -
+                Valid: null
+        min:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        max:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        documentation:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        allowedType:
+            -
+                Valid: null
+        targetProfile:
+            -
+                Valid: null
+        searchType:
+            -
+                Valid: null
+        binding:
+            -
+                Valid: null
+        referencedFrom:
+            -
+                Valid: null
+        part:
+            -
+                Valid: null

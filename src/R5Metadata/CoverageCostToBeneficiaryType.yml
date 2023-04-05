@@ -1,0 +1,94 @@
+TKusy\Hl7Fhir\R5\CoverageCostToBeneficiaryType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        network:
+            expose: true
+            access_type: public_method
+            serialized_name: network
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getNetwork
+                setter: setNetwork
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: unit
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        term:
+            expose: true
+            access_type: public_method
+            serialized_name: term
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTerm
+                setter: setTerm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        valueQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: valueQuantity
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueQuantity
+                setter: setValueQuantity
+            type: TKusy\Hl7Fhir\R5\QuantityType
+        valueMoney:
+            expose: true
+            access_type: public_method
+            serialized_name: valueMoney
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getValueMoney
+                setter: setValueMoney
+            type: TKusy\Hl7Fhir\R5\MoneyType
+        exception:
+            expose: true
+            access_type: public_method
+            serialized_name: exception
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getException
+                setter: setException
+            xml_list:
+                inline: true
+                entry_name: exception
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CoverageExceptionType>

@@ -1,0 +1,62 @@
+TKusy\Hl7Fhir\R5\MedicationKnowledgeType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        intendedJurisdiction:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        relatedMedicationKnowledge:
+            -
+                Valid: null
+        associatedMedication:
+            -
+                Valid: null
+        productType:
+            -
+                Valid: null
+        monograph:
+            -
+                Valid: null
+        preparationInstruction:
+            -
+                Valid: null
+        cost:
+            -
+                Valid: null
+        monitoringProgram:
+            -
+                Valid: null
+        indicationGuideline:
+            -
+                Valid: null
+        medicineClassification:
+            -
+                Valid: null
+        packaging:
+            -
+                Valid: null
+        clinicalUseIssue:
+            -
+                Valid: null
+        storageGuideline:
+            -
+                Valid: null
+        regulatory:
+            -
+                Valid: null
+        definitional:
+            -
+                Valid: null

@@ -1,0 +1,248 @@
+TKusy\Hl7Fhir\R5\ConsentType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            xml_list:
+                inline: true
+                entry_name: identifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\IdentifierType>
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: TKusy\Hl7Fhir\R5\ConsentStateType
+        category:
+            expose: true
+            access_type: public_method
+            serialized_name: category
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCategory
+                setter: setCategory
+            xml_list:
+                inline: true
+                entry_name: category
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: subject
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: TKusy\Hl7Fhir\R5\DateType
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        grantor:
+            expose: true
+            access_type: public_method
+            serialized_name: grantor
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGrantor
+                setter: setGrantor
+            xml_list:
+                inline: true
+                entry_name: grantor
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        grantee:
+            expose: true
+            access_type: public_method
+            serialized_name: grantee
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGrantee
+                setter: setGrantee
+            xml_list:
+                inline: true
+                entry_name: grantee
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        manager:
+            expose: true
+            access_type: public_method
+            serialized_name: manager
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getManager
+                setter: setManager
+            xml_list:
+                inline: true
+                entry_name: manager
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        controller:
+            expose: true
+            access_type: public_method
+            serialized_name: controller
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getController
+                setter: setController
+            xml_list:
+                inline: true
+                entry_name: controller
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        sourceAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceAttachment
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceAttachment
+                setter: setSourceAttachment
+            xml_list:
+                inline: true
+                entry_name: sourceAttachment
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\AttachmentType>
+        sourceReference:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSourceReference
+                setter: setSourceReference
+            xml_list:
+                inline: true
+                entry_name: sourceReference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        regulatoryBasis:
+            expose: true
+            access_type: public_method
+            serialized_name: regulatoryBasis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRegulatoryBasis
+                setter: setRegulatoryBasis
+            xml_list:
+                inline: true
+                entry_name: regulatoryBasis
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        policyBasis:
+            expose: true
+            access_type: public_method
+            serialized_name: policyBasis
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPolicyBasis
+                setter: setPolicyBasis
+            type: TKusy\Hl7Fhir\R5\ConsentPolicyBasisType
+        policyText:
+            expose: true
+            access_type: public_method
+            serialized_name: policyText
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPolicyText
+                setter: setPolicyText
+            xml_list:
+                inline: true
+                entry_name: policyText
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        verification:
+            expose: true
+            access_type: public_method
+            serialized_name: verification
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVerification
+                setter: setVerification
+            xml_list:
+                inline: true
+                entry_name: verification
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ConsentVerificationType>
+        decision:
+            expose: true
+            access_type: public_method
+            serialized_name: decision
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getDecision
+                setter: setDecision
+            type: TKusy\Hl7Fhir\R5\ConsentProvisionTypeType
+        provision:
+            expose: true
+            access_type: public_method
+            serialized_name: provision
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getProvision
+                setter: setProvision
+            xml_list:
+                inline: true
+                entry_name: provision
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ConsentProvisionType>

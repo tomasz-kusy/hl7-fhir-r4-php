@@ -1,0 +1,30 @@
+TKusy\Hl7Fhir\R5\ConceptMapTargetType:
+    properties:
+        code:
+            -
+                Valid: null
+        display:
+            -
+                Valid: null
+        valueSet:
+            -
+                Valid: null
+        relationship:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        comment:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        dependsOn:
+            -
+                Valid: null
+        product:
+            -
+                Valid: null

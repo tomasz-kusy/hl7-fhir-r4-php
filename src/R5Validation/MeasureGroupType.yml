@@ -1,0 +1,44 @@
+TKusy\Hl7Fhir\R5\MeasureGroupType:
+    properties:
+        linkId:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        subjectCodeableConcept:
+            -
+                Valid: null
+        subjectReference:
+            -
+                Valid: null
+        basis:
+            -
+                Valid: null
+        scoring:
+            -
+                Valid: null
+        scoringUnit:
+            -
+                Valid: null
+        rateAggregation:
+            -
+                Valid: null
+        improvementNotation:
+            -
+                Valid: null
+        library:
+            -
+                Valid: null
+        population:
+            -
+                Valid: null
+        stratifier:
+            -
+                Valid: null

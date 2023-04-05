@@ -1,0 +1,171 @@
+TKusy\Hl7Fhir\R5\CitationPublicationFormType:
+    properties:
+        publishedIn:
+            expose: true
+            access_type: public_method
+            serialized_name: publishedIn
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublishedIn
+                setter: setPublishedIn
+            type: TKusy\Hl7Fhir\R5\CitationPublishedInType
+        citedMedium:
+            expose: true
+            access_type: public_method
+            serialized_name: citedMedium
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCitedMedium
+                setter: setCitedMedium
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        volume:
+            expose: true
+            access_type: public_method
+            serialized_name: volume
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getVolume
+                setter: setVolume
+            type: TKusy\Hl7Fhir\R5\StringType
+        issue:
+            expose: true
+            access_type: public_method
+            serialized_name: issue
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIssue
+                setter: setIssue
+            type: TKusy\Hl7Fhir\R5\StringType
+        articleDate:
+            expose: true
+            access_type: public_method
+            serialized_name: articleDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getArticleDate
+                setter: setArticleDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        publicationDateText:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationDateText
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublicationDateText
+                setter: setPublicationDateText
+            type: TKusy\Hl7Fhir\R5\StringType
+        publicationDateSeason:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationDateSeason
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPublicationDateSeason
+                setter: setPublicationDateSeason
+            type: TKusy\Hl7Fhir\R5\StringType
+        lastRevisionDate:
+            expose: true
+            access_type: public_method
+            serialized_name: lastRevisionDate
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLastRevisionDate
+                setter: setLastRevisionDate
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_list:
+                inline: true
+                entry_name: language
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>
+        accessionNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: accessionNumber
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAccessionNumber
+                setter: setAccessionNumber
+            type: TKusy\Hl7Fhir\R5\StringType
+        pageString:
+            expose: true
+            access_type: public_method
+            serialized_name: pageString
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPageString
+                setter: setPageString
+            type: TKusy\Hl7Fhir\R5\StringType
+        firstPage:
+            expose: true
+            access_type: public_method
+            serialized_name: firstPage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getFirstPage
+                setter: setFirstPage
+            type: TKusy\Hl7Fhir\R5\StringType
+        lastPage:
+            expose: true
+            access_type: public_method
+            serialized_name: lastPage
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLastPage
+                setter: setLastPage
+            type: TKusy\Hl7Fhir\R5\StringType
+        pageCount:
+            expose: true
+            access_type: public_method
+            serialized_name: pageCount
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getPageCount
+                setter: setPageCount
+            type: TKusy\Hl7Fhir\R5\StringType
+        copyright:
+            expose: true
+            access_type: public_method
+            serialized_name: copyright
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getCopyright
+                setter: setCopyright
+            type: TKusy\Hl7Fhir\R5\MarkdownType

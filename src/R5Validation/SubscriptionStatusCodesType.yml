@@ -1,0 +1,13 @@
+TKusy\Hl7Fhir\R5\SubscriptionStatusCodesType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - requested
+                        - active
+                        - error
+                        - 'off'
+                        - entered-in-error
+                    groups:
+                        - xsd_rules

@@ -1,0 +1,10 @@
+TKusy\Hl7Fhir\R5\DocumentModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - producer
+                        - consumer
+                    groups:
+                        - xsd_rules

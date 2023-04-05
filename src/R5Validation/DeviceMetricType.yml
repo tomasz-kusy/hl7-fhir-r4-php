@@ -1,0 +1,41 @@
+TKusy\Hl7Fhir\R5\DeviceMetricType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        unit:
+            -
+                Valid: null
+        device:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        operationalStatus:
+            -
+                Valid: null
+        color:
+            -
+                Valid: null
+        category:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        measurementFrequency:
+            -
+                Valid: null
+        calibration:
+            -
+                Valid: null

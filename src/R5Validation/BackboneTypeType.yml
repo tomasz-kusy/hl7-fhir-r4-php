@@ -1,0 +1,5 @@
+TKusy\Hl7Fhir\R5\BackboneTypeType:
+    properties:
+        modifierExtension:
+            -
+                Valid: null

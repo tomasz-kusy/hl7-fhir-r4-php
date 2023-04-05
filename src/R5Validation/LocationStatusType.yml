@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\LocationStatusType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - active
+                        - suspended
+                        - inactive
+                    groups:
+                        - xsd_rules

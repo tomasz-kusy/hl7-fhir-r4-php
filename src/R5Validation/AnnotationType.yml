@@ -1,0 +1,18 @@
+TKusy\Hl7Fhir\R5\AnnotationType:
+    properties:
+        authorReference:
+            -
+                Valid: null
+        authorString:
+            -
+                Valid: null
+        time:
+            -
+                Valid: null
+        text:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null

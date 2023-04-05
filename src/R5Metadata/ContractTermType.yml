@@ -1,0 +1,161 @@
+TKusy\Hl7Fhir\R5\ContractTermType:
+    properties:
+        identifier:
+            expose: true
+            access_type: public_method
+            serialized_name: identifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIdentifier
+                setter: setIdentifier
+            type: TKusy\Hl7Fhir\R5\IdentifierType
+        issued:
+            expose: true
+            access_type: public_method
+            serialized_name: issued
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getIssued
+                setter: setIssued
+            type: TKusy\Hl7Fhir\R5\DateTimeType
+        applies:
+            expose: true
+            access_type: public_method
+            serialized_name: applies
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getApplies
+                setter: setApplies
+            type: TKusy\Hl7Fhir\R5\PeriodType
+        topicCodeableConcept:
+            expose: true
+            access_type: public_method
+            serialized_name: topicCodeableConcept
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTopicCodeableConcept
+                setter: setTopicCodeableConcept
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        topicReference:
+            expose: true
+            access_type: public_method
+            serialized_name: topicReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTopicReference
+                setter: setTopicReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        subType:
+            expose: true
+            access_type: public_method
+            serialized_name: subType
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSubType
+                setter: setSubType
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getText
+                setter: setText
+            type: TKusy\Hl7Fhir\R5\StringType
+        securityLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: securityLabel
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSecurityLabel
+                setter: setSecurityLabel
+            xml_list:
+                inline: true
+                entry_name: securityLabel
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ContractSecurityLabelType>
+        offer:
+            expose: true
+            access_type: public_method
+            serialized_name: offer
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getOffer
+                setter: setOffer
+            type: TKusy\Hl7Fhir\R5\ContractOfferType
+        asset:
+            expose: true
+            access_type: public_method
+            serialized_name: asset
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAsset
+                setter: setAsset
+            xml_list:
+                inline: true
+                entry_name: asset
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ContractAssetType>
+        action:
+            expose: true
+            access_type: public_method
+            serialized_name: action
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getAction
+                setter: setAction
+            xml_list:
+                inline: true
+                entry_name: action
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ContractActionType>
+        group:
+            expose: true
+            access_type: public_method
+            serialized_name: group
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getGroup
+                setter: setGroup
+            xml_list:
+                inline: true
+                entry_name: group
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ContractTermType>

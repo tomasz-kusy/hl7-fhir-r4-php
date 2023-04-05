@@ -1,0 +1,20 @@
+TKusy\Hl7Fhir\R5\ClinicalUseDefinitionContraindicationType:
+    properties:
+        diseaseSymptomProcedure:
+            -
+                Valid: null
+        diseaseStatus:
+            -
+                Valid: null
+        comorbidity:
+            -
+                Valid: null
+        indication:
+            -
+                Valid: null
+        applicability:
+            -
+                Valid: null
+        otherTherapy:
+            -
+                Valid: null

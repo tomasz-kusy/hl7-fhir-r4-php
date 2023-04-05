@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\AdverseEventSuspectEntityType:
+    properties:
+        instanceCodeableConcept:
+            -
+                Valid: null
+        instanceReference:
+            -
+                Valid: null
+        causality:
+            -
+                Valid: null

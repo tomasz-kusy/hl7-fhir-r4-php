@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\SupplyDeliverySuppliedItemType:
+    properties:
+        quantity:
+            -
+                Valid: null
+        itemCodeableConcept:
+            -
+                Valid: null
+        itemReference:
+            -
+                Valid: null

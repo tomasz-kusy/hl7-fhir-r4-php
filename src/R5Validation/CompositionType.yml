@@ -1,0 +1,79 @@
+TKusy\Hl7Fhir\R5\CompositionType:
+    properties:
+        url:
+            -
+                Valid: null
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        status:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        type:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        category:
+            -
+                Valid: null
+        subject:
+            -
+                Valid: null
+        encounter:
+            -
+                Valid: null
+        date:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        useContext:
+            -
+                Valid: null
+        author:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        title:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        attester:
+            -
+                Valid: null
+        custodian:
+            -
+                Valid: null
+        relatesTo:
+            -
+                Valid: null
+        event:
+            -
+                Valid: null
+        section:
+            -
+                Valid: null

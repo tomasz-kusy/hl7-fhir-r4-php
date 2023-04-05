@@ -1,0 +1,21 @@
+TKusy\Hl7Fhir\R5\ImplementationGuideManifestType:
+    properties:
+        rendering:
+            -
+                Valid: null
+        resource:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        page:
+            -
+                Valid: null
+        image:
+            -
+                Valid: null
+        other:
+            -
+                Valid: null

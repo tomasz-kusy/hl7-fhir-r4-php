@@ -1,0 +1,24 @@
+TKusy\Hl7Fhir\R5\EncounterHistoryLocationType:
+    properties:
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        form:
+            expose: true
+            access_type: public_method
+            serialized_name: form
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getForm
+                setter: setForm
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

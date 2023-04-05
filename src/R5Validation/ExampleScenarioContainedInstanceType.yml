@@ -1,0 +1,12 @@
+TKusy\Hl7Fhir\R5\ExampleScenarioContainedInstanceType:
+    properties:
+        instanceReference:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        versionReference:
+            -
+                Valid: null

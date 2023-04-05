@@ -1,0 +1,32 @@
+TKusy\Hl7Fhir\R5\ArtifactAssessmentContentType:
+    properties:
+        informationType:
+            -
+                Valid: null
+        summary:
+            -
+                Valid: null
+        type:
+            -
+                Valid: null
+        classifier:
+            -
+                Valid: null
+        quantity:
+            -
+                Valid: null
+        author:
+            -
+                Valid: null
+        path:
+            -
+                Valid: null
+        relatedArtifact:
+            -
+                Valid: null
+        freeToShare:
+            -
+                Valid: null
+        component:
+            -
+                Valid: null

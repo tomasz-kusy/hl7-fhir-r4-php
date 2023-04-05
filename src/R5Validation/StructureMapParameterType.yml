@@ -1,0 +1,26 @@
+TKusy\Hl7Fhir\R5\StructureMapParameterType:
+    properties:
+        valueId:
+            -
+                Valid: null
+        valueString:
+            -
+                Valid: null
+        valueBoolean:
+            -
+                Valid: null
+        valueInteger:
+            -
+                Valid: null
+        valueDecimal:
+            -
+                Valid: null
+        valueDate:
+            -
+                Valid: null
+        valueTime:
+            -
+                Valid: null
+        valueDateTime:
+            -
+                Valid: null

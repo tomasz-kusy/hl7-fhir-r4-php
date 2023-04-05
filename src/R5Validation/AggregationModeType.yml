@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\AggregationModeType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - contained
+                        - referenced
+                        - bundled
+                    groups:
+                        - xsd_rules

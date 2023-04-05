@@ -1,0 +1,69 @@
+TKusy\Hl7Fhir\R5\BodyStructureIncludedStructureType:
+    properties:
+        structure:
+            expose: true
+            access_type: public_method
+            serialized_name: structure
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getStructure
+                setter: setStructure
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        laterality:
+            expose: true
+            access_type: public_method
+            serialized_name: laterality
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getLaterality
+                setter: setLaterality
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType
+        bodyLandmarkOrientation:
+            expose: true
+            access_type: public_method
+            serialized_name: bodyLandmarkOrientation
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getBodyLandmarkOrientation
+                setter: setBodyLandmarkOrientation
+            xml_list:
+                inline: true
+                entry_name: bodyLandmarkOrientation
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\BodyStructureBodyLandmarkOrientationType>
+        spatialReference:
+            expose: true
+            access_type: public_method
+            serialized_name: spatialReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getSpatialReference
+                setter: setSpatialReference
+            xml_list:
+                inline: true
+                entry_name: spatialReference
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\ReferenceType>
+        qualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: qualifier
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getQualifier
+                setter: setQualifier
+            xml_list:
+                inline: true
+                entry_name: qualifier
+                namespace: 'http://hl7.org/fhir'
+            type: array<TKusy\Hl7Fhir\R5\CodeableConceptType>

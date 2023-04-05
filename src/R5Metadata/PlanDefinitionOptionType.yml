@@ -1,0 +1,46 @@
+TKusy\Hl7Fhir\R5\PlanDefinitionOptionType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getType
+                setter: setType
+            type: TKusy\Hl7Fhir\R5\ActionParticipantTypeType
+        typeCanonical:
+            expose: true
+            access_type: public_method
+            serialized_name: typeCanonical
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTypeCanonical
+                setter: setTypeCanonical
+            type: TKusy\Hl7Fhir\R5\CanonicalType
+        typeReference:
+            expose: true
+            access_type: public_method
+            serialized_name: typeReference
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getTypeReference
+                setter: setTypeReference
+            type: TKusy\Hl7Fhir\R5\ReferenceType
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            xml_element:
+                cdata: false
+                namespace: 'http://hl7.org/fhir'
+            accessor:
+                getter: getRole
+                setter: setRole
+            type: TKusy\Hl7Fhir\R5\CodeableConceptType

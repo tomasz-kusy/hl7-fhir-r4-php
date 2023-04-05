@@ -1,0 +1,74 @@
+TKusy\Hl7Fhir\R5\SubstanceDefinitionType:
+    properties:
+        identifier:
+            -
+                Valid: null
+        version:
+            -
+                Valid: null
+        status:
+            -
+                Valid: null
+        classification:
+            -
+                Valid: null
+        domain:
+            -
+                Valid: null
+        grade:
+            -
+                Valid: null
+        description:
+            -
+                Valid: null
+        informationSource:
+            -
+                Valid: null
+        note:
+            -
+                Valid: null
+        manufacturer:
+            -
+                Valid: null
+        supplier:
+            -
+                Valid: null
+        moiety:
+            -
+                Valid: null
+        characterization:
+            -
+                Valid: null
+        property:
+            -
+                Valid: null
+        referenceInformation:
+            -
+                Valid: null
+        molecularWeight:
+            -
+                Valid: null
+        structure:
+            -
+                Valid: null
+        code:
+            -
+                Valid: null
+        name:
+            -
+                Valid: null
+        relationship:
+            -
+                Valid: null
+        nucleicAcid:
+            -
+                Valid: null
+        polymer:
+            -
+                Valid: null
+        protein:
+            -
+                Valid: null
+        sourceMaterial:
+            -
+                Valid: null

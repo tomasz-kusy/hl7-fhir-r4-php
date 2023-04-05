@@ -1,0 +1,28 @@
+TKusy\Hl7Fhir\R5\BundleRequestType:
+    properties:
+        method:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        url:
+            -
+                NotNull:
+                    groups:
+                        - xsd_rules
+            -
+                Valid: null
+        ifNoneMatch:
+            -
+                Valid: null
+        ifModifiedSince:
+            -
+                Valid: null
+        ifMatch:
+            -
+                Valid: null
+        ifNoneExist:
+            -
+                Valid: null

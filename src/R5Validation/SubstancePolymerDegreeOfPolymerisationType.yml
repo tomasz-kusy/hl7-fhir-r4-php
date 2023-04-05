@@ -1,0 +1,14 @@
+TKusy\Hl7Fhir\R5\SubstancePolymerDegreeOfPolymerisationType:
+    properties:
+        type:
+            -
+                Valid: null
+        average:
+            -
+                Valid: null
+        low:
+            -
+                Valid: null
+        high:
+            -
+                Valid: null

@@ -1,0 +1,11 @@
+TKusy\Hl7Fhir\R5\CodeSearchSupportType:
+    properties:
+        value:
+            -
+                Choice:
+                    choices:
+                        - in-compose
+                        - in-expansion
+                        - in-compose-or-expansion
+                    groups:
+                        - xsd_rules
